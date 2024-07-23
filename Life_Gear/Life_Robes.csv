@@ -1,0 +1,439 @@
+Name,Level,Health,Damage,Resist,Accuracy,Power Pip,Critical,Critical Block,Pierce,Stun Resist,Incoming,Outgoing,Pip Conserve,Shadow Pip,Archmastery,Sword Pins,Shield Pins,Power Pins,Source,Owned,Gear Set
+Daemonic Armor of Health,170,1428,33,16,8,9,106,0,6,0,0,0,0,19,0,2,0,1,Raid,False,False
+Lively Robe of The Nullity (Level 160+),160,1361,33,15,8,9,97,0,5,0,0,0,0,18,0,2,0,1,Raid,False,False
+Vibrant Plot Armor (Level 170+),170,1904,30,19,5,10,93,150,5,0,0,0,0,0,0,2,0,1,Gold Key/Gauntlet,False,False
+Lively Night Mire Coat (Level 160+),160,1814,30,18,5,10,85,136,5,0,0,0,0,0,0,2,0,1,Gold Key/Gauntlet,False,False
+Vibrant Plot Armor (Level 160+),160,1814,30,18,5,10,85,136,5,0,0,0,0,0,0,2,0,1,Crowns,False,False
+Hunhau's Xenoform Mail (Level 170+),170,1666,30,18,0,11,93,131,5,0,0,0,0,19,0,1,0,2,Raid,False,False
+Lively Robe of The Nullity (Level 150+),150,1211,30,14,8,9,92,0,5,0,0,0,0,14,0,0,0,0,Raid,False,False
+Hunhau's Xenoform Mail (Level 160+),160,2041,30,13,0,9,85,119,5,0,0,0,0,23,0,1,0,2,Raid,False,False
+Umbra Queen's Wild Garment (Level 170+),170,1904,30,12,8,10,93,0,5,0,0,0,0,22,0,1,0,2,Drop/Vendor,False,False
+Wastelander's Wild Armor (Level 170+),170,1904,30,12,8,10,93,0,5,0,0,0,0,22,0,1,0,2,Crowns,False,False
+Malistaire's Thorny Vestment (Level 160+),160,1814,30,11,8,10,85,0,5,0,0,0,0,20,0,1,0,2,Drop/Vendor,False,False
+Thrilling Skyfarer's Garb (Level 160+),160,1814,30,11,8,10,85,0,5,0,0,0,0,20,0,1,0,2,Crowns,False,False
+Wastelander's Wild Armor (Level 160+),160,1814,30,11,8,10,85,0,5,0,0,0,0,20,0,1,0,2,Crowns,False,False
+Bold Dream Reaver Armor,170,1666,27,18,7,8,106,131,7,0,0,0,0,0,0,2,0,1,Drop/Vendor,False,False
+Lively Night Mire Coat (Level 150+),150,1614,27,17,5,10,81,130,5,0,0,0,0,0,0,2,0,1,Crowns,False,False
+Grisly Cerberus Master Armor (Level 150+),150,1614,27,17,5,10,81,130,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Inspired Aeon Cape,160,1587,27,17,7,8,97,119,6,0,0,0,0,0,0,2,0,1,Drop/Vendor,False,False
+Bold Dream Stalker Armor,170,2379,27,16,6,11,0,150,5,0,0,0,0,19,0,1,0,2,Crafting,False,False
+Vibrant Plot Armor (Level 140+),140,1412,27,16,5,10,79,126,5,0,0,0,0,0,0,2,0,1,Crowns,False,False
+Grisly Cerberus Master Armor (Level 140+),140,1412,27,16,5,10,79,126,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Lively Night Mire Coat (Level 140+),140,1412,27,16,5,10,79,126,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Eternal Inspired Cape,160,2267,27,15,6,11,73,136,0,0,0,0,0,18,0,1,0,2,Crafting,False,False
+Great Inventor's Life Coat (Level 160+),160,2267,27,15,6,11,73,136,0,0,0,0,0,18,0,1,0,2,Crowns,False,False
+Lovely Fairy Kei Suit (Level 170+),170,2142,27,14,7,0,106,131,7,0,0,0,0,17,0,2,0,1,Crowns,False,False
+Xibalba Xenoform Mail (Level 170+),170,2142,27,14,7,0,106,131,7,0,0,0,0,17,0,2,0,1,Raid,False,False
+Unreal Armor of Health,170,2142,27,14,7,12,0,131,5,0,0,0,0,22,0,1,0,2,Raid,False,False
+Xibalba Xenoform Mail (Level 160+),160,2041,27,13,5,0,97,102,6,0,0,0,0,20,0,2,0,1,Raid,False,False
+Floramancer Armor of Life (Level 160+),160,2041,27,13,7,12,0,119,4,0,0,0,0,20,0,1,0,2,Crowns,False,False
+Lively Robe of The Void (Level 160+),160,2041,27,13,7,12,0,119,4,0,0,0,0,20,0,1,0,2,Raid,False,False
+Thrilling Skyfarer's Garb (Level 150+),150,1614,27,11,8,10,81,0,5,0,0,0,0,19,0,1,0,2,Crowns,False,False
+Wastelander's Wild Armor (Level 150+),150,1614,27,11,8,10,81,0,5,0,0,0,0,19,0,1,0,2,Crowns,False,False
+Malistaire's Spirited Vestment (Level 150+),150,1614,27,11,8,10,81,0,0,0,0,15,0,19,0,0,0,0,Crowns,False,False
+Malistaire's Spirited Vestment (Level 140+),140,1412,27,10,8,10,79,0,0,0,0,14,0,17,0,0,0,0,Crowns,False,False
+Thrilling Skyfarer's Garb (Level 140+),140,1412,27,10,8,10,79,0,0,0,0,14,0,17,0,0,0,0,Crowns,False,False
+Spring Palace Plate (Level 170+),170,1904,27,0,8,9,106,113,7,0,0,0,0,19,0,2,0,1,Gold Key/Gauntlet,False,False
+Vivid Imperial Court Tunic (Level 170+),170,1904,27,0,8,9,106,113,7,0,0,0,0,19,0,2,0,1,Gold Key/Gauntlet,False,False
+Vibrant Plot Armor (Level 130+),130,1210,26,16,5,9,69,118,4,0,0,0,0,0,0,2,0,1,Crowns,False,False
+Lively Night Mire Coat (Level 130+),130,1210,26,16,5,9,69,118,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Wild Armor (Level 130+),130,1210,26,10,8,9,69,0,4,0,0,0,0,16,0,0,0,0,Crowns,False,False
+Malistaire's Spirited Vestment (Level 130+),130,1210,26,10,8,9,69,0,0,0,0,14,0,16,0,0,0,0,Crowns,False,False
+Grisly Cerberus Master Armor (Level 120+),120,1008,25,16,5,9,65,108,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Lively Night Mire Coat (Level 120+),120,1008,25,16,5,9,65,108,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Wild Armor (Level 120+),120,1008,25,10,7,9,65,0,4,0,0,0,0,15,0,0,0,0,Crowns,False,False
+Malistaire's Spirited Vestment (Level 120+),120,1008,25,10,7,9,65,0,0,0,0,13,0,15,0,0,0,0,Crowns,False,False
+Thrilling Skyfarer's Garb (Level 120+),120,1008,25,10,7,9,65,0,0,0,0,13,0,15,0,0,0,0,Crowns,False,False
+Demiurge's Creation Armor,150,1412,24,16,7,8,92,114,6,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Merciless Life Cloak,150,1412,24,16,7,8,92,114,6,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Vibrant Plot Armor (Level 110+),110,806,24,16,5,9,65,102,3,0,0,0,0,0,0,2,0,1,Crowns,False,False
+Lively Night Mire Coat (Level 110+),110,806,24,16,5,9,65,102,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Bold Dream Warper Armor,170,0,24,16,6,6,93,113,7,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Burrower's Theurgy Robe (Level 160+),160,2267,24,15,0,8,85,136,6,0,0,0,0,20,0,2,0,1,Gold Key/Gauntlet,False,False
+Dynamic Enforcer's Uniform,165,0,24,15,6,6,89,108,6,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Vibrant City Dweller Vest,160,0,24,15,6,6,85,102,6,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Great Inventor's Life Coat (Level 150+),150,2017,24,14,6,11,69,130,0,0,0,0,0,17,0,1,0,2,Crowns,False,False
+Highlands Militia Kit (Level 150+),150,2017,24,14,6,11,69,130,0,0,0,0,0,14,0,0,0,0,Crowns,False,False
+Great Inventor's Life Coat (Level 140+),140,1765,24,13,6,11,68,126,0,0,0,0,0,13,0,0,0,0,Crowns,False,False
+Lively Robe of The Void (Level 150+),150,1816,24,12,7,12,0,114,4,0,0,15,0,19,0,0,0,0,Raid,False,False
+Wastelander's Wild Armor (Level 110+),110,806,24,10,7,9,65,0,3,0,0,0,0,13,0,0,0,0,Crowns,False,False
+Malistaire's Spirited Vestment (Level 110+),110,806,24,10,7,9,65,0,0,0,0,12,0,13,0,0,0,0,Crowns,False,False
+Thrilling Skyfarer's Garb (Level 110+),110,806,24,10,7,9,65,0,0,0,0,12,0,13,0,0,0,0,Crowns,False,False
+Vivid Imperial Court Tunic (Level 140+),140,1412,24,0,8,9,90,95,6,0,0,0,0,15,0,2,0,1,Crowns,False,False
+Paladin Mail of Atonement,95,680,24,0,0,9,77,28,3,0,10,0,0,0,0,0,0,0,Crowns,False,False
+Grisly Cerberus Master Armor (Level 100+),100,604,23,15,6,0,62,94,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Vibrant Plot Armor (Level 100+),100,604,23,15,0,8,62,94,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Inspired Masterpiece Cape,160,1360,23,14,0,0,85,102,5,0,0,0,0,18,0,0,0,0,Drop/Vendor,False,False
+Great Inventor's Life Coat (Level 130+),130,1512,23,13,6,10,59,118,0,0,0,0,0,12,0,0,0,0,Crowns,False,False
+Floramancer Armor of Life (Level 130+),130,1361,23,12,7,11,0,103,0,0,0,14,0,16,0,0,0,0,Crowns,False,False
+Robes of the Sistrum,60,341,23,10,2,6,38,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Umbra Queen's Wild Garment (Level 100+),100,604,23,0,7,8,62,0,3,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Wastelander's Wild Armor (Level 100+),100,604,23,0,7,8,62,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Malistaire's Thorny Vestment (Level 100+),100,604,23,0,7,8,62,0,0,0,0,12,0,0,0,0,0,0,Crafting,False,False
+Malistaire's Spirited Vestment (Level 100+),100,604,23,0,7,8,62,0,0,0,0,12,0,0,0,0,0,0,Crowns,False,False
+Theurgist's Vibrant Coat,85,550,23,0,0,7,0,0,0,0,0,10,0,0,0,0,0,0,Crowns,False,False
+Euphoric Outfit,58,432,23,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Glistening Life Lamellar,155,1258,22,15,0,0,83,100,5,0,0,0,0,17,0,0,0,0,Drop/Vendor,False,False
+Highlands Militia Kit (Level 140+),140,1784,22,13,8,8,67,126,0,0,0,0,0,13,0,0,0,0,Crowns,False,False
+Great Inventor's Life Coat (Level 120+),120,1259,22,13,5,10,56,108,0,0,0,0,0,11,0,0,0,0,Crowns,False,False
+Highlands Militia Kit (Level 120+),120,1259,22,13,5,10,56,108,0,0,0,0,0,11,0,0,0,0,Crowns,False,False
+Lively Night Mire Coat (Level 90+),90,547,22,13,3,0,54,88,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Floramancer Armor of Life (Level 120+),120,1134,22,12,6,11,0,94,0,0,0,13,0,15,0,0,0,0,Crowns,False,False
+Resilient Barbarian Armor,100,700,22,8,0,0,0,25,3,0,0,8,0,0,0,0,0,0,Crowns,False,False
+Vivid Imperial Court Tunic (Level 120+),120,1008,22,0,7,8,74,81,5,0,0,0,0,13,0,2,0,1,Crowns,False,False
+Poseidon's Armor of Fervor,90,625,22,0,0,11,60,0,3,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Raiment of Nephrite,80,625,22,0,2,0,35,18,1,0,0,8,0,0,0,0,0,0,Crowns,False,False
+Zeus' War Eagle Raiment,90,605,22,0,3,10,77,0,4,0,0,20,0,0,0,0,0,0,Drop/Vendor,False,False
+Wastelander's Wild Armor (Level 90+),90,547,22,0,6,8,54,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Malistaire's Spirited Vestment (Level 90+),90,547,22,0,6,8,54,0,0,0,0,12,0,0,0,0,0,0,Crowns,False,False
+Thrilling Skyfarer's Garb (Level 90+),90,547,22,0,6,8,54,0,0,0,0,12,0,0,0,0,0,0,Crowns,False,False
+Great Inventor's Life Coat (Level 110+),110,1007,21,13,5,10,56,102,0,0,0,0,0,10,0,0,0,0,Crowns,False,False
+Highlands Militia Kit (Level 110+),110,1007,21,13,5,10,56,102,0,0,0,0,0,10,0,0,0,0,Crowns,False,False
+Cape of Esprit,60,359,21,12,0,8,31,13,0,0,3,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Grisly Cerberus Master Armor (Level 80+),80,492,21,11,5,0,42,74,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Lively Night Mire Coat (Level 80+),80,492,21,11,5,0,42,74,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Vibrant Plot Armor (Level 80+),80,492,21,11,0,8,42,74,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Vivid Imperial Court Tunic (Level 110+),110,806,21,0,7,8,74,77,4,0,0,0,0,12,0,2,0,1,Crowns,False,False
+Lost World Soul Gear,85,597,21,0,0,12,62,0,2,0,0,10,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Hades' Armor of Conscience,90,540,21,0,2,9,77,0,4,0,0,12,0,0,0,0,0,0,Drop/Vendor,False,False
+Wastelander's Wild Armor (Level 80+),80,492,21,0,6,8,42,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Robe of Rapture,58,302,21,0,0,9,10,10,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Everlasting Armor,56,302,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Festive Costume,54,173,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Natural Tunic,52,0,21,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Ornate Light Brigade Armor,125,895,20,15,5,10,91,0,0,0,0,0,0,16,0,0,0,0,Drop/Vendor,False,False
+Medic Officer Uniform,150,1198,20,14,0,0,81,97,5,0,0,0,0,16,0,0,0,0,Drop/Vendor,False,False
+Mouse Armor of Persistence,100,528,20,14,6,0,71,82,3,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Burrower's Theurgy Robe (Level 130+),130,1512,20,13,0,0,0,118,5,0,0,0,0,28,0,0,0,0,Crowns,False,False
+Ravenous Sun Shaman's Armor,84,455,20,13,3,0,60,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Dynamic Protector's Uniform,165,0,20,13,5,0,76,90,6,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Vibrant Townie Vest,160,0,20,13,5,0,73,85,5,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Highlands Militia Kit (Level 100+),100,930,20,12,7,7,0,94,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Robes of Radiance Reborn,94,535,20,12,15,0,51,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Great Inventor's Life Coat (Level 90+),90,683,20,11,6,7,0,88,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Highlands Militia Kit (Level 90+),90,683,20,11,6,7,0,88,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Floramancer Armor of Life (Level 90+),90,615,20,10,5,10,0,77,0,0,0,13,0,0,0,0,0,0,Crowns,False,False
+Grisly Cerberus Master Armor (Level 70+),70,435,20,10,5,0,39,62,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Lively Night Mire Coat (Level 70+),70,435,20,10,5,0,39,62,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Vibrant Plot Armor (Level 70+),70,435,20,10,0,8,39,62,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Transcendent Spirited Toga,90,600,20,0,3,9,0,0,4,0,10,0,0,0,0,0,0,0,Crafting,False,False
+Senator's Spirited Toga,90,600,20,0,2,9,0,0,3,0,9,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Malistaire's Spirited Vestment (Level 80+),80,588,20,0,6,8,42,0,0,0,0,8,0,0,0,0,0,0,Crowns,False,False
+Set of Burrower Resilience,95,525,20,0,3,0,57,0,2,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Wastelander's Wild Armor (Level 70+),70,435,20,0,6,8,39,0,2,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Malistaire's Spirited Vestment (Level 70+),70,435,20,0,6,8,39,0,0,0,0,10,0,0,0,0,0,0,Crowns,False,False
+Thrilling Skyfarer's Garb (Level 70+),70,435,20,0,6,8,39,0,0,0,0,10,0,0,0,0,0,0,Crowns,False,False
+Armor of Pure Ice,55,367,20,0,5,0,0,20,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Everlasting Thunder Tunic,55,367,20,0,5,0,0,20,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Raiment of Natural Law,55,367,20,0,5,0,0,20,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Spirited Raiment of Chaos,55,367,20,0,5,0,0,20,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Robe of Living Legend,55,367,20,0,5,0,0,20,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Soulsearing Surcoat,55,367,20,0,5,0,0,20,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Cloak of Creation,56,302,20,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Bonesmasher Robe of Zeal,100,836,19,15,7,9,88,0,0,0,0,0,0,11,0,0,0,0,Drop/Vendor,False,False
+Undying Malistaire's Tunic,100,793,19,14,11,11,87,0,0,0,0,0,0,12,0,0,0,0,Drop/Vendor,False,False
+Burrower's Theurgy Robe (Level 120+),120,1259,19,13,0,0,0,108,5,0,0,0,0,26,0,0,0,0,Crowns,False,False
+Golden Life Lamellar,155,1048,19,13,0,0,71,83,4,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
+Burrower's Theurgy Robe (Level 110+),110,1007,19,13,0,0,0,102,4,0,0,0,0,23,0,0,0,0,Crowns,False,False
+Knightly Armor,74,440,19,12,3,0,55,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Highlands Militia Kit (Level 80+),80,614,19,9,6,7,0,74,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Lovely Fairy Kei Suit (Level 80+),80,553,19,8,5,0,48,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Floramancer Armor of Life (Level 80+),80,553,19,8,5,10,0,65,0,0,0,12,0,0,0,0,0,0,Crowns,False,False
+Grisly Cerberus Master Armor (Level 60+),60,378,19,8,5,0,28,51,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Lively Night Mire Coat (Level 60+),60,378,19,8,5,0,28,51,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Vibrant Plot Armor (Level 60+),60,378,19,8,0,8,28,51,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Knave's Enduring Tunic,70,541,19,7,0,8,56,0,2,0,0,8,0,0,0,0,0,0,Drop/Vendor,False,False
+Anubis' Robes of Rebirth,60,286,19,7,2,4,26,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Tunic of Poseidon's Mercy,70,515,19,4,3,8,55,0,2,0,7,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Burrower Tunic of Ardor,90,525,19,0,3,0,57,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Malistaire's Spirited Vestment (Level 60+),60,414,19,0,5,8,27,0,0,0,0,8,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Wild Armor (Level 60+),60,378,19,0,6,8,28,0,2,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Thrilling Skyfarer's Garb (Level 60+),60,378,19,0,6,8,28,0,0,0,0,10,0,0,0,0,0,0,Crowns,False,False
+Burrower's Theurgy Robe (Level 100+),100,754,18,12,0,8,0,94,3,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Mouse Aegis of Persistence,100,453,18,12,5,0,62,71,3,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Pachyderm's Hearty Robes,66,410,18,12,3,0,46,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Lively Night Mire Coat (Level 50+),50,346,18,7,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Vibrant Plot Armor (Level 50+),50,346,18,7,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Grisly Cerberus Master Armor (Level 50+),50,346,18,5,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+River Smuggler's Garb,68,504,18,0,0,3,46,0,1,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Sun's Circle Cloak,68,504,18,0,3,0,46,0,0,0,4,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Robes of the High Shaman,80,495,18,0,2,0,53,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Vestment of the Thornwood,65,452,18,0,0,0,0,0,1,0,0,8,0,0,0,0,0,0,Drop/Vendor,False,False
+Armor of Elan,58,367,18,0,0,6,21,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Malistaire's Spirited Vestment (Level 50+),50,346,18,0,4,8,0,0,0,0,0,8,0,0,0,0,0,0,Crowns,False,False
+Malistaire's Thorny Vestment (Level 50+),50,346,18,0,4,8,0,0,0,0,0,10,0,0,0,0,0,0,Crafting,False,False
+Thrilling Skyfarer's Garb (Level 50+),50,346,18,0,4,8,0,0,0,0,0,10,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Wild Armor (Level 50+),50,346,18,0,4,8,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Virtue Jerkin,52,173,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Regulation Medic Uniform,150,998,17,13,0,0,69,81,4,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
+Spirit of Darkmoor's Gear,100,756,17,11,10,9,81,0,0,0,0,0,0,10,0,0,0,0,Drop/Vendor,False,False
+Burrower's Theurgy Robe (Level 80+),80,614,17,9,0,8,0,74,3,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Highlands Militia Kit (Level 70+),70,639,17,7,5,7,0,62,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Great Inventor's Life Coat (Level 60+),60,472,17,7,6,7,0,51,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Highlands Militia Kit (Level 60+),60,472,17,7,6,7,0,51,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Chief's Garb of Strength,56,382,17,7,0,8,30,13,0,0,5,0,0,0,0,0,0,0,Crafting,False,False
+Floramancer Armor of Life (Level 60+),60,425,17,6,5,10,0,45,0,0,0,12,0,0,0,0,0,0,Crowns,False,False
+Wild Armor of the Green,70,512,17,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Armor of a Sorrowful Life,90,420,16,12,0,9,77,28,3,0,7,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Plate of the Living Dead,100,720,16,8,8,8,76,0,0,0,0,0,0,10,0,0,0,0,Drop/Vendor,False,False
+Malistaire's Purgatory Suit (Socketed),50,303,16,7,4,0,0,0,1,0,0,0,0,0,0,2,0,1,Crafting,False,False
+Malistaire's Purgatory Coat,50,303,16,7,4,0,0,0,1,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Great Inventor's Life Coat (Level 50+),50,432,16,6,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Highlands Militia Kit (Level 50+),50,432,16,6,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Floramancer Armor of Life (Level 50+),50,389,16,5,4,10,0,0,0,0,0,9,0,0,0,0,0,0,Crowns,False,False
+Artisan's Toga of Vigor,70,420,16,0,1,8,0,0,3,0,10,0,0,0,0,0,0,0,Crafting,False,False
+Senator's Toga of Vigor,70,420,16,0,1,8,0,0,2,0,9,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Lovely Fairy Kei Suit (Level 50+),50,389,16,0,4,0,0,0,1,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Nganga's Robes,60,468,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hands of Anubis Uniform,60,240,15,0,2,0,18,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Malistaire's Purgatory Suit,50,0,14,6,3,0,0,0,1,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Ceremonial Array of Triumph,40,324,14,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Everlasting Celestian Armor,50,0,13,8,0,6,0,12,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,True
+Malistaire's Purgatory Coat (H360),50,360,13,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+Vestment of the Spring,45,360,13,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Robe of the Earth Dragon,45,240,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Wolf's Hardy Robe,50,227,13,0,0,8,16,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Tunic of Effervescence,45,0,13,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Grisly Cerberus Master Armor (Level 40+),40,260,12,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Lively Night Mire Coat (Level 40+),40,260,12,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Krokomaic Vigor Cloak,40,297,12,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Malistaire's Spirited Vestment (Level 40+),40,260,12,0,4,8,0,0,0,0,0,10,0,0,0,0,0,0,Crowns,False,False
+Thrilling Skyfarer's Garb (Level 40+),40,260,12,0,4,8,0,0,0,0,0,10,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Wild Armor (Level 40+),40,260,12,0,4,8,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Avalanche's Verdant Robe,45,240,12,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Firewinter's Seasonal Drape,45,240,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Markmaker's Drape of the Fount,45,240,12,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Tournament Tunic,45,240,12,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+Tunic of Arden's Vale,45,120,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Raiment of the New Bloom,45,0,12,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Yeoman's Robe of Bounty,40,304,11,0,2,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Bonebreaker Robe of Zeal,40,297,11,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Lovely Fairy Kei Suit (Level 40+),40,292,11,0,4,0,0,0,1,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Cloak of the Eternal Spring,45,120,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Immortals' Spirit Armor,100,735,10,9,0,10,85,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Advanced Life Robes,50,390,10,7,2,0,8,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Cloak of the Essence Flurry,44,298,10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Cloak of Life's Cycle,44,298,10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Jerkin of the Spirit Stream,44,298,10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Longcoat of Grim Elan,44,298,10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Overcoat of Fiery Zest,44,298,10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Tunic of the Vivid Opus,44,298,10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Apothecary's Robe,40,288,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Jade Oni's Vestment,40,288,10,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Adept's Stirring Toga,30,216,10,0,3,5,0,0,0,0,5,6,0,0,0,0,0,0,Crafting,False,False
+Hingen's Cloak of the Nimble,35,192,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Youkai's Tunic of Intent,35,192,10,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Forest Spirit Adroit Vest,40,0,10,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Robe of Ambition,35,0,10,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Grisly Cerberus Master Armor (Level 30+),30,231,9,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Lively Night Mire Coat (Level 30+),30,231,9,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Coat of the Elixir,45,288,9,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Vestment of Zeus' Aegis,30,288,9,0,3,5,0,0,0,0,10,10,0,0,0,0,0,0,Drop/Vendor,False,False
+Thrilling Skyfarer's Garb (Level 30+),30,231,9,0,3,5,0,0,0,0,0,9,0,0,0,0,0,0,Crowns,False,False
+Malistaire's Spirited Vestment (Level 30+),30,230,9,0,3,5,0,0,0,0,0,8,0,0,0,0,0,0,Crowns,False,False
+Senator's Stirring Toga,30,216,9,0,2,5,0,0,0,0,4,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Curative Garments,40,192,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Grum's Tunic of the Agile,35,192,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Nomoonaga's Lively Garment,35,192,9,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Robe of Remedy,40,192,9,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Garments of Realization,35,96,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Fushiko's Cloak,35,96,9,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Jerkin of the Jr. Achiever,35,96,9,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+Cloak of Concentration,35,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Great Inventor's Life Coat (Level 30+),30,288,8,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Lovely Fairy Kei Suit (Level 30+),30,260,8,0,3,0,0,0,1,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Smock of Barkingham Brio,40,243,8,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Flamesoul Cloak,33,233,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Gentlewise Longcoat,33,233,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Hopespring Vestment,33,233,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Icebloom Tunic,33,233,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Lifegrave Robe,33,233,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Merrygale Coat,33,233,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Monk's Laminar of Focus,25,216,8,0,2,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Innocent Outfit,50,173,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Gogi Berry Stained Robe,30,96,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Burrower's Theurgy Robe (Level 20+),20,144,7,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Lovely Fairy Kei Suit (Level 20+),20,130,7,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Burrower's Theurgy Robe (Level 10+),10,72,7,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Grisly Cerberus Master Armor (Level 10+),10,58,7,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Lively Night Mire Coat (Level 10+),10,58,7,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Scintillating Tunic,70,465,7,0,0,0,40,0,2,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Jacques' Restorative Robe,30,216,7,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Topiary Tunic,30,216,7,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Gear of the Willing Spirit,25,180,7,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Flowering Canine Cloak,25,144,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Smogger's Noble Vestment,25,144,7,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Malistaire's Spirited Vestment (Level 20+),20,116,7,0,2,3,0,0,0,0,0,1,0,0,0,0,0,0,Crowns,False,False
+Thrilling Skyfarer's Garb (Level 20+),20,116,7,0,2,3,0,0,0,0,0,1,0,0,0,0,0,0,Crowns,False,False
+Vestment of Vigor,30,114,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Malistaire's Spirited Vestment (Level 10+),10,58,7,0,2,2,0,0,0,0,0,1,0,0,0,0,0,0,Crowns,False,False
+Thrilling Skyfarer's Garb (Level 10+),10,58,7,0,2,2,0,0,0,0,0,1,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Wild Armor (Level 10+),10,58,7,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Robe of the Unicorn,30,0,7,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Floramancer Armor of Life (Level 20+),20,130,6,2,2,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Grisly Cerberus Master Armor (Level 20+),20,115,6,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Great Inventor's Life Coat (Level 10+),10,72,6,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Highlands Militia Kit (Level 10+),10,72,6,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Floramancer Armor of Life (Level 10+),10,65,6,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+O'Leary's Vestment,25,144,6,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Meowiarty's Tunic,25,144,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Vestment of the Invincible,25,144,6,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+Widow's Bewitching Cloak,25,144,6,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Feline's Invigorating Robe,20,72,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Vine-Woven Coat,30,72,6,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Grandiose Tunic,25,0,6,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Highlands Militia Kit (Any Level),1,61,5,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Fair Cloak of Ardor,22,169,5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Frosty Robe of Felicity,22,169,5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Soulful Longcoat of the Grave,22,169,5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Singed Surcoat of Vigor,22,169,5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Vivid Coat of the Mirage,22,169,5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Zealous Tunic of the Gale,22,169,5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Ra's Rapture Cloak,20,130,4,3,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Vibrant Plot Armor (Any Level),1,29,4,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Lively Night Mire Coat (Any Level),1,22,4,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Krokenkahmen's Vestment,20,144,4,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Prince's Adaptive Robe,20,144,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Robe of the Life Aria,20,98,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Vest of Alacrity,15,96,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Malistaire's Spirited Vestment (Any Level),1,29,4,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,Crowns,False,False
+Jerkin of Theurgy,20,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Lifewarden's Raiment,25,0,4,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Spirit Monk's Warplate,25,118,3,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cloak of Solitude,15,0,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Top Dog's Tunic,15,0,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+Firebloom Jerkin,15,120,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Icebark Tunic,15,120,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Lifedream Vestment,15,120,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Necrosoul Robe,15,120,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Scatterbloom Smock,15,120,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Stormflower Longcoat,15,120,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Supreme Preservation Robe,148,1863,0,18,4,0,0,160,0,0,0,0,0,21,0,0,0,0,Drop/Vendor,False,False
+Hierarch's Preservation Robe,145,1760,0,18,4,0,0,151,0,0,0,0,0,20,0,0,0,0,Drop/Vendor,False,False
+Malevolent Life Cloak,150,1697,0,18,0,12,0,141,0,3,0,19,0,22,0,0,0,0,Drop/Vendor,False,False
+Magician's Life Cloak,150,1656,0,18,0,11,0,141,0,3,0,18,0,20,0,0,0,0,Drop/Vendor,False,False
+Delightful Sweetsmith Smock,140,1600,0,18,0,13,0,132,0,3,0,19,0,21,0,0,0,0,Crafting,False,False
+Uber Sweetsmith Smock,140,1600,0,18,0,13,0,132,0,3,0,19,0,21,0,0,0,0,Drop/Vendor,False,False
+Producer's Survival Suit,138,1694,0,17,10,0,0,131,0,0,0,0,0,19,0,0,0,0,Drop/Vendor,False,False
+Lemurian Preservation Robe,142,1656,0,17,4,0,0,141,0,0,0,0,0,18,0,0,0,0,Drop/Vendor,False,False
+Dragoon's Vibrant Armor,130,1647,0,17,3,12,0,176,2,0,0,15,0,17,0,0,0,0,Drop/Vendor,False,True
+Supervisor Survival Suit,135,1600,0,17,9,0,0,119,0,0,0,0,0,18,0,0,0,0,Drop/Vendor,False,False
+Wunderbar Sweetsmith Smock,140,1543,0,17,0,12,0,132,0,3,0,19,0,20,0,0,0,0,Drop/Vendor,False,False
+Guten Sweetsmith Smock,140,1506,0,17,0,11,0,132,0,3,0,18,0,18,0,0,0,0,Drop/Vendor,False,False
+Krokopatra Vigor Cloak,100,633,0,17,0,11,0,43,0,0,0,7,0,0,0,0,0,0,Drop/Vendor,False,False
+Vanguard's Vibrant Armor,130,1610,0,16,2,11,0,176,2,0,0,15,0,17,0,0,0,0,Drop/Vendor,False,False
+Contractor Survival Suit,132,1506,0,16,9,0,0,107,0,0,0,0,0,17,0,0,0,0,Drop/Vendor,False,False
+Supreme Jungle Robe,148,1656,0,15,0,10,0,170,0,0,0,0,0,22,0,0,0,0,Drop/Vendor,False,False
+Soldier's Vibrant Armor,130,1555,0,15,2,10,0,176,2,0,0,15,0,17,0,0,0,0,Drop/Vendor,False,False
+Hierarch's Jungle Robe,145,1553,0,15,0,10,0,160,0,0,0,0,0,21,0,0,0,0,Drop/Vendor,False,False
+Director Survival Suit,138,1506,0,14,0,10,0,139,0,0,0,0,0,20,0,0,0,0,Drop/Vendor,False,False
+Lemurian Jungle Robe,142,1449,0,14,0,10,0,151,0,0,0,0,0,20,0,0,0,0,Drop/Vendor,False,False
+Lead's Survival Suit,135,1412,0,14,0,10,0,126,0,0,0,0,0,19,0,0,0,0,Drop/Vendor,False,False
+Righteous Kalamar Tunic,127,1368,0,14,0,0,0,133,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Lofty Alphoi Surcoat,125,1465,0,13,0,10,0,115,0,0,0,15,0,16,0,0,0,0,Crafting,False,False
+Supreme Lifeforce Robe,148,1449,0,13,0,12,0,0,2,0,0,0,0,23,0,0,0,0,Drop/Vendor,False,False
+Hierarch's Lifeforce Robe,145,1346,0,13,0,11,0,0,2,0,0,0,0,22,0,0,0,0,Drop/Vendor,False,False
+Specialist Survival Suit,132,1317,0,13,0,10,0,114,0,0,0,0,0,18,0,0,0,0,Drop/Vendor,False,False
+Medic's Interstellar Uniform,122,1205,0,13,0,0,0,120,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Executive Survival Suit,138,1317,0,12,0,12,0,0,2,0,0,0,0,21,0,0,0,0,Drop/Vendor,False,False
+Lemurian Lifeforce Robe,142,1242,0,12,0,11,0,0,2,0,0,0,0,21,0,0,0,0,Drop/Vendor,False,False
+Chief's Survival Suit,135,1223,0,12,0,11,0,0,2,0,0,0,0,20,0,0,0,0,Drop/Vendor,False,False
+Dashing Space Suit,140,1223,0,12,0,9,0,130,0,0,0,0,0,18,0,0,0,0,Drop/Vendor,False,False
+Lively Liaison's Robe,130,1223,0,12,0,9,0,104,0,0,0,0,0,18,0,0,0,0,Drop/Vendor,False,False
+Consultant Survival Suit,132,1129,0,11,0,11,0,0,2,0,0,0,0,19,0,0,0,0,Drop/Vendor,False,False
+Alphoi Guerilla Armor,130,1498,0,9,0,0,0,138,2,0,0,17,0,17,0,0,0,0,Crafting,False,False
+Lively Paradox Vestment,130,1498,0,9,0,0,0,138,2,0,0,17,0,17,0,0,0,0,Drop/Vendor,False,False
+Verdant Zanadu Armor,130,1481,0,9,0,0,0,133,2,0,0,16,0,0,0,0,0,0,Drop/Vendor,False,False
+Cabalist Cloak of the First,125,1465,0,9,5,0,0,119,0,0,0,16,0,17,0,0,0,0,Drop/Vendor,False,False
+Red Shirt of the Survivor,120,1140,0,9,0,0,0,91,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Time Warden Thobe of Triumph,120,1127,0,9,0,10,0,110,0,0,0,15,0,0,0,0,0,0,Drop/Vendor,False,False
+Luphilim's Rapture Suit,110,984,0,9,0,0,0,73,0,5,14,14,0,0,0,0,0,0,Drop/Vendor,False,False
+Majoris Armor of Impulse,110,932,0,8,4,0,0,136,0,0,0,27,0,0,0,0,0,0,Drop/Vendor,False,False
+Titan Warrior Wrap of Mettle,110,881,0,8,3,0,0,134,0,0,0,25,0,0,0,0,0,0,Drop/Vendor,False,False
+Timeless Borealis Vestment,110,829,0,7,3,0,0,132,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Takanobu's Drape of Impulse,35,268,0,7,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Burrower's Theurgy Robe (Level 50+),50,432,0,6,0,8,0,0,1,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Alkali Armor of Vibrancy,118,939,0,0,0,0,0,0,2,0,0,13,0,0,0,0,0,0,Drop/Vendor,False,False
+Gallant Mottoman Uniform,118,926,0,0,0,0,0,116,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Eerem Raiment of Pulse,118,901,0,0,4,10,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Vizier's Raiment of Bustle,116,876,0,0,0,0,0,0,2,0,0,12,0,0,0,0,0,0,Drop/Vendor,False,False
+Zruvan Raiment of Mettle,116,864,0,0,0,0,0,115,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Sand Sea Outfit of Hardiness,116,839,0,0,4,10,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Wayfarer's Khalat of Grit,114,814,0,0,0,0,0,0,1,0,0,11,0,0,0,0,0,0,Drop/Vendor,False,False
+Aridian Armor of Thriving,114,801,0,0,0,0,0,115,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Nomad's Thobe of Tenacity,112,789,0,0,0,0,0,0,1,0,0,11,0,0,0,0,0,0,Drop/Vendor,False,False
+Mongu Vestment of Force,112,789,0,0,0,0,0,114,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Arcanum Theurgist's Wraps,108,777,0,0,0,0,0,0,1,0,0,11,0,0,0,0,0,0,Drop/Vendor,False,False
+Rubal Khalat of Renewal,114,776,0,0,4,10,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Djinn Vestment of Durability,112,764,0,0,4,10,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Walrusk Cloak of Intensity,108,746,0,0,4,10,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Enchanter's Drape of Courage,106,725,0,0,0,0,0,0,1,0,0,10,0,0,0,0,0,0,Drop/Vendor,False,False
+Tayg Garment of Vitality,106,715,0,0,0,0,0,111,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Tundarian Jacket of Resolve,106,694,0,0,3,9,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Evoker's Stalwart Cloak,104,673,0,0,0,0,0,0,1,0,0,9,0,0,0,0,0,0,Drop/Vendor,False,False
+Bleaks Pelage of Vigor,104,663,0,0,0,0,0,108,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Kossack Robes of Purpose,104,642,0,0,3,8,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mage's Hardy Robes,102,622,0,0,0,0,0,0,1,0,0,8,0,0,0,0,0,0,Drop/Vendor,False,False
+Smoking Obsidian Scales,88,620,0,0,3,8,61,0,2,0,0,12,0,0,0,0,0,0,Drop/Vendor,False,False
+Three Color Serpent's Robes,78,616,0,0,3,7,55,0,1,0,0,10,0,0,0,0,0,0,Drop/Vendor,False,False
+Tundra Jacket of Survival,102,611,0,0,0,0,0,105,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Urville Chokha of Elation,102,591,0,0,3,8,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Lambent's Drape of Splendor,70,515,0,0,5,7,66,0,0,0,4,4,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+High Court Robes,78,440,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Leaf Shield Armor of Vigor,98,440,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Great Coatl's Scales,88,435,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Life Armor,52,432,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Arboreal Robes,45,360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mako's Wanderlust Raiment,54,302,0,0,0,9,30,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Spirit Armor,54,302,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Blended Wool Tunic,35,288,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Cloak of Rhyming,40,288,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Lifeweave Robe,35,288,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Longcoat of Longevity,40,288,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Raiment of Rainfall,40,288,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Leafy Jerkin,45,240,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Vigorous Vestment,45,240,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Debonair Garments,25,216,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Garments of the Opus,35,192,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Tunic of Anthems,35,192,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Tunic of Deep Thought,35,192,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Vestment of Hymns,35,192,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Clanker's Robe,25,144,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Jacques' Soothing Robe,25,144,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Garments of the Augur,20,144,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Quintessential Clothing,25,144,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Shaman's Uniform,25,144,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Krokotopian Life Kaftan,15,130,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,True
+Cloak of Leaves,45,120,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Raiment of Summer Rain,45,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Verdant Vestment,45,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Garments of Zeal,15,98,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Garment of Yodels,35,96,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Son of Storms's Robe,15,96,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Robe of the Oracle,15,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Vestment of Fiction,30,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Vestment of Revelations,15,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Robe of Elan,20,94,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cloak of Growth,10,72,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Gobblestone's Robes,10,72,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Nails' Vestment of the Mender,25,72,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Soft Robes,10,72,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Urbane Robe,20,72,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cloak of Prediction,15,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Jade Studded Cloak,5,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Soothsayer's Cloak,15,48,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Angelic Drape,5,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Healer's Vestment,5,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Whispering Raiment,50,0,0,0,0,9,20,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Coat of Autumn,45,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Barkskin Tunic,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Drape of Discord,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+Kebi's Tunic of Slumber,20,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Medic's Robe,25,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Meti's Robes of Peace,15,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Robes of the Triad,35,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Robe of Superiority,30,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Robe of Subsistence,20,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Survivalist's Tunic,30,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Savvy Vestment,20,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Warbled Cloak,35,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False

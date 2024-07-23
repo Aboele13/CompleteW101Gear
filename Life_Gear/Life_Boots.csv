@@ -1,0 +1,435 @@
+Name,Level,Health,Damage,Resist,Accuracy,Power Pip,Critical,Critical Block,Pierce,Stun Resist,Incoming,Outgoing,Pip Conserve,Shadow Pip,Archmastery,Sword Pins,Shield Pins,Power Pins,Source,Owned,Gear Set
+Lovely Fairy Kei Shoes (Level 170+),170,1235,37,15,3,0,128,167,5,0,0,0,0,16,0,2,0,1,Crowns,False,False
+Xibalba Xenoform Boots (Level 170+),170,1235,37,15,3,0,128,167,5,0,0,0,0,16,0,2,0,1,Raid,False,False
+Xibalba Xenoform Boots (Level 160+),160,964,37,14,3,0,120,155,5,0,0,0,0,14,0,2,0,1,Raid,False,False
+Bold Dream Reaver Boots,170,1587,37,12,3,8,128,167,5,0,0,0,0,0,0,2,0,1,Drop/Vendor,False,False
+Inspired Aeon Boots,160,1239,37,11,3,8,120,155,5,0,0,0,0,0,0,2,0,1,Drop/Vendor,False,False
+Demiurge's Creation Greaves,150,1106,35,11,3,8,115,147,4,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Merciless Life Boots,150,1106,35,11,3,8,115,147,4,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Burrower's Theurgy Boots (Level 160+),160,1101,34,15,0,6,105,177,5,0,0,0,0,14,0,1,1,1,Gold Key/Gauntlet,False,False
+Vibrant Page Treaders (Level 170+),170,1763,34,13,4,6,112,191,5,0,0,0,0,0,0,1,1,1,Gold Key/Gauntlet,False,False
+Umbra Queen's Wild Heels (Level 170+),170,1058,34,13,4,9,112,0,5,0,0,0,0,16,0,2,0,1,Drop/Vendor,False,False
+Wastelander's Wild Boots (Level 170+),170,1058,34,13,4,9,112,0,5,0,0,0,0,16,0,2,0,1,Crowns,False,False
+Hunhau's Xenoform Boots (Level 170+),170,1587,34,12,0,7,112,167,5,0,0,0,0,18,0,2,0,1,Raid,False,False
+Lively Night Mire Boots (Level 160+),160,1376,34,12,4,6,105,177,5,0,0,0,0,0,0,1,1,1,Gold Key/Gauntlet,False,False
+Vibrant Page Treaders (Level 160+),160,1376,34,12,4,6,105,177,5,0,0,0,0,0,0,1,1,1,Crowns,False,False
+Malistaire's Thorny Boots (Level 160+),160,826,34,12,4,9,105,0,5,0,0,0,0,14,0,2,0,1,Crafting,False,False
+Wastelander's Wild Boots (Level 160+),160,826,34,12,4,9,105,0,5,0,0,0,0,14,0,2,0,1,Crowns,False,False
+Thrilling Skyfarer's Boots (Level 160+),160,826,34,12,4,9,0,0,5,0,0,0,0,14,0,2,0,1,Crowns,False,False
+Hunhau's Xenoform Boots (Level 160+),160,1239,34,11,0,7,105,155,5,0,0,0,0,16,0,2,0,1,Raid,False,False
+Bold Dream Warper Boots,170,1411,34,0,3,7,112,143,5,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Dynamic Enforcer's Boots,165,1256,34,0,3,7,109,138,5,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Vibrant City Dweller Hoppers,160,1101,34,0,3,7,105,133,5,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Supreme Lifeforce Shoes,148,966,34,0,2,0,106,0,0,0,0,0,0,15,0,0,0,0,Drop/Vendor,False,False
+Inspired Masterpiece Boots,160,1101,33,9,0,0,105,133,4,0,0,0,0,12,0,0,0,0,Drop/Vendor,False,False
+Malevolent Life Boots,150,1132,32,15,0,9,89,0,0,0,0,4,0,14,0,0,0,0,Drop/Vendor,False,False
+Magician's Life Boots,150,1104,32,14,0,9,89,0,0,0,0,4,0,13,0,0,0,0,Drop/Vendor,False,False
+Supreme Jungle Shoes,148,1104,32,12,0,0,94,0,0,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
+Thrilling Skyfarer's Boots (Level 150+),150,737,32,12,4,9,101,0,4,0,0,0,0,12,0,2,0,1,Crowns,False,False
+Wastelander's Wild Boots (Level 150+),150,737,32,12,4,9,101,0,4,0,0,0,0,12,0,2,0,1,Crowns,False,False
+Malistaire's Spirited Boots (Level 150+),150,737,32,12,4,9,101,0,0,0,0,12,0,12,0,0,0,0,Crowns,False,False
+Glistening Life Boots,155,996,32,8,0,0,103,129,4,0,0,0,0,11,0,0,0,0,Drop/Vendor,False,False
+Hierarch's Lifeforce Shoes,145,897,32,0,2,0,100,0,0,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
+Supreme Preservation Shoes,148,1242,31,14,0,8,0,0,0,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
+Hierarch's Jungle Shoes,145,1035,31,12,0,0,89,0,0,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
+Grisly Cerberus Master Boots (Level 150+),150,1186,31,10,4,0,100,0,0,0,0,0,0,9,0,0,0,0,Crowns,False,False
+Medic Officer Footwear,150,949,31,8,0,0,100,126,4,0,0,0,0,11,0,0,0,0,Drop/Vendor,False,False
+Lemurian Lifeforce Shoes,142,828,31,0,2,0,100,0,0,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
+Bold Dream Stalker Boots,170,1411,30,16,5,7,0,191,4,0,0,0,0,14,0,1,1,1,Crafting,False,False
+Unreal Wraps of Health,170,1235,30,15,5,8,0,167,4,0,0,0,0,16,0,1,1,1,Raid,False,False
+Eternal Inspired Boots,160,1101,30,15,5,7,90,177,0,0,0,0,0,12,0,1,1,1,Crafting,False,False
+Great Inventor's Life Boots (Level 160+),160,1101,30,15,5,7,90,177,0,0,0,0,0,12,0,1,1,1,Crowns,False,False
+Dragoon's Vibrant Boots,130,1111,30,14,0,9,126,0,0,0,0,6,0,12,0,0,0,0,Crafting,False,True
+Delightful Sweetsmith Boots,140,1067,30,14,0,10,83,0,0,0,4,0,0,14,0,0,0,0,Crafting,False,False
+Uber Sweetsmith Boots,140,1067,30,14,0,10,83,0,0,0,0,4,0,14,0,0,0,0,Drop/Vendor,False,False
+Wunderbar Sweetsmith Boots,140,1029,30,14,0,9,83,0,0,0,0,4,0,13,0,0,0,0,Drop/Vendor,False,False
+Floramancer Greaves of Life (Level 160+),160,964,30,14,5,8,0,155,4,0,0,0,0,14,0,1,1,1,Crowns,False,False
+Lively Boots of The Void (Level 160+),160,964,30,14,5,8,0,155,4,0,0,0,0,14,0,1,1,1,Raid,False,False
+Lovely Fairy Kei Shoes (Level 130+),130,653,30,14,3,0,96,136,4,0,0,0,0,10,0,2,0,1,Crowns,False,False
+Daemonic Wraps of Health,170,1411,30,10,4,9,128,0,6,0,0,0,0,14,0,2,0,1,Raid,False,False
+Lively Boots of The Nullity (Level 160+),160,1101,30,9,4,9,120,0,6,0,0,0,0,12,0,2,0,1,Raid,False,False
+Alphoi Guerilla Boots,130,890,30,7,0,10,112,0,0,0,0,0,0,12,0,0,0,0,Crafting,False,False
+Lively Paradox Boots,130,890,30,7,0,10,112,0,0,0,0,0,0,12,0,0,0,0,Drop/Vendor,False,False
+Spring Palace Sabatons (Level 170+),170,1411,30,0,4,7,128,143,6,0,0,0,0,18,0,2,0,1,Gold Key/Gauntlet,False,False
+Vivid Imperial Court Slippers (Level 170+),170,1411,30,0,4,7,128,143,6,0,0,0,0,18,0,2,0,1,Gold Key/Gauntlet,False,False
+Spring Palace Sabatons (Level 160+),160,1101,30,0,4,7,120,133,6,0,0,0,0,16,0,2,0,1,Crowns,False,False
+Dynamic Protector's Boots,165,1099,30,0,0,6,93,115,4,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Vibrant Townie Hoppers,160,964,30,0,0,6,90,111,4,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hierarch's Preservation Shoes,145,1173,29,14,0,7,0,0,0,0,0,0,0,13,0,0,0,0,Drop/Vendor,False,False
+Vanguard's Vibrant Boots,130,1086,29,14,0,8,126,0,0,0,0,6,0,12,0,0,0,0,Drop/Vendor,False,False
+Guten Sweetsmith Boots,140,1004,29,14,0,9,83,0,0,0,0,4,0,12,0,0,0,0,Drop/Vendor,False,False
+Vibrant Page Treaders (Level 140+),140,1080,29,12,4,6,98,158,3,0,0,0,0,0,0,1,1,1,Crowns,False,False
+Lively Night Mire Boots (Level 140+),140,1080,29,12,4,6,98,158,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Wild Boots (Level 140+),140,648,29,12,4,9,98,0,3,0,0,0,0,12,0,0,0,0,Crowns,False,False
+Malistaire's Spirited Boots (Level 140+),140,648,29,12,4,9,98,0,0,0,0,12,0,12,0,0,0,0,Crowns,False,False
+Thrilling Skyfarer's Boots (Level 140+),140,648,29,12,4,9,98,0,0,0,0,12,0,12,0,0,0,0,Crowns,False,False
+Lemurian Jungle Shoes,142,966,29,11,0,0,89,0,0,0,0,0,0,13,0,0,0,0,Drop/Vendor,False,False
+Lofty Alphoi Boots,125,1085,29,7,3,0,94,0,0,0,0,0,0,11,0,0,0,0,Crafting,False,False
+Verdant Zanadu Boots,130,868,29,7,0,9,107,0,0,0,0,0,0,11,0,0,0,0,Drop/Vendor,False,False
+Cabalist Stompers of the First,125,834,29,7,3,0,102,0,0,0,0,0,0,12,0,0,0,0,Drop/Vendor,False,False
+Executive Survival Boots,138,879,29,0,3,0,99,0,0,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
+Highlands Militia Boots (Level 150+),150,983,28,15,5,7,86,168,0,0,0,0,0,11,0,0,0,0,Gold Key/Gauntlet,False,False
+Great Inventor's Life Boots (Level 150+),150,983,28,15,5,7,86,168,0,0,0,0,0,11,0,1,1,1,Crowns,False,False
+Soldier's Vibrant Boots,130,1049,28,14,0,7,126,0,0,0,0,6,0,12,0,0,0,0,Drop/Vendor,False,False
+Lively Boots of The Void (Level 150+),150,860,28,14,5,8,0,147,3,0,0,12,0,12,0,0,0,0,Raid,False,False
+Lovely Fairy Kei Shoes (Level 120+),120,549,28,13,3,0,88,133,3,0,0,0,0,9,0,2,0,1,Crowns,False,False
+Grisly Cerberus Master Boots (Level 140+),140,1112,28,10,4,0,97,0,0,0,0,0,0,8,0,0,0,0,Crowns,False,False
+Lively Boots of The Nullity (Level 150+),150,983,28,9,4,9,0,0,5,0,0,0,0,11,0,0,0,0,Raid,False,False
+Golden Life Boots,155,872,28,7,0,0,88,108,4,0,0,0,0,10,0,0,0,0,Drop/Vendor,False,False
+Lemurian Preservation Shoes,142,1104,27,14,0,7,0,0,0,0,0,0,0,12,0,0,0,0,Drop/Vendor,False,False
+Vibrant Page Treaders (Level 130+),130,932,27,12,4,6,84,156,3,0,0,0,0,0,0,1,1,1,Crowns,False,False
+Grisly Cerberus Master Boots (Level 130+),130,932,27,12,4,6,84,156,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Lively Night Mire Boots (Level 130+),130,932,27,12,4,6,84,156,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Wild Boots (Level 130+),130,560,27,12,4,9,84,0,3,0,0,0,0,10,0,0,0,0,Crowns,False,False
+Director Survival Boots,138,1004,27,11,0,0,88,0,0,0,0,0,0,13,0,0,0,0,Drop/Vendor,False,False
+Regulation Medic Footwear,150,830,27,7,0,0,86,105,4,0,0,0,0,9,0,0,0,0,Drop/Vendor,False,False
+Chief's Survival Boots,135,816,27,0,3,0,94,0,0,0,0,0,0,13,0,0,0,0,Drop/Vendor,False,False
+Great Inventor's Life Boots (Level 140+),140,864,26,15,4,7,84,158,0,0,0,0,0,10,0,0,0,0,Crowns,False,False
+Producer's Survival Boots,138,1130,26,14,0,8,0,0,0,0,0,0,0,13,0,0,0,0,Drop/Vendor,False,False
+Burrower's Theurgy Boots (Level 120+),120,628,26,14,0,6,0,152,3,0,0,0,0,9,0,0,0,0,Crowns,False,False
+Lively Night Mire Boots (Level 120+),120,784,26,12,4,6,77,152,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Wild Boots (Level 120+),120,471,26,12,4,9,77,0,3,0,0,0,0,9,0,0,0,0,Crowns,False,False
+Malistaire's Spirited Boots (Level 120+),120,471,26,12,4,9,77,0,0,0,0,10,0,9,0,0,0,0,Crowns,False,False
+Thrilling Skyfarer's Boots (Level 120+),120,471,26,12,4,9,77,0,0,0,0,10,0,9,0,0,0,0,Crowns,False,False
+Lead's Survival Boots,135,941,26,11,0,0,83,0,0,0,0,0,0,13,0,0,0,0,Drop/Vendor,False,False
+Malistaire's Spirited Boots (Level 130+),130,872,26,7,4,7,84,0,0,0,0,9,0,13,0,0,0,0,Crowns,False,False
+Consultant Survival Boots,132,753,26,0,3,0,94,0,0,0,0,0,0,13,0,0,0,0,Drop/Vendor,False,False
+Highlands Militia Boots (Level 140+),140,890,25,12,5,6,83,0,0,0,0,0,0,8,0,0,0,0,Crowns,False,False
+Lovely Fairy Kei Shoes (Level 110+),110,446,25,12,3,0,84,129,3,0,0,0,0,8,0,2,0,1,Crowns,False,False
+Dashing Space Boots,140,816,25,10,0,0,77,0,0,0,0,0,0,12,0,0,0,0,Drop/Vendor,False,False
+Time Warden Shoes of Triumph,120,834,25,7,3,0,97,0,0,0,0,0,0,11,0,0,0,0,Drop/Vendor,False,False
+Great Inventor's Life Boots (Level 130+),130,746,24,15,4,7,72,156,0,0,0,0,0,9,0,0,0,0,Crowns,False,False
+Supervisor Survival Boots,135,1067,24,14,0,7,0,0,0,0,0,0,0,12,0,0,0,0,Drop/Vendor,False,False
+Floramancer Greaves of Life (Level 130+),130,653,24,14,4,8,0,136,0,0,0,11,0,10,0,0,0,0,Crowns,False,False
+Specialist Survival Boots,132,879,24,11,0,0,83,0,0,0,0,0,0,12,0,0,0,0,Drop/Vendor,False,False
+Great Inventor's Life Boots (Level 120+),120,628,23,14,4,7,66,152,0,0,0,0,0,8,0,0,0,0,Crowns,False,False
+Contractor Survival Boots,132,1004,23,13,0,7,0,0,0,0,0,0,0,11,0,0,0,0,Drop/Vendor,False,False
+Floramancer Greaves of Life (Level 120+),120,549,23,13,4,8,0,133,0,0,0,10,0,9,0,0,0,0,Crowns,False,False
+Burrower's Theurgy Boots (Level 110+),110,509,23,13,0,6,0,147,3,0,0,0,0,8,0,0,0,0,Crowns,False,False
+Vibrant Page Treaders (Level 110+),110,636,23,11,4,6,73,147,3,0,0,0,0,0,0,1,1,1,Crowns,False,False
+Lively Night Mire Boots (Level 110+),110,636,23,11,4,6,73,147,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Wild Boots (Level 110+),110,382,23,11,4,9,73,0,3,0,0,0,0,8,0,0,0,0,Crowns,False,False
+Malistaire's Spirited Boots (Level 110+),110,382,23,11,4,9,73,0,0,0,0,10,0,8,0,0,0,0,Crowns,False,False
+Thrilling Skyfarer's Boots (Level 110+),110,382,23,11,4,9,73,0,0,0,0,10,0,8,0,0,0,0,Crowns,False,False
+Lively Liaison's Boots,130,816,23,10,0,0,78,0,0,0,0,0,0,12,0,0,0,0,Drop/Vendor,False,False
+Grisly Cerberus Master Boots (Level 110+),110,512,23,9,4,0,73,0,0,0,0,0,0,6,0,0,0,0,Crowns,False,False
+Leaf Shield Clogs of Vigor,100,440,23,9,4,0,81,123,3,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Luphilim's Rapture Soilerets,110,656,23,7,0,0,60,0,0,3,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Rogue's Enduring Striders,100,316,23,7,6,0,0,102,4,0,0,0,0,10,0,0,0,0,Drop/Vendor,False,False
+Undying Malistaire's Boots,100,300,23,7,5,10,0,105,3,0,0,0,0,9,0,0,0,0,Drop/Vendor,False,False
+Red Boots of the Survivor,120,705,23,0,0,0,101,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Vivid Imperial Court Slippers (Level 120+),120,628,23,0,3,7,88,114,3,0,0,0,0,10,0,2,0,1,Crowns,False,False
+Majoris Trekkers of Impulse,110,621,22,6,0,7,95,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Burrower's Theurgy Boots (Level 100+),100,391,21,12,0,8,0,140,3,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Lively Night Mire Boots (Level 100+),100,488,21,10,4,0,71,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Vibrant Page Treaders (Level 100+),100,488,21,10,4,0,71,140,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Leaf Shield Stompers of Vigor,100,391,21,8,3,0,71,105,3,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Umbra Queen's Wild Heels (Level 100+),100,391,21,0,4,9,71,0,3,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Malistaire's Thorny Boots (Level 100+),100,391,21,0,4,9,71,0,0,0,0,10,0,0,0,0,0,0,Crafting,False,False
+Malistaire's Spirited Boots (Level 100+),100,391,21,0,4,9,71,0,0,0,0,10,0,0,0,0,0,0,Crowns,False,False
+Theurgist's Vibrant Boots,85,255,21,0,0,8,0,0,0,0,0,20,0,0,0,0,0,0,Crowns,False,False
+Great Inventor's Life Boots (Level 110+),110,509,20,13,4,7,63,147,0,0,0,0,0,7,0,0,0,0,Crowns,False,False
+Highlands Militia Boots (Level 110+),110,410,20,11,5,6,62,0,0,0,0,0,0,6,0,0,0,0,Crowns,False,False
+Titan Warrior's Mettle Boots,110,587,20,6,0,7,93,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Spirit of Darkmoor's Shoes,100,276,20,5,4,9,0,84,2,0,0,0,0,9,0,0,0,0,Drop/Vendor,False,False
+Alkali Walkers of Vibrancy,118,584,20,0,0,0,99,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Vivid Imperial Court Slippers (Level 110+),110,509,20,0,3,7,84,110,3,0,0,0,0,9,0,2,0,1,Crowns,False,False
+Burrower's Theurgy Boots (Level 90+),90,334,19,12,0,7,0,133,3,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Lively Night Mire Boots (Level 90+),90,417,19,10,4,0,65,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Vibrant Page Treaders (Level 90+),90,417,19,10,4,0,65,133,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Lovely Fairy Kei Shoes (Level 80+),80,243,19,9,4,0,62,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Timeless Borealis Trekkers,110,552,19,6,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Vizier's Shoes of Bustle,116,542,19,0,0,0,97,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Wastelander's Wild Boots (Level 90+),90,334,19,0,4,8,65,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Malistaire's Spirited Boots (Level 90+),90,334,19,0,4,8,65,0,0,0,0,10,0,0,0,0,0,0,Crowns,False,False
+Grisly Cerberus Master Boots (Level 80+),80,346,18,8,4,0,54,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Lively Night Mire Boots (Level 80+),80,346,18,8,4,0,54,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Vibrant Page Treaders (Level 80+),80,346,18,8,4,0,54,111,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wayfarer's Galesh of Grit,114,500,18,0,0,0,94,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Wastelander's Wild Boots (Level 80+),80,277,18,0,4,8,54,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Malistaire's Spirited Boots (Level 80+),80,277,18,0,4,8,54,0,0,0,0,9,0,0,0,0,0,0,Crowns,False,False
+Great Inventor's Life Boots (Level 90+),90,334,17,12,4,6,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Highlands Militia Boots (Level 90+),90,334,17,12,4,6,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Floramancer Greaves of Life (Level 90+),90,376,17,9,4,7,0,117,0,0,0,11,0,0,0,0,0,0,Crowns,False,False
+Sabatons of the Living Dead,100,252,17,3,3,8,0,67,2,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Nomad's Striders of Tenacity,112,492,17,0,0,0,92,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Arcanum Theurgist's Waders,108,483,17,0,0,0,84,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Everlasting Thunder Runners,55,122,17,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Boots of Living Legend,55,122,17,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Footguards of Pure Ice,55,122,17,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Soulsearing Striders,55,122,17,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Spirited Stalkers of Chaos,55,122,17,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Walkers of Natural Law,55,122,17,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Great Inventor's Life Boots (Level 80+),80,277,16,10,4,6,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Highlands Militia Boots (Level 80+),80,277,16,10,4,6,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Vibrant Page Treaders (Level 70+),70,275,16,8,4,0,49,91,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Floramancer Greaves of Life (Level 80+),80,312,16,7,4,7,0,97,0,0,0,10,0,0,0,0,0,0,Crowns,False,False
+Enchanter's Boots of Courage,106,449,16,0,0,0,81,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Paladin Boots of Atonement,95,330,16,0,0,9,0,60,2,0,10,7,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Wild Boots (Level 70+),70,220,16,0,4,8,49,0,2,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Malistaire's Spirited Boots (Level 70+),70,220,16,0,4,8,49,0,0,0,0,8,0,0,0,0,0,0,Crowns,False,False
+Poseidon's Crest Walkers,90,235,15,9,4,10,0,0,2,0,12,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Walkers of a Sorrowful Life,90,390,15,6,1,8,0,56,1,0,7,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Boots of Esprit,60,129,15,6,0,8,0,27,0,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Evoker's Stalwart Footgear,104,414,15,0,0,0,79,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Thornwood Stalkers,65,221,15,0,0,0,0,0,1,0,0,10,0,0,0,0,0,0,Drop/Vendor,False,False
+Slippers of Nephrite,80,200,15,0,5,0,45,50,3,0,0,15,0,0,0,0,0,0,Crowns,False,False
+Shrine Guardian's Footgear,94,188,15,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Euphoric Footgear,56,144,15,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Wraps of Rapture,58,144,15,0,0,8,0,20,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Esprit Boots,58,134,15,0,0,8,0,27,0,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Everlasting Footguards,56,115,15,0,0,0,0,20,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Virtue Shoes,54,86,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Inspired Shoes,56,0,15,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Great Inventor's Life Boots (Level 70+),70,220,14,9,4,6,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Highlands Militia Boots (Level 70+),70,220,14,9,4,6,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Burrower's Theurgy Boots (Level 60+),60,164,14,8,0,7,0,72,1,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Lively Night Mire Boots (Level 60+),60,204,14,7,3,0,41,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Lovely Fairy Kei Shoes (Level 50+),50,0,14,6,0,7,0,0,1,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Snowcrusher Shelter Walkers (Socketed),50,148,14,5,0,7,0,0,1,0,0,0,0,0,0,2,0,1,Crafting,False,False
+Snowcrusher's Shoes of Shelter,50,148,14,5,2,0,0,0,1,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Zeus' Striders of Vitality,90,240,14,0,4,8,0,0,7,0,0,15,0,0,0,0,0,0,Drop/Vendor,False,False
+Thrilling Skyfarer's Boots (Level 70+),70,220,14,0,4,8,49,0,0,0,0,8,0,0,0,0,0,0,Crowns,False,False
+Malistaire's Spirited Boots (Level 60+),60,146,14,0,4,8,41,0,0,0,0,6,0,0,0,0,0,0,Crowns,False,False
+Mako's Timeless Trekkers,54,115,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Willow Walkers,58,115,14,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Tangleroot's Spirit Greaves,54,0,14,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Footgear of the Afterlife,90,260,13,6,2,8,0,0,8,0,0,10,0,0,0,0,0,0,Drop/Vendor,False,False
+Highlands Militia Boots (Level 60+),60,146,13,6,5,6,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Burrower's Theurgy Boots (Level 50+),50,132,13,6,0,7,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Vibrant Page Treaders (Level 50+),50,164,13,5,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Snowcrusher Shelter Walkers,50,132,13,4,2,0,0,0,1,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mage's Hardy Footgear,102,380,13,0,0,0,76,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Transcendent Spirited Shoes,90,205,13,0,3,7,0,0,4,0,12,0,0,0,0,0,0,0,Crafting,False,False
+Malistaire's Thorny Boots (Level 50+),50,132,13,0,2,8,0,0,0,0,0,7,0,0,0,0,0,0,Crafting,False,False
+Malistaire's Spirited Boots (Level 50+),50,132,13,0,2,8,0,0,0,0,0,7,0,0,0,0,0,0,Crowns,False,False
+Thrilling Skyfarer's Boots (Level 50+),50,132,13,0,2,8,0,0,0,0,0,7,0,0,0,0,0,0,Crowns,False,False
+Boots of Barbarian Grit,100,339,12,6,0,0,0,65,3,0,0,8,0,0,0,0,0,0,Crowns,False,False
+Krokopatra Vigor Steppers,100,295,12,6,0,3,0,66,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Floramancer Greaves of Life (Level 60+),60,184,12,6,3,7,0,63,0,0,0,9,0,0,0,0,0,0,Crowns,False,False
+Great Inventor's Life Boots (Level 50+),50,132,12,6,2,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Floramancer Greaves of Life (Level 50+),50,115,12,6,2,7,0,0,0,0,0,8,0,0,0,0,0,0,Crowns,False,False
+Lovely Fairy Kei Shoes (Level 40+),40,0,12,3,0,4,0,0,1,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Senator's Spirited Shoes,90,205,12,0,2,7,0,0,3,0,11,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Pachyderm's Robust Boots,66,168,12,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Thrilling Skyfarer's Boots (Level 60+),60,164,12,0,3,8,41,0,0,0,0,8,0,0,0,0,0,0,Crowns,False,False
+Savannah Footwraps (Zayneb),60,156,12,0,2,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+No Worries Footgear,68,144,12,0,0,4,0,0,1,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Knave's Enduring Striders,70,163,11,6,2,7,0,38,3,0,6,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Highlands Militia Boots (Level 50+),50,131,11,6,2,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Boots of Sanctuary,56,111,11,4,0,4,0,25,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Lively Night Mire Boots (Level 40+),40,145,11,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Burrower's Theurgy Boots (Level 40+),40,116,11,3,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Wild Boots (Level 40+),40,0,11,3,2,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Artisan's Sandals of Vigor,70,225,11,0,3,6,0,0,3,0,9,0,0,0,0,0,0,0,Crafting,False,False
+Ravenous Sun Shaman's Boots,84,190,11,0,2,6,0,0,2,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Boots of the Wold,76,183,11,0,2,5,0,0,1,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Boots of Lambent's Splendor,70,155,11,0,0,5,0,0,0,0,4,4,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Malistaire's Spirited Boots (Level 40+),40,116,11,0,2,5,0,0,0,0,0,7,0,0,0,0,0,0,Crowns,False,False
+Thrilling Skyfarer's Boots (Level 40+),40,116,11,0,2,5,0,0,0,0,0,7,0,0,0,0,0,0,Crowns,False,False
+Poseidon's Waterwalkers,70,155,10,8,2,6,0,36,2,0,7,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Footwraps of the Sistrum,60,141,10,4,4,0,0,36,0,0,16,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Great Inventor's Life Boots (Level 40+),40,116,10,3,2,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Highlands Militia Boots (Level 40+),40,116,10,3,2,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Senator's Sandals of Vigor,70,225,10,0,2,6,0,0,2,0,8,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Ceremonial Boots of Triumph,40,108,10,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Vibrant Page Treaders (Level 30+),30,145,9,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Burrower's Theurgy Boots (Level 30+),30,116,9,2,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Quick Stepping Boots,70,163,9,0,0,0,30,0,1,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Malistaire's Spirited Boots (Level 30+),30,116,9,0,2,4,0,0,0,0,0,5,0,0,0,0,0,0,Crowns,False,False
+Thrilling Skyfarer's Boots (Level 30+),30,116,9,0,2,4,0,0,0,0,0,7,0,0,0,0,0,0,Crowns,False,False
+Innocent Boots,50,86,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Great Inventor's Life Boots (Level 30+),30,116,8,2,2,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Highlands Militia Boots (Level 30+),30,116,8,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Lively Night Mire Boots (Level 20+),20,48,8,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Burrower's Theurgy Boots (Level 20+),20,39,8,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Lovely Fairy Kei Shoes (Level 20+),20,34,8,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Wild Boots (Level 20+),20,0,8,2,2,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Yeoman's Shoes of Bounty,40,101,8,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Boots of Grim Elan,44,99,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Boots of the Essence Flurry,44,99,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Footwraps of Fiery Zest,44,99,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Sandals of the Spirit Stream,44,99,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Shoes of Life's Cycle,44,99,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Walkers of the Vivid Opus,44,99,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Anubis' Boots of Rebirth,60,98,8,0,3,0,0,25,0,0,12,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Malistaire's Spirited Boots (Level 20+),20,39,8,0,2,2,0,0,0,0,0,1,0,0,0,0,0,0,Crowns,False,False
+Thrilling Skyfarer's Boots (Level 20+),20,39,8,0,2,2,0,0,0,0,0,1,0,0,0,0,0,0,Crowns,False,False
+Advanced Life Boots,50,130,7,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Leaf Shield Clogs of Vigor (Level 98+),98,150,7,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,Retired,False,False
+Great Coatl's Boots,88,145,7,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Everlasting Celestian Boots,50,130,7,0,2,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,True
+Sandals of the Generous Earth,45,120,7,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Snowcrusher's Shoes of Shelter (H120),50,120,7,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+Hundred Year Bridge Walkers,78,105,7,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Sandals of the Earthlord,45,80,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Slippers of Rejuvenation,45,40,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Vineyard Shoes,45,0,7,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Krokomaic Vigor Steppers,40,98,6,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Grisly Cerberus Master Boots (Level 10+),10,24,6,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Lively Night Mire Boots (Level 10+),10,24,6,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Lovely Fairy Kei Shoes (Level 10+),10,17,6,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Wild Boots (Level 10+),10,0,6,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Lost World Soul Boots,85,199,6,0,3,0,0,50,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Boots of Zeus' Alacrity,30,145,6,0,1,4,0,0,0,0,7,7,0,0,0,0,0,0,Drop/Vendor,False,False
+Adept's Guiding Sandals,30,105,6,0,2,4,0,0,0,0,6,0,0,0,0,0,0,0,Crafting,False,False
+Sandals of Zest,45,80,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Slippers of the Unflinching,45,80,6,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+Soulsinger's Sandals,45,80,6,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Takanobu's Boots of Impulse,35,76,6,0,0,4,0,0,0,2,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Hands of Anubis Boots,60,68,6,0,0,0,0,17,0,0,9,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Thrilling Skyfarer's Boots (Level 10+),10,20,6,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,Crowns,False,False
+Shoes of the Gardener,45,0,6,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Bonebreaker Shoes of Zeal,40,98,5,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Footguards of the Thicket,40,96,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Plague Oni's Footwraps,40,96,5,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Senator's Guiding Sandals,30,95,5,0,1,4,0,0,0,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Flamesoul Footgear,33,70,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Hopespring Striders,33,70,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Icebloom Sandals,33,70,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Lifegrave Footwear,33,70,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Gentlewise Boots,33,70,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Merrygale Shoes,33,70,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Gogi Berry Stained Boots,35,64,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Youkai's Shoes,35,64,5,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Footwraps of Deep Thought,35,32,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Malistaire's Spirited Boots (Any Level),1,16,5,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,Crowns,False,False
+Kanago's Shoes of the Nimble,40,0,5,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Shoes of the Willing Spirit,25,72,4,0,0,0,0,0,0,0,3,4,0,0,0,0,0,0,Drop/Vendor,False,False
+Groostak's Agile Shoes,35,64,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hinterland Wraps,40,64,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Kyuto's Lively Footwraps,35,64,4,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Slippers of Essence,40,64,4,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Boots of the Warlord,30,32,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Campaigner's Shoes,35,32,4,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+Fushiko's Footwraps of Intent,35,32,4,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Footwraps of Anthems,30,32,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Ranger's Boots,30,32,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Sandals of Hymns,35,0,4,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Ra's Rapture Boots,20,43,3,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Vibrant Page Treaders (Any Level),1,12,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Monk's Runners of Focus,25,96,3,0,0,0,0,0,0,0,6,6,0,0,0,0,0,0,Drop/Vendor,False,False
+Bellows' Shoes of Disposition,30,72,3,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Woodbark Footwraps,30,72,3,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Bewitching Shoes,25,48,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Crusher's Dexterous Shoes,25,48,3,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Thrilling Skyfarer's Boots (Any Level),1,10,3,0,1,1,0,0,0,0,0,1,0,0,0,0,0,0,Crowns,False,False
+Footwraps of Superiority,30,0,3,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Wraps of Conservation,30,0,3,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Barkingham Boots of Brio,40,80,2,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,Drop/Vendor,False,False
+Fair Footgear of Ardor,22,59,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Frosty Footwraps of Felicity,22,59,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Singed Boots of Vigor,22,59,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Soulful Footwear of the Grave,22,59,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Vivid Boots of the Mirage,22,59,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Zealous Shoes of the Gale,22,59,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Barbaric Boots,25,48,2,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+Nails' Debonair Slippers,25,48,2,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Old Smokey's Boots,25,48,2,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Meowiarty's Sandals,25,48,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Boots of the Soul,20,24,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Striders of Abundance,30,24,2,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Smokey's Emotional Shoes,25,0,2,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Krokhotep's Footwraps,20,48,1,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Taskmaster's Footwraps,20,48,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Firebloom Walkers,15,40,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Icebark Striders,15,40,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Lifedream Stalkers,15,40,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Necrosoul Sandals,15,40,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Scatterbloom Boots,15,40,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Stormflower Boots,15,40,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Forest Striders,20,32,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Soothsayer's Sandals,15,32,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Slippers of Revelations,15,16,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Battlemaster Broghans,15,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+Relentless Footguards,20,0,1,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Untiring Footguards,25,0,1,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Tempestra's Sandals,15,0,1,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Bonesmasher Shoes of Zeal,100,273,0,12,0,6,0,0,0,0,10,5,0,10,0,0,0,0,Drop/Vendor,False,False
+Righteous Kalamar Kicks,127,890,0,6,0,0,112,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Highlands Militia Boots (Level 10+),10,20,0,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Great Inventor's Life Boots (Any Level),1,10,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Medic's Interstellar Trekkers,122,781,0,0,2,0,0,0,0,0,0,0,0,11,0,0,0,0,Drop/Vendor,False,False
+Gallant Mottoman Runners,118,617,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Eerem Givehs of Pulse,118,600,0,0,2,0,0,0,0,0,0,0,0,10,0,0,0,0,Drop/Vendor,False,False
+Zruvan Galesh of Mettle,116,575,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Sand Sea Shoes of Hardiness,116,559,0,0,2,0,0,0,0,0,0,0,0,10,0,0,0,0,Drop/Vendor,False,False
+Aridian Shoes of Thriving,114,534,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mongu Givehs of Force,112,525,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Rubal Babouches of Renewal,114,517,0,0,2,0,0,0,0,0,0,0,0,10,0,0,0,0,Drop/Vendor,False,False
+Kataba Trekkers of Zeal,108,511,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Djinn Slippers of Durability,112,509,0,0,2,0,0,0,0,0,0,0,0,10,0,0,0,0,Drop/Vendor,False,False
+Walrusk Boots of Intensity,108,497,0,0,2,0,0,0,0,0,0,0,0,10,0,0,0,0,Drop/Vendor,False,False
+Tayg Shoes of Vitality,106,476,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Tundarian Boots of Resolve,106,462,0,0,2,0,0,0,0,0,0,0,0,10,0,0,0,0,Drop/Vendor,False,False
+Bleaks Trekkers of Vigor,104,442,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Kossack Footgear of Purpose,104,428,0,0,2,0,0,0,0,0,0,0,0,10,0,0,0,0,Drop/Vendor,False,False
+Tundra Walkers of Survival,102,407,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Urville Trekkers of Elation,102,393,0,0,2,0,0,0,0,0,0,0,0,10,0,0,0,0,Drop/Vendor,False,False
+Immortals' Boots of Spirit,100,310,0,0,0,0,0,63,5,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mouse Boots of Fortitude,95,270,0,0,3,7,0,45,0,0,4,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Burrower Striders of Ardor,90,215,0,0,3,6,0,41,0,0,2,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Leaf Shield Brisk Walkers,92,215,0,0,0,7,0,0,0,0,10,8,0,0,0,0,0,0,Drop/Vendor,False,False
+Smoking Obsidian Rangers,82,205,0,0,0,6,0,0,0,0,9,7,0,0,0,0,0,0,Drop/Vendor,False,False
+Gliders of the High Shaman,80,190,0,0,2,5,0,40,0,0,10,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Weirwood Walkers,70,171,0,0,0,2,0,37,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Luck Smithed Boots,72,146,0,0,0,7,0,0,0,0,9,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Festive Footwear,50,144,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Life Wraps,52,144,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Merry Mukluks,52,144,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hardy Wolf Boots,50,128,0,0,0,0,0,0,0,0,5,5,0,0,0,0,0,0,Drop/Vendor,False,False
+Earthrangers,45,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Wildwood Boots,45,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Wanderlust Runners,56,115,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Boots of the Cornucopia,40,96,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Shoes of Rhyming,40,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Shoes of Concentration,35,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Vital Footwear,50,86,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Crystalline Queen's Boots,45,80,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Striders of the Thicket,45,80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Sysiphan's Benevolent Boots,45,80,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Feline's Invigorating Boots,25,72,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Boots of the Triad,35,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Koto's Adroit Sandals,35,64,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Sandals of Fiction,35,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Slippers of Realization,35,64,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Doctor's Urbane Shoes,25,48,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Footgear of the Lifeweb,30,48,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hardy Boots,15,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Pops O'Leary's Savvy Shoes,25,48,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Sympathetic Shoes,25,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Woodland Waders,25,48,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Krokotopian Life Striders,15,43,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,True
+Boots of the Emerald Grove,45,40,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mocassins of the Healer,45,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Sandals of the Shaman,45,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Spirit Monk's Footwraps,25,40,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Slippers of Diligence,15,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Sandals of Refuge,15,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Soul Scavenger's Boots,15,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Slippers of Yodels,35,32,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Warbled Shoes,30,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Boots of the Fae,10,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Grandiose Sandals,25,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Flowerstalkers,10,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Shoes of Humanity,20,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+The Sneak's Noble Shoes,25,24,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Jade Studded Boots,5,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Sandblasted Footguards,15,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Shoes of the Augur,15,16,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Slippers of Excitement,10,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Barkskin Boots,5,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Sturdy Boots,1,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Arboreal Boots,45,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Boots of the Verse,35,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Boots of Pyramids,15,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Baron's Vivacious Shoes,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Broghans of the Wanderer,35,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Flowering Shoes,10,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Flowering Canine Shoes,25,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Indefatigable Striders,10,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Footgear of the Guardian,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+Natural Boots,52,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Sensitive Slippers,25,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Slippers of Solitude,15,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Slippers of the Opus,35,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False

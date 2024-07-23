@@ -1,0 +1,439 @@
+Name,Level,Health,Damage,Resist,Accuracy,Power Pip,Critical,Critical Block,Pierce,Stun Resist,Incoming,Outgoing,Pip Conserve,Shadow Pip,Archmastery,Sword Pins,Shield Pins,Power Pins,Source,Owned,Gear Set
+Lovely Fairy Kei Conical (Level 170+),170,954,32,13,5,0,160,104,5,0,0,0,0,19,0,2,1,0,Crowns,False,False
+Xibalba Xenoform Helm (Level 170+),170,954,32,13,5,0,160,104,5,0,0,0,0,19,0,2,1,0,Raid,False,False
+Xibalba Xenoform Helm (Level 160+),160,914,32,12,5,0,152,91,5,0,0,0,0,17,0,2,1,0,Raid,False,False
+Bold Dream Reaver Hood,170,1226,32,10,5,11,160,104,5,0,0,0,0,0,0,2,1,0,Drop/Vendor,False,False
+Inspired Aeon Helm,160,1175,32,10,5,11,152,91,5,0,0,0,0,0,0,2,1,0,Drop/Vendor,False,False
+Lovely Fairy Kei Conical (Level 150+),150,835,30,12,5,0,144,87,4,0,0,0,0,16,0,2,1,0,Crowns,False,False
+Demiurge's Creation Helm,150,1073,30,10,5,11,144,87,4,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Merciless Life Cap,150,1073,30,10,5,11,144,87,4,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Burrower's Theurgy Hood (Level 160+),160,1044,29,13,0,8,133,104,5,0,0,0,0,17,0,2,1,0,Gold Key/Gauntlet,False,False
+Vibrant Hardback Helmet (Level 170+),170,1362,29,12,6,8,140,119,5,0,0,0,0,0,0,2,1,0,Gold Key/Gauntlet,False,False
+Umbra Queen's Wild Crown (Level 170+),170,818,29,12,6,13,140,0,5,0,0,0,0,19,0,2,0,1,Drop/Vendor,False,False
+Wastelander's Wild Hat (Level 170+),170,818,29,12,6,13,140,0,5,0,0,0,0,19,0,2,0,1,Crowns,False,False
+Lively Night Mire Top Hat (Level 160+),160,1305,29,11,6,8,133,104,5,0,0,0,0,0,0,2,1,0,Gold Key/Gauntlet,False,False
+Vibrant Hardback Helmet (Level 160+),160,1305,29,11,6,8,133,104,5,0,0,0,0,0,0,2,1,0,Crowns,False,False
+Malistaire's Thorny Locks (Level 160+),160,783,29,11,6,13,133,0,5,0,0,0,0,17,0,2,0,1,Crafting,False,False
+Thrilling Skyfarer's Douli Hat (Level 160+),160,783,29,11,6,13,133,0,5,0,0,0,0,17,0,2,0,1,Crowns,False,False
+Wastelander's Wild Hat (Level 160+),160,783,29,11,6,13,133,0,5,0,0,0,0,17,0,2,0,1,Crowns,False,False
+Hunhau's Xenoform Helm (Level 170+),170,1226,29,10,0,10,140,104,5,0,0,0,0,21,0,2,1,0,Raid,False,False
+Hunhau's Xenoform Helm (Level 160+),160,1175,29,10,0,10,133,91,5,0,0,0,0,19,0,2,1,0,Raid,False,False
+Inspired Masterpiece Helm,160,1044,29,8,0,0,132,78,4,0,0,0,0,15,0,0,0,0,Drop/Vendor,False,False
+Bold Dream Warper Hood,170,1090,29,0,4,10,140,89,5,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Dynamic Enforcer's Helmet,165,1067,29,0,4,10,137,84,5,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Vibrant City Dweller Kanga-Cap,160,1044,29,0,4,10,133,78,5,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Supreme Lifeforce Hat,148,725,29,0,0,10,149,0,0,0,0,0,0,19,0,0,0,0,Drop/Vendor,False,False
+Burrower's Theurgy Hood (Level 150+),150,954,27,13,0,8,126,100,4,0,0,0,0,16,0,2,1,0,Crowns,False,False
+Lively Night Mire Top Hat (Level 150+),150,1192,27,11,6,6,126,100,4,0,0,0,0,0,0,2,1,0,Crowns,False,False
+Grisly Cerberus Master Helm (Level 150+),150,1192,27,11,6,8,126,100,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Thrilling Skyfarer's Douli Hat (Level 150+),150,716,27,11,6,13,126,0,4,0,0,0,0,16,0,2,0,1,Crowns,False,False
+Wastelander's Wild Hat (Level 150+),150,716,27,11,6,13,126,0,4,0,0,0,0,16,0,2,0,1,Crowns,False,False
+Malistaire's Spirited Locks (Level 150+),150,716,27,11,6,13,126,0,0,0,0,12,0,16,0,0,0,0,Crowns,False,False
+Glistening Life Helmet,155,942,27,9,0,0,129,76,4,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
+Malevolent Life Cap,150,849,27,0,4,14,106,0,3,0,0,0,0,18,0,0,0,0,Drop/Vendor,False,False
+Supreme Jungle Hat,148,828,27,0,5,12,0,0,0,0,0,0,0,18,0,0,0,0,Drop/Vendor,False,False
+Hierarch's Lifeforce Hat,145,673,27,0,0,10,140,0,0,0,0,0,0,18,0,0,0,0,Drop/Vendor,False,False
+Bold Dream Stalker Hood,170,1090,26,14,7,10,0,119,4,0,0,0,0,17,0,2,1,0,Crafting,False,False
+Eternal Inspired Helm,160,1044,26,13,7,10,114,104,0,0,0,0,0,15,0,2,1,0,Crafting,False,False
+Great Inventor's Life Hat (Level 160+),160,1044,26,13,7,10,114,104,0,0,0,0,0,15,0,2,1,0,Crowns,False,False
+Unreal Crown of Health,170,954,26,13,7,11,0,104,4,0,0,0,0,19,0,2,0,1,Raid,False,False
+Floramancer Helm of Life (Level 160+),160,914,26,12,7,11,0,91,4,0,0,0,0,17,0,2,0,1,Crowns,False,False
+Lively Conical of The Void (Level 160+),160,914,26,12,7,11,0,91,4,0,0,0,0,17,0,2,0,1,Raid,False,False
+Vibrant Hardback Helmet (Level 140+),140,1076,26,10,6,7,120,97,4,0,0,0,0,0,0,2,1,0,Crowns,False,False
+Grisly Cerberus Master Helm (Level 140+),140,1076,26,10,6,7,120,97,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Lively Night Mire Top Hat (Level 140+),140,1076,26,10,6,7,120,97,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Thrilling Skyfarer's Douli Hat (Level 140+),140,646,26,10,6,11,120,0,0,0,0,12,0,14,0,0,0,0,Crowns,False,False
+Daemonic Crown of Health,170,1090,26,9,5,12,160,0,6,0,0,0,0,17,0,2,0,1,Raid,False,False
+Lively Conical of The Nullity (Level 160+),160,1044,26,8,5,12,152,0,6,0,0,0,0,15,0,2,0,1,Raid,False,False
+Spring Palace Helmet (Level 170+),170,1090,26,0,5,10,160,89,6,0,0,0,0,21,0,2,0,1,Gold Key/Gauntlet,False,False
+Vivid Imperial Court Helm (Level 170+),170,1090,26,0,5,10,160,89,6,0,0,0,0,21,0,2,0,1,Gold Key/Gauntlet,False,False
+Dynamic Protector's Helmet,165,934,26,0,0,8,117,70,4,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Supreme Preservation Hat,148,932,26,0,0,14,0,0,0,0,0,5,0,17,0,0,0,0,Drop/Vendor,False,False
+Vibrant Townie Kanga-Cap,160,914,26,0,0,8,114,65,4,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Magician's Life Cap,150,828,26,0,4,13,106,0,3,0,0,0,0,17,0,0,0,0,Drop/Vendor,False,False
+Hierarch's Jungle Hat,145,776,26,0,5,11,0,0,0,0,0,0,0,17,0,0,0,0,Drop/Vendor,False,False
+Lemurian Lifeforce Hat,142,621,26,0,0,9,140,0,0,0,0,0,0,17,0,0,0,0,Drop/Vendor,False,False
+Medic Officer Hat,150,898,25,8,0,0,126,74,4,0,0,0,0,13,0,0,0,0,Drop/Vendor,False,False
+Delightful Sweetsmith Cap,140,800,25,0,4,15,99,0,2,0,0,0,0,18,0,0,0,0,Crafting,False,False
+Uber Sweetsmith Cap,140,800,25,0,4,15,99,0,2,0,0,0,0,18,0,0,0,0,Drop/Vendor,False,False
+Alphoi Guerilla Helm,130,790,25,0,5,13,134,0,0,0,0,0,0,14,0,0,0,0,Crafting,False,False
+Lively Paradox Conical,130,790,25,0,5,13,134,0,0,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
+Great Inventor's Life Hat (Level 150+),150,954,24,13,7,10,108,100,0,0,0,0,0,14,0,2,1,0,Crowns,False,False
+Highlands Militia Balmoral (Level 150+),150,954,24,13,7,10,108,100,0,0,0,0,0,14,0,0,0,0,Crowns,False,False
+Lively Conical of The Void (Level 150+),150,835,24,12,7,11,0,87,3,0,0,12,0,16,0,0,0,0,Raid,False,False
+Burrower's Theurgy Hood (Level 130+),130,768,24,12,0,7,0,88,3,0,0,0,0,13,0,0,0,0,Crowns,False,False
+Lively Night Mire Top Hat (Level 130+),130,960,24,10,6,7,114,88,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Wild Hat (Level 130+),130,576,24,10,6,11,114,0,3,0,0,0,0,13,0,0,0,0,Crowns,False,False
+Thrilling Skyfarer's Douli Hat (Level 130+),130,576,24,10,6,11,114,0,0,0,0,11,0,13,0,0,0,0,Crowns,False,False
+Lively Conical of The Nullity (Level 150+),150,954,24,8,5,12,0,0,5,0,0,0,0,14,0,0,0,0,Raid,False,False
+Golden Life Helmet,155,825,24,7,0,0,111,64,3,0,0,0,0,12,0,0,0,0,Drop/Vendor,False,False
+Hierarch's Preservation Hat,145,880,24,0,0,14,0,0,0,0,0,5,0,16,0,0,0,0,Drop/Vendor,False,False
+Dragoon's Vibrant Helm,130,833,24,0,5,14,152,0,3,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,True
+Verdant Zanadu Helm,130,781,24,0,4,12,130,0,0,0,0,0,0,13,0,0,0,0,Drop/Vendor,False,False
+Cabalist Hood of the First,125,773,24,0,0,12,123,0,2,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
+Lofty Alphoi Mantle,125,773,24,0,4,0,119,0,2,0,0,0,0,14,0,0,0,0,Crafting,False,False
+Wunderbar Sweetsmith Cap,140,772,24,0,4,14,99,0,2,0,0,0,0,17,0,0,0,0,Drop/Vendor,False,False
+Guten Sweetsmith Cap,140,753,24,0,4,13,99,0,2,0,0,0,0,16,0,0,0,0,Drop/Vendor,False,False
+Lemurian Jungle Hat,142,725,24,0,5,11,0,0,0,0,0,0,0,16,0,0,0,0,Drop/Vendor,False,False
+Executive Survival Hood,138,659,24,0,0,10,139,0,0,0,0,0,0,18,0,0,0,0,Drop/Vendor,False,False
+Malistaire's Spirited Locks (Level 140+),140,818,23,8,6,9,120,0,0,0,0,8,0,17,0,0,0,0,Crowns,False,False
+Vivid Imperial Court Helm (Level 140+),140,861,23,0,5,8,137,73,5,0,0,0,0,16,0,2,0,1,Crowns,False,False
+Lemurian Preservation Hat,142,828,23,0,0,13,0,0,0,0,0,5,0,15,0,0,0,0,Drop/Vendor,False,False
+Vanguard's Vibrant Helm,130,815,23,0,5,13,152,0,3,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
+Director Survival Hood,138,753,23,0,5,12,0,0,0,0,0,0,0,17,0,0,0,0,Drop/Vendor,False,False
+Chief's Survival Hood,135,612,23,0,0,10,131,0,0,0,0,0,0,17,0,0,0,0,Drop/Vendor,False,False
+Burrower's Theurgy Hood (Level 120+),120,676,22,11,0,6,0,80,3,0,0,0,0,12,0,0,0,0,Crowns,False,False
+Wastelander's Wild Hat (Level 120+),120,507,22,9,6,10,106,0,3,0,0,0,0,12,0,0,0,0,Crowns,False,False
+Malistaire's Spirited Locks (Level 120+),120,507,22,9,6,10,106,0,0,0,0,10,0,12,0,0,0,0,Crowns,False,False
+Thrilling Skyfarer's Douli Hat (Level 120+),120,507,22,9,6,10,106,0,0,0,0,10,0,12,0,0,0,0,Crowns,False,False
+Malistaire's Spirited Locks (Level 130+),130,665,22,8,6,9,113,0,0,0,0,8,0,16,0,0,0,0,Crowns,False,False
+Regulation Medic Hat,150,785,22,7,0,0,108,62,3,0,0,0,0,11,0,0,0,0,Drop/Vendor,False,False
+Soldier's Vibrant Helm,130,787,22,0,5,12,152,0,3,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
+Highlands Militia Balmoral (Level 140+),140,818,21,14,6,8,103,97,0,0,0,0,0,12,0,0,0,0,Crowns,False,False
+Producer's Survival Hood,138,847,21,0,0,14,0,0,0,0,0,5,0,16,0,0,0,0,Drop/Vendor,False,False
+Vivid Imperial Court Helm (Level 130+),130,768,21,0,5,8,130,66,4,0,0,0,0,15,0,2,0,1,Crowns,False,False
+Lead's Survival Hood,135,706,21,0,5,11,0,0,0,0,0,0,0,16,0,0,0,0,Drop/Vendor,False,False
+Time Warden Kavuk of Bounce,120,595,21,0,4,0,117,0,2,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Consultant Survival Hood,132,565,21,0,0,9,131,0,0,0,0,0,0,16,0,0,0,0,Drop/Vendor,False,False
+Burrower's Theurgy Hood (Level 110+),110,583,20,10,0,6,0,77,3,0,0,0,0,11,0,0,0,0,Crowns,False,False
+Lovely Fairy Kei Conical (Level 90+),90,381,20,9,5,0,105,0,2,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Vibrant Hardback Helmet (Level 110+),110,728,20,8,5,6,98,77,3,0,0,0,0,0,0,2,1,0,Crowns,False,False
+Lively Night Mire Top Hat (Level 110+),110,728,20,8,5,6,98,77,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Wild Hat (Level 110+),110,437,20,8,5,10,98,0,3,0,0,0,0,11,0,0,0,0,Crowns,False,False
+Thrilling Skyfarer's Douli Hat (Level 110+),110,437,20,8,5,10,98,0,0,0,0,10,0,11,0,0,0,0,Crowns,False,False
+Mantis Cover of Readiness,100,551,20,7,5,0,112,63,3,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Supervisor Survival Hood,135,800,20,0,0,14,0,0,0,0,0,5,0,15,0,0,0,0,Drop/Vendor,False,False
+Vivid Imperial Court Helm (Level 120+),120,676,20,0,5,7,121,60,4,0,0,0,0,13,0,2,0,1,Crowns,False,False
+Specialist Survival Hood,132,659,20,0,5,11,0,0,0,0,0,0,0,15,0,0,0,0,Drop/Vendor,False,False
+Righteous Kalamar Lid,127,651,20,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Dashing Space Helmet,140,612,20,0,5,11,0,0,0,0,0,0,0,15,0,0,0,0,Drop/Vendor,False,False
+Highlands Militia Balmoral (Level 130+),130,665,19,13,6,8,97,88,0,0,0,0,0,11,0,0,0,0,Crowns,False,False
+Grisly Cerberus Master Helm (Level 120+),120,654,19,10,5,0,106,80,0,0,0,0,0,8,0,0,0,0,Crowns,False,False
+Malistaire's Spirited Locks (Level 110+),110,478,19,7,5,8,98,0,0,0,0,7,0,13,0,0,0,0,Crowns,False,False
+Contractor Survival Hood,132,753,19,0,0,13,0,0,0,0,0,5,0,14,0,0,0,0,Drop/Vendor,False,False
+Lively Liaison's Hat,130,612,19,0,5,11,0,0,0,0,0,0,0,15,0,0,0,0,Drop/Vendor,False,False
+Luphilim's Rapture Helmet,110,492,19,0,4,8,115,0,0,0,0,0,0,13,0,0,0,0,Drop/Vendor,False,False
+Burrower's Theurgy Hood (Level 100+),100,490,18,10,0,8,0,72,3,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Burrower's Theurgy Hood (Level 90+),90,435,18,10,0,7,0,67,2,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Lively Night Mire Top Hat (Level 100+),100,612,18,8,5,0,98,72,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Vibrant Hardback Helmet (Level 100+),100,612,18,8,5,0,98,72,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Lively Night Mire Top Hat (Level 90+),90,543,18,8,5,0,92,67,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Vibrant Hardback Helmet (Level 90+),90,543,18,8,5,0,92,67,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Vibrant Hardback Helmet (Level 80+),80,476,18,8,4,0,79,56,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Lively Night Mire Top Hat (Level 80+),80,472,18,8,4,0,79,56,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Umbra Queen's Wild Crown (Level 100+),100,0,18,8,5,10,98,0,3,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Wastelander's Wild Hat (Level 90+),90,0,18,8,5,8,92,0,2,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Wild Hat (Level 80+),80,0,18,8,4,8,79,0,2,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Crown of the Sistrum,60,302,18,7,2,3,72,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mantis Hat of Readiness,100,490,18,6,5,0,98,54,3,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Vibrant Chieftain's Helm,56,280,18,4,0,8,65,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Vivid Imperial Court Helm (Level 110+),110,583,18,0,5,7,112,58,3,0,0,0,0,12,0,2,0,1,Crowns,False,False
+Medic's Interstellar Helm,122,570,18,0,0,0,124,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Malistaire's Thorny Locks (Level 100+),100,490,18,0,5,10,98,0,0,0,0,10,0,0,0,0,0,0,Crafting,False,False
+Thrilling Skyfarer's Douli Hat (Level 100+),100,490,18,0,5,10,98,0,0,0,0,10,0,0,0,0,0,0,Crowns,False,False
+Malistaire's Spirited Locks (Level 100+),100,478,18,0,5,10,98,0,0,0,0,7,0,0,0,0,0,0,Crowns,False,False
+Majoris Cover of Impulse,110,466,18,0,0,11,114,0,2,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Thrilling Skyfarer's Douli Hat (Level 90+),90,435,18,0,5,8,92,0,0,0,0,10,0,0,0,0,0,0,Crowns,False,False
+Theurgist's Vibrant Capuchon,85,400,18,0,0,8,0,0,0,0,0,10,0,0,0,0,0,0,Crowns,False,False
+Malistaire's Spirited Locks (Level 80+),80,378,18,0,4,8,79,0,0,0,0,9,0,0,0,0,0,0,Crowns,False,False
+Thrilling Skyfarer's Douli Hat (Level 80+),80,378,18,0,4,8,79,0,0,0,0,9,0,0,0,0,0,0,Crowns,False,False
+Cover of Rapture,58,288,18,0,0,9,20,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Everlasting Helm,56,288,18,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Coif of Living Legend,55,245,18,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Everlasting Thunder Cap,55,245,18,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Facade of Natural Law,55,245,18,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Helm of Pure Ice,55,245,18,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Soulsearing Headdress,55,245,18,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Spirited Cowl of Chaos,55,245,18,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Lifeforce Cover,56,216,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Krokopatra Vigor Fez,100,531,17,12,0,10,137,0,3,0,0,0,0,10,0,0,0,0,Drop/Vendor,False,False
+Highlands Militia Balmoral (Level 110+),110,478,17,12,5,7,84,77,0,0,0,0,0,9,0,0,0,0,Crowns,False,False
+Hood of Esprit,60,288,17,9,0,9,59,0,0,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Grisly Cerberus Master Helm (Level 90+),90,520,17,8,4,0,92,66,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Barbarian Helm of Survival,100,448,17,7,0,9,0,0,3,0,0,8,0,0,0,0,0,0,Crowns,False,False
+Dragonhorn Helm of Life,110,492,17,0,0,0,117,0,2,0,0,0,0,13,0,0,0,0,Drop/Vendor,False,False
+Titan Warrior Cowl of Mettle,110,440,17,0,0,10,112,0,1,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Alkali Kalpak of Vibrancy,118,438,17,0,0,0,119,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Nadezha's Cowl of Recovery,96,432,17,0,3,0,168,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Malistaire's Spirited Locks (Level 90+),90,416,17,0,4,8,92,0,0,0,0,7,0,0,0,0,0,0,Crowns,False,False
+Euphoric Cover,58,216,17,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Inspired Mask,56,216,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Vital Headdress,54,144,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cowl of Creation,56,0,17,0,0,9,60,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cowl of Undying Malistaire,100,504,16,11,0,13,135,0,4,0,0,0,0,11,0,0,0,0,Drop/Vendor,False,False
+Great Inventor's Life Hat (Level 90+),90,435,16,10,6,6,0,67,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Highlands Militia Balmoral (Level 90+),90,435,16,10,6,6,0,67,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Grisly Cerberus Master Helm (Level 80+),80,472,16,7,4,0,78,55,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Grisly Cerberus Master Helm (Level 70+),70,401,16,6,4,0,66,47,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Lively Night Mire Top Hat (Level 70+),70,401,16,6,4,0,66,47,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Vibrant Hardback Helmet (Level 70+),70,401,16,6,4,0,66,47,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Wild Hat (Level 70+),70,0,16,6,4,8,66,0,2,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Anubis' Crown of Rebirth,60,253,16,5,2,0,54,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Helm of the Banneret,76,440,16,0,3,0,120,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Ravenous Sun Shaman's Hood,86,420,16,0,3,0,123,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Nephrite Beret,80,415,16,0,2,0,75,10,1,0,0,8,0,0,0,0,0,0,Crowns,False,False
+Timeless Borealis Helm,110,414,16,0,0,9,110,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Vizier's Mantle of Bustle,116,407,16,0,0,0,116,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Poseidon's Brim of Ardor,90,400,16,0,2,10,105,0,2,0,9,10,0,0,0,0,0,0,Drop/Vendor,False,False
+Transcendent Spirited Laurel,90,380,16,0,4,8,0,0,3,0,9,0,0,0,0,0,0,0,Crafting,False,False
+Hades' Helm of Retribution,90,360,16,0,2,8,155,0,3,0,0,6,0,0,0,0,0,0,Drop/Vendor,False,False
+Thrilling Skyfarer's Douli Hat (Level 70+),70,321,16,0,4,8,66,0,0,0,0,9,0,0,0,0,0,0,Crowns,False,False
+Cowl of Thornwood,65,300,16,0,0,0,0,0,1,0,0,9,0,0,0,0,0,0,Drop/Vendor,False,False
+Artisan's Laurel of Vigor,70,375,15,6,3,7,0,0,3,0,6,0,0,0,0,0,0,0,Crafting,False,False
+Burrower's Theurgy Hood (Level 60+),60,264,15,6,0,7,0,37,2,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Lively Night Mire Top Hat (Level 60+),60,330,15,5,4,0,54,37,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Vibrant Hardback Helmet (Level 60+),60,330,15,5,4,0,54,37,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Kraysys' Unfaithful Cowl,50,261,15,4,4,0,0,0,1,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Kraysys' Unfaithful Hat (Socketed),50,261,15,4,0,7,0,0,1,0,0,0,0,0,0,2,1,0,Crafting,False,False
+Zeus' Helm of Kings,90,415,15,0,3,8,155,0,3,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Helm of Radiance Reborn,96,400,15,0,15,0,100,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Wayfarer's Fez of Grit,114,376,15,0,0,0,113,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Nomad's Torboosh of Tenacity,112,369,15,0,0,0,110,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Arcanum Theurgist's Spire,108,363,15,0,0,0,101,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Arcanum Exile Spirit Hat,105,337,15,0,0,10,101,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Malistaire's Spirited Locks (Level 70+),70,329,15,0,4,8,65,0,0,0,0,6,0,0,0,0,0,0,Crowns,False,False
+Brim of Reclamation,95,317,15,0,3,10,35,0,0,0,7,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Burrower Mantle of Ardor,90,317,15,0,3,10,0,0,0,0,7,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Malistaire's Spirited Locks (Level 60+),60,264,15,0,4,8,54,0,0,0,0,8,0,0,0,0,0,0,Crowns,False,False
+Thrilling Skyfarer's Douli Hat (Level 60+),60,264,15,0,4,8,54,0,0,0,0,8,0,0,0,0,0,0,Crowns,False,False
+Hardy Horns,58,187,15,0,0,8,60,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Whispering Cowl,54,144,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Highlands Militia Balmoral (Level 80+),80,378,14,9,5,6,0,55,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Burrower's Theurgy Hood (Level 50+),50,232,14,5,0,7,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Lively Night Mire Top Hat (Level 50+),50,290,14,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Vibrant Hardback Helmet (Level 50+),50,290,14,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Wastelander's Wild Hat (Level 50+),50,0,14,4,4,8,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Kraysys' Unfaithful Hat,50,232,14,3,3,0,0,0,1,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Senator's Spirited Laurel,90,380,14,0,3,8,0,0,2,0,8,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Helm of Nature's Wrath,72,355,14,0,0,8,0,0,1,0,0,5,0,0,0,0,0,0,Drop/Vendor,False,False
+Senator's Laurel of Vigor,70,340,14,0,2,7,0,0,2,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Enchanter's Hat of Courage,106,337,14,0,0,0,98,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Pachyderm's Hat of Zeal,66,325,14,0,2,0,89,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+High Shaman's Hood,80,295,14,0,2,9,0,0,0,0,7,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Malistaire's Thorny Locks (Level 50+),50,232,14,0,4,8,0,0,0,0,0,7,0,0,0,0,0,0,Crafting,False,False
+Malistaire's Spirited Locks (Level 50+),50,232,14,0,4,8,0,0,0,0,0,7,0,0,0,0,0,0,Crowns,False,False
+Thrilling Skyfarer's Douli Hat (Level 50+),50,232,14,0,4,8,0,0,0,0,0,7,0,0,0,0,0,0,Crowns,False,False
+Spirit of Darkmoor's Helm,100,480,13,9,0,11,128,0,3,0,0,0,0,10,0,0,0,0,Drop/Vendor,False,False
+Highlands Militia Balmoral (Level 60+),60,264,13,6,5,6,0,37,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Great Inventor's Life Hat (Level 60+),60,264,13,6,5,6,0,37,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Hands of Anubis Mantle,60,212,13,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mantis Cowl of Purpose,92,380,13,0,0,8,0,0,3,0,0,7,0,0,0,0,0,0,Drop/Vendor,False,False
+Evoker's Stalwart Brim,104,311,13,0,0,0,95,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Wild Helm of the Green,70,295,13,0,2,8,0,0,0,0,7,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hades' Helm of the Abyss,90,155,12,9,0,9,131,0,2,0,7,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Great Inventor's Life Hat (Level 50+),50,232,12,5,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Highlands Militia Balmoral (Level 50+),50,232,12,5,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Floramancer Helm of Life (Level 50+),50,203,12,5,2,7,0,0,0,0,0,7,0,0,0,0,0,0,Crowns,False,False
+Tyrant of Beasts Mask,82,375,12,0,0,8,0,0,2,0,0,6,0,0,0,0,0,0,Drop/Vendor,False,False
+Mage's Hardy Conical,102,285,12,0,0,0,92,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Ceremonial Helm of Triumph,40,216,12,0,2,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Lovely Fairy Kei Conical (Level 40+),40,0,11,3,0,7,0,0,1,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Hood of the Grasslands,62,312,11,0,2,0,20,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Helm of the Living Dead,100,456,10,7,0,9,121,0,2,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Everlasting Celestian Helm,50,259,10,5,0,0,19,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,True
+Lively Night Mire Top Hat (Level 40+),40,216,10,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Wild Hat (Level 40+),40,0,10,3,4,8,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Paladin Helm of Atonement,95,435,10,0,0,9,155,0,2,0,10,7,0,0,0,0,0,0,Crowns,False,False
+Hood of Rejuvenation,45,240,10,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Kraysys' Unfaithful Cowl (H240),50,240,10,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+Yeoman's Cap of Bounty,40,203,10,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Malistaire's Spirited Locks (Level 40+),40,173,10,0,4,8,0,0,0,0,0,7,0,0,0,0,0,0,Crowns,False,False
+Thrilling Skyfarer's Douli Hat (Level 40+),40,173,10,0,4,8,0,0,0,0,0,7,0,0,0,0,0,0,Crowns,False,False
+Forest Lord's Cowl,45,160,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Rogue's Enduring Cap,100,475,9,7,0,11,130,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Knave's Enduring Cap,70,315,9,5,3,7,111,0,3,0,6,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Poseidon's Cover of Vim,70,300,9,5,2,6,109,0,2,0,7,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Krokomaic Vigor Fez,40,202,9,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Great Inventor's Life Hat (Level 40+),40,173,9,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Burrower's Theurgy Hood (Level 30+),30,152,9,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Cap of Grim Elan,44,202,9,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Cowl of the Spirit Stream,44,202,9,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Headwrap of Life's Cycle,44,202,9,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Headdress of Fiery Zest,44,202,9,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Hood of the Vivid Opus,44,202,9,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Living Mantle,44,202,9,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Takanobu's Sedge of Impulse,35,172,9,0,3,5,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Hat of Primacy,45,160,9,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+Hood of the Homunculus,45,160,9,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Shroud of the Green,45,160,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cowl of the Earthlord,45,0,9,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hood of the Ranger,45,0,9,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Advanced Life Conical,50,260,8,6,2,0,18,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Bonebreaker Cowl of Zeal,40,202,8,4,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Grisly Cerberus Master Helm (Level 30+),30,190,8,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Zeus' Galea of Vitality,30,190,8,2,3,3,0,0,0,0,6,6,0,0,0,0,0,0,Drop/Vendor,False,False
+Wastelander's Wild Hat (Level 30+),30,0,8,2,3,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Lost World Soul Helm,85,398,8,0,0,0,113,0,0,5,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Espirit Chapeau,70,327,8,0,0,0,65,0,1,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Defiler's Helm of Anticipation,40,192,8,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mantle of Euphoria,40,192,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Malistaire's Spirited Locks (Level 30+),30,152,8,0,3,5,0,0,0,0,0,5,0,0,0,0,0,0,Crowns,False,False
+Thrilling Skyfarer's Douli Hat (Level 30+),30,152,8,0,3,5,0,0,0,0,0,7,0,0,0,0,0,0,Crowns,False,False
+Hat of the Nimble,35,128,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Headgear of Revival,35,128,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Youkai's Headwraps of Intent,35,128,8,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hood of the Endless Forest,45,80,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Gogi Berry Stained Cap,35,64,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Veil of Vitae,40,0,8,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hood of Longevity,45,192,7,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Barkingham Bombin of Brio,40,162,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Adept's Laurel of Truth,30,135,7,0,2,5,0,0,0,0,5,0,0,0,0,0,0,0,Crafting,False,False
+Hat of Elan,40,128,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hood of Hardiness,40,128,7,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+River Spirit's Lively Cap,35,128,7,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Shroud of Realization,35,128,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Headwraps of Anthems,30,64,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mercenary's Hood,35,64,7,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+War Torn Cowl of Awareness,35,64,7,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Stonebreaker's Hood,35,0,7,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Burrower's Theurgy Hood (Level 20+),20,77,6,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Wild Hat (Level 20+),20,0,6,2,3,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Flamesoul Mantle,33,159,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Gentlewise Cowl,33,159,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Hopespring Shroud,33,159,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Icebloom Hood,33,159,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Lifegrave Hat,33,159,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Merrygale Headwrap,33,159,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Senator's Laurel of Truth,30,135,6,0,1,5,0,0,0,0,3,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Thrilling Skyfarer's Douli Hat (Level 20+),20,77,6,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Grisly Cerberus Master Helm (Level 20+),20,96,5,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Floramancer Helm of Life (Level 20+),20,87,5,2,3,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Sprockets' Invigorating Hat,30,144,5,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Veil of the Garden,30,144,5,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Smogger's Hat of Politeness,25,96,5,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Pops' Theraputic Hat,25,96,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Malistaire's Spirited Locks (Level 20+),20,77,5,0,2,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Headwraps of Restoration,30,0,5,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Helm of Chivalry,25,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Ideyoshi's Adroit Cowl,40,0,5,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Grisly Cerberus Master Helm (Level 10+),10,48,4,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Lively Night Mire Top Hat (Level 10+),10,48,4,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Vibrant Hardback Helmet (Level 10+),10,48,4,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Floramancer Helm of Life (Level 10+),10,44,4,2,3,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Great Inventor's Life Hat (Level 10+),10,39,4,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Highlands Militia Balmoral (Level 10+),10,39,4,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Wild Hat (Level 10+),10,0,4,2,3,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Fair Hat of Ardor,22,112,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Frosty Hat of Felicity,22,112,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Singed Hood of Vigor,22,112,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Soulful Cap of the Grave,22,112,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Vivid Crown of the Mirage,22,112,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Zealous Cap of the Gale,22,112,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Cowl of the Vigilant,25,96,4,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+Jacques' Helm of the Mender,25,96,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Nails' Medical Hat,25,96,4,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Widow's Bewitching Hat,25,96,4,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Spirit Monk's Helmet,25,88,4,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hat of Compassion,20,48,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Headgear of Health,30,48,4,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Malistaire's Spirited Locks (Level 10+),10,39,4,0,3,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Thrilling Skyfarer's Douli Hat (Level 10+),10,39,4,0,3,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Heavenly Headgear,30,0,4,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Old Smokey's Noble Hat,25,0,4,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Monk's Warhelm of Focus,25,143,3,2,1,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Ra's Rapture Headdress,20,86,3,2,0,0,0,0,0,4,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cowl of Alacrity,20,96,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Djal's Flowering Circlet,20,96,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Krokopatra's Cap,20,96,3,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Krokotopian Life Modius,15,86,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,True
+Nebit's Hood of Visions,15,64,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Headdress of Vigor,20,62,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Arboreal Cover,25,0,3,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Vibrant Hardback Helmet (Any Level),1,24,2,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Highlands Militia Balmoral (Any Level),1,20,2,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Wild Hat (Any Level),1,0,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Helm of the Willing Spirit,25,115,2,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Malistaire's Spirited Locks (Any Level),1,33,2,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Thrilling Skyfarer's Douli Hat (Any Level),1,20,2,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Firebloom Topper,15,70,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Icebark Hood,15,70,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Lifedream Mantle,15,70,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Necrosoul Cowl,15,70,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Scatterbloom Veil,15,70,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Stormflower Shroud,15,70,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Immortals' Helm of Spirit,100,418,0,16,0,12,67,0,0,0,8,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Bonesmasher Cowl of Zeal,100,532,0,0,0,8,136,0,0,0,0,0,0,10,0,0,0,0,Drop/Vendor,False,False
+Red Helm of the Survivor,120,529,0,0,7,11,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Gallant Mottoman Helm,118,463,0,0,0,0,0,0,0,5,6,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Eerem Headwrap of Pulse,118,451,0,0,6,11,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Zruvan Helmet of Mettle,116,432,0,0,0,0,0,0,0,5,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Sand Sea Cowl of Hardiness,116,419,0,0,6,11,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Aridian Helm of Thriving,114,401,0,0,0,0,0,0,0,5,4,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mongu Kabalak of Force,112,394,0,0,0,0,0,0,0,5,3,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Rubal Kufiya of Renewal,114,388,0,0,5,11,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Kataba Furcap of Zeal,108,383,0,0,0,0,0,0,0,5,3,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Djinn Ghutrah of Durability,112,382,0,0,5,11,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Walrusk Furcap of Intensity,108,373,0,0,5,11,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Helm of the Lady's Chosen One,78,360,0,0,3,8,0,0,2,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Tayg Ushanka of Vitality,106,357,0,0,0,0,0,0,0,5,3,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Tundarian Papakh of Resolve,106,347,0,0,5,11,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Ghostgrass Hood,68,335,0,0,0,0,89,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Bleaks Ushanka of Vigor,104,332,0,0,0,0,0,0,0,4,2,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Kossack Furcap of Purpose,104,321,0,0,4,10,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mantis Cover of Readiness (Level 98+),98,320,0,0,5,9,0,0,4,0,0,0,0,0,0,0,0,0,Retired,False,False
+Great Coatl's Headdress,88,315,0,0,4,8,0,0,3,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Tundra Ushanka of Survival,102,306,0,0,0,0,0,0,0,4,2,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Lambent's Bonnet of Splendor,70,300,0,0,0,6,0,0,0,6,4,4,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Urville Fur Hat of Elation,102,295,0,0,4,9,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Innate Cap,52,288,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Jungle Hat,60,286,0,0,0,0,78,0,1,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hood of the Brisk Wolf,50,257,0,0,0,0,0,0,0,0,6,6,0,0,0,0,0,0,Drop/Vendor,False,False
+Veil of Essence,45,240,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hood of the Hinterlands,52,216,0,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Natural Cap,54,216,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Timeless Topper,56,216,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cowl of Ambition,35,192,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cowl of Rhyming,40,192,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Crystalline Queen's Shard Cowl,45,160,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Bountiful Cowl,45,160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Flamewing's Rejuvenative Cowl,45,160,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Festive Facade,52,144,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Headdress of the Heart,52,144,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Savvy Cap,25,144,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hood of the Agile,35,128,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Shroud of Deep Thought,35,128,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Shroud of the Opus,35,128,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Shroud of Yodels,35,128,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cap of Rejuvination,25,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Coif of the Combatant,20,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+Coif of the Iceclaw,20,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cap of Spring,25,96,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Flowering Canine Cowl,25,96,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mkhai's Cap,15,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Soothsayer's Helm,20,96,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Shaman's Hat,25,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Sprockets' Urbane Cowl,25,96,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mantle of Growth,45,80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Veil of Leaves,45,80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Verdant Cap,45,80,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Veil of Verdancy,20,66,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cowl of Fiction,30,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Helm of Determination,15,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Shroud of Concentration,35,64,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Theurge's Hat,15,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Bloomshroud,10,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cowl of Excitement,10,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Doctor's Cap,25,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Helm of the Great Troll,10,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Nails' Soothing Helm,25,48,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cap of the Teacher's Pet,5,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cowl of Prediction,15,32,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Headdress of Pyramids,10,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Pharaoh's Crown,15,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Blooming Hat,5,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hat of Hardiness,5,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Life Helmet,50,0,0,0,0,0,40,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Alicane's Cowl,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cap of Subsistence,40,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Crypt Scavenger's Cowl,20,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Dexterous Cap,25,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cowl of Solitude,15,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Curative Coif,35,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Herbalist's Hood,45,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hat of Pure Emotion,25,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hat of the Triad,35,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Mantle of Zest,35,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Spirit Helm,54,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Shroud of Strategic Victory,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+Warbled Hat,35,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Wanderlust Shroud,56,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
