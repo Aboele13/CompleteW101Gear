@@ -19,7 +19,6 @@
         input[type="text"], select {
             margin-bottom: 10px;
             padding: 5px;
-            width: 100%;
             box-sizing: border-box;
         }
         .filter-container {
@@ -179,11 +178,16 @@
                             return document.getElementById(source.toLowerCase().replace(/ /g, '-')).checked;
                         });
 
+                        console.log('Selected Sources:', selectedSources); // Debugging line
+
                         data = originalData.filter(function(row) {
                             var levelMatch = parseInt(row.Level) <= levelFilterValue;
                             var sourceMatch = selectedSources.includes(row.Source);
                             return levelMatch && sourceMatch;
                         });
+
+                        console.log('Filtered Data:', data); // Debugging line
+
                         updateTableBody(data);
                     }
 
