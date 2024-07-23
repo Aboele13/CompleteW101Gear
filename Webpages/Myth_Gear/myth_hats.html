@@ -75,6 +75,8 @@
                     var data = results.data;
                     var originalData = data.slice(); // Keep a copy of the original data
                     var table = document.getElementById('csv-table');
+                    var levelFilter = document.getElementById('level-filter');
+                    var checkboxes = document.querySelectorAll('.source-checkboxes input');
 
                     if (data.length === 0) {
                         console.error('CSV file is empty or failed to parse.');
@@ -82,7 +84,6 @@
                     }
 
                     // Populate the level filter dropdown
-                    var levelFilter = document.getElementById('level-filter');
                     for (var i = 170; i >= 1; i--) {
                         var option = document.createElement('option');
                         option.value = i;
@@ -178,27 +179,23 @@
                             return document.getElementById(source.toLowerCase().replace(/ /g, '-')).checked;
                         });
 
-                        console.log('Selected Sources:', selectedSources); // Debugging line
-
                         data = originalData.filter(function(row) {
                             var levelMatch = parseInt(row.Level) <= levelFilterValue;
                             var sourceMatch = selectedSources.includes(row.Source);
                             return levelMatch && sourceMatch;
                         });
 
-                        console.log('Filtered Data:', data); // Debugging line
-
                         updateTableBody(data);
                     }
 
                     levelFilter.addEventListener('change', applyFilters);
-                    document.querySelectorAll('.source-checkboxes input').forEach(function(checkbox) {
+                    checkboxes.forEach(function(checkbox) {
                         checkbox.addEventListener('change', applyFilters);
                     });
 
                     // Set default filter value to 170 and apply the filters
                     levelFilter.value = "170";
-                    levelFilter.dispatchEvent(new Event('change'));
+                    applyFilters(); // Apply filters immediately
                 },
                 error: function(error) {
                     console.error('Error fetching CSV:', error);
