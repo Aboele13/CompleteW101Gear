@@ -41,7 +41,6 @@
                     console.log('CSV fetched successfully:', results);
                     var data = results.data;
                     var table = document.getElementById('csv-table');
-                    var sortOrder = {}; // Keeps track of sort order for non-numeric columns
 
                     if (data.length === 0) {
                         console.error('CSV file is empty or failed to parse.');
@@ -57,30 +56,20 @@
                         return !isNaN(value - parseFloat(value));
                     }
 
-                    // Function to sort the data
+                    // Function to sort the data in descending order
                     function sortData(key) {
                         data.sort(function(a, b) {
                             var aValue = a[key];
                             var bValue = b[key];
-                            var isNumericColumn = isNumeric(aValue) && isNumeric(bValue);
 
-                            if (isNumericColumn) {
+                            if (isNumeric(aValue) && isNumeric(bValue)) {
                                 aValue = parseFloat(aValue);
                                 bValue = parseFloat(bValue);
-                                return bValue - aValue; // Always descending for numeric
-                            } else {
-                                if (!sortOrder[key]) {
-                                    sortOrder[key] = true; // Default to ascending for non-numerics
-                                } else {
-                                    sortOrder[key] = !sortOrder[key]; // Toggle
-                                }
-
-                                if (sortOrder[key]) {
-                                    return aValue.localeCompare(bValue); // Ascending
-                                } else {
-                                    return bValue.localeCompare(aValue); // Descending
-                                }
                             }
+
+                            if (aValue < bValue) return 1; // Descending
+                            if (aValue > bValue) return -1; // Descending
+                            return 0;
                         });
                         updateTableBody(data);
                     }
