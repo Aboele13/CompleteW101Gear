@@ -65,10 +65,15 @@
                             if (isNumeric(aValue) && isNumeric(bValue)) {
                                 aValue = parseFloat(aValue);
                                 bValue = parseFloat(bValue);
+
+                                if (aValue < bValue) return 1; // Descending
+                                if (aValue > bValue) return -1; // Descending
+                                return 0;
                             }
 
-                            if (aValue < bValue) return 1; // Descending
-                            if (aValue > bValue) return -1; // Descending
+                            // Not Numeric
+                            if (aValue < bValue) return -1; // Ascending / Alphabetical
+                            if (aValue > bValue) return 1; // Ascending / Alphabetical
                             return 0;
                         });
                         updateTableBody(data);
