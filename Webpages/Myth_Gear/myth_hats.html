@@ -148,6 +148,7 @@
                         body.appendChild(fragment);
                     }
 
+                    // Update the table with the current data
                     updateTableBody(data);
 
                     // Add search functionality
@@ -165,6 +166,8 @@
 
                     // Add filter functionality
                     function applyFilters() {
+                        console.log('Applying filters...');
+
                         var levelFilterValue = parseInt(levelFilter.value);
                         var sources = [
                             'Drop/Vendor',
@@ -176,17 +179,20 @@
                             'Retired'
                         ];
                         var selectedSources = sources.filter(function(source) {
-                            var checkbox = document.getElementById(source.toLowerCase().replace(/ /g, '-'));
-                            console.log('Checkbox ' + source + ' checked: ' + checkbox.checked);
-                            return checkbox.checked;
+                            return document.getElementById(source.toLowerCase().replace(/ /g, '-')).checked;
                         });
 
-                        console.log('Selected sources: ', selectedSources);
+                        console.log('Selected Sources:', selectedSources);
+                        console.log('Level Filter Value:', levelFilterValue);
 
+                        // Apply the filters
                         data = originalData.filter(function(row) {
                             var levelMatch = parseInt(row.Level) <= levelFilterValue;
                             var sourceMatch = selectedSources.includes(row.Source);
-                            console.log('Row: ', row, 'Level match: ', levelMatch, 'Source match: ', sourceMatch);
+
+                            console.log('Row Level:', row.Level, 'Level Match:', levelMatch);
+                            console.log('Row Source:', row.Source, 'Source Match:', sourceMatch);
+
                             return levelMatch && sourceMatch;
                         });
 
