@@ -1,0 +1,455 @@
+Name,Level,Health,Damage,Resist,Accuracy,Power Pip,Critical,Critical Block,Pierce,Stun Resist,Incoming,Outgoing,Pip Conserve,Shadow Pip,Archmastery,Sword Pins,Shield Pins,Power Pins,Source,Owned,Gear Set
+Cute Fairy Kei Broadbrim (Level 170+),170,765,34,15,5,0,184,96,8,0,0,0,0,19,0,2,1,0,Crowns,False,False
+Xibalba Vacuum Helm (Level 170+),170,765,34,15,5,0,184,96,8,0,0,0,0,19,0,2,1,0,Raid,False,False
+Deft Dream Reaver Hood,170,983,34,12,5,11,184,96,8,0,0,0,0,0,0,2,1,0,Drop/Vendor,False,False
+Xibalba Vacuum Helm (Level 160+),160,711,33,14,5,0,170,85,7,0,0,0,0,17,0,2,1,0,Raid,False,False
+Abstract Aeon Helm,160,914,33,11,5,11,170,85,7,0,0,0,0,0,0,2,1,0,Drop/Vendor,False,False
+Astute Hardback Helmet (Level 170+),170,1092,31,13,6,8,161,109,7,0,0,0,0,0,0,2,1,0,Gold Key/Gauntlet,False,False
+Wastelander's Dusty Hat (Level 170+),170,656,31,13,6,13,161,0,7,0,0,0,0,19,0,2,0,1,Crowns,False,False
+Umbra Queen's Dusty Crown (Level 170+),170,656,31,13,6,13,161,0,7,0,0,0,0,19,0,2,0,1,Drop/Vendor,False,False
+Cute Fairy Kei Broadbrim (Level 150+),150,649,31,13,5,0,160,79,7,0,0,0,0,16,0,2,1,0,Crowns,False,False
+Hunhau's Vacuum Helm (Level 170+),170,983,31,12,0,10,161,96,7,0,0,0,0,21,0,2,1,0,Raid,False,False
+Demiurge's Schemer Helm,150,835,31,10,5,11,160,79,7,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Merciless Balance Cap,150,835,31,10,5,11,160,79,7,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Deft Dream Warper Hood,170,874,31,0,4,10,161,82,7,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Just Enforcer's Helmet,165,843,31,0,4,10,155,78,6,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Burrower's Sorcery Hood (Level 160+),160,812,30,15,0,8,149,97,6,0,0,0,0,17,0,2,1,0,Gold Key/Gauntlet,False,False
+Malistaire's Harmonic Locks (Level 160+),160,609,30,14,6,13,149,0,6,0,0,0,0,17,0,2,0,1,Crafting,False,False
+Stable Skyfarer's Douli Hat (Level 160+),160,609,30,14,6,13,149,0,6,0,0,0,0,17,0,2,0,1,Crowns,False,False
+Astute Hardback Helmet (Level 160+),160,1015,30,12,6,8,149,97,6,0,0,0,0,0,0,2,1,0,Crowns,False,False
+Balanced Night Mire Top Hat (Level 160+),160,1015,30,12,6,8,149,97,6,0,0,0,0,0,0,2,1,0,Gold Key/Gauntlet,False,False
+Hunhau's Vacuum Helm (Level 160+),160,914,30,11,0,10,149,85,5,0,0,0,0,19,0,2,1,0,Raid,False,False
+Abstract Masterpiece Helm,160,812,30,9,0,0,148,73,6,0,0,0,0,15,0,0,0,0,Drop/Vendor,False,False
+Elegant City Dweller Kanga-Cap,160,812,30,0,4,10,149,73,6,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Supreme Hex Hat,148,652,30,0,0,10,174,0,0,0,0,0,0,19,0,0,0,0,Drop/Vendor,False,False
+Cute Fairy Kei Broadbrim (Level 140+),140,589,29,13,5,0,151,77,6,0,0,0,0,14,0,2,1,0,Crowns,False,False
+Deft Dream Stalker Hood,170,874,28,16,7,10,0,109,6,0,0,0,0,17,0,2,1,0,Crafting,False,False
+Unreal Crown of Impossibility,170,765,28,15,7,11,0,96,6,0,0,0,0,19,0,2,0,1,Raid,False,False
+Burrower's Sorcery Hood (Level 150+),150,742,28,14,0,8,140,90,6,0,0,0,0,16,0,2,1,0,Crowns,False,False
+Balanced Night Mire Top Hat (Level 150+),150,927,28,12,6,6,140,90,6,0,0,0,0,0,0,2,1,0,Crowns,False,False
+Stable Skyfarer's Douli Hat (Level 150+),150,557,28,12,6,13,140,0,6,0,0,0,0,16,0,2,0,1,Crowns,False,False
+Wastelander's Dusty Hat (Level 150+),150,557,28,12,6,13,140,0,6,0,0,0,0,16,0,2,0,1,Crowns,False,False
+Daemonic Crown of Impossibility,170,874,28,10,5,12,184,0,9,0,0,0,0,17,0,2,0,1,Raid,False,False
+Grandfather Spider's Steady Cowl (Level 150+),150,1299,28,0,6,13,140,0,0,0,0,0,0,16,0,0,0,0,Crowns,False,False
+Balanced August Sage Cap (Level 170+),170,874,28,0,5,10,184,82,9,0,0,0,0,21,0,2,0,1,Gold Key/Gauntlet,False,False
+Measured Chivalric Crown (Level 170+),170,874,28,0,5,10,184,82,9,0,0,0,0,21,0,2,0,1,Gold Key/Gauntlet,False,False
+Malevolent Balance Cap,150,764,28,0,4,14,124,0,4,0,0,0,0,18,0,0,0,0,Drop/Vendor,False,False
+Magician's Balance Cap,150,745,28,0,4,13,124,0,4,0,0,0,0,17,0,0,0,0,Drop/Vendor,False,False
+Supreme Teleological Hat,148,745,28,0,6,12,0,0,0,0,0,0,0,18,0,0,0,0,Drop/Vendor,False,False
+Hierarch's Hex Hat,145,605,28,0,0,10,165,0,0,0,0,0,0,18,0,0,0,0,Drop/Vendor,False,False
+Eternal Abstract Helm,160,812,27,15,7,10,128,97,0,0,0,0,0,15,0,2,1,0,Crafting,False,False
+Great Inventor's Balance Hat (Level 160+),160,812,27,15,7,10,128,97,0,0,0,0,0,15,0,2,1,0,Crowns,False,False
+Balanced Conical of The Void (Level 160+),160,711,27,14,7,11,0,85,5,0,0,0,0,17,0,2,0,1,Raid,False,False
+Floramancer Helm of Cycles (Level 160+),160,711,27,14,7,11,0,85,5,0,0,0,0,17,0,2,0,1,Crowns,False,False
+Burrower's Sorcery Hood (Level 140+),140,673,27,14,0,8,0,88,5,0,0,0,0,14,0,0,0,0,Crowns,False,False
+Astute Hardback Helmet (Level 140+),140,841,27,12,6,8,132,88,5,0,0,0,0,0,0,2,1,0,Crowns,False,False
+Balanced Night Mire Top Hat (Level 140+),140,841,27,12,6,8,132,88,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Dusty Hat (Level 140+),140,505,27,12,6,13,132,0,5,0,0,0,0,14,0,0,0,0,Crowns,False,False
+Stable Skyfarer's Douli Hat (Level 140+),140,505,27,12,6,13,132,0,0,0,0,8,0,14,0,0,0,0,Crowns,False,False
+Astute Page Treaders (Level 120+),120,674,27,11,4,6,74,136,5,0,0,0,0,0,0,1,1,1,Crowns,False,False
+Balanced Conical of The Nullity (Level 160+),160,812,27,9,5,12,170,0,8,0,0,0,0,15,0,2,0,1,Raid,False,False
+Glistening Balance Helmet,155,764,27,9,0,0,143,69,5,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
+Grandfather Spider's Steady Cowl (Level 140+),140,1178,27,0,6,13,132,0,0,0,0,0,0,14,0,0,0,0,Crowns,False,False
+Supreme Stability Hat,148,838,27,0,0,14,0,0,0,0,3,0,0,17,0,0,0,0,Drop/Vendor,False,False
+Just Protector's Helmet,165,738,27,0,0,8,133,65,6,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Delightful Dreamsearcher Cap,140,720,27,0,4,15,116,0,3,0,0,0,0,18,0,0,0,0,Crafting,False,False
+Uber Dreamsearcher Cap,140,720,27,0,4,15,116,0,3,0,0,0,0,18,0,0,0,0,Drop/Vendor,False,False
+Elegant Townie Kanga-Cap,160,711,27,0,0,8,128,61,5,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hierarch's Teleological Hat,145,699,27,0,6,11,0,0,0,0,0,0,0,17,0,0,0,0,Drop/Vendor,False,False
+Lemurian Hex Hat,142,559,27,0,0,9,165,0,0,0,0,0,0,17,0,0,0,0,Drop/Vendor,False,False
+Ghoulish Cerberus Master Helm (Level 150+),150,910,26,11,6,0,139,90,0,0,0,0,0,11,0,0,0,0,Crowns,False,False
+Scout Officer Hat,150,728,26,8,0,0,139,67,5,0,0,0,0,13,0,0,0,0,Drop/Vendor,False,False
+Alphoi Saboteur Helm,130,773,26,0,6,13,137,0,0,0,0,0,0,14,0,0,0,0,Crafting,False,False
+Balanced Paradox Conical,130,773,26,0,6,13,137,0,0,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
+Wunderbar Dreamsearcher Cap,140,695,26,0,4,14,116,0,3,0,0,0,0,17,0,0,0,0,Drop/Vendor,False,False
+Guten Dreamsearcher Cap,140,678,26,0,4,13,116,0,3,0,0,0,0,16,0,0,0,0,Drop/Vendor,False,False
+Great Inventor's Balance Hat (Level 150+),150,742,25,14,7,10,120,90,0,0,0,0,0,14,0,2,1,0,Crowns,False,False
+Highlands Raider's Balmoral (Level 150+),150,742,25,14,7,10,120,90,0,0,0,0,0,14,0,0,0,0,Crowns,False,False
+Balanced Night Mire Top Hat (Level 130+),130,755,25,12,6,8,120,80,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Cute Fairy Kei Broadbrim (Level 120+),120,469,25,12,5,0,136,64,4,0,0,0,0,12,0,2,1,0,Crowns,False,False
+Stable Skyfarer's Douli Hat (Level 130+),130,453,25,12,6,12,120,0,0,0,0,8,0,13,0,0,0,0,Crowns,False,False
+Astute Page Treaders (Level 110+),110,535,25,11,4,5,74,133,4,0,0,0,0,0,0,1,1,1,Crowns,False,False
+Balanced Conical of The Nullity (Level 150+),150,742,25,9,5,12,160,0,8,0,0,0,0,14,0,0,0,0,Raid,False,False
+Grandfather Spider's Steady Cowl (Level 130+),130,604,25,8,6,12,120,0,0,0,0,0,0,13,0,0,0,0,Crowns,False,False
+Dragoon's Balanced Helm,130,806,25,0,6,14,155,0,4,0,0,0,0,14,0,0,0,0,Crafting,False,True
+Hierarch's Stability Hat,145,792,25,0,0,14,0,0,0,0,3,0,0,16,0,0,0,0,Drop/Vendor,False,False
+Immutable Zanadu Helm,130,765,25,0,5,12,133,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cabal Hood of Disruption,125,757,25,0,0,12,126,0,3,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
+Aristocratic Alphoi Mantle,125,757,25,0,5,0,122,0,3,0,0,0,0,14,0,0,0,0,Crafting,False,False
+Lemurian Teleological Hat,142,652,25,0,6,11,0,0,0,0,0,0,0,16,0,0,0,0,Drop/Vendor,False,False
+Executive Protective Hood,138,593,25,0,0,10,160,0,0,0,0,0,0,18,0,0,0,0,Drop/Vendor,False,False
+Golden Balance Helmet,155,669,24,7,0,0,122,58,4,0,0,0,0,12,0,0,0,0,Drop/Vendor,False,False
+Vanguard's Balanced Helm,130,788,24,0,6,13,155,0,4,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
+Balanced August Sage Cap (Level 140+),140,673,24,0,5,10,151,66,7,0,0,0,0,16,0,2,0,1,Crowns,False,False
+Cute Fairy Kei Broadbrim (Level 110+),110,409,23,12,5,0,132,61,4,0,0,0,0,11,0,2,1,0,Crowns,False,False
+Balanced Night Mire Top Hat (Level 120+),120,669,23,11,6,7,119,73,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Dusty Hat (Level 120+),120,402,23,11,6,11,119,0,4,0,0,0,0,12,0,0,0,0,Crowns,False,False
+Balanced Conical of The Void (Level 150+),150,819,23,10,7,11,0,78,4,0,0,6,0,15,0,0,0,0,Raid,False,False
+Regulation Scout Hat,150,637,23,7,0,0,119,56,4,0,0,0,0,11,0,0,0,0,Drop/Vendor,False,False
+Grandfather Spider's Steady Cowl (Level 120+),120,938,23,0,6,11,119,0,0,0,0,0,0,12,0,0,0,0,Crowns,False,False
+Soldier's Balanced Helm,130,762,23,0,6,12,155,0,4,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
+Lemurian Stability Hat,142,745,23,0,0,13,0,0,0,0,3,0,0,15,0,0,0,0,Drop/Vendor,False,False
+Director Protective Hood,138,678,23,0,6,12,0,0,0,0,0,0,0,17,0,0,0,0,Drop/Vendor,False,False
+Chief's Protective Hood,135,551,23,0,0,10,145,0,0,0,0,0,0,17,0,0,0,0,Drop/Vendor,False,False
+Highlands Raider's Balmoral (Level 140+),140,648,22,14,6,9,113,88,0,0,0,0,0,12,0,0,0,0,Gold Key/Gauntlet,False,False
+Floramancer Helm of Cycles (Level 130+),130,529,22,13,7,10,0,70,0,0,0,8,0,13,0,0,0,0,Crowns,False,False
+Producer's Protective Hood,138,762,22,0,0,14,0,0,0,0,3,0,0,16,0,0,0,0,Drop/Vendor,False,False
+Bodacious Kalamar Lid,127,638,22,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Lead's Protective Hood,135,635,22,0,6,11,0,0,0,0,0,0,0,16,0,0,0,0,Drop/Vendor,False,False
+Time Warden Kavuk of Truth,120,581,22,0,5,0,120,0,3,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
+Consultant Protective Hood,132,508,22,0,0,9,140,0,0,0,0,0,0,16,0,0,0,0,Drop/Vendor,False,False
+Burrower's Sorcery Hood (Level 110+),110,467,21,13,0,7,0,70,4,0,0,0,0,11,0,0,0,0,Crowns,False,False
+Stable Skyfarer's Douli Hat (Level 110+),110,350,21,12,6,11,116,0,0,0,0,7,0,11,0,0,0,0,Crowns,False,False
+Astute Hardback Helmet (Level 110+),110,583,21,11,6,7,116,70,4,0,0,0,0,0,0,2,1,0,Crowns,False,False
+Balanced Night Mire Top Hat (Level 110+),110,583,21,11,6,7,116,70,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Dusty Hat (Level 110+),110,350,21,11,6,11,116,0,4,0,0,0,0,11,0,0,0,0,Crowns,False,False
+Gorge Digger's Sturdy Helm,100,448,21,10,6,0,132,57,4,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Supervisor Protective Hood,135,720,21,0,0,14,0,0,0,0,3,0,0,15,0,0,0,0,Drop/Vendor,False,False
+Specialist Protective Hood,132,593,21,0,6,11,0,0,0,0,0,0,0,15,0,0,0,0,Drop/Vendor,False,False
+Amazing Space Helmet,140,551,21,0,5,11,0,0,0,0,0,0,0,15,0,0,0,0,Drop/Vendor,False,False
+Highlands Raider's Balmoral (Level 130+),130,618,20,13,6,8,100,80,0,0,0,0,0,11,0,0,0,0,Crowns,False,False
+Great Inventor's Balance Hat (Level 120+),120,536,20,13,7,8,102,73,0,0,0,0,0,10,0,0,0,0,Crowns,False,False
+Cute Fairy Kei Broadbrim (Level 90+),90,311,20,10,5,0,114,0,4,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Contractor Protective Hood,132,678,20,0,0,13,0,0,0,0,3,0,0,14,0,0,0,0,Drop/Vendor,False,False
+Interstellar Delegate's Helm,122,558,20,0,0,0,126,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Balanced Liaison's Hat,130,551,20,0,5,11,0,0,0,0,0,0,0,15,0,0,0,0,Drop/Vendor,False,False
+Balanced August Sage Cap (Level 120+),120,536,20,0,5,8,136,55,5,0,0,0,0,13,0,2,0,1,Crowns,False,False
+Luphilim's Valiant Greathelm,110,481,20,0,5,8,117,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Burrower's Sorcery Hood (Level 100+),100,398,19,13,0,9,0,65,4,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Astute Hardback Helmet (Level 100+),100,497,19,11,6,0,116,65,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Balanced Night Mire Top Hat (Level 100+),100,497,19,11,6,0,116,65,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Ghoulish Cerberus Master Helm (Level 100+),100,497,19,11,6,0,116,65,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Umbra Queen's Dusty Crown (Level 100+),100,0,19,11,6,11,116,0,4,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Gorge Digger's Sturdy Hat,100,398,19,8,5,0,116,49,4,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Balanced August Sage Cap (Level 110+),110,467,19,0,5,8,132,53,5,0,0,0,0,12,0,2,0,1,Crowns,False,False
+Majoris Helm of Cohesion,110,455,19,0,0,11,116,0,3,0,0,0,0,12,0,0,0,0,Drop/Vendor,False,False
+Alkali Kalpak of Fealty,118,428,19,0,0,0,122,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Grandfather Spider's Steady Cowl (Level 100+),100,398,19,0,6,11,116,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Malistaire's Harmonic Locks (Level 100+),100,398,19,0,6,11,116,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Stable Skyfarer's Douli Hat (Level 100+),100,398,19,0,6,11,116,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Burrower's Sorcery Hood (Level 90+),90,355,18,11,0,8,0,60,4,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Burrower's Sorcery Hood (Level 80+),80,312,18,10,0,8,0,51,4,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Hood of Judgment,60,287,18,9,0,8,58,0,0,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Astute Hardback Helmet (Level 80+),80,389,18,8,5,0,82,51,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Balanced Night Mire Top Hat (Level 80+),80,389,18,8,5,0,82,51,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Ghoulish Cerberus Master Helm (Level 80+),80,389,18,8,5,0,82,51,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Dusty Hat (Level 80+),80,0,18,8,5,9,82,0,4,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Grandfather Spider's Steady Cowl (Level 110+),110,394,18,7,5,9,116,0,0,0,0,0,0,13,0,0,0,0,Crowns,False,False
+House of Scales Headdress,60,302,18,7,3,3,82,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Steady Chieftain's Helm,56,195,18,4,0,6,65,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Dragonhorn Helm of Balance,110,481,18,0,0,0,119,0,3,0,0,0,0,13,0,0,0,0,Drop/Vendor,False,False
+Sorcerer's Pointy Hat,85,450,18,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Titan Warrior Honesty Cowl,110,430,18,0,0,10,114,0,2,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Vizier's Mantle of Dignity,116,398,18,0,0,0,119,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Grandfather Spider's Steady Cowl (Level 90+),90,355,18,0,5,9,100,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Stable Skyfarer's Douli Hat (Level 90+),90,355,18,0,5,9,100,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Grandfather Spider's Steady Cowl (Level 80+),80,312,18,0,5,9,82,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Moon Cover,58,288,18,0,0,9,20,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Harmony Helm,56,288,18,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Balanced Brimstone Brim,55,245,18,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Cap of Tragic Tolerance,55,245,18,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Coalescent Ice Cap,55,245,18,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Harmonious Heart Helm,55,245,18,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Lawful Thunder Hood,55,245,18,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Mask of Mutual Mystery,55,245,18,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Synthesis Cover,56,216,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Krokopatra Justice Fez,100,531,17,14,0,9,151,0,2,0,0,0,0,10,0,0,0,0,Drop/Vendor,False,False
+Great Inventor's Balance Hat (Level 100+),100,398,17,13,7,8,0,65,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Order of the Tygron Helm,100,412,17,7,4,9,0,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Balanced Night Mire Top Hat (Level 70+),70,335,17,7,5,0,70,43,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Cute Fairy Kei Broadbrim (Level 60+),60,197,17,7,4,0,64,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Dusty Hat (Level 70+),70,0,17,7,5,8,70,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Hood of Harmonious Trade,96,432,17,0,4,0,168,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Trader's Hood of Fairness,96,432,17,0,4,0,168,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Borealis Helm of Resolution,110,405,17,0,0,9,112,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hat of Perfect Poise,80,400,17,0,4,0,90,5,2,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wayfarer's Fez of Poise,114,367,17,0,0,0,116,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Grandfather Spider's Steady Cowl (Level 70+),70,268,17,0,5,8,70,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Stable Skyfarer's Douli Hat (Level 70+),70,268,17,0,5,8,70,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Mutual Mask,56,216,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Shroud of Resolution,58,216,17,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Insightful Topper,54,144,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+United Headdress,56,0,17,0,0,0,67,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Veil of Principles,56,0,17,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Masque of the Exalted One,100,504,16,13,0,13,149,0,4,0,0,0,0,11,0,0,0,0,Drop/Vendor,False,False
+Great Inventor's Balance Hat (Level 90+),90,355,16,11,6,7,0,60,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Great Inventor's Balance Hat (Level 80+),80,312,16,10,5,6,0,51,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Highlands Raider's Balmoral (Level 80+),80,312,16,10,6,7,0,51,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Ghoulish Cerberus Master Helm (Level 90+),90,416,16,8,5,0,100,60,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Burrower's Sorcery Hood (Level 60+),60,225,16,7,0,7,0,35,3,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Astute Hardback Helmet (Level 60+),60,281,16,6,4,0,56,35,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Balanced Night Mire Top Hat (Level 60+),60,281,16,6,4,0,56,35,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Anubis' Crown of Guidance,60,253,16,5,3,0,61,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Kraysys' Hood of the Hidden,50,225,16,5,4,0,0,0,2,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Kraysys' Hat of the Hidden (Socketed),50,225,16,5,0,7,0,0,2,0,0,0,0,0,0,2,1,0,Crafting,False,False
+Transcendent Noble Laurel,90,415,16,0,5,8,0,0,0,0,7,0,0,0,0,0,0,0,Crafting,False,False
+Helmet of Tranquil Seas,90,390,16,0,3,10,135,0,2,0,7,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Nomad's Torboosh of Redress,112,361,16,0,0,0,113,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Arcanum Sorcerer's Spire,108,354,16,0,0,0,102,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Glider's Helm of Equality,96,350,16,0,15,0,110,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Headpiece of Equilibrium,95,330,16,0,3,10,35,0,0,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Arcanum Exile Noble Hat,105,329,16,0,0,10,102,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mantis Helmet of Acumen,90,320,16,0,3,10,0,0,0,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hades' Helm of Penance,90,310,16,0,3,8,160,0,4,0,0,3,0,0,0,0,0,0,Drop/Vendor,False,False
+Stable Skyfarer's Douli Hat (Level 60+),60,225,16,0,4,8,56,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Grandfather Spider's Steady Cowl (Level 60+),60,224,16,0,4,8,57,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Floramancer Helm of Cycles (Level 70+),70,302,15,6,6,7,0,38,0,0,0,7,0,0,0,0,0,0,Crowns,False,False
+Burrower's Sorcery Hood (Level 50+),50,200,15,6,0,7,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Balanced Night Mire Top Hat (Level 50+),50,249,15,5,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Astute Hardback Helmet (Level 50+),50,249,15,5,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Ghoulish Cerberus Master Helm (Level 50+),50,249,15,5,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Dusty Hat (Level 50+),50,0,15,5,4,8,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Kraysys' Hat of the Hidden,50,200,15,4,3,0,0,0,2,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Helm of the Heavens,90,410,15,0,4,8,155,0,3,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Senator's Noble Laurel,90,400,15,0,4,8,0,0,0,0,6,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Phantom Devotee's Helm,96,350,15,0,15,0,110,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Face of the Lords of Night,86,340,15,0,4,0,122,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Artisan's Stately Laurel,70,330,15,0,4,7,0,0,3,0,6,0,0,0,0,0,0,0,Crafting,False,False
+Enchanter's Hat of Poise,106,329,15,0,0,0,99,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Favored One's Headwrap,80,305,15,0,2,9,0,0,0,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Grandfather Spider's Steady Cowl (Level 50+),50,200,15,0,4,8,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Stable Skyfarer's Douli Hat (Level 50+),50,200,15,0,4,8,0,0,0,0,0,5,0,0,0,0,0,0,Crowns,False,False
+Malistaire's Harmonic Locks (Level 50+),50,200,15,0,4,8,0,0,0,0,0,5,0,0,0,0,0,0,Crafting,False,False
+Horns of Absolution,58,157,15,0,0,8,67,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Versatile Veil,50,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Highlands Raider's Balmoral (Level 90+),90,333,14,10,5,6,0,60,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Silvertongue Cowl,76,370,14,0,4,0,120,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Senator's Stately Laurel,70,325,14,0,3,7,0,0,2,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Sidhe Cowl of Attunement,65,319,14,0,3,0,0,0,1,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Wise One's Mantle,70,306,14,0,2,8,0,0,0,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Evoker's Gallant Brim,104,304,14,0,0,0,96,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Baobab's Spirit Hood,66,270,14,0,2,0,99,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Noble Explorer's Safari Hat,66,270,14,0,2,0,99,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Kindred Cowl,54,144,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Helm of Castle Darkmoor,100,480,13,11,0,11,141,0,3,0,0,0,0,10,0,0,0,0,Drop/Vendor,False,False
+Great Inventor's Balance Hat (Level 50+),50,200,13,6,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Floramancer Helm of Cycles (Level 50+),50,175,13,6,4,7,0,0,0,0,0,5,0,0,0,0,0,0,Crowns,False,False
+Anubis' Crown of Judgment,60,212,13,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Crown of the Three Spirits,86,335,13,0,3,0,122,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Mage's Conical of Aplomb,102,278,13,0,0,0,93,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hades' Helm of Justice,90,155,12,9,0,9,143,0,2,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Highlands Raider's Balmoral (Level 50+),50,186,12,5,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Paladin's Helm of Virtue,95,400,12,0,4,9,168,0,2,0,5,0,0,0,0,0,0,0,Crowns,False,False
+Wyrd-Walker Coif,76,360,12,0,3,0,120,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Royal Conical of Accord,40,216,12,0,2,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Crocogator's Ambush Hood,62,312,11,0,2,0,20,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hippogriff's Hat of Harmony,62,312,11,0,2,0,20,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Darkmoor Herald's Mantle,100,456,10,9,0,9,133,0,2,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Versatile Celestian Helm,50,259,10,4,0,0,21,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,True
+Astute Hardback Helmet (Level 40+),40,216,10,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Dusty Hat (Level 40+),40,0,10,4,4,8,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Kraysys' Hood of the Hidden (H240),50,240,10,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+Mantle of Order,45,240,10,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Yeoman's Topper of Unity,40,203,10,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Grandfather Spider's Steady Cowl (Level 40+),40,173,10,0,3,8,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Stable Skyfarer's Douli Hat (Level 40+),40,173,10,0,4,8,0,0,0,0,0,5,0,0,0,0,0,0,Crowns,False,False
+Hood of Equity,45,160,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Rogue's Equalizing Cap,100,475,9,7,0,10,145,0,0,0,0,0,0,10,0,0,0,0,Drop/Vendor,False,False
+Knave's Equalizing Cap,70,315,9,5,3,8,122,0,3,0,6,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Poseidon's Wave Crest Helm,70,300,9,4,3,7,120,0,2,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Highlands Raider's Balmoral (Level 40+),40,173,9,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Krokomaic Justice Fez,40,201,9,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Burrower's Sorcery Hood (Level 30+),30,152,9,2,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Cute Fairy Kei Broadbrim (Level 30+),30,0,9,2,0,4,0,0,1,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Balanced Cowl of Legend,44,202,9,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Chilly Veil of Neutrality,44,202,9,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Steady Mantle of Woe,44,202,9,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Smoldering Hat of Equity,44,202,9,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Thundering Hood of Stasis,44,202,9,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Vivid Hat of Discovery,44,202,9,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Takanobu's Sedge of Honor,35,172,9,0,3,5,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Avalanche's Balanced Mantle,45,160,9,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Diego's Dueling Cap,45,160,9,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+Flamebringer's Cowl,45,160,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Grandfather Spider's Steady Cowl (Level 30+),30,152,9,0,4,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Stable Skyfarer's Douli Hat (Level 30+),30,152,9,0,4,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Hood of Propriety,45,80,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Blackblade's Baleful Hood,45,0,9,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mantle of Fortitude,45,0,9,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Advanced Balance Conical,50,260,8,6,2,0,20,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Bonebreaker Cowl of Poise,40,201,8,2,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Zeus' Helm of Authority,30,190,8,2,3,3,0,0,0,0,6,6,0,0,0,0,0,0,Drop/Vendor,False,False
+Highlands Raider's Balmoral (Level 30+),30,152,8,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Lost World Fated Hood,85,398,8,0,0,0,123,0,0,5,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Decorous Brim,70,363,8,0,0,0,80,0,1,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Digger's Helm of Symmetry,92,260,8,0,0,0,102,0,3,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Brave One's Mantle,72,237,8,0,0,0,102,0,1,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Plagued Cowl of Aspirations,40,192,8,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Tranquil Topper,40,192,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cap of Equilibrium,35,128,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hood of the Resolute,35,128,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Youkai's Hat of Kindness,35,128,8,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Shroud of Symmetry,45,80,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Enlivened Cowl,35,64,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cap of the Evenhanded,40,0,8,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Crazed Forest Spirit's Hat,40,0,8,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Balanced Night Mire Top Hat (Level 20+),20,96,7,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Dusty Hat (Level 20+),20,0,7,2,3,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Coatl Lord's Hat,82,255,7,0,0,0,100,0,2,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mantle of Magnitude,45,192,7,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Royal Cap of Alliance,40,162,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Adept's Judicial Laurel,30,150,7,0,3,4,0,0,0,0,5,0,0,0,0,0,0,0,Crafting,False,False
+Cap of Prudence,35,128,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mantle of Decorum,40,128,7,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Tamauji's Cap of the Spry,35,128,7,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Veil of Protocol,40,128,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Grandfather Spider's Steady Cowl (Level 20+),20,77,7,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Hat of the Eager,30,64,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Howling Hood,35,64,7,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+War Oni's Disillusioned Hat,35,64,7,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Grum's Dashing Headwrap,35,0,7,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Floramancer Helm of Cycles (Level 20+),20,87,6,2,3,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Highlands Raider's Balmoral (Level 20+),20,77,6,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Balanced Night Mire Top Hat (Level 10+),10,48,6,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Burrower's Sorcery Hood (Level 10+),10,39,6,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Cute Fairy Kei Broadbrim (Level 10+),10,34,6,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Dusty Hat (Level 10+),10,0,6,1,3,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Coif of the Fair Winds,33,159,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Cowl of Weighty Grief,33,159,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Hat of Answered Questions,33,159,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Hat of Blazing Honor,33,159,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Helm of the Ordered Spirit,33,159,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Hood of Icy Composure,33,159,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Senator's Judicial Laurel,30,135,6,0,2,4,0,0,0,0,3,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Stable Skyfarer's Douli Hat (Level 10+),10,39,6,0,3,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Battlehelm of Harmony,25,143,5,3,1,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Great Inventor's Balance Hat (Level 10+),10,39,5,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Highlands Raider's Balmoral (Level 10+),10,38,5,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Bellows' Helm of Civility,30,144,5,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Equanimous Headdress,30,144,5,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mugsy's Black Mantle Cap,25,96,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Smogger's Shroud of Poise,25,96,5,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Grandfather Spider's Steady Cowl (Level 10+),10,38,5,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Cap of the Black Mantle,30,0,5,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Helm of Stasis,25,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Highlands Raider's Balmoral (Any Level),1,33,4,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Path of Harmony Headgear,25,115,4,0,2,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cap of Searing Justice,22,112,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Cowl of Twin Thunder,22,112,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Cowl of the Lost Order,22,112,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Hat of the Harmonious Soul,22,112,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Hood of the Icy Antithesis,22,112,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Veil of the Missing Answer,22,112,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Cowl of the Rebel,25,96,4,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+Hat of Equation,25,96,4,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Sprockets' Hat of the Feline,25,96,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Helm of the Harmonious,25,88,4,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Admirable Cap,20,48,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hat of Constancy,30,48,4,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Parallel Headdress,30,0,4,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Widow's Noteworthy Cap,25,0,4,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Ra's Integrity Cowl,20,86,3,2,0,0,0,0,0,4,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Burrower's Sorcery Hood (Any Level),1,20,3,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Great Inventor's Balance Hat (Any Level),1,20,3,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Balanced Night Mire Top Hat (Any Level),1,12,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Dusty Hat (Any Level),1,0,3,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Ahnic's Rational Hood,20,96,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Gladiator's Mantle,20,96,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+Krokhotep's Desert Hood,20,96,3,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Old Smokey's Formal Cap,25,96,3,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Taskmaster's Parched Cap,20,96,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Krokotopian Balance Modius,15,86,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,True
+Cowl of Sensibility,15,64,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cowl of Retribution,20,62,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Grandfather Spider's Steady Cowl (Any Level),1,20,3,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Stable Skyfarer's Douli Hat (Any Level),1,20,3,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Cowl of Correspondence,25,0,3,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Evenbloom Mantle,15,70,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Flamesign Cowl,15,70,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Fairmuse Crown,15,70,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Frostguard Hood,15,70,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Honorbane Shroud,15,70,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Thundersight Cap,15,70,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Immortals' Helm of Justice,100,418,0,16,0,11,67,0,0,0,8,0,0,10,0,0,0,0,Drop/Vendor,False,False
+Bonesmasher Cowl of Poise,100,532,0,0,0,7,150,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Red Helm of Good Fortune,120,518,0,0,7,11,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mottoman Helm of Scruples,118,453,0,0,0,0,0,0,0,5,3,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Eerem Headwrap of Harmony,118,441,0,0,6,11,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Zruvan Helmet of Amity,116,422,0,0,0,0,0,0,0,5,2,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Sand Sea Cowl of Decorum,116,410,0,0,6,11,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Aridian Helm of Splendor,114,392,0,0,0,0,0,0,0,5,2,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mongu Kabalak of Honor,112,386,0,0,0,0,0,0,0,5,2,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Rubal Kufiya of Loyalty,114,379,0,0,6,11,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Kataba Furcap of Destiny,108,374,0,0,0,0,0,0,0,5,2,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Immaculate Djinn Ghutrah,112,373,0,0,6,11,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Walrusk Fur Hat of Dignity,108,364,0,0,6,11,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Tayg Ushanka of Leveling,106,349,0,0,0,0,0,0,0,5,2,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Tundarian Papakh of Fusion,106,339,0,0,5,11,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Face of Baobab,68,335,0,0,0,0,99,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Stone Town Topper,68,335,0,0,0,0,99,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Noble Bleaks Ushanka,104,324,0,0,0,0,0,0,0,4,1,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Kossack Papakh of Redress,104,314,0,0,5,10,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hood of Chieftain's Honor,64,312,0,0,0,5,99,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Shroud of the One,78,300,0,0,3,8,0,0,1,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mask of the Ponycorn's Friend,78,300,0,0,3,8,0,0,1,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Lambent's Hood of Penance,70,300,0,0,0,5,0,0,0,6,6,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Tundra Ushanko of Loyalty,102,299,0,0,0,0,0,0,0,4,1,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Tundra Ushanka of Loyalty,102,299,0,0,0,0,0,0,0,4,1,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Starkwave's Balanced Brim,52,288,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Urville Fur Hat of Honor,102,288,0,0,4,9,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Safari Cover,60,286,0,0,0,0,78,0,1,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Gorge Digger's Sturdy Helm (Level 98+),98,260,0,0,5,9,0,0,3,0,0,0,0,0,0,0,0,0,Retired,False,False
+Huntress' Mirrormask,98,260,0,0,5,9,0,0,3,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Winged Tooth Knight's Crown,88,255,0,0,4,8,0,0,2,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Face of Black Tears,88,245,0,0,4,8,0,0,2,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hood of the Wolf's Den,50,241,0,0,0,5,0,0,0,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hood of the Undefeated,45,240,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Ward of the Wood's Helm,96,230,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Congruent Cover,52,216,0,0,0,0,22,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cap of Accord,56,216,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Symmetrical Hat,54,216,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cap of the Introverted,35,192,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Crown of Congruity,40,192,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mask of the Chipper,40,192,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Skurkis's Screaming Mask,86,190,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cowl of Resilience,45,160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Firevein's Omnipotent Shroud,45,160,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Headwrap of Harmony,45,160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Shadowmark's Shroud of Service,45,160,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Affable Cowl,25,144,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Proportional Headdress,52,144,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Steady Helmet,52,144,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cap of the Determined,35,128,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cowl of the Quick-Witted,35,128,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hat of Self-Awareness,35,128,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Headwraps of the Zealous,35,128,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Lorekeeper's Headdress,20,98,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Bellows' Polished Hat,25,96,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cap of Consistency,25,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Circlet of the Nemesis,25,96,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Keeper's Hat of the Sage,20,96,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Jinxed Hat,25,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Pops' Headwrap of Equity,25,96,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Nekhbet's Shrewd Cowl,15,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cap of Constitution,45,80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hat of the Ever Watchful,45,80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Zarathax's Headgear of Hubris,45,80,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Veil of Measure,20,66,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cap of Explanation,35,64,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hat of Consequence,15,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Proficient Hat,30,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Threadbare Hood,15,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Carbonshroud,10,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Nails' Hat of Parity,25,48,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Scholarly Cap,10,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Stable Salacot,25,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+The Great Troll's Cap,10,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cap of Capacity,10,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Circlet of the Adept,15,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Soulsapper's Headwrap,15,32,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Twice Stitched Hat,5,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cowl of Comparison,5,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Khaki Cap,5,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Collective Mask,50,0,0,0,0,0,44,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cap of Poise,25,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Coif of the Antithesis,35,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cap of the Lithe,35,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Cowl of the Discreet,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Headgear of Resistance,45,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Helm of Higher Learning,52,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hat of Triumph,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+Hood of the Invariable,35,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Nebit's Cap of Harmony,20,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Pleasing Hat,25,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Shroud of the Wasteland,15,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Zippy Shroud,35,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False

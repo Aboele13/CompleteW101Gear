@@ -1,0 +1,439 @@
+Name,Level,Health,Damage,Resist,Accuracy,Power Pip,Critical,Critical Block,Pierce,Stun Resist,Incoming,Outgoing,Pip Conserve,Shadow Pip,Archmastery,Sword Pins,Shield Pins,Power Pins,Source,Owned,Gear Set
+Cool Fairy Kei Broadbrim (Level 170+),170,830,31,18,5,0,148,111,4,0,0,0,0,19,0,2,1,0,Crowns,False,False
+Xibalba Comet Helm (Level 170+),170,830,31,18,5,0,148,111,4,0,0,0,0,19,0,2,1,0,Raid,False,False
+Cool Fairy Kei Broadbrim (Level 160+),160,807,31,16,5,0,144,95,4,0,0,0,0,17,0,2,1,0,Crowns,False,False
+Xibalba Comet Helm (Level 160+),160,807,31,16,5,0,144,95,4,0,0,0,0,17,0,2,1,0,Raid,False,False
+Cruel Dream Reaver Hood,170,1067,31,14,5,9,148,111,4,0,0,0,0,0,0,2,1,0,Drop/Vendor,False,False
+Crystalline Aeon Helm,160,1037,31,12,5,9,144,95,4,0,0,0,0,0,0,2,1,0,Drop/Vendor,False,False
+Demiurge's Frigid Helm,150,948,30,12,5,9,136,91,4,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Merciless Ice Cap,150,948,30,12,5,9,136,91,4,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Supreme Freezer Hat,148,674,29,0,0,9,139,0,0,0,0,0,0,19,0,0,0,0,Drop/Vendor,False,False
+Burrower's Thaumaturgy Hood (Level 160+),160,922,28,17,0,7,126,108,4,0,0,0,0,17,0,2,1,0,Gold Key/Gauntlet,False,False
+Chilling Hardback Helmet (Level 170+),170,1185,28,16,6,7,129,127,4,0,0,0,0,0,0,2,1,0,Gold Key/Gauntlet,False,False
+Umbra Queen's Chill Crown (Level 170+),170,711,28,16,6,11,129,0,4,0,0,0,0,19,0,2,0,1,Drop/Vendor,False,False
+Wastelander's Chill Hat (Level 170+),170,711,28,16,6,11,129,0,4,0,0,0,0,19,0,2,0,1,Crowns,False,False
+Chilling Hardback Helmet (Level 160+),160,1152,28,14,6,7,126,108,4,0,0,0,0,0,0,2,1,0,Crowns,False,False
+Icy Night Mire Top Hat (Level 160+),160,1152,28,14,6,7,126,108,4,0,0,0,0,0,0,2,1,0,Gold Key/Gauntlet,False,False
+Hunhau's Comet Helm (Level 170+),170,1067,28,14,0,8,129,111,4,0,0,0,0,21,0,2,1,0,Raid,False,False
+Arctic Skyfarer's Douli Hat (Level 160+),160,692,28,14,6,11,126,0,4,0,0,0,0,17,0,2,0,1,Crowns,False,False
+Malistaire's Chilly Locks (Level 160+),160,692,28,14,6,11,126,0,4,0,0,0,0,17,0,2,0,1,Drop/Vendor,False,False
+Wastelander's Chill Hat (Level 160+),160,692,28,14,6,11,126,0,4,0,0,0,0,17,0,2,0,1,Crowns,False,False
+Hunhau's Comet Helm (Level 160+),160,1037,28,12,0,8,126,95,4,0,0,0,0,19,0,2,1,0,Raid,False,False
+Crystalline Masterpiece Helm,160,922,28,10,0,0,125,81,4,0,0,0,0,15,0,0,0,0,Drop/Vendor,False,False
+Cruel Dream Warper Hood,170,948,28,0,4,8,129,95,4,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Steely Enforcer's Helmet,165,935,28,0,4,8,128,88,4,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Crisp City Dweller Kanga-Cap,160,922,28,0,4,8,126,81,4,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Burrower's Thaumaturgy Hood (Level 150+),150,843,27,17,0,7,119,104,3,0,0,0,0,16,0,2,1,0,Crowns,False,False
+Icy Night Mire Top Hat (Level 150+),150,1053,27,14,6,6,119,104,3,0,0,0,0,0,0,2,1,0,Crowns,False,False
+Ghastly Cerberus Master Helm (Level 150+),150,1053,27,14,6,7,119,104,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Arctic Skyfarer's Douli Hat (Level 150+),150,632,27,14,6,11,119,0,3,0,0,0,0,16,0,2,0,1,Crowns,False,False
+Wastelander's Chill Hat (Level 150+),150,632,27,14,6,11,119,0,3,0,0,0,0,16,0,2,0,1,Crowns,False,False
+Morganthe's Icy Arachna Crown (Level 150+),150,632,27,14,6,11,119,0,0,0,0,7,0,16,0,0,0,0,Crowns,False,False
+Malevolent Ice Cap,150,789,27,0,5,13,99,0,3,0,0,0,0,18,0,0,0,0,Drop/Vendor,False,False
+Supreme Detective Hat,148,770,27,0,7,11,0,0,0,0,0,0,0,18,0,0,0,0,Drop/Vendor,False,False
+Hierarch's Freezer Hat,145,626,27,0,0,9,131,0,0,0,0,0,0,18,0,0,0,0,Drop/Vendor,False,False
+Burrower's Thaumaturgy Hood (Level 140+),140,764,26,17,0,7,0,102,3,0,0,0,0,14,0,0,0,0,Crowns,False,False
+Chilling Hardback Helmet (Level 140+),140,954,26,14,6,7,115,102,3,0,0,0,0,0,0,2,1,0,Crowns,False,False
+Icy Night Mire Top Hat (Level 140+),140,954,26,14,6,7,115,102,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Chill Hat (Level 140+),140,573,26,14,6,11,115,0,3,0,0,0,0,14,0,0,0,0,Crowns,False,False
+Arctic Skyfarer's Douli Hat (Level 140+),140,573,26,14,6,11,115,0,0,0,0,0,0,14,0,0,0,0,Crowns,False,False
+Morganthe's Icy Arachna Crown (Level 140+),140,573,26,14,6,11,115,0,0,0,0,7,0,14,0,0,0,0,Crowns,False,False
+Glistening Ice Helmet,155,880,26,10,0,0,122,79,4,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
+Supreme Cold Steel Hat,148,866,26,0,0,13,0,0,0,0,4,0,0,17,0,0,0,0,Drop/Vendor,False,False
+Magician's Ice Cap,150,770,26,0,5,12,99,0,3,0,0,0,0,17,0,0,0,0,Drop/Vendor,False,False
+Hierarch's Detective Hat,145,722,26,0,7,11,0,0,0,0,0,0,0,17,0,0,0,0,Drop/Vendor,False,False
+Lemurian Freezer Hat,142,578,26,0,0,8,131,0,0,0,0,0,0,17,0,0,0,0,Drop/Vendor,False,False
+Cruel Dream Stalker Hood,170,948,25,19,7,8,0,127,3,0,0,0,0,17,0,2,1,0,Crafting,False,False
+Unreal Crown of Freezing,170,830,25,18,7,9,0,111,3,0,0,0,0,19,0,2,0,1,Raid,False,False
+Eternal Crystalline Helm,160,922,25,17,7,8,108,108,0,0,0,0,0,15,0,2,1,0,Crafting,False,False
+Great Inventor's Ice Hat (Level 160+),160,922,25,17,7,8,108,108,0,0,0,0,0,15,0,2,1,0,Crowns,False,False
+Frigid Conical of The Void (Level 160+),160,807,25,16,7,9,0,95,3,0,0,0,0,17,0,2,0,1,Raid,False,False
+Floramancer Helm of Bark (Level 160+),160,807,25,16,7,9,0,95,3,0,0,0,0,17,0,2,0,1,Crowns,False,False
+Daemonic Crown of Freezing,170,948,25,12,5,10,148,0,5,0,0,0,0,17,0,2,0,1,Raid,False,False
+Frigid Conical of The Nullity (Level 160+),160,922,25,11,5,10,144,0,5,0,0,0,0,15,0,2,0,1,Raid,False,False
+Icy Imperial Court Helm (Level 170+),170,948,25,0,5,8,148,95,5,0,0,0,0,21,0,2,0,1,Gold Key/Gauntlet,False,False
+Unwavering Chivalric Crown (Level 170+),170,948,25,0,5,8,148,95,5,0,0,0,0,21,0,2,0,1,Gold Key/Gauntlet,False,False
+Alphoi Defender Helm,130,849,25,0,7,12,134,0,0,0,0,0,0,14,0,0,0,0,Crafting,False,False
+Icy Paradox Conical,130,849,25,0,7,12,134,0,0,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
+Steely Protector's Helmet,165,818,25,0,0,7,109,74,3,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Crisp Townie Kanga-Cap,160,807,25,0,0,7,108,68,3,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Delightful Wonderneer Cap,140,744,25,0,5,14,92,0,2,0,0,0,0,18,0,0,0,0,Crafting,False,False
+Uber Wonderneer Cap,140,744,25,0,5,14,92,0,2,0,0,0,0,18,0,0,0,0,Drop/Vendor,False,False
+Great Inventor's Ice Hat (Level 150+),150,843,24,17,7,8,102,104,0,0,0,0,0,14,0,2,1,0,Crowns,False,False
+Highlands Champion's Balmoral (Level 150+),150,843,24,17,7,8,102,104,0,0,0,0,0,14,0,0,0,0,Crowns,False,False
+Frigid Conical of The Void (Level 150+),150,738,24,16,7,9,0,91,3,0,0,0,0,16,0,0,0,0,Raid,False,False
+Chilling Hardback Helmet (Level 130+),130,855,24,14,6,6,109,92,3,0,0,0,0,0,0,2,1,0,Crowns,False,False
+Icy Night Mire Top Hat (Level 130+),130,855,24,14,6,6,109,92,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Arctic Skyfarer's Douli Hat (Level 130+),130,513,24,14,6,10,109,0,0,0,0,0,0,13,0,0,0,0,Crowns,False,False
+Morganthe's Icy Arachna Crown (Level 130+),130,513,24,14,6,10,109,0,0,0,0,6,0,13,0,0,0,0,Crowns,False,False
+Frigid Conical of The Nullity (Level 150+),150,843,24,11,5,10,0,0,4,0,0,0,0,14,0,0,0,0,Raid,False,False
+Trooper Officer Hat,150,838,24,10,0,0,119,77,4,0,0,0,0,13,0,0,0,0,Drop/Vendor,False,False
+Dragoon's Icy Helm,130,896,24,0,7,13,152,0,3,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,True
+Freezing Zanadu Helm,130,840,24,0,6,11,130,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cabalist Hood of Vengeance,125,831,24,0,0,11,123,0,2,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
+Stubborn Alphoi Mantle,125,831,24,0,5,0,119,0,2,0,0,0,0,14,0,0,0,0,Crafting,False,False
+Hierarch's Cold Steel Hat,145,818,24,0,0,13,0,0,0,0,4,0,0,16,0,0,0,0,Drop/Vendor,False,False
+Wunderbar Wonderneer Cap,140,718,24,0,5,13,92,0,2,0,0,0,0,17,0,0,0,0,Drop/Vendor,False,False
+Guten Wonderneer Cap,140,700,24,0,5,12,92,0,2,0,0,0,0,16,0,0,0,0,Drop/Vendor,False,False
+Lemurian Detective Hat,142,674,24,0,6,11,0,0,0,0,0,0,0,16,0,0,0,0,Drop/Vendor,False,False
+Executive Cryo Hood,138,613,24,0,0,9,129,0,0,0,0,0,0,18,0,0,0,0,Drop/Vendor,False,False
+Great Inventor's Ice Hat (Level 140+),140,764,23,17,7,8,98,102,0,0,0,0,0,12,0,0,0,0,Crowns,False,False
+Ghastly Cerberus Master Helm (Level 140+),140,1017,23,13,6,0,114,102,0,0,0,0,0,10,0,0,0,0,Crowns,False,False
+Golden Ice Helmet,155,770,23,8,0,0,105,66,3,0,0,0,0,12,0,0,0,0,Drop/Vendor,False,False
+Vanguard's Icy Helm,130,876,23,0,7,12,152,0,3,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
+Lemurian Cold Steel Hat,142,770,23,0,0,12,0,0,0,0,4,0,0,15,0,0,0,0,Drop/Vendor,False,False
+Director Cryo Hood,138,700,23,0,7,11,0,0,0,0,0,0,0,17,0,0,0,0,Drop/Vendor,False,False
+Chief's Cryo Hood,135,569,23,0,0,9,122,0,0,0,0,0,0,17,0,0,0,0,Drop/Vendor,False,False
+Chilling Hardback Helmet (Level 120+),120,756,22,13,6,6,94,84,3,0,0,0,0,0,0,2,1,0,Crowns,False,False
+Icy Night Mire Top Hat (Level 120+),120,756,22,13,6,6,94,84,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Arctic Skyfarer's Douli Hat (Level 120+),120,454,22,13,6,9,94,0,0,0,0,0,0,12,0,0,0,0,Crowns,False,False
+Regulation Trooper Hat,150,733,22,8,0,0,102,65,3,0,0,0,0,11,0,0,0,0,Drop/Vendor,False,False
+Soldier's Icy Helm,130,846,22,0,7,11,152,0,3,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
+Great Inventor's Ice Hat (Level 130+),130,684,21,17,7,7,93,92,0,0,0,0,0,12,0,0,0,0,Crowns,False,False
+Producer's Cryo Hood,138,788,21,0,0,13,0,0,0,0,4,0,0,16,0,0,0,0,Drop/Vendor,False,False
+Time Warden Snowdrift Kavuk,120,660,21,0,5,0,117,0,2,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
+Lead's Cryo Hood,135,656,21,0,7,11,0,0,0,0,0,0,0,16,0,0,0,0,Drop/Vendor,False,False
+Consultant Cryo Hood,132,525,21,0,0,8,122,0,0,0,0,0,0,16,0,0,0,0,Drop/Vendor,False,False
+Highlands Champion's Balmoral (Level 140+),140,814,20,16,6,7,98,102,0,0,0,0,0,12,0,0,0,0,Crowns,False,False
+Great Inventor's Ice Hat (Level 120+),120,605,20,16,7,7,80,84,0,0,0,0,0,10,0,0,0,0,Crowns,False,False
+Burrower's Thaumaturgy Hood (Level 110+),110,526,20,15,0,5,0,80,3,0,0,0,0,11,0,0,0,0,Crowns,False,False
+Cool Fairy Kei Broadbrim (Level 100+),100,391,20,13,6,0,104,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Chill Hat (Level 110+),110,395,20,12,6,8,94,0,3,0,0,0,0,11,0,0,0,0,Crowns,False,False
+Arctic Skyfarer's Douli Hat (Level 110+),110,395,20,12,6,8,94,0,0,0,0,0,0,11,0,0,0,0,Crowns,False,False
+Morganthe's Icy Arachna Crown (Level 110+),110,395,20,12,6,8,94,0,0,0,0,6,0,11,0,0,0,0,Crowns,False,False
+Mantis Helm of Cold Truth,100,503,20,10,6,0,104,66,3,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Morganthe's Icy Arachna Crown (Level 120+),120,507,20,9,6,7,93,0,0,0,0,6,0,14,0,0,0,0,Crowns,False,False
+Supervisor Cryo Hood,135,744,20,0,0,13,0,0,0,0,4,0,0,15,0,0,0,0,Drop/Vendor,False,False
+Chill Kalamar Lid,127,700,20,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Specialist Cryo Hood,132,613,20,0,6,11,0,0,0,0,0,0,0,15,0,0,0,0,Drop/Vendor,False,False
+Cool Space Helmet,140,569,20,0,6,10,0,0,0,0,0,0,0,15,0,0,0,0,Drop/Vendor,False,False
+Highlands Champion's Balmoral (Level 130+),130,671,19,15,6,7,93,92,0,0,0,0,0,11,0,0,0,0,Crowns,False,False
+Ghastly Cerberus Master Helm (Level 110+),110,624,19,11,6,0,93,80,0,0,0,0,0,8,0,0,0,0,Crowns,False,False
+Contractor Cryo Hood,132,700,19,0,0,12,0,0,0,0,4,0,0,14,0,0,0,0,Drop/Vendor,False,False
+Icy Liaison's Hat,130,569,19,0,6,10,0,0,0,0,0,0,0,15,0,0,0,0,Drop/Vendor,False,False
+Luphilim's Piercing Visage,110,546,19,0,5,7,115,0,0,0,0,0,0,13,0,0,0,0,Drop/Vendor,False,False
+Highlands Champion's Balmoral (Level 110+),110,526,18,15,7,6,80,80,0,0,0,0,0,10,0,0,0,0,Crowns,False,False
+Highlands Champion's Balmoral (Level 120+),120,507,18,15,6,6,80,84,0,0,0,0,0,10,0,0,0,0,Crowns,False,False
+Burrower's Thaumaturgy Hood (Level 100+),100,447,18,14,0,7,0,75,3,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Burrower's Thaumaturgy Hood (Level 90+),90,400,18,13,0,6,0,69,3,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Chilling Hardback Helmet (Level 100+),100,558,18,12,6,0,91,75,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Ghastly Cerberus Master Helm (Level 100+),100,558,18,12,6,0,91,75,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Icy Night Mire Top Hat (Level 100+),100,558,18,12,6,0,91,75,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Umbra Queen's Chill Crown (Level 100+),100,0,18,12,6,8,91,0,3,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Wastelander's Chill Hat (Level 100+),100,0,18,12,6,8,91,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Chilling Hardback Helmet (Level 90+),90,500,18,11,5,0,89,69,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Icy Night Mire Top Hat (Level 90+),90,500,18,11,5,0,89,69,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Cool Fairy Kei Broadbrim (Level 80+),80,308,18,11,5,0,85,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Mantis Hat of Cold Truth,100,447,18,9,5,0,91,56,3,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Interstellar Explorer's Helm,122,613,18,0,0,0,124,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Icy Imperial Court Helm (Level 110+),110,526,18,0,5,6,107,60,4,0,0,0,0,12,0,2,0,1,Crowns,False,False
+Majoris Helm of Diligence,110,518,18,0,0,10,114,0,2,0,0,0,0,12,0,0,0,0,Drop/Vendor,False,False
+Arctic Skyfarer's Douli Hat (Level 100+),100,447,18,0,6,8,91,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Malistaire's Chilly Locks (Level 100+),100,447,18,0,6,8,91,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Morganthe's Icy Arachna Crown (Level 100+),100,447,18,0,6,8,91,0,0,0,0,6,0,0,0,0,0,0,Crowns,False,False
+Chilling Hardback Helmet (Level 80+),80,440,17,10,5,0,75,58,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Icy Night Mire Top Hat (Level 80+),80,440,17,10,5,0,75,58,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Ghastly Cerberus Master Helm (Level 90+),90,521,17,9,5,0,88,69,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Cool Fairy Kei Broadbrim (Level 70+),70,266,17,9,5,0,69,0,2,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Cool Fairy Kei Broadbrim (Level 60+),60,224,17,8,4,0,56,0,1,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Dragonhorn Helm of Ice,110,546,17,0,0,0,117,0,2,0,0,0,0,13,0,0,0,0,Drop/Vendor,False,False
+Titan Warrior Cowl of Bite,110,489,17,0,0,9,112,0,1,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Alkali Wintertide Kalpak,118,487,17,0,0,0,119,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Morganthe's Icy Arachna Crown (Level 90+),90,417,17,0,5,7,88,0,0,0,0,5,0,0,0,0,0,0,Crowns,False,False
+Highlands Champion's Balmoral (Level 100+),100,499,16,14,5,6,0,74,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Great Inventor's Ice Hat (Level 100+),100,447,16,14,7,6,0,75,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Great Inventor's Ice Hat (Level 90+),90,400,16,13,6,5,0,69,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Highlands Champion's Balmoral (Level 90+),90,400,16,13,6,5,0,69,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Floramancer Helm of Bark (Level 100+),100,391,16,13,7,7,0,66,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Burrower's Thaumaturgy Hood (Level 70+),70,304,16,10,0,6,0,48,2,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Chilling Hardback Helmet (Level 70+),70,380,16,8,5,0,61,48,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Icy Night Mire Top Hat (Level 70+),70,380,16,8,5,0,61,48,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Burrower's Thaumaturgy Hood (Level 60+),60,256,16,8,0,5,0,39,1,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Chill Hat (Level 70+),70,0,16,8,5,7,61,0,2,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Chilling Hardback Helmet (Level 60+),60,320,16,7,4,0,49,39,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Icy Night Mire Top Hat (Level 60+),60,320,16,7,4,0,49,39,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Chill Hat (Level 60+),60,0,16,7,4,6,49,0,1,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Spiderkeeper's Icemantle,50,254,16,6,4,0,0,0,1,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Spiderkeeper's Ice Hat (Socketed),50,254,16,6,0,4,0,0,1,0,0,0,0,0,0,2,1,0,Crafting,False,False
+Borealis Icecrystal Helm,110,460,16,0,0,8,110,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Vizier's Desert Snow Mantle,116,452,16,0,0,0,116,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Morganthe's Icy Arachna Crown (Level 80+),80,398,16,0,5,7,74,0,0,0,0,5,0,0,0,0,0,0,Crowns,False,False
+Arctic Skyfarer's Douli Hat (Level 70+),70,304,16,0,5,7,61,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Morganthe's Icy Arachna Crown (Level 70+),70,304,16,0,5,7,61,0,0,0,0,5,0,0,0,0,0,0,Crowns,False,False
+Arctic Skyfarer's Douli Hat (Level 60+),60,256,16,0,4,6,49,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Morganthe's Icy Arachna Crown (Level 60+),60,256,16,0,4,6,49,0,0,0,0,5,0,0,0,0,0,0,Crowns,False,False
+Great Inventor's Ice Hat (Level 80+),80,352,15,12,6,5,0,58,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Burrower's Thaumaturgy Hood (Level 50+),50,226,15,8,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Chilling Hardback Helmet (Level 50+),50,282,15,7,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Ghastly Cerberus Master Helm (Level 50+),50,282,15,7,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Icy Night Mire Top Hat (Level 50+),50,282,15,7,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Chill Hat (Level 50+),50,0,15,7,4,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Ghastly Cerberus Master Helm (Level 70+),70,438,15,6,4,0,60,47,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Ghastly Cerberus Master Helm (Level 60+),60,348,15,6,4,0,51,38,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Spiderkeeper's Ice Hat,50,226,15,5,4,0,0,0,1,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Wayfarer's Cold Snap Fez,114,417,15,0,0,0,113,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Nomad's Frostdune Torboosh,112,410,15,0,0,0,110,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Arcanum Thaumaturge's Spire,108,403,15,0,0,0,101,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Arcanum Exile Frost Hat,105,374,15,0,0,9,101,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Arctic Skyfarer's Douli Hat (Level 50+),50,226,15,0,4,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Malistaire's Chilly Locks (Level 50+),50,226,15,0,4,5,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Highlands Champion's Balmoral (Level 80+),80,398,14,9,5,5,0,58,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Highlands Champion's Balmoral (Level 60+),60,256,14,8,5,5,0,39,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Enchanter's Ice Floe Hat,106,374,14,0,0,0,98,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Morganthe's Icy Arachna Crown (Level 50+),50,226,14,0,4,5,0,0,0,0,0,4,0,0,0,0,0,0,Crowns,False,False
+Great Inventor's Ice Hat (Level 50+),50,226,13,8,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Highlands Champion's Balmoral (Level 50+),50,226,13,8,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Cool Fairy Kei Broadbrim (Level 40+),40,0,13,3,0,4,0,0,1,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Zeus' Helmet of Blizzards,90,525,13,0,4,7,140,0,3,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Evoker's Gelid Brim,104,345,13,0,0,0,95,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Krokopatra Blizzard Fez,100,652,12,15,0,9,121,0,2,0,0,0,0,10,0,0,0,0,Drop/Vendor,False,False
+Frostbit Hood,60,354,12,12,3,0,53,0,0,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Icy Night Mire Top Hat (Level 40+),40,265,12,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Burrower's Thaumaturgy Hood (Level 40+),40,212,12,3,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Chill Hat (Level 40+),40,0,12,3,4,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Ghastly Cerberus Master Helm (Level 40+),40,265,12,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Mage's Wintry Conical,102,316,12,0,0,0,92,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Arctic Skyfarer's Douli Hat (Level 40+),40,212,12,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Morganthe's Icy Arachna Crown (Level 40+),40,212,12,0,4,4,0,0,0,0,0,4,0,0,0,0,0,0,Crowns,False,False
+Bitter Chieftain's Helm,56,350,11,8,5,0,50,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Great Inventor's Ice Hat (Level 40+),40,212,11,3,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Hades' Helmet of Shivers,90,515,11,0,2,7,141,0,4,0,0,3,0,0,0,0,0,0,Drop/Vendor,False,False
+Frozen Tale Topper,55,301,11,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Frozen Helm of Harmony,55,301,11,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Ice Burnt Helmet,55,301,11,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Mask of Cold Chaos,55,301,11,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Snowstorm Cover,55,301,11,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Wintersoul Mantle,55,301,11,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Hood of the Cold Hearted,100,619,10,14,0,10,119,0,3,0,0,0,0,11,0,0,0,0,Drop/Vendor,False,False
+Trader's Wintery Mantle,96,520,10,10,3,0,141,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Helm of the Frozen Desert,100,494,10,10,4,9,0,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Thaumaturge's Chill Beret,85,490,10,9,0,7,0,20,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Transcendent Frostfall Laurel,90,470,10,8,3,6,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Burrower's Wintertide Helm,95,525,10,0,4,9,20,0,0,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Burrower Helm of Chills,90,525,10,0,4,9,0,0,0,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mantle of the Bitter Ghost,100,590,9,11,0,8,113,0,2,0,0,0,0,10,0,0,0,0,Drop/Vendor,False,False
+Celestian Snow Cover,58,354,9,11,3,0,20,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Wintertide Topper,56,0,9,11,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Crown of Upper Zigazag,60,371,9,10,2,2,66,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cap of the Frost Shrine,80,500,9,6,4,0,75,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Helm of the Frozen Wave,90,500,9,5,3,9,100,0,1,0,7,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Tyrant of Winter's Hood,86,525,9,4,3,0,105,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Wintry Horns,58,295,9,4,0,0,53,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Icy Night Mire Top Hat (Level 30+),30,235,9,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Chill Hat (Level 30+),30,0,9,3,4,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Mystic Shaman's Mask,80,500,9,0,3,8,0,0,0,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mantis Shroud of Secrecy,96,430,9,0,0,0,105,0,0,0,11,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Diamond Dust Cover,56,354,9,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Shivering Mask,54,266,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Morganthe's Icy Arachna Crown (Level 30+),30,188,9,0,3,3,0,0,0,0,0,3,0,0,0,0,0,0,Crowns,False,False
+Persistent Helmet,52,177,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hard Rime Headdress,52,0,9,0,0,0,35,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Chilled Cowl,50,0,9,0,0,0,18,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Unseen Lord's Chill Helmet,90,245,8,12,0,7,120,0,1,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mantis Cover of Frostfall,92,390,8,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Frost Giant's Helm,56,266,8,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Sub Zero Shroud,58,266,8,11,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Helm of the Frozen Glider,96,425,8,10,5,0,90,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Darkmoor Helmet of Shivers,100,560,8,9,0,7,107,0,2,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Frostborn Sidhe Cowl,65,281,8,8,2,0,0,33,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cold Bones Headdress,60,311,8,5,2,0,49,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Great Inventor's Ice Hat (Level 30+),30,188,8,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Highlands Champion's Balmoral (Level 30+),30,188,8,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Floramancer Helm of Bark (Level 30+),30,165,8,3,4,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Nodor's Chill Helm,70,499,8,0,3,7,0,0,0,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Royal Ceremonial Snowcover,40,265,8,0,2,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Snowdrift Smock,52,177,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Song of the Lizard Hood,82,375,7,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Horned Helmet,76,480,7,9,3,0,88,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Frozen Breath Shroud,66,400,7,9,2,0,79,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Brisk Helmet of Nodor,72,385,7,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Senator's Frostfall Laurel,90,470,7,8,2,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Artisan's Frigid Laurel,70,440,7,6,2,5,0,0,0,0,4,0,0,0,0,0,0,0,Crafting,False,False
+Senator's Frigid Laurel,70,440,7,5,1,5,0,0,0,0,4,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Crown of the Frozen Desert,60,261,7,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Icy Night Mire Top Hat (Level 20+),20,118,7,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Chill Hat (Level 20+),20,0,7,2,4,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Arctic Skyfarer's Douli Hat (Level 20+),20,95,7,0,4,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Morganthe's Icy Arachna Crown (Level 20+),20,95,7,0,4,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Rogue's Piercing Cap,100,566,6,7,0,10,115,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Blackback Safari Brim,62,335,6,2,2,0,30,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Ghastly Cerberus Master Helm (Level 20+),20,118,6,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Great Inventor's Ice Hat (Level 20+),20,95,6,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Yeoman's Winter Top,40,250,6,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Advanced Ice Conical,50,320,5,10,2,0,16,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Knave's Piercing Cap,70,420,5,9,3,7,100,0,2,0,6,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Warden's Hailstone Crown,95,480,5,8,0,7,120,0,2,0,5,0,0,0,0,0,0,0,Crowns,False,False
+Poseidon's Iceberg Helm,70,400,5,7,3,6,98,0,1,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Celestian Frostbit Helm,50,319,5,5,0,0,17,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,True
+Zeus' Veil of Snowfall,30,235,5,4,4,3,0,0,0,0,5,5,0,0,0,0,0,0,Drop/Vendor,False,False
+Himoolayan Warrior's Mantle,25,175,5,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Lost World Hail Visor,85,483,5,0,0,0,101,0,0,5,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Hat of Takanobu's Vengeance,35,212,5,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Spiderkeeper's Icemantle (H295),50,295,4,6,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+Headgear of the Ice Pilot,45,0,4,6,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Bonebreaker Cowl of Cold,40,248,4,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Jade Oni's Cap,40,236,4,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Youkai's Rational Hat,35,156,4,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Katsumori's Effortless Helm,40,0,4,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Greathelm of Kembaalung,25,165,4,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Floramancer Helm of Bark (Level 10+),10,54,4,2,3,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Burrower's Thaumaturgy Hood (Level 10+),10,48,4,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Great Inventor's Ice Hat (Level 10+),10,48,4,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Chill Hat (Level 10+),10,0,4,2,3,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Hood of Hibernation,45,295,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Crown of the Floes,40,236,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cap of the Grimfreeze,44,231,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Cowl of the Icy Deep,44,231,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Headwrap of the Ice Scale,44,231,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Hat of the Essence Flurry,44,231,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Mantle of the Fireblizzard,44,231,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Veil of the Frozen Hero,44,231,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Cap of Ancient Winter,45,196,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Frostwoven Hood,35,156,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hat of Enthusiasm,35,156,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Frostwrapped Hood,45,98,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cap of Exertion,35,78,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Morganthe's Icy Arachna Crown (Level 10+),10,48,4,0,3,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Frostflower Cap,45,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hoarfrost Hat,40,0,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Headdress of the Highest,45,196,3,6,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+Redwind's Cap of the Chill,45,196,3,6,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Krokomaic Blizzard Fez,40,248,3,5,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Permafrost Cap,45,236,3,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Headwraps of Intent,35,156,3,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Iceblight Hood,40,156,3,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Coif of the Hero,35,78,3,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+War Oni's Gripping Helm,35,78,3,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Jacques' Hat of Winter,30,177,3,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Spike's Icicle-Spiked Hat,25,118,3,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cap of the Ice Wyvern,30,0,3,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hat of Numbness,25,0,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Adept's Mantle of Winter,30,220,3,2,2,3,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Senator's Mantle of Winter,30,220,3,2,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Himoolayan Snow Cap,25,110,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Barkingham Frost Cover,40,200,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Veil of Sleet,45,196,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Frostsoul Hat,33,189,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Hailfire Headgear,33,189,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Iceruin Cap,33,189,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Neverwinter Coif,33,189,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Sleetward Shroud,33,189,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Thunderchill Hood,33,189,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Hood of the Frostwyrm,30,177,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Kagemoosha's Shroud,35,156,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mugsy's Frigid Headwrap,25,118,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mantle of the Blizzard,45,98,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Headwraps of the Whim,30,78,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Frostrimmed Coif,30,77,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Morganthe's Icy Arachna Crown (Any Level),1,40,3,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Old Smokey's Proficient Hat,25,0,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Meowiarty's Icy Cap,25,118,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Old Smokey's Hat,25,118,2,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Veil of the Usurper,25,118,2,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+Cool Fairy Kei Broadbrim (Any Level),1,21,2,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Chill Hat (Any Level),1,0,2,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Arctic Cowl of the Maelstrom,22,133,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Brisk Cap of Loyalty,22,133,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Frosty Hood of the Hearth,22,133,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Chilled Coif of Acumen,22,130,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Snowy Shroud of Sorrow,22,130,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Zesty Hat of the Blizzard,22,130,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Precious Cap,25,118,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cap of Clarity,20,59,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Polar Ice Cap,30,59,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Ra's Frostbite Headdress,20,106,1,4,0,0,0,0,0,4,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Prince Aka's Arctic Hood,20,118,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Winterborn Shroud,25,0,1,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Krokopatra's Circlet,20,118,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Tempestra's Severe Cap,20,118,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Tactician's Headgear,20,118,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+Flarefrost Headwrap,15,90,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Firetide Topper,15,90,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Cryptchill Cap,15,90,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Frostleaf Mantle,15,90,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Icycalm Coif,15,90,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Winterdream Hood,15,90,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Frostweaver's Hood,20,80,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Biti Nirini's Hood,15,78,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Immortals' Helm of Frost,100,479,0,16,0,11,67,0,0,0,8,0,0,10,0,0,0,0,Drop/Vendor,False,False
+Ice Helm,56,266,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Shroud of Snowfall,56,210,0,11,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Nereus's Hoarfrost Helm,56,177,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Great Inventor's Ice Hat (Level 70+),70,304,0,10,6,5,0,48,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Jungle Lord's Winter Cap,68,415,0,7,0,0,53,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Absolute Zero Brim,70,258,0,7,0,0,0,75,0,5,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hood of the Bleak Wolf,50,282,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Frost Wyrm's Cowl,45,196,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Shadowmark's Cowl of the Chill,45,196,0,6,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Shroud of the Equinox,45,98,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mantis Helm of Cold Truth (Level 98+),98,400,0,5,4,8,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+Arctic Shroud,40,236,0,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cowl of Humor,40,236,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cowl of the Rime,40,156,0,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Introspective Headwraps,35,156,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Precautionary Cowl,35,156,0,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Moon Caiman's Headdress,88,375,0,4,3,7,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Doctor's Visor of Severity,25,118,0,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Winter Canine Cowl,25,118,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Frozen Canine Cowl,25,59,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Jouster's Helm,78,420,0,3,2,7,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Iceglare Hood,20,118,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Snowy Veil,25,118,0,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Paniwi's Frigid Hood,15,78,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Glittering Cap,15,39,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mountain Hood,60,335,0,2,0,0,66,0,1,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cowl of Obstruction,10,59,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Fortuitous Cap,5,19,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Wormguts' Insulated Hat,10,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Bonesmasher Cowl of Cold,100,634,0,0,0,7,120,0,0,0,0,0,0,10,0,0,0,0,Drop/Vendor,False,False
+Red Helm of Persistence,120,569,0,0,8,9,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mottoman Helm of Icefall,118,518,0,0,0,0,0,0,0,7,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Eerem Headwrap of Hail,118,500,0,0,7,11,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Zruvan Helmet of Rigor,116,480,0,0,0,0,0,0,0,7,4,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Sand Sea Cowl of Shivers,116,466,0,0,7,11,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Aridian Helm of Numbing,114,445,0,0,0,0,0,0,0,7,3,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mongu Frostfall Kabalak,112,438,0,0,0,0,0,0,0,7,3,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Rubal Kufiya of Bitterness,114,431,0,0,6,11,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Kataba Furcap of Glaciers,108,426,0,0,0,0,0,0,0,7,3,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Djinn Ghutrah of Patience,112,424,0,0,6,11,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Walrusk Furcap of Rime,108,414,0,0,6,11,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Lambent's Coldflame Hood,70,400,0,0,0,6,0,0,0,8,6,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Snowbound Tayg Ushanka,106,397,0,0,0,0,0,0,0,7,3,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Tundarian Icecap,106,385,0,0,6,10,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Bleaks Ushanka of Frost,104,368,0,0,0,0,0,0,0,6,2,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Kossack Papakh of Chills,104,357,0,0,5,9,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Polar Cap,54,354,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Blizzardy Tundra Ushanka,102,339,0,0,0,0,0,0,0,6,2,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Urville Papakh of Wintertide,102,328,0,0,5,8,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Icy Veil,45,295,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mask of Cold Intent,56,266,0,0,3,0,53,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Iced Cap,52,266,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Careful Headwraps,35,236,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Frostbitten Cap,45,196,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Karuvian Frostbringer Hood,45,196,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Frostbit Mantle,52,177,0,0,3,0,18,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Insulated Helmet,50,177,0,0,0,0,15,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Delicate Hat,25,177,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Ecstatic Headwraps,35,157,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Peculiar Shroud,35,156,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Biting Headwrap,25,118,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Bitter Cap,15,118,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cowl of Winterbloom,15,118,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Keymaster's Visor,20,118,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Pops' Icy Hat of the Feline,25,118,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Krokotopian Ice Modius,15,106,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,True
+Hood of Permafrost,45,98,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mantle of the Icicle,45,98,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Comprehensive Mask,35,78,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Abstract Shroud,30,78,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Thaumaturge's Cowl of Awe,15,78,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Headgear of Winterdusk,20,76,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Gobblestone's Frost Cap,10,59,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Frostshroud,10,59,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Sneak's Frosty Headwrap,25,59,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Snowthorn Hat,15,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Helm of Hailstones,10,39,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Helm of Composure,15,39,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Goldleaf Hood,5,38,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cold Forged Helm,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Warfather's Mantle,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False

@@ -1,0 +1,447 @@
+Name,Level,Health,Damage,Resist,Accuracy,Power Pip,Critical,Critical Block,Pierce,Stun Resist,Incoming,Outgoing,Pip Conserve,Shadow Pip,Archmastery,Sword Pins,Shield Pins,Power Pins,Source,Owned,Gear Set
+Fire Fairy Kei Broadbrim (Level 170+),170,698,36,11,6,0,188,94,8,0,0,0,0,19,0,2,1,0,Crowns,False,False
+Xibalba Meteoric Helm (Level 170+),170,698,36,11,6,0,188,94,8,0,0,0,0,19,0,2,1,0,Raid,False,False
+Fervid Dream Reaver Hood,170,898,36,9,6,9,188,94,8,0,0,0,0,0,0,2,1,0,Drop/Vendor,False,False
+Xibalba Meteoric Helm (Level 160+),160,606,35,10,6,0,172,82,8,0,0,0,0,17,0,2,1,0,Raid,False,False
+Primordial Aeon Helm,160,779,35,8,6,9,172,82,8,0,0,0,0,0,0,2,1,0,Drop/Vendor,False,False
+Demiurge's Rage Helm,150,720,34,7,5,9,162,82,7,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Merciless Fire Cap,150,720,34,7,5,9,162,82,7,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Supreme Eruption Hat,148,638,34,0,0,9,184,0,0,0,0,0,0,19,0,0,0,0,Drop/Vendor,False,False
+Illuminated Hardback Helmet (Level 170+),170,997,33,10,8,7,164,108,7,0,0,0,0,0,0,2,1,0,Gold Key/Gauntlet,False,False
+Wastelander's Scorched Hat (Level 170+),170,599,33,10,8,11,164,0,7,0,0,0,0,19,0,2,0,1,Crowns,False,False
+Umbra Queen's Scorched Crown (Level 170+),170,599,33,10,8,11,164,0,7,0,0,0,0,19,0,2,0,1,Drop/Vendor,False,False
+Hunhau's Meteoric Helm (Level 170+),170,898,33,9,0,8,164,94,7,0,0,0,0,21,0,2,1,0,Raid,False,False
+Fervid Dream Warper Hood,170,798,33,0,5,8,164,81,7,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Malevolent Fire Cap,150,747,33,0,6,13,132,0,5,0,0,0,0,18,0,0,0,0,Drop/Vendor,False,False
+Supreme Volcanic Hat,148,729,33,0,8,11,0,0,0,0,0,0,0,18,0,0,0,0,Drop/Vendor,False,False
+Hierarch's Eruption Hat,145,592,33,0,0,9,174,0,0,0,0,0,0,18,0,0,0,0,Drop/Vendor,False,False
+Burrower's Pyromancy Hood (Level 160+),160,692,32,11,0,7,150,93,7,0,0,0,0,17,0,2,1,0,Gold Key/Gauntlet,False,False
+Fiery Night Mire Top Hat (Level 160+),160,865,32,9,8,7,150,93,7,0,0,0,0,0,0,2,1,0,Gold Key/Gauntlet,False,False
+Illuminated Hardback Helmet (Level 160+),160,865,32,9,8,7,150,93,7,0,0,0,0,0,0,2,1,0,Crowns,False,False
+Blazing Skyfarer's Douli Hat (Level 160+),160,519,32,9,8,11,150,0,7,0,0,0,0,17,0,2,0,1,Crowns,False,False
+Malistaire's Vengeance Locks (Level 160+),160,519,32,9,8,11,150,0,7,0,0,0,0,17,0,2,0,1,Crafting,False,False
+Wastelander's Scorched Hat (Level 160+),160,519,32,9,8,11,150,0,7,0,0,0,0,17,0,2,0,1,Crowns,False,False
+Hunhau's Meteoric Helm (Level 160+),160,779,32,8,0,8,150,82,7,0,0,0,0,19,0,2,1,0,Raid,False,False
+Primordial Masterpiece Helm,160,692,32,7,0,0,150,70,6,0,0,0,0,15,0,0,0,0,Drop/Vendor,False,False
+Furious Enforcer's Helmet,165,745,32,0,5,8,157,75,7,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Magician's Fire Cap,150,729,32,0,6,12,132,0,5,0,0,0,0,17,0,0,0,0,Drop/Vendor,False,False
+Flashy City Dweller Kanga-Cap,160,692,32,0,5,8,150,70,7,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Burrower's Pyromancy Hood (Level 150+),150,640,31,10,0,7,142,88,6,0,0,0,0,16,0,2,1,0,Crowns,False,False
+Fiery Night Mire Top Hat (Level 150+),150,799,31,8,7,6,142,88,6,0,0,0,0,0,0,2,1,0,Crowns,False,False
+Illuminated Hardback Helmet (Level 150+),150,799,31,8,7,7,142,88,6,0,0,0,0,0,0,2,1,0,Crowns,False,False
+Grim Cerberus Master Helm (Level 150+),150,799,31,8,7,7,142,93,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Blazing Skyfarer's Douli Hat (Level 150+),150,480,31,8,7,11,142,0,6,0,0,0,0,16,0,2,0,1,Crowns,False,False
+Wastelander's Scorched Hat (Level 150+),150,480,31,8,7,11,142,0,6,0,0,0,0,16,0,2,0,1,Crowns,False,False
+Morganthe's Fiery Arachna Crown (Level 150+),150,480,31,8,7,11,142,0,0,0,0,0,0,16,0,0,0,0,Crowns,False,False
+Supreme Firewall Hat,148,820,31,0,0,13,0,0,0,0,3,0,0,17,0,0,0,0,Drop/Vendor,False,False
+Delightful Freshbaker Cap,140,704,31,0,6,14,123,0,5,0,0,0,0,18,0,0,0,0,Crafting,False,False
+Uber Freshbaker Cap,140,704,31,0,6,14,123,0,5,0,0,0,0,18,0,0,0,0,Drop/Vendor,False,False
+Hierarch's Volcanic Hat,145,683,31,0,8,11,0,0,0,0,0,0,0,17,0,0,0,0,Drop/Vendor,False,False
+Wunderbar Freshbaker Cap,140,679,31,0,6,13,123,0,5,0,0,0,0,17,0,0,0,0,Drop/Vendor,False,False
+Lemurian Eruption Hat,142,546,31,0,0,8,174,0,0,0,0,0,0,17,0,0,0,0,Drop/Vendor,False,False
+Glistening Fire Helmet,155,650,30,7,0,0,145,68,5,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
+Dragoon's Fiery Helm,130,788,30,0,8,13,162,0,5,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,True
+Alphoi Trooper Helm,130,704,30,0,8,12,144,0,0,0,0,0,0,14,0,0,0,0,Crafting,False,False
+Fiery Paradox Conical,130,704,30,0,8,12,144,0,0,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
+Guten Freshbaker Cap,140,662,30,0,6,12,123,0,5,0,0,0,0,16,0,0,0,0,Drop/Vendor,False,False
+Fervid Dream Stalker Hood,170,798,29,12,9,8,0,108,6,0,0,0,0,17,0,2,1,0,Crafting,False,False
+Unreal Crown of Overheating,170,698,29,11,9,9,0,94,6,0,0,0,0,19,0,2,0,1,Raid,False,False
+Burrower's Pyromancy Hood (Level 140+),140,587,29,9,0,7,0,87,5,0,0,0,0,14,0,0,0,0,Crowns,False,False
+Daemonic Crown of Overheating,170,798,29,8,7,10,188,0,10,0,0,0,0,17,0,2,0,1,Raid,False,False
+Illuminated Hardback Helmet (Level 140+),140,733,29,8,7,7,134,87,5,0,0,0,0,0,0,2,1,0,Crowns,False,False
+Blazing Skyfarer's Douli Hat (Level 140+),140,440,29,8,7,11,134,0,0,0,0,0,0,14,0,0,0,0,Crowns,False,False
+Cavalry Officer Hat,150,619,29,7,0,0,141,66,5,0,0,0,0,13,0,0,0,0,Drop/Vendor,False,False
+Fiery Chrysanthemum Cowl (Level 170+),170,798,29,0,7,8,188,81,10,0,0,0,0,21,0,2,0,1,Gold Key/Gauntlet,False,False
+Flaming Chivalric Crown (Level 170+),170,798,29,0,7,8,188,81,10,0,0,0,0,21,0,2,0,1,Gold Key/Gauntlet,False,False
+Hierarch's Firewall Hat,145,774,29,0,0,13,0,0,0,0,3,0,0,16,0,0,0,0,Drop/Vendor,False,False
+Vanguard's Fiery Helm,130,771,29,0,8,12,162,0,5,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
+Blazing Zanadu Helm,130,697,29,0,7,11,139,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cabalist Cleansing Hood,125,690,29,0,0,11,133,0,4,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
+Fierce Alphoi Mantle,125,690,29,0,6,0,129,0,4,0,0,0,0,14,0,0,0,0,Crafting,False,False
+Furious Protector's Helmet,165,652,29,0,0,7,135,63,6,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Lemurian Volcanic Hat,142,638,29,0,7,11,0,0,0,0,0,0,0,16,0,0,0,0,Drop/Vendor,False,False
+Executive Thermal Hood,138,580,29,0,0,9,168,0,0,0,0,0,0,18,0,0,0,0,Drop/Vendor,False,False
+Eternal Primordial Helm,160,692,28,11,9,8,129,93,0,0,0,0,0,15,0,2,1,0,Crafting,False,False
+Great Inventor's Fire Hat (Level 160+),160,692,28,11,9,8,129,93,0,0,0,0,0,15,0,2,1,0,Crowns,False,False
+Great Inventor's Fire Hat (Level 150+),150,640,28,10,8,8,122,88,0,0,0,0,0,14,0,2,1,0,Crowns,False,False
+Fiery Conical of The Void (Level 160+),160,606,28,10,9,9,0,82,6,0,0,0,0,17,0,2,0,1,Raid,False,False
+Floramancer Helm of Rashes (Level 160+),160,606,28,10,9,9,0,82,6,0,0,0,0,17,0,2,0,1,Crowns,False,False
+Grim Cerberus Master Helm (Level 140+),140,744,28,9,6,0,134,86,0,0,0,0,0,10,0,0,0,0,Crowns,False,False
+Fiery Conical of The Void (Level 150+),150,560,28,9,8,9,0,82,5,0,0,0,0,16,0,0,0,0,Raid,False,False
+Fire Fairy Kei Broadbrim (Level 120+),120,421,28,9,5,0,142,63,6,0,0,0,0,12,0,2,1,0,Crowns,False,False
+Fiery Conical of The Nullity (Level 160+),160,692,28,7,7,10,172,0,9,0,0,0,0,15,0,2,0,1,Raid,False,False
+Morganthe's Fiery Arachna Crown (Level 140+),140,595,28,7,6,9,134,0,0,0,0,0,0,17,0,0,0,0,Crowns,False,False
+Fiery Conical of The Nullity (Level 150+),150,640,28,6,6,10,0,0,8,0,0,0,0,14,0,0,0,0,Raid,False,False
+Soldier's Fiery Helm,130,745,28,0,8,11,162,0,5,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
+Director Thermal Hood,138,662,28,0,8,11,0,0,0,0,0,0,0,17,0,0,0,0,Drop/Vendor,False,False
+Flashy Townie Kanga-Cap,160,606,28,0,0,7,129,58,6,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Chief's Thermal Hood,135,538,28,0,0,9,153,0,0,0,0,0,0,17,0,0,0,0,Drop/Vendor,False,False
+Fiery Night Mire Top Hat (Level 130+),130,667,27,8,7,6,127,79,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Blazing Skyfarer's Douli Hat (Level 130+),130,401,27,8,7,10,127,0,0,0,0,0,0,13,0,0,0,0,Crowns,False,False
+Morganthe's Fiery Arachna Crown (Level 130+),130,401,27,8,7,10,127,0,0,0,0,0,0,13,0,0,0,0,Crowns,False,False
+Golden Fire Helmet,155,569,27,6,0,0,124,57,5,0,0,0,0,12,0,0,0,0,Drop/Vendor,False,False
+Lemurian Firewall Hat,142,729,27,0,0,12,0,0,0,0,3,0,0,15,0,0,0,0,Drop/Vendor,False,False
+Time Warden Kavuk of Pyres,120,528,27,0,6,0,127,0,4,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
+Highlands Fighter's Balmoral (Level 150+),150,619,26,12,7,8,121,88,0,0,0,0,0,13,0,0,0,0,Gold Key/Gauntlet,False,False
+Great Inventor's Fire Hat (Level 140+),140,587,26,9,8,8,115,87,0,0,0,0,0,12,0,0,0,0,Crowns,False,False
+Burrower's Pyromancy Hood (Level 120+),120,481,26,9,0,6,0,72,5,0,0,0,0,12,0,0,0,0,Crowns,False,False
+Fire Fairy Kei Broadbrim (Level 110+),110,375,26,9,5,0,133,60,5,0,0,0,0,11,0,2,1,0,Crowns,False,False
+Illuminated Hardback Helmet (Level 120+),120,601,26,8,7,6,124,72,5,0,0,0,0,0,0,2,1,0,Crowns,False,False
+Fiery Night Mire Top Hat (Level 120+),120,601,26,8,7,6,124,72,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Scorched Hat (Level 120+),120,361,26,8,7,10,124,0,5,0,0,0,0,12,0,0,0,0,Crowns,False,False
+Blazing Skyfarer's Douli Hat (Level 120+),120,361,26,8,7,10,124,0,0,0,0,0,0,12,0,0,0,0,Crowns,False,False
+Morganthe's Fiery Arachna Crown (Level 120+),120,361,26,8,7,10,124,0,0,0,0,0,0,12,0,0,0,0,Crowns,False,False
+Regulation Cavalry Hat,150,542,26,6,0,0,121,55,4,0,0,0,0,11,0,0,0,0,Drop/Vendor,False,False
+Producer's Thermal Hood,138,745,26,0,0,13,0,0,0,0,3,0,0,16,0,0,0,0,Drop/Vendor,False,False
+Lead's Thermal Hood,135,621,26,0,8,11,0,0,0,0,0,0,0,16,0,0,0,0,Drop/Vendor,False,False
+Fiery Chrysanthemum Cowl (Level 140+),140,587,26,0,6,8,153,65,7,0,0,0,0,16,0,2,0,1,Crowns,False,False
+Consultant Thermal Hood,132,497,26,0,0,8,147,0,0,0,0,0,0,16,0,0,0,0,Drop/Vendor,False,False
+Highlands Fighter's Balmoral (Level 140+),140,595,25,11,7,8,115,86,0,0,0,0,0,12,0,0,0,0,Crowns,False,False
+Supervisor Thermal Hood,135,704,25,0,0,13,0,0,0,0,3,0,0,15,0,0,0,0,Drop/Vendor,False,False
+Rad Kalamar Lid,127,581,25,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Specialist Thermal Hood,132,580,25,0,7,11,0,0,0,0,0,0,0,15,0,0,0,0,Drop/Vendor,False,False
+Radical Space Helmet,140,538,25,0,7,10,0,0,0,0,0,0,0,15,0,0,0,0,Drop/Vendor,False,False
+Luphilim's Blazing Helm,110,437,25,0,6,7,123,0,0,0,0,0,0,13,0,0,0,0,Drop/Vendor,False,False
+Great Inventor's Fire Hat (Level 130+),130,534,24,9,8,7,109,79,0,0,0,0,0,12,0,0,0,0,Crowns,False,False
+Burrower's Pyromancy Hood (Level 110+),110,428,24,9,0,6,0,68,5,0,0,0,0,11,0,0,0,0,Crowns,False,False
+Fire Fairy Kei Broadbrim (Level 100+),100,329,24,9,6,0,132,0,4,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Illuminated Hardback Helmet (Level 110+),110,535,24,8,6,6,117,68,5,0,0,0,0,0,0,2,1,0,Crowns,False,False
+Fiery Night Mire Top Hat (Level 110+),110,535,24,8,6,6,117,68,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Grim Cerberus Master Helm (Level 110+),110,535,24,8,6,6,117,68,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Scorched Hat (Level 110+),110,321,24,8,6,9,117,0,5,0,0,0,0,11,0,0,0,0,Crowns,False,False
+Blazing Skyfarer's Douli Hat (Level 110+),110,321,24,8,6,9,117,0,0,0,0,0,0,11,0,0,0,0,Crowns,False,False
+Charred Mantle of the Burn,100,423,24,7,6,0,132,56,4,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Fiery Chrysanthemum Cowl (Level 130+),130,534,24,0,6,7,145,59,7,0,0,0,0,15,0,2,0,1,Crowns,False,False
+Highlands Fighter's Balmoral (Level 130+),130,563,23,11,7,8,109,78,0,0,0,0,0,11,0,0,0,0,Crowns,False,False
+Great Inventor's Fire Hat (Level 120+),120,481,23,9,8,7,107,72,0,0,0,0,0,10,0,0,0,0,Crowns,False,False
+Fire Fairy Kei Broadbrim (Level 90+),90,294,23,8,6,0,119,0,4,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Contractor Thermal Hood,132,662,23,0,0,12,0,0,0,0,3,0,0,14,0,0,0,0,Drop/Vendor,False,False
+Fiery Liaison's Hat,130,538,23,0,7,10,0,0,0,0,0,0,0,15,0,0,0,0,Drop/Vendor,False,False
+Interstellar Engineer Helm,122,508,23,0,0,0,133,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Fiery Chrysanthemum Cowl (Level 120+),120,481,23,0,6,7,142,54,7,0,0,0,0,13,0,2,0,1,Crowns,False,False
+Shimmering Majoris Cowl,110,414,23,0,0,10,122,0,4,0,0,0,0,12,0,0,0,0,Drop/Vendor,False,False
+Burrower's Pyromancy Hood (Level 100+),100,376,22,9,0,8,0,64,4,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Fiery Night Mire Top Hat (Level 100+),100,469,22,8,6,0,116,64,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Illuminated Hardback Helmet (Level 100+),100,469,22,8,6,0,116,64,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Wastelander's Scorched Hat (Level 100+),110,321,22,8,6,9,116,0,4,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Umbra Queen's Scorched Crown (Level 100+),100,0,22,8,6,9,116,0,4,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Charred Hat of the Burn,100,376,22,6,5,0,116,48,4,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Dragonhorn Helm of Fire,110,437,22,0,0,0,125,0,4,0,0,0,0,13,0,0,0,0,Drop/Vendor,False,False
+Titan Warrior Skyfire Helm,110,391,22,0,0,9,120,0,3,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Alkali Burning Sands Kalpak,118,389,22,0,0,0,129,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Blazing Skyfarer's Douli Hat (Level 100+),100,376,22,0,6,9,116,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Malistaire's Vengeance Locks (Level 100+),100,376,22,0,6,9,116,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Morganthe's Fiery Arachna Crown (Level 100+),100,376,22,0,6,9,116,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Great Inventor's Fire Hat (Level 110+),110,428,21,9,7,7,100,68,0,0,0,0,0,10,0,0,0,0,Crowns,False,False
+Burrower's Pyromancy Hood (Level 90+),90,336,21,8,0,7,0,60,3,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Morganthe's Fiery Trappings (Level 110+),110,613,21,7,9,8,74,0,0,0,0,0,0,13,0,0,0,0,Crowns,False,False
+Fiery Night Mire Top Hat (Level 90+),90,419,21,7,6,0,104,60,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Illuminated Hardback Helmet (Level 90+),90,419,21,7,6,0,104,60,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Fire Fairy Kei Broadbrim (Level 80+),80,257,21,7,5,0,96,0,4,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Scorched Hat (Level 90+),90,0,21,7,6,8,104,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Fiery Chrysanthemum Cowl (Level 110+),110,428,21,0,5,7,133,51,6,0,0,0,0,12,0,2,0,1,Crowns,False,False
+Volatile Borealis Brim,110,368,21,0,0,8,118,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Vizier's Mantle of Smolders,116,361,21,0,0,0,126,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Blazing Skyfarer's Douli Hat (Level 90+),90,336,21,0,6,8,104,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Morganthe's Fiery Arachna Crown (Level 90+),90,336,21,0,6,8,104,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Great Inventor's Fire Hat (Level 100+),100,376,20,9,7,7,0,64,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Highlands Fighter's Balmoral (Level 100+),100,376,20,9,7,7,0,64,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Grim Cerberus Master Helm (Level 90+),90,382,20,6,6,0,103,59,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Pyro's Bright Hat,85,420,20,0,6,7,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Parched Wayfarer's Fez,114,334,20,0,0,0,123,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Arcanum Exile Fiery Hat,105,299,20,0,0,9,108,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Great Inventor's Fire Hat (Level 90+),90,336,19,8,7,6,0,60,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Burrower's Pyromancy Hood (Level 80+),80,293,19,7,0,6,0,49,3,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Fiery Night Mire Top Hat (Level 80+),80,366,19,6,5,0,84,49,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Fire Fairy Kei Broadbrim (Level 70+),70,220,19,6,5,0,87,0,4,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Scorched Hat (Level 80+),80,0,19,6,5,7,84,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Nomad's Sunfire Torboosh,112,328,19,0,0,0,121,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Arcanum Pyromancer's Spire,108,322,19,0,0,0,106,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Blazing Skyfarer's Douli Hat (Level 80+),80,293,19,0,5,7,84,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Grim Cerberus Master Helm (Level 80+),80,358,18,6,6,0,86,49,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Fiery Night Mire Top Hat (Level 70+),70,313,18,5,5,0,76,41,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Grim Cerberus Master Helm (Level 70+),70,313,18,5,5,0,76,41,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Illuminated Hardback Helmet (Level 70+),70,313,18,5,5,0,76,41,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Snowcrusher's Mantle of Embers,50,195,18,4,4,0,0,0,3,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Snowcrusher's Hat of Embers (Socketed),50,195,18,4,0,4,0,0,3,0,0,0,0,0,0,2,1,0,Crafting,False,False
+Morganthe's Fiery Trappings (Level 80+),80,379,18,0,8,6,54,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Enchanter's Fervid Hat,106,299,18,0,0,0,103,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Morganthe's Fiery Arachna Crown (Level 80+),80,286,18,0,6,7,86,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Blazing Skyfarer's Douli Hat (Level 70+),70,251,18,0,5,7,76,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Morganthe's Fiery Arachna Crown (Level 70+),70,251,18,0,5,7,76,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Great Inventor's Fire Hat (Level 80+),80,293,17,7,6,5,0,49,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Floramancer Helm of Rashes (Level 80+),80,257,17,7,6,6,0,43,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Burrower's Pyromancy Hood (Level 60+),60,208,17,5,0,5,0,34,3,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Burrower's Pyromancy Hood (Level 50+),50,173,17,5,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Fiery Night Mire Top Hat (Level 60+),60,260,17,4,4,0,59,34,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Fiery Night Mire Top Hat (Level 50+),50,216,17,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Illuminated Hardback Helmet (Level 50+),50,216,17,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Wastelander's Scorched Hat (Level 60+),60,0,17,4,4,6,59,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Scorched Hat (Level 50+),50,0,17,4,4,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Snowcrusher's Hat of Embers,50,173,17,3,4,0,0,0,3,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Knightly Helm,76,355,17,0,5,0,140,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Transcendent Laurel of Sparks,90,350,17,0,6,7,0,0,5,0,7,0,0,0,0,0,0,0,Crafting,False,False
+Evoker's Ember Brim,104,276,17,0,0,0,101,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Blazing Skyfarer's Douli Hat (Level 60+),60,208,17,0,4,6,59,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Morganthe's Fiery Arachna Crown (Level 60+),60,208,17,0,4,6,59,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Blazing Skyfarer's Douli Hat (Level 50+),50,173,17,0,4,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Morganthe's Fiery Arachna Crown (Level 50+),50,173,17,0,4,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Malistaire's Vengeance Locks (Level 50+),50,173,17,0,4,5,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Firestarter's Hood,60,240,16,9,6,0,77,0,0,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Highlands Fighter's Balmoral (Level 80+),80,286,16,7,6,5,0,49,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Zigazag Desert Headgear,60,252,16,7,4,2,93,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Scorching Desert Greathelm,100,309,16,6,6,9,0,0,5,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Senator's Laurel of Sparks,90,330,16,0,5,7,0,0,4,0,6,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mage's Smoldering Conical,102,253,16,0,0,0,98,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Krokopatra Inferno Fez,100,443,15,12,0,7,167,0,4,0,0,0,0,10,0,0,0,0,Drop/Vendor,False,False
+Blazing Chieftain's Helm,56,230,15,6,6,0,75,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Great Inventor's Fire Hat (Level 60+),60,208,15,5,5,5,0,34,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Great Inventor's Fire Hat (Level 50+),50,173,15,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Highlands Fighter's Balmoral (Level 50+),50,173,15,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Fiery Night Mire Top Hat (Level 40+),40,190,15,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Grim Cerberus Master Helm (Level 40+),40,190,15,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Scorched Hat (Level 40+),40,0,15,2,4,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Desert Trader's Shroud,96,364,15,0,5,0,182,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+SmokeRider's Hood,96,364,15,0,12,0,130,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Zeus' Eternal Flame Helm,90,350,15,0,4,7,160,0,4,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mantis' Helmet of Ignition,95,325,15,0,6,9,35,0,0,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mantis Helm of Embers,90,325,15,0,6,9,0,0,0,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Headdress of Dragon Fire,58,240,15,0,6,0,20,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Ashen Snow Hood,55,204,15,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Burnt Hood of Balance,55,204,15,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Firedreamer's Helmet,55,204,15,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Scorched Coif of Sorrow,55,204,15,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Pyro's Carefree Cap,55,204,15,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Veil of Blazing Bolts,55,204,15,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Fire-Forged Horns,58,183,15,0,6,0,73,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Volatile Headdress,56,180,15,0,0,0,73,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Helm of Burning Ambition,56,180,15,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Blazing Skyfarer's Douli Hat (Level 40+),40,152,15,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Morganthe's Fiery Arachna Crown (Level 40+),40,152,15,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Reckless Cover,54,120,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Facade of the Firestar,56,0,15,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Shroud of Malistaire's Ire,100,420,14,11,0,10,165,0,5,0,0,0,0,11,0,0,0,0,Drop/Vendor,False,False
+Crown of the Fire Sands,60,211,14,5,3,0,69,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Fire Fairy Kei Broadbrim (Level 30+),30,0,14,2,0,4,0,0,1,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Artisan's Embering Laurel,70,375,14,0,5,6,0,0,4,0,7,0,0,0,0,0,0,0,Crafting,False,False
+Guard of the Sun Fire Hat,86,375,14,0,5,0,145,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Salamander's Dashing Beret,80,360,14,0,5,0,95,10,3,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Poseidon's Cowl of Flares,90,350,14,0,6,9,145,0,2,0,7,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mighty Chac's Headdress,80,300,14,0,5,8,0,0,0,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hades' Crown of Blazes,90,235,14,0,4,7,175,0,5,0,0,3,0,0,0,0,0,0,Drop/Vendor,False,False
+Incendiary Helm,56,180,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Molten Mantle,58,180,14,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Combustible Cover,52,120,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Fiery Night Mire Top Hat (Level 30+),30,190,13,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Grim Cerberus Master Helm (Level 30+),30,190,13,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Illuminated Hardback Helmet (Level 30+),30,190,13,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Great Inventor's Fire Hat (Level 40+),40,152,13,2,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Highlands Fighter's Balmoral (Level 40+),40,152,13,2,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Floramancer Helm of Rashes (Level 40+),40,133,13,2,5,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Scorched Hat (Level 30+),30,0,13,2,4,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Senator's Embering Laurel,70,325,13,0,4,6,0,0,3,0,6,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Burning Ram Helm,70,299,13,0,5,7,0,0,0,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Blazing Skyfarer's Douli Hat (Level 30+),30,152,13,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Morganthe's Fiery Arachna Crown (Level 30+),30,152,13,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Carpathesian Helm of Fury,100,400,12,9,0,8,156,0,3,0,0,0,0,10,0,0,0,0,Drop/Vendor,False,False
+Illuminated Plot Armor (Level 40+),40,216,12,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Great Inventor's Fire Hat (Level 30+),30,152,12,2,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Flameborn Sidhe Cowl,65,336,12,0,3,0,0,0,2,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Flame-Forged Paladin Helm,95,300,12,0,5,6,182,0,4,0,5,0,0,0,0,0,0,0,Crowns,False,False
+Fire Valley Headdress,62,260,12,0,4,0,25,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Great Adventurer's Fiery Brim,66,245,12,0,4,0,109,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Unseen Lord's Cinder Crown,90,150,11,9,0,7,156,0,2,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Knave's Blazing Cap,70,273,11,4,3,7,134,0,3,0,6,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Poseidon's Backdraft Helm,70,260,11,3,4,6,132,0,2,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Burning Scales Headdress,60,177,11,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Highlands Fighter's Balmoral (Level 30+),30,152,11,2,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Fiery Night Mire Top Hat (Level 20+),20,80,11,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Scorched Hat (Level 20+),20,0,11,2,4,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Morganthe's Fiery Arachna Crown (Level 20+),20,64,11,0,4,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Great Inventor's Fire Hat (Level 20+),20,64,10,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Highlands Fighter's Balmoral (Level 20+),20,64,10,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Branded Chapeau,70,278,10,0,0,0,70,0,3,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Helmet of the Royal Flame,40,180,10,0,3,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Kermes Fire Miner's Helmet,92,145,10,0,0,0,110,0,4,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Brimstone Helm of Darkmoor,100,380,9,7,0,7,148,0,2,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Fiery Night Mire Top Hat (Level 10+),10,40,9,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Illuminated Hardback Helmet (Level 10+),10,40,9,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Burrower's Pyromancy Hood (Level 10+),10,32,9,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Scorched Hat (Level 10+),10,0,9,1,4,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Fire Spirits' Toasty Helm,72,146,9,0,0,0,108,0,2,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Helm of the Broken Spear,82,140,9,0,0,0,108,0,3,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Blazing Skyfarer's Douli Hat (Level 10+),10,32,9,0,4,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Morganthe's Fiery Arachna Crown (Level 10+),10,32,9,0,4,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Rogue's Blazing Cap,100,409,8,7,0,8,160,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Celestian Cinder Helm,50,216,8,3,0,0,23,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,True
+Floramancer Helm of Rashes (Level 10+),10,36,8,1,4,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Grim Cerberus Master Helm (Any Level),1,34,8,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Highlands Fighter's Balmoral (Level 10+),10,32,8,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Gurtok Fireshroud,45,200,8,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Snowcrusher's Mantle of Embers (H200),50,200,8,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+Palace Guard's Stovepipe,40,170,8,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Veil of Fire,45,132,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Soot-Streaked Veil,45,66,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Morganthe's Fiery Arachna Crown (Any Level),1,27,8,0,3,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Blazing Bonnet,45,0,8,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Advanced Fire Conical,50,215,7,6,3,0,22,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Helmet of Heavenly Gaze,30,190,7,2,5,3,0,0,0,0,5,6,0,0,0,0,0,0,Drop/Vendor,False,False
+Highlands Fighter's Balmoral (Any Level),1,27,7,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Lost World Ember Hood,85,334,7,0,0,0,134,0,0,5,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Cowl of the Gleaming Havoc,44,156,7,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Hood of the Spirit Fire,44,156,7,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Hood of the Arctic Flame,44,156,7,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Hood of the Funeral Pyre,44,156,7,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Shroud of the Glowing Fable,44,156,7,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Veil of the Burning Principle,44,156,7,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Conical of Takanobu's Rage,35,144,7,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Adept's Radiant Laurel,30,140,7,0,4,4,0,0,0,0,5,0,0,0,0,0,0,0,Crafting,False,False
+Dean Darkflame's Fiery Mantle,45,132,7,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Firetusk's Inferno Cowl,45,132,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Shroud of the Peerless,45,132,7,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+Hood of the Inferno,45,66,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Bonebreaker Cowl of Flame,40,162,6,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Helm of Ardent Purpose,25,135,6,2,3,2,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Death Oni's Abstract Hat,40,160,6,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Conflagrant Hat,40,160,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Senator's Radiant Laurel,30,125,6,0,3,4,0,0,0,0,3,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Firebloom Cowl,35,106,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Shroud of Afterthoughts,35,106,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Youkai's Cap of Brainstorms,35,106,6,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cowl of Tact,35,53,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Akuji's Helm of Forethought,40,0,6,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hood of Combustion,40,0,6,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Krokomaic Inferno Fez,40,168,5,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Illuminated Hardback Helmet (Any Level),1,20,5,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Fire Fairy Kei Broadbrim (Any Level),1,14,5,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Fiery Night Mire Top Hat (Any Level),1,10,5,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Fuming Hood,45,160,5,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Barkingham Derby of Cinders,40,136,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Brighthonor Mantle,33,122,5,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Embermuse Hat,33,122,5,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Dreambrand Headwrap,33,122,5,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Fireleaf Cap,33,122,5,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Grimblaze Cowl,33,122,5,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Winterflame Hood,33,122,5,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Hat of Purpose,35,106,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Nomoonaga's Diligent Cap,35,106,5,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Wildblaze Hat,40,106,5,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Top of the Hollow Mountain,25,102,5,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Fushiko's Shroud,35,53,5,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hat of the Observant,30,53,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hood of the Fray,35,53,5,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+Floramancer Helm of Rashes (Any Level),5,18,4,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Great Inventor's Fire Hat (Any Level),1,16,4,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Circlet of Flame,30,120,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Meowiarty's Helm,30,120,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Glowing Canine Cowl,25,80,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Smogger's Cowl of Courtesy,25,80,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Helm of the Smoking Ember,25,75,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Headwrap of Incineration,30,0,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Visor of the Beacon,25,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Ra's Firebrand Cowl,20,72,3,2,0,0,0,0,0,4,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Burning Hood of the Wind,22,85,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Blazing Hat of the Opus,22,85,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Glimmering Hat of Neutrality,22,85,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Scorched Cowl of the Chill,22,85,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Radiant Veil of Exuberance,22,85,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Smoldering Cap of Ash,22,85,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Brady's Solar Cowl,25,80,3,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Bellows' Pompous Hat,25,80,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cowl of the Liberator,25,80,3,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+Pops O'Leary's Sun Visor,25,80,3,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Magnificent Mantle,30,45,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Flaring Cap,30,40,3,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hat of Affection,20,40,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Contender's Cap,20,80,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+Cowl of Summertime,20,80,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Krokhotep's Cowl,20,80,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Karanahn's Ignited Hood,20,80,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Flamewarden's Mantle,20,53,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mask of Humidity,15,51,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Edo Nirini's Ardent Helm,15,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Smoldering Hood,25,0,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Emberflood Cap,15,60,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Glowmuse Headdress,15,60,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Firefrost Hat,15,60,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Everfrost Hood,15,60,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Firebleak Headgear,15,60,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Soulburner Mantle,15,60,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Immortals' Helm of Radiance,100,374,0,16,0,9,67,0,0,0,8,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Red Helm of the Eternal Flame,120,472,0,0,9,9,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Bonesmasher Cowl of Flame,100,458,0,0,0,5,166,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mottoman Heatwave Helm,118,411,0,0,0,0,0,0,0,5,3,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Charred Eerem Headwrap,118,400,0,0,8,11,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Zruvan Helmet of Fury,116,384,0,0,0,0,0,0,0,5,2,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Sand Sea Cowl of Ashes,116,373,0,0,8,11,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Helm of the Aridian Sun,114,356,0,0,0,0,0,0,0,5,2,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mongu Kabalak of Frenzy,112,350,0,0,0,0,0,0,0,5,2,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Rubal Kufiya of Acerbity,114,345,0,0,7,11,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Kataba Furcap of Cinders,108,340,0,0,0,0,0,0,0,5,2,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Djinn Ghutrah of Radiance,112,339,0,0,7,11,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Walrusk Papakh of Frenzy,108,331,0,0,7,11,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Tayg Ushanka of Steam,106,317,0,0,0,0,0,0,0,5,2,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Tundarian Cap of Rage,106,308,0,0,7,10,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Lake Knight's Helm,78,305,0,0,5,7,0,0,3,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Bleaks Ushanka of Pyres,104,294,0,0,0,0,0,0,0,4,1,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Radiant Kossack Furcap,104,285,0,0,6,9,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Face of the Blinding Sun,68,280,0,0,0,0,109,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Sweltery Tundra Ushanka,102,271,0,0,0,0,0,0,0,4,1,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Urville Papakh of Flames,102,262,0,0,6,8,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Charred Mantle of the Burn (Level 98+),98,260,0,0,7,8,0,0,5,0,0,0,0,0,0,0,0,0,Retired,False,False
+Sun Hood,60,260,0,0,0,0,76,0,2,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Lambent's Cowl of Radiance,70,260,0,0,0,5,0,0,0,6,6,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Cruel Star's Blazing Crown,88,255,0,0,6,7,0,0,4,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Fire-Forged Flame Helm,56,240,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Smokey Shroud,52,240,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hood of the Burnt Wolf,50,217,0,0,5,0,0,0,0,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Flaring Mantle,45,200,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Tinder Topper,50,180,0,0,0,0,24,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Fuming Hat,54,180,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Heedful Headwraps,40,160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hat of Egoism,35,160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Pyrestorm Crown,40,160,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cap of the Salamander,45,132,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Chronius' Fiery Veil,45,132,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Flame Shroud,45,132,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Pyromancer's Veil,45,132,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Distinguished Cap,30,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Scorched Helmet,52,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Torched Topper,52,120,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cowl of Cooperation,35,106,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cap of Reflection,35,106,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Headwraps of Nourishment,35,106,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Indulgent Helmet,35,106,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Basking Hat,25,80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Coif of the Inferno,25,80,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cap of Burning Sands,20,80,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Glowing Canine Hat,25,80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Firekeeper's Mantle,15,80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mugsy's Enkindled Hat,25,80,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Sprockets's Cultured Cap,25,80,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Stout Hood,15,80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Windhaven Cap,20,80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Krokotopian Fire Modius,15,72,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,True
+Gloomstrider's Sparking Veil,45,66,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hood of Ashes,45,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Promethean Hood,45,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cap of Apprehension,35,53,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cowl of the Flamesinger,15,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hat of Charity,30,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Blazing Helm,15,51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Torrid Champion's Cap,15,51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Firebrand's Coif,20,49,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Embershroud,10,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Feline's Fiery Hat,25,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Fire-Stitched Hood,10,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Nightshade's Hood,10,40,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Nails' Singed Headwrap,25,40,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Charbane's Helm,10,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Flamedancer's Crown,15,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Glowing Helm,10,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Sweltering Helm,15,26,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Verdant Helm,5,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Branded Helm,5,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Shroud of Cinders,52,0,0,0,0,0,49,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Akilles' Blazing Helm,10,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hat of Happenstance,10,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False

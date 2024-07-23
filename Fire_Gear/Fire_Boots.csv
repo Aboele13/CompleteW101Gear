@@ -1,0 +1,429 @@
+Name,Level,Health,Damage,Resist,Accuracy,Power Pip,Critical,Critical Block,Pierce,Stun Resist,Incoming,Outgoing,Pip Conserve,Shadow Pip,Archmastery,Sword Pins,Shield Pins,Power Pins,Source,Owned,Gear Set
+Fire Fairy Kei Slippers (Level 170+),170,903,43,12,4,0,146,146,8,0,0,0,0,16,0,2,0,1,Crowns,False,False
+Xibalba Meteoric Boots (Level 170+),170,903,43,12,4,0,146,146,8,0,0,0,0,16,0,2,0,1,Raid,False,False
+Fervid Dream Reaver Boots,170,1161,43,10,4,8,146,146,8,0,0,0,0,0,0,2,0,1,Drop/Vendor,False,False
+Xibalba Meteoric Boots (Level 160+),160,805,42,11,4,0,130,134,8,0,0,0,0,14,0,2,0,1,Raid,False,False
+Primordial Aeon Boots,160,1035,42,9,4,8,130,134,8,0,0,0,0,0,0,2,0,1,Drop/Vendor,False,False
+Supreme Eruption Shoes,148,850,41,0,3,0,132,0,0,0,0,0,0,15,0,0,0,0,Drop/Vendor,False,False
+Illuminated Page Treaders (Level 170+),170,1290,39,11,5,6,128,167,7,0,0,0,0,0,0,1,1,1,Gold Key/Gauntlet,False,False
+Umbra Queen's Scorched Heels (Level 170+),170,774,39,11,5,9,128,0,7,0,0,0,0,16,0,2,0,1,Drop/Vendor,False,False
+Wastelander's Scorched Boots (Level 170+),170,774,39,11,5,9,128,0,7,0,0,0,0,16,0,2,0,1,Crowns,False,False
+Hunhau's Meteoric Boots (Level 170+),170,1161,39,10,0,7,128,146,7,0,0,0,0,18,0,2,0,1,Raid,False,False
+Malevolent Fire Boots,150,996,39,10,0,8,110,0,0,0,2,0,0,14,0,0,0,0,Drop/Vendor,False,False
+Supreme Volcanic Shoes,148,972,39,8,0,0,117,0,0,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
+Fervid Dream Warper Boots,170,1032,39,0,3,7,128,125,7,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Furious Enforcer's Boots,165,976,39,0,3,7,121,120,7,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hierarch's Eruption Shoes,145,789,39,0,3,0,124,0,0,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
+Burrower's Pyromancy Boots (Level 160+),160,920,38,12,0,6,114,153,7,0,0,0,0,14,0,1,1,1,Gold Key/Gauntlet,False,False
+Fiery Night Mire Boots (Level 160+),160,1149,38,10,5,6,114,153,7,0,0,0,0,0,0,1,1,1,Gold Key/Gauntlet,False,False
+Illuminated Page Treaders (Level 160+),160,1149,38,10,5,6,114,153,7,0,0,0,0,0,0,1,1,1,Crowns,False,False
+Magician's Fire Boots,150,972,38,10,0,8,110,0,0,0,2,0,0,13,0,0,0,0,Drop/Vendor,False,False
+Blazing Skyfarer's Boots (Level 160+),160,690,38,10,5,9,114,0,7,0,0,0,0,14,0,2,0,1,Crowns,False,False
+Malistaire's Vengeance Boots (Level 160+),160,690,38,10,5,9,114,0,7,0,0,0,0,14,0,2,0,1,Crafting,False,False
+Wastelander's Scorched Boots (Level 160+),160,690,38,10,5,9,114,0,7,0,0,0,0,14,0,2,0,1,Crowns,False,False
+Hunhau's Meteoric Boots (Level 160+),160,1035,38,9,0,7,114,134,7,0,0,0,0,16,0,2,0,1,Raid,False,False
+Primordial Masterpiece Boots,160,919,38,7,0,0,113,115,6,0,0,0,0,12,0,0,0,0,Drop/Vendor,False,False
+Glistening Fire Boots,155,867,38,6,0,0,109,112,6,0,0,0,0,11,0,0,0,0,Drop/Vendor,False,False
+Flashy City Dweller Hoppers,160,920,38,0,3,7,114,115,7,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Supreme Firewall Shoes,148,1093,37,10,0,7,0,0,0,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
+Delightful Freshbaker Boots,140,938,37,10,0,9,102,0,0,0,2,0,0,14,0,0,0,0,Crafting,False,False
+Uber Freshbaker Boots,140,938,37,10,0,9,102,0,0,0,2,0,0,14,0,0,0,0,Drop/Vendor,False,False
+Demiurge's Rage Greaves,150,920,37,9,4,7,121,127,7,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Merciless Fire Boots,150,920,37,9,4,7,121,127,7,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hierarch's Volcanic Shoes,145,911,37,8,0,0,110,0,0,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
+Lemurian Eruption Shoes,142,729,37,0,2,0,124,0,0,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
+Dragoon's Fiery Boots,130,1051,36,10,0,8,135,0,0,0,0,3,0,12,0,0,0,0,Drop/Vendor,False,True
+Wunderbar Freshbaker Boots,140,905,36,9,0,8,102,0,0,0,2,0,0,13,0,0,0,0,Drop/Vendor,False,False
+Cavalry Officer Footwear,150,826,36,6,0,0,106,109,6,0,0,0,0,11,0,0,0,0,Drop/Vendor,False,False
+Alphoi Trooper Boots,130,795,36,5,0,9,120,0,0,0,0,0,0,12,0,0,0,0,Crafting,False,False
+Fiery Paradox Boots,130,795,36,5,0,9,120,0,0,0,0,0,0,12,0,0,0,0,Drop/Vendor,False,False
+Fervid Dream Stalker Boots,170,1032,35,13,6,7,0,167,6,0,0,0,0,14,0,1,1,1,Crafting,False,False
+Unreal Wraps of Overheating,170,903,35,12,6,8,0,146,6,0,0,0,0,16,0,1,1,1,Raid,False,False
+Hierarch's Firewall Shoes,145,1032,35,10,0,6,0,0,0,0,0,0,0,13,0,0,0,0,Drop/Vendor,False,False
+Vanguard's Fiery Boots,130,1028,35,10,0,7,135,0,0,0,0,3,0,12,0,0,0,0,Drop/Vendor,False,False
+Guten Freshbaker Boots,140,883,35,9,0,8,102,0,0,0,2,0,0,12,0,0,0,0,Drop/Vendor,False,False
+Daemonic Wraps of Overheating,170,1032,35,8,5,9,146,0,10,0,0,0,0,14,0,2,0,1,Raid,False,False
+Lemurian Volcanic Shoes,142,850,35,8,0,0,110,0,0,0,0,0,0,13,0,0,0,0,Drop/Vendor,False,False
+Fierce Alphoi Boots,125,969,35,5,4,0,101,0,0,0,0,0,0,11,0,0,0,0,Crafting,False,False
+Blazing Zanadu Boots,130,775,35,5,0,8,115,0,0,0,0,0,0,11,0,0,0,0,Drop/Vendor,False,False
+Cabalist Cleansing Stompers,125,742,35,5,4,0,110,0,0,0,0,0,0,12,0,0,0,0,Drop/Vendor,False,False
+Fiery Chrysanthemum Boots (Level 170+),170,1032,35,0,5,7,146,125,10,0,0,0,0,18,0,2,0,1,Gold Key/Gauntlet,False,False
+Flaming Chivalric Boots (Level 170+),170,1032,35,0,5,7,146,125,10,0,0,0,0,18,0,2,0,1,Gold Key/Gauntlet,False,False
+Executive Thermal Boots,138,773,35,0,5,0,120,0,0,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
+Eternal Primordial Boots,160,920,34,12,6,7,98,153,0,0,0,0,0,12,0,1,1,1,Crafting,False,False
+Great Inventor's Fire Boots (Level 160+),160,920,34,12,6,7,98,153,0,0,0,0,0,12,0,1,1,1,Crowns,False,False
+Floramancer Greaves of Rashes (Level 160+),160,805,34,11,6,8,0,134,6,0,0,0,0,14,0,1,1,1,Crowns,False,False
+Fiery Boots of The Void (Level 160+),160,805,34,11,6,8,0,134,6,0,0,0,0,14,0,1,1,1,Raid,False,False
+Fiery Night Mire Boots (Level 150+),150,1022,34,10,5,5,106,146,6,0,0,0,0,0,0,1,1,1,Crowns,False,False
+Grim Cerberus Master Boots (Level 150+),150,1022,34,10,5,5,106,186,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Soldier's Fiery Boots,130,993,34,10,0,6,135,0,0,0,0,3,0,12,0,0,0,0,Drop/Vendor,False,False
+Blazing Skyfarer's Boots (Level 150+),150,614,34,10,5,8,106,0,6,0,0,0,0,12,0,2,0,1,Crowns,False,False
+Wastelander's Scorched Boots (Level 150+),150,614,34,10,5,8,106,0,6,0,0,0,0,12,0,2,0,1,Crowns,False,False
+Morganthe's Fiery Heels (Level 150+),150,614,34,10,5,8,106,0,0,0,0,0,0,12,0,0,0,0,Crowns,False,False
+Fiery Boots of The Nullity (Level 160+),160,920,34,8,5,9,130,0,9,0,0,0,0,12,0,2,0,1,Raid,False,False
+Golden Fire Boots,155,758,34,5,0,0,93,93,5,0,0,0,0,10,0,0,0,0,Drop/Vendor,False,False
+Flaming Chivalric Boots (Level 160+),160,920,34,0,5,7,130,115,9,0,0,0,0,16,0,2,0,1,Crowns,False,False
+Furious Protector's Boots,165,854,34,0,0,6,104,100,6,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Flashy Townie Hoppers,160,805,34,0,0,6,98,96,6,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Lemurian Firewall Shoes,142,972,33,9,0,6,0,0,0,0,0,0,0,12,0,0,0,0,Drop/Vendor,False,False
+Director Thermal Boots,138,883,33,8,0,0,106,0,0,0,0,0,0,13,0,0,0,0,Drop/Vendor,False,False
+Chief's Thermal Boots,135,718,33,0,5,0,109,0,0,0,0,0,0,13,0,0,0,0,Drop/Vendor,False,False
+Grim Cerberus Master Boots (Level 140+),140,946,32,8,5,0,102,0,0,0,0,0,0,8,0,0,0,0,Crowns,False,False
+Regulation Cavalry Footwear,150,722,32,5,0,0,91,91,5,0,0,0,0,9,0,0,0,0,Drop/Vendor,False,False
+Burrower's Pyromancy Boots (Level 140+),140,716,31,12,0,5,0,141,6,0,0,0,0,12,0,0,0,0,Crowns,False,False
+Wastelander's Scorched Boots (Level 140+),140,537,31,10,5,8,102,0,6,0,0,0,0,12,0,0,0,0,Crowns,False,False
+Morganthe's Fiery Heels (Level 140+),140,537,31,10,5,8,102,0,0,0,0,0,0,12,0,0,0,0,Crowns,False,False
+Producer's Thermal Boots,138,994,31,9,0,7,0,0,0,0,0,0,0,13,0,0,0,0,Drop/Vendor,False,False
+Lead's Thermal Boots,135,828,31,8,0,0,96,0,0,0,0,0,0,13,0,0,0,0,Drop/Vendor,False,False
+Time Warden Galesh of Pyres,120,742,31,5,4,0,105,0,0,0,0,0,0,11,0,0,0,0,Drop/Vendor,False,False
+Consultant Thermal Boots,132,662,31,0,5,0,105,0,0,0,0,0,0,13,0,0,0,0,Drop/Vendor,False,False
+Great Inventor's Fire Boots (Level 150+),150,818,30,12,6,6,91,146,0,0,0,0,0,11,0,1,1,1,Crowns,False,False
+Highlands Fighter's Boots (Level 150+),150,818,30,12,6,6,91,146,0,0,0,0,0,11,0,0,0,0,Gold Key/Gauntlet,False,False
+Fiery Boots of The Void (Level 150+),150,716,30,11,6,7,0,163,5,0,0,0,0,12,0,0,0,0,Raid,False,False
+Supervisor Thermal Boots,135,938,30,9,0,6,0,0,0,0,0,0,0,12,0,0,0,0,Drop/Vendor,False,False
+Fire Fairy Kei Slippers (Level 120+),120,449,30,9,3,0,87,117,6,0,0,0,0,9,0,2,0,1,Crowns,False,False
+Fiery Boots of The Nullity (Level 150+),150,818,30,8,5,8,0,0,8,0,0,0,0,11,0,0,0,0,Raid,False,False
+Specialist Thermal Boots,132,773,30,7,0,0,93,0,0,0,0,0,0,12,0,0,0,0,Drop/Vendor,False,False
+Radical Space Boots,140,718,30,7,0,0,95,0,0,0,0,0,0,12,0,0,0,0,Drop/Vendor,False,False
+Burrower's Pyromancy Boots (Level 130+),130,615,29,11,0,5,0,137,5,0,0,0,0,10,0,0,0,0,Crowns,False,False
+Highlands Fighter's Boots (Level 140+),140,757,29,10,5,6,87,0,0,0,0,0,0,8,0,0,0,0,Crowns,False,False
+Illuminated Page Treaders (Level 130+),130,768,29,9,5,5,98,137,5,0,0,0,0,0,0,1,1,1,Crowns,False,False
+Fiery Night Mire Boots (Level 130+),130,768,29,9,5,5,98,137,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Blazing Skyfarer's Boots (Level 130+),130,461,29,9,5,8,98,0,0,0,0,0,0,10,0,0,0,0,Crowns,False,False
+Morganthe's Fiery Heels (Level 130+),130,461,29,9,5,8,98,0,0,0,0,0,0,10,0,0,0,0,Crowns,False,False
+Luphilim's Blazing Boots,110,583,29,5,0,0,63,0,0,3,0,0,0,11,0,0,0,0,Drop/Vendor,False,False
+Contractor Thermal Boots,132,883,28,9,0,6,0,0,0,0,0,0,0,11,0,0,0,0,Drop/Vendor,False,False
+Fire Fairy Kei Slippers (Level 110+),110,360,28,9,3,0,87,115,6,0,0,0,0,8,0,2,0,1,Crowns,False,False
+Fiery Liaison's Boots,130,718,28,7,0,0,84,0,0,0,0,0,0,12,0,0,0,0,Drop/Vendor,False,False
+Shimmering Majoris Footgear,110,553,28,5,0,6,102,0,0,0,0,0,0,11,0,0,0,0,Drop/Vendor,False,False
+Fiery Chrysanthemum Boots (Level 140+),140,716,28,0,5,6,116,106,8,0,0,0,0,13,0,2,0,1,Crowns,False,False
+Red Boots of the Eternal Flame,120,630,28,0,0,0,109,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Burrower's Pyromancy Boots (Level 120+),120,513,27,10,0,5,0,133,5,0,0,0,0,9,0,0,0,0,Crowns,False,False
+Fiery Night Mire Boots (Level 120+),120,641,27,8,4,5,76,133,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Scorched Boots (Level 120+),120,385,27,8,4,8,76,0,5,0,0,0,0,9,0,0,0,0,Crowns,False,False
+Blazing Skyfarer's Boots (Level 120+),120,385,27,8,4,8,76,0,0,0,0,0,0,9,0,0,0,0,Crowns,False,False
+Grim Cerberus Master Boots (Level 120+),120,634,27,7,5,0,76,0,0,0,0,0,0,7,0,0,0,0,Crowns,False,False
+Morganthe's Fiery Heels (Level 120+),120,507,27,5,5,6,76,0,0,0,0,0,0,11,0,0,0,0,Crowns,False,False
+Great Inventor's Fire Boots (Level 130+),130,615,26,11,6,6,84,137,0,0,0,0,0,9,0,0,0,0,Crowns,False,False
+Burrower's Pyromancy Boots (Level 110+),110,412,26,10,0,5,0,131,5,0,0,0,0,8,0,0,0,0,Crowns,False,False
+Fire Fairy Kei Slippers (Level 100+),100,271,26,9,4,0,84,0,5,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Illuminated Page Treaders (Level 110+),110,514,26,8,4,5,76,131,5,0,0,0,0,0,0,1,1,1,Crowns,False,False
+Fiery Night Mire Boots (Level 110+),110,514,26,8,4,5,76,131,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Scorched Boots (Level 110+),110,309,26,8,4,7,76,0,5,0,0,0,0,8,0,0,0,0,Crowns,False,False
+Blazing Skyfarer's Boots (Level 110+),110,309,26,8,4,7,76,0,0,0,0,0,0,8,0,0,0,0,Crowns,False,False
+Morganthe's Fiery Heels (Level 110+),110,309,26,8,4,7,76,0,0,0,0,0,0,8,0,0,0,0,Crowns,False,False
+Kermes Fire Walkers,100,349,26,7,4,0,84,109,5,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Titan Warrior Skyfire Riders,110,522,26,4,0,6,100,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Grim Cerberus Master Boots (Level 110+),110,489,25,7,5,0,76,0,0,0,0,0,0,6,0,0,0,0,Crowns,False,False
+Volatile Borealis Boots,110,491,25,4,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Burrower's Pyromancy Boots (Level 100+),100,310,24,10,0,6,0,124,5,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Fiery Night Mire Boots (Level 100+),100,387,24,8,4,0,74,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Illuminated Page Treaders (Level 100+),100,387,24,8,4,0,74,124,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Fire Fairy Kei Slippers (Level 80+),80,197,24,8,4,0,65,0,4,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Kermes Fire Stompers,100,310,24,6,4,0,74,93,5,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Fiery Chrysanthemum Boots (Level 120+),120,513,24,0,4,6,87,100,7,0,0,0,0,10,0,2,0,1,Crowns,False,False
+Umbra Queen's Scorched Heels (Level 100+),100,310,24,0,4,7,74,0,5,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Blazing Skyfarer's Boots (Level 100+),100,310,24,0,4,7,74,0,0,0,0,0,0,8,0,0,0,0,Crowns,False,False
+Malistaire's Vengeance Boots (Level 100+),100,310,24,0,4,7,74,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Great Inventor's Fire Boots (Level 110+),110,412,23,10,5,5,65,131,0,0,0,0,0,7,0,0,0,0,Crowns,False,False
+Floramancer Greaves of Rashes (Level 110+),110,360,23,9,5,6,0,115,0,0,0,0,0,8,0,0,0,0,Crowns,False,False
+Burrower's Pyromancy Boots (Level 90+),90,268,23,9,0,5,0,118,4,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Fiery Night Mire Boots (Level 90+),90,334,23,8,4,0,70,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Grim Cerberus Master Boots (Level 90+),90,334,23,8,4,0,70,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Illuminated Page Treaders (Level 90+),90,334,23,8,4,0,70,118,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Grim Cerberus Master Boots (Level 100+),100,264,23,6,5,0,74,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Arcanum Exile Fiery Clogs,105,399,23,4,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Alkali Burning Sands Walkers,118,519,23,0,0,0,107,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Fiery Chrysanthemum Boots (Level 110+),110,412,23,0,4,5,87,98,7,0,0,0,0,9,0,2,0,1,Crowns,False,False
+Pyro's Bright Walkers,85,350,23,0,6,7,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Scorched Boots (Level 90+),90,268,23,0,4,6,70,0,4,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Blazing Skyfarer's Boots (Level 90+),90,268,23,0,4,6,70,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Morganthe's Fiery Heels (Level 90+),90,268,23,0,4,6,70,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Morganthe's Fiery Heels (Level 100+),100,211,23,0,5,7,74,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Burrower's Pyromancy Boots (Level 80+),80,225,22,8,0,5,0,99,3,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Fiery Night Mire Boots (Level 80+),80,281,22,7,4,0,57,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Fire Fairy Kei Slippers (Level 70+),70,160,22,7,4,0,56,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Vizier's Shoes of Smolders,116,482,22,0,0,0,105,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Wastelander's Scorched Boots (Level 80+),80,225,22,0,4,6,57,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Blazing Skyfarer's Boots (Level 80+),80,225,22,0,4,6,57,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Morganthe's Fiery Heels (Level 80+),80,225,22,0,4,6,57,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Great Inventor's Fire Boots (Level 100+),100,310,21,10,5,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Highlands Fighter's Boots (Level 100+),100,310,21,10,5,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Rogue's Blazing Striders,100,264,21,7,6,0,0,102,5,0,0,0,0,10,0,0,0,0,Drop/Vendor,False,False
+Boots of Malistaire's Ire,100,250,21,7,5,8,0,105,5,0,0,0,0,9,0,0,0,0,Drop/Vendor,False,False
+Grim Cerberus Master Boots (Level 80+),80,202,21,5,5,0,58,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Parched Wayfarer's Galesh,114,445,21,0,0,0,103,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Great Inventor's Fire Boots (Level 90+),90,268,20,9,5,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Great Inventor's Fire Boots (Level 80+),80,225,20,8,5,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Burrower's Pyromancy Boots (Level 70+),70,183,20,7,0,4,0,80,3,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Fiery Night Mire Boots (Level 70+),70,228,20,6,4,0,49,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Illuminated Page Treaders (Level 70+),70,228,20,6,4,0,49,80,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Grim Cerberus Master Boots (Level 70+),70,228,20,6,4,0,49,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Merchant's Tundra Walkers,96,225,20,6,5,0,0,79,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Fire Fairy Kei Slippers (Level 60+),60,123,20,6,4,0,49,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Spiderkeeper's Charstriders,50,117,20,4,4,0,0,0,2,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Spiderkeeper's Charwalkers (Socketed),50,117,20,4,0,4,0,0,2,0,0,0,0,0,0,2,0,1,Crafting,False,False
+Nomad's Sunfire Striders,112,438,20,0,0,0,101,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Arcanum Pyromancer's Boots,108,430,20,0,0,0,89,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Wastelander's Scorched Boots (Level 70+),70,183,20,0,4,5,49,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Blazing Skyfarer's Boots (Level 70+),70,183,20,0,4,5,49,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Morganthe's Fiery Heels (Level 70+),70,183,20,0,4,5,49,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Enchanter's Fervid Trekkers,106,399,19,0,0,0,86,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Burrower's Pyromancy Boots (Level 60+),60,140,18,6,0,4,0,63,3,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Boots of Carpathesian Fury,100,230,18,5,4,7,0,84,3,0,0,0,0,9,0,0,0,0,Drop/Vendor,False,False
+Fiery Night Mire Boots (Level 60+),60,175,18,5,4,0,43,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Grim Cerberus Master Boots (Level 60+),60,175,18,5,4,0,43,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Burrower's Pyromancy Boots (Level 50+),50,104,18,5,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Illuminated Page Treaders (Level 50+),50,130,18,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Wastelander's Scorched Boots (Level 50+),50,0,18,4,4,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Spiderkeeper's Charwalkers,50,104,18,3,4,0,0,0,2,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Evoker's Ember Walkers,104,368,18,0,0,0,84,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Salamander's Dashing Slippers,80,185,18,0,8,0,45,40,5,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Scorched Boots (Level 60+),60,140,18,0,4,5,43,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Blazing Skyfarer's Boots (Level 60+),60,140,18,0,4,5,43,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Morganthe's Fiery Heels (Level 60+),60,140,18,0,4,5,43,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Blazing Skyfarer's Boots (Level 50+),50,104,18,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Malistaire's Vengeance Boots (Level 50+),50,104,18,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Morganthe's Fiery Heels (Level 50+),50,104,18,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Highlands Fighter's Boots (Level 70+),70,142,17,6,5,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Fiery Night Mire Boots (Level 40+),40,130,17,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Illuminated Page Treaders (Level 40+),40,130,17,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Burrower's Pyromancy Boots (Level 40+),40,104,17,2,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Scorched Boots (Level 40+),40,0,17,2,4,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Mage's Smoldering Boots,102,338,17,0,0,0,81,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Fire-Forged Paladin Boots,95,260,17,0,5,7,0,60,4,0,5,0,0,0,0,0,0,0,Crowns,False,False
+Blazing Skyfarer's Boots (Level 40+),40,104,17,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Great Inventor's Fire Boots (Level 60+),60,140,16,6,5,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Highlands Fighter's Boots (Level 60+),60,140,16,6,5,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Great Inventor's Fire Boots (Level 50+),50,104,16,5,5,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Highlands Fighter's Boots (Level 50+),50,104,16,5,5,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Fire Fairy Kei Slippers (Level 30+),30,0,16,1,0,4,0,0,1,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Morganthe's Fiery Heels (Level 40+),40,104,16,0,3,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Poseidon's Boots of Vapors,90,200,15,9,6,9,0,0,3,0,10,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Unseen Lord's Cinder Boots,90,300,15,8,3,6,0,56,2,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Brimstone Boots of Darkmoor,100,210,15,3,3,6,0,67,2,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Great Inventor's Fire Boots (Level 40+),40,104,15,2,4,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Illuminated Page Treaders (Level 30+),30,130,15,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Grim Cerberus Master Boots (Level 30+),30,130,15,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Burrower's Pyromancy Boots (Level 30+),30,104,15,1,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Blazing Skyfarer's Boots (Level 30+),30,104,15,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Morganthe's Fiery Heels (Level 30+),30,104,15,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Firestarter's Boots,60,120,14,8,5,0,0,27,0,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Boots of Wyldfire,56,115,14,3,2,0,0,15,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Highlands Fighter's Boots (Level 40+),40,104,14,2,4,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Transcendent Sparking Sandals,90,200,14,0,5,6,0,0,7,0,6,0,0,0,0,0,0,0,Crafting,False,False
+Senator's Sparking Sandals,90,200,14,0,4,6,0,0,6,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Artisan's Shoes of Embers,70,180,14,0,5,5,0,0,4,0,5,0,0,0,0,0,0,0,Crafting,False,False
+Dragonstalkers,58,120,14,0,5,0,0,20,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Fuming Footgear,56,120,14,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Fire-Forged Footguards,56,96,14,0,0,0,0,20,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Scorched Footguards,52,72,14,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Firestar Shoes,56,0,14,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Great Inventor's Fire Boots (Level 30+),30,104,13,1,4,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Highlands Fighter's Boots (Level 30+),30,104,13,1,4,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Floramancer Greaves of Rashes (Level 30+),30,91,13,1,4,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Zeus's Flamewalkers,90,190,13,0,6,7,0,0,8,0,0,15,0,0,0,0,0,0,Drop/Vendor,False,False
+Flameborn Sidhe Boots,65,178,13,0,4,0,0,0,2,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Senator's Shoes of Embers,70,170,13,0,4,5,0,0,3,0,4,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Snowglider's Footwear,94,160,13,0,9,5,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Morganthe's Fiery Heels (Level 20+),20,32,13,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Hades' Firestriders,90,195,12,6,5,7,0,0,10,0,0,7,0,0,0,0,0,0,Drop/Vendor,False,False
+Firewalker Boots,58,88,12,4,5,0,0,27,0,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Floramancer Greaves of Rashes (Level 20+),20,36,12,1,2,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Burnt Shoes of Balance,55,102,12,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Ashen Snow Striders,55,102,12,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Firedreamer's Footguards,55,102,12,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Shoes of Blazing Bolts,55,102,12,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Scorched Shoes of Sorrow,55,102,12,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Pyro's Carefree Boots,55,102,12,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Reckless Runners,58,96,12,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Volatile Footwear,56,96,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Krokopatra Inferno Steppers,100,256,11,6,0,4,0,66,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Scorching Desert Footgear,100,267,11,5,5,0,0,55,4,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Grim Cerberus Master Boots (Level 10+),10,20,11,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Fiery Night Mire Boots (Level 10+),10,20,11,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Illuminated Page Treaders (Level 10+),10,20,11,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Scorched Boots (Level 10+),10,0,11,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Blazing Skyfarer's Boots (Level 10+),10,16,11,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Morganthe's Fiery Heels (Level 10+),10,16,11,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Knave's Blazing Striders,70,147,10,5,2,6,0,40,4,0,6,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Floramancer Greaves of Rashes (Level 10+),10,18,10,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Guard of the Sun Fire Boots,84,170,10,0,5,6,0,0,2,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Boots of Fire Dancing,70,146,10,0,0,0,40,0,2,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Lambent's Radiant Shoes,70,140,10,0,0,4,0,0,0,0,6,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Spotted Fire Leopard's Pads,66,140,10,0,4,3,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Bushfire Boots,60,130,10,0,4,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Shaman's Fire-Feather Wraps,68,120,10,0,0,6,0,0,2,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Rangers of the Royal Flame,40,90,10,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Poseidon's Steamwalkers,70,140,9,8,4,5,0,37,3,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Zigazag Desert Mukluks,60,132,9,6,7,0,0,36,0,0,16,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Grim Cerberus Master Boots (Any Level),1,17,9,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Poet's Footwraps,76,153,9,0,4,6,0,0,2,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Palace Guard's Firewalkers,40,85,8,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Ashen Boots,50,72,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Zeus' Boots of Skyfire,30,130,7,0,4,3,0,0,0,0,6,6,0,0,0,0,0,0,Drop/Vendor,False,False
+Adept's Radiant Sandals,30,100,7,0,3,4,0,0,0,0,5,0,0,0,0,0,0,0,Crafting,False,False
+General Firetusk's Flameboots,45,100,7,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Spiderkeeper's Charstriders (H100),50,100,7,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+Boots of the Fire Sands,60,92,7,0,5,0,0,25,0,0,12,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Firevein's Flaming Sandals,45,66,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Soot-Stained Slippers,45,33,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Ashweaver's Sandals of Cinders,45,0,7,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Advanced Fire Boots,50,110,6,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Fiery Night Mire Boots (Any Level),1,10,6,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Scorched Boots (Any Level),1,0,6,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Kermes Fire Walkers (Level 98+),98,115,6,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,Retired,False,False
+Celestian Cinder Shoes,50,108,6,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,True
+Striders of the Cruel Star,88,100,6,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Fire-Spitter Dancers,78,90,6,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Senator's Radiant Sandals,30,85,6,0,2,4,0,0,0,0,4,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Sandals of the Steward,45,66,6,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Shoes of the Phoenix,45,66,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Sandals of Adversity,45,66,6,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+Takanobu's Footgear of Rage,35,64,6,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Blazing Skyfarer's Boots (Any Level),1,8,6,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Morganthe's Fiery Heels (Any Level),1,8,6,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Bonebreaker Shoes of Flame,40,82,5,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Lost World Ember Footwraps,85,167,5,0,6,0,0,50,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Boots of the Glowing Fable,44,82,5,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Boots of the Burning Principle,44,82,5,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Footgear of the Spirit Fire,44,82,5,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Shoes of the Funeral Pyre,44,82,5,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Slippers of the Gleaming Havoc,44,82,5,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Sandals of the Arctic Flame,44,82,5,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Oyotomi's Shoes of Egoism,40,80,5,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Refulgent Footwear,40,80,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Striders of Ardent Purpose,25,80,5,0,3,0,0,0,0,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Boots of the Burning Scales,60,64,5,0,0,0,0,17,0,0,9,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Firewalking Sandals,35,53,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Shoes of the Observant,35,53,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Yakedo's Abstract Shoes,35,53,5,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Boots of Reflection,35,26,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Zaneki's Sandals of Tact,40,0,5,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Krokomaic Inferno Steppers,40,82,4,2,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Brighthonor Boots,33,66,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Dreambrand Footwraps,33,66,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Embermuse Shoes,33,66,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Fireleaf Footwear,33,66,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Grimblaze Sandals,33,66,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Winterflame Boots,33,66,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Hollow Mountain Trekkers,25,55,4,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Boots of the Inferno,40,53,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Incandescent Footwraps,40,53,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Groostak's Boots,35,53,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Haru's Shoes of Nourishment,35,53,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Soldier's Slippers,35,26,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+War Oni's Footwraps,35,26,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Ra's Firebrand Footwraps,20,36,3,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Flaring Footgear,30,60,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Scratcher's Confined Boots,30,60,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Slippers of Predominance,25,40,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Smogger's Affected Boots,25,40,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Finely Finished Slippers,30,0,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Barkingham Cinder Shoes,40,67,2,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Burning Slippers of the Wind,22,45,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Blazing Boots of the Opus,22,45,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Glimmering Boots of Neutrality,22,45,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Scorched Shoes of the Chill,22,45,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Radiant Wraps of Exuberance,22,45,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Smoldering Sandals of Ash,22,45,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Sprockets' Slippers,25,40,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mocassins of the Marauder,25,40,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+Pompous Footwraps,25,40,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Widow's Frenzied Shoes,25,40,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Firetalon Boots,30,20,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Slippers of Outbreak,20,20,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Manu's Scorching Shoes,20,40,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Krokopatra's Shoes,20,40,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Emberflood Shoes,15,31,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Firefrost Boots,15,31,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Everfrost Footgear,15,31,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Firebleak Striders,15,31,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Glowmuse Slippers,15,31,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Soulburner Footwraps,15,31,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Footwear of the Flame,20,26,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Slippers of Burning Sands,15,26,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Boots of the Embers,25,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Smoke Jumpers,20,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Bonesmasher Shoes of Flame,100,247,0,12,0,7,0,0,0,0,10,5,0,0,0,0,0,0,Drop/Vendor,False,False
+Grim Cerberus Master Boots (Level 130+),130,872,0,7,5,0,97,0,0,0,0,0,0,8,0,0,0,0,Crowns,False,False
+Rad Kalamar Kicks,127,795,0,4,0,0,121,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Highlands Fighter's Boots (Level 10+),10,16,0,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Highlands Fighter's Boots (Any Level),1,14,0,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Interstellar Engineer Trekkers,122,698,0,0,3,0,0,0,0,0,0,0,0,11,0,0,0,0,Drop/Vendor,False,False
+Mottoman Heatwave Runners,118,549,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Charred Eerem Givehs,118,534,0,0,3,0,0,0,0,0,0,0,0,10,0,0,0,0,Drop/Vendor,False,False
+Zruvan Galesh of Fury,116,512,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Sand Sea Striders of Ashes,116,497,0,0,3,0,0,0,0,0,0,0,0,10,0,0,0,0,Drop/Vendor,False,False
+Shoes of the Aridian Sun,114,475,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mongu Givehs of Frenzy,112,467,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Rubal Babouches of Acerbity,114,460,0,0,3,0,0,0,0,0,0,0,0,10,0,0,0,0,Drop/Vendor,False,False
+Kataba Boots of Cinders,108,454,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Djinn Slippers of Radiance,112,453,0,0,3,0,0,0,0,0,0,0,0,10,0,0,0,0,Drop/Vendor,False,False
+Walrusk Mukluks of Frenzy,108,442,0,0,3,0,0,0,0,0,0,0,0,10,0,0,0,0,Drop/Vendor,False,False
+Tayg Mukluks of Steam,106,424,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Tundarian Stalkers of Rage,106,411,0,0,3,0,0,0,0,0,0,0,0,10,0,0,0,0,Drop/Vendor,False,False
+Bleaks Footgear of Pyres,104,393,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Radiant Kossack Marchers,104,381,0,0,2,0,0,0,0,0,0,0,0,10,0,0,0,0,Drop/Vendor,False,False
+Sweltery Tundra Boots,102,362,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Urville Boots of Flames,102,350,0,0,2,0,0,0,0,0,0,0,0,10,0,0,0,0,Drop/Vendor,False,False
+Mantis Streamstriders,95,270,0,0,5,7,0,45,0,0,4,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Immortals' Boots of Radiance,100,269,0,0,0,0,0,63,6,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Flame Legs Coalwalkers,92,200,0,0,0,8,0,0,0,0,11,9,0,0,0,0,0,0,Drop/Vendor,False,False
+Fiery Chac's Great Boots,82,185,0,0,0,7,0,0,0,0,10,8,0,0,0,0,0,0,Drop/Vendor,False,False
+Mantis Footgear of Embers,90,180,0,0,5,6,0,42,0,0,2,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Wild Footguards,70,179,0,0,0,3,0,37,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Friend of the Fire Elf Boots,72,166,0,0,0,7,0,0,0,0,9,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mighty Chac's Boots,80,165,0,0,4,5,0,40,0,0,10,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Combustible Clogs,52,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Ember Boots,50,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Burnt Wolf Boots,50,116,0,0,0,0,0,0,0,0,5,3,0,0,0,0,0,0,Drop/Vendor,False,False
+Dragonscale Boots,45,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Salamander-Hide Shoes,45,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Devoted Greaves,54,96,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Fuming Striders,40,80,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Heedful Slippers,40,80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Sandals of Apprehension,35,80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Smokey Shoes,50,72,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Volcanic Waders,50,72,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Markmaker's Inferno Striders,45,66,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Sandals of Scorching,45,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Slippers of the Sunflame,45,66,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Feline's Fiery Boots,25,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Gallant Sandals,35,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Footwraps of Charity,35,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Footwraps of Purpose,35,53,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Zaneki's Slippers,35,53,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Tempestuous Walkers,30,51,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Brightbrand Walkers,25,40,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Alluring Boots,25,40,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Footwear of the Gallant,30,40,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Jacques' Boots of Courtesy,25,40,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Slippers of Rapture,25,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Sandals of Ignition,15,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Krokotopian Fire Striders,15,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,True
+Smoking Ember Walkers,25,36,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Burning Boots,45,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Firewalker's Footwraps,45,33,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Sunwalkers,45,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Footgear of the Firehaze,15,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Benign Slippers,30,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Indulgent Boots,35,26,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Nirini Champion's Sandals,15,26,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Sandals of Energy,15,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Slippers of the Triumphant,15,26,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+Brady's Boots of the Cultured,25,20,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Fire-Stitched Slippers,10,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Distinguished Slippers,25,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Footwraps of Flame,10,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Shoes of Bottled Anger,20,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Boots of Embers,10,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Flamedancer's Boots,15,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Ruby Studded Boots,5,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Pyromancer's Lambent Boots,15,13,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Branded Footguards,5,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Plated Boots,1,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Biti Nirini's Torrid Boots,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Fireguard Slippers,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Meritorious Mocassins,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+Shoes of the Searing Flame,45,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False

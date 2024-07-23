@@ -1,0 +1,425 @@
+Name,Level,Health,Damage,Resist,Accuracy,Power Pip,Critical,Critical Block,Pierce,Stun Resist,Incoming,Outgoing,Pip Conserve,Shadow Pip,Archmastery,Sword Pins,Shield Pins,Power Pins,Source,Owned,Gear Set
+Daemonic Armor of Overheating,170,1045,30,12,9,8,128,0,10,0,0,0,0,19,0,2,0,1,Raid,False,False
+Fiery Robe of The Nullity (Level 160+),160,1033,30,12,9,8,112,0,8,0,0,0,0,18,0,2,0,1,Raid,False,False
+Illuminated Plot Armor (Level 170+),170,1393,27,14,6,9,112,134,9,0,0,0,0,0,0,2,0,1,Gold Key/Gauntlet,False,False
+Fiery Night Mire Coat (Level 160+),160,1377,27,14,6,9,98,120,7,0,0,0,0,0,0,2,0,1,Gold Key/Gauntlet,False,False
+Illuminated Plot Armor (Level 160+),160,1377,27,14,6,9,98,120,7,0,0,0,0,0,0,2,0,1,Crowns,False,False
+Hunhau's Meteoric Mail (Level 170+),170,1219,27,13,0,10,112,117,9,0,0,0,0,19,0,1,0,2,Raid,False,False
+Fiery Robe of The Nullity (Level 150+),150,917,27,11,9,8,0,0,8,0,0,0,0,14,0,0,0,0,Raid,False,False
+Hunhau's Meteoric Mail (Level 160+),160,1549,27,10,0,8,98,105,7,0,0,0,0,23,0,1,0,2,Raid,False,False
+Umbra Queen's Scorched Garment (Level 170+),170,1393,27,9,10,9,112,0,9,0,0,0,0,22,0,1,0,2,Drop/Vendor,False,False
+Wastelander's Scorched Armor (Level 170+),170,1393,27,9,10,9,112,0,9,0,0,0,0,22,0,1,0,2,Crowns,False,False
+Blazing Skyfarer's Garb (Level 160+),160,1377,27,9,10,9,98,0,7,0,0,0,0,20,0,1,0,2,Crowns,False,False
+Malistaire's Vengeance Vestment (Level 160+),160,1377,27,9,10,9,98,0,7,0,0,0,0,20,0,1,0,2,Drop/Vendor,False,False
+Wastelander's Scorched Armor (Level 160+),160,1377,27,9,10,9,98,0,7,0,0,0,0,20,0,1,0,2,Crowns,False,False
+Fiery Night Mire Coat (Level 150+),150,1223,25,13,6,9,91,115,7,0,0,0,0,0,0,2,0,1,Crowns,False,False
+Illuminated Plot Armor (Level 150+),150,1223,25,13,6,9,91,115,7,0,0,0,0,0,0,2,0,1,Crowns,False,False
+Grim Cerberus Master Armor (Level 150+),150,1223,25,13,6,9,91,124,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Blazing Skyfarer's Garb (Level 150+),150,1223,25,8,10,9,91,0,7,0,0,0,0,19,0,1,0,2,Crowns,False,False
+Wastelander's Scorched Armor (Level 150+),150,1223,25,8,10,9,91,0,7,0,0,0,0,19,0,1,0,2,Crowns,False,False
+Morganthe's Fiery Trappings (Level 150+),150,1223,25,8,10,9,91,0,0,0,0,0,0,19,0,0,0,0,Crowns,False,False
+Fire-Forged Paladin Mail,95,550,25,0,0,8,70,28,5,0,5,0,0,0,0,0,0,0,Crowns,False,False
+Fervid Dream Reaver Armor,170,1219,24,13,8,7,128,117,12,0,0,0,0,0,0,2,0,1,Drop/Vendor,False,False
+Primordial Aeon Cape,160,1205,24,13,8,7,112,105,10,0,0,0,0,0,0,2,0,1,Drop/Vendor,False,False
+Illuminated Plot Armor (Level 140+),140,1070,24,13,6,9,89,112,7,0,0,0,0,0,0,2,0,1,Crowns,False,False
+Fiery Night Mire Coat (Level 140+),140,1070,24,13,6,9,89,112,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Fervid Dream Stalker Armor,170,1741,24,12,7,10,0,134,8,0,0,0,0,19,0,1,0,2,Crafting,False,False
+Eternal Primordial Cape,160,1721,24,12,7,10,84,120,0,0,0,0,0,18,0,1,0,2,Crafting,False,False
+Great Inventor's Fire Coat (Level 160+),160,1721,24,12,7,10,84,120,0,0,0,0,0,18,0,1,0,2,Crowns,False,False
+Fire Fairy Kei Dress (Level 170+),170,1567,24,10,8,0,128,117,12,0,0,0,0,17,0,2,0,1,Crowns,False,False
+Xibalba Meteoric Mail (Level 170+),170,1567,24,10,8,0,128,117,12,0,0,0,0,17,0,2,0,1,Raid,False,False
+Unreal Armor of Overheating,170,1567,24,10,8,11,0,117,8,0,0,0,0,22,0,1,0,2,Raid,False,False
+Fire Fairy Kei Dress (Level 160+),160,1549,24,10,8,0,112,105,10,0,0,0,0,15,0,2,0,1,Crowns,False,False
+Xibalba Meteoric Mail (Level 160+),160,1549,24,10,6,0,112,90,10,0,0,0,0,20,0,2,0,1,Raid,False,False
+Fiery Robe of The Void (Level 160+),160,1549,24,10,8,11,0,105,6,0,0,0,0,20,0,1,0,2,Raid,False,False
+Floramancer Armor of Rashes (Level 160+),160,1549,24,10,8,11,0,105,6,0,0,0,0,20,0,1,0,2,Crowns,False,False
+Flaming Chivalric Plate (Level 170+),170,1393,24,0,9,8,128,101,12,0,0,0,0,19,0,2,0,1,Gold Key/Gauntlet,False,False
+Fiery Chrysanthemum Coat (Level 170+),170,1393,24,0,9,8,128,101,12,0,0,0,0,19,0,2,0,1,Gold Key/Gauntlet,False,False
+Radiant Light Brigade Armor,125,799,23,15,10,6,110,0,0,0,0,0,0,16,0,0,0,0,Drop/Vendor,False,False
+Illuminated Plot Armor (Level 130+),130,918,23,12,6,8,80,105,7,0,0,0,0,0,0,2,0,1,Crowns,False,False
+Fiery Night Mire Coat (Level 130+),130,918,23,12,6,8,80,105,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Blazing Skyfarer's Garb (Level 130+),130,918,23,8,9,8,80,0,0,0,0,0,0,16,0,0,0,0,Crowns,False,False
+Morganthe's Fiery Trappings (Level 130+),130,918,23,8,9,8,80,0,0,0,0,0,0,16,0,0,0,0,Crowns,False,False
+Bonesmasher Robe of Flame,100,696,22,15,12,5,107,0,0,0,0,0,0,11,0,0,0,0,Drop/Vendor,False,False
+Grim Cerberus Master Armor (Level 140+),140,1150,22,13,8,0,89,111,0,0,0,0,0,13,0,0,0,0,Crowns,False,False
+Demiurge's Rage Armor,150,1070,22,12,8,7,104,109,10,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Merciless Fire Cloak,150,1070,22,12,8,7,104,109,10,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Fiery Night Mire Coat (Level 120+),120,766,22,12,6,8,77,96,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Great Inventor's Fire Coat (Level 150+),150,1528,22,11,7,10,78,115,0,0,0,0,0,17,0,1,0,2,Crowns,False,False
+Highlands Fighter's Kit (Level 150+),150,1528,22,11,7,10,78,115,0,0,0,0,0,14,0,0,0,0,Gold Key/Gauntlet,False,False
+Fire Fairy Kei Dress (Level 150+),150,1376,22,10,8,0,104,101,10,0,0,0,0,14,0,2,0,1,Crowns,False,False
+Fiery Robe of The Void (Level 150+),150,1376,22,10,8,11,0,109,6,0,0,0,0,19,0,0,0,0,Raid,False,False
+Morganthe's Fiery Trappings (Level 140+),140,1150,22,8,10,8,89,0,0,0,0,0,0,17,0,0,0,0,Crowns,False,False
+Wastelander's Scorched Armor (Level 120+),120,766,22,8,9,8,77,0,6,0,0,0,0,15,0,0,0,0,Crowns,False,False
+Blazing Skyfarer's Garb (Level 120+),120,766,22,8,9,8,77,0,0,0,0,0,0,15,0,0,0,0,Crowns,False,False
+Pyro's Bright Robes,85,580,22,0,1,9,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Robes of Malistaire's Ire,100,661,21,14,18,9,106,0,0,0,0,0,0,12,0,0,0,0,Drop/Vendor,False,False
+Burrower's Pyromancy Robe (Level 160+),160,1721,21,12,0,7,98,120,9,0,0,0,0,20,0,2,0,1,Gold Key/Gauntlet,False,False
+Fervid Dream Warper Armor,170,0,21,12,7,6,112,101,11,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Furious Enforcer's Uniform,165,0,21,12,7,6,105,96,10,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Flashy City Dweller Vest,160,0,21,12,7,6,98,90,9,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Highlands Fighter's Kit (Level 140+),140,1337,21,11,7,10,77,112,0,0,0,0,0,13,0,0,0,0,Crowns,False,False
+Primordial Masterpiece Cape,160,1033,21,11,0,0,98,90,9,0,0,0,0,18,0,0,0,0,Drop/Vendor,False,False
+Illuminated Plot Armor (Level 110+),110,613,21,11,6,8,74,91,5,0,0,0,0,0,0,2,0,1,Crowns,False,False
+Fiery Night Mire Coat (Level 110+),110,613,21,11,6,8,74,91,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Scorched Armor (Level 110+),110,613,21,7,9,8,74,0,5,0,0,0,0,13,0,0,0,0,Crowns,False,False
+Scorching Desert Vestment,100,566,21,7,7,0,0,20,6,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Fiery Chrysanthemum Coat (Level 140+),140,1070,21,0,9,8,102,84,9,0,0,0,0,15,0,2,0,1,Crowns,False,False
+Robes of Starfire,94,510,20,12,15,0,60,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Grim Cerberus Master Armor (Level 100+),100,461,20,11,8,0,74,84,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Fiery Night Mire Coat (Level 100+),100,461,20,11,8,0,74,84,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Illuminated Plot Armor (Level 100+),100,461,20,11,0,8,74,84,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Great Inventor's Fire Coat (Level 130+),130,1147,20,10,7,9,68,105,0,0,0,0,0,12,0,0,0,0,Crowns,False,False
+Great Inventor's Fire Coat (Level 120+),120,957,20,10,7,9,66,96,0,0,0,0,0,11,0,0,0,0,Crowns,False,False
+Zigazag Desert Armor,60,323,20,10,5,4,46,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Fiery Chrysanthemum Coat (Level 130+),130,918,20,0,9,7,91,79,9,0,0,0,0,14,0,2,0,1,Crowns,False,False
+Morganthe's Fiery Trappings (Level 100+),100,547,20,0,10,6,74,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Zeus' Skyforged Plate,90,525,20,0,7,9,91,0,6,0,0,20,0,0,0,0,0,0,Drop/Vendor,False,False
+Poseidon's Firestream Garb,90,520,20,0,0,10,75,0,4,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Umbra Queen's Scorched Garment (Level 100+),100,461,20,0,9,8,74,0,5,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Blazing Skyfarer's Garb (Level 100+),100,461,20,0,9,8,74,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Malistaire's Vengeance Vestment (Level 100+),100,461,20,0,9,8,74,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Glistening Fire Lamellar,155,978,19,11,0,0,93,88,6,0,0,0,0,17,0,0,0,0,Drop/Vendor,False,False
+Fiery Night Mire Coat (Level 90+),90,419,19,10,7,0,63,79,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Illuminated Plot Armor (Level 90+),90,419,19,10,0,7,63,79,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Great Inventor's Fire Coat (Level 110+),110,766,19,9,7,9,63,91,0,0,0,0,0,10,0,0,0,0,Crowns,False,False
+Floramancer Armor of Rashes (Level 110+),110,690,19,8,8,9,0,80,0,0,0,0,0,13,0,0,0,0,Crowns,False,False
+Fiery Chrysanthemum Coat (Level 110+),110,613,19,0,9,7,84,68,7,0,0,0,0,12,0,2,0,1,Crowns,False,False
+Transcendent Toga of Sparks,90,547,19,0,7,8,0,0,6,0,6,0,0,0,0,0,0,0,Crafting,False,False
+Senator's Toga of Sparks,90,547,19,0,6,8,0,0,5,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Salamander's Dashing Tunic,80,520,19,0,6,0,40,18,5,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Lost World Ember Jerkin,85,502,19,0,0,10,75,0,3,0,0,7,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Morganthe's Fiery Trappings (Level 90+),90,459,19,0,9,6,63,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Scorched Armor (Level 90+),90,419,19,0,8,7,63,0,5,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Guard of the Sun Fire Armor,84,430,18,13,6,0,70,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Unseen Lord's Cinder Plate,90,380,18,12,0,8,91,28,3,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Firestarter's Cape,60,340,18,12,8,0,37,13,0,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cavalry Officer Uniform,150,931,18,11,0,0,91,86,5,0,0,0,0,16,0,0,0,0,Drop/Vendor,False,False
+Armor of Carpathesian Fury,100,630,18,11,16,7,99,0,0,0,0,0,0,10,0,0,0,0,Drop/Vendor,False,False
+Highlands Fighter's Kit (Level 130+),130,1337,18,10,9,6,68,105,0,0,0,0,0,11,0,0,0,0,Crowns,False,False
+Highlands Fighter's Kit (Level 120+),120,942,18,10,9,6,66,95,0,0,0,0,0,10,0,0,0,0,Crowns,False,False
+Highlands Fighter's Kit (Level 110+),110,736,18,10,9,6,63,90,0,0,0,0,0,10,0,0,0,0,Crowns,False,False
+Devil's Flower Vestment,100,404,18,10,8,0,84,73,7,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Furious Protector's Uniform,165,0,18,10,6,0,90,80,9,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Flashy Townie Vest,160,0,18,10,6,0,84,75,8,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Great Inventor's Fire Coat (Level 100+),100,576,18,9,9,7,0,84,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Highlands Fighter's Kit (Level 100+),100,576,18,9,9,7,0,84,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Fiery Night Mire Coat (Level 80+),80,379,18,9,7,0,54,66,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Fiery Night Mire Coat (Level 70+),70,336,18,8,7,0,47,54,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Grim Cerberus Master Armor (Level 70+),70,336,18,8,7,0,47,54,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Chief's Garb of Flames,56,305,18,7,8,0,37,13,0,0,5,0,0,0,0,0,0,0,Crafting,False,False
+EmberTongue's Charred Gear,95,445,18,0,7,0,70,0,2,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Hades' Inferno Plate,90,440,18,0,4,7,91,0,7,0,0,9,0,0,0,0,0,0,Drop/Vendor,False,False
+Wastelander's Scorched Armor (Level 80+),80,379,18,0,8,6,54,0,5,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Blazing Skyfarer's Garb (Level 80+),80,379,18,0,8,6,54,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Molten Jerkin,58,360,18,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Fire-Forged Warlord Armor,58,347,18,0,8,0,27,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Wastelander's Scorched Armor (Level 70+),70,336,18,0,8,6,47,0,4,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Morganthe's Fiery Trappings (Level 70+),70,336,18,0,8,6,47,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Ashen Snow Jerkin,55,306,18,0,8,0,0,20,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Burnt Uniform of Balance,55,306,18,0,8,0,0,20,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Firedreamer's Armor,55,306,18,0,8,0,0,20,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Raiment of Blazing Bolts,55,306,18,0,8,0,0,20,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Pyro's Carefree Tunic,55,306,18,0,8,0,0,20,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Scorched Smock of Sorrow,55,306,18,0,8,0,0,20,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Devoted Vestment,52,144,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Horned Vestment,74,415,17,12,6,0,60,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Great Inventor's Fire Coat (Level 90+),90,523,17,8,8,6,0,79,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Highlands Fighter's Kit (Level 90+),90,523,17,8,8,6,0,79,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Fire Fairy Kei Dress (Level 90+),90,471,17,7,7,0,72,0,7,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Fiery Night Mire Coat (Level 60+),60,296,17,7,7,0,32,45,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Illuminated Plot Armor (Level 60+),60,296,17,7,0,6,32,45,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Mantis Armor of Embers,90,445,17,0,7,0,70,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Blazing Skyfarer's Garb (Level 60+),60,296,17,0,8,6,32,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Morganthe's Fiery Trappings (Level 60+),60,296,17,0,8,6,32,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Volatile Vestment,58,252,17,0,8,0,10,10,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Incendiary Armor,56,240,17,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Torched Tunic,56,240,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Scorched Surcoat,54,0,17,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Golden Fire Lamellar,155,815,16,10,0,0,80,73,5,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
+Burrower's Pyromancy Robe (Level 100+),100,576,16,9,0,8,0,84,7,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Knave's Blazing Tunic,70,457,16,9,0,7,67,0,3,0,0,8,0,0,0,0,0,0,Drop/Vendor,False,False
+Devil's Flower Aegis,100,346,16,9,7,0,74,63,7,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Great Inventor's Fire Coat (Level 80+),80,473,16,8,8,5,0,66,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Highlands Fighter's Kit (Level 80+),80,473,16,8,8,5,0,66,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Fire Fairy Kei Dress (Level 80+),80,426,16,7,7,0,61,0,6,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Great Inventor's Fire Coat (Level 70+),70,420,16,7,8,5,0,54,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Robes of the Fire Sands,60,271,16,7,4,3,32,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Fire Fairy Kei Dress (Level 70+),70,378,16,6,7,0,53,0,5,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Fiery Night Mire Coat (Level 50+),50,260,16,6,7,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Illuminated Plot Armor (Level 50+),50,260,16,6,7,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Poseidon's Sizzling Garb,70,435,16,5,6,7,66,0,3,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mighty Chac's Armor,80,423,16,0,6,0,65,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Blazing Skyfarer's Garb (Level 50+),50,260,16,0,8,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Malistaire's Vengeance Vestment (Level 50+),50,260,16,0,8,5,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Morganthe's Fiery Trappings (Level 50+),50,260,16,0,8,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Scorched Armor (Level 50+),50,260,16,0,8,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Ingonyama's Burning Robe,66,385,15,12,6,0,56,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Regulation Cavalry Uniform,150,776,15,10,0,0,78,72,5,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
+Brimstone Gear of Darkmoor,100,600,15,8,13,6,93,0,0,0,0,0,0,10,0,0,0,0,Drop/Vendor,False,False
+Great Inventor's Fire Coat (Level 60+),60,369,15,6,8,5,0,45,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Burning Ram Armor,70,490,15,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Zafaria Tour Jacket,68,420,15,0,0,6,56,0,3,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Wildfire Garb,68,420,15,0,6,0,56,0,0,0,7,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Artisan's Toga of Embers,70,410,15,0,5,7,0,0,5,0,5,0,0,0,0,0,0,0,Crafting,False,False
+Senator's Toga of Embers,70,410,15,0,5,7,0,0,4,0,4,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Robes of Sun Fire,60,390,15,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Burrower's Pyromancy Robe (Level 80+),80,473,14,8,0,6,0,66,6,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Burrower's Pyromancy Robe (Level 70+),70,420,14,7,0,6,0,54,5,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Highlands Fighter's Kit (Level 70+),70,462,14,6,7,5,0,54,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Highlands Fighter's Kit (Level 60+),60,374,14,6,7,4,0,45,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Malistaire's Dragonfire Cloak,50,227,14,6,7,0,0,0,3,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Malistaire's Dragonfire Suit (Socketed),50,227,14,6,7,0,0,0,3,0,0,0,0,0,0,2,0,1,Crafting,False,False
+Great Inventor's Fire Coat (Level 50+),50,324,14,5,8,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Highlands Fighter's Kit (Level 50+),50,324,14,5,8,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Floramancer Armor of Rashes (Level 50+),50,292,14,5,7,6,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Flameborn Sidhe Cloak,65,421,14,0,5,0,0,0,3,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Burrower's Pyromancy Robe (Level 60+),60,369,13,6,0,6,0,45,4,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Zeus' Blazing Sun Raiment,30,240,13,0,5,4,0,0,0,0,8,8,0,0,0,0,0,0,Drop/Vendor,False,False
+Robe of the Summer Wolf,50,217,13,0,8,0,25,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Malistaire's Dragonfire Suit,50,0,12,5,6,0,0,0,3,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Fiery Night Mire Coat (Level 40+),40,216,12,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Grim Cerberus Master Armor (Level 40+),40,216,12,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Grim Cerberus Master Armor (Level 30+),30,192,12,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Raiment of the Royal Flame,40,270,12,0,5,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Burning Scales Raiment,60,227,12,0,3,0,22,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Blazing Skyfarer's Garb (Level 40+),40,216,12,0,5,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Morganthe's Fiery Trappings (Level 40+),40,216,12,0,5,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Scorched Armor (Level 40+),40,216,12,0,5,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Blazing Skyfarer's Garb (Level 30+),30,192,12,0,5,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Morganthe's Fiery Trappings (Level 30+),30,192,12,0,5,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Celestian Cinder Armor,50,0,11,5,0,5,0,8,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,True
+Great Inventor's Fire Coat (Level 40+),40,270,11,3,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Great Inventor's Fire Coat (Level 30+),30,240,11,3,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Floramancer Armor of Rashes (Level 30+),30,216,11,3,4,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Fire Quenching Tunic,70,422,11,0,0,0,45,0,3,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Adept's Radiant Toga,30,220,11,0,4,4,0,0,0,0,5,3,0,0,0,0,0,0,Crafting,False,False
+Highlands Fighter's Kit (Level 40+),40,270,10,2,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Malistaire's Dragonfire Cloak (H300),50,300,10,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+Vestment of the Inferno,45,300,10,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Palace Guard's Firebreaker,40,253,10,0,4,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Flamewing's Phoenix Cloak,45,200,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Senator's Radiant Toga,30,200,10,0,3,4,0,0,0,0,4,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Spearcaller's Smoldering Coat,45,100,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Firetusk's Inferno Cloak,45,0,10,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Advanced Fire Robes,50,325,9,9,4,0,10,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Bonebreaker Robe of Flame,40,247,9,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Coat of the Burning Principle,44,217,9,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Cloak of the Gleaming Havoc,44,217,9,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Coat of the Arctic Flame,44,217,9,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Raiment of the Funeral Pyre,44,217,9,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Surcoat of the Spirit Fire,44,217,9,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Smock of the Glowing Fable,44,217,9,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Chronius' Cloak of the Inferno,45,200,9,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Fighter's Vestment,45,200,9,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+Gurtok Firesmock,45,200,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Soulsinger's Surcoat,45,200,9,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Doom Cloak,45,100,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Fiery Night Mire Coat (Level 20+),20,96,8,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Krokomaic Inferno Cloak,40,247,8,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Coat of the Firebird,40,240,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Jade Oni's Garments,40,240,8,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Laminar of Ardent Purpose,25,180,8,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Ashikata's Robe,35,160,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Yakedo's Brainstorming Robe,35,160,8,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Fuming Outfit,50,144,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Blazing Skyfarer's Garb (Level 20+),20,96,8,0,4,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Morganthe's Fiery Trappings (Level 20+),20,96,8,0,4,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Scorched Armor (Level 20+),20,96,8,0,4,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Tunic of Purpose,35,60,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Everburn's Thoughtful Cloak,40,0,8,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cloak of Egoism,35,0,8,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Great Inventor's Fire Coat (Level 20+),20,120,7,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Highlands Fighter's Kit (Level 20+),20,120,7,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Grim Cerberus Master Armor (Level 20+),20,96,7,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Flamewarden's Outfit,45,240,7,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Barkingham Cinder Smock,40,202,7,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Burning Vestment,40,160,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Maito's Vestment,35,160,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Jerkin of the Firestar,40,160,7,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+River Spirit's Diligent Tunic,35,160,7,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Coat of the Formidable,35,60,7,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+Tunic of Tact,30,60,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Burrower's Pyromancy Robe (Level 10+),10,60,6,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Fiery Night Mire Coat (Level 10+),10,48,6,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Grim Cerberus Master Armor (Level 10+),10,48,6,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Illuminated Plot Armor (Level 10+),10,48,6,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Bellows' Confined Robe,30,180,6,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Wrap of the Leaping Flame,30,180,6,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Dreambrand Longcoat,33,173,6,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Brighthonor Raiment,33,173,6,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Fireleaf Clothing,33,173,6,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Embermuse Robe,33,173,6,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Grimblaze Vestment,33,173,6,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Winterflame Cloak,33,173,6,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Hollow Mountain Laminar,25,130,6,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Spike's Robe of the Phoenix,25,120,6,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mugsy's Solar Robe,25,120,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Blazing Skyfarer's Garb (Level 10+),10,48,6,0,4,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Morganthe's Fiery Trappings (Level 10+),10,48,6,0,4,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wastelander's Scorched Armor (Level 10+),10,48,6,0,4,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Mugsy's Enkindled Cloak,30,0,6,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Great Inventor's Fire Coat (Level 10+),10,60,5,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Highlands Fighter's Kit (Level 10+),10,60,5,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Floramancer Armor of Rashes (Level 10+),10,54,5,2,4,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Bellows' Robe of Courtesy,25,120,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Feline's Fiery Robe,25,120,5,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Smokey's Cultured Cloak,25,120,5,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Drape of the Balefire,30,82,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Flamewoven Garments,30,60,5,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Vestment of the Sun,25,60,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Morganthe's Fiery Trappings (Any Level),1,41,5,0,4,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Highlands Fighter's Kit (Any Level),1,51,4,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Blazing Tunic of the Opus,22,130,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Burning Coat of the Wind,22,130,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Glimmering Coat of Neutrality,22,130,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Radiant Cloak of Exuberance,22,130,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Smoldering Tunic of Ash,22,130,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Scorched Cloak of the Chill,22,130,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Armor of the Smoking Ember,25,96,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Ra's Firebrand Tunic,20,108,3,3,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Great Inventor's Fire Coat (Any Level),1,30,3,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Floramancer Armor of Rashes (Any Level),5,27,3,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Fire Fairy Kei Dress (Any Level),1,27,3,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Illuminated Plot Armor (Any Level),1,24,3,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Fiery Night Mire Coat (Any Level),1,20,3,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Djal's Scorching Cloak,20,120,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Krokenkahmen's Cloak,20,120,3,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Krokotopian Fire Kaftan,15,108,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,True
+Blazing Skyfarer's Garb (Any Level),1,24,3,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Ardent Robe,20,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Flarestarter's Garments,25,0,3,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Fireshroud Tunic,20,82,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Summertime Robes,15,80,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Vestment of the Flame,20,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Overtunic of Ovation,15,0,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+Emberflood Coat,15,85,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Everfrost Surcoat,15,85,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Firefrost Cloak,15,85,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Firebleak Coat,15,85,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Glowmuse Uniform,15,85,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Soulburner Tunic,15,85,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Krokopatra Inferno Cloak,100,563,0,17,0,7,0,43,0,0,0,7,0,0,0,0,0,0,Drop/Vendor,False,False
+Supreme Firewall Robe,148,1639,0,13,6,0,0,131,0,0,0,0,0,21,0,0,0,0,Drop/Vendor,False,False
+Dragoon's Fiery Armor,130,1559,0,13,4,11,0,155,3,0,8,0,0,17,0,0,0,0,Drop/Vendor,False,True
+Hierarch's Firewall Robe,145,1548,0,13,6,0,0,124,0,0,0,0,0,20,0,0,0,0,Drop/Vendor,False,False
+Malevolent Fire Cloak,150,1494,0,13,0,11,0,116,0,3,11,0,0,22,0,0,0,0,Drop/Vendor,False,False
+Magician's Fire Cloak,150,1457,0,13,0,10,0,116,0,3,11,0,0,20,0,0,0,0,Drop/Vendor,False,False
+Vanguard's Fiery Armor,130,1524,0,12,4,10,0,155,3,0,8,0,0,17,0,0,0,0,Drop/Vendor,False,False
+Producer's Thermal Suit,138,1490,0,12,9,0,0,119,0,0,0,0,0,19,0,0,0,0,Drop/Vendor,False,False
+Lemurian Firewall Robe,142,1457,0,12,6,0,0,116,0,0,0,0,0,18,0,0,0,0,Drop/Vendor,False,False
+Delightful Freshbaker Smock,140,1408,0,12,0,12,0,108,0,3,11,0,0,21,0,0,0,0,Crafting,False,False
+Uber Freshbaker Smock,140,1408,0,12,0,12,0,108,0,3,11,0,0,21,0,0,0,0,Drop/Vendor,False,False
+Supervisor Thermal Suit,135,1408,0,12,8,0,0,108,0,0,0,0,0,18,0,0,0,0,Drop/Vendor,False,False
+Wunderbar Freshbaker Smock,140,1358,0,12,0,11,0,108,0,3,11,0,0,20,0,0,0,0,Drop/Vendor,False,False
+Guten Freshbaker Smock,140,1325,0,12,0,10,0,108,0,3,11,0,0,18,0,0,0,0,Drop/Vendor,False,False
+Soldier's Fiery Armor,130,1472,0,11,3,9,0,155,3,0,8,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Supreme Volcanic Robe,148,1457,0,11,0,10,0,139,0,0,0,0,0,22,0,0,0,0,Drop/Vendor,False,False
+Hierarch's Volcanic Robe,145,1366,0,11,0,9,0,131,0,0,0,0,0,21,0,0,0,0,Drop/Vendor,False,False
+Contractor Thermal Suit,132,1325,0,11,8,0,0,97,0,0,0,0,0,17,0,0,0,0,Drop/Vendor,False,False
+Director Thermal Suit,138,1325,0,10,0,10,0,126,0,0,0,0,0,20,0,0,0,0,Drop/Vendor,False,False
+Lemurian Volcanic Robe,142,1275,0,10,0,9,0,124,0,0,0,0,0,20,0,0,0,0,Drop/Vendor,False,False
+Lead's Thermal Suit,135,1242,0,10,0,9,0,114,0,0,0,0,0,19,0,0,0,0,Drop/Vendor,False,False
+Rad Kalamar Tunic,127,1221,0,10,0,0,0,112,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Fierce Alphoi Surcoat,125,1308,0,9,0,10,0,95,0,0,9,0,0,16,0,0,0,0,Crafting,False,False
+Supreme Eruption Robe,148,1275,0,9,0,11,0,0,4,0,0,0,0,23,0,0,0,0,Drop/Vendor,False,False
+Hierarch's Eruption Robe,145,1184,0,9,0,10,0,0,4,0,0,0,0,22,0,0,0,0,Drop/Vendor,False,False
+Specialist Thermal Suit,132,1159,0,9,0,9,0,103,0,0,0,0,0,18,0,0,0,0,Drop/Vendor,False,False
+Interstellar Engineer Suit,122,1075,0,9,0,0,0,99,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Executive Thermal Suit,138,1159,0,8,0,11,0,0,3,0,0,0,0,21,0,0,0,0,Drop/Vendor,False,False
+Lemurian Eruption Robe,142,1093,0,8,0,10,0,0,3,0,0,0,0,21,0,0,0,0,Drop/Vendor,False,False
+Radical Space Suit,140,1077,0,8,0,8,0,108,0,0,0,0,0,18,0,0,0,0,Drop/Vendor,False,False
+Chief's Thermal Suit,135,1076,0,8,0,10,0,0,3,0,0,0,0,20,0,0,0,0,Drop/Vendor,False,False
+Fiery Liaison's Robe,130,1076,0,8,0,8,0,94,0,0,0,0,0,18,0,0,0,0,Drop/Vendor,False,False
+Consultant Thermal Suit,132,994,0,8,0,10,0,0,3,0,0,0,0,19,0,0,0,0,Drop/Vendor,False,False
+Alphoi Trooper Armor,130,1337,0,7,0,0,0,117,3,0,11,0,0,17,0,0,0,0,Crafting,False,False
+Fiery Paradox Vestment,130,1337,0,7,0,0,0,117,3,0,11,0,0,17,0,0,0,0,Drop/Vendor,False,False
+Blazing Zanadu Armor,130,1322,0,7,0,0,0,113,3,0,10,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cabalist Cleansing Cloak,125,1308,0,7,8,0,0,99,0,0,10,0,0,17,0,0,0,0,Drop/Vendor,False,False
+Red Shirt of the Eternal Flame,120,1017,0,6,0,0,0,75,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Time Warden Thobe of Pyres,120,1001,0,6,0,10,0,90,0,0,9,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Luphilim's Blazing Plate,110,874,0,6,0,0,0,70,0,5,8,7,0,15,0,0,0,0,Drop/Vendor,False,False
+Shimmering Majoris Armor,110,828,0,5,6,0,0,116,0,0,24,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Titan Warrior Skyfire Robe,110,782,0,5,5,0,0,114,0,0,15,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Volatile Borealis Armor,110,736,0,5,5,0,0,112,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Arcanum Exile Fiery Cloak,105,598,0,5,0,0,0,102,0,0,0,0,0,15,0,0,0,0,Drop/Vendor,False,False
+Burrower's Pyromancy Robe (Level 50+),50,324,0,5,0,5,0,0,3,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Raiment of Takanobu's Rage,35,224,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Alkali Burning Sands Armor,118,834,0,0,0,0,0,0,3,0,0,7,0,0,0,0,0,0,Drop/Vendor,False,False
+Mottoman Heatwave Uniform,118,823,0,0,0,0,0,104,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Charred Eerem Raiment,118,801,0,0,7,9,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Vizier's Raiment of Smolders,116,778,0,0,0,0,0,0,3,0,0,7,0,0,0,0,0,0,Drop/Vendor,False,False
+Zruvan Raiment of Fury,116,767,0,0,0,0,0,103,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Sand Sea Outfit of Ashes,116,745,0,0,6,9,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Parched Wayfarer's Khalat,114,723,0,0,0,0,0,0,2,0,0,6,0,0,0,0,0,0,Drop/Vendor,False,False
+Armor of the Aridian Sun,114,712,0,0,0,0,0,103,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Nomad's Sunfire Thobe,112,701,0,0,0,0,0,0,2,0,0,6,0,0,0,0,0,0,Drop/Vendor,False,False
+Mongu Vestment of Frenzy,112,701,0,0,0,0,0,102,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Arcanum Pyromancer's Garb,108,690,0,0,0,0,0,0,2,0,0,6,0,0,0,0,0,0,Drop/Vendor,False,False
+Rubal Khalat of Acerbity,114,689,0,0,6,9,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Djinn Vestment of Radiance,112,678,0,0,6,9,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Walrusk Chokha of Frenzy,108,662,0,0,6,9,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Enchanter's Fervid Cloak,106,644,0,0,0,0,0,0,2,0,0,5,0,0,0,0,0,0,Drop/Vendor,False,False
+Tayg Suit of Steam,106,635,0,0,0,0,0,99,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Tundarian Uniform of Rage,106,616,0,0,5,8,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Evoker's Garb of Embers,104,598,0,0,0,0,0,0,2,0,0,4,0,0,0,0,0,0,Drop/Vendor,False,False
+Bleaks Jacket of Pyres,104,589,0,0,0,0,0,96,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Radiant Kossack Chokha,104,570,0,0,5,8,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mage's Smoldering Robes,102,552,0,0,0,0,0,0,2,0,0,4,0,0,0,0,0,0,Drop/Vendor,False,False
+Sweltery Tundra Vestment,102,543,0,0,0,0,0,93,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Urville Cloak of Flames,102,524,0,0,4,7,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Scorched Armor of the Burn,98,515,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Devil's Flower Vestment (Level 98+),98,510,0,0,7,9,74,0,3,0,13,0,0,0,0,0,0,0,Retired,False,False
+Cruel Star's Blazing Armor,88,510,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Fiery Chac's Great Armor,88,480,0,0,6,8,73,0,3,0,0,12,0,0,0,0,0,0,Drop/Vendor,False,False
+Knight of Flame Armor,78,445,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Lambent's Robe of Radiance,70,435,0,0,6,6,80,0,0,0,6,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Fire-Spitter Robes,78,430,0,0,6,7,66,0,3,0,0,10,0,0,0,0,0,0,Drop/Vendor,False,False
+Cloak of Lambent's Splendor,70,370,0,0,3,5,45,0,0,0,6,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Fire-Forged Flame Armor,50,360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Robe of Radiance,45,300,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Salgio's Tinder Cloak,54,252,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Blistering Jerkin,54,240,0,0,8,0,37,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Insulated Wrap,40,240,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Indulgent Vestment,40,240,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Thermic Longcoat,35,240,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Vestment of Cooperation,35,240,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Cloak of the Djinni,45,200,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Robe of the Efreet,45,200,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Vest of Predominance,25,180,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Cloak of Charity,35,160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Heedful Robe,35,160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Robe of Reflection,35,160,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Robe of the Raging Fire,35,160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Drape of Dragon Fire,52,144,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Doctor's Robe of Aurora,25,120,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Pyromancer's Lambent Robe,15,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Tunic of the Torchbearer,25,120,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Smokey's Pompous Cloak,25,120,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Vestment of the Beacon,25,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Blazing Tunic,45,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Fiery Tunic,45,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Firebird's Tunic,45,100,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Robe of the Firebloom,15,82,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Scavenger's Radiant Robe,15,80,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Stout Robe,15,80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Sweltering Vestment,15,80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Vestment of Smoke,20,78,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Benign Robe,30,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Garments of the Observant,35,60,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Fire-Stitched Clothing,10,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Distinguished Robe,20,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Gallant Tunic,35,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Lord Nightshade's Cloak,10,60,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Nails' Singed Tunic,25,60,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Robe of Being,10,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Bonekeeper's Robe,15,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Soot Stained Tunic,10,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Ruby Studded Cloak,5,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Vest of Humidity,15,40,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Splendiferous Robe,5,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Ashen Outfit,50,0,0,0,8,0,25,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Duelist's Drape,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+Immortals' Radiant Armor,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Raiment of Rivalry,10,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+Swiftarrow's Mantle,10,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
