@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Myth Hats</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <style>
+        /* Add some basic styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            cursor: pointer;
+        }
+        input[type="text"] {
+            margin-bottom: 10px;
+            padding: 5px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <h1>Myth Hats</h1>
+    <input type="text" id="search-input" placeholder="Search...">
+    <table id="csv-table" border="1">
+        <!-- CSV Data will be inserted here -->
+    </table>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            Papa.parse("https://aboele13.github.io/CompleteW101Gear/Myth_Gear/Myth_Hats.csv", {
+                download: true,
+                header: true,
+                complete: function(results) {
+                    var data = results.data;
+                    var table = document.getElementById('csv-table');
+
+                    if (data.length === 0) {
+                        console.error('CSV file is empty or failed to parse.');
+                        return;
+                    }
+
+                    // Create table header
+                    var header = table.createTHead();
+                    var headerRow = header.insertRow(0);
+
+                    // Helper function to determine if a value is numeric
+                    function isNumeric(value) {
+                        return !isNaN(value - parseFloat(value));
+                    }
+
+                    // Function to sort the data in descending order for numeric, toggle for non-numeric
+                    function sortData(key) {
+                        data.sort(function(a, b) {
+                            var aValue = a[key];
+                            var bValue = b[key];
+
+                            if (isNumeric(aValue) && isNumeric(bValue)) {
+                                aValue = parseFloat(aValue);
+                                bValue = parseFloat(bValue);
+
+                                return bValue - aValue; // Always descending for numeric
+                            } else {
+                                if (!sortOrder[key]) {
+                                    sortOrder[key] = true; // Default to ascending for non-numerics
+                                } else {
+                                    sortOrder[key] = !sortOrder[key]; // Toggle
+                                }
+
+                                if (sortOrder[key]) {
+                                    return aValue.localeCompare(bValue); // Ascending
+                                } else {
+                                    return bValue.localeCompare(aValue); // Descending
+                                }
+                            }
+                        });
+                        updateTableBody(data);
+                    }
+
+                    Object.keys(data[0]).forEach(function(key) {
+                        var cell = headerRow.insertCell(-1);
+                        cell.innerHTML = key;
+                        cell.addEventListener('click', function() {
+                            sortData(key);
+                        });
+                    });
+
+                    // Create table body
+                    var body = table.createTBody();
+                    function updateTableBody(data) {
+                        body.innerHTML = '';
+                        var fragment = document.createDocumentFragment();
+                        data.forEach(function(row) {
+                            var bodyRow = document.createElement('tr');
+                            Object.values(row).forEach(function(value) {
+                                var cell = document.createElement('td');
+                                cell.innerHTML = value;
+                                bodyRow.appendChild(cell);
+                            });
+                            fragment.appendChild(bodyRow);
+                        });
+                        body.appendChild(fragment);
+                    }
+
+                    updateTableBody(data);
+
+                    // Add search functionality
+                    document.getElementById('search-input').addEventListener('keyup', function() {
+                        var searchTerm = this.value.toLowerCase();
+                        var rows = body.getElementsByTagName('tr');
+                        Array.from(rows).forEach(function(row) {
+                            var cells = row.getElementsByTagName('td');
+                            var matches = Array.from(cells).some(function(cell) {
+                                return cell.innerHTML.toLowerCase().includes(searchTerm);
+                            });
+                            row.style.display = matches ? '' : 'none';
+                        });
+                    });
+                },
+                error: function(error) {
+                    console.error('Error fetching CSV:', error);
+                }
+            });
+        });
+    </script>
+</body>
+</html>
