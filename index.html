@@ -12,12 +12,26 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            Papa.parse("https://github.com/Aboele13/CompleteW101Gear/blob/main/Myth_Gear/Myth_Robes.csv", {
+            const csvUrl = "https://aboele13.github.io/CompleteW101Gear/Myth_Gear/Myth_Robes.csv";  // Replace with your actual CSV URL
+
+            console.log("Fetching CSV from:", csvUrl);
+            Papa.parse(csvUrl, {
                 download: true,
                 header: true,
                 complete: function(results) {
+                    if (results.errors.length > 0) {
+                        console.error("Errors occurred while parsing the CSV:", results.errors);
+                        return;
+                    }
+
                     var data = results.data;
                     var table = document.getElementById('csv-table');
+
+                    // Check if data is available
+                    if (data.length === 0) {
+                        console.log("No data found in CSV.");
+                        return;
+                    }
 
                     // Create table header
                     var header = table.createTHead();
@@ -36,6 +50,11 @@
                             cell.innerHTML = value;
                         });
                     });
+
+                    console.log("CSV data successfully loaded and displayed.");
+                },
+                error: function(err) {
+                    console.error("An error occurred while fetching the CSV:", err);
                 }
             });
         });
