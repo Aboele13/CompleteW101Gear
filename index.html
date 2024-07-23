@@ -34,13 +34,14 @@
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             console.log('Page loaded, starting to fetch CSV...');
-            Papa.parse("https://aboele13.github.io/CompleteW101Gear/Myth_Gear/Myth_Hats.csv", {
+            Papa.parse("https://aboele13.github.io/CompleteW101Gear/Myth_Gear/Myth_Robes.csv", {
                 download: true,
                 header: true,
                 complete: function(results) {
                     console.log('CSV fetched successfully:', results);
                     var data = results.data;
                     var table = document.getElementById('csv-table');
+                    var sortOrder = {}; // Keeps track of sort order for non-numeric columns
 
                     if (data.length === 0) {
                         console.error('CSV file is empty or failed to parse.');
@@ -50,7 +51,6 @@
                     // Create table header
                     var header = table.createTHead();
                     var headerRow = header.insertRow(0);
-                    var sortOrder = {}; // Keeps track of sort order for non-numeric columns
 
                     // Helper function to determine if a value is numeric
                     function isNumeric(value) {
@@ -62,16 +62,15 @@
                         data.sort(function(a, b) {
                             var aValue = a[key];
                             var bValue = b[key];
-                            
-                            if (isNumeric(aValue) && isNumeric(bValue)) {
+                            var isNumericColumn = isNumeric(aValue) && isNumeric(bValue);
+
+                            if (isNumericColumn) {
                                 aValue = parseFloat(aValue);
                                 bValue = parseFloat(bValue);
-                                // Always sort numerics in descending order
-                                return bValue - aValue;
+                                return bValue - aValue; // Always descending for numeric
                             } else {
-                                // Toggle sort order for non-numerics
                                 if (!sortOrder[key]) {
-                                    sortOrder[key] = true; // Set ascending
+                                    sortOrder[key] = true; // Default to ascending for non-numerics
                                 } else {
                                     sortOrder[key] = !sortOrder[key]; // Toggle
                                 }
