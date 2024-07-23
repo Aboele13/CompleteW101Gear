@@ -176,12 +176,17 @@
                             'Retired'
                         ];
                         var selectedSources = sources.filter(function(source) {
-                            return document.getElementById(source.toLowerCase().replace(/ /g, '-')).checked;
+                            var checkbox = document.getElementById(source.toLowerCase().replace(/ /g, '-'));
+                            console.log('Checkbox ' + source + ' checked: ' + checkbox.checked);
+                            return checkbox.checked;
                         });
+
+                        console.log('Selected sources: ', selectedSources);
 
                         data = originalData.filter(function(row) {
                             var levelMatch = parseInt(row.Level) <= levelFilterValue;
                             var sourceMatch = selectedSources.includes(row.Source);
+                            console.log('Row: ', row, 'Level match: ', levelMatch, 'Source match: ', sourceMatch);
                             return levelMatch && sourceMatch;
                         });
 
