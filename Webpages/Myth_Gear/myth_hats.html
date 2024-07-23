@@ -16,20 +16,36 @@
         th {
             cursor: pointer;
         }
-        input[type="text"], select {
+        input[type="text"] {
             margin-bottom: 10px;
             padding: 5px;
             width: 100%;
             box-sizing: border-box;
         }
+        .filter-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .filter-container select {
+            width: 60px; /* Adjust width to fit three digits */
+            margin-left: 5px;
+            padding: 5px;
+        }
+        .filter-container label {
+            margin-right: 10px;
+        }
     </style>
 </head>
 <body>
     <h1>Myth Hats</h1>
+    <div class="filter-container">
+        <label for="level-filter">Level:</label>
+        <select id="level-filter">
+            <!-- Options will be populated by JavaScript -->
+        </select>
+    </div>
     <input type="text" id="search-input" placeholder="Search...">
-    <select id="level-filter">
-        <!-- Options will be populated by JavaScript -->
-    </select>
     <table id="csv-table" border="1">
         <!-- CSV Data will be inserted here -->
     </table>
