@@ -76,7 +76,15 @@
                     var originalData = data.slice(); // Keep a copy of the original data
                     var table = document.getElementById('csv-table');
                     var levelFilter = document.getElementById('level-filter');
-                    var checkboxes = document.querySelectorAll('.source-checkboxes input');
+                    var checkboxes = {
+                        'drop-vendor': document.getElementById('drop-vendor'),
+                        'crafting': document.getElementById('crafting'),
+                        'gold-key-gauntlet': document.getElementById('gold-key-gauntlet'),
+                        'raid': document.getElementById('raid'),
+                        'crowns': document.getElementById('crowns'),
+                        'gift-card': document.getElementById('gift-card'),
+                        'retired': document.getElementById('retired')
+                    };
 
                     if (data.length === 0) {
                         console.error('CSV file is empty or failed to parse.');
@@ -178,8 +186,10 @@
                             'Gift Card',
                             'Retired'
                         ];
+
                         var selectedSources = sources.filter(function(source) {
-                            return document.getElementById(source.toLowerCase().replace(/ /g, '-')).checked;
+                            var checkbox = checkboxes[source.toLowerCase().replace(/ /g, '-')];
+                            return checkbox ? checkbox.checked : false;
                         });
 
                         console.log('Selected Sources:', selectedSources);
@@ -200,7 +210,7 @@
                     }
 
                     levelFilter.addEventListener('change', applyFilters);
-                    checkboxes.forEach(function(checkbox) {
+                    Object.values(checkboxes).forEach(function(checkbox) {
                         checkbox.addEventListener('change', applyFilters);
                     });
 
