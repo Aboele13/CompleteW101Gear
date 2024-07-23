@@ -16,13 +16,7 @@
         th {
             cursor: pointer;
         }
-        input[type="text"], input[type="number"] {
-            margin-bottom: 10px;
-            padding: 5px;
-            width: 100%;
-            box-sizing: border-box;
-        }
-        button {
+        input[type="text"], select {
             margin-bottom: 10px;
             padding: 5px;
             width: 100%;
@@ -33,8 +27,9 @@
 <body>
     <h1>Myth Hats</h1>
     <input type="text" id="search-input" placeholder="Search...">
-    <input type="number" id="level-filter" placeholder="Filter by Level <= 160">
-    <button id="filter-button">Apply Filter</button>
+    <select id="level-filter">
+        <!-- Options will be populated by JavaScript -->
+    </select>
     <table id="csv-table" border="1">
         <!-- CSV Data will be inserted here -->
     </table>
@@ -52,6 +47,15 @@
                     if (data.length === 0) {
                         console.error('CSV file is empty or failed to parse.');
                         return;
+                    }
+
+                    // Populate the level filter dropdown
+                    var levelFilter = document.getElementById('level-filter');
+                    for (var i = 170; i >= 1; i--) {
+                        var option = document.createElement('option');
+                        option.value = i;
+                        option.text = i;
+                        levelFilter.appendChild(option);
                     }
 
                     // Create table header
@@ -127,18 +131,17 @@
                     });
 
                     // Add filter functionality
-                    document.getElementById('filter-button').addEventListener('click', function() {
-                        var levelFilter = parseInt(document.getElementById('level-filter').value);
-                        if (!isNaN(levelFilter)) {
-                            data = originalData.filter(function(row) {
-                                return parseInt(row.Level) <= levelFilter;
-                            });
-                            updateTableBody(data);
-                        } else {
-                            data = originalData.slice(); // Reset to original data if filter is invalid
-                            updateTableBody(data);
-                        }
+                    levelFilter.addEventListener('change', function() {
+                        var levelFilterValue = parseInt(this.value);
+                        data = originalData.filter(function(row) {
+                            return parseInt(row.Level) <= levelFilterValue;
+                        });
+                        updateTableBody(data);
                     });
+
+                    // Set default filter value to 170 and apply the filter
+                    levelFilter.value = "170";
+                    levelFilter.dispatchEvent(new Event('change'));
                 },
                 error: function(error) {
                     console.error('Error fetching CSV:', error);
