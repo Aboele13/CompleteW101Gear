@@ -188,7 +188,9 @@
                         ];
 
                         var selectedSources = sources.filter(function(source) {
-                            var checkbox = checkboxes[source.toLowerCase().replace(/ /g, '-')];
+                            // Create a valid ID by replacing spaces and slashes with hyphens
+                            var checkboxId = source.toLowerCase().replace(/ /g, '-').replace(/\//g, '-');
+                            var checkbox = checkboxes[checkboxId];
                             return checkbox ? checkbox.checked : false;
                         });
 
