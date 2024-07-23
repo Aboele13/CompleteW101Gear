@@ -3,9 +3,31 @@
 <head>
     <title>CSV Viewer</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <style>
+        /* Add some basic styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            cursor: pointer;
+        }
+        input[type="text"] {
+            margin-bottom: 10px;
+            padding: 5px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+    </style>
 </head>
 <body>
-    <h1>CSV Data</h1>
+    <h1>Myth Robes</h1>
+    <h2>CSV Data</h2>
+    <input type="text" id="search-input" placeholder="Search...">
     <table id="csv-table" border="1">
         <!-- CSV Data will be inserted here -->
     </table>
@@ -29,18 +51,47 @@
                     // Create table header
                     var header = table.createTHead();
                     var headerRow = header.insertRow(0);
-                    Object.keys(data[0]).forEach(function(key) {
+                    var sortOrder = 1; // 1 for ascending, -1 for descending
+
+                    Object.keys(data[0]).forEach(function(key, index) {
                         var cell = headerRow.insertCell(-1);
                         cell.innerHTML = key;
+                        cell.addEventListener('click', function() {
+                            sortOrder = -sortOrder;
+                            data.sort(function(a, b) {
+                                if (a[key] < b[key]) return -1 * sortOrder;
+                                if (a[key] > b[key]) return 1 * sortOrder;
+                                return 0;
+                            });
+                            updateTableBody(data);
+                        });
                     });
 
                     // Create table body
                     var body = table.createTBody();
-                    data.forEach(function(row) {
-                        var bodyRow = body.insertRow(-1);
-                        Object.values(row).forEach(function(value) {
-                            var cell = bodyRow.insertCell(-1);
-                            cell.innerHTML = value;
+                    function updateTableBody(data) {
+                        body.innerHTML = '';
+                        data.forEach(function(row) {
+                            var bodyRow = body.insertRow(-1);
+                            Object.values(row).forEach(function(value) {
+                                var cell = bodyRow.insertCell(-1);
+                                cell.innerHTML = value;
+                            });
+                        });
+                    }
+
+                    updateTableBody(data);
+
+                    // Add search functionality
+                    document.getElementById('search-input').addEventListener('keyup', function() {
+                        var searchTerm = this.value.toLowerCase();
+                        var rows = body.getElementsByTagName('tr');
+                        Array.from(rows).forEach(function(row) {
+                            var cells = row.getElementsByTagName('td');
+                            var matches = Array.from(cells).some(function(cell) {
+                                return cell.innerHTML.toLowerCase().includes(searchTerm);
+                            });
+                            row.style.display = matches ? '' : 'none';
                         });
                     });
                 },
