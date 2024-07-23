@@ -51,16 +51,16 @@
                     // Create table header
                     var header = table.createTHead();
                     var headerRow = header.insertRow(0);
-                    var sortOrder = 1; // 1 for ascending, -1 for descending
+                    var sortOrder = {};
 
-                    Object.keys(data[0]).forEach(function(key, index) {
+                    Object.keys(data[0]).forEach(function(key) {
                         var cell = headerRow.insertCell(-1);
                         cell.innerHTML = key;
                         cell.addEventListener('click', function() {
-                            sortOrder = -sortOrder;
+                            sortOrder[key] = !sortOrder[key]; // Toggle sort order
                             data.sort(function(a, b) {
-                                if (a[key] < b[key]) return -1 * sortOrder;
-                                if (a[key] > b[key]) return 1 * sortOrder;
+                                if (a[key] < b[key]) return sortOrder[key] ? -1 : 1;
+                                if (a[key] > b[key]) return sortOrder[key] ? 1 : -1;
                                 return 0;
                             });
                             updateTableBody(data);
@@ -71,13 +71,17 @@
                     var body = table.createTBody();
                     function updateTableBody(data) {
                         body.innerHTML = '';
+                        var fragment = document.createDocumentFragment();
                         data.forEach(function(row) {
-                            var bodyRow = body.insertRow(-1);
+                            var bodyRow = document.createElement('tr');
                             Object.values(row).forEach(function(value) {
-                                var cell = bodyRow.insertCell(-1);
+                                var cell = document.createElement('td');
                                 cell.innerHTML = value;
+                                bodyRow.appendChild(cell);
                             });
+                            fragment.appendChild(bodyRow);
                         });
+                        body.appendChild(fragment);
                     }
 
                     updateTableBody(data);
