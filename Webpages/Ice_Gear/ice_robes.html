@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ice Robes</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <style>
+        /* Add some basic styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            cursor: pointer;
+        }
+        input[type="text"], select {
+            margin-bottom: 10px;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+        .filter-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .filter-container select {
+            width: 60px; /* Adjust width to fit three digits */
+            margin-left: 5px;
+            padding: 5px;
+        }
+        .filter-container label {
+            margin-right: 10px;
+        }
+        .source-checkboxes {
+            display: flex;
+            flex-direction: column;
+            margin-left: 20px;
+        }
+        .source-checkboxes label {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ice Robes</h1>
+    <div class="filter-container">
+        <label for="level-filter">Level:</label>
+        <select id="level-filter">
+            <!-- Options will be populated by JavaScript -->
+        </select>
+        <div class="source-checkboxes">
+            <label><input type="checkbox" id="drop-vendor" checked> Drop/Vendor</label>
+            <label><input type="checkbox" id="crafting" checked> Crafting</label>
+            <label><input type="checkbox" id="gold-key-gauntlet" checked> Gold Key/Gauntlet</label>
+            <label><input type="checkbox" id="raid" checked> Raid</label>
+            <label><input type="checkbox" id="crowns" checked> Crowns</label>
+            <label><input type="checkbox" id="gift-card" checked> Gift Card</label>
+            <label><input type="checkbox" id="retired"> Retired</label>
+        </div>
+    </div>
+    <input type="text" id="search-input" placeholder="Search...">
+    <table id="csv-table" border="1">
+        <!-- CSV Data will be inserted here -->
+    </table>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            Papa.parse("https://aboele13.github.io/CompleteW101Gear/Ice_Gear/Ice_Robes.csv", {
+                download: true,
+                header: true,
+                complete: function(results) {
+                    var data = results.data;
+                    var originalData = data.slice(); // Keep a copy of the original data
+                    var table = document.getElementById('csv-table');
+                    var levelFilter = document.getElementById('level-filter');
+                    var checkboxes = {
+                        'drop-vendor': document.getElementById('drop-vendor'),
+                        'crafting': document.getElementById('crafting'),
+                        'gold-key-gauntlet': document.getElementById('gold-key-gauntlet'),
+                        'raid': document.getElementById('raid'),
+                        'crowns': document.getElementById('crowns'),
+                        'gift-card': document.getElementById('gift-card'),
+                        'retired': document.getElementById('retired')
+                    };
+
+                    if (data.length === 0) {
+                        console.error('CSV file is empty or failed to parse.');
+                        return;
+                    }
+
+                    // Populate the level filter dropdown
+                    for (var i = 170; i >= 1; i--) {
+                        var option = document.createElement('option');
+                        option.value = i;
+                        option.text = i;
+                        levelFilter.appendChild(option);
+                    }
+
+                    // Create table header
+                    var header = table.createTHead();
+                    var headerRow = header.insertRow(0);
+
+                    // Helper function to determine if a value is numeric
+                    function isNumeric(value) {
+                        return !isNaN(value - parseFloat(value));
+                    }
+
+                    // Function to sort the data in descending order
+                    function sortData(key) {
+                        data.sort(function(a, b) {
+                            var aValue = a[key];
+                            var bValue = b[key];
+
+                            if (isNumeric(aValue) && isNumeric(bValue)) {
+                                aValue = parseFloat(aValue);
+                                bValue = parseFloat(bValue);
+
+                                if (aValue < bValue) return 1; // Descending
+                                if (aValue > bValue) return -1; // Descending
+                                return 0;
+                            }
+
+                            // Not Numeric
+                            if (aValue < bValue) return -1; // Ascending / Alphabetical
+                            if (aValue > bValue) return 1; // Ascending / Alphabetical
+                            return 0;
+                        });
+                        updateTableBody(data);
+                    }
+
+                    Object.keys(data[0]).forEach(function(key) {
+                        var cell = headerRow.insertCell(-1);
+                        cell.innerHTML = key;
+                        cell.addEventListener('click', function() {
+                            sortData(key);
+                        });
+                    });
+
+                    // Create table body
+                    var body = table.createTBody();
+                    function updateTableBody(data) {
+                        body.innerHTML = '';
+                        var fragment = document.createDocumentFragment();
+                        data.forEach(function(row) {
+                            var bodyRow = document.createElement('tr');
+                            Object.values(row).forEach(function(value) {
+                                var cell = document.createElement('td');
+                                cell.innerHTML = value;
+                                bodyRow.appendChild(cell);
+                            });
+                            fragment.appendChild(bodyRow);
+                        });
+                        body.appendChild(fragment);
+                    }
+
+                    // Update the table with the current data
+                    updateTableBody(data);
+
+                    // Add search functionality
+                    document.getElementById('search-input').addEventListener('keyup', function() {
+                        var searchTerm = this.value.toLowerCase();
+                        var rows = body.getElementsByTagName('tr');
+                        Array.from(rows).forEach(function(row) {
+                            var cells = row.getElementsByTagName('td');
+                            var matches = Array.from(cells).some(function(cell) {
+                                return cell.innerHTML.toLowerCase().includes(searchTerm);
+                            });
+                            row.style.display = matches ? '' : 'none';
+                        });
+                    });
+
+                    // Add filter functionality
+                    function applyFilters() {
+                        console.log('Applying filters...');
+
+                        var levelFilterValue = parseInt(levelFilter.value);
+                        var sources = [
+                            'Drop/Vendor',
+                            'Crafting',
+                            'Gold Key/Gauntlet',
+                            'Raid',
+                            'Crowns',
+                            'Gift Card',
+                            'Retired'
+                        ];
+
+                        var selectedSources = sources.filter(function(source) {
+                            // Create a valid ID by replacing spaces and slashes with hyphens
+                            var checkboxId = source.toLowerCase().replace(/ /g, '-').replace(/\//g, '-');
+                            var checkbox = checkboxes[checkboxId];
+                            return checkbox ? checkbox.checked : false;
+                        });
+
+                        console.log('Selected Sources:', selectedSources);
+                        console.log('Level Filter Value:', levelFilterValue);
+
+                        // Apply the filters
+                        data = originalData.filter(function(row) {
+                            var levelMatch = parseInt(row.Level) <= levelFilterValue;
+                            var sourceMatch = selectedSources.includes(row.Source);
+
+                            console.log('Row Level:', row.Level, 'Level Match:', levelMatch);
+                            console.log('Row Source:', row.Source, 'Source Match:', sourceMatch);
+
+                            return levelMatch && sourceMatch;
+                        });
+
+                        updateTableBody(data);
+                    }
+
+                    levelFilter.addEventListener('change', applyFilters);
+                    Object.values(checkboxes).forEach(function(checkbox) {
+                        checkbox.addEventListener('change', applyFilters);
+                    });
+
+                    // Set default filter value to 170 and apply the filters
+                    levelFilter.value = "170";
+                    applyFilters(); // Apply filters immediately
+                },
+                error: function(error) {
+                    console.error('Error fetching CSV:', error);
+                }
+            });
+        });
+    </script>
+</body>
+</html>
