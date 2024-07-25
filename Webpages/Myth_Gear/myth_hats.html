@@ -164,10 +164,8 @@
                         var searchTerm = this.value.toLowerCase();
                         var rows = body.getElementsByTagName('tr');
                         Array.from(rows).forEach(function(row) {
-                            var cells = row.getElementsByTagName('td');
-                            var matches = Array.from(cells).some(function(cell) {
-                                return cell.innerHTML.toLowerCase().includes(searchTerm);
-                            });
+                            var nameCell = row.cells[Object.keys(data[0]).indexOf("Name")];
+                            var matches = nameCell.innerHTML.toLowerCase().includes(searchTerm);
                             row.style.display = matches ? '' : 'none';
                         });
                     });
