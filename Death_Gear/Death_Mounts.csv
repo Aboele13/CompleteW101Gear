@@ -1,0 +1,24 @@
+Name,Level,Health,Damage,Resist,Accuracy,Power Pip,Critical,Critical Block,Pierce,Stun Resist,Incoming,Outgoing,Pip Conserve,Shadow Pip,Archmastery,Source,Owned,Gear Set
+Death Ghulture,1,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Balance Ghulture,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Battle Narwhal,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Fishing,False,False
+Battle Havox,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,False
+Charon's Ferry,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,True
+Haros' Ferry,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,True
+Stygian Ferry,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,True
+Tartarus Ferry,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,True
+Clockwork Courser,1,0,0,0,0,0,0,0,2,0,0,0,0,0,0,Gift Card,False,False
+Vulpine Avenger,1,0,0,0,0,0,0,0,2,0,0,0,0,0,0,Gift Card,False,False
+Festive Fox,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Crowns,False,False
+Chompy Bronto,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,True
+Desert Racer,1,0,0,0,0,2,0,0,0,0,0,0,0,0,0,Gift Card,False,False
+Crystal Unicorn,1,0,0,0,2,0,0,0,0,0,0,0,0,0,0,Gift Card,False,False
+Lil' Steam Engine,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,True
+Majestic Crane,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,True
+Mammoth Mini,1,0,0,0,0,0,0,0,0,0,0,2,0,0,0,Drop/Vendor,False,False
+Stompy Bronto,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,True
+Sweet Ride!,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,True
+Trompy Bronto,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,True
+Roc,1,0,0,0,0,3,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Waddling Witch Hut,1,0,0,0,0,2,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Default,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,True,False
