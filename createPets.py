@@ -39,9 +39,9 @@ def extract_bullet_points_from_html(html_content):
     soup = BeautifulSoup(html_content, 'html.parser')
     bullet_points = []
 
-    # Find all list items (<li>) that contain the text "Mount:"
+    # Find all list items (<li>) that contain the text "Pet:"
     for li in soup.find_all('li'):
-        if li.text.strip().startswith("Mount:"):
+        if li.text.strip().startswith("Pet:"):
             # Check if the list item contains a hyperlink (<a> tag)
             a_tag = li.find('a', href=True)
             if a_tag:
@@ -76,11 +76,11 @@ def extract_information_from_url(url):
         
         lines = text_content.splitlines()
         
-        # Extract content between "Mount:" and "Documentation on how to edit this page"
+        # Extract content between "Pet:" and "Documentation on how to edit this page"
         start_index = None
         end_index = None
         for i, line in enumerate(lines):
-            if line.startswith("Mount:"):
+            if line.startswith("Pet:"):
                 start_index = i
             if line.startswith("Documentation on how to edit this page"):
                 end_index = i
@@ -104,7 +104,7 @@ def find_next_page_link(soup):
 
 def format_extracted_info(extracted_info):
     formatted_info = []
-    skip_phrases = ["From Wizard101 Wiki", "Jump to:", "navigation", "search", f"(50px-%28Icon%29_Mount.png)"]
+    skip_phrases = ["From Wizard101 Wiki", "Jump to:", "navigation", "search", f"(50px-%28Icon%29_Pet.png)"]
     for line in extracted_info:
         if any(phrase in line for phrase in skip_phrases):
             continue
@@ -148,32 +148,11 @@ def parse_bonuses(info_lines, item_name):
         'Shadow Pip Rating': 0,
         'Archmastery Rating': 0
     }
-        
-    capture = False
-    
-    for i, line in enumerate(info_lines):
-        if line.startswith("Stat Boost"):
-            capture = True
-        elif capture:
-            if line == 'View of the Mount in use':
-                if info_lines[i - 2] == "N/A":
-                    return bonuses
-                stat = []
-                j = i - 2
-                while j >= 0:
-                    stat.insert(0, info_lines[j])
-                    if info_lines[j].startswith("+"):
-                        value = int(stat[0][1:])
-                        category = " ".join(stat[1:])
-                        if category in bonuses:
-                            bonuses[category] = value
-                            break
-                    j -= 1
     
     return bonuses
 
 def process_bullet_point(base_url, bullet_point):
-    item_name = bullet_point['text'].replace("Mount:", "").strip()
+    item_name = bullet_point['text'].replace("Pet:", "").strip()
     
     # Construct absolute URL for the hyperlink
     full_url = urllib.parse.urljoin(base_url, bullet_point['link'])
@@ -192,31 +171,6 @@ def process_bullet_point(base_url, bullet_point):
         }
         item_data.update(bonuses)
         
-        source = "Drop/Vendor" # Determine the source based on specific text on the page
-        
-        if soup:
-            
-            text = soup.get_text()
-            
-            if "This item has been retired" in text or "Free codes" in text or "promotional" in text:
-                source = "Retired"
-            elif "No drop sources known" not in text:
-                if "Crafting Recipes" in text:
-                    source = "Crafting"
-                elif "(Tier " in text or "(Rank " in text:
-                    source = "Gold Key/Gauntlet"
-            elif "Crafting Recipes" in text:
-                source = "Crafting"
-            elif "Fishing Chests" in text:
-                source = "Fishing"
-            elif "Gift Card" in text:
-                source = "Gift Card"
-            elif "Card Pack" in text or "Crown Shop" in text:
-                source = "Crowns"
-            elif "No drop sources known" in text:
-                source = "Retired"
-        
-        item_data['Source'] = source
         item_data['Gear Set'] = formatted_info[formatted_info.index("Set") + 1] if "Set" in formatted_info else "None"
         
         return item_data
@@ -236,17 +190,17 @@ def only_show_necessary_cols(df):
     df["Level"] = 1
     df["Owned"] = False
     
-    return df[['Name', 'Level', 'Health', 'Damage', 'Resist', 'Accuracy', 'Power Pip', 'Critical', 'Critical Block', 'Pierce', 'Stun Resist', 'Incoming', 'Outgoing', 'Pip Conserve', 'Shadow Pip', 'Archmastery', 'Source', 'Owned', 'Gear Set']]
+    return df[['Name', 'Level', 'Health', 'Damage', 'Resist', 'Accuracy', 'Power Pip', 'Critical', 'Critical Block', 'Pierce', 'Stun Resist', 'Incoming', 'Outgoing', 'Pip Conserve', 'Shadow Pip', 'Archmastery', 'Owned', 'Gear Set']]
 
 def sort_by_cols(df, *args):
     return df.sort_values(by = list(args), ascending = [False] * len(args)).reset_index(drop=True)
 
-def clean_mounts_df(df):
+def clean_pets_df(df):
     combine_school_and_global_stats(df)
     df = only_show_necessary_cols(df)
-    return sort_by_cols(df, "Damage", "Resist", "Health", "Pierce", "Critical")
+    return df
 
-def remove_normal_mounts(df):
+def remove_normal_pets(df):
     # List of columns to check
     stats = ['Health', 'Damage', 'Resist', 'Accuracy', 'Power Pip', 'Critical', 'Critical Block', 'Pierce', 'Stun Resist', 'Incoming', 'Outgoing', 'Pip Conserve', 'Shadow Pip', 'Archmastery']
 
@@ -255,24 +209,57 @@ def remove_normal_mounts(df):
 
     # Condition to check if either 'd' or 'e' is True
     condition_d_or_e_true = df['Owned'] | (df['Gear Set'] != "None")
-
+    
     # Combine conditions: keep rows if not all zero or if 'd' or 'e' is True
     df = df[~condition_all_zero | condition_d_or_e_true].reset_index(drop = True)
     
-    default_mount = pd.DataFrame([{"Name": "Default", "Level": 1, "Health": 0, "Damage": 0, "Resist": 0, "Accuracy": 0, "Power Pip": 0, "Critical": 0, "Critical Block": 0, "Pierce": 0, "Stun Resist": 0, "Incoming": 0, "Outgoing": 0, "Pip Conserve": 0, "Shadow Pip": 0, "Archmastery": 0, "Source": "Drop/Vendor", "Owned": True, "Gear Set": "None"}])
+    default_pet = pd.DataFrame([{"Name": "Default", "Level": 1, "Health": 0, "Damage": 0, "Resist": 0, "Accuracy": 0, "Power Pip": 0, "Critical": 0, "Critical Block": 0, "Pierce": 0, "Stun Resist": 0, "Incoming": 0, "Outgoing": 0, "Pip Conserve": 0, "Shadow Pip": 0, "Archmastery": 0, "Owned": False, "Gear Set": "None"}])
 
-    df = df._append(default_mount, ignore_index = True)
+    df = df._append(default_pet, ignore_index = True)
     
     return df
 
+def create_pet_variants(df):
+    
+    variations = [
+        {"Name": "Max Damage", "Damage": 33, "Resist": 0, "Accuracy": 0, "Pierce": 0},
+        {"Name": "Triple Double", "Damage": 25, "Resist": 17, "Accuracy": 0, "Pierce": 0},
+        {"Name": "Max Resist", "Damage": 0, "Resist": 21, "Accuracy": 0, "Pierce": 0},
+        {"Name": "3 Damage, 2 Pierce, Resist", "Damage": 22, "Resist": 10, "Accuracy": 0, "Pierce": 5},
+        {"Name": "3 Damage, 2 Pierce", "Damage": 25, "Resist": 0, "Accuracy": 0, "Pierce": 6},
+        {"Name": "Triple Double, Accuracy", "Damage": 22, "Resist": 15, "Accuracy": 10, "Pierce": 0},
+        {"Name": "Triple Double, Pierce", "Damage": 22, "Resist": 15, "Accuracy": 0, "Pierce": 3},
+        {"Name": "3 Damage, 2 Pierce, Accuracy", "Damage": 22, "Resist": 0, "Accuracy": 10, "Pierce": 5},
+        {"Name": "3 Damage, Resist, Pierce, Accuracy", "Damage": 22, "Resist": 10, "Accuracy": 10, "Pierce": 3},
+        {"Name": "3 Damage, Resist, Pierce", "Damage": 25, "Resist": 11, "Accuracy": 0, "Pierce": 4},
+        {"Name": "3 Damage, Resist, Accuracy", "Damage": 25, "Resist": 11, "Accuracy": 10, "Pierce": 0},
+        {"Name": "3 Damage, Pierce, Accuracy", "Damage": 25, "Resist": 0, "Accuracy": 10, "Pierce": 4}
+    ]
+    
+    # Create new rows for each item with each variation
+    new_rows = []
+    for i, row in df.iterrows():
+        for variation in variations:
+            new_row = row.copy()
+            new_row['Damage'] += variation['Damage']
+            new_row['Resist'] += variation['Resist']
+            new_row['Accuracy'] += variation['Accuracy']
+            new_row["Pierce"] += variation["Pierce"]
+            new_row['Name'] = f"{row['Name']} ({variation['Name']})"  # Rename item to indicate variation
+            new_rows.append(new_row)
 
-def create_mounts(main_school):
+    # Create a new DataFrame with the new rows
+    new_df = pd.DataFrame(new_rows)
+    
+    return sort_by_cols(new_df, "Damage", "Resist", "Health", "Pierce", "Critical")
+
+def create_pets(main_school):
     
     global school
     school = main_school
             
     base_url = "https://wiki.wizard101central.com"
-    url = "https://wiki.wizard101central.com/wiki/index.php?title=Category:Mounts"
+    url = "https://wiki.wizard101central.com/wiki/Category:Pets"
     
     items_data = []
 
@@ -304,9 +291,10 @@ def create_mounts(main_school):
 
     # move all items to dataframe
     df = pd.DataFrame(items_data).fillna(0)  # fill all empty values with 0
-    df = clean_mounts_df(df)
-    df = remove_normal_mounts(df)
+    df = clean_pets_df(df)
+    df = remove_normal_pets(df)
+    df = create_pet_variants(df)
     print(df)
-    df.to_csv(f'{school}_Gear\\{school}_Mounts.csv', index=False)
+    df.to_csv(f'{school}_Gear\\{school}_Pets.csv', index=False)
         
     return df

@@ -1,39 +1,15 @@
-import os
 import urllib.parse
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import pandas as pd
-import requests
 from bs4 import BeautifulSoup
 
-from main import school
+import findItemSource
+from webAccess import fetch_url_content, replace_img_with_filename
 
+school = None
 gear_types = ["Hat", "Robe", "Boot"]
 gear_type = None
-
-def fetch_url_content(url):
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
-                      '(KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-    }
-
-    try:
-        if url.startswith('http'):
-            response = requests.get(url, headers=headers)
-        else:
-            full_url = urllib.parse.urljoin('https://wiki.wizard101central.com', url)
-            response = requests.get(full_url, headers=headers)
-            
-        response.raise_for_status()  # Raise an exception for HTTP errors (4xx or 5xx)
-        return response.text
-    except requests.exceptions.HTTPError as http_err:
-        print(f"HTTP error occurred: {http_err}")
-    except requests.exceptions.RequestException as req_err:
-        print(f"Request error occurred: {req_err}")
-    except Exception as err:
-        print(f"Other error occurred: {err}")
-    
-    return None
 
 def extract_bullet_points_from_html(html_content):
     if html_content is None:
@@ -54,14 +30,6 @@ def extract_bullet_points_from_html(html_content):
                 })
     
     return bullet_points
-
-def replace_img_with_filename(soup):
-    for img in soup.find_all('img'):
-        if 'src' in img.attrs:
-            img_url = img['src']
-            img_filename = os.path.basename(img_url)
-            img.replace_with(f'({img_filename})')
-    return soup
 
 def extract_information_from_url(url):
     html_content = fetch_url_content(url)
@@ -114,12 +82,12 @@ def find_next_page_link(soup):
 
 def format_extracted_info(extracted_info):
     formatted_info = []
-    skip_phrases = ["From Wizard101 Wiki", "Jump to:", "navigation", "search", f"(50px-%28Icon%29_{school}.png)", f"(50px-%28Icon%29_{gear_type}.png)"]
+    skip_phrases = ["From Wizard101 Wiki", "Jump to:", "navigation", "search", f"(50px-%28Icon%29_{school}.png)", f"(50px-%28Icon%29_Global.png)", f"(50px-%28Icon%29_{gear_type}.png)"]
     for line in extracted_info:
         if any(phrase in line for phrase in skip_phrases):
             continue
         # Clean up extra commas and percentage signs
-        cleaned_line = line.replace(',', '').replace('%', '').replace('(25px-28Icon29_', '').replace('(18px-28Icon29_', '').replace('.png)', '').replace('_', ' ')
+        cleaned_line = line.replace(',', '').replace('%', '').replace('(25px-28Icon29_', '').replace('(18px-28Icon29_', '').replace('(50px-28Icon29 ', '').replace('.png)', '').replace('_', ' ')
         formatted_info.append(cleaned_line)
     return formatted_info
 
@@ -135,6 +103,10 @@ def parse_wiki_error_gear(item_name, bonuses, parts):
         bonuses["Global Critical Block Rating"] = 113
         bonuses["Global Resistance"] = 17
         bonuses["Stun Resistance"] = 6
+        return bonuses
+    elif item_name == "Footwraps of Pictures":
+        bonuses["Max Health"] = 21
+        bonuses[f"{school} Accuracy"] = 2
         return bonuses
     else:
         print(f"Error on {item_name}")
@@ -257,67 +229,16 @@ def process_bullet_point(base_url, bullet_point):
         }
         item_data.update(bonuses)
         
-        source = "Drop/Vendor" # Determine the source based on specific text on the page
-        gear_set = False       # Determine if the item is part of a gear set based on text on the page
-        
-        if soup:
-            
-            text = soup.get_text()
-            
-            if "This item has been retired" in text:
-                source = "Retired"
-            elif "No drop sources known" not in text:
-                if "The Nullity" in text:
-                    source = "Raid"
-                elif "(Tier " in text:
-                    source = "Gold Key/Gauntlet"
-            elif "Card Pack:" in text and "Recipe:" in text:
-                source = "Gold Key/Gauntlet"
-            elif "Card Pack:" in text or "Crown Shop" in text:
-                source = "Crowns"
-            elif "Recipe:" in text:
-                source = "Crafting"
-            elif "Gift Card:" in text:
-                source = "Gift Card"
-                
-            if "From Set:" in text:
-                gear_set = True
-        
-        item_data['Source'] = source
-        item_data['Gear Set'] = gear_set
+        # set the item's source
+        item_data['Source'] = findItemSource.get_item_source(item_name, formatted_info)
+
+        # set the item's gear set (or None if none)
+        item_data['Gear Set'] = formatted_info[formatted_info.index("From Set:") + 1] if "From Set:" in formatted_info else "None"
         
         return item_data
     else:
         print(f"Failed to fetch content from {full_url}")
         return None
-    
-def collect_raid_gear():
-    
-    urls = [
-        "https://wiki.wizard101central.com/wiki/NPC:Gwyn_Fellwarden",
-        "https://wiki.wizard101central.com/wiki/NPC:Gwyn_Fellwarden_(Crying_Sky_Raid)",
-        "https://wiki.wizard101central.com/wiki/NPC:Gwyn_Fellwarden_(Cabal%27s_Revenge_Raid)"
-    ]
-    
-    raid_gear = []
-    
-    for url in urls:
-        html_content = fetch_url_content(url)
-        if html_content:
-            # Parse HTML content and replace <img> tags with filenames
-            soup = BeautifulSoup(html_content, 'html.parser')
-            soup = replace_img_with_filename(soup)
-        
-            # Extract all visible text from the modified HTML content
-            text_content = soup.get_text(separator='\n', strip=True)
-        
-            lines = text_content.splitlines()
-            
-            for i in range(len(lines)):
-                if lines[i] == "Link to Item":
-                    raid_gear.append(lines[i - 2])
-                
-    return raid_gear
 
 def combine_school_and_global_stats(df):
     df["Damage"] = df[f"{school} Damage"] + df["Global Damage"]
@@ -329,8 +250,6 @@ def combine_school_and_global_stats(df):
 def only_show_necessary_cols(df):
     df.rename(columns={'Max Health': 'Health', 'Global Resistance': 'Resist', 'Power Pip Chance': 'Power Pip', 'Global Critical Block Rating': 'Critical Block', 'Stun Resistance': 'Stun Resist', 'Incoming Healing': 'Incoming', 'Outgoing Healing': 'Outgoing', 'Shadow Pip Rating': 'Shadow Pip', 'Archmastery Rating': 'Archmastery'}, inplace=True)
     df["Level"] = df["Level"].astype(int)
-    raid_gear = collect_raid_gear()
-    df["Source"] = df.apply(lambda row: "Raid" if row["Name"] in raid_gear else row["Source"], axis=1)
     df["Owned"] = False
     
     return df[['Name', 'Level', 'Health', 'Damage', 'Resist', 'Accuracy', 'Power Pip', 'Critical', 'Critical Block', 'Pierce', 'Stun Resist', 'Incoming', 'Outgoing', 'Pip Conserve', 'Shadow Pip', 'Archmastery', 'Sword Pins', 'Shield Pins', 'Power Pins', 'Source', 'Owned', 'Gear Set']]
@@ -343,16 +262,21 @@ def clean_gear_df(df):
     df = only_show_necessary_cols(df)
     return sort_by_cols(df, "Damage", "Resist", "Health", "Pierce", "Critical")
 
-def create_clothing():
+def create_clothing(main_school):
     
+    global school
+    school = main_school
+            
     df_list = []
     
     for type in gear_types:
+        
+        global gear_type
         gear_type = type
     
         base_url = "https://wiki.wizard101central.com"
-        urls = [f"https://wiki.wizard101central.com/wiki/index.php?title=Category:{school}_School_{gear_type}s" #,
-            #f"https://wiki.wizard101central.com/wiki/Category:Any_School_{gear_type}s"
+        urls = [f"https://wiki.wizard101central.com/wiki/index.php?title=Category:{school}_School_{gear_type}s",
+            f"https://wiki.wizard101central.com/wiki/Category:Any_School_{gear_type}s"
             ]
     
         items_data = []

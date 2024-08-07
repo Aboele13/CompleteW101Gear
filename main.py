@@ -1,27 +1,22 @@
-school = "Death"
+import createAccessories
+import createClothing
+import createMounts
+import createPets
+
+school = "Fire"
+schools = ["Death", "Fire", "Balance", "Myth", "Storm", "Ice", "Life"]
 update_gear = True
 
 def main():
-    import createAccessories
-    import createClothing
-    import createMounts
 
-    clothing_dfs = createClothing.create_clothing()
-    accessories_dfs = createAccessories.create_accessories()
-    mounts_df = createMounts.create_mounts()
+    #for school in schools:
+        # clothing_dfs = createClothing.create_clothing(school)
+        accessories_dfs = createAccessories.create_accessories(school)
+        # mounts_df = createMounts.create_mounts(school)
+        # pets_df = createPets.create_pets(school)
     
-    print("\n\n\n")
-    print(clothing_dfs[0])
-    print(clothing_dfs[1])
-    print(clothing_dfs[2])
-    print(accessories_dfs[0])
-    print(accessories_dfs[1])
-    print(accessories_dfs[2])
-    print(accessories_dfs[3])
-    print(accessories_dfs[4])
-    print(mounts_df)
+        print(f"\n\n\nAll {school} gear has been successfully updated\n")
 
 
 if __name__ == "__main__":
     main()
-    

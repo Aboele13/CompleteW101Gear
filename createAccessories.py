@@ -1,39 +1,15 @@
-import os
 import urllib.parse
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import pandas as pd
-import requests
 from bs4 import BeautifulSoup
 
-from main import school
+import findItemSource
+from webAccess import fetch_url_content, replace_img_with_filename
 
+school = None
 gear_types = ["Wand", "Athame", "Amulet", "Ring", "Deck"]
 gear_type = None
-
-def fetch_url_content(url):
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
-                      '(KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-    }
-
-    try:
-        if url.startswith('http'):
-            response = requests.get(url, headers=headers)
-        else:
-            full_url = urllib.parse.urljoin('https://wiki.wizard101central.com', url)
-            response = requests.get(full_url, headers=headers)
-            
-        response.raise_for_status()  # Raise an exception for HTTP errors (4xx or 5xx)
-        return response.text
-    except requests.exceptions.HTTPError as http_err:
-        print(f"HTTP error occurred: {http_err}")
-    except requests.exceptions.RequestException as req_err:
-        print(f"Request error occurred: {req_err}")
-    except Exception as err:
-        print(f"Other error occurred: {err}")
-    
-    return None
 
 def extract_bullet_points_from_html(html_content):
     if html_content is None:
@@ -54,14 +30,6 @@ def extract_bullet_points_from_html(html_content):
                 })
     
     return bullet_points
-
-def replace_img_with_filename(soup):
-    for img in soup.find_all('img'):
-        if 'src' in img.attrs:
-            img_url = img['src']
-            img_filename = os.path.basename(img_url)
-            img.replace_with(f'({img_filename})')
-    return soup
 
 def extract_information_from_url(url):
     html_content = fetch_url_content(url)
@@ -268,67 +236,27 @@ def process_bullet_point(base_url, bullet_point):
         }
         item_data.update(bonuses)
         
-        source = "Drop/Vendor" # Determine the source based on specific text on the page
-        gear_set = False       # Determine if the item is part of a gear set based on text on the page
+        # set the item's source
+        item_data['Source'] = findItemSource.get_item_source(item_name, formatted_info)
         
-        if soup:
-            
-            text = soup.get_text()
-            
-            if "This item has been retired" in text:
-                source = "Retired"
-            elif "No drop sources known" not in text:
-                if "The Nullity" in text:
-                    source = "Raid"
-                elif "(Tier " in text:
-                    source = "Gold Key/Gauntlet"
-            elif "Card Pack" in text and "Recipe:" in text:
-                source = "Gold Key/Gauntlet"
-            elif "Card Pack" in text or "Crown Shop" in text:
-                source = "Crowns"
-            elif "Recipe:" in text:
-                source = "Crafting"
-            elif "Gift Card:" in text:
-                source = "Gift Card"
-                
-            if "From Set:" in text:
-                gear_set = True
+        # set the item's gear set (or None if none)
+        item_data['Gear Set'] = formatted_info[formatted_info.index("From Set:") + 1] if "From Set:" in formatted_info else "None"
         
-        item_data['Source'] = source
-        item_data['Gear Set'] = gear_set
+        # set the starting pips to only wands and decks
+        total_pips = 0
+        while "at start of battle." in formatted_info:
+            at_start_of_battle_index = formatted_info.index("at start of battle.")
+            num_pips = int(formatted_info[at_start_of_battle_index - 2].replace("+", ""))
+            pip_worth = 2 if formatted_info[at_start_of_battle_index - 1] == 'Power Pip' else 1
+            total_pips += (num_pips * pip_worth)
+            formatted_info = formatted_info[at_start_of_battle_index + 1:]
+            
+        item_data['Starting Pips'] = total_pips
         
         return item_data
     else:
         print(f"Failed to fetch content from {full_url}")
         return None
-    
-def collect_raid_gear():
-    
-    urls = [
-        "https://wiki.wizard101central.com/wiki/NPC:Gwyn_Fellwarden",
-        "https://wiki.wizard101central.com/wiki/NPC:Gwyn_Fellwarden_(Crying_Sky_Raid)",
-        "https://wiki.wizard101central.com/wiki/NPC:Gwyn_Fellwarden_(Cabal%27s_Revenge_Raid)"
-    ]
-    
-    raid_gear = []
-    
-    for url in urls:
-        html_content = fetch_url_content(url)
-        if html_content:
-            # Parse HTML content and replace <img> tags with filenames
-            soup = BeautifulSoup(html_content, 'html.parser')
-            soup = replace_img_with_filename(soup)
-        
-            # Extract all visible text from the modified HTML content
-            text_content = soup.get_text(separator='\n', strip=True)
-        
-            lines = text_content.splitlines()
-            
-            for i in range(len(lines)):
-                if lines[i] == "Link to Item":
-                    raid_gear.append(lines[i - 2])
-                
-    return raid_gear
 
 def combine_school_and_global_stats(df):
     df["Damage"] = df[f"{school} Damage"] + df["Global Damage"]
@@ -340,11 +268,12 @@ def combine_school_and_global_stats(df):
 def only_show_necessary_cols(df):
     df.rename(columns={'Max Health': 'Health', 'Global Resistance': 'Resist', 'Power Pip Chance': 'Power Pip', 'Global Critical Block Rating': 'Critical Block', 'Stun Resistance': 'Stun Resist', 'Incoming Healing': 'Incoming', 'Outgoing Healing': 'Outgoing', 'Shadow Pip Rating': 'Shadow Pip', 'Archmastery Rating': 'Archmastery'}, inplace=True)
     df["Level"] = df["Level"].astype(int)
-    raid_gear = collect_raid_gear()
-    df["Source"] = df.apply(lambda row: "Raid" if row["Name"] in raid_gear else row["Source"], axis=1)
     df["Owned"] = False
     
-    return df[['Name', 'Level', 'Health', 'Damage', 'Resist', 'Accuracy', 'Power Pip', 'Critical', 'Critical Block', 'Pierce', 'Stun Resist', 'Incoming', 'Outgoing', 'Pip Conserve', 'Shadow Pip', 'Archmastery', 'Unlocked Tear', 'Unlocked Circle', 'Unlocked Square', 'Unlocked Triangle', 'Locked Tear', 'Locked Circle', 'Locked Square', 'Locked Triangle', 'Source', 'Owned', 'Gear Set']]
+    if gear_type == "Wand" or gear_type == "Deck":
+        return df[['Name', 'Level', 'Health', 'Damage', 'Resist', 'Accuracy', 'Power Pip', 'Critical', 'Critical Block', 'Pierce', 'Stun Resist', 'Incoming', 'Outgoing', 'Pip Conserve', 'Shadow Pip', 'Archmastery', 'Starting Pips', 'Unlocked Tear', 'Unlocked Circle', 'Unlocked Square', 'Unlocked Triangle', 'Locked Tear', 'Locked Circle', 'Locked Square', 'Locked Triangle', 'Source', 'Owned', 'Gear Set']]
+    else:
+        return df[['Name', 'Level', 'Health', 'Damage', 'Resist', 'Accuracy', 'Power Pip', 'Critical', 'Critical Block', 'Pierce', 'Stun Resist', 'Incoming', 'Outgoing', 'Pip Conserve', 'Shadow Pip', 'Archmastery', 'Unlocked Tear', 'Unlocked Circle', 'Unlocked Square', 'Unlocked Triangle', 'Locked Tear', 'Locked Circle', 'Locked Square', 'Locked Triangle', 'Source', 'Owned', 'Gear Set']]
 
 def sort_by_cols(df, *args):
     return df.sort_values(by = list(args), ascending = [False] * len(args)).reset_index(drop=True)
@@ -354,11 +283,16 @@ def clean_accessories_df(df):
     df = only_show_necessary_cols(df)
     return sort_by_cols(df, "Damage", "Resist", "Health", "Pierce", "Critical")
 
-def create_accessories():
+def create_accessories(main_school):
     
+    global school
+    school = main_school
+            
     df_list = []
     
     for type in gear_types:
+        
+        global gear_type
         gear_type = type
     
         base_url = "https://wiki.wizard101central.com"
@@ -394,7 +328,7 @@ def create_accessories():
                 else:
                     print("Failed to fetch content from the URL.")
                     break
-
+        
         # move all items to dataframe
         df = pd.DataFrame(items_data).fillna(0)  # fill all empty values with 0
         df = clean_accessories_df(df)
