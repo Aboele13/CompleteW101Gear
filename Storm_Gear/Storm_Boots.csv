@@ -125,8 +125,8 @@ Mouse Stompers of Ingenuity,100,275,24,6,5,0,85,85,3,0,0,0,0,0,0,0,0,0,Drop/Vend
 Titan Warrior Shoes of Waves,110,489,24,5,0,6,111,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Shocking August Sage Shoes (Level 120+),120,480,24,0,5,6,100,91,5,0,0,0,0,10,0,2,0,1,Crowns,False,False
 Umbra Queen's Shocked Heels (Level 100+),100,275,24,0,5,7,85,0,3,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Morganthe's Stormy Heels (Level 100+),100,275,24,0,5,7,85,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
 Malistaire's Squall Boots (Level 100+),100,275,24,0,5,7,85,0,0,0,0,6,0,0,0,0,0,0,Crafting,False,False
+Morganthe's Stormy Heels (Level 100+),100,275,24,0,5,7,85,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
 Wild Skyfarer's Boots (Level 100+),100,275,24,0,5,7,85,0,0,0,0,6,0,0,0,0,0,0,Crowns,False,False
 Great Inventor's Storm Boots (Level 110+),110,377,23,9,6,5,75,119,0,0,0,0,0,7,0,0,0,0,Crowns,False,False
 Electric Fairy Kei Slippers (Level 90+),90,203,23,8,5,0,88,0,4,0,0,0,0,0,0,0,0,0,Crowns,False,False
@@ -178,11 +178,11 @@ Electric Fairy Kei Slippers (Level 60+),60,92,17,5,5,0,55,0,2,0,0,0,0,0,0,0,0,0,
 Enchanter's Lightning Riders,106,374,17,0,0,0,92,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Sand Devil Stalkers,94,137,17,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Howling Footgear of Fire,55,82,17,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Stormstrife Stalkers,55,82,17,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Surging Spirit Greaves,55,82,17,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Thundering Ice Striders,55,82,17,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Walkers of Turbulent Tales,55,82,17,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Thunderfair Footwear,55,82,17,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Stormstrife Stalkers,55,82,17,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Walkers of Turbulent Tales,55,82,17,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Great Inventor's Storm Boots (Level 70+),70,148,16,6,6,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
 Burrower's Divination Boots (Level 60+),60,105,16,5,0,4,0,58,2,0,0,0,0,0,0,0,0,0,Crowns,False,False
 Electric Fairy Kei Slippers (Level 50+),50,0,16,5,0,4,0,0,2,0,0,0,0,0,0,0,0,0,Crowns,False,False
@@ -248,8 +248,8 @@ Gloomy Cerberus Master Boots (Level 10+),10,16,9,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,C
 Stormy Night Mire Boots (Level 10+),10,16,9,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
 Burrower's Divination Boots (Level 10+),10,13,9,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
 Wastelander's Shocked Boots (Level 10+),10,0,9,1,4,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Slippers of the Slipstream,45,80,9,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Spiderkeeper's Thundershoes (H80),50,80,9,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+Slippers of the Slipstream,45,80,9,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Scaith Striders,78,75,9,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Mouse Shoes of Ingenuity (Level 98+),98,60,9,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,Retired,False,False
 Adept's Raincloud Shoes,30,60,9,0,4,4,0,0,0,0,4,0,0,0,0,0,0,0,Crafting,False,False
@@ -265,8 +265,8 @@ Razzle Dazzle Boots,70,89,8,0,0,0,45,0,5,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,Fal
 Celestian Tempest Trekkers,50,86,8,0,5,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,True
 Charnel Rain Striders,44,68,8,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Fabled Shore Waders,44,68,8,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Fire Typhoon Boots,44,68,8,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Frost Lightning Footwraps,44,68,8,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Fire Typhoon Boots,44,68,8,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Vigilant Horizon Boots,44,68,8,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Zealous Tide Slippers,44,68,8,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Dean Darkflame's Stormstriders,45,53,8,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
@@ -290,9 +290,9 @@ Wastelander's Shocked Boots (Any Level),1,0,5,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,Crow
 Cloudguard Footwraps,33,53,5,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Raintree Footguards,33,53,5,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Simmersleet Sandals,33,53,5,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Sorrowgale Boots,33,53,5,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Storm Stalkers,33,53,5,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Thundermuse Slippers,33,53,5,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Sorrowgale Boots,33,53,5,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Everburn's Footwraps,35,42,5,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Hoof Warrior's Footgear,25,42,5,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Otomo's Shroud of Disorder,35,42,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
@@ -300,8 +300,8 @@ Tidal Striders,40,42,5,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Wave Walkers,40,42,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Boots of Commotion,30,21,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
 Fushiko's Sandals,35,21,5,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Telluric Striders,30,21,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Slippers of the Victory Walk,35,21,5,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+Telluric Striders,30,21,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Morganthe's Stormy Heels (Any Level),1,7,5,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
 Ra's Cloudburst Striders,20,29,4,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Jacques' Artificial Sandals,30,48,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
@@ -312,18 +312,18 @@ Smogger's Germane Boots,25,32,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,
 Animated Canine Shoes,30,0,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Barkingham Fog Walkers,40,53,3,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Blustery Shoes of Legend,22,40,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Chill Footwear of the Cyclone,22,40,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Crackling Footwraps of Eternity,22,40,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Thundering Boots of Neutrality,22,40,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Chill Footwear of the Cyclone,22,40,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Vigorous Boots of the Squall,22,40,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Thundering Boots of Neutrality,22,40,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Windswept Boots of the Glacier,22,40,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Broghans of Mastery,25,32,3,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
-Scratcher's Elegant Shoes,25,32,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Mugsy's Aristocratic Boots,25,32,3,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Scratcher's Elegant Shoes,25,32,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Dazzling Boots,20,16,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Tattersea Footwear,30,16,3,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Krokhotep's Sandals,20,32,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Karanahn's Footwraps,20,32,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Krokhotep's Sandals,20,32,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Old Smokey's Footwraps,25,32,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Drizzling Boots,20,21,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Boots of the Cascade,25,0,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
@@ -388,21 +388,21 @@ Vigilant Sandals,35,42,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Footwraps of the Tide,30,32,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Hailstorm Striders,25,32,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Meowiarty's Refined Slippers,25,32,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Mugsy's Affected Slippers,25,32,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Powerful Boots,15,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Mugsy's Affected Slippers,25,32,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Zapping Boots,25,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Krokotopian Storm Striders,15,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,True
 Himoolayan Blizzard Boots,25,28,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Footwraps of the Whirlwind,45,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Monsoon Mocassins,45,26,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Sandals of the Squall,45,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Monsoon Mocassins,45,26,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Boots of Precipitation,15,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Djeserit's Shoes of Artistry,15,21,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Boots of the Whirlwind,15,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Djeserit's Shoes of Artistry,15,21,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Footwraps of Pictures,35,21,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Nunu's Twisted Slippers,30,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Brady's Stylish Sandals,25,16,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Boots of Sparking Energy,20,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Brady's Stylish Sandals,25,16,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Exclusive Boots,25,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Footwraps of Tension,10,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Windwalkers,10,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False

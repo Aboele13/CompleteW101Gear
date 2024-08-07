@@ -1,0 +1,227 @@
+Name,Level,Health,Damage,Resist,Accuracy,Power Pip,Critical,Critical Block,Pierce,Stun Resist,Incoming,Outgoing,Pip Conserve,Shadow Pip,Archmastery,Unlocked Tear,Unlocked Circle,Unlocked Square,Unlocked Triangle,Locked Tear,Locked Circle,Locked Square,Locked Triangle,Source,Owned,Gear Set
+Pit Viper's Carcanet,60,115,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Drop/Vendor,False,None
+Medallion of Lower Zigazag,60,95,2,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Drop/Vendor,False,None
+Illuminated Archival Ampul (Level 170+),170,532,0,8,0,0,0,71,0,0,0,0,98,0,0,0,0,0,0,0,0,1,1,Gold Key/Gauntlet,False,None
+Unreal Ampul of Overheating,170,466,0,8,0,0,0,62,244,0,0,0,0,0,0,0,0,0,0,1,0,0,1,Raid,False,None
+Hunhau's Meteoric Amulet (Level 170+),170,466,0,8,0,0,0,62,0,0,0,0,122,0,0,0,0,0,0,0,1,0,1,Raid,False,None
+Xibalba Meteoric Amulet (Level 170+),170,466,0,8,0,0,0,62,0,0,0,0,98,0,0,0,0,0,0,0,1,0,1,Raid,False,None
+Fervid Dream Stalker Amulet,170,665,0,7,0,0,0,71,0,0,0,0,122,0,0,0,0,0,0,0,0,1,1,Crafting,False,None
+Fiery Night Mire Amulet (Level 160+),160,525,0,7,0,0,0,57,0,0,0,0,180,0,0,0,0,0,0,0,0,2,0,Gold Key/Gauntlet,False,None
+Illuminated Archival Ampul (Level 160+),160,525,0,7,0,0,0,57,0,0,0,0,90,0,0,0,0,0,0,0,0,1,1,Crowns,False,None
+Illuminated Archival Ampul (Level 150+),150,482,0,7,0,0,0,55,0,0,0,0,84,0,0,0,0,0,0,0,0,1,1,Crowns,False,None
+Grim Cerberus Master Ampul (Level 150+),150,482,0,7,0,0,0,31,0,0,0,0,167,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
+Hunhau's Meteoric Amulet (Level 160+),160,460,0,7,0,0,0,50,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Raid,False,None
+The Void's Fiery Totem (Level 160+),160,460,0,7,0,0,0,50,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Raid,False,None
+The Void's Burning Totem,160,460,0,7,0,0,0,50,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Raid,False,None
+The Void's Blazing Totem,160,460,0,7,0,0,0,50,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Raid,False,None
+Xibalba Meteoric Amulet (Level 160+),160,460,0,7,0,0,0,50,0,0,0,0,180,0,0,0,0,0,0,1,0,1,0,Raid,False,None
+Illuminated Archival Ampul (Level 140+),140,438,0,7,0,0,0,48,0,0,0,0,78,0,0,0,0,0,0,0,0,1,1,Crowns,False,None
+The Void's Fiery Totem (Level 150+),150,422,0,7,0,0,0,28,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Drop/Vendor,False,None
+Illuminated Archival Ampul (Level 130+),130,394,0,7,0,0,0,34,0,0,0,0,65,0,0,0,0,0,0,0,0,1,1,Crowns,False,None
+Eternal Primal Charm,160,656,0,6,0,0,0,57,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crafting,False,None
+Eternal Primordial Charm,160,656,0,6,0,0,0,57,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crafting,False,None
+Eternal Primeval Charm,160,656,0,6,0,0,0,57,0,0,0,0,203,0,0,0,0,0,0,0,0,2,0,Crafting,False,None
+Great Inventor's Fire Ampul (Level 160+),160,656,0,6,0,0,0,57,0,0,0,0,203,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
+Great Inventor's Fire Ampul (Level 150+),150,602,0,6,0,0,0,55,0,0,0,0,188,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
+Great Inventor's Fire Ampul (Level 140+),140,547,0,6,0,0,0,48,0,0,0,0,174,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Burrower's Pyromancy Amulet (Level 160+),160,525,0,6,0,0,0,71,0,0,0,0,180,0,0,0,0,0,0,0,0,2,0,Gold Key/Gauntlet,False,None
+Great Inventor's Fire Ampul (Level 130+),130,492,0,6,0,0,0,34,0,0,0,0,146,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
+Fervid Dream Reaver Amulet,170,466,0,6,0,0,0,80,0,0,0,0,98,0,0,0,0,0,0,0,1,0,1,Drop/Vendor,False,None
+Burrower's Pyromancy Amulet (Level 140+),140,438,0,6,0,0,0,59,0,0,0,0,155,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
+Grim Cerberus Master Ampul (Level 120+),120,350,0,6,0,0,0,24,0,0,0,0,124,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
+Illuminated Archival Ampul (Level 110+),110,306,0,6,0,0,0,23,0,0,0,0,57,0,0,0,0,0,0,0,0,1,1,Crowns,False,None
+Delightful Freshbaker Rope,140,552,0,5,0,0,0,72,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,Crafting,False,None
+Uber Freshbaker Rope,140,552,0,5,0,0,0,72,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,Drop/Vendor,False,None
+Wunderbar Freshbaker Rope,140,535,0,5,0,0,0,68,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,Drop/Vendor,False,None
+Fiery Chrysanthemum Ampul (Level 170+),170,532,0,5,0,0,0,53,0,0,0,0,122,0,0,0,0,0,0,0,1,0,1,Gold Key/Gauntlet,False,None
+Flaming Chivalric Charm (Level 170+),170,532,0,5,0,0,0,53,0,0,0,0,122,0,0,0,0,0,0,0,1,0,1,Gold Key/Gauntlet,False,None
+Wastelander's Scorched Totem (Level 170+),170,532,0,5,0,0,0,53,0,0,0,0,146,0,0,0,0,0,0,1,0,0,1,Crowns,False,None
+Blazing Skyfarer's Amulet (Level 160+),160,525,0,5,0,0,0,43,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Crowns,False,None
+Wastelander's Scorched Totem (Level 160+),160,525,0,5,0,0,0,43,0,0,0,0,135,0,0,0,0,0,0,1,0,0,1,Crowns,False,None
+Blazing Skyfarer's Amulet (Level 150+),150,482,0,5,0,0,0,41,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Crowns,False,None
+Wastelander's Scorched Totem (Level 150+),150,482,0,5,0,0,0,41,0,0,0,0,125,0,0,0,0,0,0,1,0,0,1,Crowns,False,None
+Primordial Aeon Charm,160,460,0,5,0,0,0,64,0,0,0,0,180,0,0,0,0,0,0,1,0,1,0,Drop/Vendor,False,None
+Blazing Skyfarer's Amulet (Level 140+),140,438,0,5,0,0,0,36,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Crowns,False,None
+Fiery Chrysanthemum Ampul (Level 140+),140,438,0,5,0,0,0,36,0,0,0,0,97,0,0,0,0,0,0,0,1,0,1,Crowns,False,None
+Wastelander's Scorched Totem (Level 140+),140,438,0,5,0,0,0,36,0,0,0,0,116,0,0,0,0,0,0,1,0,0,1,Crowns,False,None
+Great Inventor's Fire Ampul (Level 120+),120,437,0,5,0,0,0,24,0,0,0,0,140,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
+Demiurge's Rage Talisman,150,422,0,5,0,0,0,35,0,0,0,0,167,0,0,0,0,0,0,1,0,1,0,Crafting,False,None
+Merciless Fire Talisman,150,422,0,5,0,0,0,35,0,0,0,0,167,0,0,0,0,0,0,1,0,1,0,Drop/Vendor,False,None
+Grim Cerberus Master Ampul (Level 140+),140,411,0,5,0,0,0,47,0,0,0,0,154,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
+Daemonic Ampul of Overheating,170,399,0,5,0,0,0,71,0,0,0,0,122,0,0,0,0,0,0,0,1,0,1,Raid,False,None
+Blazing Skyfarer's Amulet (Level 130+),130,394,0,5,0,0,0,26,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Crowns,False,None
+Nullity's Blazing Totem,160,394,0,5,0,0,0,57,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Raid,False,None
+Nullity's Fiery Totem (Level 160+),160,394,0,5,0,0,0,57,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Raid,False,None
+Nullity's Burning Totem,160,394,0,5,0,0,0,57,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Raid,False,None
+Nullity's Fiery Totem (Level 150+),150,362,0,5,0,0,0,31,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Drop/Vendor,False,None
+Burrower's Pyromancy Amulet (Level 110+),110,306,0,5,0,0,0,28,0,0,0,0,114,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
+Fervid Dream Warper Amulet,170,0,0,5,0,0,0,71,0,0,0,0,171,0,0,0,0,0,0,0,1,0,1,Drop/Vendor,False,None
+Flashy City Dweller Amulet,160,0,0,5,0,0,0,57,0,0,0,0,158,0,0,0,0,0,0,0,1,0,1,Drop/Vendor,False,None
+Furious Enforcer's Amulet,165,0,0,5,0,0,0,64,0,0,0,0,164,0,0,0,0,0,0,0,1,0,1,Drop/Vendor,False,None
+Magician's Fire Talisman,150,577,0,4,0,0,0,70,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,Drop/Vendor,False,None
+Guten Freshbaker Rope,140,524,0,4,0,0,0,65,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,Drop/Vendor,False,None
+Blazing Skyfarer's Amulet (Level 120+),120,350,0,4,0,0,0,18,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Crowns,False,None
+Fiery Chrysanthemum Ampul (Level 120+),120,350,0,4,0,0,0,18,0,0,0,0,78,0,0,0,0,0,0,0,1,0,1,Crowns,False,None
+Wastelander's Scorched Totem (Level 120+),120,350,0,4,0,0,0,18,0,0,0,0,93,0,0,0,0,0,0,1,0,0,1,Crowns,False,None
+Great Inventor's Fire Ampul (Level 100+),100,327,0,4,0,0,0,22,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
+Blazing Skyfarer's Amulet (Level 110+),110,306,0,4,0,0,0,17,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Crowns,False,None
+Fiery Chrysanthemum Ampul (Level 110+),110,306,0,4,0,0,0,17,0,0,0,0,71,0,0,0,0,0,0,0,1,0,1,Crowns,False,None
+Wastelander's Scorched Totem (Level 110+),110,306,0,4,0,0,0,17,0,0,0,0,86,0,0,0,0,0,0,1,0,0,1,Crowns,False,None
+Lt. Snow's Incendiary Amulet,110,276,0,4,0,0,0,78,0,0,0,0,0,0,0,1,0,0,0,0,0,2,0,Drop/Vendor,False,None
+Fiery Night Mire Amulet (Level 100+),100,262,0,4,0,0,0,22,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Gold Key/Gauntlet,False,None
+Burrower's Pyromancy Amulet (Level 100+),100,262,0,4,0,0,0,27,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Gold Key/Gauntlet,False,None
+Fiery Night Mire Amulet (Level 90+),90,262,0,4,0,0,0,22,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
+Illuminated Archival Ampul (Level 100+),100,262,0,4,0,0,0,22,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,Gold Key/Gauntlet,False,None
+Grim Cerberus Master Ampul (Level 100+),100,262,0,4,0,0,0,22,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
+Arcanum Exile Burning Charm,110,261,0,4,0,0,0,76,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Drop/Vendor,False,None
+Horizon Hold Scorched Charm,110,246,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Drop/Vendor,False,None
+Talisman of the Daystar,100,215,0,4,0,0,35,0,4,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Drop/Vendor,False,None
+Grim Cerberus Master Ampul (Level 110+),110,197,0,4,0,0,0,22,0,0,0,0,113,0,0,0,0,2,0,0,0,0,0,Crowns,False,None
+Cavalry Officer Medallion,150,0,0,4,0,0,0,54,0,0,0,0,146,0,0,0,0,0,0,1,0,1,0,Drop/Vendor,False,None
+Flashy Townie Amulet,160,0,0,4,0,0,0,50,0,0,0,0,135,0,0,0,0,0,0,0,0,0,1,Drop/Vendor,False,None
+Glistening Fire Amulet,155,0,0,4,0,0,0,56,0,0,0,0,152,0,0,0,0,0,0,1,0,1,0,Drop/Vendor,False,None
+Furious Protector's Amulet,165,0,0,4,0,0,0,56,0,0,0,0,141,0,0,0,0,0,0,0,0,0,1,Drop/Vendor,False,None
+Primordial Masterpiece Charm,160,0,0,4,0,0,0,57,0,0,0,0,158,0,0,0,0,0,0,1,0,1,0,Drop/Vendor,False,None
+Dragoon's Fiery Charm,130,526,0,3,0,0,0,82,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Drop/Vendor,False,Dragoon's Fiery Set
+Cabalist Cleansing Amulet,125,407,0,3,0,0,0,0,0,0,0,0,162,0,0,1,0,0,0,0,0,1,0,Drop/Vendor,False,None
+Great Inventor's Fire Ampul (Level 90+),90,274,0,3,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
+Blazing Skyfarer's Amulet (Level 100+),100,262,0,3,0,0,0,17,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Crowns,False,None
+Wastelander's Scorched Totem (Level 100+),100,262,0,3,0,0,0,17,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,Crowns,False,None
+Baba Yaga's Brimstone Collar,105,256,0,3,0,0,0,56,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,Drop/Vendor,False,None
+Morganthe's Dark Charm,100,229,0,3,0,0,0,25,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Drop/Vendor,False,None
+Great Inventor's Fire Ampul (Level 80+),80,221,0,3,0,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
+Illuminated Archival Ampul (Level 90+),90,220,0,3,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,Crowns,False,None
+Morganthe's Dark Charm (Level 99+),99,210,0,3,0,0,30,40,2,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Retired,False,None
+Burrower's Pyromancy Amulet (Level 80+),80,177,0,3,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
+Fiery Night Mire Amulet (Level 80+),80,177,0,3,0,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
+Illuminated Archival Ampul (Level 80+),80,177,0,3,0,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,Crowns,False,None
+Grim Cerberus Master Ampul (Level 90+),90,136,0,3,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
+Grim Cerberus Master Ampul (Level 80+),80,124,0,3,0,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
+Golden Fire Amulet,155,0,0,3,0,0,0,49,0,0,0,0,130,0,0,0,0,0,0,0,0,1,0,Drop/Vendor,False,None
+Morganthe's Dark Amulet,100,0,0,3,0,0,0,22,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Drop/Vendor,False,None
+Regulation Cavalry Medallion,150,0,0,3,0,0,0,48,0,0,0,0,125,0,0,0,0,0,0,0,0,1,0,Drop/Vendor,False,None
+Vanguard's Fiery Charm,130,514,0,2,0,0,0,79,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Drop/Vendor,False,None
+Wastelander's Scorched Totem (Level 90+),90,220,0,2,0,0,0,15,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,Crowns,False,None
+Brimstone Torc of Darkmoor,100,185,0,2,0,0,22,0,2,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Drop/Vendor,False,None
+Great Inventor's Fire Ampul (Level 70+),70,171,0,2,0,0,0,14,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
+Blazing Skyfarer's Amulet (Level 70+),70,137,0,2,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Crowns,False,None
+Burrower's Pyromancy Amulet (Level 70+),70,137,0,2,0,0,0,17,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
+Grim Cerberus Master Ampul (Level 70+),70,137,0,2,0,0,0,14,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
+Wastelander's Scorched Totem (Level 70+),70,137,0,2,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,Crowns,False,None
+Great Inventor's Fire Ampul (Level 60+),60,118,0,1,0,0,0,12,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
+Blazing Skyfarer's Amulet (Level 60+),60,95,0,1,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Crowns,False,None
+Burrower's Pyromancy Amulet (Level 60+),60,95,0,1,0,0,0,14,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
+Grim Cerberus Master Ampul (Level 60+),60,95,0,1,0,0,0,12,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
+Wastelander's Scorched Totem (Level 60+),60,95,0,1,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,Crowns,False,None
+Supreme Volcanic Talisman,148,577,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Drop/Vendor,False,None
+Supreme Eruption Talisman,148,577,0,0,0,0,0,0,0,0,0,0,201,0,0,1,0,0,0,0,0,1,0,Drop/Vendor,False,None
+Supreme Firewall Talisman,148,577,0,0,0,0,0,93,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Drop/Vendor,False,None
+Hierarch's Volcanic Talisman,145,516,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Drop/Vendor,False,None
+Hierarch's Eruption Talisman,145,516,0,0,0,0,0,0,0,0,0,0,187,0,0,1,0,0,0,0,0,1,0,Drop/Vendor,False,None
+Hierarch's Firewall Talisman,145,516,0,0,0,0,0,88,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Drop/Vendor,False,None
+Lemurian Volcanic Talisman,142,486,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Drop/Vendor,False,None
+Lemurian Eruption Talisman,142,486,0,0,0,0,0,0,0,0,0,0,173,0,0,0,0,1,0,0,0,0,0,Drop/Vendor,False,None
+Lemurian Firewall Talisman,142,486,0,0,0,0,0,82,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Drop/Vendor,False,None
+Radical Mind Talisman,140,442,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Drop/Vendor,False,None
+Rad Kalamar Amulet,127,407,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Interstellar Engineer's Charm,122,358,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Director Thermal Rope,138,352,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Drop/Vendor,False,None
+Executive Thermal Rope,138,352,0,0,0,0,0,0,0,0,0,0,186,0,0,1,0,0,0,0,0,1,0,Drop/Vendor,False,None
+Producer's Thermal Rope,138,352,0,0,0,0,0,84,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Drop/Vendor,False,None
+Chief's Thermal Rope,135,315,0,0,0,0,0,0,0,0,0,0,172,0,0,1,0,0,0,0,0,1,0,Drop/Vendor,False,None
+Supervisor Thermal Rope,135,315,0,0,0,0,0,76,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Drop/Vendor,False,None
+Lead's Thermal Rope,135,315,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Drop/Vendor,False,None
+Contractor Thermal Rope,132,297,0,0,0,0,0,69,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Drop/Vendor,False,None
+Fiery Liaison's Amulet,130,297,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Drop/Vendor,False,None
+Consultant Thermal Rope,132,297,0,0,0,0,0,0,0,0,0,0,159,0,0,0,0,1,0,0,0,0,0,Drop/Vendor,False,None
+Specialist Thermal Rope,132,297,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Drop/Vendor,False,None
+Eerem Necklace of Eruption,118,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,Drop/Vendor,False,None
+Istanboa Heatwave Pendant,118,267,0,0,0,0,0,0,0,0,0,0,155,0,0,0,0,1,0,0,0,1,0,Drop/Vendor,False,None
+Eerem Talisman of Char,118,260,0,0,0,0,0,0,0,0,0,0,155,0,0,1,0,0,0,0,0,1,0,Drop/Vendor,False,None
+Sand Sea Amulet of Explosion,116,256,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Drop/Vendor,False,None
+Kobra Choker of Fury,116,249,0,0,0,0,0,0,0,0,0,0,152,0,0,1,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Sand Sea Charm of Ashes,116,241,0,0,0,0,0,0,0,0,0,0,152,0,0,0,0,1,0,0,0,0,0,Drop/Vendor,False,None
+Flameforged Rubal Locket,114,237,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Drop/Vendor,False,None
+Djinn Pendant of Sparks,112,230,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Viper Sunstoke Talisman,114,230,0,0,0,0,0,0,0,0,0,0,149,0,0,0,0,1,0,1,0,0,0,Drop/Vendor,False,None
+Kataba Stone of Cinders,108,227,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,Drop/Vendor,False,None
+Fang Collar of Frenzy,112,226,0,0,0,0,0,0,0,0,0,0,146,0,0,0,0,1,0,0,0,0,0,Drop/Vendor,False,None
+Rubal Necklace of Acerbity,114,223,0,0,0,0,0,0,0,0,0,0,149,0,0,1,0,0,0,0,0,1,0,Drop/Vendor,False,None
+Djinn Amulet of Radiance,112,219,0,0,0,0,0,0,0,0,0,0,146,0,0,1,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Arcanum Pyromancer's Amulet,108,215,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Drop/Vendor,False,None
+Tayg Chaplet of Steam,106,212,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Drop/Vendor,False,None
+Tundarian Inferno Pendant,106,206,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Enchanter's Fervid Carcanet,106,200,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Drop/Vendor,False,None
+Bleaks Ampul of Pyres,104,196,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Drop/Vendor,False,None
+Radiant Kossack Amulet,104,190,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,Drop/Vendor,False,None
+Evoker's Chain of Embers,104,184,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Drop/Vendor,False,None
+Tundra Torc of Sweltering,102,181,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Urville Bauble of Flames,102,175,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Drop/Vendor,False,None
+Mage's Smoldering Bauble,102,169,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Tetrus Ampul of Scalding,120,111,0,0,0,0,0,0,0,5,0,0,140,0,0,0,0,0,0,1,0,1,0,Drop/Vendor,False,None
+Amulet of the Savannah Flame,62,75,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Crafting,False,None
+Great Inventor's Fire Ampul (Level 50+),50,74,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
+Illuminated Archival Ampul (Level 50+),50,74,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,Gold Key/Gauntlet,False,None
+Snowcrusher's Flame Pendant,50,67,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Drop/Vendor,False,None
+Zigazag Desert Relic,60,65,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Burrower's Pyromancy Amulet (Level 50+),50,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Gold Key/Gauntlet,False,None
+Fiery Night Mire Amulet (Level 50+),50,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Gold Key/Gauntlet,False,None
+Wastelander's Scorched Totem (Level 50+),50,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,Crowns,False,None
+Great Inventor's Fire Ampul (Level 30+),30,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
+Illuminated Archival Ampul (Level 40+),40,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,Crowns,False,None
+Monk's Choker of Asperity,25,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Drop/Vendor,False,None
+Illuminated Archival Ampul (Level 30+),30,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,Crowns,False,None
+Great Inventor's Fire Ampul (Level 40+),40,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
+Burrower's Pyromancy Amulet (Level 40+),40,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
+Fiery Night Mire Amulet (Level 40+),40,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
+Grim Cerberus Master Ampul (Level 40+),40,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
+Wastelander's Scorched Totem (Level 40+),40,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,Crowns,False,None
+Wastelander's Scorched Totem (Level 30+),30,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,Crowns,False,None
+Tsutsui's Rampage Choker,25,40,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Drop/Vendor,False,None
+Monk's Jewel of Radiance,25,25,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Advanced Fire Charm,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,Crowns,False,None
+Blazing Skyfarer's Amulet (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Barkingham Hearthfire Relic,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Blazing Skyfarer's Amulet (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Crowns,False,None
+Fiery Night Mire Amulet (Level 10+),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Burrower's Pyromancy Amulet (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Fiery Night Mire Amulet (Level 150+),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Fire Fairy Kei Necklace (Level 70+),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Fire Fairy Kei Necklace (Level 80+),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Fiery Night Mire Amulet (Level 120+),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Blazing Skyfarer's Amulet (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Crowns,False,None
+Fire Fairy Kei Necklace (Level 50+),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Floramancer Amulet of Rashes (Any Level),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Fiery Night Mire Amulet (Level 70+),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Fiery Night Mire Amulet (Level 110+),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Fiery Night Mire Amulet (Level 30+),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Fire Fairy Kei Necklace (Any Level),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Crown Jewel Necklace,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Drop/Vendor,False,None
+Fiery Night Mire Amulet (Level 20+),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Fiery Night Mire Amulet (Level 140+),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Fire Fairy Kei Necklace (Level 120+),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Fire Fairy Kei Necklace (Level 90+),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Fire Fairy Kei Necklace (Level 170+),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Burrower's Pyromancy Amulet (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Floramancer Amulet of Rashes (Level 110+),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Fiery Night Mire Amulet (Level 130+),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Fiery Night Mire Amulet (Any Level),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Floramancer Amulet of Rashes (Level 150+),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Floramancer Amulet of Rashes (Level 30+),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Floramancer Amulet of Rashes (Level 160+),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Great Inventor's Fire Ampul (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Grim Cerberus Master Ampul (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Illuminated Archival Ampul (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Malistaire's Vengeance Charm (Level 100+),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Rematch,False,None
+Malistaire's Vengeance Charm (Level 50+),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Rematch,False,None
+Great Inventor's Fire Ampul (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Malistaire's Vengeance Charm (Level 160+),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Rematch,False,None
+Great Inventor's Fire Ampul (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
+Grenadier's Vial of Tumult,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Drop/Vendor,False,None
+Snowcrusher's Flame Pendant (Level 45+),45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Retired,False,None
+Malevolent Fire Talisman,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Illuminated Archival Ampul (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Umbra Queen's Scorched Totem (Level 170+),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Rematch,False,None
+Wastelander's Scorched Totem (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Umbra Queen's Scorched Totem (Level 100+),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Rematch,False,None
+Wastelander's Scorched Totem (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None

@@ -160,9 +160,9 @@ Digger Drone Helm of Bolts,90,215,20,0,7,9,0,0,0,0,5,0,0,0,0,0,0,0,Drop/Vendor,F
 Howling Headdress of Fire,55,163,20,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Mask of Turbulent Tales,55,163,20,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Stormstrife Hat,55,163,20,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Surging Spirit Helm,55,163,20,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Thunderfair Headdress,55,163,20,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Thundering Ice Mantle,55,163,20,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Surging Spirit Helm,55,163,20,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Eureka Coif,58,154,20,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Maelstrom Mask,56,154,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Highlands Warrior's Balmoral (Level 120+),120,381,19,9,9,7,109,66,0,0,0,0,0,10,0,0,0,0,Crowns,False,False
@@ -236,8 +236,8 @@ Squamish Cowl of the Sidhe,65,191,14,0,7,0,0,0,3,0,0,0,0,0,0,0,0,0,Drop/Vendor,F
 Blackthunder Helm,90,85,13,8,0,7,165,0,3,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Great Inventor's Storm Hat (Level 50+),50,159,13,4,9,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
 Highlands Warrior's Balmoral (Level 50+),50,158,13,4,8,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
-Gloomy Cerberus Master Helm (Level 40+),40,150,13,2,6,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
 Fraught Hardback Helmet (Level 40+),40,150,13,2,6,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Gloomy Cerberus Master Helm (Level 40+),40,150,13,2,6,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
 Stormy Night Mire Top Hat (Level 40+),40,150,13,2,6,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
 Burrower's Divination Hood (Level 40+),40,120,13,2,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
 Wastelander's Shocked Hat (Level 40+),40,0,13,2,6,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
@@ -268,9 +268,9 @@ Lost World Cloud Helm,85,268,10,0,0,0,144,0,0,5,0,0,0,0,0,0,0,0,Gold Key/Gauntle
 Palace Guard's Rain Topper,40,136,10,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Wild Monsoon Brim,70,133,10,0,0,0,75,0,4,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Charnel Rain Cowl,44,132,10,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Fabled Shore Mantle,44,132,10,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Fire Typhoon Cap,44,132,10,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Frost Lightning Hood,44,132,10,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Fabled Shore Mantle,44,132,10,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Vigilant Horizon Cap,44,132,10,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Zealous Tide Hat,44,132,10,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Bad Storm Shroud,72,122,10,0,0,0,109,0,2,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
@@ -289,8 +289,8 @@ Wastelander's Shocked Hat (Level 20+),20,0,9,2,5,3,0,0,0,0,0,0,0,0,0,0,0,0,Crown
 Hood of the Flurry,40,128,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Oyotomi's Cowl of Vacancy,40,128,9,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Senator's Raincloud Mantle,30,96,9,0,3,4,0,0,0,0,3,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Cap of the Stratosphere,35,84,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Cowl of Discord,35,84,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Cap of the Stratosphere,35,84,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Yakedo's Shroud,35,84,9,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Morganthe's Stormy Arachna Crown (Level 20+),20,52,9,0,5,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
 Wild Skyfarer's Douli Hat (Level 20+),20,52,9,0,5,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
@@ -318,8 +318,8 @@ Cloudguard Coif,33,101,7,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Hailstone Hood,33,101,7,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Raintree Headwrap,33,101,7,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Sorrowgale Hat,33,101,7,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Thundermuse Cowl,33,101,7,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Simmersleet Hat,33,101,7,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Thundermuse Cowl,33,101,7,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Hoof Warrior's Headgear,25,80,7,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Cap of Dilemma,30,42,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Fortune's Hood,35,42,7,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
@@ -333,15 +333,15 @@ Morganthe's Stormy Arachna Crown (Any Level),1,22,6,0,3,2,0,0,0,0,0,0,0,0,0,0,0,
 Thinker's Cap,30,0,6,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Adventurer's Cowl,25,64,5,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
 Clanker's Premium Cap,25,64,5,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Meowiarty's Intense Helm,25,64,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Mugsy's Helm,25,64,5,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Meowiarty's Intense Helm,25,64,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Himoolayan Blizzard Helmet,25,60,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Ra's Cloudburst Hood,20,58,4,1,0,0,0,0,0,4,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Floramancer Helm of Thorns (Any Level),5,15,4,1,3,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
 Stormy Night Mire Top Hat (Any Level),1,8,4,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Crackling Cowl of Eternity,22,80,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Blustery Hat of Legend,22,80,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Chill Cowl of the Cyclone,22,80,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Crackling Cowl of Eternity,22,80,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Thundering Hat of Neutrality,22,80,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Vigorous Cap of the Squall,22,80,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Windswept Hood of the Glacier,22,80,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
@@ -349,16 +349,16 @@ Tailor-Made Hat,20,64,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Cap of the Cyclone,30,32,4,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Wild Skyfarer's Douli Hat (Any Level),1,13,4,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
 Cap of the Savage,20,64,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
-Manu's Hood of Power,20,64,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Krokenkahmen's Circlet,20,64,3,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Manu's Hood of Power,20,64,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Queen's Helm of Designs,20,64,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Hat of Stormy Havoc,20,44,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Odji's Hat of Artistry,15,42,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Umbral Headgear,25,0,3,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Floodfire Hood,15,53,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Stormtide Mantle,15,53,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Sagadeep Cowl,15,53,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Sorrowstream Hood,15,53,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Stormtide Mantle,15,53,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Thunderward Cap,15,53,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Windsoul Hat,15,53,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Stormsquall Crown,20,40,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
@@ -393,8 +393,8 @@ Lambent's Cowl of Clamoring,70,185,0,0,0,4,0,0,0,5,6,0,0,0,0,0,0,0,Gold Key/Gaun
 Mantle of the Watery Deep,45,160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Thunderstruck Hat,56,154,0,0,0,0,80,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Drafty Cap,50,154,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Rumbling Cover,52,154,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Stormfist's Gale Force Helm,56,154,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Rumbling Cover,52,154,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Wildcrag's Typhoon Helm,54,154,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Mask of the Muse,35,128,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Shroud of Conceit,40,128,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
@@ -403,20 +403,20 @@ Cowl of the Zephyr,45,106,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,Fals
 Markmaker's Cyclonic Coif,45,106,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Mist Giant's Cowl,45,106,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Stormwatcher's Hood,45,106,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Surging Storm Helm,52,96,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Stylish Hat,25,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Headwraps of Commotion,35,84,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Surging Storm Helm,52,96,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Helm of Disquiet,35,84,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Hat of Niceties,35,84,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Headwraps of Commotion,35,84,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Meditative Helm,35,84,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Clamoring Mantle,20,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Animated Cap,25,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Animated Canine Cowl,25,64,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Animated Cap,25,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Diviner's Hat of Squalls,15,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Clamoring Mantle,20,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Feline's Charged Hat,25,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Hat of the Scirocco,25,64,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Helm of Ingenuity,20,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Headgear of the Haze,15,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Helm of Ingenuity,20,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Pioneer's Helm,20,64,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Scratcher's Invigorated Cowl,25,64,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Foulweather Hat,30,58,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
@@ -429,8 +429,8 @@ Meticulous Headwraps,30,42,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,Fal
 Rugged Hood,15,42,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Speculative Headwraps,35,42,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Cap of the Kraken,25,32,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Gobblestone's Storm Cap,10,32,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Gustshroud,10,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Gobblestone's Storm Cap,10,32,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Stormcaller's Hat,10,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Visor of Invention,25,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Charged Helm,10,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
@@ -441,5 +441,5 @@ Student's Helm,5,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Thundercracked Cover,52,0,0,0,0,0,53,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Crusader's Headdress,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
 Greebly's Windshroud,10,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Stormweave Hood,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Shroud of Downpour,15,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Stormweave Hood,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False

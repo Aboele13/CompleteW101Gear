@@ -67,8 +67,8 @@ Eureka Raiment,58,288,27,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Maelstrom Costume,56,0,27,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Skyscream Cape,60,216,26,12,8,0,41,10,0,0,3,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Great Inventor's Storm Coat (Level 140+),140,1269,26,10,9,10,84,102,0,0,0,0,0,13,0,0,0,0,Crowns,False,False
-Fraught Plot Armor (Level 100+),100,411,26,10,0,8,82,76,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
 Gloomy Cerberus Master Armor (Level 100+),100,411,26,10,9,0,82,76,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Fraught Plot Armor (Level 100+),100,411,26,10,0,8,82,76,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
 Stormy Night Mire Coat (Level 100+),100,411,26,10,9,0,82,76,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
 Electric Fairy Kei Dress (Level 140+),140,1143,26,9,10,0,112,89,7,0,0,0,0,13,0,2,0,1,Crowns,False,False
 Morganthe's Stormy Trappings (Level 140+),140,1117,26,7,12,8,98,0,0,0,0,0,0,17,0,0,0,0,Crowns,False,False
@@ -76,8 +76,8 @@ Raiment of the Dust Devil,100,504,26,6,9,0,0,20,7,0,0,0,0,0,0,0,0,0,Crowns,False
 Chief's Garb of the Gale,56,250,26,5,11,0,40,13,0,0,5,0,0,0,0,0,0,0,Crafting,False,False
 Diviner's Deep Rolling Vest,85,460,26,0,4,8,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
 Umbra Queen's Shocked Garment (Level 100+),100,411,26,0,11,8,82,0,4,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Malistaire's Squall Vestment (Level 100+),100,411,26,0,11,8,82,0,0,0,0,8,0,0,0,0,0,0,Crafting,False,False
 Morganthe's Stormy Trappings (Level 100+),100,411,26,0,11,8,82,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Malistaire's Squall Vestment (Level 100+),100,411,26,0,11,8,82,0,0,0,0,8,0,0,0,0,0,0,Crafting,False,False
 Wild Skyfarer's Garb (Level 100+),100,411,26,0,11,8,82,0,0,0,0,8,0,0,0,0,0,0,Crowns,False,False
 Thunderstruck Tunic,56,202,26,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Thundercracked Costume,54,0,26,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
@@ -101,8 +101,8 @@ Royal Storm Tunic of Azteca,84,250,24,13,8,0,75,0,0,0,0,0,0,0,0,0,0,0,Crafting,F
 Burrower's Divination Robe (Level 160+),160,1646,24,11,0,7,105,111,8,0,0,0,0,20,0,2,0,1,Gold Key/Gauntlet,False,False
 Striking City Dweller Vest,160,0,24,11,9,6,105,83,8,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Great Inventor's Storm Coat (Level 120+),120,891,24,9,8,9,74,88,0,0,0,0,0,11,0,0,0,0,Crowns,False,False
-Floramancer Armor of Thorns (Level 120+),120,802,24,8,9,9,0,77,0,0,0,9,0,15,0,0,0,0,Crowns,False,False
 Floramancer Armor of Thorns (Level 130+),130,802,24,8,9,9,0,77,0,0,0,9,0,15,0,0,0,0,Crowns,False,False
+Floramancer Armor of Thorns (Level 120+),120,802,24,8,9,9,0,77,0,0,0,9,0,15,0,0,0,0,Crowns,False,False
 Highlands Warrior's Kit (Level 110+),110,702,24,8,8,9,70,84,0,0,0,0,0,10,0,0,0,0,Crowns,False,False
 Great Inventor's Storm Coat (Level 110+),110,702,24,8,8,9,70,84,0,0,0,0,0,10,0,0,0,0,Crowns,False,False
 Gloomy Cerberus Master Armor (Level 80+),80,327,24,8,9,0,51,60,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
@@ -120,8 +120,8 @@ Poet's Robe,74,250,23,12,8,0,65,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Battle Mage's Gear of Furor,100,504,23,11,21,7,108,0,0,0,0,0,0,10,0,0,0,0,Drop/Vendor,False,False
 Fractal Masterpiece Cape,160,988,23,10,0,0,105,83,7,0,0,0,0,18,0,0,0,0,Drop/Vendor,False,False
 Digger's Brimstone Plate,100,360,23,9,9,0,93,67,5,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Highlands Warrior's Kit (Level 100+),100,513,23,8,10,7,0,76,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
 Great Inventor's Storm Coat (Level 100+),100,513,23,8,10,7,0,76,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Highlands Warrior's Kit (Level 100+),100,513,23,8,10,7,0,76,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
 Gloomy Cerberus Master Armor (Level 90+),90,419,23,8,9,0,68,72,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
 Electric Fairy Kei Dress (Level 100+),100,462,23,7,9,0,93,0,5,0,0,0,0,0,0,0,0,0,Crowns,False,False
 Gloomy Cerberus Master Armor (Level 70+),70,284,23,7,9,0,50,50,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
@@ -139,10 +139,10 @@ Wild Skyfarer's Garb (Level 70+),70,284,23,0,11,6,50,0,0,0,0,7,0,0,0,0,0,0,Crown
 Hades' Armor of the Abyss,90,270,23,0,5,7,97,0,8,0,0,7,0,0,0,0,0,0,Drop/Vendor,False,False
 Howling Garment of Fire,55,245,23,0,9,0,0,20,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Raiment of Turbulent Tales,55,245,23,0,9,0,0,20,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Surging Spirit Armor,55,245,23,0,9,0,0,20,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Stormstrife Tunic,55,245,23,0,9,0,0,20,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Thundering Ice Outfit,55,245,23,0,9,0,0,20,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Thunderfair Cloak,55,245,23,0,9,0,0,20,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Thundering Ice Outfit,55,245,23,0,9,0,0,20,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Surging Spirit Armor,55,245,23,0,9,0,0,20,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Glistening Storm Lamellar,155,943,22,10,0,0,103,81,8,0,0,0,0,17,0,0,0,0,Drop/Vendor,False,False
 Burrower's Divination Robe (Level 130+),130,1080,22,9,0,0,0,96,7,0,0,0,0,28,0,0,0,0,Crowns,False,False
 Highlands Warrior's Kit (Level 120+),120,972,22,9,11,6,74,87,0,0,0,0,0,10,0,0,0,0,Crowns,False,False
@@ -186,8 +186,8 @@ Artisan's Downpour Toga,70,280,20,0,7,7,0,0,5,0,6,0,0,0,0,0,0,0,Crafting,False,F
 Senator's Downpour Toga,70,280,20,0,7,7,0,0,4,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Golden Storm Lamellar,155,786,19,9,0,0,88,67,7,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
 Raging Blackwater's Plate,100,480,19,8,15,6,101,0,0,0,0,0,0,10,0,0,0,0,Drop/Vendor,False,False
-Malistaire's Wrathful Suit (Socketed),50,194,19,5,9,0,0,0,3,0,0,0,0,0,0,2,0,1,Crafting,False,False
 Malistaire's Wrathful Wrap,50,194,19,5,9,0,0,0,3,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Malistaire's Wrathful Suit (Socketed),50,194,19,5,9,0,0,0,3,0,0,0,0,0,0,2,0,1,Crafting,False,False
 Great Inventor's Storm Coat (Level 50+),50,276,19,4,10,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
 Highlands Warrior's Kit (Level 50+),50,276,19,4,10,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
 Floramancer Armor of Thorns (Level 50+),50,249,19,4,9,6,0,0,0,0,0,6,0,0,0,0,0,0,Crowns,False,False
@@ -220,15 +220,15 @@ Senator's Raincloud Toga,30,144,13,0,4,4,0,0,0,0,4,0,0,0,0,0,0,0,Drop/Vendor,Fal
 Cyclone Cloak,45,80,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Immortals' Havoc Armor,100,524,12,9,0,6,100,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Advanced Storm Robes,50,260,12,6,5,0,11,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Highlands Warrior's Kit (Level 40+),40,216,12,2,8,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
 Great Inventor's Storm Coat (Level 40+),40,216,12,2,8,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Highlands Warrior's Kit (Level 30+),30,192,12,2,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
+Highlands Warrior's Kit (Level 40+),40,216,12,2,8,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
 Great Inventor's Storm Coat (Level 30+),30,192,12,2,6,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Highlands Warrior's Kit (Level 30+),30,192,12,2,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
 Palace Guard's Rain Gear,40,203,12,0,7,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Bonebreaker Robe of Sparks,40,198,12,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Charnel Rain Raiment,44,194,12,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Fabled Shore Longcoat,44,194,12,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Fire Typhoon Robe,44,194,12,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Fabled Shore Longcoat,44,194,12,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Frost Lightning Vestment,44,194,12,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Vigilant Horizon Robe,44,194,12,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Zealous Tide Surcoat,44,194,12,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
@@ -253,12 +253,12 @@ Barkingham Fog Coat,40,162,9,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,Fal
 Cloudguard Vestment,33,155,9,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Hailstone Longcoat,33,155,9,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Raintree Uniform,33,155,9,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Thundermuse Tunic,33,155,9,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Simmersleet Cloak,33,155,9,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Thundermuse Tunic,33,155,9,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Sorrowgale Longcoat,33,155,9,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Robe of Discord,30,64,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-War Oni's Astute Tunic,35,64,9,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Vanquisher's Wrap,35,64,9,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
+War Oni's Astute Tunic,35,64,9,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Burrower's Divination Robe (Level 20+),20,96,8,1,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
 Fraught Plot Armor (Level 20+),20,77,8,1,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
 Stormy Night Mire Coat (Level 20+),20,77,8,1,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
@@ -268,8 +268,8 @@ Pops' Vest of Invigoration,25,96,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,Fal
 Smogger's Charged Robe,25,96,8,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Armor of the Hoof Warrior,25,92,8,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Morganthe's Stormy Trappings (Level 20+),20,77,8,0,6,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Wild Skyfarer's Garb (Level 20+),20,77,8,0,6,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
 Wastelander's Shocked Armor (Level 20+),20,77,8,0,6,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
+Wild Skyfarer's Garb (Level 20+),20,77,8,0,6,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
 Tunic of the Clever,25,48,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Uniform of the Inventor,30,0,8,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Great Inventor's Storm Coat (Level 20+),20,96,7,1,6,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
@@ -283,8 +283,8 @@ Burrower's Divination Robe (Level 10+),10,48,6,1,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Cro
 Fraught Plot Armor (Level 10+),10,39,6,1,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
 Gloomy Cerberus Master Armor (Level 10+),10,39,6,1,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
 Blustery Robe of Legend,22,121,6,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Chill Jacket of the Cyclone,22,121,6,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Crackling Smock of Eternity,22,121,6,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Chill Jacket of the Cyclone,22,121,6,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Thundering Jacket of Neutrality,22,121,6,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Vigorous Cloak of the Squall,22,121,6,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Windswept Coat of the Glacier,22,121,6,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
@@ -306,8 +306,8 @@ Stormy Night Mire Coat (Any Level),1,16,3,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,F
 Floodfire Coat,15,79,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Stormtide Vestment,15,79,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Sorrowstream Tunic,15,79,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Sagadeep Robe,15,79,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Thunderward Cloak,15,79,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
+Sagadeep Robe,15,79,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Windsoul Raiment,15,79,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
 Precipitant Coat,20,66,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Akori's Robe,15,64,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
@@ -410,8 +410,8 @@ Tunic of Discontent,35,128,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,Fal
 Vestment of Niceties,35,128,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Turbulent Tunic,52,115,0,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Cloak of Crashing Waves,25,96,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Robe of Ingenuity,20,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Meowiarty's Intense Robe,25,96,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Robe of Ingenuity,20,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Thinker's Robe,25,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Widow's Refined Robe,25,96,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Jerkin of the Thunderbird,45,80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
@@ -422,8 +422,8 @@ Coat of Pouring Rain,15,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,Fal
 Diviner's Tunic of Squalls,15,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Garment of Artistry,15,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Garment of Dilemma,35,64,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Meticulous Cloak,30,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Maker's Vestment,15,64,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Meticulous Cloak,30,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Tritonscale Coat,20,62,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Cloudburst Coat,10,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
 Lord Nightshade's Robe,10,48,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False

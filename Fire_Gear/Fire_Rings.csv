@@ -1,0 +1,289 @@
+Name,Level,Health,Damage,Resist,Accuracy,Power Pip,Critical,Critical Block,Pierce,Stun Resist,Incoming,Outgoing,Pip Conserve,Shadow Pip,Archmastery,Unlocked Tear,Unlocked Circle,Unlocked Square,Unlocked Triangle,Locked Tear,Locked Circle,Locked Square,Locked Triangle,Source,Owned,Gear Set
+Executive Thermal Ring,138,167,19,0,0,0,85,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,Drop/Vendor,False,None
+Director Thermal Ring,138,167,18,0,0,0,90,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,Drop/Vendor,False,None
+Chief's Thermal Ring,135,157,18,0,0,0,78,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Drop/Vendor,False,None
+Fervid Dream Reaver Ring,170,513,17,0,0,18,115,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Drop/Vendor,False,None
+Lead's Thermal Ring,135,157,17,0,0,0,82,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,Drop/Vendor,False,None
+Consultant Thermal Ring,132,148,17,0,0,0,72,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Drop/Vendor,False,None
+Daemonic Ring of Overheating,170,0,17,0,0,20,115,0,0,0,0,12,0,0,0,0,0,0,0,1,1,1,0,Raid,False,None
+Specialist Thermal Ring,132,148,16,0,0,0,74,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Fiery Liaison's Ring,130,148,16,0,0,0,67,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Hunhau's Meteoric Ring (Level 170+),170,513,15,0,0,20,101,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Raid,False,None
+Primeval Aeon Ring,160,495,15,0,0,18,99,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crafting,False,None
+Primordial Aeon Ring,160,495,15,0,0,18,99,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Drop/Vendor,False,None
+Primal Aeon Ring,160,495,15,0,0,18,99,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crafting,False,None
+Fervid Dream Warper Ring,170,456,15,0,0,16,101,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Drop/Vendor,False,None
+Wastelander's Scorched Loop (Level 170+),170,456,15,0,0,22,101,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,Crowns,False,None
+Nullity's Fiery Ring (Level 160+),160,439,15,0,0,20,99,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Raid,False,None
+Burrower's Pyromancy Ring (Level 160+),160,549,14,0,0,18,87,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Gold Key/Gauntlet,False,None
+Hunhau's Meteoric Ring (Level 160+),160,495,14,0,0,20,87,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Raid,False,None
+Demiurge's Rage Ring,150,483,14,0,0,18,92,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crafting,False,None
+Merciless Fire Ring,150,483,14,0,0,18,92,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Drop/Vendor,False,None
+Furious Enforcer's Ring,165,448,14,0,0,16,94,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Drop/Vendor,False,None
+Blazing Skyfarer's Band (Level 160+),160,440,14,0,0,22,87,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Flashy City Dweller Ring,160,440,14,0,0,16,87,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Drop/Vendor,False,None
+Wastelander's Scorched Loop (Level 160+),160,440,14,0,0,22,87,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,Crowns,False,None
+Primordial Masterpiece Ring,160,439,14,0,0,15,86,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Drop/Vendor,False,None
+Nullity's Fiery Ring (Level 150+),150,429,14,0,0,20,92,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Drop/Vendor,False,None
+Malevolent Fire Ring,150,294,14,0,0,0,106,0,0,0,0,13,0,0,0,0,0,1,0,0,1,0,0,Drop/Vendor,False,None
+Supreme Eruption Ring,148,273,14,0,0,0,94,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,Drop/Vendor,False,None
+Burrower's Pyromancy Ring (Level 150+),150,536,13,0,0,18,80,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Xibalba Meteoric Ring (Level 170+),170,513,13,0,0,18,58,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Raid,False,None
+Fiery Chrysanthemum Band (Level 170+),170,456,13,0,0,20,56,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Gold Key/Gauntlet,False,None
+Flaming Chivalric Ring (Level 170+),170,456,13,0,0,20,56,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Gold Key/Gauntlet,False,None
+Blazing Skyfarer's Band (Level 150+),150,429,13,0,0,22,80,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Wastelander's Scorched Loop (Level 150+),150,429,13,0,0,22,80,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,Crowns,False,None
+Furious Protector's Ring,165,392,13,0,0,14,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Drop/Vendor,False,None
+Magician's Fire Ring,150,288,13,0,0,0,103,0,0,0,13,0,0,0,0,0,0,1,0,0,1,0,0,Drop/Vendor,False,None
+Delightful Freshbaker Ring,140,276,13,0,0,0,111,0,0,0,0,11,0,0,0,1,0,1,0,0,1,0,0,Crafting,False,None
+Uber Freshbaker Ring,140,276,13,0,0,0,111,0,0,0,0,11,0,0,0,1,0,1,0,0,1,0,0,Drop/Vendor,False,None
+Supreme Volcanic Ring,148,273,13,0,0,0,99,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,Drop/Vendor,False,None
+Hierarch's Eruption Ring,145,258,13,0,0,0,88,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Drop/Vendor,False,None
+Illuminated Archival Band (Level 170+),170,569,12,0,0,0,58,0,0,0,0,12,0,0,0,0,0,0,0,2,0,1,0,Gold Key/Gauntlet,False,None
+Burrower's Pyromancy Ring (Level 140+),140,523,12,0,0,17,77,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Xibalba Meteoric Ring (Level 160+),160,495,12,0,0,18,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Raid,False,None
+Blazing Skyfarer's Band (Level 140+),140,419,12,0,0,21,77,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Signet of the Fire King,100,400,12,0,0,17,0,0,0,0,20,0,0,0,0,1,0,0,0,0,1,1,0,Drop/Vendor,False,None
+Cavalry Officer Band,150,388,12,0,0,15,80,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Drop/Vendor,False,None
+Flashy Townie Ring,160,385,12,0,0,14,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Drop/Vendor,False,None
+Wunderbar Freshbaker Ring,140,268,12,0,0,0,109,0,0,0,0,11,0,0,0,0,0,1,0,0,1,0,0,Drop/Vendor,False,None
+Dragoon's Fiery Ring,130,263,12,0,0,0,108,0,0,0,13,0,0,0,0,1,0,1,0,0,1,0,0,Drop/Vendor,False,Dragoon's Fiery Set
+Guten Freshbaker Ring,140,262,12,0,0,0,106,0,0,0,0,11,0,0,0,0,0,1,0,0,1,0,0,Drop/Vendor,False,None
+Hierarch's Volcanic Ring,145,258,12,0,0,0,94,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,Drop/Vendor,False,None
+Lemurian Volcanic Ring,142,243,12,0,0,0,88,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Lemurian Eruption Ring,142,243,12,0,0,0,82,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Drop/Vendor,False,None
+Charred Night Mire Ring,160,549,11,0,0,18,111,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crafting,False,None
+Fiery Night Mire Ring (Level 160+),160,549,11,0,0,18,111,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Gold Key/Gauntlet,False,None
+Singed Night Mire Ring,160,549,11,0,0,18,111,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crafting,False,None
+Illuminated Archival Band (Level 160+),160,549,11,0,0,0,50,0,0,0,0,12,0,0,0,0,0,0,0,2,0,1,0,Crowns,False,None
+Burrower's Pyromancy Ring (Level 130+),130,510,11,0,0,17,64,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Fiery Chrysanthemum Band (Level 140+),140,419,11,0,0,19,44,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Blazing Skyfarer's Band (Level 130+),130,408,11,0,0,21,64,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Wastelander's Scorched Loop (Level 120+),120,398,11,0,0,20,59,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,Crowns,False,None
+Vanguard's Fiery Ring,130,257,11,0,0,0,106,0,0,0,12,0,0,0,0,0,0,1,0,0,1,0,0,Drop/Vendor,False,None
+Radical Skull Ring,140,221,11,0,0,0,71,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Mithraya's Blazing Loop,120,183,11,0,0,0,87,0,0,0,12,0,0,0,0,1,0,0,0,0,1,1,0,Drop/Vendor,False,None
+Fiery Night Mire Ring (Level 150+),150,536,10,0,0,18,103,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Grim Cerberus Master Ring (Level 150+),150,536,10,0,0,18,103,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Fiery Night Mire Ring (Level 140+),140,523,10,0,0,17,99,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Grim Cerberus Master Ring (Level 140+),140,523,10,0,0,17,99,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Illuminated Archival Band (Level 140+),140,523,10,0,0,0,44,0,0,0,0,10,0,0,0,0,0,0,0,2,0,1,0,Crowns,False,None
+Burrower's Pyromancy Ring (Level 120+),120,497,10,0,0,16,59,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Fiery Chrysanthemum Band (Level 130+),130,408,10,0,0,19,37,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Blazing Skyfarer's Band (Level 120+),120,398,10,0,0,20,59,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Ring of Kermes Fire,96,375,10,0,0,14,0,0,0,0,6,0,0,0,0,0,0,1,0,0,0,0,0,Drop/Vendor,False,None
+Seal of the Shadow Palace (Level 99+),99,364,10,0,0,13,0,28,0,0,21,0,0,0,0,0,0,0,0,1,1,1,0,Retired,False,None
+Scarlet Wampyr's Ringlet,100,360,10,0,0,14,0,0,0,0,15,0,0,0,0,1,0,0,0,0,1,0,0,Drop/Vendor,False,None
+Regulation Cavalry Band,150,340,10,0,0,13,68,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,Drop/Vendor,False,None
+Alphoi Trooper Ring,130,211,10,0,0,0,96,0,0,0,10,10,0,0,0,0,0,1,0,0,1,0,0,Crafting,False,None
+Fiery Paradox Ring,130,211,10,0,0,0,96,0,0,0,10,10,0,0,0,0,0,1,0,0,1,0,0,Drop/Vendor,False,None
+Fervid Dream Stalker Ring,170,0,10,0,0,20,58,0,0,0,0,15,0,0,0,0,0,0,0,2,0,1,0,Crafting,False,None
+Unreal Ring of Overheating,170,0,10,0,0,22,58,0,0,0,0,14,0,0,0,0,0,0,0,1,0,1,1,Raid,False,None
+Eternal Primal Ring,160,549,9,0,0,20,99,0,0,0,0,9,0,0,0,0,0,0,0,1,1,1,0,Crafting,False,None
+Great Inventor's Fire Ring (Level 160+),160,549,9,0,0,20,99,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Eternal Primeval Ring,160,549,9,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crafting,False,None
+Eternal Primordial Ring,160,549,9,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crafting,False,None
+Great Inventor's Fire Ring (Level 150+),150,536,9,0,0,20,92,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Fiery Night Mire Ring (Level 130+),130,510,9,0,0,17,82,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Nullity's Burning Ring,160,495,9,0,0,22,99,0,0,0,0,11,0,0,0,0,0,0,0,1,1,1,0,Raid,False,None
+The Void's Blazing Ring,160,495,9,0,0,22,99,0,0,0,0,11,0,0,0,0,0,0,0,1,1,1,0,Raid,False,None
+Floramancer Ring of Rashes (Level 160+),160,495,9,0,0,22,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Nullity's Blazing Ring,160,495,9,0,0,22,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Raid,False,None
+The Void's Burning Ring,160,495,9,0,0,22,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Raid,False,None
+The Void's Fiery Ring (Level 160+),160,495,9,0,0,22,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Raid,False,None
+Burrower's Pyromancy Ring (Level 110+),110,484,9,0,0,16,54,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+The Void's Fiery Ring (Level 150+),150,483,9,0,0,22,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Drop/Vendor,False,None
+Burrower's Pyromancy Ring (Level 100+),100,471,9,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Gold Key/Gauntlet,False,None
+Seal of the Shadow Palace,100,424,9,0,0,16,55,37,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Drop/Vendor,False,None
+Blazing Skyfarer's Band (Level 110+),110,388,9,0,0,20,54,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Wastelander's Scorched Loop (Level 110+),110,388,9,0,0,20,54,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,Crowns,False,None
+Blazing Skyfarer's Band (Level 100+),100,377,9,0,0,20,48,32,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Wastelander's Scorched Loop (Level 100+),100,377,9,0,0,20,48,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,Crowns,False,None
+Fiery Night Mire Ring (Level 100+),100,377,9,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Gold Key/Gauntlet,False,None
+Grim Cerberus Master Ring (Level 100+),100,377,9,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Sigil of the Shadow Palace,100,377,9,0,0,14,0,32,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Drop/Vendor,False,None
+Tears of the Sun Band,86,350,9,0,0,13,0,0,0,0,5,0,0,0,0,1,0,1,0,0,1,0,0,Drop/Vendor,False,None
+Blazing Zanadu Band,130,206,9,0,0,0,91,0,0,0,9,9,0,0,0,0,0,1,0,0,1,0,0,Drop/Vendor,False,None
+Great Inventor's Fire Ring (Level 140+),140,523,8,0,0,19,88,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Great Inventor's Fire Ring (Level 130+),130,510,8,0,0,19,73,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Fiery Night Mire Ring (Level 120+),120,497,8,0,0,16,75,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Grim Cerberus Master Ring (Level 120+),120,497,8,0,0,16,75,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Grim Cerberus Master Ring (Level 130+),130,475,8,0,0,12,82,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Floramancer Ring of Rashes (Level 140+),140,471,8,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Great Inventor's Fire Ring (Level 100+),100,471,8,0,0,18,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Floramancer Ring of Rashes (Level 130+),130,459,8,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Burrower's Pyromancy Ring (Level 90+),90,418,8,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Fiery Chrysanthemum Band (Level 110+),110,388,8,0,0,18,31,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Blazing Skyfarer's Band (Level 90+),90,335,8,0,0,19,45,30,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Wastelander's Scorched Loop (Level 90+),90,335,8,0,0,19,45,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,Crowns,False,None
+Fiery Night Mire Ring (Level 90+),90,335,8,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Grim Cerberus Master Ring (Level 90+),90,335,8,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Toasty Band of the Fire Elves,76,315,8,0,0,12,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,Drop/Vendor,False,None
+Blazing Skyfarer's Band (Level 80+),80,292,8,0,0,19,35,25,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Wastelander's Scorched Loop (Level 80+),80,292,8,0,0,19,35,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,Crowns,False,None
+Fiery Night Mire Ring (Level 80+),80,292,8,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Cabalist Cleansing Ring,125,198,8,0,0,0,87,0,0,0,8,8,0,0,0,0,0,1,0,0,1,0,0,Drop/Vendor,False,None
+Great Inventor's Fire Ring (Level 120+),120,497,7,0,0,18,67,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Grim Cerberus Master Ring (Level 110+),110,484,7,0,0,16,69,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Illuminated Archival Band (Level 100+),100,471,7,0,0,0,28,0,0,0,0,9,0,0,0,0,0,0,0,2,0,1,0,Gold Key/Gauntlet,False,None
+Great Inventor's Fire Ring (Level 90+),90,418,7,0,0,18,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Great Inventor's Fire Ring (Level 80+),80,365,7,0,0,18,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Burning Venom Band,95,345,7,0,0,13,0,0,0,0,10,0,0,0,0,1,0,0,0,0,1,1,0,Drop/Vendor,False,None
+Signet of the Howling Wolf,100,324,7,0,0,10,0,0,0,0,10,0,0,0,0,1,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Burrower's Pyromancy Ring (Level 70+),70,312,7,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Blazing Skyfarer's Band (Level 70+),70,250,7,0,0,19,28,20,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Wastelander's Scorched Loop (Level 70+),70,250,7,0,0,19,28,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,Crowns,False,None
+Grim Cerberus Master Ring (Level 70+),70,250,7,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Tetrus Ringlet of Scalding,120,176,7,0,0,0,83,0,0,0,0,9,0,0,0,1,0,0,0,0,1,1,0,Drop/Vendor,False,None
+Mander Mummy's Circlet,60,154,7,0,0,10,0,12,0,0,6,6,0,0,0,1,0,0,0,0,1,1,0,Drop/Vendor,False,None
+Detolli's Destruction Ring,110,138,7,0,0,0,82,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,Drop/Vendor,False,None
+Great Inventor's Fire Ring (Level 110+),110,484,6,0,0,18,61,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+EmberTongue's Charred Ring,90,325,6,0,0,12,0,0,0,0,10,0,0,0,0,0,0,0,0,0,1,1,0,Drop/Vendor,False,None
+Great Inventor's Fire Ring (Level 70+),70,312,6,0,0,18,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Grim Cerberus Master Ring (Level 80+),80,278,6,0,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Burrower's Pyromancy Ring (Level 60+),60,259,6,0,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Blazing Skyfarer's Band (Level 60+),60,208,6,0,0,18,26,16,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Wastelander's Scorched Loop (Level 60+),60,208,6,0,0,18,26,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,Crowns,False,None
+Grim Cerberus Master Ring (Level 60+),60,208,6,0,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Fiery Night Mire Ring (Level 60+),60,208,6,0,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Ruby Ring of Battle,56,165,6,0,0,18,0,7,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,Drop/Vendor,False,None
+Luphilim's Blazing Band,110,145,6,0,0,0,84,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,Drop/Vendor,False,None
+Loop of Lower Zigazag,60,140,6,0,0,8,0,8,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Arcanum Exile Burning Band,110,130,6,0,0,0,80,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,Drop/Vendor,False,None
+Flame-Forged Iron Paw Band,110,122,6,0,0,0,78,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Drop/Vendor,False,None
+Baba Yaga's Loop of Flame,105,122,6,0,0,0,59,0,0,0,6,0,0,0,0,1,0,0,0,0,1,1,0,Drop/Vendor,False,None
+Five Sun Band,80,300,5,0,0,11,0,0,0,0,9,0,0,0,0,0,1,0,0,0,0,0,0,Drop/Vendor,False,None
+Illuminated Archival Band (Level 60+),60,259,5,0,0,0,15,0,0,0,0,7,0,0,0,0,0,0,0,2,0,1,0,Crowns,False,None
+Great Inventor's Fire Ring (Level 60+),60,259,5,0,0,17,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Burrower's Pyromancy Ring (Level 50+),50,214,5,0,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Gold Key/Gauntlet,False,None
+Fiery Night Mire Ring (Level 50+),50,214,5,0,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Gold Key/Gauntlet,False,None
+Grim Cerberus Master Ring (Level 50+),50,214,5,0,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Illuminated Archival Band (Level 50+),50,214,5,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,2,0,1,0,Gold Key/Gauntlet,False,None
+Simmering Sigil,50,197,5,0,0,10,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,Drop/Vendor,False,Celestian Cinder Set
+Raven's Ruby Ring,50,197,5,0,0,11,0,10,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Drop/Vendor,False,None
+Gurtok Ignus Signet,50,193,5,0,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Drop/Vendor,False,None
+Blazing Skyfarer's Band (Level 50+),50,172,5,0,0,18,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Gurtok Ignus Coil,50,172,5,0,0,13,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Drop/Vendor,False,None
+Wastelander's Scorched Loop (Level 50+),50,172,5,0,0,18,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,Crowns,False,None
+Ring of the Simmering Evil,60,126,5,0,0,6,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Nergal's Burning Brand,66,280,4,0,0,13,0,0,0,0,5,0,0,0,0,0,0,1,0,1,1,0,0,Drop/Vendor,False,None
+Ring of Knight's Bravery,70,278,4,0,0,10,0,0,0,0,8,0,0,0,0,1,0,1,0,0,1,0,0,Drop/Vendor,False,None
+Rasik's Searing Ring,60,260,4,0,0,9,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,Drop/Vendor,False,None
+Great Inventor's Fire Ring (Level 50+),50,214,4,0,0,17,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Floramancer Ring of Rashes (Level 50+),50,193,4,0,0,18,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Duke's Rosy Signet,40,184,4,0,0,8,0,0,0,0,12,0,0,0,0,1,0,0,0,0,1,1,0,Drop/Vendor,False,None
+Grim Cerberus Master Ring (Level 40+),40,184,4,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Great Inventor's Fire Ring (Level 40+),40,184,4,0,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Blazing Skyfarer's Band (Level 40+),40,148,4,0,0,12,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Wastelander's Scorched Loop (Level 40+),40,148,4,0,0,12,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,Crowns,False,None
+Illuminated Archival Band (Level 30+),30,120,4,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,2,0,1,0,Crowns,False,None
+Wastelander's Scorched Loop (Level 30+),30,96,4,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,Crowns,False,None
+Duchess' Blazing Seal,40,169,3,0,0,6,0,0,0,0,10,0,0,0,0,1,0,0,0,0,1,0,0,Drop/Vendor,False,None
+Burrower's Pyromancy Ring (Level 30+),30,120,3,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Great Inventor's Fire Ring (Level 30+),30,120,3,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Fiery Night Mire Ring (Level 30+),30,120,3,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Grim Cerberus Master Ring (Level 30+),30,120,3,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Blazing Skyfarer's Band (Level 30+),30,96,3,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Grenadier's Blasting Ring,40,144,2,0,0,4,0,0,0,0,8,0,0,0,0,1,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Aphrodite's Blistering Loop,100,340,0,0,0,12,60,0,0,0,12,0,0,0,0,0,0,0,0,1,1,1,0,Drop/Vendor,False,None
+Supreme Firewall Ring,148,273,0,0,0,0,99,0,0,0,13,0,0,0,0,0,1,0,0,0,0,1,0,Drop/Vendor,False,None
+Hierarch's Firewall Ring,145,258,0,0,0,0,94,0,0,0,12,0,0,0,0,0,0,1,0,0,0,1,0,Drop/Vendor,False,None
+Lemurian Firewall Ring,142,243,0,0,0,0,88,0,0,0,12,0,0,0,0,1,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Tobiko's Scorched Signet,56,240,0,0,0,15,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,Drop/Vendor,False,None
+Salgio's Loop of Lava,54,216,0,0,0,0,0,0,0,0,15,0,0,0,0,0,0,1,0,1,1,0,0,Drop/Vendor,False,None
+Star Signet,58,216,0,0,0,21,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Drop/Vendor,False,None
+Advanced Fire Band,50,215,0,0,0,18,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,Crowns,False,None
+Avalanche's Fiery Band,45,200,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,Drop/Vendor,False,None
+Rad Kalamar Ring,127,198,0,0,0,0,0,0,0,0,11,10,0,0,0,0,1,0,0,0,0,0,0,Drop/Vendor,False,None
+Volcanic Ring,52,192,0,0,0,0,0,0,0,0,12,0,0,0,0,1,0,0,0,0,0,1,0,Drop/Vendor,False,None
+Gurtok Ignus Signet (H188),50,188,0,0,0,15,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0,0,Retired,False,None
+Flamebringer's Fiery Circle,45,188,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,Drop/Vendor,False,None
+Burning Wheel,45,182,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,Fishing,False,None
+Kraysys' Ring of Betrayal,45,176,0,0,0,15,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,Drop/Vendor,False,None
+Searing Signet,45,176,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Drop/Vendor,False,None
+Interstellar Engineer's Band,122,174,0,0,0,0,0,0,0,0,10,10,0,0,0,0,1,0,0,0,0,0,0,Drop/Vendor,False,None
+Seal of Cinders,50,168,0,0,0,0,0,0,0,0,9,0,0,0,0,1,0,0,0,0,0,1,0,Drop/Vendor,False,None
+Volatile Ring,58,168,0,0,0,18,0,0,0,0,18,0,0,0,0,0,0,1,0,0,0,0,0,Drop/Vendor,False,None
+Producer's Thermal Ring,138,167,0,0,0,0,90,0,0,0,13,0,0,0,0,0,1,0,0,0,0,1,0,Drop/Vendor,False,None
+Burning Ring of Fire,45,164,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Drop/Vendor,False,None
+Kyuto's Apprehensive Ring,40,160,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,Drop/Vendor,False,None
+Supervisor Thermal Ring,135,157,0,0,0,0,81,0,0,0,12,0,0,0,0,0,0,1,0,0,0,1,0,Drop/Vendor,False,None
+Band of the Bonfire,40,157,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Drop/Vendor,False,None
+Inflammatory Seal,40,152,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,Drop/Vendor,False,None
+Ember's Ring of Reflection,35,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,Drop/Vendor,False,None
+Contractor Thermal Ring,132,148,0,0,0,0,77,0,0,0,11,0,0,0,0,1,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Band of Egoism,35,145,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Fishing,False,None
+Combustible Band,50,144,0,0,0,0,0,0,0,0,6,0,0,0,0,1,0,0,0,0,0,1,0,Drop/Vendor,False,None
+Eerem Signet of Eruption,118,137,0,0,0,0,0,0,0,0,10,0,0,0,0,1,0,0,0,0,0,1,0,Drop/Vendor,False,None
+Combustible Ring,40,135,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Drop/Vendor,False,None
+Ring of Purpose,35,135,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Istanboa Heatwave Signet,118,133,0,0,0,0,0,0,0,0,10,8,0,0,0,0,0,1,0,0,1,0,0,Drop/Vendor,False,None
+Charred Eerem Band,118,130,0,0,0,0,86,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,Drop/Vendor,False,None
+Sand Sea Ring of Explosion,116,128,0,0,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,1,0,Drop/Vendor,False,None
+Kobra Ringlet of Fury,116,124,0,0,0,0,0,0,0,0,9,7,0,0,0,0,0,0,0,0,0,1,0,Drop/Vendor,False,None
+Sand Sea Ring of Ashes,116,120,0,0,0,0,84,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Drop/Vendor,False,None
+Meowiarty's Brilliant Ring,30,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,Drop/Vendor,False,None
+Flameforged Rubal Band,114,118,0,0,0,0,0,0,0,0,9,0,0,0,0,1,0,0,0,0,1,0,0,Drop/Vendor,False,None
+Djinn Loop of Sparks,112,115,0,0,0,0,0,0,0,0,8,0,0,0,0,1,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Viper Ring of Sunstoke,114,115,0,0,0,0,0,0,0,0,9,7,0,0,0,0,1,0,0,0,0,1,0,Drop/Vendor,False,None
+Fang Loop of Frenzy,112,113,0,0,0,0,0,0,0,0,8,6,0,0,0,0,1,0,0,0,0,0,0,Drop/Vendor,False,None
+Kataba Ring of Cinders,108,113,0,0,0,0,0,0,0,0,8,0,0,0,0,1,0,0,0,0,0,1,0,Drop/Vendor,False,None
+Rubal Seal of Acerbity,114,111,0,0,0,0,82,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Drop/Vendor,False,None
+Blazing Walrusk Loop,108,110,0,0,0,0,0,0,0,0,8,6,0,0,0,0,0,1,0,0,1,0,0,Drop/Vendor,False,None
+Djinn Signet of Radiance,112,109,0,0,0,0,80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Arcanum Pyromancer's Ring,108,107,0,0,0,0,71,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,Drop/Vendor,False,None
+Tundarian Ring of Inferno,106,103,0,0,0,0,0,0,0,0,7,6,0,0,0,0,0,0,0,0,0,1,0,Drop/Vendor,False,None
+Enchanter's Fervid Circle,106,99,0,0,0,0,69,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Drop/Vendor,False,None
+Bleaks Circle of Pyres,104,98,0,0,0,0,0,0,0,0,7,0,0,0,0,1,0,0,0,0,1,0,0,Drop/Vendor,False,None
+Band of the Sunrise,25,96,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,Drop/Vendor,False,None
+Radiant Kossack Ring,104,95,0,0,0,0,0,0,0,0,7,5,0,0,0,0,1,0,0,0,0,1,0,Drop/Vendor,False,None
+Evoker's Ring of Embers,104,92,0,0,0,0,67,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Drop/Vendor,False,None
+Tundra Ring of Warmth,102,90,0,0,0,0,0,0,0,0,6,0,0,0,0,1,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Inspector's Scorched Ring,102,87,0,0,0,0,0,0,0,0,6,5,0,0,0,0,1,0,0,0,0,0,0,Drop/Vendor,False,None
+Ruby Ring of Focus,40,85,0,0,0,12,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,Drop/Vendor,False,None
+Mage's Smoldering Loop,102,84,0,0,0,0,65,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Great Inventor's Fire Ring (Level 20+),20,84,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Ring of the Sun,20,84,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,Drop/Vendor,False,None
+Kindle Band,25,81,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Shai Nirini's Ring,20,80,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,Drop/Vendor,False,None
+Circlet of the Blaze,20,74,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,Drop/Vendor,False,None
+Glowing Ring,15,70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Blazing Skyfarer's Band (Level 20+),20,68,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Wastelander's Scorched Loop (Level 20+),20,68,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,Crowns,False,None
+Flamelicked Ring,15,65,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,Drop/Vendor,False,None
+Flamedancer's Ring,15,60,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Ringlet of Fire,30,55,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,Drop/Vendor,False,None
+Burrower's Pyromancy Ring (Level 10+),10,40,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Alicane's Band,10,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Fiery Night Mire Ring (Level 10+),10,40,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Great Inventor's Fire Ring (Level 10+),10,40,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Grim Cerberus Master Ring (Level 10+),10,40,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Blazing Skyfarer's Band (Level 10+),10,32,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Wastelander's Scorched Loop (Level 10+),10,32,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Branded Ring,10,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Simple Ruby Ring,5,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Fishing,False,None
+Flawed Ruby Ring,5,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Illuminated Archival Band (Any Level),1,20,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Fiery Night Mire Ring (Any Level),1,20,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Blazing Skyfarer's Band (Any Level),1,16,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Wastelander's Scorched Loop (Any Level),1,16,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Engraved Ruby Ring,5,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Fire Fairy Kei Ring (Level 170+),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Fire Fairy Kei Ring (Level 100+),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Fire Fairy Kei Ring (Level 130+),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Fire Fairy Kei Ring (Level 140+),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Fire Fairy Kei Ring (Level 70+),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Fire Fairy Kei Ring (Level 80+),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Golden Fire Ring,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Fire Fairy Kei Ring (Level 30+),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Glistening Fire Ring,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Malistaire's Vengeance Band (Level 50+),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Rematch,False,None
+Fire Fairy Kei Ring (Level 120+),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Malistaire's Vengeance Band (Level 160+),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Rematch,False,None
+Malistaire's Vengeance Band (Level 100+),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Rematch,False,None
+Monk's Ring of Dedication,25,0,0,0,0,3,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Drop/Vendor,False,None
+Seal of the Roaring Heart,25,0,0,0,0,5,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,Drop/Vendor,False,None
+Temple Guardian's Circle,25,0,0,0,0,4,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,Drop/Vendor,False,None
+Umbra Queen's Scorched Loop (Level 170+),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Rematch,False,None
+Umbra Queen's Scorched Loop (Level 100+),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Rematch,False,None
+Tayg Band of Steam,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,None
