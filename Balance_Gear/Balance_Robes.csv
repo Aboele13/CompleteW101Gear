@@ -1,445 +1,446 @@
 Name,Level,Health,Damage,Resist,Accuracy,Power Pip,Critical,Critical Block,Pierce,Stun Resist,Incoming,Outgoing,Pip Conserve,Shadow Pip,Archmastery,Sword Pins,Shield Pins,Power Pins,Source,Owned,Gear Set
-Daemonic Armor of Impossibility,170,1145,31,16,9,9,120,0,6,0,0,0,0,19,0,2,0,1,Raid,False,False
-Balanced Robe of The Nullity (Level 160+),160,1138,30,15,9,9,106,0,6,0,0,0,0,18,0,2,0,1,Raid,False,False
-Balanced Robe of The Nullity (Level 150+),150,1013,29,15,8,9,98,0,4,0,0,0,0,0,0,0,0,0,Raid,False,False
-Astute Plot Armor (Level 170+),170,1526,28,19,6,10,105,137,5,0,0,0,0,0,0,2,0,1,Gold Key/Gauntlet,False,False
-Hunhau's Vacuum Mail (Level 170+),170,1335,28,18,0,11,105,120,5,0,0,0,0,19,0,1,0,2,Raid,False,False
-Umbra Queen's Dusty Garment (Level 170+),170,1526,28,12,9,10,105,0,5,0,0,0,0,22,0,1,0,2,Drop/Vendor,False,False
-Wastelander's Dusty Armor (Level 170+),170,1526,28,12,9,10,105,0,5,0,0,0,0,22,0,1,0,2,Crowns,False,False
-Astute Plot Armor (Level 160+),160,1517,27,18,6,10,93,125,5,0,0,0,0,0,0,2,0,1,Crowns,False,False
-Balanced Night Mire Coat (Level 160+),160,1517,27,18,6,10,93,125,5,0,0,0,0,0,0,2,0,1,Gold Key/Gauntlet,False,False
-Balanced Night Mire Coat (Level 150+),150,1350,27,18,5,10,86,117,4,0,0,0,0,0,0,2,0,1,Crowns,False,False
-Astute Plot Armor (Level 150+),150,1350,27,18,5,10,86,117,4,0,0,0,0,0,0,2,0,1,Crowns,False,False
-Ghoulish Cerberus Master Armor (Level 150+),150,1350,27,18,5,10,86,117,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Hunhau's Vacuum Mail (Level 160+),160,1707,27,13,7,0,93,110,5,0,0,0,0,23,0,1,0,2,Raid,False,False
-Malistaire's Harmonic Vestment (Level 160+),160,1517,27,11,9,10,93,0,5,0,0,0,0,20,0,1,0,2,Drop/Vendor,False,False
-Stable Skyfarer's Garb (Level 160+),160,1517,27,11,9,10,93,0,5,0,0,0,0,20,0,1,0,2,Crowns,False,False
-Stable Skyfarer's Garb (Level 150+),150,1350,27,11,8,10,86,0,4,0,0,0,0,19,0,1,0,2,Crowns,False,False
-Grandfather Spider's Steady Raiment (Level 150+),150,1350,27,11,8,10,86,0,0,0,0,0,0,19,0,0,0,0,Crowns,False,False
-Astute Plot Armor (Level 140+),140,1180,26,17,5,10,84,114,4,0,0,0,0,0,0,2,0,1,Crowns,False,False
-Wastelander's Dusty Armor (Level 140+),140,1180,26,11,8,10,84,0,4,0,0,0,0,17,0,0,0,0,Crowns,False,False
-Grandfather Spider's Steady Raiment (Level 140+),140,1180,26,11,8,10,84,0,0,0,0,0,0,17,0,0,0,0,Crowns,False,False
-Stable Skyfarer's Garb (Level 140+),140,1180,26,11,8,10,84,0,0,0,0,10,0,17,0,0,0,0,Crowns,False,False
-Deft Dream Reaver Armor,170,1335,25,18,8,8,120,120,7,0,0,0,0,0,0,2,0,1,Drop/Vendor,False,False
-Deft Dream Stalker Armor,170,1907,25,16,7,11,0,137,5,0,0,0,0,19,0,1,0,2,Crafting,False,False
-Astute Plot Armor (Level 130+),140,1010,25,16,5,9,76,108,4,0,0,0,0,0,0,2,0,1,Crowns,False,False
-Balanced Night Mire Coat (Level 130+),130,1010,25,16,5,9,76,108,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Ghoulish Cerberus Master Armor (Level 130+),130,1010,25,16,5,9,76,108,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Cute Fairy Kei Dress (Level 170+),170,1717,25,14,8,0,120,120,7,0,0,0,0,17,0,2,0,1,Crowns,False,False
-Xibalba Vacuum Mail (Level 170+),170,1717,25,14,8,0,120,120,7,0,0,0,0,17,0,2,0,1,Raid,False,False
-Unreal Armor of Impossibility,170,1717,25,14,8,12,0,120,5,0,0,0,0,22,0,1,0,2,Raid,False,False
-Wastelander's Dusty Armor (Level 130+),130,1010,25,10,8,9,76,0,4,0,0,0,0,16,0,0,0,0,Crowns,False,False
-Grandfather Spider's Steady Raiment (Level 130+),130,1010,25,10,8,9,76,0,0,0,0,0,0,16,0,0,0,0,Crowns,False,False
-Stable Skyfarer's Garb (Level 130+),130,1010,25,10,8,9,76,0,0,0,0,9,0,16,0,0,0,0,Crowns,False,False
-Balanced August Sage Coat (Level 170+),170,1526,25,0,9,9,120,103,7,0,0,0,0,19,0,2,0,1,Gold Key/Gauntlet,False,False
-Measured Chivalric Plate (Level 170+),170,1526,25,0,9,9,120,103,7,0,0,0,0,19,0,2,0,1,Gold Key/Gauntlet,False,False
-Abstract Aeon Cape,160,1328,24,17,8,8,106,110,7,0,0,0,0,0,0,2,0,1,Drop/Vendor,False,False
-Demiurge's Schemer Armor,150,1181,24,17,7,8,98,103,5,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Merciless Balance Cloak,150,1181,24,17,7,8,98,103,5,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Eternal Abstract Cape,160,1896,24,15,7,11,80,125,0,0,0,0,0,18,0,1,0,2,Crafting,False,False
-Great Inventor's Balance Coat (Level 160+),160,1896,24,15,7,11,80,125,0,0,0,0,0,18,0,1,0,2,Crowns,False,False
-Great Inventor's Balance Coat (Level 150+),150,1687,24,15,6,11,74,117,0,0,0,0,0,17,0,1,0,2,Crowns,False,False
-Highlands Raider's Kit (Level 150+),150,1687,24,15,6,11,74,117,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
-Balanced Night Mire Coat (Level 120+),120,840,24,15,5,9,70,98,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Cute Fairy Kei Dress (Level 160+),160,1707,24,13,8,0,106,110,7,0,0,0,0,15,0,2,0,1,Crowns,False,False
-Xibalba Vacuum Mail (Level 160+),160,1707,24,13,6,0,106,110,7,0,0,0,0,20,0,2,0,1,Raid,False,False
-Balanced Robe of The Void (Level 160+),160,1707,24,13,8,12,0,110,5,0,0,0,0,20,0,1,0,2,Raid,False,False
-Floramancer Armor of Cycles (Level 160+),160,1707,24,13,8,12,0,110,5,0,0,0,0,20,0,1,0,2,Crowns,False,False
-Cute Fairy Kei Dress (Level 150+),150,1519,24,13,7,0,98,103,5,0,0,0,0,14,0,2,0,1,Crowns,False,False
-Balanced Robe of The Void (Level 150+),150,1519,24,13,7,12,0,103,3,0,0,11,0,19,0,0,0,0,Raid,False,False
-Floramancer Armor of Cycles (Level 150+),150,1519,24,13,7,12,0,103,3,0,0,0,0,19,0,1,0,2,Crowns,False,False
-Wastelander's Dusty Armor (Level 120+),120,940,24,9,8,9,70,0,4,0,0,0,0,15,0,0,0,0,Crowns,False,False
-Grandfather Spider's Steady Raiment (Level 120+),120,840,24,9,8,9,70,0,0,0,0,0,0,15,0,0,0,0,Crowns,False,False
-Astute Plot Armor (Level 110+),110,669,23,13,5,9,70,93,4,0,0,0,0,0,0,2,0,1,Crowns,False,False
-Balanced Night Mire Coat (Level 110+),110,669,23,13,5,9,70,93,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-House of Scales Raiment,60,344,23,10,3,6,42,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Grandfather Spider's Steady Raiment (Level 110+),110,669,23,8,8,9,70,0,0,0,0,0,0,13,0,0,0,0,Crowns,False,False
-Stable Skyfarer's Garb (Level 110+),110,669,23,8,8,9,70,0,0,0,0,9,0,13,0,0,0,0,Crowns,False,False
-Balanced August Sage Coat (Level 140+),140,1180,23,0,8,9,96,86,5,0,0,0,0,15,0,2,0,1,Crowns,False,False
-Principle Jerkin,58,432,23,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Deft Dream Warper Armor,170,0,22,16,7,6,105,103,7,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Just Enforcer's Uniform,165,0,22,15,7,6,99,99,7,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Great Inventor's Balance Coat (Level 130+),130,1262,22,13,6,10,65,108,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Astute Plot Armor (Level 100+),100,499,22,13,0,9,68,85,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
-Balanced Night Mire Coat (Level 100+),100,499,22,13,6,0,68,85,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Ghoulish Cerberus Master Armor (Level 100+),100,499,22,13,6,0,68,85,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Lively Night Mire Coat (Level 100+),100,499,22,13,6,0,68,85,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Glider Armor of Stability,94,450,22,12,15,0,56,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Order of the Tygron Armor,100,669,22,8,4,0,0,25,3,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Transcendent Noble Toga,90,650,22,5,5,9,0,28,4,0,6,0,0,0,0,0,0,0,Crafting,False,False
-Balanced August Sage Coat (Level 130+),130,1010,22,0,8,8,87,81,5,0,0,0,0,14,0,2,0,1,Crowns,False,False
-Poseidon's Armor of Depths,90,625,22,0,0,11,65,0,3,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Armor of Zeus' Law,90,585,22,0,4,10,84,0,4,0,0,20,0,0,0,0,0,0,Drop/Vendor,False,False
-Umbra Queen's Dusty Garment (Level 100+),100,499,22,0,7,9,68,0,4,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Malistaire's Harmonic Vestment (Level 100+),100,499,22,0,7,9,68,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Stable Skyfarer's Garb (Level 100+),100,499,22,0,7,9,68,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Burrower's Sorcery Robe (Level 160+),160,1896,21,15,0,8,93,125,7,0,0,0,0,20,0,2,0,1,Gold Key/Gauntlet,False,False
-Elegant City Dweller Vest,160,0,21,15,7,6,93,94,7,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Ghoulish Cerberus Master Armor (Level 120+),120,852,21,13,6,0,70,98,0,0,0,0,0,10,0,0,0,0,Crowns,False,False
-Great Inventor's Balance Coat (Level 120+),120,1049,21,12,6,10,60,98,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Astute Plot Armor (Level 90+),90,456,21,12,0,8,59,80,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Cape of Judgment,60,363,21,12,0,8,30,13,0,0,3,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Cute Fairy Kei Dress (Level 120+),120,945,21,11,7,0,80,86,5,0,0,0,0,11,0,2,0,1,Crowns,False,False
-Floramancer Armor of Cycles (Level 120+),120,945,21,11,7,11,0,86,0,0,0,9,0,15,0,0,0,0,Crowns,False,False
-Astute Plot Armor (Level 80+),60,412,21,10,0,8,45,68,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Senator's Noble Toga,90,640,21,4,4,9,0,23,3,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Balanced August Sage Coat (Level 120+),120,840,21,0,8,8,80,74,5,0,0,0,0,13,0,2,0,1,Crowns,False,False
-Jacket of Perfect Poise,80,640,21,0,3,0,30,30,1,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Lost World Fated Armor,85,597,21,0,0,12,69,0,2,0,0,7,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
-Raiment of Hades' Ruin,90,480,21,0,3,9,84,0,5,0,0,9,0,0,0,0,0,0,Drop/Vendor,False,False
-Wastelander's Dusty Armor (Level 80+),80,412,21,0,6,8,45,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Grandfather Spider's Steady Raiment (Level 80+),80,412,21,0,6,8,45,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-United Longcoat,58,302,21,0,0,9,10,10,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Equilibrium Armor,56,302,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Outfit of Accord,56,302,21,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Congruent Costume,52,173,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Balanced Outfit,52,0,21,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Virtuous Light Brigade Armor,125,876,20,15,9,8,100,0,0,0,0,0,0,16,0,0,0,0,Drop/Vendor,False,False
-Abstract Masterpiece Cape,160,1138,20,14,0,0,92,94,6,0,0,0,0,18,0,0,0,0,Drop/Vendor,False,False
-Robes of the Three Spirits,84,395,20,13,4,0,64,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Great Inventor's Balance Coat (Level 110+),110,836,20,11,6,10,60,93,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Highlands Raider's Kit (Level 110+),110,836,20,11,6,10,60,93,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Great Inventor's Balance Coat (Level 100+),100,623,20,11,7,8,0,85,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Cute Fairy Kei Dress (Level 110+),110,753,20,10,7,0,80,82,5,0,0,0,0,10,0,2,0,1,Crowns,False,False
-Floramancer Armor of Cycles (Level 110+),110,753,20,10,7,11,0,82,0,0,0,9,0,13,0,0,0,0,Crowns,False,False
-Mantis Captain's Raiment,100,561,20,10,6,0,77,75,5,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Ghoulish Cerberus Master Armor (Level 90+),90,522,20,10,6,0,58,80,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Astute Plot Armor (Level 70+),70,369,20,9,0,8,42,56,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Balanced Night Mire Coat (Level 70+),70,369,20,9,5,0,42,56,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Ghoulish Cerberus Master Armor (Level 70+),70,369,20,9,5,0,42,56,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Paladin's Armor of Virtue,95,650,20,8,0,9,84,0,2,0,5,0,0,0,0,0,0,0,Crowns,False,False
-Malistaire's Tunic of Torment,50,263,20,7,4,0,0,0,2,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Balanced August Sage Coat (Level 110+),110,669,20,0,8,8,80,70,5,0,0,0,0,12,0,2,0,1,Crowns,False,False
-Sorcerer's Melodious Garb,85,655,20,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Grandfather Spider's Steady Raiment (Level 100+),100,611,20,0,8,8,67,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Grandfather Spider's Steady Raiment (Level 90+),90,522,20,0,7,8,58,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Mantis Attire of Reckoning,95,520,20,0,4,0,54,0,2,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Wastelander's Dusty Armor (Level 70+),70,369,20,0,6,8,42,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Balanced Brimstone Tunic,55,367,20,0,5,0,0,20,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Coalescent Ice Cloak,55,367,20,0,5,0,0,20,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Harmonious Heart Armor,55,367,20,0,5,0,0,20,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Lawful Thunder Jerkin,55,367,20,0,5,0,0,20,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Outfit of Mutual Mystery,55,367,20,0,5,0,0,20,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Tunic of Tragic Tolerance,55,367,20,0,5,0,0,20,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Valiant Armor,58,293,20,0,0,8,23,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Bonesmasher Robe of Poise,100,836,19,15,11,7,97,0,0,0,0,0,0,11,0,0,0,0,Drop/Vendor,False,False
-Drape of the Exalted One,100,793,19,14,14,11,96,0,0,0,0,0,0,12,0,0,0,0,Drop/Vendor,False,False
-Just Protector's Uniform,165,0,19,13,6,0,85,82,6,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Wyrd-Walker Coat,74,395,19,12,4,0,55,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Highlands Raider's Kit (Level 140+),140,1578,19,11,8,8,71,114,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Great Inventor's Balance Coat (Level 90+),90,569,19,10,7,7,0,80,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Highlands Raider's Kit (Level 90+),90,569,19,10,7,7,0,80,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Glistening Balance Lamellar,155,1437,19,9,0,0,88,90,5,0,0,0,0,17,0,0,0,0,Drop/Vendor,False,False
-Cute Fairy Kei Dress (Level 90+),90,513,19,9,6,0,67,0,5,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Great Inventor's Balance Coat (Level 80+),80,515,19,8,6,7,0,68,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Astute Plot Armor (Level 60+),60,326,19,8,0,8,31,46,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Balanced Night Mire Coat (Level 60+),60,326,19,8,5,0,31,46,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Ghoulish Cerberus Master Armor (Level 60+),60,326,19,8,5,0,31,46,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Knave's Equalizing Tunic,70,529,19,7,0,8,61,0,2,0,0,8,0,0,0,0,0,0,Drop/Vendor,False,False
-Cute Fairy Kei Dress (Level 80+),80,464,19,7,5,0,51,0,4,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Anubis' Robes of Guidance,60,288,19,7,2,4,29,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Poseidon's Calm Seas Cloak,70,504,19,4,4,8,60,0,2,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Mantis Outfit of Acumen,90,520,19,0,4,0,54,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Grandfather Spider's Steady Raiment (Level 70+),70,406,19,0,6,8,42,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Grandfather Spider's Steady Raiment (Level 60+),60,326,19,0,5,8,30,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Elegant Townie Vest,160,0,18,13,6,0,80,78,6,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Weight of the World Cloak,66,365,18,12,3,0,51,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Burrower's Sorcery Robe (Level 110+),110,836,18,11,0,0,0,93,5,0,0,0,0,23,0,0,0,0,Crowns,False,False
-Highlands Raider's Kit (Level 130+),130,1478,18,10,7,8,63,107,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Highlands Raider's Kit (Level 100+),100,764,18,10,7,7,0,85,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Scout Officer Uniform,150,1369,18,8,0,0,85,88,5,0,0,0,0,16,0,0,0,0,Drop/Vendor,False,False
-Astute Plot Armor (Level 50+),50,300,18,7,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
-Balanced Night Mire Coat (Level 50+),50,300,18,7,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Chief's Garb of Honor,56,305,18,6,0,8,30,13,0,0,5,0,0,0,0,0,0,0,Crafting,False,False
-Ghoulish Cerberus Master Armor (Level 50+),50,286,18,6,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Malistaire's Suit of Torment,50,0,18,6,3,0,0,0,2,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Big Five Robe,68,504,18,0,0,1,51,0,1,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Hunter's Kin Garb,68,504,18,0,0,1,51,0,1,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Olyphant's Balanced Jacket,68,504,18,0,3,0,51,0,0,0,2,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Unbroken Spiral Robe,68,504,18,0,3,0,51,0,0,0,2,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Shining One's Xicolli Vest,80,455,18,0,3,0,59,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Grandfather Spider's Steady Raiment (Level 50+),50,300,18,0,4,10,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Malistaire's Harmonic Vestment (Level 50+),50,300,18,0,4,10,0,0,0,0,0,7,0,0,0,0,0,0,Crafting,False,False
-Stable Skyfarer's Garb (Level 50+),50,300,18,0,4,10,0,0,0,0,0,7,0,0,0,0,0,0,Crowns,False,False
-Wastelander's Dusty Armor (Level 50+),50,300,18,0,4,8,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Mantis Captain's Aegis,100,499,17,13,5,0,68,64,5,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Raiment of Castle Darkmoor,100,756,17,11,12,9,90,0,0,0,0,0,0,10,0,0,0,0,Drop/Vendor,False,False
-Burrower's Sorcery Robe (Level 100+),100,623,17,11,0,9,0,85,5,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
-Burrower's Sorcery Robe (Level 80+),80,515,17,8,0,8,0,68,4,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Great Inventor's Balance Coat (Level 60+),60,407,17,7,6,7,0,46,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Cute Fairy Kei Dress (Level 60+),60,367,17,6,5,0,36,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Floramancer Armor of Cycles (Level 60+),60,367,17,6,5,10,0,40,0,0,0,8,0,0,0,0,0,0,Crowns,False,False
-Artisan's Stately Toga,70,450,17,3,5,8,0,18,3,0,7,0,0,0,0,0,0,0,Crafting,False,False
-Wise One's Robes,70,497,17,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Hades' Raiment of Justice,90,420,16,12,0,9,84,28,3,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Darkmoor Herald's Gear,100,720,16,8,9,8,84,0,0,0,0,0,0,10,0,0,0,0,Drop/Vendor,False,False
-Golden Balance Lamellar,155,1258,16,7,0,0,75,75,4,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
-Malistaire's Suit of Torment (Socketed),50,263,16,7,4,0,0,0,2,0,0,0,0,0,0,2,0,1,Crafting,False,False
-Great Inventor's Balance Coat (Level 50+),50,375,16,6,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Highlands Raider's Kit (Level 50+),50,375,16,6,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
-Floramancer Armor of Cycles (Level 50+),50,338,16,5,4,8,0,0,0,0,0,7,0,0,0,0,0,0,Crowns,False,False
-Senator's Stately Toga,70,450,16,4,4,8,0,23,3,0,6,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Sidhe Cloak of Attunement,65,467,16,0,4,0,0,0,1,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Regulation Scout Uniform,150,1198,15,7,0,0,73,73,4,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
-Burrower's Sorcery Robe (Level 60+),60,407,15,7,0,8,0,46,3,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Noble Hunter's Robes,60,468,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Anubis' Tunic of Judgment,60,241,15,0,2,0,20,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Royal Uniform of Accord,40,324,14,0,4,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Wolf's Robe of Readiness,50,198,14,0,0,9,14,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Versatile Celestian Armor,50,0,13,6,0,6,0,10,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,True
-Malistaire's Tunic of Torment (H360),50,360,13,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
-Wrap of Equity,45,360,13,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Judge's Robe,45,240,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Coat of Omniscence,45,0,13,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Astute Plot Armor (Level 40+),40,260,12,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Balanced Night Mire Coat (Level 40+),40,260,12,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Krokomaic Justice Cloak,40,297,12,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Grandfather Spider's Steady Raiment (Level 40+),40,260,12,0,4,10,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Stable Skyfarer's Garb (Level 40+),40,260,12,0,4,10,0,0,0,0,0,7,0,0,0,0,0,0,Crowns,False,False
-Bristleback's Robe of Awe,45,240,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Conqueror's Coat,45,240,12,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
-Crystalline Queen's Cloak,45,240,12,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Surcoat of the Steward,45,240,12,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Zarathax's Turncoat,45,120,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Technicolor Dreamcoat,45,0,12,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Highlands Raider's Kit (Level 40+),40,324,11,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Yeoman's Vestment of Unity,40,304,11,0,3,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Bonebreaker Robe of Poise,40,297,11,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Cute Fairy Kei Dress (Level 40+),40,292,11,0,4,0,0,0,1,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Vestment of Harmony,45,120,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Advanced Balance Robes,50,390,10,7,2,0,9,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Tunic of the Paragon,70,500,10,0,0,0,40,0,1,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Balanced Coat of Legend,44,298,10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Chilly Tunic of Neutrality,44,298,10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Smoldering Jerkin of Equity,44,298,10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Steady Vestment of Woe,44,298,10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Thundering Coat of Stasis,44,298,10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Vivid Cloak of Discovery,44,298,10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Defiler's Tunic of Aspirations,40,288,10,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Robe of the Nemesis,40,288,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Groostak's Steadfast Robe,35,192,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Youkai's Cloak of Kindness,35,192,10,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Cloak of Forgotten Lore,45,100,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Akuji's Cloak of the Zealous,40,0,10,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Vestment of the Introverted,35,0,10,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Astute Plot Armor (Level 30+),30,231,9,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Balanced Night Mire Coat (Level 30+),30,231,9,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Ghoulish Cerberus Master Armor (Level 30+),30,231,9,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Evenhanded Robe,45,288,9,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Zeus' Robes of Judgment,30,288,9,0,4,5,0,0,0,0,8,8,0,0,0,0,0,0,Drop/Vendor,False,False
-Grandfather Spider's Steady Raiment (Level 30+),30,231,9,0,4,6,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Stable Skyfarer's Garb (Level 30+),30,231,9,0,4,6,0,0,0,0,0,6,0,0,0,0,0,0,Crowns,False,False
-Wastelander's Dusty Armor (Level 30+),30,231,9,0,4,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Adept's Judicial Toga,30,230,9,0,3,5,0,0,0,0,5,0,0,0,0,0,0,0,Crafting,False,False
-Kanago's Spry Vestment,35,192,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Longcoat of Decorum,40,192,9,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Postulant's Smock,40,192,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Tamauji's Tunic of Stamina,35,192,9,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Evil Vestment of Disillusion,35,96,9,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Robe of Prudence,35,96,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Victor's Surcoat,35,96,9,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
-Great Inventor's Balance Coat (Level 30+),30,228,8,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Royal Coat of Alliance,40,243,8,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Coat of Blazing Honor,33,233,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Cloak of Icy Composure,33,233,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Coat of Answered Questions,33,233,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Cloak of Weighty Grief,33,233,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Longcoat of the Fair Winds,33,233,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Tunic of the Ordered Spirit,33,233,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Senator's Judicial Toga,30,216,8,0,2,5,0,0,0,0,4,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Examiner's Outfit,50,173,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Tunic of the Resolute,30,96,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Battlegear of Harmony,25,216,7,1,2,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Katzenstein's Tunic,30,216,7,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Ordered Drape,30,216,7,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Mugsy's Consistent Robe,25,144,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Smogger's Formal Robe,25,144,7,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Sneak's Robe of Parity,20,0,7,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Balanced Night Mire Coat (Level 20+),20,116,6,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Ghoulish Cerberus Master Armor (Level 20+),20,116,6,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Clanker's Noteworthy Robe,25,144,6,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Robe of the Defiant,25,144,6,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
-Mugsy's Robe of Equity,25,144,6,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Scratcher's Black Mantle,25,144,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Grandfather Spider's Steady Raiment (Level 20+),20,116,6,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Wastelander's Dusty Armor (Level 20+),20,116,6,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Robe of Correspondence,30,114,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Robe of the Theorem,30,72,6,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Tunic of Symmetry,20,72,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Pleasing Vestment,25,0,6,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Great Inventor's Balance Coat (Level 20+),20,144,5,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Path of Harmony Raiment,25,180,5,1,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Cloak of the Harmonious Soul,22,169,5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Drape of the Missing Answer,22,169,5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Raiment of the Lost Order,22,169,5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Robe of Searing Justice,22,169,5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Surcoat of Twin Thunder,22,169,5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Tunic of the Icy Antithesis,22,169,5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Ra's Integrity Vestment,20,130,4,3,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Karanahn's Parched Tunic,20,144,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Krokopatra's Garments,20,144,4,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Garments of the Accord,20,98,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Robe of Reason,15,96,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Wrap of Equanimity,20,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Vestment of Versatility,25,0,4,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Harmonious One's Vestment,25,118,3,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Drape of Capacity,15,0,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Sergeant's Dress Smock,15,0,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
-Evenbloom Raiment,15,120,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Flamesign Robe,15,120,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Frostguard Cloak,15,120,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Fairmuse Jerkin,15,120,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Honorbane Smock,15,120,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Thundersight Vestment,15,120,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Great Inventor's Balance Coat (Level 10+),10,72,1,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Highlands Raider's Kit (Level 10+),10,72,1,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
-Floramancer Armor of Cycles (Level 10+),10,65,1,2,3,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Balanced Night Mire Coat (Level 10+),10,58,1,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Ghoulish Cerberus Master Armor (Level 10+),10,58,1,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Cute Fairy Kei Dress (Level 10+),10,34,1,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Highlands Raider's Kit (Any Level),1,61,1,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Great Inventor's Balance Coat (Any Level),1,36,1,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Astute Plot Armor (Any Level),1,29,1,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Balanced Night Mire Coat (Any Level),1,22,1,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Grandfather Spider's Steady Raiment (Level 10+),10,58,1,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Stable Skyfarer's Garb (Level 10+),10,58,1,0,3,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Wastelander's Dusty Armor (Level 10+),10,58,1,0,3,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Grandfather Spider's Steady Raiment (Any Level),1,29,1,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Stable Skyfarer's Garb (Any Level),1,29,1,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Wastelander's Dusty Armor (Any Level),1,29,1,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Supreme Stability Robe,148,1677,0,17,5,0,0,141,0,0,0,0,0,21,0,0,0,0,Drop/Vendor,False,False
-Hierarch's Stability Robe,145,1584,0,17,4,0,0,133,0,0,0,0,0,20,0,0,0,0,Drop/Vendor,False,False
-Malevolent Balance Cloak,150,1528,0,17,0,12,0,124,0,3,11,0,0,22,0,0,0,0,Drop/Vendor,False,False
-Magician's Balance Cloak,150,1490,0,17,0,11,0,124,0,3,11,0,0,20,0,0,0,0,Drop/Vendor,False,False
-Delightful Dreamsearcher Smock,140,1440,0,17,0,13,0,116,0,3,11,0,0,21,0,0,0,0,Crafting,False,False
-Uber Dreamsearcher Smock,140,1440,0,17,0,13,0,116,0,3,11,0,0,21,0,0,0,0,Drop/Vendor,False,False
-Wunderbar Dreamsearcher Smock,140,1389,0,17,0,12,0,116,0,3,11,0,0,20,0,0,0,0,Drop/Vendor,False,False
-Krokopatra Justice Cloak,100,633,0,17,0,9,0,43,0,0,0,7,0,0,0,0,0,0,Drop/Vendor,False,False
-Dragoon's Balanced Armor,130,1595,0,16,3,12,0,162,2,0,8,0,0,17,0,0,0,0,Drop/Vendor,False,True
-Producer's Protective Suit,138,1525,0,16,10,0,0,125,0,0,0,0,0,19,0,0,0,0,Drop/Vendor,False,False
-Lemurian Stability Robe,142,1490,0,16,4,0,0,124,0,0,0,0,0,18,0,0,0,0,Drop/Vendor,False,False
-Supervisor Protective Suit,135,1440,0,16,9,0,0,113,0,0,0,0,0,18,0,0,0,0,Drop/Vendor,False,False
-Guten Dreamsearcher Smock,140,1355,0,16,0,11,0,116,0,3,11,0,0,18,0,0,0,0,Drop/Vendor,False,False
-Vanguard's Balanced Armor,130,1559,0,15,3,11,0,162,2,0,8,0,0,17,0,0,0,0,Drop/Vendor,False,False
-Contractor Protective Suit,132,1355,0,15,9,0,0,102,0,0,0,0,0,17,0,0,0,0,Drop/Vendor,False,False
-Soldier's Balanced Armor,130,1505,0,14,2,10,0,162,2,0,8,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Supreme Teleological Robe,148,1490,0,14,0,10,0,149,0,0,0,0,0,22,0,0,0,0,Drop/Vendor,False,False
-Hierarch's Teleological Robe,145,1397,0,14,0,10,0,141,0,0,0,0,0,21,0,0,0,0,Drop/Vendor,False,False
-Director Protective Suit,138,1355,0,14,0,10,0,133,0,0,0,0,0,20,0,0,0,0,Drop/Vendor,False,False
-Lead's Protective Suit,135,1271,0,14,0,10,0,120,0,0,0,0,0,19,0,0,0,0,Drop/Vendor,False,False
-Bodacious Kalamar Tunic,127,1338,0,13,0,0,0,119,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Lemurian Teleological Robe,142,1304,0,13,0,10,0,133,0,0,0,0,0,20,0,0,0,0,Drop/Vendor,False,False
-Specialist Protective Suit,132,1186,0,13,0,10,0,109,0,0,0,0,0,18,0,0,0,0,Drop/Vendor,False,False
-Aristocratic Alphoi Surcoat,125,1434,0,12,0,10,0,102,0,0,9,0,0,16,0,0,0,0,Crafting,False,False
-Supreme Hex Robe,148,1304,0,12,0,12,0,0,3,0,0,0,0,23,0,0,0,0,Drop/Vendor,False,False
-Hierarch's Hex Robe,145,1211,0,12,0,11,0,0,3,0,0,0,0,22,0,0,0,0,Drop/Vendor,False,False
-Executive Protective Suit,138,1186,0,12,0,12,0,0,2,0,0,0,0,21,0,0,0,0,Drop/Vendor,False,False
-Interstellar Delegate's Suit,122,1179,0,12,0,0,0,106,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Chief's Protective Suit,135,1101,0,12,0,11,0,0,2,0,0,0,0,20,0,0,0,0,Drop/Vendor,False,False
-Balanced Liaison's Robe,130,1101,0,12,0,9,0,99,0,0,0,0,0,18,0,0,0,0,Drop/Vendor,False,False
-Amazing Space Suit,140,1101,0,12,0,9,0,116,0,0,0,0,0,18,0,0,0,0,Drop/Vendor,False,False
-Lemurian Hex Robe,142,1118,0,11,0,11,0,0,3,0,0,0,0,21,0,0,0,0,Drop/Vendor,False,False
-Consultant Protective Suit,132,1016,0,11,0,11,0,0,2,0,0,0,0,19,0,0,0,0,Drop/Vendor,False,False
-Alphoi Saboteur Armor,130,1466,0,9,0,0,0,123,2,0,11,0,0,17,0,0,0,0,Crafting,False,False
-Balanced Paradox Vestment,130,1466,0,9,0,0,0,123,2,0,11,0,0,17,0,0,0,0,Drop/Vendor,False,False
-Immutable Zanadu Armor,130,1450,0,9,0,0,0,119,2,0,10,0,0,16,0,0,0,0,Drop/Vendor,False,False
-Cabal Cloak of Disruption,125,1434,0,9,6,0,0,105,0,0,10,0,0,17,0,0,0,0,Drop/Vendor,False,False
-Red Shirt of Good Fortune,120,1115,0,8,0,0,0,80,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Time Warden Thobe of Truth,120,1102,0,8,0,10,0,97,0,0,9,0,0,17,0,0,0,0,Drop/Vendor,False,False
-Luphilim's Valiant Armor,110,962,0,8,0,0,0,71,0,5,8,7,0,15,0,0,0,0,Drop/Vendor,False,False
-Majoris Gear of Cohesion,110,912,0,7,4,0,0,122,0,0,17,0,0,17,0,0,0,0,Drop/Vendor,False,False
-Titan Warrior Honesty Drape,110,861,0,7,4,0,0,120,0,0,23,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Takanobu's Vestment of Honor,35,268,0,7,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
-Borealis Gear of Resolution,110,810,0,6,4,0,0,118,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Burrower's Sorcery Robe (Level 50+),50,375,0,6,0,8,0,0,2,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
-Burrower's Sorcery Robe (Level 40+),40,324,0,2,0,8,0,0,1,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Alkali Armor of Fealty,118,918,0,0,0,0,0,0,2,0,0,6,0,0,0,0,0,0,Drop/Vendor,False,False
-Mottoman Uniform of Scruples,118,906,0,0,0,0,0,108,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Eerem Raiment of Harmony,118,881,0,0,5,10,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Vizier's Raiment of Dignity,116,857,0,0,0,0,0,0,2,0,0,6,0,0,0,0,0,0,Drop/Vendor,False,False
-Zruvan Raiment of Amity,116,845,0,0,0,0,0,107,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Sand Sea Outfit of Decorum,116,820,0,0,4,10,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Wayfarer's Khalat of Poise,114,796,0,0,0,0,0,0,1,0,0,5,0,0,0,0,0,0,Drop/Vendor,False,False
-Aridian Armor of Splendor,114,783,0,0,0,0,0,107,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Nomad's Thobe of Redress,112,771,0,0,0,0,0,0,1,0,0,5,0,0,0,0,0,0,Drop/Vendor,False,False
-Mongu Vestment of Honor,112,771,0,0,0,0,0,106,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Arcanum Sorcerer's Attire,108,760,0,0,0,0,0,0,1,0,0,5,0,0,0,0,0,0,Drop/Vendor,False,False
-Rubal Khalat of Loyalty,114,759,0,0,4,10,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Kataba Outfit of Destiny,108,750,0,0,0,0,0,106,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Immaculate Djinn Vestment,112,747,0,0,4,10,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Walrusk Chokha of Dignity,108,729,0,0,4,10,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Enchanter's Robes of Poise,106,709,0,0,0,0,0,0,1,0,0,5,0,0,0,0,0,0,Drop/Vendor,False,False
-Tayg Smock of Leveling,106,699,0,0,0,0,0,103,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Tundarian Coat of Fusion,106,679,0,0,4,9,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Evoker's Gallant Drape,104,658,0,0,0,0,0,0,1,0,0,4,0,0,0,0,0,0,Drop/Vendor,False,False
-Noble Bleaks Finery,104,648,0,0,0,0,0,101,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Kossack Coat of Redress,104,628,0,0,4,8,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Mage's Robes of Aplomb,102,608,0,0,0,0,0,0,1,0,0,4,0,0,0,0,0,0,Drop/Vendor,False,False
-Mantis Captain's Raiment (Level 98+),98,600,0,0,5,10,67,0,2,0,0,13,0,0,0,0,0,0,Retired,False,False
-Tundra Garment of Loyalty,102,598,0,0,0,0,0,98,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Hanging Stones Armor,78,580,0,0,4,7,60,0,1,0,0,10,0,0,0,0,0,0,Drop/Vendor,False,False
-Urville Longcoat of Honor,102,577,0,0,3,8,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Prince of the Avian's Tunic,88,565,0,0,4,9,66,0,2,0,0,12,0,0,0,0,0,0,Drop/Vendor,False,False
-Winged Tooth Knight's Tunic,88,515,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Robe of Lambent's Penance,70,504,0,0,5,6,71,0,0,0,0,6,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
-Loyal Banner's Coat,78,485,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Royal Jouster's Armor,78,475,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Ensemble Uniform,52,432,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Armor of the BurrowBreaker,98,390,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Philosoraptor's Abstract Garb,88,385,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Arbiter's Raiment,45,360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Lawful Garment,54,302,0,0,0,0,33,0,0,0,0,0,0,9,0,0,0,0,Drop/Vendor,False,False
-Attuned Uniform,54,302,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Coat of Veracity,40,288,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Garment of Generality,35,288,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Sprightly Garments,35,288,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
-Robe of the Chipper,40,288,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
-Tunic of Regularity,40,288,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Drape of Symmetry,45,240,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Robe of Equivalence,45,240,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Affable Cloak,25,216,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Cloak of Augury,35,192,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Dashing Cloak,35,192,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Enlivened Garment,35,192,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Quick-Witted Vestment,35,192,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Tunic of Tolerance,50,173,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Longcoat of Meditation,25,144,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Smokey's Robe of Integrity,25,144,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Sprockets' Equivalent Robe,25,144,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Threadbare Robe,20,144,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Vestment of Stability,25,144,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Krokotopian Balance Kaftan,15,130,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,True
-Raiment of Judgement,45,120,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Tunic of the Sphinx,45,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Sovereign's Wrap,45,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Tunic of Ataraxia,15,98,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Cloak of Harmony,15,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Proficient Cloak,30,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Robe of Cunning,15,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Shroud of Rationality,15,96,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Vestment of the Eager,35,96,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Axiomatic Wrap,20,94,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Cloak of Civility,20,72,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Gobblestone's Bib,10,72,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Nails' Tunic of Equation,25,72,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Tunic of the Thinker,10,72,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Tunic of Vitality,10,72,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Citrine Studded Cloak,5,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Cloak of the Sage,15,48,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Edo's Shroud,15,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Cloak of the Watchful,5,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Robe of Savvy,5,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Raiment of Resolution,50,0,0,0,0,9,22,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Coat of Utility,20,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Cloak of Vigilance,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Digger's Mail of Symmetry,98,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Polished Garments,20,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Robe of Excellence,30,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Smock of Dominion,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
-Sorcerer's Maroon Cloak,15,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Robe of the Lithe,35,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Tunic of Readiness,45,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Suten's Shrewd Robe,20,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Vestment of Poise,30,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Vestment of Stasis,25,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Zippy Tunic,35,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Daemonic Armor of Impossibility,170,1145,31,16,9,9,120,0,6,0,0,0,0,19,0,2,0,1,Raid,False,None
+Balanced Robe of The Nullity (Level 160+),160,1138,30,15,9,9,106,0,6,0,0,0,0,18,0,2,0,1,Raid,False,None
+Balanced Robe of The Nullity (Level 150+),150,1013,29,15,8,9,98,0,4,0,0,0,0,0,0,0,0,0,Raid,False,None
+Astute Plot Armor (Level 170+),170,1526,28,19,6,10,105,137,5,0,0,0,0,0,0,2,0,1,Gold Key/Gauntlet,False,None
+Hunhau's Vacuum Mail (Level 170+),170,1335,28,18,0,11,105,120,5,0,0,0,0,19,0,1,0,2,Raid,False,None
+Umbra Queen's Dusty Garment (Level 170+),170,1526,28,12,9,10,105,0,5,0,0,0,0,22,0,1,0,2,Rematch,False,None
+Wastelander's Dusty Armor (Level 170+),170,1526,28,12,9,10,105,0,5,0,0,0,0,22,0,1,0,2,Crowns,False,None
+Astute Plot Armor (Level 160+),160,1517,27,18,6,10,93,125,5,0,0,0,0,0,0,2,0,1,Crowns,False,None
+Balanced Night Mire Coat (Level 160+),160,1517,27,18,6,10,93,125,5,0,0,0,0,0,0,2,0,1,Gold Key/Gauntlet,False,None
+Balanced Night Mire Coat (Level 150+),150,1350,27,18,5,10,86,117,4,0,0,0,0,0,0,2,0,1,Crowns,False,None
+Astute Plot Armor (Level 150+),150,1350,27,18,5,10,86,117,4,0,0,0,0,0,0,2,0,1,Crowns,False,None
+Ghoulish Cerberus Master Armor (Level 150+),150,1350,27,18,5,10,86,117,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Hunhau's Vacuum Mail (Level 160+),160,1707,27,13,7,0,93,110,5,0,0,0,0,23,0,1,0,2,Raid,False,None
+Malistaire's Harmonic Vestment (Level 160+),160,1517,27,11,9,10,93,0,5,0,0,0,0,20,0,1,0,2,Rematch,False,None
+Stable Skyfarer's Garb (Level 160+),160,1517,27,11,9,10,93,0,5,0,0,0,0,20,0,1,0,2,Crowns,False,None
+Stable Skyfarer's Garb (Level 150+),150,1350,27,11,8,10,86,0,4,0,0,0,0,19,0,1,0,2,Crowns,False,None
+Grandfather Spider's Steady Raiment (Level 150+),150,1350,27,11,8,10,86,0,0,0,0,0,0,19,0,0,0,0,Crowns,False,None
+Astute Plot Armor (Level 140+),140,1180,26,17,5,10,84,114,4,0,0,0,0,0,0,2,0,1,Crowns,False,None
+Wastelander's Dusty Armor (Level 140+),140,1180,26,11,8,10,84,0,4,0,0,0,0,17,0,0,0,0,Crowns,False,None
+Grandfather Spider's Steady Raiment (Level 140+),140,1180,26,11,8,10,84,0,0,0,0,0,0,17,0,0,0,0,Crowns,False,None
+Stable Skyfarer's Garb (Level 140+),140,1180,26,11,8,10,84,0,0,0,0,10,0,17,0,0,0,0,Crowns,False,None
+Deft Dream Reaver Armor,170,1335,25,18,8,8,120,120,7,0,0,0,0,0,0,2,0,1,Drop,False,None
+Deft Dream Stalker Armor,170,1907,25,16,7,11,0,137,5,0,0,0,0,19,0,1,0,2,Crafting,False,None
+Astute Plot Armor (Level 130+),140,1010,25,16,5,9,76,108,4,0,0,0,0,0,0,2,0,1,Crowns,False,None
+Balanced Night Mire Coat (Level 130+),130,1010,25,16,5,9,76,108,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Ghoulish Cerberus Master Armor (Level 130+),130,1010,25,16,5,9,76,108,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cute Fairy Kei Dress (Level 170+),170,1717,25,14,8,0,120,120,7,0,0,0,0,17,0,2,0,1,Crowns,False,None
+Xibalba Vacuum Mail (Level 170+),170,1717,25,14,8,0,120,120,7,0,0,0,0,17,0,2,0,1,Raid,False,None
+Unreal Armor of Impossibility,170,1717,25,14,8,12,0,120,5,0,0,0,0,22,0,1,0,2,Raid,False,None
+Wastelander's Dusty Armor (Level 130+),130,1010,25,10,8,9,76,0,4,0,0,0,0,16,0,0,0,0,Crowns,False,None
+Grandfather Spider's Steady Raiment (Level 130+),130,1010,25,10,8,9,76,0,0,0,0,0,0,16,0,0,0,0,Crowns,False,None
+Stable Skyfarer's Garb (Level 130+),130,1010,25,10,8,9,76,0,0,0,0,9,0,16,0,0,0,0,Crowns,False,None
+Balanced August Sage Coat (Level 170+),170,1526,25,0,9,9,120,103,7,0,0,0,0,19,0,2,0,1,Gold Key/Gauntlet,False,None
+Measured Chivalric Plate (Level 170+),170,1526,25,0,9,9,120,103,7,0,0,0,0,19,0,2,0,1,Gold Key/Gauntlet,False,None
+Abstract Aeon Cape,160,1328,24,17,8,8,106,110,7,0,0,0,0,0,0,2,0,1,Drop,False,None
+Demiurge's Schemer Armor,150,1181,24,17,7,8,98,103,5,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Merciless Balance Cloak,150,1181,24,17,7,8,98,103,5,0,0,0,0,0,0,0,0,0,Drop,False,None
+Eternal Abstract Cape,160,1896,24,15,7,11,80,125,0,0,0,0,0,18,0,1,0,2,Crafting,False,None
+Great Inventor's Balance Coat (Level 160+),160,1896,24,15,7,11,80,125,0,0,0,0,0,18,0,1,0,2,Crowns,False,None
+Great Inventor's Balance Coat (Level 150+),150,1687,24,15,6,11,74,117,0,0,0,0,0,17,0,1,0,2,Crowns,False,None
+Highlands Raider's Kit (Level 150+),150,1687,24,15,6,11,74,117,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,None
+Balanced Night Mire Coat (Level 120+),120,840,24,15,5,9,70,98,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cute Fairy Kei Dress (Level 160+),160,1707,24,13,8,0,106,110,7,0,0,0,0,15,0,2,0,1,Crowns,False,None
+Xibalba Vacuum Mail (Level 160+),160,1707,24,13,6,0,106,110,7,0,0,0,0,20,0,2,0,1,Raid,False,None
+Balanced Robe of The Void (Level 160+),160,1707,24,13,8,12,0,110,5,0,0,0,0,20,0,1,0,2,Raid,False,None
+Floramancer Armor of Cycles (Level 160+),160,1707,24,13,8,12,0,110,5,0,0,0,0,20,0,1,0,2,Crowns,False,None
+Cute Fairy Kei Dress (Level 150+),150,1519,24,13,7,0,98,103,5,0,0,0,0,14,0,2,0,1,Crowns,False,None
+Balanced Robe of The Void (Level 150+),150,1519,24,13,7,12,0,103,3,0,0,11,0,19,0,0,0,0,Raid,False,None
+Floramancer Armor of Cycles (Level 150+),150,1519,24,13,7,12,0,103,3,0,0,0,0,19,0,1,0,2,Crowns,False,None
+Wastelander's Dusty Armor (Level 120+),120,940,24,9,8,9,70,0,4,0,0,0,0,15,0,0,0,0,Crowns,False,None
+Grandfather Spider's Steady Raiment (Level 120+),120,840,24,9,8,9,70,0,0,0,0,0,0,15,0,0,0,0,Crowns,False,None
+Astute Plot Armor (Level 110+),110,669,23,13,5,9,70,93,4,0,0,0,0,0,0,2,0,1,Crowns,False,None
+Balanced Night Mire Coat (Level 110+),110,669,23,13,5,9,70,93,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+House of Scales Raiment,60,344,23,10,3,6,42,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Wastelander's Dusty Armor (Level 110+),110,669,23,8,8,9,70,0,4,0,0,0,0,13,0,0,0,0,Crowns,False,None
+Grandfather Spider's Steady Raiment (Level 110+),110,669,23,8,8,9,70,0,0,0,0,0,0,13,0,0,0,0,Crowns,False,None
+Stable Skyfarer's Garb (Level 110+),110,669,23,8,8,9,70,0,0,0,0,9,0,13,0,0,0,0,Crowns,False,None
+Balanced August Sage Coat (Level 140+),140,1180,23,0,8,9,96,86,5,0,0,0,0,15,0,2,0,1,Crowns,False,None
+Principle Jerkin,58,432,23,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Deft Dream Warper Armor,170,0,22,16,7,6,105,103,7,0,0,0,0,0,0,0,0,0,Drop,False,None
+Just Enforcer's Uniform,165,0,22,15,7,6,99,99,7,0,0,0,0,0,0,0,0,0,Drop,False,None
+Great Inventor's Balance Coat (Level 130+),130,1262,22,13,6,10,65,108,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Astute Plot Armor (Level 100+),100,499,22,13,0,9,68,85,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,None
+Balanced Night Mire Coat (Level 100+),100,499,22,13,6,0,68,85,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Ghoulish Cerberus Master Armor (Level 100+),100,499,22,13,6,0,68,85,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Lively Night Mire Coat (Level 100+),100,499,22,13,6,0,68,85,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Glider Armor of Stability,94,450,22,12,15,0,56,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Order of the Tygron Armor,100,669,22,8,4,0,0,25,3,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Transcendent Noble Toga,90,650,22,5,5,9,0,28,4,0,6,0,0,0,0,0,0,0,Crafting,False,None
+Balanced August Sage Coat (Level 130+),130,1010,22,0,8,8,87,81,5,0,0,0,0,14,0,2,0,1,Crowns,False,None
+Poseidon's Armor of Depths,90,625,22,0,0,11,65,0,3,0,0,0,0,0,0,0,0,0,Drop,False,None
+Armor of Zeus' Law,90,585,22,0,4,10,84,0,4,0,0,20,0,0,0,0,0,0,Drop,False,None
+Umbra Queen's Dusty Garment (Level 100+),100,499,22,0,7,9,68,0,4,0,0,0,0,0,0,0,0,0,Rematch,False,None
+Malistaire's Harmonic Vestment (Level 100+),100,499,22,0,7,9,68,0,0,0,0,0,0,0,0,0,0,0,Rematch,False,None
+Stable Skyfarer's Garb (Level 100+),100,499,22,0,7,9,68,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Burrower's Sorcery Robe (Level 160+),160,1896,21,15,0,8,93,125,7,0,0,0,0,20,0,2,0,1,Gold Key/Gauntlet,False,None
+Elegant City Dweller Vest,160,0,21,15,7,6,93,94,7,0,0,0,0,0,0,0,0,0,Drop,False,None
+Ghoulish Cerberus Master Armor (Level 120+),120,852,21,13,6,0,70,98,0,0,0,0,0,10,0,0,0,0,Crowns,False,None
+Great Inventor's Balance Coat (Level 120+),120,1049,21,12,6,10,60,98,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Astute Plot Armor (Level 90+),90,456,21,12,0,8,59,80,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cape of Judgment,60,363,21,12,0,8,30,13,0,0,3,0,0,0,0,0,0,0,Drop,False,None
+Cute Fairy Kei Dress (Level 120+),120,945,21,11,7,0,80,86,5,0,0,0,0,11,0,2,0,1,Crowns,False,None
+Floramancer Armor of Cycles (Level 120+),120,945,21,11,7,11,0,86,0,0,0,9,0,15,0,0,0,0,Crowns,False,None
+Astute Plot Armor (Level 80+),60,412,21,10,0,8,45,68,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Senator's Noble Toga,90,640,21,4,4,9,0,23,3,0,5,0,0,0,0,0,0,0,Drop,False,None
+Balanced August Sage Coat (Level 120+),120,840,21,0,8,8,80,74,5,0,0,0,0,13,0,2,0,1,Crowns,False,None
+Jacket of Perfect Poise,80,640,21,0,3,0,30,30,1,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Lost World Fated Armor,85,597,21,0,0,12,69,0,2,0,0,7,0,0,0,0,0,0,Gold Key/Gauntlet,False,None
+Raiment of Hades' Ruin,90,480,21,0,3,9,84,0,5,0,0,9,0,0,0,0,0,0,Drop,False,None
+Wastelander's Dusty Armor (Level 80+),80,412,21,0,6,8,45,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Grandfather Spider's Steady Raiment (Level 80+),80,412,21,0,6,8,45,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+United Longcoat,58,302,21,0,0,9,10,10,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Equilibrium Armor,56,302,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Outfit of Accord,56,302,21,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Congruent Costume,52,173,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Balanced Outfit,52,0,21,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,Gold,False,None
+Virtuous Light Brigade Armor,125,876,20,15,9,8,100,0,0,0,0,0,0,16,0,0,0,0,Drop,False,None
+Abstract Masterpiece Cape,160,1138,20,14,0,0,92,94,6,0,0,0,0,18,0,0,0,0,Drop,False,None
+Robes of the Three Spirits,84,395,20,13,4,0,64,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Great Inventor's Balance Coat (Level 110+),110,836,20,11,6,10,60,93,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Highlands Raider's Kit (Level 110+),110,836,20,11,6,10,60,93,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Great Inventor's Balance Coat (Level 100+),100,623,20,11,7,8,0,85,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cute Fairy Kei Dress (Level 110+),110,753,20,10,7,0,80,82,5,0,0,0,0,10,0,2,0,1,Crowns,False,None
+Floramancer Armor of Cycles (Level 110+),110,753,20,10,7,11,0,82,0,0,0,9,0,13,0,0,0,0,Crowns,False,None
+Mantis Captain's Raiment,100,561,20,10,6,0,77,75,5,0,0,0,0,0,0,0,0,0,Drop,False,None
+Ghoulish Cerberus Master Armor (Level 90+),90,522,20,10,6,0,58,80,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Astute Plot Armor (Level 70+),70,369,20,9,0,8,42,56,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Balanced Night Mire Coat (Level 70+),70,369,20,9,5,0,42,56,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Ghoulish Cerberus Master Armor (Level 70+),70,369,20,9,5,0,42,56,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Paladin's Armor of Virtue,95,650,20,8,0,9,84,0,2,0,5,0,0,0,0,0,0,0,Crowns,False,None
+Malistaire's Tunic of Torment,50,263,20,7,4,0,0,0,2,0,0,0,0,0,0,0,0,0,Drop,False,None
+Balanced August Sage Coat (Level 110+),110,669,20,0,8,8,80,70,5,0,0,0,0,12,0,2,0,1,Crowns,False,None
+Sorcerer's Melodious Garb,85,655,20,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Grandfather Spider's Steady Raiment (Level 100+),100,611,20,0,8,8,67,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Grandfather Spider's Steady Raiment (Level 90+),90,522,20,0,7,8,58,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Mantis Attire of Reckoning,95,520,20,0,4,0,54,0,2,0,0,0,0,0,0,0,0,0,Gold,False,None
+Wastelander's Dusty Armor (Level 70+),70,369,20,0,6,8,42,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Balanced Brimstone Tunic,55,367,20,0,5,0,0,20,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Coalescent Ice Cloak,55,367,20,0,5,0,0,20,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Harmonious Heart Armor,55,367,20,0,5,0,0,20,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Lawful Thunder Jerkin,55,367,20,0,5,0,0,20,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Outfit of Mutual Mystery,55,367,20,0,5,0,0,20,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Tunic of Tragic Tolerance,55,367,20,0,5,0,0,20,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Valiant Armor,58,293,20,0,0,8,23,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Bonesmasher Robe of Poise,100,836,19,15,11,7,97,0,0,0,0,0,0,11,0,0,0,0,One Shot Housing Gauntlet,False,None
+Drape of the Exalted One,100,793,19,14,14,11,96,0,0,0,0,0,0,12,0,0,0,0,Drop,False,None
+Just Protector's Uniform,165,0,19,13,6,0,85,82,6,0,0,0,0,0,0,0,0,0,Drop,False,None
+Wyrd-Walker Coat,74,395,19,12,4,0,55,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Highlands Raider's Kit (Level 140+),140,1578,19,11,8,8,71,114,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Great Inventor's Balance Coat (Level 90+),90,569,19,10,7,7,0,80,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Highlands Raider's Kit (Level 90+),90,569,19,10,7,7,0,80,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Glistening Balance Lamellar,155,1437,19,9,0,0,88,90,5,0,0,0,0,17,0,0,0,0,Drop,False,None
+Cute Fairy Kei Dress (Level 90+),90,513,19,9,6,0,67,0,5,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Great Inventor's Balance Coat (Level 80+),80,515,19,8,6,7,0,68,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Astute Plot Armor (Level 60+),60,326,19,8,0,8,31,46,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Balanced Night Mire Coat (Level 60+),60,326,19,8,5,0,31,46,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Ghoulish Cerberus Master Armor (Level 60+),60,326,19,8,5,0,31,46,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Knave's Equalizing Tunic,70,529,19,7,0,8,61,0,2,0,0,8,0,0,0,0,0,0,One Shot Housing Gauntlet,False,None
+Cute Fairy Kei Dress (Level 80+),80,464,19,7,5,0,51,0,4,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Anubis' Robes of Guidance,60,288,19,7,2,4,29,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Poseidon's Calm Seas Cloak,70,504,19,4,4,8,60,0,2,0,5,0,0,0,0,0,0,0,Drop,False,None
+Mantis Outfit of Acumen,90,520,19,0,4,0,54,0,0,0,0,0,0,0,0,0,0,0,Gold,False,None
+Grandfather Spider's Steady Raiment (Level 70+),70,406,19,0,6,8,42,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Grandfather Spider's Steady Raiment (Level 60+),60,326,19,0,5,8,30,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Elegant Townie Vest,160,0,18,13,6,0,80,78,6,0,0,0,0,0,0,0,0,0,Drop,False,None
+Weight of the World Cloak,66,365,18,12,3,0,51,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Burrower's Sorcery Robe (Level 110+),110,836,18,11,0,0,0,93,5,0,0,0,0,23,0,0,0,0,Crowns,False,None
+Highlands Raider's Kit (Level 130+),130,1478,18,10,7,8,63,107,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Highlands Raider's Kit (Level 100+),100,764,18,10,7,7,0,85,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Scout Officer Uniform,150,1369,18,8,0,0,85,88,5,0,0,0,0,16,0,0,0,0,Drop,False,None
+Astute Plot Armor (Level 50+),50,300,18,7,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,None
+Balanced Night Mire Coat (Level 50+),50,300,18,7,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Chief's Garb of Honor,56,305,18,6,0,8,30,13,0,0,5,0,0,0,0,0,0,0,Crafting,False,None
+Ghoulish Cerberus Master Armor (Level 50+),50,286,18,6,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Malistaire's Suit of Torment,50,0,18,6,3,0,0,0,2,0,0,0,0,0,0,0,0,0,Drop,False,None
+Big Five Robe,68,504,18,0,0,1,51,0,1,0,0,0,0,0,0,0,0,0,Drop,False,None
+Hunter's Kin Garb,68,504,18,0,0,1,51,0,1,0,0,0,0,0,0,0,0,0,Drop,False,None
+Olyphant's Balanced Jacket,68,504,18,0,3,0,51,0,0,0,2,0,0,0,0,0,0,0,Drop,False,None
+Unbroken Spiral Robe,68,504,18,0,3,0,51,0,0,0,2,0,0,0,0,0,0,0,Drop,False,None
+Shining One's Xicolli Vest,80,455,18,0,3,0,59,0,0,0,0,0,0,0,0,0,0,0,Gold,False,None
+Grandfather Spider's Steady Raiment (Level 50+),50,300,18,0,4,10,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Malistaire's Harmonic Vestment (Level 50+),50,300,18,0,4,10,0,0,0,0,0,7,0,0,0,0,0,0,Rematch,False,None
+Stable Skyfarer's Garb (Level 50+),50,300,18,0,4,10,0,0,0,0,0,7,0,0,0,0,0,0,Crowns,False,None
+Wastelander's Dusty Armor (Level 50+),50,300,18,0,4,8,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Mantis Captain's Aegis,100,499,17,13,5,0,68,64,5,0,0,0,0,0,0,0,0,0,Retired,False,None
+Raiment of Castle Darkmoor,100,756,17,11,12,9,90,0,0,0,0,0,0,10,0,0,0,0,Drop,False,None
+Burrower's Sorcery Robe (Level 100+),100,623,17,11,0,9,0,85,5,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,None
+Burrower's Sorcery Robe (Level 80+),80,515,17,8,0,8,0,68,4,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Great Inventor's Balance Coat (Level 60+),60,407,17,7,6,7,0,46,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cute Fairy Kei Dress (Level 60+),60,367,17,6,5,0,36,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Floramancer Armor of Cycles (Level 60+),60,367,17,6,5,10,0,40,0,0,0,8,0,0,0,0,0,0,Crowns,False,None
+Artisan's Stately Toga,70,450,17,3,5,8,0,18,3,0,7,0,0,0,0,0,0,0,Crafting,False,None
+Wise One's Robes,70,497,17,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold,False,None
+Hades' Raiment of Justice,90,420,16,12,0,9,84,28,3,0,5,0,0,0,0,0,0,0,Drop,False,None
+Darkmoor Herald's Gear,100,720,16,8,9,8,84,0,0,0,0,0,0,10,0,0,0,0,Drop,False,None
+Golden Balance Lamellar,155,1258,16,7,0,0,75,75,4,0,0,0,0,14,0,0,0,0,Drop,False,None
+Malistaire's Suit of Torment (Socketed),50,263,16,7,4,0,0,0,2,0,0,0,0,0,0,2,0,1,Crafting,False,None
+Great Inventor's Balance Coat (Level 50+),50,375,16,6,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Highlands Raider's Kit (Level 50+),50,375,16,6,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,None
+Floramancer Armor of Cycles (Level 50+),50,338,16,5,4,8,0,0,0,0,0,7,0,0,0,0,0,0,Crowns,False,None
+Senator's Stately Toga,70,450,16,4,4,8,0,23,3,0,6,0,0,0,0,0,0,0,Drop,False,None
+Sidhe Cloak of Attunement,65,467,16,0,4,0,0,0,1,0,0,0,0,0,0,0,0,0,Drop,False,None
+Regulation Scout Uniform,150,1198,15,7,0,0,73,73,4,0,0,0,0,14,0,0,0,0,Drop,False,None
+Burrower's Sorcery Robe (Level 60+),60,407,15,7,0,8,0,46,3,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Noble Hunter's Robes,60,468,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold,False,None
+Anubis' Tunic of Judgment,60,241,15,0,2,0,20,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Royal Uniform of Accord,40,324,14,0,4,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Wolf's Robe of Readiness,50,198,14,0,0,9,14,0,0,0,0,0,0,0,0,0,0,0,Gold,False,None
+Versatile Celestian Armor,50,0,13,6,0,6,0,10,0,0,0,0,0,0,0,0,0,0,Drop,False,Versatile Celestian Set
+Malistaire's Tunic of Torment (H360),50,360,13,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,None
+Wrap of Equity,45,360,13,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Judge's Robe,45,240,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Coat of Omniscence,45,0,13,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Astute Plot Armor (Level 40+),40,260,12,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Balanced Night Mire Coat (Level 40+),40,260,12,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Krokomaic Justice Cloak,40,297,12,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,One Shot Housing Gauntlet,False,None
+Grandfather Spider's Steady Raiment (Level 40+),40,260,12,0,4,10,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Stable Skyfarer's Garb (Level 40+),40,260,12,0,4,10,0,0,0,0,0,7,0,0,0,0,0,0,Crowns,False,None
+Bristleback's Robe of Awe,45,240,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Crystalline Queen's Cloak,45,240,12,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Conqueror's Coat,45,240,12,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,None
+Surcoat of the Steward,45,240,12,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Zarathax's Turncoat,45,120,12,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Technicolor Dreamcoat,45,0,12,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Gold,False,None
+Highlands Raider's Kit (Level 40+),40,324,11,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Yeoman's Vestment of Unity,40,304,11,0,3,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Bonebreaker Robe of Poise,40,297,11,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,One Shot Housing Gauntlet,False,None
+Cute Fairy Kei Dress (Level 40+),40,292,11,0,4,0,0,0,1,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Vestment of Harmony,45,120,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,None
+Advanced Balance Robes,50,390,10,7,2,0,9,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Tunic of the Paragon,70,500,10,0,0,0,40,0,1,0,0,0,0,0,0,0,0,0,Drop,False,None
+Balanced Coat of Legend,44,298,10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Chilly Tunic of Neutrality,44,298,10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Steady Vestment of Woe,44,298,10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Smoldering Jerkin of Equity,44,298,10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Thundering Coat of Stasis,44,298,10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Vivid Cloak of Discovery,44,298,10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Defiler's Tunic of Aspirations,40,288,10,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Robe of the Nemesis,40,288,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Groostak's Steadfast Robe,35,192,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Youkai's Cloak of Kindness,35,192,10,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Cloak of Forgotten Lore,45,100,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Akuji's Cloak of the Zealous,40,0,10,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Vestment of the Introverted,35,0,10,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,None
+Astute Plot Armor (Level 30+),30,231,9,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Balanced Night Mire Coat (Level 30+),30,231,9,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Ghoulish Cerberus Master Armor (Level 30+),30,231,9,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Evenhanded Robe,45,288,9,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Zeus' Robes of Judgment,30,288,9,0,4,5,0,0,0,0,8,8,0,0,0,0,0,0,Drop,False,None
+Grandfather Spider's Steady Raiment (Level 30+),30,231,9,0,4,6,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Stable Skyfarer's Garb (Level 30+),30,231,9,0,4,6,0,0,0,0,0,6,0,0,0,0,0,0,Crowns,False,None
+Wastelander's Dusty Armor (Level 30+),30,231,9,0,4,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Adept's Judicial Toga,30,230,9,0,3,5,0,0,0,0,5,0,0,0,0,0,0,0,Crafting,False,None
+Longcoat of Decorum,40,192,9,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Kanago's Spry Vestment,35,192,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Postulant's Smock,40,192,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Tamauji's Tunic of Stamina,35,192,9,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Evil Vestment of Disillusion,35,96,9,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Robe of Prudence,35,96,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,None
+Victor's Surcoat,35,96,9,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,None
+Great Inventor's Balance Coat (Level 30+),30,228,8,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Royal Coat of Alliance,40,243,8,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Cloak of Icy Composure,33,233,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Cloak of Weighty Grief,33,233,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Coat of Blazing Honor,33,233,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Coat of Answered Questions,33,233,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Longcoat of the Fair Winds,33,233,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Tunic of the Ordered Spirit,33,233,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Senator's Judicial Toga,30,216,8,0,2,5,0,0,0,0,4,0,0,0,0,0,0,0,Drop,False,None
+Examiner's Outfit,50,173,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Tunic of the Resolute,30,96,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold,False,None
+Battlegear of Harmony,25,216,7,1,2,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Katzenstein's Tunic,30,216,7,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Ordered Drape,30,216,7,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Mugsy's Consistent Robe,25,144,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Smogger's Formal Robe,25,144,7,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Sneak's Robe of Parity,20,0,7,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Balanced Night Mire Coat (Level 20+),20,116,6,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Ghoulish Cerberus Master Armor (Level 20+),20,116,6,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Clanker's Noteworthy Robe,25,144,6,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Mugsy's Robe of Equity,25,144,6,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Robe of the Defiant,25,144,6,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,None
+Scratcher's Black Mantle,25,144,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Grandfather Spider's Steady Raiment (Level 20+),20,116,6,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Wastelander's Dusty Armor (Level 20+),20,116,6,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Robe of Correspondence,30,114,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold,False,None
+Robe of the Theorem,30,72,6,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Tunic of Symmetry,20,72,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Pleasing Vestment,25,0,6,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,None
+Great Inventor's Balance Coat (Level 20+),20,144,5,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Path of Harmony Raiment,25,180,5,1,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Cloak of the Harmonious Soul,22,169,5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Drape of the Missing Answer,22,169,5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Robe of Searing Justice,22,169,5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Raiment of the Lost Order,22,169,5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Surcoat of Twin Thunder,22,169,5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Tunic of the Icy Antithesis,22,169,5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Ra's Integrity Vestment,20,130,4,3,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
+Karanahn's Parched Tunic,20,144,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Krokopatra's Garments,20,144,4,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Garments of the Accord,20,98,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Robe of Reason,15,96,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Wrap of Equanimity,20,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,None
+Vestment of Versatility,25,0,4,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Harmonious One's Vestment,25,118,3,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Drape of Capacity,15,0,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,None
+Sergeant's Dress Smock,15,0,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,None
+Frostguard Cloak,15,120,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Flamesign Robe,15,120,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Fairmuse Jerkin,15,120,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Evenbloom Raiment,15,120,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Honorbane Smock,15,120,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Thundersight Vestment,15,120,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Great Inventor's Balance Coat (Level 10+),10,72,1,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Highlands Raider's Kit (Level 10+),10,72,1,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,None
+Floramancer Armor of Cycles (Level 10+),10,65,1,2,3,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Balanced Night Mire Coat (Level 10+),10,58,1,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Ghoulish Cerberus Master Armor (Level 10+),10,58,1,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cute Fairy Kei Dress (Level 10+),10,34,1,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Highlands Raider's Kit (Any Level),1,61,1,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Great Inventor's Balance Coat (Any Level),1,36,1,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Astute Plot Armor (Any Level),1,29,1,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Balanced Night Mire Coat (Any Level),1,22,1,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Grandfather Spider's Steady Raiment (Level 10+),10,58,1,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Stable Skyfarer's Garb (Level 10+),10,58,1,0,3,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Wastelander's Dusty Armor (Level 10+),10,58,1,0,3,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Grandfather Spider's Steady Raiment (Any Level),1,29,1,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Stable Skyfarer's Garb (Any Level),1,29,1,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Wastelander's Dusty Armor (Any Level),1,29,1,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Supreme Stability Robe,148,1677,0,17,5,0,0,141,0,0,0,0,0,21,0,0,0,0,Drop,False,None
+Hierarch's Stability Robe,145,1584,0,17,4,0,0,133,0,0,0,0,0,20,0,0,0,0,Drop,False,None
+Malevolent Balance Cloak,150,1528,0,17,0,12,0,124,0,3,11,0,0,22,0,0,0,0,Drop,False,None
+Magician's Balance Cloak,150,1490,0,17,0,11,0,124,0,3,11,0,0,20,0,0,0,0,Drop,False,None
+Delightful Dreamsearcher Smock,140,1440,0,17,0,13,0,116,0,3,11,0,0,21,0,0,0,0,Crafting,False,None
+Uber Dreamsearcher Smock,140,1440,0,17,0,13,0,116,0,3,11,0,0,21,0,0,0,0,Drop,False,None
+Wunderbar Dreamsearcher Smock,140,1389,0,17,0,12,0,116,0,3,11,0,0,20,0,0,0,0,Drop,False,None
+Krokopatra Justice Cloak,100,633,0,17,0,9,0,43,0,0,0,7,0,0,0,0,0,0,One Shot Housing Gauntlet,False,None
+Dragoon's Balanced Armor,130,1595,0,16,3,12,0,162,2,0,8,0,0,17,0,0,0,0,Drop,False,Dragoon's Balanced Set
+Producer's Protective Suit,138,1525,0,16,10,0,0,125,0,0,0,0,0,19,0,0,0,0,Drop,False,None
+Lemurian Stability Robe,142,1490,0,16,4,0,0,124,0,0,0,0,0,18,0,0,0,0,Drop,False,None
+Supervisor Protective Suit,135,1440,0,16,9,0,0,113,0,0,0,0,0,18,0,0,0,0,Drop,False,None
+Guten Dreamsearcher Smock,140,1355,0,16,0,11,0,116,0,3,11,0,0,18,0,0,0,0,Drop,False,None
+Vanguard's Balanced Armor,130,1559,0,15,3,11,0,162,2,0,8,0,0,17,0,0,0,0,Drop,False,None
+Contractor Protective Suit,132,1355,0,15,9,0,0,102,0,0,0,0,0,17,0,0,0,0,Drop,False,None
+Soldier's Balanced Armor,130,1505,0,14,2,10,0,162,2,0,8,0,0,0,0,0,0,0,Drop,False,None
+Supreme Teleological Robe,148,1490,0,14,0,10,0,149,0,0,0,0,0,22,0,0,0,0,Drop,False,None
+Hierarch's Teleological Robe,145,1397,0,14,0,10,0,141,0,0,0,0,0,21,0,0,0,0,Drop,False,None
+Director Protective Suit,138,1355,0,14,0,10,0,133,0,0,0,0,0,20,0,0,0,0,Drop,False,None
+Lead's Protective Suit,135,1271,0,14,0,10,0,120,0,0,0,0,0,19,0,0,0,0,Drop,False,None
+Bodacious Kalamar Tunic,127,1338,0,13,0,0,0,119,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Lemurian Teleological Robe,142,1304,0,13,0,10,0,133,0,0,0,0,0,20,0,0,0,0,Drop,False,None
+Specialist Protective Suit,132,1186,0,13,0,10,0,109,0,0,0,0,0,18,0,0,0,0,Drop,False,None
+Aristocratic Alphoi Surcoat,125,1434,0,12,0,10,0,102,0,0,9,0,0,16,0,0,0,0,Crafting,False,None
+Supreme Hex Robe,148,1304,0,12,0,12,0,0,3,0,0,0,0,23,0,0,0,0,Drop,False,None
+Hierarch's Hex Robe,145,1211,0,12,0,11,0,0,3,0,0,0,0,22,0,0,0,0,Drop,False,None
+Executive Protective Suit,138,1186,0,12,0,12,0,0,2,0,0,0,0,21,0,0,0,0,Drop,False,None
+Interstellar Delegate's Suit,122,1179,0,12,0,0,0,106,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Chief's Protective Suit,135,1101,0,12,0,11,0,0,2,0,0,0,0,20,0,0,0,0,Drop,False,None
+Amazing Space Suit,140,1101,0,12,0,9,0,116,0,0,0,0,0,18,0,0,0,0,Retired,False,None
+Balanced Liaison's Robe,130,1101,0,12,0,9,0,99,0,0,0,0,0,18,0,0,0,0,Retired,False,None
+Lemurian Hex Robe,142,1118,0,11,0,11,0,0,3,0,0,0,0,21,0,0,0,0,Drop,False,None
+Consultant Protective Suit,132,1016,0,11,0,11,0,0,2,0,0,0,0,19,0,0,0,0,Drop,False,None
+Alphoi Saboteur Armor,130,1466,0,9,0,0,0,123,2,0,11,0,0,17,0,0,0,0,Crafting,False,None
+Balanced Paradox Vestment,130,1466,0,9,0,0,0,123,2,0,11,0,0,17,0,0,0,0,Drop,False,None
+Immutable Zanadu Armor,130,1450,0,9,0,0,0,119,2,0,10,0,0,16,0,0,0,0,Drop,False,None
+Cabal Cloak of Disruption,125,1434,0,9,6,0,0,105,0,0,10,0,0,17,0,0,0,0,Drop,False,None
+Red Shirt of Good Fortune,120,1115,0,8,0,0,0,80,0,0,0,0,0,0,0,0,0,0,Retired,False,None
+Time Warden Thobe of Truth,120,1102,0,8,0,10,0,97,0,0,9,0,0,17,0,0,0,0,Drop,False,None
+Luphilim's Valiant Armor,110,962,0,8,0,0,0,71,0,5,8,7,0,15,0,0,0,0,Drop,False,None
+Majoris Gear of Cohesion,110,912,0,7,4,0,0,122,0,0,17,0,0,17,0,0,0,0,Drop,False,None
+Titan Warrior Honesty Drape,110,861,0,7,4,0,0,120,0,0,23,0,0,0,0,0,0,0,Drop,False,None
+Takanobu's Vestment of Honor,35,268,0,7,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,None
+Borealis Gear of Resolution,110,810,0,6,4,0,0,118,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Burrower's Sorcery Robe (Level 50+),50,375,0,6,0,8,0,0,2,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,None
+Burrower's Sorcery Robe (Level 40+),40,324,0,2,0,8,0,0,1,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Alkali Armor of Fealty,118,918,0,0,0,0,0,0,2,0,0,6,0,0,0,0,0,0,Drop,False,None
+Mottoman Uniform of Scruples,118,906,0,0,0,0,0,108,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Eerem Raiment of Harmony,118,881,0,0,5,10,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Vizier's Raiment of Dignity,116,857,0,0,0,0,0,0,2,0,0,6,0,0,0,0,0,0,Drop,False,None
+Zruvan Raiment of Amity,116,845,0,0,0,0,0,107,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Sand Sea Outfit of Decorum,116,820,0,0,4,10,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Wayfarer's Khalat of Poise,114,796,0,0,0,0,0,0,1,0,0,5,0,0,0,0,0,0,Drop,False,None
+Aridian Armor of Splendor,114,783,0,0,0,0,0,107,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Nomad's Thobe of Redress,112,771,0,0,0,0,0,0,1,0,0,5,0,0,0,0,0,0,Drop,False,None
+Mongu Vestment of Honor,112,771,0,0,0,0,0,106,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Arcanum Sorcerer's Attire,108,760,0,0,0,0,0,0,1,0,0,5,0,0,0,0,0,0,Drop,False,None
+Rubal Khalat of Loyalty,114,759,0,0,4,10,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Kataba Outfit of Destiny,108,750,0,0,0,0,0,106,0,0,0,0,0,0,0,0,0,0,Retired,False,None
+Immaculate Djinn Vestment,112,747,0,0,4,10,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Walrusk Chokha of Dignity,108,729,0,0,4,10,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Enchanter's Robes of Poise,106,709,0,0,0,0,0,0,1,0,0,5,0,0,0,0,0,0,Drop,False,None
+Tayg Smock of Leveling,106,699,0,0,0,0,0,103,0,0,0,0,0,0,0,0,0,0,Gold,False,None
+Tundarian Coat of Fusion,106,679,0,0,4,9,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Evoker's Gallant Drape,104,658,0,0,0,0,0,0,1,0,0,4,0,0,0,0,0,0,Drop,False,None
+Noble Bleaks Finery,104,648,0,0,0,0,0,101,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Kossack Coat of Redress,104,628,0,0,4,8,0,0,0,0,0,0,0,0,0,0,0,0,Gold,False,None
+Mage's Robes of Aplomb,102,608,0,0,0,0,0,0,1,0,0,4,0,0,0,0,0,0,Gold,False,None
+Mantis Captain's Raiment (Level 98+),98,600,0,0,5,10,67,0,2,0,0,13,0,0,0,0,0,0,Retired,False,None
+Tundra Garment of Loyalty,102,598,0,0,0,0,0,98,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Hanging Stones Armor,78,580,0,0,4,7,60,0,1,0,0,10,0,0,0,0,0,0,Drop,False,None
+Urville Longcoat of Honor,102,577,0,0,3,8,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Prince of the Avian's Tunic,88,565,0,0,4,9,66,0,2,0,0,12,0,0,0,0,0,0,Drop,False,None
+Winged Tooth Knight's Tunic,88,515,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Robe of Lambent's Penance,70,504,0,0,5,6,71,0,0,0,0,6,0,0,0,0,0,0,Gold Key/Gauntlet,False,None
+Loyal Banner's Coat,78,485,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Royal Jouster's Armor,78,475,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Ensemble Uniform,52,432,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Armor of the BurrowBreaker,98,390,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Philosoraptor's Abstract Garb,88,385,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Arbiter's Raiment,45,360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Lawful Garment,54,302,0,0,0,0,33,0,0,0,0,0,0,9,0,0,0,0,Gold,False,None
+Attuned Uniform,54,302,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Coat of Veracity,40,288,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Garment of Generality,35,288,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Robe of the Chipper,40,288,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,None
+Sprightly Garments,35,288,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,None
+Tunic of Regularity,40,288,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Drape of Symmetry,45,240,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Robe of Equivalence,45,240,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Affable Cloak,25,216,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Cloak of Augury,35,192,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,None
+Dashing Cloak,35,192,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Enlivened Garment,35,192,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Quick-Witted Vestment,35,192,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Tunic of Tolerance,50,173,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Longcoat of Meditation,25,144,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Smokey's Robe of Integrity,25,144,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Sprockets' Equivalent Robe,25,144,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Threadbare Robe,20,144,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Vestment of Stability,25,144,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Krokotopian Balance Kaftan,15,130,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,Krokotopian Balance Set
+Raiment of Judgement,45,120,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,None
+Sovereign's Wrap,45,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,None
+Tunic of the Sphinx,45,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Tunic of Ataraxia,15,98,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Cloak of Harmony,15,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Robe of Cunning,15,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold,False,None
+Proficient Cloak,30,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Shroud of Rationality,15,96,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Vestment of the Eager,35,96,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Axiomatic Wrap,20,94,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Cloak of Civility,20,72,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Gobblestone's Bib,10,72,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Nails' Tunic of Equation,25,72,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Tunic of the Thinker,10,72,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,None
+Tunic of Vitality,10,72,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold,False,None
+Citrine Studded Cloak,5,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Edo's Shroud,15,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Cloak of the Sage,15,48,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Cloak of the Watchful,5,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Robe of Savvy,5,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Raiment of Resolution,50,0,0,0,0,9,22,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Coat of Utility,20,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Digger's Mail of Symmetry,98,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Cloak of Vigilance,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Polished Garments,20,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Suten's Shrewd Robe,20,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Robe of Excellence,30,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Smock of Dominion,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,None
+Sorcerer's Maroon Cloak,15,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Robe of the Lithe,35,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Tunic of Readiness,45,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Vestment of Stasis,25,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Vestment of Poise,30,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Zippy Tunic,35,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None

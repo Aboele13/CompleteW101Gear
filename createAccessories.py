@@ -53,6 +53,7 @@ def extract_information_from_url(url):
         start_index = None
         end_index = None
         level_required = None
+        gauntlet = False
         for i, line in enumerate(lines):
             if line.startswith("Item:"):
                 start_index = i
@@ -64,12 +65,24 @@ def extract_information_from_url(url):
                     level_required = 1
             if line.startswith("Image"):
                 end_index = i
-                break
+                continue
+            if end_index != None and end_index < i and "Gauntlet" in line:
+                gauntlet = True
         
         if start_index is not None and end_index is not None:
-            return lines[start_index:end_index], level_required, soup
+            if not gauntlet:
+                return lines[start_index:end_index], level_required, soup
+            else:
+                list = lines[start_index:end_index]
+                list.append("From Gauntlet")
+                return list, level_required, soup
         elif start_index is not None:
-            return lines[start_index:], level_required, soup
+            if not gauntlet:
+                return lines[start_index:], level_required, soup
+            else:
+                list = lines[start_index:]
+                list.append("From Gauntlet")
+                return list, level_required, soup
         else:
             return [], level_required, soup
     else:
@@ -229,6 +242,8 @@ def process_bullet_point(base_url, bullet_point):
         return None
     elif text_info:
         formatted_info = format_extracted_info(text_info)
+        if gear_type == "Amulet" and "Wizards Cannot Use" in formatted_info and formatted_info[formatted_info.index("Wizards Cannot Use") - 1] == school:
+            return None
         bonuses = parse_bonuses(formatted_info, item_name)
         item_data = {
             'Name': item_name,
@@ -237,17 +252,21 @@ def process_bullet_point(base_url, bullet_point):
         item_data.update(bonuses)
         
         # set the item's source
-        item_data['Source'] = findItemSource.get_item_source(item_name, formatted_info)
+        item_data['Source'] = findItemSource.get_item_source(item_name, formatted_info, False)
         
         # set the item's gear set (or None if none)
         item_data['Gear Set'] = formatted_info[formatted_info.index("From Set:") + 1] if "From Set:" in formatted_info else "None"
+        
+        # set whether item can be bought at bazaar or not
+        item_data['Auctionable'] = True if "Auctionable" in formatted_info else False
         
         # set the starting pips to only wands and decks
         total_pips = 0
         while "at start of battle." in formatted_info:
             at_start_of_battle_index = formatted_info.index("at start of battle.")
-            num_pips = int(formatted_info[at_start_of_battle_index - 2].replace("+", ""))
-            pip_worth = 2 if formatted_info[at_start_of_battle_index - 1] == 'Power Pip' else 1
+            num_pips_str = formatted_info[at_start_of_battle_index - 2].replace("+", "")
+            num_pips = 0 if num_pips_str == "No" else int(num_pips_str) 
+            pip_worth = 1 if formatted_info[at_start_of_battle_index - 1] == 'Pip' else 2
             total_pips += (num_pips * pip_worth)
             formatted_info = formatted_info[at_start_of_battle_index + 1:]
             
@@ -271,9 +290,9 @@ def only_show_necessary_cols(df):
     df["Owned"] = False
     
     if gear_type == "Wand" or gear_type == "Deck":
-        return df[['Name', 'Level', 'Health', 'Damage', 'Resist', 'Accuracy', 'Power Pip', 'Critical', 'Critical Block', 'Pierce', 'Stun Resist', 'Incoming', 'Outgoing', 'Pip Conserve', 'Shadow Pip', 'Archmastery', 'Starting Pips', 'Unlocked Tear', 'Unlocked Circle', 'Unlocked Square', 'Unlocked Triangle', 'Locked Tear', 'Locked Circle', 'Locked Square', 'Locked Triangle', 'Source', 'Owned', 'Gear Set']]
+        return df[['Name', 'Level', 'Health', 'Damage', 'Resist', 'Accuracy', 'Power Pip', 'Critical', 'Critical Block', 'Pierce', 'Stun Resist', 'Incoming', 'Outgoing', 'Pip Conserve', 'Shadow Pip', 'Archmastery', 'Starting Pips', 'Unlocked Tear', 'Unlocked Circle', 'Unlocked Square', 'Unlocked Triangle', 'Locked Tear', 'Locked Circle', 'Locked Square', 'Locked Triangle', 'Source', 'Auctionable', 'Owned', 'Gear Set']]
     else:
-        return df[['Name', 'Level', 'Health', 'Damage', 'Resist', 'Accuracy', 'Power Pip', 'Critical', 'Critical Block', 'Pierce', 'Stun Resist', 'Incoming', 'Outgoing', 'Pip Conserve', 'Shadow Pip', 'Archmastery', 'Unlocked Tear', 'Unlocked Circle', 'Unlocked Square', 'Unlocked Triangle', 'Locked Tear', 'Locked Circle', 'Locked Square', 'Locked Triangle', 'Source', 'Owned', 'Gear Set']]
+        return df[['Name', 'Level', 'Health', 'Damage', 'Resist', 'Accuracy', 'Power Pip', 'Critical', 'Critical Block', 'Pierce', 'Stun Resist', 'Incoming', 'Outgoing', 'Pip Conserve', 'Shadow Pip', 'Archmastery', 'Unlocked Tear', 'Unlocked Circle', 'Unlocked Square', 'Unlocked Triangle', 'Locked Tear', 'Locked Circle', 'Locked Square', 'Locked Triangle', 'Source', 'Auctionable', 'Owned', 'Gear Set']]
 
 def sort_by_cols(df, *args):
     return df.sort_values(by = list(args), ascending = [False] * len(args)).reset_index(drop=True)

@@ -1,4 +1,4 @@
 TODO:
 
-- accessories/mounts need to use source file
-- everything should get web access from webaccess file
+- correct logic to find source of mounts in source file, inlcuding roc doesn't say gauntlet at bottom
+- function to acknowledge enchantment item cards (called on set)

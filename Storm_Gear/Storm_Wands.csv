@@ -1,0 +1,323 @@
+Name,Level,Health,Damage,Resist,Accuracy,Power Pip,Critical,Critical Block,Pierce,Stun Resist,Incoming,Outgoing,Pip Conserve,Shadow Pip,Archmastery,Starting Pips,Unlocked Tear,Unlocked Circle,Unlocked Square,Unlocked Triangle,Locked Tear,Locked Circle,Locked Square,Locked Triangle,Source,Auctionable,Owned,Gear Set
+Electric Fairy Kei Parasol (Level 170+),170,0,30,0,4,0,156,74,10,0,0,0,0,19,0,2,0,0,0,0,1,0,0,0,Crowns,False,False,None
+Xibalba Crying Sky Sword (Level 170+),170,0,30,0,4,0,156,74,10,0,0,0,0,19,0,2,0,0,0,0,1,0,0,0,Raid,False,False,None
+Electric Fairy Kei Parasol (Level 160+),160,0,30,0,4,0,135,70,10,0,0,0,0,17,0,2,0,0,0,0,1,0,0,0,Crowns,False,False,None
+Fierce Dream Reaver Boomerang,170,0,30,0,4,0,78,74,9,0,0,0,243,0,0,2,0,0,0,0,1,0,0,0,Drop,False,False,None
+Electric Fairy Kei Parasol (Level 150+),150,0,30,0,3,0,128,66,8,0,0,0,0,16,0,2,0,0,0,0,1,0,0,0,Crowns,False,False,None
+Fractal Aeon Sword,160,0,29,0,0,0,135,70,9,0,0,0,225,0,0,2,0,0,0,0,0,0,1,0,Drop,False,False,None
+Xibalba Crying Sky Sword (Level 160+),160,0,29,0,0,0,135,70,9,0,0,0,0,17,0,2,0,0,0,0,0,0,1,0,Raid,False,False,None
+Fractured Aeon Sword,160,0,29,0,0,0,0,70,9,0,0,0,225,0,0,2,0,0,0,0,0,0,1,0,Crafting,False,False,None
+Fragmented Aeon Sword,160,0,29,0,0,0,0,70,9,0,0,0,225,0,0,2,0,0,0,0,0,0,1,0,Crafting,False,False,None
+Demiurge's Temper Sunderer,150,0,29,0,0,0,128,66,8,0,0,0,208,0,0,2,0,0,0,0,0,0,1,0,Crafting,False,False,None
+Merciless Storm Wand,150,0,29,0,0,0,128,66,8,0,0,0,208,0,0,2,0,0,0,0,0,0,1,0,Drop,False,False,None
+Electric Fairy Kei Parasol (Level 140+),140,0,28,0,3,0,126,64,8,0,0,0,0,14,0,2,0,0,0,0,1,0,0,0,Crowns,False,False,None
+Hunhau's Crying Sky Sword (Level 170+),170,0,27,0,0,0,136,74,9,0,0,0,213,21,0,2,0,0,0,0,1,0,0,0,Raid,False,False,None
+Fierce Dream Warper Boomerang,170,0,27,0,3,0,136,66,8,0,0,0,213,0,0,2,0,0,0,0,0,0,0,0,Drop,False,False,None
+Thunderous Enforcer's Gavel,165,0,27,0,3,0,127,64,8,0,0,0,205,0,0,2,0,0,0,0,0,0,0,0,Drop,False,False,None
+Crackling Night Mire Staff,160,0,27,0,5,0,118,0,8,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Housing Gauntlet,False,False,None
+Hunhau's Crying Sky Sword (Level 160+),160,0,27,0,0,0,118,0,8,0,0,0,197,19,0,2,0,0,0,0,0,0,1,0,Raid,False,False,None
+Tormented Night Mire Staff,160,0,27,0,5,0,118,0,8,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Housing Gauntlet,False,False,None
+Stormy Night Mire Staff (Level 160+),160,0,27,0,5,0,118,0,8,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Housing Gauntlet,False,False,None
+Striking City Dweller Cane,160,0,27,0,3,0,118,62,8,0,0,0,197,0,0,2,0,0,0,0,0,0,0,0,Drop,False,False,None
+Fraught Archival Quill (Level 170+),170,0,27,0,5,0,59,82,8,0,0,0,182,0,0,2,0,0,0,0,0,0,1,0,Housing Gauntlet,False,False,None
+Fraught Archival Quill (Level 160+),160,0,27,0,5,0,51,77,8,0,0,0,169,0,0,2,0,0,0,0,0,0,1,0,Crowns,False,False,None
+Gloomy Cerberus Master Wand (Level 150+),150,0,27,0,4,0,112,0,7,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,Crowns,False,False,None
+Stormy Night Mire Staff (Level 150+),150,0,27,0,4,0,112,0,7,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,Crowns,False,False,None
+Fraught Archival Quill (Level 150+),150,0,27,0,4,0,48,73,7,0,0,0,156,0,0,2,0,0,0,0,0,0,1,0,Crowns,False,False,None
+Umbra Queen's Shocked Staff (Level 170+),170,0,27,0,5,0,136,66,0,0,0,0,182,19,0,2,0,0,0,0,0,0,0,1,Rematch,False,False,None
+Wastelander's Shocked Crusher (Level 170+),170,0,27,0,5,0,136,66,0,0,0,0,182,19,0,2,0,0,0,0,0,0,0,1,Crowns,False,False,None
+Malistaire's Squall Staff (Level 160+),160,0,27,0,5,0,118,62,0,0,0,0,0,17,0,2,0,0,0,0,0,0,1,0,Rematch,False,False,None
+Wild Skyfarer's Kris (Level 160+),160,0,27,0,5,0,118,62,0,0,0,0,281,17,0,2,0,0,0,0,0,0,1,0,Crowns,False,False,None
+Wastelander's Shocked Crusher (Level 160+),160,0,27,0,5,0,118,62,0,0,0,0,169,17,0,2,0,0,0,0,0,0,0,1,Crowns,False,False,None
+Morganthe's Stormy Staff (Level 150+),150,0,27,0,4,0,112,59,0,0,0,0,260,16,0,2,0,0,0,0,0,0,1,0,Crowns,False,False,None
+Wastelander's Shocked Crusher (Level 150+),150,0,27,0,4,0,112,59,0,0,0,0,156,16,0,2,0,0,0,0,0,0,0,1,Crowns,False,False,None
+Fractal Masterpiece Sword,160,0,26,0,0,0,118,62,8,0,0,0,197,0,0,2,0,0,0,0,0,0,0,0,Drop,False,False,None
+Supreme Science Staff,148,0,26,0,0,0,89,0,0,0,0,0,239,18,0,2,0,0,0,0,0,0,1,0,Drop,True,False,None
+Electric Fairy Kei Parasol (Level 130+),130,0,25,0,3,0,124,62,8,0,0,0,0,13,0,2,0,0,0,0,1,0,0,0,Crowns,False,False,None
+Gloomy Cerberus Master Wand (Level 140+),140,0,25,0,4,0,110,0,7,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,Crowns,False,False,None
+Stormy Night Mire Staff (Level 140+),140,0,25,0,4,0,110,0,7,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,Crowns,False,False,None
+Fraught Archival Quill (Level 140+),140,0,25,0,4,0,48,71,7,0,0,0,144,0,0,2,0,0,0,0,0,0,1,0,Crowns,False,False,None
+Glistening Storm Saber,155,0,25,0,0,0,0,60,7,0,0,0,189,0,0,2,0,0,0,0,0,0,0,0,Drop,False,False,None
+Morganthe's Stormy Staff (Level 140+),140,0,25,0,4,0,110,57,0,0,0,0,240,14,0,2,0,0,0,0,0,0,1,0,Crowns,False,False,None
+Wastelander's Shocked Crusher (Level 140+),140,0,25,0,4,0,110,57,0,0,0,0,144,14,0,2,0,0,0,0,0,0,0,1,Crowns,False,False,None
+Wild Skyfarer's Kris (Level 140+),140,0,25,0,4,0,110,57,0,0,0,0,240,14,0,2,0,0,0,0,0,0,1,0,Crowns,False,False,None
+Daemonic Staff of Surging,170,0,24,0,6,0,156,66,12,0,0,0,213,0,0,2,0,0,0,0,1,0,0,0,Raid,False,False,None
+Squall Trueflight Bow (Level 170+),170,0,24,0,5,0,156,66,12,0,0,0,0,21,0,2,0,0,0,0,1,0,0,0,Gold Key,False,False,None
+Shocking Thunder Chasing Spear (Level 170+),170,0,24,0,5,0,156,66,12,0,0,0,0,21,0,2,0,0,0,0,1,0,0,0,Gold Key,False,False,None
+Nullity's Stormy Blade (Level 160+),160,0,24,0,6,0,135,62,11,0,0,0,197,0,0,2,0,0,0,0,0,0,1,0,Raid,False,False,None
+Nullity's Lightning Blade,160,0,24,0,6,0,0,62,11,0,0,0,197,0,0,2,0,0,0,0,0,0,1,0,Raid,False,False,None
+Nullity's Shocking Blade,160,0,24,0,6,0,0,62,11,0,0,0,197,0,0,2,0,0,0,0,0,0,1,0,Raid,False,False,None
+Nullity's Stormy Blade (Level 150+),150,0,24,0,5,0,128,59,10,0,0,0,182,0,0,2,0,0,0,0,0,0,1,0,Raid,False,False,None
+Supreme Electric Staff,148,0,24,0,0,0,94,0,9,0,0,0,0,19,0,2,0,0,0,0,0,0,1,0,Drop,True,False,None
+Electric Fairy Kei Parasol (Level 120+),120,0,24,0,3,0,121,62,8,0,0,0,0,12,0,2,0,0,0,0,1,0,0,0,Crowns,False,False,None
+Thunderous Protector's Gavel,165,0,24,0,0,0,109,56,7,0,0,0,176,0,0,2,0,0,0,0,0,0,0,0,Drop,True,False,None
+Striking Townie Cane,160,0,24,0,0,0,101,54,7,0,0,0,169,0,0,2,0,0,0,0,0,0,0,0,Drop,True,False,None
+Eternal Fractured Sword,160,0,24,0,5,0,135,0,0,0,0,0,253,0,0,2,0,0,0,0,0,0,1,0,Crafting,False,False,None
+Eternal Fragmented Sword,160,0,24,0,5,0,135,0,0,0,0,0,253,0,0,2,0,0,0,0,0,0,1,0,Crafting,False,False,None
+Eternal Fractal Sword,160,0,24,0,5,0,135,0,0,0,0,0,253,0,0,2,0,0,0,0,0,0,1,0,Crafting,False,False,None
+Floramancer Relic of Thorns (Level 160+),150,0,24,0,6,0,135,70,0,0,0,0,225,17,0,2,0,0,0,0,0,0,1,0,Crowns,False,False,None
+Great Inventor's Storm Scanner (Level 160+),160,0,24,0,5,0,135,0,0,0,0,0,253,0,0,2,0,0,0,0,0,0,1,0,Crowns,False,False,None
+The Void's Shocking Blade,160,0,24,0,6,0,135,70,0,0,0,0,225,17,0,2,0,0,0,0,0,0,1,0,Raid,False,False,None
+The Void's Lightning Blade,160,0,24,0,6,0,135,70,0,0,0,0,225,17,0,2,0,0,0,0,0,0,1,0,Raid,False,False,None
+The Void's Stormy Blade (Level 160+),160,0,24,0,6,0,135,70,0,0,0,0,225,17,0,2,0,0,0,0,0,0,1,0,Raid,False,False,None
+Floramancer Relic of Thorns (Level 150+),150,0,24,0,5,0,128,66,0,0,0,0,208,16,0,2,0,0,0,0,0,0,1,0,Crowns,False,False,None
+Great Inventor's Storm Scanner (Level 150+),150,0,24,0,4,0,128,0,0,0,0,0,234,0,0,2,0,0,0,0,0,0,1,0,Crowns,False,False,None
+The Void's Stormy Blade (Level 150+),150,0,24,0,5,0,128,66,0,0,0,0,208,16,0,2,0,0,0,0,0,0,1,0,Raid,False,False,None
+Unreal Staff of Surging,170,0,24,0,6,0,117,74,0,0,0,0,182,19,0,2,0,0,0,0,0,0,0,1,Raid,False,False,None
+Hierarch's Science Staff,145,0,24,0,0,0,84,0,0,0,0,0,220,17,0,2,0,0,0,0,0,0,1,0,Drop,True,False,None
+Hierarch's Electric Staff,145,0,23,0,0,0,89,0,8,0,0,0,0,18,0,2,0,0,0,0,0,0,1,0,Drop,True,False,None
+Artillery Officer Bayonet,150,0,23,0,0,0,112,58,7,0,0,0,182,0,0,2,0,0,0,0,0,0,0,0,Drop,False,False,None
+Stormy Night Mire Staff (Level 130+),130,0,23,0,4,0,108,0,7,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,Crowns,False,False,None
+Fraught Archival Quill (Level 130+),130,0,23,0,4,0,47,68,7,0,0,0,142,0,0,2,0,0,0,0,0,0,1,0,Crowns,False,False,None
+Morganthe's Stormy Staff (Level 130+),130,0,23,0,4,0,108,55,0,0,0,0,236,13,0,2,0,0,0,0,0,0,1,0,Crowns,False,False,None
+Wastelander's Shocked Crusher (Level 130+),130,0,23,0,4,0,108,55,0,0,0,0,142,13,0,2,0,0,0,0,0,0,0,1,Crowns,False,False,None
+Wild Skyfarer's Kris (Level 130+),130,0,23,0,4,0,108,55,0,0,0,0,236,13,0,2,0,0,0,0,0,0,1,0,Crowns,False,False,None
+Malevolent Storm Wand,150,0,23,0,0,0,91,0,0,0,0,0,206,18,0,2,0,0,0,0,0,0,1,0,Drop,False,False,None
+Delightful Sciencer Staff,140,0,23,0,0,0,88,0,0,0,0,0,184,18,0,2,0,0,0,0,0,0,1,0,Crafting,False,False,None
+Uber Sciencer Staff,140,0,23,0,0,0,88,0,0,0,0,0,184,18,0,2,0,0,0,0,0,0,1,0,Drop,False,False,None
+Lemurian Science Staff,142,0,23,0,0,0,79,0,0,0,0,0,203,17,0,2,0,0,0,0,0,0,1,0,Drop,True,False,None
+Supreme Deflector Staff,148,0,23,0,0,0,79,66,0,0,0,0,0,17,0,2,0,0,0,0,0,0,1,0,Drop,True,False,None
+Shocking Thunder Chasing Spear (Level 140+),140,0,22,0,4,0,126,57,10,0,0,0,0,16,0,2,0,0,0,0,1,0,0,0,Crowns,False,False,None
+Electric Fairy Kei Parasol (Level 110+),110,0,22,0,3,0,118,59,8,0,0,0,0,11,0,2,0,0,0,0,1,0,0,0,Crowns,False,False,None
+Lemurian Electric Staff,142,0,22,0,0,0,84,0,8,0,0,0,0,18,0,2,0,0,0,0,0,0,1,0,Drop,True,False,None
+Fraught Archival Quill (Level 120+),120,0,22,0,4,0,46,68,7,0,0,0,122,0,0,2,0,0,0,0,0,0,1,0,Crowns,False,False,None
+Golden Storm Saber,155,0,22,0,0,0,98,53,6,0,0,0,162,0,0,2,0,0,0,0,0,0,0,0,Drop,True,False,None
+Floramancer Relic of Thorns (Level 140+),140,0,22,0,5,0,126,64,0,0,0,0,192,14,0,2,0,0,0,0,0,0,1,0,Crowns,False,False,None
+Great Inventor's Storm Scanner (Level 140+),140,0,22,0,4,0,126,0,0,0,0,0,216,0,0,2,0,0,0,0,0,0,1,0,Crowns,False,False,None
+Wastelander's Shocked Crusher (Level 120+),120,0,22,0,4,0,106,55,0,0,0,0,122,12,0,2,0,0,0,0,0,0,0,1,Crowns,False,False,None
+Magician's Storm Wand,150,0,22,0,0,0,89,0,0,0,0,0,200,17,0,2,0,0,0,0,0,0,1,0,Drop,False,False,None
+Hierarch's Deflector Staff,145,0,22,0,0,0,84,63,0,0,0,0,0,16,0,2,0,0,0,0,0,0,1,0,Drop,True,False,None
+Director Insulated Meter,138,0,22,0,0,0,78,0,0,0,0,0,222,17,0,2,0,0,0,0,0,0,1,0,Drop,True,False,None
+Diviner's Mystic Sphere (Level 160+),160,0,21,0,0,0,118,0,10,0,0,0,0,17,0,2,0,0,0,0,0,0,1,0,Gold Key,False,False,None
+Diviner's Mystic Sphere (Level 150+),150,0,21,0,0,0,112,0,9,0,0,0,0,16,0,2,0,0,0,0,0,0,1,0,Crowns,False,False,None
+Stormy Night Mire Staff (Level 120+),120,0,21,0,4,0,106,0,7,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,Crowns,False,False,None
+Executive Insulated Meter,138,0,21,0,0,0,83,0,7,0,0,0,0,18,0,2,0,0,0,0,0,0,1,0,Drop,True,False,None
+Regulation Artillery Bayonet,150,0,21,0,0,0,0,51,6,0,0,0,156,0,0,2,0,0,0,0,0,0,0,0,Drop,True,False,None
+Highlands Warrior's Staff (Level 150+),150,0,21,0,0,0,128,0,0,0,0,0,234,13,0,2,0,0,1,0,0,0,0,0,Crowns,False,False,None
+Morganthe's Stormy Staff (Level 120+),120,0,21,0,4,0,106,55,0,0,0,0,202,12,0,2,0,0,0,0,0,0,1,0,Crowns,False,False,None
+Wild Skyfarer's Kris (Level 120+),120,0,21,0,4,0,106,55,0,0,0,0,202,12,0,2,0,0,0,0,0,0,1,0,Crowns,False,False,None
+Wunderbar Sciencer Staff,140,0,21,0,0,0,85,0,0,0,0,0,176,17,0,2,0,0,0,0,0,0,1,0,Drop,False,False,None
+Lead's Insulated Meter,135,0,21,0,0,0,72,0,0,0,0,0,204,16,0,2,0,0,0,0,0,0,1,0,Drop,True,False,None
+Chief's Insulated Meter,135,0,20,0,0,0,76,0,7,0,0,0,0,17,0,2,0,0,0,0,0,0,1,0,Drop,True,False,None
+Electric Fairy Kei Parasol (Level 100+),100,0,20,0,0,0,118,59,6,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Gloomy Cerberus Master Wand (Level 130+),130,0,20,0,0,0,108,0,6,0,0,0,0,13,0,2,0,0,0,0,0,0,1,0,Crowns,False,False,None
+Lightning-Fried Marshmallow,140,0,20,0,0,0,78,0,6,0,0,0,220,18,0,2,0,0,0,0,0,0,1,0,Stone Key,False,False,None
+Ione's Focused Sword,125,0,20,0,0,0,60,0,6,0,0,0,235,0,0,2,0,0,2,0,0,0,0,0,Crafting,False,False,None
+Fraught Archival Quill (Level 110+),110,0,20,0,4,0,45,65,6,0,0,0,110,0,0,2,0,0,0,0,0,0,1,0,Crowns,False,False,None
+Floramancer Relic of Thorns (Level 130+),130,0,20,0,5,0,124,62,0,0,0,0,189,13,0,2,0,0,0,0,0,0,1,0,Crowns,False,False,None
+Great Inventor's Storm Scanner (Level 130+),130,0,20,0,4,0,124,0,0,0,0,0,213,0,0,2,0,0,0,0,0,0,1,0,Crowns,False,False,None
+Highlands Warrior's Staff (Level 130+),130,0,20,0,4,0,124,0,0,0,0,0,213,0,0,2,0,0,1,0,0,0,0,0,Crowns,False,False,None
+Wastelander's Shocked Crusher (Level 110+),110,0,20,0,4,0,103,52,0,0,0,0,110,11,0,2,0,0,0,0,0,0,0,1,Crowns,False,False,None
+Dragoon's Shocking Sword,130,0,20,0,0,0,88,0,0,0,0,0,265,0,0,2,0,0,0,0,0,0,1,0,Crafting,False,False,Dragoon's Shocking Set
+Guten Sciencer Staff,140,0,20,0,0,0,83,0,0,0,0,0,171,16,0,2,0,0,0,0,0,0,1,0,Drop,False,False,None
+Alphoi Charger Glaive,130,0,20,0,0,0,80,0,0,0,0,0,114,0,0,2,0,0,0,0,0,0,1,0,Crafting,False,False,None
+Stormy Paradox Defenders,130,0,20,0,0,0,80,0,0,0,0,0,114,0,0,2,0,0,0,0,0,0,1,0,Drop,False,False,None
+Lemurian Deflector Staff,142,0,20,0,0,0,79,59,0,0,0,0,0,16,0,2,0,0,0,0,0,0,1,0,Drop,True,False,None
+Producer's Insulated Meter,138,0,20,0,0,0,70,62,0,0,0,0,0,16,0,2,0,0,0,0,0,0,1,0,Drop,True,False,None
+Flashy Photon Foil,140,0,20,0,0,0,69,0,0,0,0,0,171,15,0,2,0,0,1,0,0,0,0,0,Unavailable,False,False,None
+Specialist Insulated Meter,132,0,20,0,0,0,65,0,0,0,0,0,187,16,0,0,0,0,0,0,0,0,1,0,Drop,True,False,None
+Diviner's Mystic Sphere (Level 140+),140,0,19,0,0,0,110,0,9,0,0,0,0,14,0,2,0,0,0,0,0,0,1,0,Crowns,False,False,None
+Sandstorm Sword and Shield,100,0,19,0,0,0,118,59,6,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,False,None
+Gloomy Cerberus Master Wand (Level 110+),110,0,19,0,4,0,103,0,6,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,Crowns,False,False,None
+Stormy Night Mire Staff (Level 110+),110,0,19,0,4,0,103,0,6,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,Crowns,False,False,None
+Electric Fairy Kei Parasol (Level 90+),90,0,19,0,0,0,118,41,5,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Floramancer Relic of Thorns (Level 120+),120,0,19,0,5,0,121,62,0,0,0,0,162,12,0,2,0,0,0,0,0,0,1,0,Crowns,False,False,None
+Great Inventor's Storm Scanner (Level 120+),120,0,19,0,4,0,121,0,0,0,0,0,182,0,0,2,0,0,0,0,0,0,1,0,Crowns,False,False,None
+Highlands Warrior's Staff (Level 120+),120,0,19,0,4,0,121,0,0,0,0,0,182,0,0,2,0,0,1,0,0,0,0,0,Crowns,False,False,None
+Morganthe's Stormy Staff (Level 110+),110,0,19,0,4,0,103,52,0,0,0,0,183,11,0,2,0,0,0,0,0,0,1,0,Crowns,False,False,None
+Wild Skyfarer's Kris (Level 110+),110,0,19,0,4,0,103,52,0,0,0,0,183,11,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Vanguard's Shocking Sword,130,0,19,0,0,0,86,0,0,0,0,0,260,0,0,2,0,0,0,0,0,0,1,0,Drop,False,False,None
+Crackling Zanadu Lance,130,0,19,0,0,0,74,0,0,0,0,0,112,0,0,2,0,0,0,0,0,0,1,0,Drop,False,False,None
+Fierce Dream Stalker Boomerang,170,0,18,0,5,0,0,82,10,0,0,0,152,17,0,2,0,0,0,0,0,0,1,0,Crafting,False,False,None
+Shocking Thunder Chasing Spear (Level 110+),110,0,18,0,4,0,118,52,9,0,0,0,0,12,0,2,0,0,0,0,1,0,0,0,Crowns,False,False,None
+Diviner's Mystic Sphere (Level 130+),130,0,18,0,0,0,108,0,9,0,0,0,0,13,0,2,0,0,0,0,0,0,1,0,Crowns,False,False,None
+Consultant Insulated Meter,132,0,18,0,0,0,69,0,6,0,0,0,0,17,0,2,0,0,0,0,0,0,1,0,Drop,True,False,None
+Ione's Legendary Sword,115,0,18,0,0,0,50,0,6,0,0,0,125,0,0,2,0,0,1,0,0,0,0,0,Crafting,False,False,None
+Fraught Archival Quill (Level 100+),100,0,18,0,0,0,103,65,5,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Housing Gauntlet,False,False,None
+Gloomy Cerberus Master Wand (Level 100+),100,0,18,0,0,0,103,0,5,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Stormy Night Mire Staff (Level 100+),100,0,18,0,0,0,103,0,5,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Sandstorm Armaments,100,0,18,0,0,0,103,52,5,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,False,None
+Malistaire's Squall Staff (Level 100+),100,0,18,0,5,0,103,52,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Rematch,False,False,None
+Morganthe's Stormy Staff (Level 100+),100,0,18,0,5,0,103,52,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Umbra Queen's Shocked Staff (Level 100+),100,0,18,0,5,0,103,52,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Rematch,False,False,None
+Wastelander's Shocked Crusher (Level 100+),100,0,18,0,5,0,103,52,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Wild Skyfarer's Kris (Level 100+),100,0,18,0,5,0,103,52,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Sycorax's Crook of Tempests,130,0,18,0,0,0,85,0,0,0,0,0,117,0,0,2,0,0,0,0,0,0,1,0,Stone Key,False,False,None
+Supervisor Insulated Meter,135,0,18,0,0,0,72,58,0,0,0,0,0,15,0,2,0,0,0,0,0,0,1,0,Drop,True,False,None
+Cabalist Banner of Finality,125,0,18,0,0,0,71,0,0,0,0,0,108,0,0,2,0,0,0,0,0,0,1,0,Drop,True,False,None
+Storm Liaison's Sword,130,0,18,0,0,0,60,0,0,0,0,0,171,15,0,2,0,0,1,0,0,0,0,0,Unavailable,False,False,None
+Fraught Archival Quill (Level 90+),90,0,17,0,0,0,103,45,5,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Stormy Night Mire Staff (Level 90+),90,0,17,0,0,0,103,0,5,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Electric Fairy Kei Parasol (Level 80+),80,0,17,0,0,0,100,36,5,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Gnarly Kalakrys,127,0,17,0,0,0,0,0,5,0,0,0,192,0,0,2,0,0,0,0,0,0,1,0,Drop,True,False,None
+Floramancer Relic of Thorns (Level 110+),110,0,17,0,5,0,118,59,0,0,0,0,146,11,0,2,0,0,0,0,0,0,1,0,Crowns,False,False,None
+Great Inventor's Storm Scanner (Level 110+),110,0,17,0,4,0,118,0,0,0,0,0,165,0,0,2,0,0,0,0,0,0,1,0,Crowns,False,False,None
+Morganthe's Stormy Staff (Level 90+),90,0,17,0,5,0,103,36,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Wastelander's Shocked Crusher (Level 90+),90,0,17,0,5,0,103,36,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Wild Skyfarer's Kris (Level 90+),90,0,17,0,5,0,103,36,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Majoris Curio of Fortitude,110,0,17,0,0,0,68,57,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,False,None
+Time Warden Downpour Kilij,120,0,17,0,0,0,68,0,0,0,0,0,100,0,0,2,0,0,0,0,0,0,1,0,Drop,False,False,None
+Contractor Insulated Meter,132,0,17,0,0,0,65,55,0,0,0,0,0,15,0,2,0,0,0,0,0,0,1,0,Drop,True,False,None
+Navigator's Hexacorder,122,0,16,0,0,0,0,0,5,0,0,0,184,0,0,2,0,0,0,0,0,0,1,0,Drop,True,False,None
+Highlands Warrior's Staff (Level 110+),110,0,16,0,0,0,118,0,0,0,0,0,164,9,0,2,0,0,1,0,0,0,0,0,Crowns,False,False,None
+Titan Warrior Focus of Waves,110,0,16,0,0,0,64,53,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,False,None
+Diviner's Mystic Sphere (Level 110+),110,0,15,0,0,0,103,0,8,0,0,0,0,11,0,2,0,0,0,0,0,0,1,0,Crowns,False,False,None
+Luphilim's Howling Razor,110,0,15,0,0,0,67,0,6,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,Stone Key,False,False,None
+Fraught Archival Quill (Level 80+),80,0,15,0,0,0,88,40,5,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Stormy Night Mire Staff (Level 80+),80,0,15,0,0,0,88,0,5,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Electric Fairy Kei Parasol (Level 70+),70,0,15,0,0,0,78,35,5,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Morganthe's Stormy Staff (Level 80+),80,0,15,0,5,0,88,32,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Wastelander's Shocked Crusher (Level 80+),80,0,15,0,5,0,88,32,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Wild Skyfarer's Kris (Level 80+),80,0,15,0,5,0,88,32,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Borealis Relic of Windswirls,110,0,15,0,0,0,60,49,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,False,None
+Haxacorder of Resilience,120,0,15,0,0,0,0,45,0,0,0,0,177,0,0,2,0,0,0,0,0,0,1,0,Unavailable,False,False,None
+Diviner's Mystic Sphere (Level 100+),100,0,14,0,0,0,103,0,7,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Gold Key,False,False,None
+Scorpion Bow of Lightning,118,0,14,0,0,0,0,0,5,0,0,0,177,0,0,2,0,0,0,0,0,0,0,0,Drop,True,False,None
+Gloomy Cerberus Master Wand (Level 90+),90,0,14,0,0,0,103,0,4,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Diviner's Mystic Sphere (Level 90+),90,0,13,0,0,0,103,0,6,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Fraught Archival Quill (Level 70+),70,0,13,0,0,0,68,38,5,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Gloomy Cerberus Master Wand (Level 70+),70,0,13,0,0,0,68,0,5,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Stormy Night Mire Staff (Level 70+),70,0,13,0,0,0,68,0,5,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Alkali Bow of Monsoons,114,0,13,0,0,0,0,0,5,0,0,0,170,0,0,2,0,0,0,0,0,0,0,0,Drop,True,False,None
+Thundering Rubal Bow,116,0,13,0,0,0,0,0,5,0,0,0,174,0,0,2,0,0,0,0,0,0,0,0,Drop,True,False,None
+Electric Fairy Kei Parasol (Level 60+),60,0,13,0,0,0,69,35,4,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Morganthe's Stormy Staff (Level 70+),70,0,13,0,5,0,68,31,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Wastelander's Shocked Crusher (Level 70+),70,0,13,0,5,0,68,31,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Wild Skyfarer's Kris (Level 70+),70,0,13,0,5,0,68,31,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Diviner's Mystic Sphere (Level 80+),80,0,12,0,0,0,88,0,6,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Arcanum Diviner's Stave,108,0,12,0,0,0,0,0,5,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,True,False,None
+Purrzian Bow of Sandstorms,112,0,12,0,0,0,0,0,5,0,0,0,167,0,0,2,0,0,0,0,0,0,0,0,Drop,True,False,None
+Electric Fairy Kei Parasol (Level 50+),50,0,12,0,0,0,0,0,4,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Great Inventor's Storm Scanner (Level 100+),100,0,12,0,5,0,118,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Enchanter's Lightning Wand,106,0,11,0,0,0,0,0,5,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Gold Vendor,False,False,None
+Evoker's Stave of Squalls,104,0,11,0,0,0,0,0,5,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,True,False,None
+Fraught Archival Quill (Level 60+),60,0,11,0,0,0,61,38,4,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Gloomy Cerberus Master Wand (Level 60+),60,0,11,0,0,0,61,0,4,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Stormy Night Mire Staff (Level 60+),60,0,11,0,0,0,61,0,4,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Fraught Archival Quill (Level 50+),50,0,11,0,0,0,0,0,4,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Housing Gauntlet,False,False,None
+Shockblade of the Hoarder,50,0,11,0,0,0,0,0,4,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,False,None
+Highlands Warrior's Staff (Level 100+),100,0,11,0,4,0,118,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Highlands Warrior's Staff (Level 90+),90,0,11,0,5,0,118,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Great Inventor's Storm Scanner (Level 90+),90,0,11,0,5,0,118,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Morganthe's Stormy Staff (Level 60+),60,0,11,0,5,0,61,31,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Wastelander's Shocked Crusher (Level 60+),60,0,11,0,5,0,61,31,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Wild Skyfarer's Kris (Level 60+),60,0,11,0,5,0,61,31,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Wastelander's Shocked Crusher (Level 50+),50,0,11,0,5,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Mage's Blustery Stave,102,0,10,0,0,0,0,0,5,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,True,False,None
+Spellsword of the Hoarder,50,0,10,0,0,0,0,0,4,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,False,None
+Electric Fairy Kei Parasol (Level 30+),30,0,10,0,0,0,0,0,3,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Floramancer Relic of Thorns (Level 80+),80,0,10,0,5,0,100,36,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Great Inventor's Storm Scanner (Level 80+),80,0,10,0,5,0,100,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Highlands Warrior's Staff (Level 80+),80,0,10,0,4,0,100,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Diviner's Mystic Sphere (Level 60+),60,0,9,0,0,0,61,0,5,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Fraught Archival Quill (Level 30+),30,0,9,0,0,0,0,0,3,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Fraught Archival Quill (Level 40+),40,0,9,0,0,0,0,0,3,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Floramancer Relic of Thorns (Level 70+),70,0,9,0,5,0,78,35,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Highlands Warrior's Staff (Level 70+),70,0,9,0,5,0,78,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Great Inventor's Storm Scanner (Level 70+),70,0,9,0,5,0,78,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Wastelander's Shocked Crusher (Level 40+),40,0,9,0,5,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Wastelander's Shocked Crusher (Level 30+),30,0,9,0,5,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Diviner's Mystic Sphere (Level 50+),50,0,8,0,0,0,0,0,5,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Gold Key,False,False,None
+Stormy Night Mire Staff (Level 50+),50,0,8,0,0,0,0,0,5,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Floramancer Relic of Thorns (Level 60+),70,0,8,0,5,0,69,35,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Highlands Warrior's Staff (Level 60+),60,0,8,0,5,0,69,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Great Inventor's Storm Scanner (Level 60+),60,0,8,0,5,0,69,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Diviner's Mystic Sphere (Level 20+),20,0,8,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Electric Fairy Kei Parasol (Level 20+),20,0,8,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Morganthe's Stormy Staff (Level 20+),20,0,8,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Stormy Night Mire Staff (Level 20+),20,0,8,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Wastelander's Shocked Crusher (Level 20+),20,0,8,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Tetrus Baton of Torrents,118,0,8,0,0,0,0,56,0,0,0,0,199,0,0,2,0,0,0,0,0,0,0,0,Drop,True,False,None
+Wild Skyfarer's Kris (Level 20+),20,0,8,0,0,0,0,0,0,0,0,3,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Great Inventor's Storm Scanner (Level 50+),50,0,7,0,5,0,0,0,4,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Highlands Warrior's Staff (Level 50+),50,0,7,0,5,0,0,0,4,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Diviner's Mystic Sphere (Level 30+),30,0,7,0,0,0,0,0,3,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Diviner's Mystic Sphere (Level 40+),40,0,7,0,0,0,0,0,3,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Gloomy Cerberus Master Wand (Level 40+),40,0,7,0,0,0,0,0,3,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Stormy Night Mire Staff (Level 40+),40,0,7,0,0,0,0,0,3,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Stormy Night Mire Staff (Level 30+),30,0,7,0,0,0,0,0,3,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Electric Fairy Kei Parasol (Level 10+),10,0,7,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Diviner's Mystic Sphere (Level 10+),10,0,7,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Fraught Archival Quill (Level 10+),10,0,7,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Gloomy Cerberus Master Wand (Level 10+),10,0,7,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Electrified Restrictor Wand,114,0,7,0,0,0,0,52,0,0,0,0,191,0,0,2,0,0,0,0,0,0,0,0,Drop,True,False,None
+Morganthe's Stormy Staff (Level 10+),10,0,7,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Kobra Sceptor of Flooding,116,0,7,0,0,0,0,54,0,0,0,0,195,0,0,2,0,0,0,0,0,0,0,0,Drop,True,False,None
+Stormy Night Mire Staff (Level 10+),10,0,7,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Wastelander's Shocked Crusher (Level 10+),10,0,7,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Highlands Warrior's Staff (Level 40+),40,0,6,0,5,0,0,0,3,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Great Inventor's Storm Scanner (Level 30+),30,0,6,0,5,0,0,0,3,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Highlands Warrior's Staff (Level 30+),30,0,6,0,5,0,0,0,3,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Bleaks Axe of Snowstorms,104,0,6,0,0,0,0,47,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Gold Vendor,False,False,None
+Kataba Bardiche of Havoc,108,0,6,0,0,0,0,50,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,True,False,None
+Tayg Hatchet of Sleetfall,106,0,6,0,0,0,0,49,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,True,False,None
+Viper Dunstorms Stave,112,0,6,0,0,0,0,50,0,0,0,0,188,0,0,2,0,0,0,0,0,0,0,0,Drop,True,False,None
+Bonebreaker Rod of Sparks,40,0,5,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,False,None
+Clouds of Barkingham Baton,40,0,5,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,False,None
+Krokomaic Maelstrom Staff,40,0,5,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,False,None
+Tundra Axe of Hailstorms,102,0,5,0,0,0,0,46,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,True,False,None
+Zeus' Lightning Striker,30,0,5,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,Drop,False,False,None
+Adept's Windstorm Spear,30,0,4,0,5,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crafting,False,False,None
+Electric Fairy Kei Parasol (Any Level),1,0,4,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Diviner's Mystic Sphere (Any Level),1,0,4,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Fraught Archival Quill (Any Level),1,0,4,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Morganthe's Stormy Staff (Any Level),1,0,4,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Himoolayan Hailstone Ji,25,0,4,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Drop,False,False,None
+Stormy Night Mire Staff (Any Level),1,0,4,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Wild Skyfarer's Kris (Any Level),1,0,4,0,0,0,0,0,0,0,0,2,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Trophy of the Raucous Court,40,0,4,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,False,None
+Himoolayan Lute of Snowfall,25,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,False,None
+Mace of Noble Conquest,40,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,False,None
+Daniel's Stormy Answer,75,0,2,0,0,0,40,35,5,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Stone Key,False,False,None
+Snows of Kembaalung Saber,25,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,False,None
+Staff of the Dragon's Maw,100,0,0,0,0,0,100,95,13,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,False,None
+Eye of the Storm Pair,100,0,0,0,0,0,85,75,10,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,False,None
+Bludgeon of the Dark Skies,100,0,0,0,0,0,65,55,7,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,False,None
+Immortals' Havoc Scepter,100,0,0,0,0,0,90,98,6,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,False,None
+Black Cloud Carnage,95,0,0,0,0,0,55,20,5,0,1,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,False,None
+Hades' Staff of Tempests,90,0,0,0,0,0,45,0,5,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,False,None
+Malistaire's Squall Staff (Level 50+),50,0,0,0,5,0,0,0,5,0,0,3,0,0,0,2,0,0,0,0,0,0,0,0,Rematch,False,False,None
+Morganthe's Stormy Staff (Level 50+),50,0,0,0,5,0,0,0,5,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Transcendent Cyclone Spear,90,0,0,0,0,0,85,0,4,0,0,5,0,0,0,2,0,0,0,0,0,0,0,0,Crafting,False,False,None
+Banetail's Charged Sting,92,0,0,0,0,0,54,0,4,0,0,5,0,0,0,2,0,0,0,0,0,0,0,0,Drop,True,False,None
+Floramancer Relic of Thorns (Level 50+),50,0,0,0,5,0,0,0,4,0,0,3,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Stave of Duststorms,96,0,0,0,0,0,0,0,4,0,0,5,0,0,0,2,0,0,0,0,0,0,0,0,Drop,True,False,None
+Sandswells Greatblade,60,0,0,0,0,0,0,45,4,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,False,None
+Knave's Rushing Baton,70,0,0,0,0,0,76,0,3,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,False,None
+Sword of Kings (Storm),76,0,0,0,0,0,42,18,3,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,False,None
+Lambent's Stick of Clamoring,70,0,0,0,0,0,0,0,3,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Gold Key,False,False,None
+Morganthe's Stormy Staff (Level 30+),30,0,0,0,5,0,0,0,3,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Morganthe's Stormy Staff (Level 40+),40,0,0,0,5,0,0,0,3,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Wild Skyfarer's Kris (Level 40+),40,0,0,0,5,0,0,0,3,0,0,3,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Wild Skyfarer's Kris (Level 30+),30,0,0,0,5,0,0,0,3,0,0,3,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Ares' Cyclone Spear,90,0,0,0,0,0,72,0,2,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,False,None
+Trident of Shock Waves,90,0,0,0,0,0,57,0,2,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,False,None
+Condemned Codex of Havoc,60,0,0,0,0,0,0,38,2,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Stone Key,False,False,None
+Krokopatra Maelstrom Staff,100,0,0,0,0,0,102,75,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,False,None
+Zeus' Thunderstrike Staff,90,0,0,0,0,0,95,0,0,0,10,5,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,False,None
+Rogue's Rushing Baton,100,0,0,0,2,0,80,102,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,False,None
+Artisan's Waterspout Spear,70,0,0,0,6,0,78,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crafting,False,False,None
+Ares' Waterspout Spear,70,0,0,0,5,0,72,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,False,None
+Myriarch Tabarzin of Chaos,118,0,0,0,0,0,72,56,0,0,0,0,100,0,0,2,0,0,0,0,0,0,0,0,Drop,True,False,None
+Voltaic Durvish Armaments,116,0,0,0,0,0,70,54,0,0,0,0,98,0,0,2,0,0,0,0,0,0,0,0,Drop,True,False,None
+Conscript Tabar of Havoc,114,0,0,0,0,0,69,52,0,0,0,0,96,0,0,2,0,0,0,0,0,0,0,0,Drop,True,False,None
+Vexing Purrzian Axe & Shield,112,0,0,0,0,0,68,50,0,0,0,0,94,0,0,2,0,0,0,0,0,0,0,0,Drop,True,False,None
+Bonesmasher Rod of Sparks,100,0,0,0,0,0,60,60,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,False,None
+Walrusk Cutlass of Graupel,108,0,0,0,0,0,57,50,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,True,False,None
+Tarantula Hawk's Black Wind,94,0,0,0,0,0,55,15,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,True,False,None
+Tundarian Cutlass of Flux,106,0,0,0,0,0,55,49,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,True,False,None
+Kossack Cutlass of Tempests,104,0,0,0,0,0,54,47,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,True,False,None
+Poseidon's Squalls Trident,70,0,0,0,0,0,54,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,False,None
+StormSky's Edge,90,0,0,0,0,0,53,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,True,False,None
+Urville Cutlass of Snowgusts,102,0,0,0,0,0,52,46,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Gold Vendor,False,False,None
+Lost World Cloud Atlatl,85,0,0,0,0,0,38,38,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Gold Key,False,False,None
+Advanced Storm Wand,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Aphrodite's Rainstick,100,0,0,0,0,0,0,95,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Stone Key,False,False,None
+Great Inventor's Storm Scanner (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Great Inventor's Storm Scanner (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Highlands Warrior's Staff (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Highlands Warrior's Staff (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Highlands Warrior's Staff (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,False,None
+Krokotopian Cloudburst Scepter,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Drop,False,False,Krokotopian Storm Set
+Takanobu's Edge of Sparks,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,False,None
+Wrath of Anubis Staff,60,0,0,0,0,0,0,32,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,False,None

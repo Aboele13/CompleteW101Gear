@@ -1,445 +1,447 @@
 Name,Level,Health,Damage,Resist,Accuracy,Power Pip,Critical,Critical Block,Pierce,Stun Resist,Incoming,Outgoing,Pip Conserve,Shadow Pip,Archmastery,Sword Pins,Shield Pins,Power Pins,Source,Owned,Gear Set
-Electric Fairy Kei Broadbrim (Level 170+),170,647,37,9,6,0,209,77,7,0,0,0,0,19,0,2,1,0,Crowns,False,False
-Xibalba Crying Sky Helm (Level 170+),170,647,37,9,6,0,209,77,7,0,0,0,0,19,0,2,1,0,Raid,False,False
-Fierce Dream Reaver Hood,170,831,37,7,6,9,209,77,7,0,0,0,0,0,0,2,1,0,Drop/Vendor,False,False
-Electric Fairy Kei Broadbrim (Level 160+),160,583,35,9,6,0,188,74,6,0,0,0,0,17,0,2,1,0,Crowns,False,False
-Xibalba Crying Sky Helm (Level 160+),160,583,35,9,6,0,188,74,6,0,0,0,0,17,0,2,1,0,Raid,False,False
-Fractal Aeon Helm,160,749,35,7,6,9,188,74,6,0,0,0,0,0,0,2,1,0,Drop/Vendor,False,False
-Fraught Hardback Helmet (Level 170+),170,923,34,8,8,7,183,88,6,0,0,0,0,0,0,2,1,0,Gold Key/Gauntlet,False,False
-Umbra Queen's Shocked Crown (Level 170+),170,554,34,8,8,11,183,0,6,0,0,0,0,19,0,2,0,1,Drop/Vendor,False,False
-Wastelander's Shocked Hat (Level 170+),170,554,34,8,8,11,183,0,6,0,0,0,0,19,0,2,0,1,Crowns,False,False
-Hunhau's Crying Sky Helm (Level 170+),170,831,34,7,0,8,183,77,6,0,0,0,0,21,0,2,1,0,Raid,False,False
-Fierce Dream Warper Hood,170,739,34,0,5,8,183,66,6,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Demiurge's Temper Helm,150,689,33,7,6,9,180,70,6,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Merciless Storm Cap,150,689,33,7,6,9,180,70,6,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Thunderous Enforcer's Helmet,165,702,33,0,5,8,174,65,6,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Burrower's Divination Hood (Level 160+),160,666,32,9,0,7,165,84,5,0,0,0,0,17,0,2,1,0,Gold Key/Gauntlet,False,False
-Fraught Hardback Helmet (Level 160+),160,832,32,8,8,7,165,84,5,0,0,0,0,0,0,2,1,0,Crowns,False,False
-Stormy Night Mire Top Hat (Level 160+),160,832,32,8,8,7,165,84,5,0,0,0,0,0,0,2,1,0,Gold Key/Gauntlet,False,False
-Malistaire's Squall Locks (Level 160+),160,500,32,8,8,11,165,0,5,0,0,0,0,17,0,2,0,1,Crafting,False,False
-Wastelander's Shocked Hat (Level 160+),160,500,32,8,8,11,165,0,5,0,0,0,0,17,0,2,0,1,Crowns,False,False
-Wild Skyfarer's Douli Hat (Level 160+),160,500,32,8,8,11,165,0,5,0,0,0,0,17,0,2,0,1,Crowns,False,False
-Hunhau's Crying Sky Helm (Level 160+),160,749,32,7,0,8,165,74,5,0,0,0,0,19,0,2,1,0,Raid,False,False
-Fractal Masterpiece Helm,160,666,32,5,0,0,165,63,5,0,0,0,0,15,0,0,0,0,Drop/Vendor,False,False
-Striking City Dweller Kanga-Cap,160,666,32,0,5,8,165,63,5,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Supreme Electric Hat,148,616,32,0,0,9,208,0,0,0,0,0,0,19,0,0,0,0,Drop/Vendor,False,False
-Glistening Storm Helmet,155,635,31,6,0,0,161,62,5,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
-Fierce Dream Stalker Hood,170,739,30,10,9,8,0,88,5,0,0,0,0,17,0,2,1,0,Crafting,False,False
-Unreal Crown of Surging,170,647,30,9,10,9,0,77,5,0,0,0,0,19,0,2,0,1,Raid,False,False
-Burrower's Divination Hood (Level 150+),150,612,30,9,0,7,157,80,5,0,0,0,0,16,0,2,1,0,Crowns,False,False
-Fraught Hardback Helmet (Level 150+),150,765,30,8,8,7,157,80,5,0,0,0,0,0,0,2,1,0,Crowns,False,False
-Stormy Night Mire Top Hat (Level 150+),150,765,30,8,8,6,157,80,5,0,0,0,0,0,0,2,1,0,Crowns,False,False
-Gloomy Cerberus Master Helm (Level 150+),150,765,30,8,8,7,157,80,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Wild Skyfarer's Douli Hat (Level 150+),150,459,30,8,8,11,157,0,5,0,0,0,0,16,0,2,0,1,Crowns,False,False
-Morganthe's Stormy Arachna Crown (Level 150+),150,459,30,8,8,11,157,0,0,0,0,0,0,16,0,0,0,0,Crowns,False,False
-Daemonic Crown of Surging,170,739,30,6,7,10,209,0,8,0,0,0,0,17,0,2,0,1,Raid,False,False
-Shocking August Sage Cap (Level 170+),170,739,30,0,7,8,209,66,8,0,0,0,0,21,0,2,0,1,Gold Key/Gauntlet,False,False
-Squall King's Crown (Level 170+),170,739,30,0,7,8,209,66,8,0,0,0,0,21,0,2,0,1,Gold Key/Gauntlet,False,False
-Malevolent Storm Cap,150,721,30,0,6,13,149,0,6,0,0,0,0,18,0,0,0,0,Drop/Vendor,False,False
-Magician's Storm Cap,150,704,30,0,6,12,149,0,5,0,0,0,0,17,0,0,0,0,Drop/Vendor,False,False
-Supreme Science Hat,148,704,30,0,8,11,0,0,0,0,0,0,0,18,0,0,0,0,Drop/Vendor,False,False
-Hierarch's Electric Hat,145,572,30,0,0,9,196,0,0,0,0,0,0,18,0,0,0,0,Drop/Vendor,False,False
-Artillery Officer Hat,150,605,29,6,0,0,157,60,5,0,0,0,0,13,0,0,0,0,Drop/Vendor,False,False
-Supreme Deflector Hat,148,792,29,0,0,13,0,0,0,0,3,0,0,17,0,0,0,0,Drop/Vendor,False,False
-Delightful Sciencer Cap,140,680,29,0,6,14,138,0,5,0,0,0,0,18,0,0,0,0,Crafting,False,False
-Uber Sciencer Cap,140,680,29,0,6,14,138,0,5,0,0,0,0,18,0,0,0,0,Drop/Vendor,False,False
-Alphoi Charger Helm,130,679,29,0,9,12,159,0,0,0,0,0,0,14,0,0,0,0,Crafting,False,False
-Stormy Paradox Conical,130,679,29,0,9,12,159,0,0,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
-Hierarch's Science Hat,145,660,29,0,8,11,0,0,0,0,0,0,0,17,0,0,0,0,Drop/Vendor,False,False
-Thunderous Protector's Helmet,165,615,29,0,0,7,149,54,5,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Lemurian Electric Hat,142,528,29,0,0,8,196,0,0,0,0,0,0,17,0,0,0,0,Drop/Vendor,False,False
-Eternal Fractal Helm,160,666,28,9,9,8,141,84,0,0,0,0,0,15,0,2,1,0,Crafting,False,False
-Great Inventor's Storm Hat (Level 160+),160,666,28,9,9,8,141,84,0,0,0,0,0,15,0,2,1,0,Crowns,False,False
-Floramancer Helm of Thorns (Level 160+),160,583,28,9,10,9,0,74,5,0,0,0,0,17,0,2,0,1,Crowns,False,False
-Stormy Conical of The Void (Level 160+),160,583,28,9,10,9,0,74,5,0,0,0,0,17,0,2,0,1,Raid,False,False
-Burrower's Divination Hood (Level 140+),140,560,28,8,0,7,0,76,5,0,0,0,0,14,0,0,0,0,Crowns,False,False
-Fraught Hardback Helmet (Level 140+),140,699,28,7,8,7,147,76,5,0,0,0,0,0,0,2,1,0,Crowns,False,False
-Stormy Night Mire Top Hat (Level 140+),140,699,28,7,8,7,147,76,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Wastelander's Shocked Hat (Level 140+),140,420,28,7,8,11,147,0,5,0,0,0,0,14,0,0,0,0,Crowns,False,False
-Stormy Conical of The Nullity (Level 160+),160,666,28,6,7,10,188,0,7,0,0,0,0,15,0,2,0,1,Raid,False,False
-Dragoon's Shocking Helm,130,761,28,0,8,13,176,0,5,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,True
-Crackling Zanadu Helm,130,672,28,0,8,11,154,0,0,0,0,0,0,13,0,0,0,0,Drop/Vendor,False,False
-Cabalist Chaotic Hood,125,665,28,0,0,11,147,0,5,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
-Imperious Alphoi Mantle,125,665,28,0,7,0,142,0,5,0,0,0,0,14,0,0,0,0,Crafting,False,False
-Wunderbar Sciencer Cap,140,656,28,0,6,13,138,0,5,0,0,0,0,17,0,0,0,0,Drop/Vendor,False,False
-Striking Townie Kanga-Cap,160,583,28,0,0,7,141,53,5,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Executive Insulated Hood,138,560,28,0,0,9,183,0,0,0,0,0,0,18,0,0,0,0,Drop/Vendor,False,False
-Great Inventor's Storm Hat (Level 150+),150,612,27,9,9,8,135,80,0,0,0,0,0,14,0,2,1,0,Crowns,False,False
-Highlands Warrior's Balmoral (Level 150+),150,612,27,9,9,8,135,80,0,0,0,0,0,14,0,0,0,0,Gold Key/Gauntlet,False,False
-Stormy Conical of The Void (Level 150+),150,536,27,9,10,9,0,70,5,0,0,8,0,16,0,0,0,0,Raid,False,False
-Burrower's Divination Hood (Level 130+),130,507,27,8,0,6,0,72,4,0,0,0,0,13,0,0,0,0,Crowns,False,False
-Electric Fairy Kei Broadbrim (Level 120+),120,397,27,8,6,0,145,58,4,0,0,0,0,12,0,2,1,0,Crowns,False,False
-Fraught Hardback Helmet (Level 130+),130,633,27,7,8,6,134,72,4,0,0,0,0,0,0,2,1,0,Crowns,False,False
-Stormy Night Mire Top Hat (Level 130+),130,633,27,7,8,6,134,72,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Wastelander's Shocked Hat (Level 130+),130,380,27,7,8,10,134,0,4,0,0,0,0,13,0,0,0,0,Crowns,False,False
-Morganthe's Stormy Arachna Crown (Level 130+),130,380,27,7,8,10,134,0,0,0,0,0,0,13,0,0,0,0,Crowns,False,False
-Wild Skyfarer's Douli Hat (Level 130+),130,380,27,7,8,10,134,0,0,0,0,8,0,13,0,0,0,0,Crowns,False,False
-Stormy Conical of The Nullity (Level 150+),150,612,27,6,7,10,180,0,7,0,0,0,0,14,0,0,0,0,Raid,False,False
-Golden Storm Helmet,155,556,27,5,0,0,138,51,5,0,0,0,0,12,0,0,0,0,Drop/Vendor,False,False
-Hierarch's Deflector Hat,145,748,27,0,0,13,0,0,0,0,3,0,0,16,0,0,0,0,Drop/Vendor,False,False
-Vanguard's Shocking Helm,130,744,27,0,8,12,176,0,5,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
-Guten Sciencer Cap,140,640,27,0,6,12,138,0,5,0,0,0,0,16,0,0,0,0,Drop/Vendor,False,False
-Lemurian Science Hat,142,616,27,0,8,11,0,0,0,0,0,0,0,16,0,0,0,0,Drop/Vendor,False,False
-Gloomy Cerberus Master Helm (Level 140+),140,716,26,8,8,0,147,76,0,0,0,0,0,10,0,0,0,0,Crowns,False,False
-Morganthe's Stormy Arachna Crown (Level 140+),140,573,26,6,8,9,147,0,0,0,0,0,0,17,0,0,0,0,Crowns,False,False
-Regulation Artillery Hat,150,529,26,5,0,0,134,50,4,0,0,0,0,11,0,0,0,0,Drop/Vendor,False,False
-Soldier's Shocking Helm,130,719,26,0,8,11,176,0,5,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
-Director Insulated Hood,138,640,26,0,8,11,0,0,0,0,0,0,0,17,0,0,0,0,Drop/Vendor,False,False
-Chief's Insulated Hood,135,520,26,0,0,9,167,0,0,0,0,0,0,17,0,0,0,0,Drop/Vendor,False,False
-Great Inventor's Storm Hat (Level 140+),140,560,25,8,9,8,126,76,0,0,0,0,0,12,0,0,0,0,Crowns,False,False
-Burrower's Divination Hood (Level 120+),120,454,25,8,0,6,0,66,4,0,0,0,0,12,0,0,0,0,Crowns,False,False
-Stormy Night Mire Top Hat (Level 120+),120,567,25,7,8,6,127,66,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Wastelander's Shocked Hat (Level 120+),120,341,25,7,8,10,127,0,4,0,0,0,0,12,0,0,0,0,Crowns,False,False
-Morganthe's Stormy Arachna Crown (Level 120+),120,341,25,7,8,10,127,0,0,0,0,0,0,12,0,0,0,0,Crowns,False,False
-Wild Skyfarer's Douli Hat (Level 120+),120,341,25,7,8,10,127,0,0,0,0,7,0,12,0,0,0,0,Crowns,False,False
-Producer's Insulated Hood,138,720,25,0,0,13,0,0,0,0,3,0,0,16,0,0,0,0,Drop/Vendor,False,False
-Lemurian Deflector Hat,142,704,25,0,0,12,0,0,0,0,3,0,0,15,0,0,0,0,Drop/Vendor,False,False
-Lead's Insulated Hood,135,600,25,0,8,11,0,0,0,0,0,0,0,16,0,0,0,0,Drop/Vendor,False,False
-Shocking August Sage Cap (Level 140+),140,560,25,0,7,8,168,57,6,0,0,0,0,16,0,2,0,1,Crowns,False,False
-Time Warden Downpour Kavuk,120,508,25,0,7,0,141,0,5,0,0,0,0,14,0,0,0,0,Drop/Vendor,False,False
-Consultant Insulated Hood,132,480,25,0,0,8,162,0,0,0,0,0,0,16,0,0,0,0,Drop/Vendor,False,False
-Great Inventor's Storm Hat (Level 130+),130,507,24,8,9,7,115,72,0,0,0,0,0,12,0,0,0,0,Crowns,False,False
-Floramancer Helm of Thorns (Level 130+),130,444,24,8,10,8,0,63,0,0,0,8,0,13,0,0,0,0,Crowns,False,False
-Shocking August Sage Cap (Level 130+),130,507,24,0,7,7,153,54,5,0,0,0,0,15,0,2,0,1,Crowns,False,False
-Burrower's Divination Hood (Level 110+),110,401,23,8,0,6,0,63,3,0,0,0,0,11,0,0,0,0,Crowns,False,False
-Electric Fairy Kei Broadbrim (Level 100+),100,305,23,8,8,0,143,0,4,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Fraught Hardback Helmet (Level 110+),110,501,23,7,8,6,127,63,3,0,0,0,0,0,0,2,1,0,Crowns,False,False
-Stormy Night Mire Top Hat (Level 110+),110,501,23,7,8,6,127,63,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Wastelander's Shocked Hat (Level 110+),110,301,23,7,8,9,127,0,3,0,0,0,0,11,0,0,0,0,Crowns,False,False
-Morganthe's Stormy Arachna Crown (Level 110+),110,301,23,7,8,9,127,0,0,0,0,0,0,11,0,0,0,0,Crowns,False,False
-Wild Skyfarer's Douli Hat (Level 110+),110,301,23,7,8,9,127,0,0,0,0,7,0,11,0,0,0,0,Crowns,False,False
-Electric Fairy Kei Broadbrim (Level 90+),90,269,23,7,8,0,124,0,4,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Burrower Crown of Thunder,100,392,23,6,8,0,143,51,4,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Lower Zigazag Headdress,60,201,23,6,7,2,99,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Supervisor Insulated Hood,135,680,23,0,0,13,0,0,0,0,3,0,0,15,0,0,0,0,Drop/Vendor,False,False
-Specialist Insulated Hood,132,560,23,0,8,11,0,0,0,0,0,0,0,15,0,0,0,0,Drop/Vendor,False,False
-Flashy Space Helmet,140,520,23,0,7,10,0,0,0,0,0,0,0,15,0,0,0,0,Drop/Vendor,False,False
-Luphilim's Howling Great Helm,110,409,23,0,7,7,137,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Diviner's Deep Rolling Hat,85,315,23,0,7,7,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Floramancer Helm of Thorns (Level 120+),120,397,22,8,9,8,0,58,0,0,0,7,0,12,0,0,0,0,Crowns,False,False
-Gloomy Cerberus Master Helm (Level 120+),120,476,22,7,8,0,127,66,0,0,0,0,0,8,0,0,0,0,Crowns,False,False
-Contractor Insulated Hood,132,640,22,0,0,12,0,0,0,0,3,0,0,14,0,0,0,0,Drop/Vendor,False,False
-Gnarly Kalamar Lid,127,560,22,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Storm Liaison's Hat,130,520,22,0,7,10,0,0,0,0,0,0,0,15,0,0,0,0,Drop/Vendor,False,False
-Shocking August Sage Cap (Level 120+),120,454,22,0,7,7,145,50,5,0,0,0,0,13,0,2,0,1,Crowns,False,False
-Majoris Helm of Fortitude,110,388,22,0,0,10,136,0,5,0,0,0,0,12,0,0,0,0,Drop/Vendor,False,False
-Burrower's Divination Hood (Level 100+),100,348,21,8,0,8,0,58,3,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
-Skyscream Hood,60,192,21,8,8,0,80,0,0,0,4,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Fraught Hardback Helmet (Level 100+),100,435,21,7,8,0,125,58,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
-Stormy Night Mire Top Hat (Level 100+),100,435,21,7,8,0,125,58,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Burrower's Divination Hood (Level 90+),90,307,21,7,0,7,0,55,3,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Umbra Queen's Shocked Crown (Level 100+),100,0,21,7,8,9,125,0,3,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Wastelander's Shocked Hat (Level 100+),100,0,21,7,8,9,125,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Stormy Night Mire Top Hat (Level 90+),90,383,21,6,8,0,108,55,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Electric Fairy Kei Broadbrim (Level 80+),80,231,21,6,8,0,108,0,4,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Burrower Hat of Thunder,100,348,21,5,7,0,125,44,3,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Malistaire's Squall Locks (Level 100+),100,348,21,0,8,9,125,0,0,0,0,6,0,0,0,0,0,0,Crafting,False,False
-Wild Skyfarer's Douli Hat (Level 100+),100,348,21,0,8,9,125,0,0,0,0,6,0,0,0,0,0,0,Crowns,False,False
-Morganthe's Stormy Arachna Crown (Level 90+),90,307,21,0,8,8,108,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Tempest Topper,58,192,21,0,9,0,20,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Pandemonium Helm,56,192,21,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Horns of Havoc,58,123,21,0,8,0,55,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Bolt-Brimmed Hat,54,96,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Thundercloud Coif,54,96,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Shroud of the Storm Star,56,0,21,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Malistaire's Cowl of Flux,100,336,20,10,0,10,178,0,7,0,0,0,0,11,0,0,0,0,Drop/Vendor,False,False
-Great Inventor's Storm Hat (Level 110+),110,401,20,8,9,7,109,63,0,0,0,0,0,10,0,0,0,0,Crowns,False,False
-Headdress of Sandsqualls,60,168,20,5,5,0,74,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Electric Chieftain's Helm,56,180,20,4,9,0,81,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Interstellar Navigator Helm,122,490,20,0,0,0,149,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Dragonhorn Helm of Storm,110,409,20,0,0,0,139,0,5,0,0,0,0,13,0,0,0,0,Drop/Vendor,False,False
-Shocking August Sage Cap (Level 110+),110,401,20,0,7,7,145,47,4,0,0,0,0,12,0,2,0,1,Crowns,False,False
-Titan Warrior Brim of Waves,110,366,20,0,0,9,134,0,4,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Morganthe's Stormy Arachna Crown (Level 100+),100,310,20,0,8,9,125,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Hood of Desert Rains,96,285,20,0,7,0,194,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Woodland Tribal Hood,76,240,20,0,7,0,148,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Royal Storm Crown of Azteca,86,225,20,0,7,0,150,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Transcendent Monsoon Laurel,90,220,20,0,7,7,0,0,7,0,4,0,0,0,0,0,0,0,Crafting,False,False
-Digger's Groundswell Brim,95,215,20,0,7,9,38,0,0,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Digger Drone Helm of Bolts,90,215,20,0,7,9,0,0,0,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Howling Headdress of Fire,55,163,20,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Mask of Turbulent Tales,55,163,20,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Stormstrife Hat,55,163,20,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Surging Spirit Helm,55,163,20,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Thunderfair Headdress,55,163,20,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Thundering Ice Mantle,55,163,20,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Eureka Coif,58,154,20,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Maelstrom Mask,56,154,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Highlands Warrior's Balmoral (Level 120+),120,381,19,9,9,7,109,66,0,0,0,0,0,10,0,0,0,0,Crowns,False,False
-Great Inventor's Storm Hat (Level 90+),90,307,19,7,9,6,0,55,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Highlands Warrior's Balmoral (Level 90+),90,307,19,7,9,6,0,55,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Gloomy Cerberus Master Helm (Level 90+),90,335,19,6,8,0,108,54,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Stormy Night Mire Top Hat (Level 80+),80,330,19,5,8,0,94,45,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Dust Devil Helmet,100,257,19,5,8,9,0,0,6,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Wastelander's Shocked Hat (Level 80+),80,0,19,5,8,7,94,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Alkali Monsoon Kalpak,118,375,19,0,0,0,143,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Borealis Helm of Windswirls,110,345,19,0,0,8,132,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Morganthe's Stormy Arachna Crown (Level 80+),80,264,19,0,8,7,94,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Wild Skyfarer's Douli Hat (Level 80+),80,264,19,0,8,7,94,0,0,0,0,6,0,0,0,0,0,0,Crowns,False,False
-Heavy Rain Cap,80,250,19,0,6,0,105,10,3,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Artisan's Downpour Laurel,70,235,19,0,7,6,0,0,4,0,7,0,0,0,0,0,0,0,Crafting,False,False
-Senator's Monsoon Laurel,90,220,19,0,6,7,0,0,6,0,3,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Resplendent Royal Mantle,80,190,19,0,6,8,0,0,0,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Helm of the Wind Glider,96,178,19,0,19,0,130,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Krokopatra Maelstrom Fez,100,353,18,10,0,7,180,0,4,0,0,0,0,10,0,0,0,0,Drop/Vendor,False,False
-Highlands Warrior's Balmoral (Level 100+),100,310,18,9,9,6,0,58,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Fraught Hardback Helmet (Level 70+),70,277,18,4,8,0,77,38,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Stormy Night Mire Top Hat (Level 70+),70,277,18,4,8,0,77,38,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Wastelander's Shocked Hat (Level 70+),70,0,18,4,8,7,77,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Vizier's Windswept Mantle,116,348,18,0,0,0,141,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Arcanum Exile Cyclone Hat,105,280,18,0,0,9,118,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Clangor from Olympus Brim,90,250,18,0,4,6,165,0,5,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Poseidon's Torrential Helm,90,250,18,0,5,9,145,0,3,0,7,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Senator's Downpour Laurel,70,225,18,0,6,6,0,0,3,0,6,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Morganthe's Stormy Arachna Crown (Level 70+),70,222,18,0,8,7,77,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Wild Skyfarer's Douli Hat (Level 70+),70,222,18,0,8,7,77,0,0,0,0,6,0,0,0,0,0,0,Crowns,False,False
-Hades' Blackrain Helm,90,210,18,0,0,7,185,0,5,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Storm Caller's Mantle,70,189,18,0,6,7,0,0,0,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Battle Mage's Helm of Furor,100,320,17,8,0,8,169,0,5,0,0,0,0,10,0,0,0,0,Drop/Vendor,False,False
-Great Inventor's Storm Hat (Level 80+),80,264,17,6,9,5,0,45,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Highlands Warrior's Balmoral (Level 80+),80,264,17,6,9,5,0,45,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Electric Fairy Kei Broadbrim (Level 60+),60,157,17,5,8,0,72,0,4,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Wayfarer's Scirocco Fez,114,321,17,0,0,0,138,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Nomad's Sandstorm Torboosh,112,316,17,0,0,0,135,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Arcanum Diviner's Spire,108,302,17,0,0,0,114,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Rising Tide Topper,52,96,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Sheltering Storm Cover,66,85,17,0,7,0,119,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Great Inventor's Storm Hat (Level 70+),70,222,16,5,9,5,0,38,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Highlands Warrior's Balmoral (Level 70+),70,222,16,5,9,5,0,38,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Burrower's Divination Hood (Level 60+),60,180,16,5,0,5,0,31,3,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Stormy Night Mire Top Hat (Level 60+),60,224,16,4,8,0,63,31,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Wastelander's Shocked Hat (Level 60+),60,0,16,4,8,6,63,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Electric Fairy Kei Broadbrim (Level 50+),50,0,16,4,0,4,0,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Snowcrusher's Galvanic Shroud,50,179,16,3,8,0,0,0,3,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Snowcrusher's Galvanic Hat (Socketed),50,179,16,3,0,4,0,0,3,0,0,0,0,0,0,2,1,0,Crafting,False,False
-Enchanter's Lightning Hat,106,280,16,0,0,0,111,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Morganthe's Stormy Arachna Crown (Level 60+),60,180,16,0,8,6,63,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Wild Skyfarer's Douli Hat (Level 60+),60,180,16,0,8,6,63,0,0,0,0,6,0,0,0,0,0,0,Crowns,False,False
-Fraught Hardback Helmet (Level 50+),50,198,15,4,8,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
-Stormy Night Mire Top Hat (Level 50+),50,198,15,4,8,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Burrower's Divination Hood (Level 50+),50,159,15,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
-Wastelander's Shocked Hat (Level 50+),50,0,15,4,8,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Snowcrusher's Galvanic Hat,50,159,15,3,7,0,0,0,3,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Headgear of Dune Storms,60,141,15,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Evoker's Brim of Squalls,104,259,15,0,0,0,108,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Malistaire's Squall Locks (Level 50+),50,159,15,0,8,5,0,0,0,0,0,5,0,0,0,0,0,0,Crafting,False,False
-Morganthe's Stormy Arachna Crown (Level 50+),50,159,15,0,8,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Wild Skyfarer's Douli Hat (Level 50+),50,159,15,0,8,5,0,0,0,0,0,5,0,0,0,0,0,0,Crowns,False,False
-Raging Blackwater's Helm,100,304,14,6,0,7,160,0,4,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Great Inventor's Storm Hat (Level 60+),60,180,14,5,9,5,0,31,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Highlands Warrior's Balmoral (Level 60+),60,180,14,5,9,5,0,31,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Stormy Night Mire Coat (Level 40+),40,173,14,2,7,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Knave's Rushing Cap,70,194,14,1,3,7,145,0,4,0,6,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Poseidon's Typhoon Helmet,70,185,14,1,5,6,143,0,3,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Mage's Blustery Conical,102,237,14,0,0,0,105,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Squamish Cowl of the Sidhe,65,191,14,0,7,0,0,0,3,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Blackthunder Helm,90,85,13,8,0,7,165,0,3,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Great Inventor's Storm Hat (Level 50+),50,159,13,4,9,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Highlands Warrior's Balmoral (Level 50+),50,158,13,4,8,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
-Fraught Hardback Helmet (Level 40+),40,150,13,2,6,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Gloomy Cerberus Master Helm (Level 40+),40,150,13,2,6,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Stormy Night Mire Top Hat (Level 40+),40,150,13,2,6,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Burrower's Divination Hood (Level 40+),40,120,13,2,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Wastelander's Shocked Hat (Level 40+),40,0,13,2,6,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Thundering Paladin's Helm,95,250,13,0,6,6,190,0,4,0,4,0,0,0,0,0,0,0,Crowns,False,False
-Royal Barbut of Whirlwind,40,144,13,0,5,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Morganthe's Stormy Arachna Crown (Level 40+),40,120,13,0,6,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Wild Skyfarer's Douli Hat (Level 40+),40,120,13,0,6,4,0,0,0,0,0,5,0,0,0,0,0,0,Crowns,False,False
-Celestian Tempest Helm,50,173,12,2,0,0,25,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,True
-Great Inventor's Storm Hat (Level 40+),40,120,12,2,7,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Floramancer Helm of Thorns (Level 40+),40,105,12,2,7,4,0,0,0,0,0,5,0,0,0,0,0,0,Crowns,False,False
-Gloomy Cerberus Master Helm (Level 30+),30,150,11,2,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Stormy Night Mire Top Hat (Level 30+),30,150,11,2,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Highlands Warrior's Balmoral (Level 40+),40,120,11,2,6,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Zeus' Helm of Tumult,30,150,11,1,6,3,0,0,0,0,5,6,0,0,0,0,0,0,Drop/Vendor,False,False
-Mantle of Thunder,45,160,11,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Snowcrusher's Galvanic Shroud (H160),50,160,11,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
-Morganthe's Stormy Arachna Crown (Level 30+),30,120,11,0,5,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Wild Skyfarer's Douli Hat (Level 30+),30,120,11,0,5,4,0,0,0,0,0,5,0,0,0,0,0,0,Crowns,False,False
-Burrower's Rainstorm Cap,92,119,11,0,0,0,110,0,4,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Moonwraith's Hurricane Hood,45,106,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Veil of Clouds,45,53,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Shroud of the Sylph,45,0,11,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Advanced Storm Conical,50,175,10,5,5,0,24,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Great Inventor's Storm Hat (Level 30+),30,120,10,2,6,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Highlands Warrior's Balmoral (Level 30+),30,120,10,2,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
-Electric Fairy Kei Broadbrim (Level 20+),20,45,10,2,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Lost World Cloud Helm,85,268,10,0,0,0,144,0,0,5,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
-Palace Guard's Rain Topper,40,136,10,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Wild Monsoon Brim,70,133,10,0,0,0,75,0,4,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Charnel Rain Cowl,44,132,10,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Fire Typhoon Cap,44,132,10,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Frost Lightning Hood,44,132,10,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Fabled Shore Mantle,44,132,10,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Vigilant Horizon Cap,44,132,10,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Zealous Tide Hat,44,132,10,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Bad Storm Shroud,72,122,10,0,0,0,109,0,2,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Glorious Feathered Mantle,82,115,10,0,0,0,109,0,3,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Takanobu's Sedge of Sparks,35,115,10,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
-Mantle of Merit,45,106,10,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
-Pyrelance's Downpouring Hood,45,106,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Shroud of the Steward,45,106,10,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Adept's Raincloud Mantle,30,96,10,0,4,4,0,0,0,0,5,0,0,0,0,0,0,0,Crafting,False,False
-Monsoon Cap,45,53,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Rogue's Rushing Cap,100,341,9,7,0,8,165,0,0,0,0,0,0,10,0,0,0,0,Drop/Vendor,False,False
-Bonebreaker Cowl of Sparks,40,134,9,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Stormy Night Mire Top Hat (Level 20+),20,64,9,2,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Burrower's Divination Hood (Level 20+),20,52,9,2,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Wastelander's Shocked Hat (Level 20+),20,0,9,2,5,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Hood of the Flurry,40,128,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Oyotomi's Cowl of Vacancy,40,128,9,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Senator's Raincloud Mantle,30,96,9,0,3,4,0,0,0,0,3,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Cowl of Discord,35,84,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
-Cap of the Stratosphere,35,84,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Yakedo's Shroud,35,84,9,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Morganthe's Stormy Arachna Crown (Level 20+),20,52,9,0,5,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Wild Skyfarer's Douli Hat (Level 20+),20,52,9,0,5,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Cowl of the Torrent,40,0,9,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Shoji's Shroud of Disorder,40,0,9,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Vigilant Cap,35,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
-Krokomaic Maelstrom Fez,40,134,8,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Great Inventor's Storm Hat (Level 20+),20,52,8,2,6,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Fraught Hardback Helmet (Level 10+),10,32,8,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Stormy Night Mire Top Hat (Level 10+),10,32,8,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Burrower's Divination Hood (Level 10+),10,26,8,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Electric Fairy Kei Broadbrim (Level 10+),10,23,8,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Wastelander's Shocked Hat (Level 10+),10,0,8,2,4,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Himoolayan Avalanche Helm,25,108,8,1,4,2,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Hat of the Stormwracked,45,128,8,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Cowl of the Bolt,40,84,8,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Jikiru's Mask of Misfortune,35,84,8,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Interpretive Mask,35,84,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Typhoon Crown,40,84,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Hat of Discontent,35,42,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Wild Skyfarer's Douli Hat (Level 10+),10,26,8,0,4,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Great Inventor's Storm Hat (Level 10+),10,26,7,2,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Barkingham Fog Bowler,40,108,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Cloudguard Coif,33,101,7,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Hailstone Hood,33,101,7,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Raintree Headwrap,33,101,7,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Sorrowgale Hat,33,101,7,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Simmersleet Hat,33,101,7,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Thundermuse Cowl,33,101,7,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Hoof Warrior's Headgear,25,80,7,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Cap of Dilemma,30,42,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Fortune's Hood,35,42,7,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
-Morganthe's Stormy Arachna Crown (Level 10+),10,26,7,0,4,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Gloomy Cerberus Master Helm (Any Level),1,27,6,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Bellows' Aristocratic Hat,30,96,6,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Tornadic Hat,30,96,6,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Nails' Helm of the Clever,25,64,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Spike's Mechanical Visor,25,64,6,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Morganthe's Stormy Arachna Crown (Any Level),1,22,6,0,3,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Thinker's Cap,30,0,6,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Adventurer's Cowl,25,64,5,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
-Clanker's Premium Cap,25,64,5,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Mugsy's Helm,25,64,5,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Meowiarty's Intense Helm,25,64,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Himoolayan Blizzard Helmet,25,60,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Ra's Cloudburst Hood,20,58,4,1,0,0,0,0,0,4,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Floramancer Helm of Thorns (Any Level),5,15,4,1,3,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Stormy Night Mire Top Hat (Any Level),1,8,4,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Blustery Hat of Legend,22,80,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Chill Cowl of the Cyclone,22,80,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Crackling Cowl of Eternity,22,80,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Thundering Hat of Neutrality,22,80,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Vigorous Cap of the Squall,22,80,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Windswept Hood of the Glacier,22,80,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Tailor-Made Hat,20,64,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Cap of the Cyclone,30,32,4,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Wild Skyfarer's Douli Hat (Any Level),1,13,4,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,False
-Cap of the Savage,20,64,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
-Krokenkahmen's Circlet,20,64,3,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Manu's Hood of Power,20,64,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Queen's Helm of Designs,20,64,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Hat of Stormy Havoc,20,44,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Odji's Hat of Artistry,15,42,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Umbral Headgear,25,0,3,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Floodfire Hood,15,53,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Stormtide Mantle,15,53,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Sagadeep Cowl,15,53,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Sorrowstream Hood,15,53,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Thunderward Cap,15,53,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Windsoul Hat,15,53,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,False
-Stormsquall Crown,20,40,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Immortals' Helm of Havoc,100,329,0,16,0,9,67,0,0,0,8,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Red Helm of Resilience,120,455,0,0,9,9,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Mottoman Sandspouts Helm,118,396,0,0,0,0,0,0,0,5,3,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Eerem Headwrap of Clangor,118,385,0,0,8,11,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Bonesmasher Cowl of Sparks,100,382,0,0,0,5,178,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Zruvan Flashflood Helmet,116,369,0,0,0,0,0,0,0,5,2,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Sand Sea Cowl of Havoc,116,358,0,0,8,11,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Aridian Helm of Dunestorms,114,342,0,0,0,0,0,0,0,5,2,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Mongu Kabalak of Tantrums,112,337,0,0,0,0,0,0,0,5,2,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Rubal Thunder Kufiya,114,332,0,0,8,11,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Djinn Ghutrah of Flux,112,326,0,0,8,11,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Kataba Furcap of Havoc,108,319,0,0,0,0,0,0,0,5,2,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Walrusk Papakh of Graupel,108,310,0,0,8,11,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Tayg Ushanka of Sleetfall,106,297,0,0,0,0,0,0,0,5,2,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Tundarian Furcap of Flux,106,289,0,0,7,10,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Snowstorm Bleaks Ushanka,104,276,0,0,0,0,0,0,0,4,1,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Thunderstruck Shroud,78,270,0,0,7,7,0,0,3,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Kossack Papakh of Tempests,104,267,0,0,7,9,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Burrower Crown of Thunder (Level 98+),98,260,0,0,9,8,0,0,5,0,0,0,0,0,0,0,0,0,Retired,False,False
-Crown of the Vicious Sky,88,255,0,0,8,7,0,0,4,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Hailstorm Tundra Ushanka,102,254,0,0,0,0,0,0,0,4,1,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Urville Fur Hat of Snowgusts,102,246,0,0,6,8,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-War Olyphant's Wrap,68,224,0,0,0,0,119,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Rain Cover,60,208,0,0,0,0,84,0,3,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Zebra's Zephyr Headdress,62,208,0,0,6,0,25,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Drenched Headdress,50,192,0,0,0,0,27,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Hood of the Thunder Wolf,50,189,0,0,9,0,0,0,0,0,5,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Lambent's Cowl of Clamoring,70,185,0,0,0,4,0,0,0,5,6,0,0,0,0,0,0,0,Gold Key/Gauntlet,False,False
-Mantle of the Watery Deep,45,160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Thunderstruck Hat,56,154,0,0,0,0,80,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Drafty Cap,50,154,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Stormfist's Gale Force Helm,56,154,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Rumbling Cover,52,154,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Wildcrag's Typhoon Helm,54,154,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Mask of the Muse,35,128,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Shroud of Conceit,40,128,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Skystorm Cowl,40,128,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Cowl of the Zephyr,45,106,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Markmaker's Cyclonic Coif,45,106,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Mist Giant's Cowl,45,106,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Stormwatcher's Hood,45,106,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Stylish Hat,25,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Surging Storm Helm,52,96,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Helm of Disquiet,35,84,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Hat of Niceties,35,84,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Headwraps of Commotion,35,84,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Meditative Helm,35,84,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Animated Canine Cowl,25,64,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Animated Cap,25,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Diviner's Hat of Squalls,15,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Clamoring Mantle,20,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Feline's Charged Hat,25,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Hat of the Scirocco,25,64,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Headgear of the Haze,15,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Helm of Ingenuity,20,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Pioneer's Helm,20,64,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Scratcher's Invigorated Cowl,25,64,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Foulweather Hat,30,58,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Krokotopian Storm Modius,15,58,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,True
-Hood of the Tempest,45,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Ozone Shroud,45,53,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Triton's Topper,45,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Cloud Cover,15,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Meticulous Headwraps,30,42,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Rugged Hood,15,42,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Speculative Headwraps,35,42,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Cap of the Kraken,25,32,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Gustshroud,10,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Gobblestone's Storm Cap,10,32,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Stormcaller's Hat,10,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Visor of Invention,25,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Charged Helm,10,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Headwrap of Originality,15,21,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Torrential Cap,15,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Hood of Tension,10,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Student's Helm,5,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Thundercracked Cover,52,0,0,0,0,0,53,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Crusader's Headdress,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Retired,False,False
-Greebly's Windshroud,10,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Shroud of Downpour,15,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
-Stormweave Hood,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop/Vendor,False,False
+Electric Fairy Kei Broadbrim (Level 170+),170,647,37,9,6,0,209,77,7,0,0,0,0,19,0,2,1,0,Crowns,False,None
+Xibalba Crying Sky Helm (Level 170+),170,647,37,9,6,0,209,77,7,0,0,0,0,19,0,2,1,0,Raid,False,None
+Fierce Dream Reaver Hood,170,831,37,7,6,9,209,77,7,0,0,0,0,0,0,2,1,0,Drop,False,None
+Electric Fairy Kei Broadbrim (Level 160+),160,583,35,9,6,0,188,74,6,0,0,0,0,17,0,2,1,0,Crowns,False,None
+Xibalba Crying Sky Helm (Level 160+),160,583,35,9,6,0,188,74,6,0,0,0,0,17,0,2,1,0,Raid,False,None
+Fractal Aeon Helm,160,749,35,7,6,9,188,74,6,0,0,0,0,0,0,2,1,0,Drop,False,None
+Fraught Hardback Helmet (Level 170+),170,923,34,8,8,7,183,88,6,0,0,0,0,0,0,2,1,0,Housing Gauntlet,False,None
+Umbra Queen's Shocked Crown (Level 170+),170,554,34,8,8,11,183,0,6,0,0,0,0,19,0,2,0,1,Rematch,False,None
+Wastelander's Shocked Hat (Level 170+),170,554,34,8,8,11,183,0,6,0,0,0,0,19,0,2,0,1,Crowns,False,None
+Hunhau's Crying Sky Helm (Level 170+),170,831,34,7,0,8,183,77,6,0,0,0,0,21,0,2,1,0,Raid,False,None
+Fierce Dream Warper Hood,170,739,34,0,5,8,183,66,6,0,0,0,0,0,0,0,0,0,Drop,False,None
+Demiurge's Temper Helm,150,689,33,7,6,9,180,70,6,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Merciless Storm Cap,150,689,33,7,6,9,180,70,6,0,0,0,0,0,0,0,0,0,Drop,False,None
+Thunderous Enforcer's Helmet,165,702,33,0,5,8,174,65,6,0,0,0,0,0,0,0,0,0,Drop,False,None
+Burrower's Divination Hood (Level 160+),160,666,32,9,0,7,165,84,5,0,0,0,0,17,0,2,1,0,Gold Key,False,None
+Fraught Hardback Helmet (Level 160+),160,832,32,8,8,7,165,84,5,0,0,0,0,0,0,2,1,0,Crowns,False,None
+Stormy Night Mire Top Hat (Level 160+),160,832,32,8,8,7,165,84,5,0,0,0,0,0,0,2,1,0,Housing Gauntlet,False,None
+Malistaire's Squall Locks (Level 160+),160,500,32,8,8,11,165,0,5,0,0,0,0,17,0,2,0,1,Rematch,False,None
+Wastelander's Shocked Hat (Level 160+),160,500,32,8,8,11,165,0,5,0,0,0,0,17,0,2,0,1,Crowns,False,None
+Wild Skyfarer's Douli Hat (Level 160+),160,500,32,8,8,11,165,0,5,0,0,0,0,17,0,2,0,1,Crowns,False,None
+Hunhau's Crying Sky Helm (Level 160+),160,749,32,7,0,8,165,74,5,0,0,0,0,19,0,2,1,0,Raid,False,None
+Fractal Masterpiece Helm,160,666,32,5,0,0,165,63,5,0,0,0,0,15,0,0,0,0,Drop,False,None
+Striking City Dweller Kanga-Cap,160,666,32,0,5,8,165,63,5,0,0,0,0,0,0,0,0,0,Drop,False,None
+Supreme Electric Hat,148,616,32,0,0,9,208,0,0,0,0,0,0,19,0,0,0,0,Drop,False,None
+Glistening Storm Helmet,155,635,31,6,0,0,161,62,5,0,0,0,0,14,0,0,0,0,Drop,False,None
+Fierce Dream Stalker Hood,170,739,30,10,9,8,0,88,5,0,0,0,0,17,0,2,1,0,Crafting,False,None
+Unreal Crown of Surging,170,647,30,9,10,9,0,77,5,0,0,0,0,19,0,2,0,1,Raid,False,None
+Burrower's Divination Hood (Level 150+),150,612,30,9,0,7,157,80,5,0,0,0,0,16,0,2,1,0,Crowns,False,None
+Fraught Hardback Helmet (Level 150+),150,765,30,8,8,7,157,80,5,0,0,0,0,0,0,2,1,0,Crowns,False,None
+Stormy Night Mire Top Hat (Level 150+),150,765,30,8,8,6,157,80,5,0,0,0,0,0,0,2,1,0,Crowns,False,None
+Gloomy Cerberus Master Helm (Level 150+),150,765,30,8,8,7,157,80,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Wild Skyfarer's Douli Hat (Level 150+),150,459,30,8,8,11,157,0,5,0,0,0,0,16,0,2,0,1,Crowns,False,None
+Wastelander's Shocked Hat (Level 150+),150,459,30,8,8,11,157,0,5,0,0,0,0,16,0,2,0,1,Crowns,False,None
+Morganthe's Stormy Arachna Crown (Level 150+),150,459,30,8,8,11,157,0,0,0,0,0,0,16,0,0,0,0,Crowns,False,None
+Daemonic Crown of Surging,170,739,30,6,7,10,209,0,8,0,0,0,0,17,0,2,0,1,Raid,False,None
+Squall King's Crown (Level 170+),170,739,30,0,7,8,209,66,8,0,0,0,0,21,0,2,0,1,Gold Key,False,None
+Shocking August Sage Cap (Level 170+),170,739,30,0,7,8,209,66,8,0,0,0,0,21,0,2,0,1,Gold Key,False,None
+Malevolent Storm Cap,150,721,30,0,6,13,149,0,6,0,0,0,0,18,0,0,0,0,Drop,False,None
+Magician's Storm Cap,150,704,30,0,6,12,149,0,5,0,0,0,0,17,0,0,0,0,Drop,False,None
+Supreme Science Hat,148,704,30,0,8,11,0,0,0,0,0,0,0,18,0,0,0,0,Drop,False,None
+Hierarch's Electric Hat,145,572,30,0,0,9,196,0,0,0,0,0,0,18,0,0,0,0,Drop,False,None
+Artillery Officer Hat,150,605,29,6,0,0,157,60,5,0,0,0,0,13,0,0,0,0,Drop,False,None
+Supreme Deflector Hat,148,792,29,0,0,13,0,0,0,0,3,0,0,17,0,0,0,0,Drop,False,None
+Delightful Sciencer Cap,140,680,29,0,6,14,138,0,5,0,0,0,0,18,0,0,0,0,Crafting,False,None
+Uber Sciencer Cap,140,680,29,0,6,14,138,0,5,0,0,0,0,18,0,0,0,0,Drop,False,None
+Alphoi Charger Helm,130,679,29,0,9,12,159,0,0,0,0,0,0,14,0,0,0,0,Crafting,False,None
+Stormy Paradox Conical,130,679,29,0,9,12,159,0,0,0,0,0,0,14,0,0,0,0,Drop,False,None
+Hierarch's Science Hat,145,660,29,0,8,11,0,0,0,0,0,0,0,17,0,0,0,0,Drop,False,None
+Thunderous Protector's Helmet,165,615,29,0,0,7,149,54,5,0,0,0,0,0,0,0,0,0,Drop,False,None
+Lemurian Electric Hat,142,528,29,0,0,8,196,0,0,0,0,0,0,17,0,0,0,0,Drop,False,None
+Eternal Fractal Helm,160,666,28,9,9,8,141,84,0,0,0,0,0,15,0,2,1,0,Crafting,False,None
+Great Inventor's Storm Hat (Level 160+),160,666,28,9,9,8,141,84,0,0,0,0,0,15,0,2,1,0,Crowns,False,None
+Floramancer Helm of Thorns (Level 160+),160,583,28,9,10,9,0,74,5,0,0,0,0,17,0,2,0,1,Crowns,False,None
+Stormy Conical of The Void (Level 160+),160,583,28,9,10,9,0,74,5,0,0,0,0,17,0,2,0,1,Raid,False,None
+Burrower's Divination Hood (Level 140+),140,560,28,8,0,7,0,76,5,0,0,0,0,14,0,0,0,0,Crowns,False,None
+Fraught Hardback Helmet (Level 140+),140,699,28,7,8,7,147,76,5,0,0,0,0,0,0,2,1,0,Crowns,False,None
+Stormy Night Mire Top Hat (Level 140+),140,699,28,7,8,7,147,76,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Wastelander's Shocked Hat (Level 140+),140,420,28,7,8,11,147,0,5,0,0,0,0,14,0,0,0,0,Crowns,False,None
+Stormy Conical of The Nullity (Level 160+),160,666,28,6,7,10,188,0,7,0,0,0,0,15,0,2,0,1,Raid,False,None
+Dragoon's Shocking Helm,130,761,28,0,8,13,176,0,5,0,0,0,0,14,0,0,0,0,Drop,False,Dragoon's Shocking Set
+Crackling Zanadu Helm,130,672,28,0,8,11,154,0,0,0,0,0,0,13,0,0,0,0,Drop,False,None
+Cabalist Chaotic Hood,125,665,28,0,0,11,147,0,5,0,0,0,0,14,0,0,0,0,Drop,False,None
+Imperious Alphoi Mantle,125,665,28,0,7,0,142,0,5,0,0,0,0,14,0,0,0,0,Crafting,False,None
+Wunderbar Sciencer Cap,140,656,28,0,6,13,138,0,5,0,0,0,0,17,0,0,0,0,Drop,False,None
+Striking Townie Kanga-Cap,160,583,28,0,0,7,141,53,5,0,0,0,0,0,0,0,0,0,Drop,False,None
+Executive Insulated Hood,138,560,28,0,0,9,183,0,0,0,0,0,0,18,0,0,0,0,Drop,False,None
+Great Inventor's Storm Hat (Level 150+),150,612,27,9,9,8,135,80,0,0,0,0,0,14,0,2,1,0,Crowns,False,None
+Highlands Warrior's Balmoral (Level 150+),150,612,27,9,9,8,135,80,0,0,0,0,0,14,0,0,0,0,Housing Gauntlet,False,None
+Stormy Conical of The Void (Level 150+),150,536,27,9,10,9,0,70,5,0,0,8,0,16,0,0,0,0,Raid,False,None
+Burrower's Divination Hood (Level 130+),130,507,27,8,0,6,0,72,4,0,0,0,0,13,0,0,0,0,Crowns,False,None
+Electric Fairy Kei Broadbrim (Level 120+),120,397,27,8,6,0,145,58,4,0,0,0,0,12,0,2,1,0,Crowns,False,None
+Fraught Hardback Helmet (Level 130+),130,633,27,7,8,6,134,72,4,0,0,0,0,0,0,2,1,0,Crowns,False,None
+Stormy Night Mire Top Hat (Level 130+),130,633,27,7,8,6,134,72,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Wastelander's Shocked Hat (Level 130+),130,380,27,7,8,10,134,0,4,0,0,0,0,13,0,0,0,0,Crowns,False,None
+Morganthe's Stormy Arachna Crown (Level 130+),130,380,27,7,8,10,134,0,0,0,0,0,0,13,0,0,0,0,Crowns,False,None
+Wild Skyfarer's Douli Hat (Level 130+),130,380,27,7,8,10,134,0,0,0,0,8,0,13,0,0,0,0,Crowns,False,None
+Stormy Conical of The Nullity (Level 150+),150,612,27,6,7,10,180,0,7,0,0,0,0,14,0,0,0,0,Raid,False,None
+Golden Storm Helmet,155,556,27,5,0,0,138,51,5,0,0,0,0,12,0,0,0,0,Drop,False,None
+Hierarch's Deflector Hat,145,748,27,0,0,13,0,0,0,0,3,0,0,16,0,0,0,0,Drop,False,None
+Vanguard's Shocking Helm,130,744,27,0,8,12,176,0,5,0,0,0,0,14,0,0,0,0,Drop,False,None
+Guten Sciencer Cap,140,640,27,0,6,12,138,0,5,0,0,0,0,16,0,0,0,0,Drop,False,None
+Lemurian Science Hat,142,616,27,0,8,11,0,0,0,0,0,0,0,16,0,0,0,0,Drop,False,None
+Gloomy Cerberus Master Helm (Level 140+),140,716,26,8,8,0,147,76,0,0,0,0,0,10,0,0,0,0,Crowns,False,None
+Morganthe's Stormy Arachna Crown (Level 140+),140,573,26,6,8,9,147,0,0,0,0,0,0,17,0,0,0,0,Crowns,False,None
+Regulation Artillery Hat,150,529,26,5,0,0,134,50,4,0,0,0,0,11,0,0,0,0,Drop,False,None
+Soldier's Shocking Helm,130,719,26,0,8,11,176,0,5,0,0,0,0,14,0,0,0,0,Drop,False,None
+Director Insulated Hood,138,640,26,0,8,11,0,0,0,0,0,0,0,17,0,0,0,0,Drop,False,None
+Chief's Insulated Hood,135,520,26,0,0,9,167,0,0,0,0,0,0,17,0,0,0,0,Drop,False,None
+Great Inventor's Storm Hat (Level 140+),140,560,25,8,9,8,126,76,0,0,0,0,0,12,0,0,0,0,Crowns,False,None
+Burrower's Divination Hood (Level 120+),120,454,25,8,0,6,0,66,4,0,0,0,0,12,0,0,0,0,Crowns,False,None
+Stormy Night Mire Top Hat (Level 120+),120,567,25,7,8,6,127,66,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Wastelander's Shocked Hat (Level 120+),120,341,25,7,8,10,127,0,4,0,0,0,0,12,0,0,0,0,Crowns,False,None
+Morganthe's Stormy Arachna Crown (Level 120+),120,341,25,7,8,10,127,0,0,0,0,0,0,12,0,0,0,0,Crowns,False,None
+Wild Skyfarer's Douli Hat (Level 120+),120,341,25,7,8,10,127,0,0,0,0,7,0,12,0,0,0,0,Crowns,False,None
+Producer's Insulated Hood,138,720,25,0,0,13,0,0,0,0,3,0,0,16,0,0,0,0,Drop,False,None
+Lemurian Deflector Hat,142,704,25,0,0,12,0,0,0,0,3,0,0,15,0,0,0,0,Drop,False,None
+Lead's Insulated Hood,135,600,25,0,8,11,0,0,0,0,0,0,0,16,0,0,0,0,Drop,False,None
+Shocking August Sage Cap (Level 140+),140,560,25,0,7,8,168,57,6,0,0,0,0,16,0,2,0,1,Crowns,False,None
+Time Warden Downpour Kavuk,120,508,25,0,7,0,141,0,5,0,0,0,0,14,0,0,0,0,Drop,False,None
+Consultant Insulated Hood,132,480,25,0,0,8,162,0,0,0,0,0,0,16,0,0,0,0,Drop,False,None
+Great Inventor's Storm Hat (Level 130+),130,507,24,8,9,7,115,72,0,0,0,0,0,12,0,0,0,0,Crowns,False,None
+Floramancer Helm of Thorns (Level 130+),130,444,24,8,10,8,0,63,0,0,0,8,0,13,0,0,0,0,Crowns,False,None
+Shocking August Sage Cap (Level 130+),130,507,24,0,7,7,153,54,5,0,0,0,0,15,0,2,0,1,Crowns,False,None
+Burrower's Divination Hood (Level 110+),110,401,23,8,0,6,0,63,3,0,0,0,0,11,0,0,0,0,Crowns,False,None
+Electric Fairy Kei Broadbrim (Level 100+),100,305,23,8,8,0,143,0,4,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Fraught Hardback Helmet (Level 110+),110,501,23,7,8,6,127,63,3,0,0,0,0,0,0,2,1,0,Crowns,False,None
+Stormy Night Mire Top Hat (Level 110+),110,501,23,7,8,6,127,63,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Wastelander's Shocked Hat (Level 110+),110,301,23,7,8,9,127,0,3,0,0,0,0,11,0,0,0,0,Crowns,False,None
+Morganthe's Stormy Arachna Crown (Level 110+),110,301,23,7,8,9,127,0,0,0,0,0,0,11,0,0,0,0,Crowns,False,None
+Wild Skyfarer's Douli Hat (Level 110+),110,301,23,7,8,9,127,0,0,0,0,7,0,11,0,0,0,0,Crowns,False,None
+Electric Fairy Kei Broadbrim (Level 90+),90,269,23,7,8,0,124,0,4,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Burrower Crown of Thunder,100,392,23,6,8,0,143,51,4,0,0,0,0,0,0,0,0,0,Drop,False,None
+Lower Zigazag Headdress,60,201,23,6,7,2,99,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Supervisor Insulated Hood,135,680,23,0,0,13,0,0,0,0,3,0,0,15,0,0,0,0,Drop,False,None
+Specialist Insulated Hood,132,560,23,0,8,11,0,0,0,0,0,0,0,15,0,0,0,0,Drop,False,None
+Flashy Space Helmet,140,520,23,0,7,10,0,0,0,0,0,0,0,15,0,0,0,0,Unavailable,False,None
+Luphilim's Howling Great Helm,110,409,23,0,7,7,137,0,0,0,0,0,0,0,0,0,0,0,Stone Key,False,None
+Diviner's Deep Rolling Hat,85,315,23,0,7,7,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Floramancer Helm of Thorns (Level 120+),120,397,22,8,9,8,0,58,0,0,0,7,0,12,0,0,0,0,Crowns,False,None
+Gloomy Cerberus Master Helm (Level 120+),120,476,22,7,8,0,127,66,0,0,0,0,0,8,0,0,0,0,Crowns,False,None
+Contractor Insulated Hood,132,640,22,0,0,12,0,0,0,0,3,0,0,14,0,0,0,0,Drop,False,None
+Gnarly Kalamar Lid,127,560,22,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,Drop,False,None
+Storm Liaison's Hat,130,520,22,0,7,10,0,0,0,0,0,0,0,15,0,0,0,0,Unavailable,False,None
+Shocking August Sage Cap (Level 120+),120,454,22,0,7,7,145,50,5,0,0,0,0,13,0,2,0,1,Crowns,False,None
+Majoris Helm of Fortitude,110,388,22,0,0,10,136,0,5,0,0,0,0,12,0,0,0,0,Drop,False,None
+Burrower's Divination Hood (Level 100+),100,348,21,8,0,8,0,58,3,0,0,0,0,0,0,0,0,0,Gold Key,False,None
+Skyscream Hood,60,192,21,8,8,0,80,0,0,0,4,0,0,0,0,0,0,0,Drop,False,None
+Fraught Hardback Helmet (Level 100+),100,435,21,7,8,0,125,58,0,0,0,0,0,0,0,0,0,0,Housing Gauntlet,False,None
+Stormy Night Mire Top Hat (Level 100+),100,435,21,7,8,0,125,58,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Burrower's Divination Hood (Level 90+),90,307,21,7,0,7,0,55,3,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Umbra Queen's Shocked Crown (Level 100+),100,0,21,7,8,9,125,0,3,0,0,0,0,0,0,0,0,0,Rematch,False,None
+Wastelander's Shocked Hat (Level 100+),100,0,21,7,8,9,125,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Stormy Night Mire Top Hat (Level 90+),90,383,21,6,8,0,108,55,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Electric Fairy Kei Broadbrim (Level 80+),80,231,21,6,8,0,108,0,4,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Burrower Hat of Thunder,100,348,21,5,7,0,125,44,3,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Malistaire's Squall Locks (Level 100+),100,348,21,0,8,9,125,0,0,0,0,6,0,0,0,0,0,0,Rematch,False,None
+Wild Skyfarer's Douli Hat (Level 100+),100,348,21,0,8,9,125,0,0,0,0,6,0,0,0,0,0,0,Crowns,False,None
+Morganthe's Stormy Arachna Crown (Level 90+),90,307,21,0,8,8,108,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Tempest Topper,58,192,21,0,9,0,20,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Pandemonium Helm,56,192,21,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Horns of Havoc,58,123,21,0,8,0,55,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Bolt-Brimmed Hat,54,96,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
+Thundercloud Coif,54,96,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Shroud of the Storm Star,56,0,21,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Malistaire's Cowl of Flux,100,336,20,10,0,10,178,0,7,0,0,0,0,11,0,0,0,0,Drop,False,None
+Great Inventor's Storm Hat (Level 110+),110,401,20,8,9,7,109,63,0,0,0,0,0,10,0,0,0,0,Crowns,False,None
+Headdress of Sandsqualls,60,168,20,5,5,0,74,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Electric Chieftain's Helm,56,180,20,4,9,0,81,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Interstellar Navigator Helm,122,490,20,0,0,0,149,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Dragonhorn Helm of Storm,110,409,20,0,0,0,139,0,5,0,0,0,0,13,0,0,0,0,Drop,False,None
+Shocking August Sage Cap (Level 110+),110,401,20,0,7,7,145,47,4,0,0,0,0,12,0,2,0,1,Crowns,False,None
+Titan Warrior Brim of Waves,110,366,20,0,0,9,134,0,4,0,0,0,0,0,0,0,0,0,Drop,False,None
+Morganthe's Stormy Arachna Crown (Level 100+),100,310,20,0,8,9,125,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Hood of Desert Rains,96,285,20,0,7,0,194,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Woodland Tribal Hood,76,240,20,0,7,0,148,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Royal Storm Crown of Azteca,86,225,20,0,7,0,150,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Transcendent Monsoon Laurel,90,220,20,0,7,7,0,0,7,0,4,0,0,0,0,0,0,0,Crafting,False,None
+Digger's Groundswell Brim,95,215,20,0,7,9,38,0,0,0,5,0,0,0,0,0,0,0,Gold Vendor,False,None
+Digger Drone Helm of Bolts,90,215,20,0,7,9,0,0,0,0,5,0,0,0,0,0,0,0,Gold Vendor,False,None
+Howling Headdress of Fire,55,163,20,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Mask of Turbulent Tales,55,163,20,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Surging Spirit Helm,55,163,20,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Stormstrife Hat,55,163,20,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Thundering Ice Mantle,55,163,20,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Thunderfair Headdress,55,163,20,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Eureka Coif,58,154,20,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Maelstrom Mask,56,154,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Highlands Warrior's Balmoral (Level 120+),120,381,19,9,9,7,109,66,0,0,0,0,0,10,0,0,0,0,Crowns,False,None
+Great Inventor's Storm Hat (Level 90+),90,307,19,7,9,6,0,55,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Highlands Warrior's Balmoral (Level 90+),90,307,19,7,9,6,0,55,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Gloomy Cerberus Master Helm (Level 90+),90,335,19,6,8,0,108,54,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Stormy Night Mire Top Hat (Level 80+),80,330,19,5,8,0,94,45,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Dust Devil Helmet,100,257,19,5,8,9,0,0,6,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Electric Fairy Kei Broadbrim (Level 70+),70,194,19,5,8,0,88,0,4,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Wastelander's Shocked Hat (Level 80+),80,0,19,5,8,7,94,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Alkali Monsoon Kalpak,118,375,19,0,0,0,143,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Borealis Helm of Windswirls,110,345,19,0,0,8,132,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Morganthe's Stormy Arachna Crown (Level 80+),80,264,19,0,8,7,94,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Wild Skyfarer's Douli Hat (Level 80+),80,264,19,0,8,7,94,0,0,0,0,6,0,0,0,0,0,0,Crowns,False,None
+Heavy Rain Cap,80,250,19,0,6,0,105,10,3,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Artisan's Downpour Laurel,70,235,19,0,7,6,0,0,4,0,7,0,0,0,0,0,0,0,Crafting,False,None
+Senator's Monsoon Laurel,90,220,19,0,6,7,0,0,6,0,3,0,0,0,0,0,0,0,Drop,False,None
+Resplendent Royal Mantle,80,190,19,0,6,8,0,0,0,0,5,0,0,0,0,0,0,0,Gold Vendor,False,None
+Helm of the Wind Glider,96,178,19,0,19,0,130,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Krokopatra Maelstrom Fez,100,353,18,10,0,7,180,0,4,0,0,0,0,10,0,0,0,0,Drop,False,None
+Highlands Warrior's Balmoral (Level 100+),100,310,18,9,9,6,0,58,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Fraught Hardback Helmet (Level 70+),70,277,18,4,8,0,77,38,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Stormy Night Mire Top Hat (Level 70+),70,277,18,4,8,0,77,38,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Wastelander's Shocked Hat (Level 70+),70,0,18,4,8,7,77,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Vizier's Windswept Mantle,116,348,18,0,0,0,141,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Arcanum Exile Cyclone Hat,105,280,18,0,0,9,118,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Clangor from Olympus Brim,90,250,18,0,4,6,165,0,5,0,0,0,0,0,0,0,0,0,Drop,False,None
+Poseidon's Torrential Helm,90,250,18,0,5,9,145,0,3,0,7,0,0,0,0,0,0,0,Drop,False,None
+Senator's Downpour Laurel,70,225,18,0,6,6,0,0,3,0,6,0,0,0,0,0,0,0,Drop,False,None
+Morganthe's Stormy Arachna Crown (Level 70+),70,222,18,0,8,7,77,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Wild Skyfarer's Douli Hat (Level 70+),70,222,18,0,8,7,77,0,0,0,0,6,0,0,0,0,0,0,Crowns,False,None
+Hades' Blackrain Helm,90,210,18,0,0,7,185,0,5,0,0,0,0,0,0,0,0,0,Drop,False,None
+Storm Caller's Mantle,70,189,18,0,6,7,0,0,0,0,5,0,0,0,0,0,0,0,Gold Vendor,False,None
+Battle Mage's Helm of Furor,100,320,17,8,0,8,169,0,5,0,0,0,0,10,0,0,0,0,Drop,False,None
+Great Inventor's Storm Hat (Level 80+),80,264,17,6,9,5,0,45,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Highlands Warrior's Balmoral (Level 80+),80,264,17,6,9,5,0,45,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Electric Fairy Kei Broadbrim (Level 60+),60,157,17,5,8,0,72,0,4,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Wayfarer's Scirocco Fez,114,321,17,0,0,0,138,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Nomad's Sandstorm Torboosh,112,316,17,0,0,0,135,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Arcanum Diviner's Spire,108,302,17,0,0,0,114,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Rising Tide Topper,52,96,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Sheltering Storm Cover,66,85,17,0,7,0,119,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Highlands Warrior's Balmoral (Level 70+),70,222,16,5,9,5,0,38,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Great Inventor's Storm Hat (Level 70+),70,222,16,5,9,5,0,38,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Burrower's Divination Hood (Level 60+),60,180,16,5,0,5,0,31,3,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Stormy Night Mire Top Hat (Level 60+),60,224,16,4,8,0,63,31,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Wastelander's Shocked Hat (Level 60+),60,0,16,4,8,6,63,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Electric Fairy Kei Broadbrim (Level 50+),50,0,16,4,0,4,0,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Snowcrusher's Galvanic Hat (Socketed),50,179,16,3,0,4,0,0,3,0,0,0,0,0,0,2,1,0,Crafting,False,None
+Snowcrusher's Galvanic Shroud,50,179,16,3,8,0,0,0,3,0,0,0,0,0,0,0,0,0,Drop,False,None
+Enchanter's Lightning Hat,106,280,16,0,0,0,111,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Morganthe's Stormy Arachna Crown (Level 60+),60,180,16,0,8,6,63,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Wild Skyfarer's Douli Hat (Level 60+),60,180,16,0,8,6,63,0,0,0,0,6,0,0,0,0,0,0,Crowns,False,None
+Fraught Hardback Helmet (Level 50+),50,198,15,4,8,0,0,0,0,0,0,0,0,0,0,0,0,0,Housing Gauntlet,False,None
+Stormy Night Mire Top Hat (Level 50+),50,198,15,4,8,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Burrower's Divination Hood (Level 50+),50,159,15,4,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key,False,None
+Wastelander's Shocked Hat (Level 50+),50,0,15,4,8,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Snowcrusher's Galvanic Hat,50,159,15,3,7,0,0,0,3,0,0,0,0,0,0,0,0,0,Drop,False,None
+Headgear of Dune Storms,60,141,15,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Evoker's Brim of Squalls,104,259,15,0,0,0,108,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Malistaire's Squall Locks (Level 50+),50,159,15,0,8,5,0,0,0,0,0,5,0,0,0,0,0,0,Rematch,False,None
+Morganthe's Stormy Arachna Crown (Level 50+),50,159,15,0,8,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Wild Skyfarer's Douli Hat (Level 50+),50,159,15,0,8,5,0,0,0,0,0,5,0,0,0,0,0,0,Crowns,False,None
+Raging Blackwater's Helm,100,304,14,6,0,7,160,0,4,0,0,0,0,0,0,0,0,0,Drop,False,None
+Great Inventor's Storm Hat (Level 60+),60,180,14,5,9,5,0,31,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Highlands Warrior's Balmoral (Level 60+),60,180,14,5,9,5,0,31,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Stormy Night Mire Coat (Level 40+),40,173,14,2,7,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Knave's Rushing Cap,70,194,14,1,3,7,145,0,4,0,6,0,0,0,0,0,0,0,Drop,False,None
+Poseidon's Typhoon Helmet,70,185,14,1,5,6,143,0,3,0,5,0,0,0,0,0,0,0,Drop,False,None
+Mage's Blustery Conical,102,237,14,0,0,0,105,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
+Squamish Cowl of the Sidhe,65,191,14,0,7,0,0,0,3,0,0,0,0,0,0,0,0,0,Drop,False,None
+Blackthunder Helm,90,85,13,8,0,7,165,0,3,0,5,0,0,0,0,0,0,0,Drop,False,None
+Great Inventor's Storm Hat (Level 50+),50,159,13,4,9,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Highlands Warrior's Balmoral (Level 50+),50,158,13,4,8,0,0,0,0,0,0,0,0,0,0,0,0,0,Housing Gauntlet,False,None
+Fraught Hardback Helmet (Level 40+),40,150,13,2,6,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Gloomy Cerberus Master Helm (Level 40+),40,150,13,2,6,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Stormy Night Mire Top Hat (Level 40+),40,150,13,2,6,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Burrower's Divination Hood (Level 40+),40,120,13,2,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Wastelander's Shocked Hat (Level 40+),40,0,13,2,6,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Thundering Paladin's Helm,95,250,13,0,6,6,190,0,4,0,4,0,0,0,0,0,0,0,Crowns,False,None
+Royal Barbut of Whirlwind,40,144,13,0,5,4,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Morganthe's Stormy Arachna Crown (Level 40+),40,120,13,0,6,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Wild Skyfarer's Douli Hat (Level 40+),40,120,13,0,6,4,0,0,0,0,0,5,0,0,0,0,0,0,Crowns,False,None
+Celestian Tempest Helm,50,173,12,2,0,0,25,0,0,0,0,0,0,0,0,0,0,0,Drop,False,Celestian Tempest Set
+Great Inventor's Storm Hat (Level 40+),40,120,12,2,7,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Floramancer Helm of Thorns (Level 40+),40,105,12,2,7,4,0,0,0,0,0,5,0,0,0,0,0,0,Crowns,False,None
+Gloomy Cerberus Master Helm (Level 30+),30,150,11,2,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Stormy Night Mire Top Hat (Level 30+),30,150,11,2,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Highlands Warrior's Balmoral (Level 40+),40,120,11,2,6,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Zeus' Helm of Tumult,30,150,11,1,6,3,0,0,0,0,5,6,0,0,0,0,0,0,Drop,False,None
+Mantle of Thunder,45,160,11,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Snowcrusher's Galvanic Shroud (H160),50,160,11,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Morganthe's Stormy Arachna Crown (Level 30+),30,120,11,0,5,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Wild Skyfarer's Douli Hat (Level 30+),30,120,11,0,5,4,0,0,0,0,0,5,0,0,0,0,0,0,Crowns,False,None
+Burrower's Rainstorm Cap,92,119,11,0,0,0,110,0,4,0,0,0,0,0,0,0,0,0,Drop,False,None
+Moonwraith's Hurricane Hood,45,106,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Veil of Clouds,45,53,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Shroud of the Sylph,45,0,11,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Advanced Storm Conical,50,175,10,5,5,0,24,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Highlands Warrior's Balmoral (Level 30+),30,120,10,2,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Housing Gauntlet,False,None
+Great Inventor's Storm Hat (Level 30+),30,120,10,2,6,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Electric Fairy Kei Broadbrim (Level 20+),20,45,10,2,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Lost World Cloud Helm,85,268,10,0,0,0,144,0,0,5,0,0,0,0,0,0,0,0,Drop,False,None
+Palace Guard's Rain Topper,40,136,10,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Wild Monsoon Brim,70,133,10,0,0,0,75,0,4,0,0,0,0,0,0,0,0,0,Drop,False,None
+Charnel Rain Cowl,44,132,10,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Fabled Shore Mantle,44,132,10,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Fire Typhoon Cap,44,132,10,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Frost Lightning Hood,44,132,10,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Zealous Tide Hat,44,132,10,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Vigilant Horizon Cap,44,132,10,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Bad Storm Shroud,72,122,10,0,0,0,109,0,2,0,0,0,0,0,0,0,0,0,Drop,False,None
+Glorious Feathered Mantle,82,115,10,0,0,0,109,0,3,0,0,0,0,0,0,0,0,0,Drop,False,None
+Takanobu's Sedge of Sparks,35,115,10,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Mantle of Merit,45,106,10,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Pyrelance's Downpouring Hood,45,106,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Shroud of the Steward,45,106,10,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Adept's Raincloud Mantle,30,96,10,0,4,4,0,0,0,0,5,0,0,0,0,0,0,0,Crafting,False,None
+Monsoon Cap,45,53,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
+Rogue's Rushing Cap,100,341,9,7,0,8,165,0,0,0,0,0,0,10,0,0,0,0,Drop,False,None
+Bonebreaker Cowl of Sparks,40,134,9,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Stormy Night Mire Top Hat (Level 20+),20,64,9,2,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Burrower's Divination Hood (Level 20+),20,52,9,2,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Wastelander's Shocked Hat (Level 20+),20,0,9,2,5,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Hood of the Flurry,40,128,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Oyotomi's Cowl of Vacancy,40,128,9,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Senator's Raincloud Mantle,30,96,9,0,3,4,0,0,0,0,3,0,0,0,0,0,0,0,Drop,False,None
+Cowl of Discord,35,84,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Cap of the Stratosphere,35,84,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Yakedo's Shroud,35,84,9,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Morganthe's Stormy Arachna Crown (Level 20+),20,52,9,0,5,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Wild Skyfarer's Douli Hat (Level 20+),20,52,9,0,5,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cowl of the Torrent,40,0,9,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Shoji's Shroud of Disorder,40,0,9,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Vigilant Cap,35,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Krokomaic Maelstrom Fez,40,134,8,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Great Inventor's Storm Hat (Level 20+),20,52,8,2,6,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Fraught Hardback Helmet (Level 10+),10,32,8,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Stormy Night Mire Top Hat (Level 10+),10,32,8,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Burrower's Divination Hood (Level 10+),10,26,8,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Electric Fairy Kei Broadbrim (Level 10+),10,23,8,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Wastelander's Shocked Hat (Level 10+),10,0,8,2,4,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Himoolayan Avalanche Helm,25,108,8,1,4,2,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Hat of the Stormwracked,45,128,8,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Cowl of the Bolt,40,84,8,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Interpretive Mask,35,84,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Jikiru's Mask of Misfortune,35,84,8,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Typhoon Crown,40,84,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Hat of Discontent,35,42,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Wild Skyfarer's Douli Hat (Level 10+),10,26,8,0,4,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Great Inventor's Storm Hat (Level 10+),10,26,7,2,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Barkingham Fog Bowler,40,108,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Cloudguard Coif,33,101,7,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Hailstone Hood,33,101,7,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Raintree Headwrap,33,101,7,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Simmersleet Hat,33,101,7,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Thundermuse Cowl,33,101,7,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Sorrowgale Hat,33,101,7,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Hoof Warrior's Headgear,25,80,7,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Cap of Dilemma,30,42,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Fortune's Hood,35,42,7,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Morganthe's Stormy Arachna Crown (Level 10+),10,26,7,0,4,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Gloomy Cerberus Master Helm (Any Level),1,27,6,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Bellows' Aristocratic Hat,30,96,6,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Tornadic Hat,30,96,6,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Nails' Helm of the Clever,25,64,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Spike's Mechanical Visor,25,64,6,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Morganthe's Stormy Arachna Crown (Any Level),1,22,6,0,3,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Thinker's Cap,30,0,6,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Adventurer's Cowl,25,64,5,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Clanker's Premium Cap,25,64,5,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Mugsy's Helm,25,64,5,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Meowiarty's Intense Helm,25,64,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Himoolayan Blizzard Helmet,25,60,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Ra's Cloudburst Hood,20,58,4,1,0,0,0,0,0,4,0,0,0,0,0,0,0,0,Drop,False,None
+Floramancer Helm of Thorns (Any Level),5,15,4,1,3,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Stormy Night Mire Top Hat (Any Level),1,8,4,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Crackling Cowl of Eternity,22,80,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Chill Cowl of the Cyclone,22,80,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Blustery Hat of Legend,22,80,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Thundering Hat of Neutrality,22,80,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Vigorous Cap of the Squall,22,80,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Windswept Hood of the Glacier,22,80,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Tailor-Made Hat,20,64,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Cap of the Cyclone,30,32,4,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Wild Skyfarer's Douli Hat (Any Level),1,13,4,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cap of the Savage,20,64,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Krokenkahmen's Circlet,20,64,3,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Queen's Helm of Designs,20,64,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Manu's Hood of Power,20,64,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Hat of Stormy Havoc,20,44,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Odji's Hat of Artistry,15,42,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Umbral Headgear,25,0,3,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Floodfire Hood,15,53,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Sagadeep Cowl,15,53,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Stormtide Mantle,15,53,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Sorrowstream Hood,15,53,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Thunderward Cap,15,53,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Windsoul Hat,15,53,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Stormsquall Crown,20,40,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Immortals' Helm of Havoc,100,329,0,16,0,9,67,0,0,0,8,0,0,0,0,0,0,0,Drop,False,None
+Red Helm of Resilience,120,455,0,0,9,9,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Mottoman Sandspouts Helm,118,396,0,0,0,0,0,0,0,5,3,0,0,0,0,0,0,0,Drop,False,None
+Eerem Headwrap of Clangor,118,385,0,0,8,11,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Bonesmasher Cowl of Sparks,100,382,0,0,0,5,178,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Zruvan Flashflood Helmet,116,369,0,0,0,0,0,0,0,5,2,0,0,0,0,0,0,0,Drop,False,None
+Sand Sea Cowl of Havoc,116,358,0,0,8,11,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Aridian Helm of Dunestorms,114,342,0,0,0,0,0,0,0,5,2,0,0,0,0,0,0,0,Drop,False,None
+Mongu Kabalak of Tantrums,112,337,0,0,0,0,0,0,0,5,2,0,0,0,0,0,0,0,Drop,False,None
+Rubal Thunder Kufiya,114,332,0,0,8,11,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Djinn Ghutrah of Flux,112,326,0,0,8,11,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Kataba Furcap of Havoc,108,319,0,0,0,0,0,0,0,5,2,0,0,0,0,0,0,0,Drop,False,None
+Walrusk Papakh of Graupel,108,310,0,0,8,11,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Tayg Ushanka of Sleetfall,106,297,0,0,0,0,0,0,0,5,2,0,0,0,0,0,0,0,Gold Vendor,False,None
+Tundarian Furcap of Flux,106,289,0,0,7,10,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Snowstorm Bleaks Ushanka,104,276,0,0,0,0,0,0,0,4,1,0,0,0,0,0,0,0,Drop,False,None
+Thunderstruck Shroud,78,270,0,0,7,7,0,0,3,0,0,0,0,0,0,0,0,0,Drop,False,None
+Kossack Papakh of Tempests,104,267,0,0,7,9,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
+Burrower Crown of Thunder (Level 98+),98,260,0,0,9,8,0,0,5,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Crown of the Vicious Sky,88,255,0,0,8,7,0,0,4,0,0,0,0,0,0,0,0,0,Drop,False,None
+Hailstorm Tundra Ushanka,102,254,0,0,0,0,0,0,0,4,1,0,0,0,0,0,0,0,Drop,False,None
+Urville Fur Hat of Snowgusts,102,246,0,0,6,8,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+War Olyphant's Wrap,68,224,0,0,0,0,119,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Rain Cover,60,208,0,0,0,0,84,0,3,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
+Zebra's Zephyr Headdress,62,208,0,0,6,0,25,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Drenched Headdress,50,192,0,0,0,0,27,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Hood of the Thunder Wolf,50,189,0,0,9,0,0,0,0,0,5,0,0,0,0,0,0,0,Gold Vendor,False,None
+Lambent's Cowl of Clamoring,70,185,0,0,0,4,0,0,0,5,6,0,0,0,0,0,0,0,Gold Key,False,None
+Mantle of the Watery Deep,45,160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Thunderstruck Hat,56,154,0,0,0,0,80,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Drafty Cap,50,154,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Stormfist's Gale Force Helm,56,154,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
+Rumbling Cover,52,154,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Wildcrag's Typhoon Helm,54,154,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Mask of the Muse,35,128,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Shroud of Conceit,40,128,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Skystorm Cowl,40,128,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Cowl of the Zephyr,45,106,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Mist Giant's Cowl,45,106,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Markmaker's Cyclonic Coif,45,106,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Stormwatcher's Hood,45,106,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Stylish Hat,25,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Surging Storm Helm,52,96,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Headwraps of Commotion,35,84,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
+Hat of Niceties,35,84,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Helm of Disquiet,35,84,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Meditative Helm,35,84,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Animated Cap,25,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Clamoring Mantle,20,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Animated Canine Cowl,25,64,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Diviner's Hat of Squalls,15,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Feline's Charged Hat,25,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Hat of the Scirocco,25,64,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Headgear of the Haze,15,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Helm of Ingenuity,20,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Pioneer's Helm,20,64,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Scratcher's Invigorated Cowl,25,64,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Foulweather Hat,30,58,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
+Krokotopian Storm Modius,15,58,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,Krokotopian Storm Set
+Hood of the Tempest,45,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Ozone Shroud,45,53,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Triton's Topper,45,53,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Cloud Cover,15,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Meticulous Headwraps,30,42,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Speculative Headwraps,35,42,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Rugged Hood,15,42,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Cap of the Kraken,25,32,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Gobblestone's Storm Cap,10,32,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Gustshroud,10,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
+Stormcaller's Hat,10,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Visor of Invention,25,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Charged Helm,10,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Headwrap of Originality,15,21,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Torrential Cap,15,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Hood of Tension,10,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Student's Helm,5,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Wooden Key,False,None
+Thundercracked Cover,52,0,0,0,0,0,53,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Crusader's Headdress,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Greebly's Windshroud,10,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Shroud of Downpour,15,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Stormweave Hood,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None

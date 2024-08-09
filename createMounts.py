@@ -1,36 +1,13 @@
-import os
 import urllib.parse
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import pandas as pd
-import requests
 from bs4 import BeautifulSoup
 
+import findItemSource
+from webAccess import fetch_url_content, replace_img_with_filename
+
 school = None
-
-def fetch_url_content(url):
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
-                      '(KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-    }
-
-    try:
-        if url.startswith('http'):
-            response = requests.get(url, headers=headers)
-        else:
-            full_url = urllib.parse.urljoin('https://wiki.wizard101central.com', url)
-            response = requests.get(full_url, headers=headers)
-            
-        response.raise_for_status()  # Raise an exception for HTTP errors (4xx or 5xx)
-        return response.text
-    except requests.exceptions.HTTPError as http_err:
-        print(f"HTTP error occurred: {http_err}")
-    except requests.exceptions.RequestException as req_err:
-        print(f"Request error occurred: {req_err}")
-    except Exception as err:
-        print(f"Other error occurred: {err}")
-    
-    return None
 
 def extract_bullet_points_from_html(html_content):
     if html_content is None:
@@ -51,14 +28,6 @@ def extract_bullet_points_from_html(html_content):
                 })
     
     return bullet_points
-
-def replace_img_with_filename(soup):
-    for img in soup.find_all('img'):
-        if 'src' in img.attrs:
-            img_url = img['src']
-            img_filename = os.path.basename(img_url)
-            img.replace_with(f'({img_filename})')
-    return soup
 
 def extract_information_from_url(url):
     html_content = fetch_url_content(url)
@@ -192,31 +161,10 @@ def process_bullet_point(base_url, bullet_point):
         }
         item_data.update(bonuses)
         
-        source = "Drop/Vendor" # Determine the source based on specific text on the page
+        # set the item's source
+        item_data['Source'] = findItemSource.get_item_source(item_name, formatted_info, False)
         
-        if soup:
-            
-            text = soup.get_text()
-            
-            if "This item has been retired" in text or "Free codes" in text or "promotional" in text:
-                source = "Retired"
-            elif "No drop sources known" not in text:
-                if "Crafting Recipes" in text:
-                    source = "Crafting"
-                elif "(Tier " in text or "(Rank " in text:
-                    source = "Gold Key/Gauntlet"
-            elif "Crafting Recipes" in text:
-                source = "Crafting"
-            elif "Fishing Chests" in text:
-                source = "Fishing"
-            elif "Gift Card" in text:
-                source = "Gift Card"
-            elif "Card Pack" in text or "Crown Shop" in text:
-                source = "Crowns"
-            elif "No drop sources known" in text:
-                source = "Retired"
-        
-        item_data['Source'] = source
+        # set the item's gear set (or None if none)
         item_data['Gear Set'] = formatted_info[formatted_info.index("Set") + 1] if "Set" in formatted_info else "None"
         
         return item_data
@@ -259,7 +207,7 @@ def remove_normal_mounts(df):
     # Combine conditions: keep rows if not all zero or if 'd' or 'e' is True
     df = df[~condition_all_zero | condition_d_or_e_true].reset_index(drop = True)
     
-    default_mount = pd.DataFrame([{"Name": "Default", "Level": 1, "Health": 0, "Damage": 0, "Resist": 0, "Accuracy": 0, "Power Pip": 0, "Critical": 0, "Critical Block": 0, "Pierce": 0, "Stun Resist": 0, "Incoming": 0, "Outgoing": 0, "Pip Conserve": 0, "Shadow Pip": 0, "Archmastery": 0, "Source": "Drop/Vendor", "Owned": True, "Gear Set": "None"}])
+    default_mount = pd.DataFrame([{"Name": "Default", "Level": 1, "Health": 0, "Damage": 0, "Resist": 0, "Accuracy": 0, "Power Pip": 0, "Critical": 0, "Critical Block": 0, "Pierce": 0, "Stun Resist": 0, "Incoming": 0, "Outgoing": 0, "Pip Conserve": 0, "Shadow Pip": 0, "Archmastery": 0, "Source": "Gold", "Owned": True, "Gear Set": "None"}])
 
     df = df._append(default_mount, ignore_index = True)
     

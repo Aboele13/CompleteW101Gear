@@ -3,7 +3,7 @@ import createClothing
 import createMounts
 import createPets
 
-school = "Fire"
+school = "Storm"
 schools = ["Death", "Fire", "Balance", "Myth", "Storm", "Ice", "Life"]
 update_gear = True
 

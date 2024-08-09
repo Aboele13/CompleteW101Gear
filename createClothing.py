@@ -51,6 +51,7 @@ def extract_information_from_url(url):
         start_index = None
         end_index = None
         level_required = None
+        gauntlet = False
         for i, line in enumerate(lines):
             if line.startswith("Item:"):
                 start_index = i
@@ -62,12 +63,24 @@ def extract_information_from_url(url):
                     level_required = 1
             if line.startswith("Male Image"):
                 end_index = i
-                break
+                continue
+            if end_index != None and end_index < i and "Gauntlet" in line:
+                gauntlet = True
         
         if start_index is not None and end_index is not None:
-            return lines[start_index:end_index], level_required, soup
+            if not gauntlet:
+                return lines[start_index:end_index], level_required, soup
+            else:
+                list = lines[start_index:end_index]
+                list.append("From Gauntlet")
+                return list, level_required, soup
         elif start_index is not None:
-            return lines[start_index:], level_required, soup
+            if not gauntlet:
+                return lines[start_index:], level_required, soup
+            else:
+                list = lines[start_index:]
+                list.append("From Gauntlet")
+                return list, level_required, soup
         else:
             return [], level_required, soup
     else:
@@ -230,10 +243,13 @@ def process_bullet_point(base_url, bullet_point):
         item_data.update(bonuses)
         
         # set the item's source
-        item_data['Source'] = findItemSource.get_item_source(item_name, formatted_info)
+        item_data['Source'] = findItemSource.get_item_source(item_name, formatted_info, False)
 
         # set the item's gear set (or None if none)
         item_data['Gear Set'] = formatted_info[formatted_info.index("From Set:") + 1] if "From Set:" in formatted_info else "None"
+        
+        # set whether item can be bought at bazaar or not
+        item_data['Auctionable'] = True if "Auctionable" in formatted_info else False
         
         return item_data
     else:
@@ -252,7 +268,7 @@ def only_show_necessary_cols(df):
     df["Level"] = df["Level"].astype(int)
     df["Owned"] = False
     
-    return df[['Name', 'Level', 'Health', 'Damage', 'Resist', 'Accuracy', 'Power Pip', 'Critical', 'Critical Block', 'Pierce', 'Stun Resist', 'Incoming', 'Outgoing', 'Pip Conserve', 'Shadow Pip', 'Archmastery', 'Sword Pins', 'Shield Pins', 'Power Pins', 'Source', 'Owned', 'Gear Set']]
+    return df[['Name', 'Level', 'Health', 'Damage', 'Resist', 'Accuracy', 'Power Pip', 'Critical', 'Critical Block', 'Pierce', 'Stun Resist', 'Incoming', 'Outgoing', 'Pip Conserve', 'Shadow Pip', 'Archmastery', 'Sword Pins', 'Shield Pins', 'Power Pins', 'Source', 'Auctionable', 'Owned', 'Gear Set']]
 
 def sort_by_cols(df, *args):
     return df.sort_values(by = list(args), ascending = [False] * len(args)).reset_index(drop=True)
