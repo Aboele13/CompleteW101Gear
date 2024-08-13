@@ -157,131 +157,188 @@
         <label><input type="checkbox" id="unavailable" checked> Unavailable</label>
     </div>
 
-    <input type="text" id="search-input" placeholder="Search...">
-    <table id="csv-table">
+
+
+
+
+
+
+    <input type="text" id="search-input" placeholder="Search for item name...">
+    <table id="csv-table" border="1">
         <!-- CSV Data will be inserted here -->
     </table>
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            function loadCSV() {
-                const school = document.getElementById('school').value;
-                const itemType = document.getElementById('itemType').value;
+            const school = document.getElementById('school').value;
+            const itemType = document.getElementById('itemType').value;
 
-                const csvUrl = `https://aboele13.github.io/CompleteW101Gear/${school}_Gear/${school}_${itemType}.csv`;
+            const csvUrl = `https://aboele13.github.io/CompleteW101Gear/${school}_Gear/${school}_${itemType}.csv`;
 
-                Papa.parse(csvUrl, {
-                    download: true,
-                    header: true,
-                    complete: function(results) {
-                        const data = results.data;
-                        const originalData = data.slice(); // Keep a copy of the original data
-                        const table = document.getElementById('csv-table');
+            Papa.parse(csvUrl, {
+                download: true,
+                header: true,
+                complete: function(results) {
+                    var data = results.data;
+                    var originalData = data.slice(); // Keep a copy of the original data
+                    var table = document.getElementById('csv-table');
+                    var levelFilter = document.getElementById('level');
+                    var checkboxes = {
+                        'gold-vendor': document.getElementById('gold-vendor'),
+                        'drop': document.getElementById('drop'),
+                        'bazaar': document.getElementById('bazaar'),
+                        'crafting': document.getElementById('crafting'),
+                        'gold-key': document.getElementById('gold-key'),
+                        'stone-key': document.getElementById('stone-key'),
+                        'wooden-key': document.getElementById('wooden-key'),
+                        'housing-gauntlet': document.getElementById('housing-gauntlet'),
+                        'rematch': document.getElementById('rematch'),
+                        'quest': document.getElementById('quest'),
+                        'one-shot': document.getElementById('one-shot'),
+                        'fishing': document.getElementById('fishing'),
+                        'raid': document.getElementById('raid'),
+                        'crowns': document.getElementById('crowns'),
+                        'gift-card': document.getElementById('gift-card'),
+                        'unavailable': document.getElementById('unavailable'),
+                    };
 
-                        if (data.length === 0) {
-                            console.error('CSV file is empty or failed to parse.');
-                            return;
-                        }
-
-                        // Create table header
-                        const header = table.createTHead();
-                        const headerRow = header.insertRow(0);
-
-                        Object.keys(data[0]).forEach(function(key) {
-                            const cell = headerRow.insertCell(-1);
-                            cell.innerHTML = key;
-                            cell.addEventListener('click', function() {
-                                sortData(key);
-                            });
-                        });
-
-                        // Create table body
-                        const body = table.createTBody();
-                        function updateTableBody(data) {
-                            body.innerHTML = '';
-                            const fragment = document.createDocumentFragment();
-                            data.forEach(function(row) {
-                                const bodyRow = document.createElement('tr');
-                                Object.values(row).forEach(function(value) {
-                                    const cell = document.createElement('td');
-                                    cell.innerHTML = value;
-                                    bodyRow.appendChild(cell);
-                                });
-                                fragment.appendChild(bodyRow);
-                            });
-                            body.appendChild(fragment);
-                        }
-
-                        // Apply filters
-                        function applyFilters() {
-                            const level = document.getElementById('level').value;
-                            const checkedSources = Array.from(document.querySelectorAll('.checkbox-group input[type="checkbox"]:checked'))
-                                .map(cb => cb.id);
-
-                            let filteredData = originalData.filter(row => {
-                                const isLevelMatch = row.Level == level; // Use == for comparison
-                                const isSourceMatch = checkedSources.some(source => row.Source.includes(source)) || checkedSources.includes('unavailable');
-                                return isLevelMatch && isSourceMatch;
-                            });
-
-                            updateTableBody(filteredData);
-                        }
-
-                        // Function to sort the data in descending order
-                        function sortData(key) {
-                            data.sort(function(a, b) {
-                                var aValue = a[key];
-                                var bValue = b[key];
-
-                                if (isNumeric(aValue) && isNumeric(bValue)) {
-                                    aValue = parseFloat(aValue);
-                                    bValue = parseFloat(bValue);
-
-                                    if (aValue < bValue) return 1; // Descending
-                                    if (aValue > bValue) return -1; // Descending
-                                    return 0;
-                                }
-
-                                // Not Numeric
-                                if (aValue < bValue) return -1; // Ascending / Alphabetical
-                                if (aValue > bValue) return 1; // Ascending / Alphabetical
-                                return 0;
-                            });
-                            updateTableBody(data);
-                        }
-
-                        function isNumeric(value) {
-                            return !isNaN(value - parseFloat(value));
-                        }
-
-                        // Add search functionality
-                        document.getElementById('search-input').addEventListener('keyup', function() {
-                            const searchTerm = this.value.toLowerCase();
-                            const filteredData = originalData.filter(function(row) {
-                                return Object.values(row).some(function(value) {
-                                    return String(value).toLowerCase().includes(searchTerm);
-                                });
-                            });
-                            updateTableBody(filteredData);
-                        });
-
-                        // Apply filters on change
-                        document.getElementById('school').addEventListener('change', loadCSV);
-                        document.getElementById('itemType').addEventListener('change', loadCSV);
-                        document.getElementById('level').addEventListener('change', applyFilters);
-                        document.querySelectorAll('.checkbox-group input[type="checkbox"]').forEach(cb => {
-                            cb.addEventListener('change', applyFilters);
-                        });
-
-                        updateTableBody(data); // Populate table on load
-                    },
-                    error: function(error) {
-                        console.error('Error parsing CSV:', error);
+                    if (data.length === 0) {
+                        console.error('CSV file is empty or failed to parse.');
+                        return;
                     }
-                });
-            }
 
-            loadCSV();
+                    // Create table header
+                    var header = table.createTHead();
+                    var headerRow = header.insertRow(0);
+
+                    // Helper function to determine if a value is numeric
+                    function isNumeric(value) {
+                        return !isNaN(value - parseFloat(value));
+                    }
+
+                    // Function to sort the data in descending order
+                    function sortData(key) {
+                        data.sort(function(a, b) {
+                            var aValue = a[key];
+                            var bValue = b[key];
+
+                            if (isNumeric(aValue) && isNumeric(bValue)) {
+                                aValue = parseFloat(aValue);
+                                bValue = parseFloat(bValue);
+
+                                if (aValue < bValue) return 1; // Descending
+                                if (aValue > bValue) return -1; // Descending
+                                return 0;
+                            }
+
+                            // Not Numeric
+                            if (aValue < bValue) return -1; // Ascending / Alphabetical
+                            if (aValue > bValue) return 1; // Ascending / Alphabetical
+                            return 0;
+                        });
+                        updateTableBody(data);
+                    }
+
+                    Object.keys(data[0]).forEach(function(key) {
+                        var cell = headerRow.insertCell(-1);
+                        cell.innerHTML = key;
+                        cell.addEventListener('click', function() {
+                            sortData(key);
+                        });
+                    });
+
+                    // Create table body
+                    var body = table.createTBody();
+                    function updateTableBody(data) {
+                        body.innerHTML = '';
+                        var fragment = document.createDocumentFragment();
+                        data.forEach(function(row) {
+                            var bodyRow = document.createElement('tr');
+                            Object.values(row).forEach(function(value) {
+                                var cell = document.createElement('td');
+                                cell.innerHTML = value;
+                                bodyRow.appendChild(cell);
+                            });
+                            fragment.appendChild(bodyRow);
+                        });
+                        body.appendChild(fragment);
+                    }
+
+                    // Update the table with the current data
+                    updateTableBody(data);
+
+                    // Add search functionality
+                    document.getElementById('search-input').addEventListener('keyup', function() {
+                        var searchTerm = this.value.toLowerCase();
+                        var rows = body.getElementsByTagName('tr');
+                        Array.from(rows).forEach(function(row) {
+                            var nameCell = row.cells[Object.keys(data[0]).indexOf("Name")];
+                            var matches = nameCell.innerHTML.toLowerCase().includes(searchTerm);
+                            row.style.display = matches ? '' : 'none';
+                        });
+                    });
+
+                    // Add filter functionality
+                    function applyFilters() {
+                        console.log('Applying filters...');
+
+                        var levelFilterValue = parseInt(levelFilter.value);
+                        var sources = [
+                            'Gold Vendor',
+                            'Drop',
+                            'Bazaar',
+                            'Crafting',
+                            'Gold Key',
+                            'Stone Key',
+                            'Wooden Key',
+                            'Housing Gauntlet',
+                            'Rematch',
+                            'Quest',
+                            'One Shot Housing Gauntlet',
+                            'Fishing',
+                            'Raid',
+                            'Crowns',
+                            'Gift Card',
+                            'Unavailable',
+                        ];
+
+                        var selectedSources = sources.filter(function(source) {
+                            // Create a valid ID by replacing spaces and slashes with hyphens
+                            var checkboxId = source.toLowerCase().replace(/ /g, '-').replace(/\//g, '-');
+                            var checkbox = checkboxes[checkboxId];
+                            return checkbox ? checkbox.checked : false;
+                        });
+
+                        console.log('Selected Sources:', selectedSources);
+                        console.log('Level Filter Value:', levelFilterValue);
+
+                        // Apply the filters
+                        data = originalData.filter(function(row) {
+                            var levelMatch = parseInt(row.Level) <= levelFilterValue;
+                            var sourceMatch = selectedSources.some(source => row.Source.includes(source));
+
+                            console.log('Row Level:', row.Level, 'Level Match:', levelMatch);
+                            console.log('Row Source:', row.Source, 'Source Match:', sourceMatch);
+
+                            return levelMatch && sourceMatch;
+                        });
+
+                        updateTableBody(data);
+                    }
+
+                    levelFilter.addEventListener('change', applyFilters);
+                    Object.values(checkboxes).forEach(function(checkbox) {
+                        checkbox.addEventListener('change', applyFilters);
+                    });
+
+                    // Set default filter value to 170 and apply the filters
+                    levelFilter.value = "170";
+                    applyFilters(); // Apply filters immediately
+                },
+                error: function(error) {
+                    console.error('Error fetching CSV:', error);
+                }
+            });
         });
     </script>
 </body>
