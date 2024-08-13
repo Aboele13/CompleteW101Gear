@@ -183,7 +183,7 @@ def remove_normal_pets(df):
     # Combine conditions: keep rows if not all zero or if 'd' or 'e' is True
     df = df[~condition_all_zero | condition_d_or_e_true].reset_index(drop = True)
     
-    default_pet = pd.DataFrame([{"Name": "Default", "Level": 1, "Health": 0, "Damage": 0, "Resist": 0, "Accuracy": 0, "Power Pip": 0, "Critical": 0, "Critical Block": 0, "Pierce": 0, "Stun Resist": 0, "Incoming": 0, "Outgoing": 0, "Pip Conserve": 0, "Shadow Pip": 0, "Archmastery": 0, "Owned": False, "Gear Set": "None"}])
+    default_pet = pd.DataFrame([{"Name": "Other", "Level": 1, "Health": 0, "Damage": 0, "Resist": 0, "Accuracy": 0, "Power Pip": 0, "Critical": 0, "Critical Block": 0, "Pierce": 0, "Stun Resist": 0, "Incoming": 0, "Outgoing": 0, "Pip Conserve": 0, "Shadow Pip": 0, "Archmastery": 0, "Owned": False, "Gear Set": "None"}])
 
     df = df._append(default_pet, ignore_index = True)
     

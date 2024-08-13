@@ -64,7 +64,7 @@ def extract_information_from_url(url):
             if line.startswith("Male Image"):
                 end_index = i
                 continue
-            if end_index != None and end_index < i and "Gauntlet" in line:
+            if end_index != None and end_index < i and any(gauntlet in line for gauntlet in findItemSource.housing_gauntlet_list):
                 gauntlet = True
         
         if start_index is not None and end_index is not None:
@@ -248,9 +248,6 @@ def process_bullet_point(base_url, bullet_point):
         # set the item's gear set (or None if none)
         item_data['Gear Set'] = formatted_info[formatted_info.index("From Set:") + 1] if "From Set:" in formatted_info else "None"
         
-        # set whether item can be bought at bazaar or not
-        item_data['Auctionable'] = True if "Auctionable" in formatted_info else False
-        
         return item_data
     else:
         print(f"Failed to fetch content from {full_url}")
@@ -268,7 +265,7 @@ def only_show_necessary_cols(df):
     df["Level"] = df["Level"].astype(int)
     df["Owned"] = False
     
-    return df[['Name', 'Level', 'Health', 'Damage', 'Resist', 'Accuracy', 'Power Pip', 'Critical', 'Critical Block', 'Pierce', 'Stun Resist', 'Incoming', 'Outgoing', 'Pip Conserve', 'Shadow Pip', 'Archmastery', 'Sword Pins', 'Shield Pins', 'Power Pins', 'Source', 'Auctionable', 'Owned', 'Gear Set']]
+    return df[['Name', 'Level', 'Health', 'Damage', 'Resist', 'Accuracy', 'Power Pip', 'Critical', 'Critical Block', 'Pierce', 'Stun Resist', 'Incoming', 'Outgoing', 'Pip Conserve', 'Shadow Pip', 'Archmastery', 'Sword Pins', 'Shield Pins', 'Power Pins', 'Source', 'Owned', 'Gear Set']]
 
 def sort_by_cols(df, *args):
     return df.sort_values(by = list(args), ascending = [False] * len(args)).reset_index(drop=True)

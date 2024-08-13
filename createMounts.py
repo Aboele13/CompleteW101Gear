@@ -78,7 +78,7 @@ def format_extracted_info(extracted_info):
         if any(phrase in line for phrase in skip_phrases):
             continue
         # Clean up extra commas and percentage signs
-        cleaned_line = line.replace(',', '').replace('%', '').replace("(15px-%28Icon%29_M", "").replace("(21px-%28Icon%29_", "").replace("(21px-28Icon29", "").replace('(25px-28Icon29_', '').replace('(18px-28Icon29_', '').replace('.png)', '').replace('_', ' ')
+        cleaned_line = line.replace(',', '').replace('%', '').replace("(15px-%28Icon%29_M", "").replace("(21px-%28Icon%29_", "").replace("(21px-28Icon29", "").replace('(25px-28Icon29_', '').replace('(18px-28Icon29_', '').replace('(15px-28Icon29', '').replace("(328px-28Item29", "").replace("(28Item29", "").replace('.png)', '').replace('_', ' ')
         if len(cleaned_line) > 0:
             cleaned_line = cleaned_line[1:] if cleaned_line[0] == " " else cleaned_line
             formatted_info.append(cleaned_line)
@@ -153,6 +153,8 @@ def process_bullet_point(base_url, bullet_point):
     
     if "-100% Max" in text_info:
         return None
+    if "Permanent" not in text_info:
+        return None
     elif text_info:
         formatted_info = format_extracted_info(text_info)
         bonuses = parse_bonuses(formatted_info, item_name)
@@ -162,7 +164,7 @@ def process_bullet_point(base_url, bullet_point):
         item_data.update(bonuses)
         
         # set the item's source
-        item_data['Source'] = findItemSource.get_item_source(item_name, formatted_info, False)
+        item_data['Source'] = findItemSource.get_item_source(item_name, formatted_info, True)
         
         # set the item's gear set (or None if none)
         item_data['Gear Set'] = formatted_info[formatted_info.index("Set") + 1] if "Set" in formatted_info else "None"
@@ -207,7 +209,7 @@ def remove_normal_mounts(df):
     # Combine conditions: keep rows if not all zero or if 'd' or 'e' is True
     df = df[~condition_all_zero | condition_d_or_e_true].reset_index(drop = True)
     
-    default_mount = pd.DataFrame([{"Name": "Default", "Level": 1, "Health": 0, "Damage": 0, "Resist": 0, "Accuracy": 0, "Power Pip": 0, "Critical": 0, "Critical Block": 0, "Pierce": 0, "Stun Resist": 0, "Incoming": 0, "Outgoing": 0, "Pip Conserve": 0, "Shadow Pip": 0, "Archmastery": 0, "Source": "Gold", "Owned": True, "Gear Set": "None"}])
+    default_mount = pd.DataFrame([{"Name": "Other", "Level": 1, "Health": 0, "Damage": 0, "Resist": 0, "Accuracy": 0, "Power Pip": 0, "Critical": 0, "Critical Block": 0, "Pierce": 0, "Stun Resist": 0, "Incoming": 0, "Outgoing": 0, "Pip Conserve": 0, "Shadow Pip": 0, "Archmastery": 0, "Source": "Gold Vendor", "Owned": True, "Gear Set": "None"}])
 
     df = df._append(default_mount, ignore_index = True)
     
@@ -253,7 +255,7 @@ def create_mounts(main_school):
     # move all items to dataframe
     df = pd.DataFrame(items_data).fillna(0)  # fill all empty values with 0
     df = clean_mounts_df(df)
-    df = remove_normal_mounts(df)
+    # df = remove_normal_mounts(df) # save this function as a "remove objectively worse"
     print(df)
     df.to_csv(f'{school}_Gear\\{school}_Mounts.csv', index=False)
         
