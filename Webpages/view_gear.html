@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Complete Wizard101 Gear - View Gear</title>
     <style>
+        /* Your existing styles */
         body {
             font-family: Arial, sans-serif;
             text-align: center;
@@ -54,20 +55,27 @@
             margin-right: 10px;
         }
         .checkbox-group {
-            margin-top: 20px;
             display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 20px;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-top: 20px;
         }
         .checkbox-group label {
             font-size: 18px;
             margin-bottom: 5px;
-            display: flex;
-            align-items: center;
         }
         .checkbox-group input[type="checkbox"] {
             margin-right: 10px;
+        }
+        .search-bar {
+            margin-top: 20px;
+        }
+        .search-bar input {
+            font-size: 18px;
+            padding: 10px;
+            width: 300px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
         }
         table {
             margin-top: 30px;
@@ -77,14 +85,16 @@
             border-collapse: collapse;
         }
         table, th, td {
-            border: 1px solid black;
+            border: 1px solid #ddd;
         }
         th, td {
-            padding: 10px;
+            padding: 12px;
             text-align: left;
         }
+        th {
+            background-color: #f2f2f2;
+        }
     </style>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
 </head>
 <body>
 
@@ -98,21 +108,22 @@
     </div>
 
     <div class="dropdowns">
+        <!-- Dropdowns as before -->
         <div>
             <label for="school">School:</label>
-            <select id="school" onchange="loadCSV()">
+            <select id="school">
+                <option value="Myth">Myth</option>
+                <option value="Ice">Ice</option>
+                <option value="Fire">Fire</option>
+                <option value="Storm">Storm</option>
                 <option value="Balance">Balance</option>
                 <option value="Death">Death</option>
-                <option value="Fire">Fire</option>
-                <option value="Ice">Ice</option>
                 <option value="Life">Life</option>
-                <option value="Myth">Myth</option>
-                <option value="Storm">Storm</option>
             </select>
         </div>
         <div>
             <label for="itemType">Item Type:</label>
-            <select id="itemType" onchange="loadCSV()">
+            <select id="itemType">
                 <option value="Hats">Hat</option>
                 <option value="Robes">Robe</option>
                 <option value="Boots">Boots</option>
@@ -157,48 +168,59 @@
         <label><input type="checkbox" checked> Unavailable</label>
     </div>
 
-    <table id="gearTable"></table>
+    <div class="search-bar">
+        <input type="text" id="searchInput" onkeyup="filterTable()" placeholder="Search for names..">
+    </div>
+
+    <table id="gearTable">
+        <!-- Table will be populated by JavaScript -->
+    </table>
 
     <script>
         function loadCSV() {
             const school = document.getElementById('school').value;
             const itemType = document.getElementById('itemType').value;
-
             const csvUrl = `https://aboele13.github.io/CompleteW101Gear/${school}_Gear/${school}_${itemType}.csv`;
 
-            Papa.parse(csvUrl, {
-                download: true,
-                header: true,
-                complete: function(results) {
-                    const table = document.getElementById('gearTable');
-                    table.innerHTML = '';
+            fetch(csvUrl)
+                .then(response => response.text())
+                .then(data => {
+                    const rows = data.split('\n').slice(1);
+                    let tableHTML = '<tr><th>Name</th><th>Other Columns...</th></tr>';  // Update column headers as needed
 
-                    // Create table headers
-                    const headers = results.meta.fields;
-                    const headerRow = document.createElement('tr');
-                    headers.forEach(header => {
-                        const th = document.createElement('th');
-                        th.textContent = header;
-                        headerRow.appendChild(th);
+                    rows.forEach(row => {
+                        const cols = row.split(',');
+                        tableHTML += `<tr><td>${cols[0]}</td><td>${cols[1]}</td><td>${cols[2]}</td></tr>`;  // Adjust to match your CSV structure
                     });
-                    table.appendChild(headerRow);
 
-                    // Create table rows
-                    results.data.forEach(row => {
-                        const tr = document.createElement('tr');
-                        headers.forEach(header => {
-                            const td = document.createElement('td');
-                            td.textContent = row[header];
-                            tr.appendChild(td);
-                        });
-                        table.appendChild(tr);
-                    });
-                }
-            });
+                    document.getElementById('gearTable').innerHTML = tableHTML;
+                });
         }
 
-        // Initial load
-        loadCSV();
+        function filterTable() {
+            const input = document.getElementById("searchInput");
+            const filter = input.value.toLowerCase();
+            const table = document.getElementById("gearTable");
+            const tr = table.getElementsByTagName("tr");
+
+            for (let i = 1; i < tr.length; i++) {
+                const td = tr[i].getElementsByTagName("td")[0]; // Assuming "Name" is the first column
+                if (td) {
+                    const txtValue = td.textContent || td.innerText;
+                    if (txtValue.toLowerCase().indexOf(filter) > -1) {
+                        tr[i].style.display = "";
+                    } else {
+                        tr[i].style.display = "none";
+                    }
+                }
+            }
+        }
+
+        document.getElementById('school').addEventListener('change', loadCSV);
+        document.getElementById('itemType').addEventListener('change', loadCSV);
+
+        // Load the initial CSV when the page loads
+        window.onload = loadCSV;
     </script>
 
 </body>
