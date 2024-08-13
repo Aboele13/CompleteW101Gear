@@ -1,226 +1,237 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Complete Wizard101 Gear - View Gear</title>
+    <title>View Gear</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-        }
-        .header {
-            margin-top: 50px;
-            font-size: 36px;
-            font-weight: bold;
-        }
-        .tabs {
-            margin-top: 30px;
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-        }
-        .tabs a {
-            text-decoration: none;
-            font-size: 18px;
-            padding: 10px 20px;
-            background-color: #007bff;
-            color: white;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-        }
-        .tabs a:hover {
-            background-color: #0056b3;
-        }
-        .tabs a.disabled {
-            background-color: #a9a9a9;
-            cursor: default;
-        }
-        .dropdowns {
-            margin-top: 50px;
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            flex-wrap: wrap;
-        }
-        .dropdowns select {
-            font-size: 18px;
-            padding: 10px;
-            border-radius: 5px;
-            border: 1px solid #ccc;
-        }
-        .dropdowns label {
-            font-size: 20px;
-            margin-right: 10px;
-        }
-        .checkbox-group {
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            margin-top: 20px;
-        }
-        .checkbox-group label {
-            font-size: 18px;
-            margin-bottom: 5px;
-        }
-        .checkbox-group input[type="checkbox"] {
-            margin-right: 10px;
-        }
-        .search-bar {
-            margin-top: 20px;
-            text-align: center;
-        }
-        .search-bar input {
-            font-size: 18px;
-            padding: 10px;
-            width: 300px;
-            border-radius: 5px;
-            border: 1px solid #ccc;
-        }
+        /* Add some basic styling */
         table {
-            margin-top: 30px;
-            width: 80%;
-            margin-left: auto;
-            margin-right: auto;
+            width: 100%;
             border-collapse: collapse;
         }
-        table, th, td {
-            border: 1px solid #ddd;
-        }
         th, td {
-            padding: 12px;
-            text-align: left;
+            border: 1px solid #ddd;
+            padding: 8px;
         }
         th {
-            background-color: #f2f2f2;
+            cursor: pointer;
+        }
+        input[type="text"], select {
+            margin-bottom: 10px;
+            padding: 5px;
+            box-sizing: border-box;
+        }
+        .filter-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .filter-container select {
+            width: 60px; /* Adjust width to fit three digits */
+            margin-left: 5px;
+            padding: 5px;
+        }
+        .filter-container label {
+            margin-right: 10px;
+        }
+        .source-checkboxes {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-left: 20px;
+        }
+        .source-checkboxes label {
+            width: 45%;
+            margin-bottom: 5px;
         }
     </style>
 </head>
 <body>
-
-    <div class="header">Complete Wizard101 Gear</div>
-
-    <div class="tabs">
-        <a href="select_owned_gear.html">Select Owned Gear</a>
-        <a href="view_gear.html" class="disabled">View Gear</a>
-        <a href="view_sets.html">View Sets</a>
-        <a href="create_sets.html">Create Sets</a>
-    </div>
-
-    <div class="dropdowns">
-        <div>
-            <label for="school">School:</label>
-            <select id="school">
-                <option value="Myth">Myth</option>
-                <option value="Ice">Ice</option>
-                <option value="Fire">Fire</option>
-                <option value="Storm">Storm</option>
-                <option value="Balance">Balance</option>
-                <option value="Death">Death</option>
-                <option value="Life">Life</option>
-            </select>
-        </div>
-        <div>
-            <label for="itemType">Item Type:</label>
-            <select id="itemType">
-                <option value="Hats">Hat</option>
-                <option value="Robes">Robe</option>
-                <option value="Boots">Boots</option>
-                <option value="Wands">Wand</option>
-                <option value="Athames">Athame</option>
-                <option value="Amulets">Amulet</option>
-                <option value="Rings">Ring</option>
-                <option value="Pets">Pet</option>
-                <option value="Mounts">Mount</option>
-                <option value="Decks">Deck</option>
-            </select>
-        </div>
-        <div>
-            <label for="level">Level:</label>
-            <select id="level">
-                <script>
-                    for (let i = 170; i >= 1; i--) {
-                        document.write('<option value="' + i + '">' + i + '</option>');
-                    }
-                </script>
-            </select>
+    <h1>View Gear</h1>
+    <div class="filter-container">
+        <label for="level-filter">Level:</label>
+        <select id="level-filter">
+            <!-- Options will be populated by JavaScript -->
+        </select>
+        <div class="source-checkboxes">
+            <label><input type="checkbox" id="gold-vendor" checked> Gold Vendor</label>
+            <label><input type="checkbox" id="drop" checked> Drop</label>
+            <label><input type="checkbox" id="bazaar" checked> Bazaar</label>
+            <label><input type="checkbox" id="crafting" checked> Crafting</label>
+            <label><input type="checkbox" id="gold-key" checked> Gold Key</label>
+            <label><input type="checkbox" id="stone-key" checked> Stone Key</label>
+            <label><input type="checkbox" id="wooden-key" checked> Wooden Key</label>
+            <label><input type="checkbox" id="housing-gauntlet" checked> Housing Gauntlet</label>
+            <label><input type="checkbox" id="rematch" checked> Rematch</label>
+            <label><input type="checkbox" id="quest" checked> Quest</label>
+            <label><input type="checkbox" id="one-shot-housing-gauntlet" checked> One Shot Housing Gauntlet</label>
+            <label><input type="checkbox" id="fishing" checked> Fishing</label>
+            <label><input type="checkbox" id="raid" checked> Raid</label>
+            <label><input type="checkbox" id="crowns" checked> Crowns</label>
+            <label><input type="checkbox" id="gift-card" checked> Gift Card</label>
+            <label><input type="checkbox" id="unavailable" checked> Unavailable</label>
         </div>
     </div>
-
-    <div class="checkbox-group">
-        <label>Source:</label>
-        <label><input type="checkbox" checked> Gold Vendor</label>
-        <label><input type="checkbox" checked> Drop</label>
-        <label><input type="checkbox" checked> Bazaar</label>
-        <label><input type="checkbox" checked> Crafting</label>
-        <label><input type="checkbox" checked> Gold Key</label>
-        <label><input type="checkbox" checked> Stone Key</label>
-        <label><input type="checkbox" checked> Wooden Key</label>
-        <label><input type="checkbox" checked> Housing Gauntlet</label>
-        <label><input type="checkbox" checked> Rematch</label>
-        <label><input type="checkbox" checked> Quest</label>
-        <label><input type="checkbox" checked> One Shot Housing Gauntlet</label>
-        <label><input type="checkbox" checked> Fishing</label>
-        <label><input type="checkbox" checked> Raid</label>
-        <label><input type="checkbox" checked> Crowns</label>
-        <label><input type="checkbox" checked> Gift Card</label>
-        <label><input type="checkbox" checked> Unavailable</label>
-    </div>
-
-    <div class="search-bar">
-        <input type="text" id="searchInput" onkeyup="filterTable()" placeholder="Search for names..">
-    </div>
-
-    <table id="gearTable">
-        <!-- Table will be populated by JavaScript -->
+    <input type="text" id="search-input" placeholder="Search...">
+    <table id="csv-table">
+        <!-- CSV Data will be inserted here -->
     </table>
 
     <script>
-        function loadCSV() {
-            const school = document.getElementById('school').value;
-            const itemType = document.getElementById('itemType').value;
-            const csvUrl = `https://aboele13.github.io/CompleteW101Gear/${school}_Gear/${school}_${itemType}.csv`;
+        document.addEventListener('DOMContentLoaded', function() {
+            // Dynamic file loading based on dropdown selection (add your logic here)
+            const school = "Myth";  // Example value
+            const itemType = "Hats";  // Example value
+            const filePath = `https://aboele13.github.io/CompleteW101Gear/${school}_Gear/${school}_${itemType}.csv`;
 
-            fetch(csvUrl)
-                .then(response => response.text())
-                .then(data => {
-                    const rows = data.split('\n').slice(1);
-                    let tableHTML = '<tr><th>Name</th><th>Other Columns...</th></tr>';  // Update column headers as needed
+            Papa.parse(filePath, {
+                download: true,
+                header: true,
+                complete: function(results) {
+                    var data = results.data;
+                    var originalData = data.slice(); // Keep a copy of the original data
+                    var table = document.getElementById('csv-table');
+                    var levelFilter = document.getElementById('level-filter');
+                    var checkboxes = {
+                        'gold-vendor': document.getElementById('gold-vendor'),
+                        'drop': document.getElementById('drop'),
+                        'bazaar': document.getElementById('bazaar'),
+                        'crafting': document.getElementById('crafting'),
+                        'gold-key': document.getElementById('gold-key'),
+                        'stone-key': document.getElementById('stone-key'),
+                        'wooden-key': document.getElementById('wooden-key'),
+                        'housing-gauntlet': document.getElementById('housing-gauntlet'),
+                        'rematch': document.getElementById('rematch'),
+                        'quest': document.getElementById('quest'),
+                        'one-shot-housing-gauntlet': document.getElementById('one-shot-housing-gauntlet'),
+                        'fishing': document.getElementById('fishing'),
+                        'raid': document.getElementById('raid'),
+                        'crowns': document.getElementById('crowns'),
+                        'gift-card': document.getElementById('gift-card'),
+                        'unavailable': document.getElementById('unavailable')
+                    };
 
-                    rows.forEach(row => {
-                        const cols = row.split(',');
-                        tableHTML += `<tr><td>${cols[0]}</td><td>${cols[1]}</td><td>${cols[2]}</td></tr>`;  // Adjust to match your CSV structure
+                    if (data.length === 0) {
+                        console.error('CSV file is empty or failed to parse.');
+                        return;
+                    }
+
+                    // Populate the level filter dropdown
+                    for (var i = 170; i >= 1; i--) {
+                        var option = document.createElement('option');
+                        option.value = i;
+                        option.text = i;
+                        levelFilter.appendChild(option);
+                    }
+
+                    // Create table header
+                    var header = table.createTHead();
+                    var headerRow = header.insertRow(0);
+
+                    // Helper function to determine if a value is numeric
+                    function isNumeric(value) {
+                        return !isNaN(value - parseFloat(value));
+                    }
+
+                    // Function to sort the data in descending order
+                    function sortData(key) {
+                        data.sort(function(a, b) {
+                            var aValue = a[key];
+                            var bValue = b[key];
+
+                            if (isNumeric(aValue) && isNumeric(bValue)) {
+                                aValue = parseFloat(aValue);
+                                bValue = parseFloat(bValue);
+
+                                if (aValue < bValue) return 1; // Descending
+                                if (aValue > bValue) return -1; // Descending
+                                return 0;
+                            }
+
+                            // Not Numeric
+                            if (aValue < bValue) return -1; // Ascending / Alphabetical
+                            if (aValue > bValue) return 1; // Ascending / Alphabetical
+                            return 0;
+                        });
+                        updateTableBody(data);
+                    }
+
+                    Object.keys(data[0]).forEach(function(key) {
+                        var cell = headerRow.insertCell(-1);
+                        cell.innerHTML = key;
+                        cell.addEventListener('click', function() {
+                            sortData(key);
+                        });
                     });
 
-                    document.getElementById('gearTable').innerHTML = tableHTML;
-                });
-        }
-
-        function filterTable() {
-            const input = document.getElementById("searchInput");
-            const filter = input.value.toLowerCase();
-            const table = document.getElementById("gearTable");
-            const tr = table.getElementsByTagName("tr");
-
-            for (let i = 1; i < tr.length; i++) {
-                const td = tr[i].getElementsByTagName("td")[0]; // Assuming "Name" is the first column
-                if (td) {
-                    const txtValue = td.textContent || td.innerText;
-                    if (txtValue.toLowerCase().indexOf(filter) > -1) {
-                        tr[i].style.display = "";
-                    } else {
-                        tr[i].style.display = "none";
+                    // Create table body
+                    var body = table.createTBody();
+                    function updateTableBody(data) {
+                        body.innerHTML = '';
+                        var fragment = document.createDocumentFragment();
+                        data.forEach(function(row) {
+                            var bodyRow = document.createElement('tr');
+                            Object.values(row).forEach(function(value) {
+                                var cell = document.createElement('td');
+                                cell.innerHTML = value;
+                                bodyRow.appendChild(cell);
+                            });
+                            fragment.appendChild(bodyRow);
+                        });
+                        body.appendChild(fragment);
                     }
+
+                    // Update the table with the current data
+                    updateTableBody(data);
+
+                    // Add search functionality
+                    document.getElementById('search-input').addEventListener('keyup', function() {
+                        var searchTerm = this.value.toLowerCase();
+                        var rows = body.getElementsByTagName('tr');
+                        Array.from(rows).forEach(function(row) {
+                            var matches = Array.from(row.cells).some(function(cell) {
+                                return cell.innerHTML.toLowerCase().includes(searchTerm);
+                            });
+                            row.style.display = matches ? '' : 'none';
+                        });
+                    });
+
+                    // Add filter functionality
+                    function applyFilters() {
+                        console.log('Applying filters...');
+
+                        var levelFilterValue = parseInt(levelFilter.value);
+                        var selectedSources = Object.keys(checkboxes).filter(function(key) {
+                            return checkboxes[key].checked;
+                        }).map(function(key) {
+                            return key.replace(/-/g, ' ');
+                        });
+
+                        console.log('Selected Sources:', selectedSources);
+                        console.log('Level Filter Value:', levelFilterValue);
+
+                        // Apply the filters
+                        data = originalData.filter(function(row) {
+                            var levelMatch = parseInt(row.Level) <= levelFilterValue;
+                            var sourceMatch = selectedSources.includes(row.Source);
+
+                            console.log('Row Level:', row.Level, 'Level Match:', levelMatch);
+                            console.log('Row Source:', row.Source, 'Source Match:', sourceMatch);
+
+                            return levelMatch && sourceMatch;
+                        });
+
+                        console.log('Filtered Data:', data);
+                        updateTableBody(data);
+                    }
+
+                    levelFilter.addEventListener('change', applyFilters);
+                    Object.values(checkboxes).forEach(function(checkbox) {
+                        checkbox.addEventListener('change', applyFilters);
+                    });
                 }
-            }
-        }
-
-        document.getElementById('school').addEventListener('change', loadCSV);
-        document.getElementById('itemType').addEventListener('change', loadCSV);
-
-        // Load the initial CSV when the page loads
-        window.onload = loadCSV;
+            });
+        });
     </script>
-
 </body>
 </html>
