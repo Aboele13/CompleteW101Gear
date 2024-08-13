@@ -53,46 +53,38 @@
             font-size: 20px;
             margin-right: 10px;
         }
-        .source-section {
-            margin-top: 30px;
-            text-align: left;
-            display: inline-block;
-            margin-left: 20px;
-        }
-        .source-title {
-            font-size: 20px;
-            margin-bottom: 10px;
-            text-align: center;
-        }
         .checkbox-group {
+            margin-top: 20px;
             display: flex;
             justify-content: center;
-            flex-wrap: wrap;
             gap: 20px;
+            flex-wrap: wrap;
         }
         .checkbox-group label {
             font-size: 18px;
-            margin-right: 10px;
+            margin-bottom: 5px;
         }
         .checkbox-group input[type="checkbox"] {
             margin-right: 10px;
         }
-        .data-table {
+        .table-container {
             margin-top: 50px;
             overflow-x: auto;
         }
         table {
-            width: 100%;
+            width: 80%;
+            margin: 0 auto;
             border-collapse: collapse;
+            text-align: left;
+        }
+        table, th, td {
+            border: 1px solid #ccc;
         }
         th, td {
             padding: 10px;
-            border: 1px solid #ddd;
-        }
-        th {
-            background-color: #f4f4f4;
         }
     </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
 </head>
 <body>
 
@@ -109,34 +101,33 @@
         <div>
             <label for="school">School:</label>
             <select id="school">
-                <option value="balance">Balance</option>
-                <option value="death">Death</option>
-                <option value="fire">Fire</option>
-                <option value="ice">Ice</option>
-                <option value="life">Life</option>
-                <option value="myth">Myth</option>
-                <option value="storm">Storm</option>
+                <option value="Balance">Balance</option>
+                <option value="Death">Death</option>
+                <option value="Fire">Fire</option>
+                <option value="Ice">Ice</option>
+                <option value="Life">Life</option>
+                <option value="Myth">Myth</option>
+                <option value="Storm">Storm</option>
             </select>
         </div>
         <div>
             <label for="itemType">Item Type:</label>
             <select id="itemType">
-                <option value="hat">Hat</option>
-                <option value="robe">Robe</option>
-                <option value="boots">Boots</option>
-                <option value="wand">Wand</option>
-                <option value="athame">Athame</option>
-                <option value="amulet">Amulet</option>
-                <option value="ring">Ring</option>
-                <option value="pet">Pet</option>
-                <option value="mount">Mount</option>
-                <option value="deck">Deck</option>
+                <option value="Hats">Hat</option>
+                <option value="Robes">Robe</option>
+                <option value="Boots">Boots</option>
+                <option value="Wands">Wand</option>
+                <option value="Athames">Athame</option>
+                <option value="Amulets">Amulet</option>
+                <option value="Rings">Ring</option>
+                <option value="Pets">Pet</option>
+                <option value="Mounts">Mount</option>
+                <option value="Decks">Deck</option>
             </select>
         </div>
         <div>
             <label for="level">Level:</label>
             <select id="level">
-                <!-- Populate level dropdown from 170 to 1 -->
                 <script>
                     for (let i = 170; i >= 1; i--) {
                         document.write('<option value="' + i + '">' + i + '</option>');
@@ -146,107 +137,75 @@
         </div>
     </div>
 
-    <div class="source-section">
-        <div class="source-title">Source:</div>
-        <div class="checkbox-group">
-            <label><input type="checkbox" checked> Gold Vendor</label>
-            <label><input type="checkbox" checked> Drop</label>
-            <label><input type="checkbox" checked> Bazaar</label>
-            <label><input type="checkbox" checked> Crafting</label>
-            <label><input type="checkbox" checked> Gold Key</label>
-            <label><input type="checkbox" checked> Stone Key</label>
-            <label><input type="checkbox" checked> Wooden Key</label>
-            <label><input type="checkbox" checked> Housing Gauntlet</label>
-            <label><input type="checkbox" checked> Rematch</label>
-            <label><input type="checkbox" checked> Quest</label>
-            <label><input type="checkbox" checked> One Shot Housing Gauntlet</label>
-            <label><input type="checkbox" checked> Fishing</label>
-            <label><input type="checkbox" checked> Raid</label>
-            <label><input type="checkbox" checked> Crowns</label>
-            <label><input type="checkbox" checked> Gift Card</label>
-            <label><input type="checkbox" checked> Unavailable</label>
-        </div>
+    <div class="checkbox-group">
+        <label>Source:</label>
+        <label><input type="checkbox" checked> Gold Vendor</label>
+        <label><input type="checkbox" checked> Drop</label>
+        <label><input type="checkbox" checked> Bazaar</label>
+        <label><input type="checkbox" checked> Crafting</label>
+        <label><input type="checkbox" checked> Gold Key</label>
+        <label><input type="checkbox" checked> Stone Key</label>
+        <label><input type="checkbox" checked> Wooden Key</label>
+        <label><input type="checkbox" checked> Housing Gauntlet</label>
+        <label><input type="checkbox" checked> Rematch</label>
+        <label><input type="checkbox" checked> Quest</label>
+        <label><input type="checkbox" checked> One Shot Housing Gauntlet</label>
+        <label><input type="checkbox" checked> Fishing</label>
+        <label><input type="checkbox" checked> Raid</label>
+        <label><input type="checkbox" checked> Crowns</label>
+        <label><input type="checkbox" checked> Gift Card</label>
+        <label><input type="checkbox" checked> Unavailable</label>
     </div>
 
-    <div class="data-table">
-        <table id="csvTable" border="1">
-            <thead>
-                <tr id="tableHeader">
-                    <!-- Table headers will be populated here -->
-                </tr>
-            </thead>
-            <tbody id="tableBody">
-                <!-- Table rows will be populated here -->
-            </tbody>
+    <div class="table-container">
+        <table id="gearTable">
+            <!-- Table contents will be populated here -->
         </table>
     </div>
 
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const schoolDropdown = document.getElementById('school');
-            const itemTypeDropdown = document.getElementById('itemType');
-            const tableHeader = document.getElementById('tableHeader');
-            const tableBody = document.getElementById('tableBody');
+        document.getElementById('school').addEventListener('change', loadCSV);
+        document.getElementById('itemType').addEventListener('change', loadCSV);
 
-            function fetchCSV() {
-                const school = schoolDropdown.value;
-                const itemType = itemTypeDropdown.value;
-                const pluralizedItemType = pluralize(itemType);
-                const url = `https://aboele13.github.io/CompleteW101Gear/${school}_Gear/${school}_${pluralizedItemType}.csv`;
+        function loadCSV() {
+            const school = document.getElementById('school').value;
+            let itemType = document.getElementById('itemType').value;
 
-                fetch(url)
-                    .then(response => response.text())
-                    .then(text => parseCSV(text))
-                    .catch(error => console.error('Error fetching the CSV file:', error));
-            }
+            const csvUrl = `https://aboele13.github.io/CompleteW101Gear/${school}_Gear/${school}_${itemType}.csv`;
 
-            function pluralize(itemType) {
-                const pluralExceptions = {
-                    'boots': 'Boots', // No change
-                    'pet': 'Pets',
-                    'mount': 'Mounts',
-                    'deck': 'Decks'
-                };
+            Papa.parse(csvUrl, {
+                download: true,
+                header: true,
+                complete: function(results) {
+                    const table = document.getElementById('gearTable');
+                    table.innerHTML = '';
 
-                return pluralExceptions[itemType] || itemType + 's';
-            }
-
-            function parseCSV(text) {
-                const rows = text.split('\n').filter(row => row.trim() !== '');
-                const headers = rows[0].split(',');
-                const data = rows.slice(1);
-
-                // Clear existing table content
-                tableHeader.innerHTML = '';
-                tableBody.innerHTML = '';
-
-                // Populate table headers
-                headers.forEach(header => {
-                    const th = document.createElement('th');
-                    th.textContent = header;
-                    tableHeader.appendChild(th);
-                });
-
-                // Populate table rows
-                data.forEach(row => {
-                    const tr = document.createElement('tr');
-                    const cells = row.split(',');
-                    cells.forEach(cell => {
-                        const td = document.createElement('td');
-                        td.textContent = cell;
-                        tr.appendChild(td);
+                    // Create table headers
+                    const headers = results.meta.fields;
+                    const headerRow = document.createElement('tr');
+                    headers.forEach(header => {
+                        const th = document.createElement('th');
+                        th.textContent = header;
+                        headerRow.appendChild(th);
                     });
-                    tableBody.appendChild(tr);
-                });
-            }
+                    table.appendChild(headerRow);
 
-            // Add event listeners to dropdowns
-            schoolDropdown.addEventListener('change', fetchCSV);
-            itemTypeDropdown.addEventListener('change', fetchCSV);
+                    // Create table rows
+                    results.data.forEach(row => {
+                        const tr = document.createElement('tr');
+                        headers.forEach(header => {
+                            const td = document.createElement('td');
+                            td.textContent = row[header];
+                            tr.appendChild(td);
+                        });
+                        table.appendChild(tr);
+                    });
+                }
+            });
+        }
 
-            // Initial fetch
-            fetchCSV();
-        });
+        // Initial load
+        loadCSV();
     </script>
 
 </body>
