@@ -140,7 +140,7 @@
         </div>
         <div>
             <label for="level">Level:</label>
-            <select id="level" onchange="loadCSV()">
+            <select id="level" onchange="filterTable()">
                 <script>
                     for (let i = 170; i >= 1; i--) {
                         document.write('<option value="' + i + '">' + i + '</option>');
@@ -210,7 +210,7 @@
                         table.appendChild(tr);
                     });
 
-                    // Apply filter
+                    // Apply filters
                     filterTable();
                 }
             });
@@ -218,16 +218,16 @@
 
         function filterTable() {
             const searchValue = document.getElementById('search').value.toLowerCase();
-            const maxLevel = parseInt(document.getElementById('level').value);
+            const maxLevel = parseInt(document.getElementById('level').value, 10);
             const table = document.getElementById('gearTable');
             const rows = table.querySelectorAll('tr:not(:first-child)');
 
             rows.forEach(row => {
                 const nameCell = row.querySelector('td:first-child'); // Assuming the "Name" column is the first column
-                const levelCell = row.querySelector('td:nth-child(3)'); // Assuming the "Level" column is the third column
+                const levelCell = row.querySelector('td:nth-child(2)'); // "Level" column is the second column
 
                 const nameMatches = nameCell && nameCell.textContent.toLowerCase().includes(searchValue);
-                const levelMatches = levelCell && parseInt(levelCell.textContent) <= maxLevel;
+                const levelMatches = levelCell && parseInt(levelCell.textContent, 10) <= maxLevel;
 
                 if (nameMatches && levelMatches) {
                     row.style.display = '';
