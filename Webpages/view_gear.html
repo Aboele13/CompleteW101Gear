@@ -158,67 +158,76 @@
     </div>
 
     <input type="text" id="search-input" placeholder="Search...">
-    <table id="csv-table" border="1">
+    <table id="csv-table">
         <!-- CSV Data will be inserted here -->
     </table>
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            const school = document.getElementById('school').value;
-            const itemType = document.getElementById('itemType').value;
+            function loadCSV() {
+                const school = document.getElementById('school').value;
+                const itemType = document.getElementById('itemType').value;
 
-            const csvUrl = `https://aboele13.github.io/CompleteW101Gear/${school}_Gear/${school}_${itemType}.csv`
+                const csvUrl = `https://aboele13.github.io/CompleteW101Gear/${school}_Gear/${school}_${itemType}.csv`;
 
-            Papa.parse(csvUrl, {
-                download: true,
-                header: true,
-                complete: function(results) {
-                    var data = results.data;
-                    var originalData = data.slice(); // Keep a copy of the original data
-                    var table = document.getElementById('csv-table');
-                    var levelFilter = document.getElementById('level-filter');
-                    var checkboxes = {
-                        'gold-vendor': document.getElementById('gold-vendor'),
-                        'drop': document.getElementById('drop'),
-                        'bazaar': document.getElementById('bazaar'),
-                        'crafting': document.getElementById('crafting'),
-                        'gold-key': document.getElementById('gold-key'),
-                        'stone-key': document.getElementById('stone-key'),
-                        'wooden-key': document.getElementById('wooden-key'),
-                        'housing-gauntlet': document.getElementById('housing-gauntlet'),
-                        'rematch': document.getElementById('rematch'),
-                        'quest': document.getElementById('quest'),
-                        'one-shot': document.getElementById('one-shot'),
-                        'fishing': document.getElementById('fishing'),
-                        'raid': document.getElementById('raid'),
-                        'crowns': document.getElementById('crowns'),
-                        'gift-card': document.getElementById('gift-card'),
-                        'unavailable': document.getElementById('unavailable')
-                    };
+                Papa.parse(csvUrl, {
+                    download: true,
+                    header: true,
+                    complete: function(results) {
+                        const data = results.data;
+                        const originalData = data.slice(); // Keep a copy of the original data
+                        const table = document.getElementById('csv-table');
 
-                    if (data.length === 0) {
-                        console.error('CSV file is empty or failed to parse.');
-                        return;
-                    }
+                        if (data.length === 0) {
+                            console.error('CSV file is empty or failed to parse.');
+                            return;
+                        }
 
-                    // Populate the level filter dropdown
-                    for (var i = 170; i >= 1; i--) {
-                        var option = document.createElement('option');
-                        option.value = i;
-                        option.text = i;
-                        levelFilter.appendChild(option);
-                    }
+                        // Create table header
+                        const header = table.createTHead();
+                        const headerRow = header.insertRow(0);
 
-                    // Create table header
-                    var header = table.createTHead();
-                    var headerRow = header.insertRow(0);
+                        Object.keys(data[0]).forEach(function(key) {
+                            const cell = headerRow.insertCell(-1);
+                            cell.innerHTML = key;
+                            cell.addEventListener('click', function() {
+                                sortData(key);
+                            });
+                        });
 
-                    // Helper function to determine if a value is numeric
-                    function isNumeric(value) {
-                        return !isNaN(value - parseFloat(value));
-                    }
+                        // Create table body
+                        const body = table.createTBody();
+                        function updateTableBody(data) {
+                            body.innerHTML = '';
+                            const fragment = document.createDocumentFragment();
+                            data.forEach(function(row) {
+                                const bodyRow = document.createElement('tr');
+                                Object.values(row).forEach(function(value) {
+                                    const cell = document.createElement('td');
+                                    cell.innerHTML = value;
+                                    bodyRow.appendChild(cell);
+                                });
+                                fragment.appendChild(bodyRow);
+                            });
+                            body.appendChild(fragment);
+                        }
 
-                    // Function to sort the data in descending order
+                        // Apply filters
+                        function applyFilters() {
+                            const level = document.getElementById('level').value;
+                            const checkedSources = Array.from(document.querySelectorAll('.checkbox-group input[type="checkbox"]:checked'))
+                                .map(cb => cb.id);
+
+                            let filteredData = originalData.filter(row => {
+                                const isLevelMatch = row.Level === level;
+                                const isSourceMatch = checkedSources.includes(row.Source) || checkedSources.includes('unavailable');
+                                return isLevelMatch && isSourceMatch;
+                            });
+
+                            updateTableBody(filteredData);
+                        }
+
+                        // Function to sort the data in descending order
                     function sortData(key) {
                         data.sort(function(a, b) {
                             var aValue = a[key];
@@ -241,108 +250,33 @@
                         updateTableBody(data);
                     }
 
-                    Object.keys(data[0]).forEach(function(key) {
-                        var cell = headerRow.insertCell(-1);
-                        cell.innerHTML = key;
-                        cell.addEventListener('click', function() {
-                            sortData(key);
-                        });
-                    });
-
-                    // Create table body
-                    var body = table.createTBody();
-                    function updateTableBody(data) {
-                        body.innerHTML = '';
-                        var fragment = document.createDocumentFragment();
-                        data.forEach(function(row) {
-                            var bodyRow = document.createElement('tr');
-                            Object.values(row).forEach(function(value) {
-                                var cell = document.createElement('td');
-                                cell.innerHTML = value;
-                                bodyRow.appendChild(cell);
+                        // Add search functionality
+                        document.getElementById('search-input').addEventListener('keyup', function() {
+                            const searchTerm = this.value.toLowerCase();
+                            const filteredData = originalData.filter(function(row) {
+                                return Object.values(row).some(function(value) {
+                                    return String(value).toLowerCase().includes(searchTerm);
+                                });
                             });
-                            fragment.appendChild(bodyRow);
+                            updateTableBody(filteredData);
                         });
-                        body.appendChild(fragment);
+
+                        // Apply filters on change
+                        document.getElementById('level').addEventListener('change', applyFilters);
+                        document.querySelectorAll('.checkbox-group input[type="checkbox"]').forEach(cb => {
+                            cb.addEventListener('change', applyFilters);
+                        });
+
+                        updateTableBody(data); // Populate table on load
+                    },
+                    error: function(error) {
+                        console.error('Error parsing CSV:', error);
                     }
+                });
+            }
 
-                    // Update the table with the current data
-                    updateTableBody(data);
-
-                    // Add search functionality
-                    document.getElementById('search-input').addEventListener('keyup', function() {
-                        var searchTerm = this.value.toLowerCase();
-                        var rows = body.getElementsByTagName('tr');
-                        Array.from(rows).forEach(function(row) {
-                            var nameCell = row.cells[Object.keys(data[0]).indexOf("Name")];
-                            var matches = nameCell.innerHTML.toLowerCase().includes(searchTerm);
-                            row.style.display = matches ? '' : 'none';
-                        });
-                    });
-
-                    // Add filter functionality
-                    function applyFilters() {
-                        console.log('Applying filters...');
-
-                        var levelFilterValue = parseInt(levelFilter.value);
-                        var sources = [
-                            'Gold Vendor',
-                            'Drop',
-                            'Bazaar',
-                            'Crafting',
-                            'Gold Key',
-                            'Stone Key',
-                            'Wooden Key',
-                            'Housing Gauntlet',
-                            'Rematch',
-                            'Quest',
-                            'One Shot Housing Gauntlet',
-                            'Fishing',
-                            'Raid',
-                            'Crowns',
-                            'Gift Card',
-                            'Unavailable'
-                        ];
-
-                        var selectedSources = sources.filter(function(source) {
-                            // Create a valid ID by replacing spaces and slashes with hyphens
-                            var checkboxId = source.toLowerCase().replace(/ /g, '-').replace(/\//g, '-');
-                            var checkbox = checkboxes[checkboxId];
-                            return checkbox ? checkbox.checked : false;
-                        });
-
-                        console.log('Selected Sources:', selectedSources);
-                        console.log('Level Filter Value:', levelFilterValue);
-
-                        // Apply the filters
-                        data = originalData.filter(function(row) {
-                            var levelMatch = parseInt(row.Level) <= levelFilterValue;
-                            var sourceMatch = selectedSources.includes(row.Source);
-
-                            console.log('Row Level:', row.Level, 'Level Match:', levelMatch);
-                            console.log('Row Source:', row.Source, 'Source Match:', sourceMatch);
-
-                            return levelMatch && sourceMatch;
-                        });
-
-                        updateTableBody(data);
-                    }
-
-                    levelFilter.addEventListener('change', applyFilters);
-                    Object.values(checkboxes).forEach(function(checkbox) {
-                        checkbox.addEventListener('change', applyFilters);
-                    });
-
-                    // Set default filter value to 170 and apply the filters
-                    levelFilter.value = "170";
-                    applyFilters(); // Apply filters immediately
-                },
-                error: function(error) {
-                    console.error('Error fetching CSV:', error);
-                }
-            });
+            loadCSV();
         });
     </script>
-
 </body>
 </html>
