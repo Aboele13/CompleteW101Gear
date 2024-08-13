@@ -3,7 +3,7 @@ import createClothing
 import createMounts
 import createPets
 
-# school = "Fire" # use this for testing one school
+# school = "Life" # use this for testing one school
 schools = ["Death", "Fire", "Balance", "Myth", "Storm", "Ice", "Life"]
 update_gear = True
 

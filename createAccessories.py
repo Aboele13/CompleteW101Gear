@@ -108,7 +108,17 @@ def format_extracted_info(extracted_info):
 
 def parse_wiki_error_gear(item_name, bonuses, parts):
     # unique cases due to wiki error
-    if item_name == "Fill in here with name of bad wiki item":
+    if item_name == "Tetrus Deck of Sleet":
+        bonuses["Max Health"] = 84
+        bonuses["Global Critical Block Rating"] = 43
+        bonuses["Ice Pip Conversion Rating"] = 90
+        bonuses["Locked Triangle"] = 1
+        return bonuses
+    elif item_name == "Tetrus Deck of Purpose":
+        bonuses["Max Health"] = 75
+        bonuses["Global Critical Block Rating"] = 43
+        bonuses["Ice Pip Conversion Rating"] = 90
+        bonuses["Locked Triangle"] = 1
         return bonuses
     else:
         print(f"Error on {item_name}")

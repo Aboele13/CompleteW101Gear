@@ -16,14 +16,14 @@ Fire Fairy Kei Box (Level 160+),160,128,0,0,0,0,67,55,0,0,0,0,0,0,52,1,0,0,0,0,0
 Xibalba Meteoric Deck (Level 160+),160,128,0,0,0,0,67,55,0,0,0,0,0,0,52,1,0,0,0,0,1,0,0,0,Raid,False,None
 Hunhau's Meteoric Deck (Level 160+),160,128,0,0,0,0,61,55,0,0,0,0,0,0,58,1,0,0,0,0,0,0,0,1,Raid,False,None
 Floramancer Deck of Rashes (Level 160+),160,128,0,0,0,0,0,55,0,0,0,0,123,0,64,1,0,0,0,0,0,0,0,1,Crowns,False,None
-The Void's Blazing Cards,160,128,0,0,0,0,0,55,0,0,0,0,123,0,64,1,0,0,0,0,0,0,0,1,Raid,False,None
 The Void's Fiery Cards (Level 160+),160,128,0,0,0,0,0,55,0,0,0,0,123,0,64,1,0,0,0,0,0,0,0,1,Raid,False,None
 The Void's Burning Cards,160,128,0,0,0,0,0,55,0,0,0,0,123,0,64,1,0,0,0,0,0,0,0,1,Raid,False,None
+The Void's Blazing Cards,160,128,0,0,0,0,0,55,0,0,0,0,123,0,64,1,0,0,0,0,0,0,0,1,Raid,False,None
 Supreme Ancient One Deck,148,125,0,0,0,0,0,52,0,0,0,0,69,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
 Supreme Firewall Deck,148,121,0,0,0,0,0,52,0,0,0,0,91,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
 Fervid Dream Warper Deck,170,120,0,0,0,0,79,76,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,Drop,False,None
-Fiery Night Mire Deck (Level 150+),150,120,0,0,0,0,56,60,0,0,0,0,0,0,48,1,0,0,0,0,0,0,1,0,Crowns,False,None
 Grim Cerberus Master Deck (Level 150+),150,120,0,0,0,0,56,60,0,0,0,0,0,0,48,1,0,0,0,0,0,0,1,0,Crowns,False,None
+Fiery Night Mire Deck (Level 150+),150,120,0,0,0,0,56,60,0,0,0,0,0,0,48,1,0,0,0,0,0,0,1,0,Crowns,False,None
 Illuminated Archival Array (Level 150+),150,120,0,0,0,0,56,60,0,0,0,0,0,0,48,1,0,0,0,0,0,0,1,0,Crowns,False,None
 Supreme Old Judge Deck,148,119,0,0,0,0,41,0,0,0,0,0,73,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
 Supreme Founder's Deck,148,119,0,0,0,0,37,46,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
@@ -31,13 +31,13 @@ Hierarch's Ancient One Deck,145,119,0,0,0,0,0,49,0,0,0,0,63,0,0,1,0,0,0,0,0,0,0,
 Supreme Eruption Deck,148,115,0,0,0,0,59,0,0,0,0,0,97,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
 Supreme Volcanic Deck,148,115,0,0,0,0,53,46,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
 Hierarch's Firewall Deck,145,115,0,0,0,0,0,49,0,0,0,0,83,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
-Nullity's Blazing Cards,160,114,0,0,0,0,67,0,0,0,0,0,111,0,58,1,0,0,0,0,1,0,0,0,Raid,False,None
 Nullity's Fiery Cards (Level 160+),160,114,0,0,0,0,67,0,0,0,0,0,111,0,58,1,0,0,0,0,1,0,0,0,Raid,False,None
 Nullity's Burning Cards,160,114,0,0,0,0,67,0,0,0,0,0,111,0,58,1,0,0,0,0,1,0,0,0,Raid,False,None
+Nullity's Blazing Cards,160,114,0,0,0,0,67,0,0,0,0,0,111,0,58,1,0,0,0,0,1,0,0,0,Raid,False,None
 Burrower's Pyromancy Deck (Level 160+),160,114,0,0,0,0,61,78,0,0,0,0,0,0,52,1,0,0,0,0,0,0,1,0,"Gold Key, Crowns",False,None
-Eternal Primal Deck,160,114,0,0,0,0,0,78,0,0,0,0,111,0,58,1,0,0,0,0,0,0,1,0,Crafting,False,None
-Eternal Primeval Deck,160,114,0,0,0,0,0,78,0,0,0,0,111,0,58,1,0,0,0,0,0,0,1,0,Crafting,False,None
 Eternal Primordial Deck,160,114,0,0,0,0,0,78,0,0,0,0,111,0,58,1,0,0,0,0,0,0,1,0,Crafting,False,None
+Eternal Primeval Deck,160,114,0,0,0,0,0,78,0,0,0,0,111,0,58,1,0,0,0,0,0,0,1,0,Crafting,False,None
+Eternal Primal Deck,160,114,0,0,0,0,0,78,0,0,0,0,111,0,58,1,0,0,0,0,0,0,1,0,Crafting,False,None
 Great Inventor's Fire Deck (Level 160+),160,114,0,0,0,0,0,78,0,0,0,0,111,0,58,1,0,0,0,0,0,0,1,0,Crowns,False,None
 Producer's Hazmat Box,138,114,0,0,0,0,0,47,0,0,0,0,64,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
 Hierarch's Old Judge Deck,145,113,0,0,0,0,40,0,0,0,0,0,67,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
@@ -63,11 +63,11 @@ Lemurian Volcanic Deck,142,103,0,0,0,0,47,41,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,"Dr
 Chief's Hazmat Box,135,102,0,0,0,0,35,0,0,0,0,0,62,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
 Lead's Hazmat Box,135,102,0,0,0,0,31,38,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
 Contractor Hazmat Box,132,102,0,0,0,0,0,39,0,0,0,0,53,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
-Primal Aeon Deck,160,100,0,0,0,0,67,71,0,0,0,0,0,0,52,1,0,0,0,0,1,0,0,0,Crafting,False,None
 Primeval Aeon Deck,160,100,0,0,0,0,67,71,0,0,0,0,0,0,52,1,0,0,0,0,1,0,0,0,Crafting,False,None
+Primal Aeon Deck,160,100,0,0,0,0,67,71,0,0,0,0,0,0,52,1,0,0,0,0,1,0,0,0,Crafting,False,None
 Primordial Aeon Deck,160,100,0,0,0,0,67,71,0,0,0,0,0,0,52,1,0,0,0,0,1,0,0,0,"Drop, Crafting, Crowns",False,None
-Demiurge's Rage Set,150,100,0,0,0,0,56,49,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Crafting,False,None
 Demiurge's Rage Deck,150,100,0,0,0,0,56,49,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Crafting,False,None
+Demiurge's Rage Set,150,100,0,0,0,0,56,49,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Crafting,False,None
 Chief's Thermal Box,135,99,0,0,0,0,49,0,0,0,0,0,82,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
 Lead's Thermal Box,135,99,0,0,0,0,44,38,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
 Contractor Thermal Box,132,99,0,0,0,0,0,39,0,0,0,0,69,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
@@ -85,8 +85,8 @@ Uber Candymancer Box,140,93,0,0,0,0,37,46,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Drop,F
 Interstellar Officer's Deck,122,93,0,0,0,0,0,35,0,0,0,0,45,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar, Stone Key, Fishing",False,None
 Rad Kalamar Deck,127,92,0,0,0,0,0,39,0,0,0,0,90,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
 Wunderbar Candymancer Box,140,91,0,0,0,0,35,44,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Stone Key",False,None
-Freshbaker Tear Deck,140,90,0,0,0,0,52,46,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Crafting,False,None
 Freshbaker Triangle Deck,140,90,0,0,0,0,52,46,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Crafting,False,None
+Freshbaker Tear Deck,140,90,0,0,0,0,52,46,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Crafting,False,None
 Freshbaker Square Deck,140,90,0,0,0,0,52,46,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Crafting,False,None
 Uber Freshbaker Box,140,90,0,0,0,0,52,46,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Drop,False,None
 Wunderbar Freshbaker Box,140,88,0,0,0,0,50,44,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,"Drop, Stone Key",False,None
@@ -106,9 +106,9 @@ Divine Paradox Deck,130,80,0,0,0,0,37,35,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Drop,Fa
 Hopeful Zanadu Deck,130,78,0,0,0,0,34,35,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Drop,False,None
 Burrower's Pyromancy Deck (Level 140+),130,77,0,0,0,0,48,69,0,0,0,0,0,0,45,1,0,0,0,0,0,0,1,0,Crowns,False,None
 Great Inventor's Fire Deck (Level 140+),140,77,0,0,0,0,0,69,0,0,0,0,96,0,51,1,0,0,0,0,0,0,1,0,Crowns,False,None
+Alphoi Cards of Flame,130,75,0,0,0,0,53,43,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Crafting,False,None
 Alphoi Hand of Fire,130,75,0,0,0,0,53,43,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Crafting,False,None
 Alphoi Deck of Ashes,130,75,0,0,0,0,53,43,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Crafting,False,None
-Alphoi Cards of Flame,130,75,0,0,0,0,53,43,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Crafting,False,None
 Fiery Paradox Deck,130,75,0,0,0,0,53,43,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Drop,False,None
 Glistening Fire Box,155,73,0,0,0,0,57,61,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Drop,False,None
 Blazing Zanadu Deck,130,73,0,0,0,0,48,39,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Drop,False,None
@@ -124,9 +124,9 @@ Cabalist Cleansing Deck,125,64,0,0,0,0,46,39,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Dro
 Luphilim's Eternal Deck,110,63,0,0,0,0,34,35,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Stone Key,False,None
 Golden Fire Box,155,61,0,0,0,0,50,53,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,"Drop, Bazaar",False,None
 Deck of the Dragon's Maw (Square),100,60,0,0,0,0,18,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Crafting,False,None
-Deck of the Dragon's Maw (Tear),100,60,0,0,0,0,18,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Crafting,False,None
-Deck of the Dragon's Maw (Triangle),100,60,0,0,0,0,18,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Crafting,False,None
 Dragonbone Pasteboards,100,60,0,0,0,0,18,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crafting,False,None
+Deck of the Dragon's Maw (Triangle),100,60,0,0,0,0,18,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Crafting,False,None
+Deck of the Dragon's Maw (Tear),100,60,0,0,0,0,18,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Crafting,False,None
 Array of Mighty Istanboa,118,59,0,0,0,0,36,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Gold Vendor, Stone Key",False,None
 Ancient Deck of Horizon Hold,110,59,0,0,0,0,34,34,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Drop,False,None
 Chief Advisor's Pack of Lies,110,59,0,0,0,0,34,34,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Unavailable,False,None
@@ -179,17 +179,17 @@ Great Inventor's Fire Deck (Level 110+),110,20,0,0,0,0,0,52,0,0,0,0,73,0,40,1,0,
 Drawer of Secrets,85,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Gold Vendor,False,None
 Calendar Stone Cards,80,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Gold Vendor,False,None
 Sherlock's Brilliant Hand,40,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Drop,False,None
+Tsutsui's Mighty Hand (Triangle),25,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Unavailable,False,None
 Tsutsui's Mighty Hand (Square),25,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Unavailable,False,None
 Tsutsui's Mighty Hand (Tear),25,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Unavailable,False,None
-Tsutsui's Mighty Hand (Triangle),25,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Unavailable,False,None
 Fiery Chrysanthemum Deck (Level 170+),170,0,0,0,0,0,87,76,0,0,0,0,120,0,62,1,0,0,0,0,0,1,0,0,"Gold Key, Crowns",False,None
 Flaming Chivalric Tome (Level 170+),170,0,0,0,0,0,87,76,0,0,0,0,120,0,62,1,0,0,0,0,0,1,0,0,"Gold Key, Crowns",False,None
-Umbra Queen's Scorched Cards (Level 170+),170,0,0,0,0,0,79,76,0,0,0,0,133,0,68,1,0,0,0,0,0,0,0,1,Rematch,False,None
 Wastelander's Scorched Cards (Level 170+),170,0,0,0,0,0,79,76,0,0,0,0,133,0,68,1,0,0,0,0,0,0,0,1,Crowns,False,None
+Umbra Queen's Scorched Cards (Level 170+),170,0,0,0,0,0,79,76,0,0,0,0,133,0,68,1,0,0,0,0,0,0,0,1,Rematch,False,None
 Fiery Chrysanthemum Deck (Level 160+),160,0,0,0,0,0,67,63,0,0,0,0,111,0,58,1,0,0,0,0,0,1,0,0,Crowns,False,None
 Blazing Skyfarer's Deck (Level 160+),160,0,0,0,0,0,61,63,0,0,0,0,123,0,64,1,0,0,0,0,0,0,0,1,Crowns,False,None
-Malistaire's Vengeance Deck (Level 160+),160,0,0,0,0,0,61,63,0,0,0,0,123,0,64,1,0,0,0,0,0,0,0,1,Rematch,False,None
 Wastelander's Scorched Cards (Level 160+),160,0,0,0,0,0,61,63,0,0,0,0,123,0,64,1,0,0,0,0,0,0,0,1,Crowns,False,None
+Malistaire's Vengeance Deck (Level 160+),160,0,0,0,0,0,61,63,0,0,0,0,123,0,64,1,0,0,0,0,0,0,0,1,Rematch,False,None
 Blazing Skyfarer's Deck (Level 150+),150,0,0,0,0,0,56,60,0,0,0,0,114,0,60,1,0,0,0,0,0,0,0,1,Crowns,False,None
 Wastelander's Scorched Cards (Level 150+),150,0,0,0,0,0,56,60,0,0,0,0,114,0,60,1,0,0,0,0,0,0,0,1,Crowns,False,None
 Fiery Chrysanthemum Deck (Level 140+),140,0,0,0,0,0,53,56,0,0,0,0,96,0,51,1,0,0,0,0,0,1,0,0,Crowns,False,None
@@ -220,154 +220,154 @@ Wastelander's Scorched Cards (Level 120+),120,0,0,0,0,0,20,48,0,0,0,0,89,0,48,1,
 Fiery Chrysanthemum Deck (Level 110+),110,0,0,0,0,0,14,42,0,0,0,0,73,0,40,1,0,0,0,0,0,1,0,0,Crowns,False,None
 Blazing Skyfarer's Deck (Level 110+),110,0,0,0,0,0,13,42,0,0,0,0,81,0,44,1,0,0,0,0,0,0,0,1,Crowns,False,None
 Wastelander's Scorched Cards (Level 110+),110,0,0,0,0,0,13,42,0,0,0,0,81,0,44,1,0,0,0,0,0,0,0,1,Crowns,False,None
-Astute Pyromancer's Deck,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Gold Vendor, Bazaar",False,None
-Blazing Skyfarer's Deck (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Blazing Skyfarer's Deck (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0,0,0,0,0,0,0,0,1,Crowns,False,None
-Barkingham Case of Splendor,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Drop,False,None
-Blazing Skyfarer's Deck (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,0,0,0,0,0,0,1,Crowns,False,None
-Blazing Skyfarer's Deck (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Burrower's Pyromancy Deck (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Bristleback's Singed Deck,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Drop,False,None
-Blazing Skyfarer's Deck (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0,0,0,0,1,Crowns,False,None
-Burrower's Pyromancy Deck (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,26,0,0,0,0,0,0,0,1,0,Crowns,False,None
-Eerem Gallery of Eruption,118,0,0,0,0,0,0,38,0,0,0,0,89,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Burrower's Pyromancy Deck (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Burrower's Pyromancy Deck (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Bleaks Deck of Campfires,104,0,0,0,0,0,0,32,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Gold Vendor,False,None
-Blazing Skyfarer's Deck (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Blazing Skyfarer's Deck (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Body Monk's Set,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Wooden Key",False,None
-Blazing Skyfarer's Deck (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Burrower's Pyromancy Deck (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0,0,0,0,0,0,0,1,0,"Gold Key, Crowns",False,None
 Advanced Fire Deck,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Crowns,False,None
-Burrower's Pyromancy Deck (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,23,0,0,0,0,0,0,0,1,0,Crowns,False,None
-Burrower's Pyromancy Deck (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,29,0,0,0,0,0,0,0,1,0,Crowns,False,None
-Blazing Skyfarer's Deck (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,28,0,0,0,0,0,0,0,0,1,Crowns,False,None
-Braided Silver Deck,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Deck of the Phoenix,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Burrower's Pyromancy Deck (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Bundle of Eternal Flame,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Blazing Skyfarer's Deck (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Deck of Egoism,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
-Djinn Array of Sparks,112,0,0,0,0,0,0,35,0,0,0,0,83,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Deck of Reflection,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Bazaar, Quest",False,None
+Blazing Skyfarer's Deck (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Bristleback's Singed Deck,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Drop,False,None
+Blazing Skyfarer's Deck (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Burrower's Pyromancy Deck (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,1,0,Crowns,False,None
-Burrower's Pyromancy Deck (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
-Blazing Skyfarer's Deck (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,36,0,0,0,0,0,0,0,0,1,Crowns,False,None
-Cinder Deck,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Gold Vendor, Bazaar",False,Celestian Cinder Set
+Braided Silver Deck,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Burrower's Pyromancy Deck (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Blazing Skyfarer's Deck (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Blazing Skyfarer's Deck (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0,0,0,0,1,Crowns,False,None
+Blazing Skyfarer's Deck (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Blazing Skyfarer's Deck (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0,0,0,0,0,0,0,0,1,Crowns,False,None
 Deck of the Simmering Evil,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Stone Key",False,None
-Deck of the Devouring Flame,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Deck of the Aurora,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Drop,False,None
+Barkingham Case of Splendor,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Drop,False,None
+Burrower's Pyromancy Deck (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Astute Pyromancer's Deck,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Gold Vendor, Bazaar",False,None
+Cinder Deck,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Gold Vendor, Bazaar",False,Celestian Cinder Set
+Burrower's Pyromancy Deck (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Blazing Skyfarer's Deck (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Darkmoor's Brimstone Deck,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Gold Key, Stone Key",False,None
-Fiery Deck,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Bazaar, Crafting",False,None
-Fiery Night Mire Deck (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Fiery Night Mire Deck (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,"Housing Gauntlet, Crowns",False,None
-Fiery Night Mire Deck (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Fiery Night Mire Deck (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
-Fire Fairy Kei Box (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Fire Fairy Kei Box (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,23,0,0,0,0,0,0,1,0,0,Crowns,False,None
-Fiery Night Mire Deck (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
-Fiery Night Mire Deck (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Fire Fairy Kei Box (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Fiery Night Mire Deck (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
-Great Inventor's Fire Deck (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Fiery Night Mire Deck (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Great Inventor's Fire Deck (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
-Floramancer Deck of Rashes (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Floramancer Deck of Rashes (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Deck of Reflection,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Bazaar, Quest",False,None
+Djinn Array of Sparks,112,0,0,0,0,0,0,35,0,0,0,0,83,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Burrower's Pyromancy Deck (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,26,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Deck of the Phoenix,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Blazing Skyfarer's Deck (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Deck of the Devouring Flame,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Blazing Skyfarer's Deck (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,36,0,0,0,0,0,0,0,0,1,Crowns,False,None
+Deck of Egoism,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
+Burrower's Pyromancy Deck (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,29,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Burrower's Pyromancy Deck (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
+Blazing Skyfarer's Deck (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,0,0,0,0,0,0,1,Crowns,False,None
+Deck of the Aurora,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Drop,False,None
+Bundle of Eternal Flame,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Blazing Skyfarer's Deck (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,28,0,0,0,0,0,0,0,0,1,Crowns,False,None
+Bleaks Deck of Campfires,104,0,0,0,0,0,0,32,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Gold Vendor,False,None
+Body Monk's Set,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Wooden Key",False,None
+Burrower's Pyromancy Deck (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,23,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Eerem Gallery of Eruption,118,0,0,0,0,0,0,38,0,0,0,0,89,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Burrower's Pyromancy Deck (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Burrower's Pyromancy Deck (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0,0,0,0,0,0,0,1,0,"Gold Key, Crowns",False,None
 Fiery Night Mire Deck (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Floramancer Deck of Rashes (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Floramancer Deck of Rashes (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Floramancer Deck of Rashes (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0,0,0,0,1,Crowns,False,None
-Great Inventor's Fire Deck (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
-Fire Fairy Kei Box (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Great Inventor's Fire Deck (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Flameforged Rubal Cards,114,0,0,0,0,0,0,36,0,0,0,0,85,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Grim Cerberus Master Deck (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Grim Cerberus Master Deck (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
-Fire Fairy Kei Box (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,26,0,0,0,0,0,0,1,0,0,Crowns,False,None
-Great Inventor's Fire Deck (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
-Great Inventor's Fire Deck (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Great Inventor's Fire Deck (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Floramancer Deck of Rashes (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,36,0,0,0,0,0,0,0,0,1,Crowns,False,None
-Grim Cerberus Master Deck (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Grim Cerberus Master Deck (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Illuminated Archival Array (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Illuminated Archival Array (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Illuminated Archival Array (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Jaws of Fire,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
-Ideyoshi's Deck of Purpose,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
-Illuminated Archival Array (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,29,0,0,0,0,0,0,0,1,0,Crowns,False,None
-Illuminated Archival Array (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0,0,0,0,0,0,0,1,0,"Housing Gauntlet, Crowns",False,None
-Illuminated Archival Array (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Illuminated Archival Array (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Fiery Night Mire Deck (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Floramancer Deck of Rashes (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Fiery Night Mire Deck (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
-Illuminated Archival Array (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,23,0,0,0,0,0,0,0,1,0,Crowns,False,None
-Great Inventor's Fire Deck (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Illuminated Archival Array (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
 Floramancer Deck of Rashes (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Illuminated Archival Array (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,26,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Fire Fairy Kei Box (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Flameforged Rubal Cards,114,0,0,0,0,0,0,36,0,0,0,0,85,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Great Inventor's Fire Deck (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Floramancer Deck of Rashes (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,36,0,0,0,0,0,0,0,0,1,Crowns,False,None
+Fire Fairy Kei Box (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,23,0,0,0,0,0,0,1,0,0,Crowns,False,None
+Fire Fairy Kei Box (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Fire Fairy Kei Box (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,26,0,0,0,0,0,0,1,0,0,Crowns,False,None
+Great Inventor's Fire Deck (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Floramancer Deck of Rashes (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Fiery Night Mire Deck (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Fiery Night Mire Deck (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Fiery Deck,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Bazaar, Crafting",False,None
+Floramancer Deck of Rashes (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0,0,0,0,1,Crowns,False,None
+Great Inventor's Fire Deck (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Illuminated Archival Array (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Fiery Night Mire Deck (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,"Housing Gauntlet, Crowns",False,None
+Fiery Night Mire Deck (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Fire Fairy Kei Box (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Great Inventor's Fire Deck (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Great Inventor's Fire Deck (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Grim Cerberus Master Deck (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Grim Cerberus Master Deck (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Fire Fairy Kei Box (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Grim Cerberus Master Deck (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
 Fire Fairy Kei Box (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,1,0,0,Crowns,False,None
+Ideyoshi's Deck of Purpose,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Great Inventor's Fire Deck (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Floramancer Deck of Rashes (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Grim Cerberus Master Deck (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Great Inventor's Fire Deck (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Fiery Night Mire Deck (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Illuminated Archival Array (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Great Inventor's Fire Deck (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
-Novice Fire Deck,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Nekhbet's Ruby Deck,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Pit Viper's Array of Venom (Tear),60,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Stone Key,False,None
-Malistaire's Vengeance Deck (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,0,0,0,0,0,0,1,Rematch,False,None
-Malistaire's Vengeance Deck (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,Rematch,False,None
+Fiery Night Mire Deck (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Floramancer Deck of Rashes (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Great Inventor's Fire Deck (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Fiery Night Mire Deck (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Illuminated Archival Array (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0,0,0,0,0,0,0,1,0,"Housing Gauntlet, Crowns",False,None
+Great Inventor's Fire Deck (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Great Inventor's Fire Deck (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Illuminated Archival Array (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,29,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Illuminated Archival Array (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Illuminated Archival Array (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Illuminated Archival Array (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,23,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Illuminated Archival Array (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,26,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Jaws of Fire,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
+Illuminated Archival Array (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Illuminated Archival Array (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Pit Viper's Array of Venom (Triangle),60,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Stone Key,False,None
-Pyromancer's Deck,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
 Sand Sea Deck of Explosion,116,0,0,0,0,0,0,37,0,0,0,0,87,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Pit Viper's Array of Venom (Square),60,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Stone Key,False,None
-Snowcrusher Melted Box,50,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0,"Drop, Crafting",False,None
-Wastelander's Scorched Cards (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Novice Fire Deck,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Malistaire's Vengeance Deck (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,0,0,0,0,0,0,1,Rematch,False,None
 Shadow Queen Deck of Ashes,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Unavailable,False,None
-Wastelander's Scorched Cards (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Shadow Queen Box of Ashes,100,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0,0,0,0,0,1,0,0,0,Crafting,False,None
-Usunoki's Deck,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Drop,False,None
-Tanglewood Cards,73,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar",False,None
+Malistaire's Vengeance Deck (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,Rematch,False,None
+Pit Viper's Array of Venom (Tear),60,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Stone Key,False,None
+Nekhbet's Ruby Deck,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Pyromancer's Deck,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
+Snowcrusher Melted Box,50,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0,"Drop, Crafting",False,None
 Sands of Zigazag Cards,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Drop,False,None
-Wastelander's Scorched Cards (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Tundra Deck of Swelters,102,0,0,0,0,0,0,31,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Wastelander's Scorched Cards (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,28,0,0,0,0,0,0,0,0,1,Crowns,False,None
 Wastelander's Scorched Cards (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Wastelander's Scorched Cards (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Usunoki's Deck,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Drop,False,None
+Wastelander's Scorched Cards (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Wastelander's Scorched Cards (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Wastelander's Scorched Cards (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,0,0,0,0,0,0,1,Crowns,False,None
+Tayg Pasteboards of Steam,106,0,0,0,0,0,0,33,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Wastelander's Scorched Cards (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0,0,0,0,1,Crowns,False,None
+Wastelander's Scorched Cards (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,36,0,0,0,0,0,0,0,0,1,Crowns,False,None
+Pit Viper's Array of Venom (Square),60,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Stone Key,False,None
+Tanglewood Cards,73,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar",False,None
+Wastelander's Scorched Cards (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0,0,0,0,0,0,0,0,1,Crowns,False,None
 Umbra Queen's Scorched Cards (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,0,0,0,0,0,0,1,Rematch,False,None
 Snowcrusher Melted Deck,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-Tayg Pasteboards of Steam,106,0,0,0,0,0,0,33,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Wastelander's Scorched Cards (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,36,0,0,0,0,0,0,0,0,1,Crowns,False,None
-Wastelander's Scorched Cards (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Wastelander's Scorched Cards (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0,0,0,0,0,0,0,0,1,Crowns,False,None
-Wastelander's Scorched Cards (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,28,0,0,0,0,0,0,0,0,1,Crowns,False,None
-Wastelander's Scorched Cards (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Wastelander's Scorched Cards (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0,0,0,0,1,Crowns,False,None
-Wastelander's Scorched Cards (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,0,0,0,0,0,0,1,Crowns,False,None
-Tundra Deck of Swelters,102,0,0,0,0,0,0,31,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Ancient Rubal Cards,114,0,0,0,0,0,0,33,0,0,0,0,43,0,0,1,0,0,0,0,0,0,1,0,Gold Vendor,False,None
-Aristocrat's Deck,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar, Quest",False,None
+Shadow Queen Box of Ashes,100,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0,0,0,0,0,1,0,0,0,Crafting,False,None
+Wastelander's Scorched Cards (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Wastelander's Scorched Cards (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Antique Deck,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Wooden Key",False,None
+Armillary Deck,70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Gold Vendor, Bazaar",False,None
 Cage of the Old Kings,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
+Aristocrat's Deck,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar, Quest",False,None
+Deck of Chivalry,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar, Quest",False,None
 Celestian Deck,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
 Hand of the Forlorn Tayg,106,0,0,0,0,0,0,30,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Basket of Shaman's Juju,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
-Deck of the Sage,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar, Crowns",False,None
 Dragonfire Deck,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Bazaar, Quest",False,None
-Deck of the Lotus,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
-Duelist's Devil-May-Care Deck (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Deck of Ancients,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Bazaar, Quest",False,None
-Antique Deck,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Wooden Key",False,None
 Deck of Deliberation,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Gold Vendor, Bazaar",False,None
-Deck of Chivalry,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar, Quest",False,None
-Hand of the Kataba Iceblock,108,0,0,0,0,0,0,31,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Ancient Rubal Cards,114,0,0,0,0,0,0,33,0,0,0,0,43,0,0,1,0,0,0,0,0,0,1,0,Gold Vendor,False,None
 Eerem Palace Gallery,118,0,0,0,0,0,0,35,0,0,0,0,44,0,0,1,0,0,0,0,0,0,1,0,"Gold Vendor, Stone Key",False,None
+Deck of Ancients,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Bazaar, Quest",False,None
+Basket of Shaman's Juju,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
+Duelist's Devil-May-Care Deck (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Deck of the Sage,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar, Crowns",False,None
+Deck of the Lotus,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
 Deck of the Sand Sea,116,0,0,0,0,0,0,34,0,0,0,0,43,0,0,1,0,0,0,0,0,0,1,0,Gold Vendor,False,None
 Dunes Djinni's Array,112,0,0,0,0,0,0,32,0,0,0,0,42,0,0,1,0,0,0,0,0,0,1,0,Gold Vendor,False,None
-Armillary Deck,70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Gold Vendor, Bazaar",False,None
-Mummified Deck,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Gold Vendor, Drop, Bazaar",False,None
-Pinewood Deck,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
-Starter Deck,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Quest,False,None
-Watchman's Deck,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar",False,None
-Polarian Tundra Spelldeck,102,0,0,0,0,0,0,28,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Hand of the Kataba Iceblock,108,0,0,0,0,0,0,31,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Knotwork Case,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Gold Vendor, Bazaar",False,None
-Pharaoh's Deck,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Watchman's Deck,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar",False,None
+Runewarden's Deck,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Pinewood Deck,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
+Malistaire's Forlorn Deck,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Sheaf of the Polarian Bleaks,104,0,0,0,0,0,0,29,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Gold Vendor,False,None
 Treasure Deck,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Gold Vendor, Bazaar, Quest",False,Celestian Totality Set
-Runewarden's Deck,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
-Malistaire's Forlorn Deck,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Starter Deck,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Quest,False,None
+Polarian Tundra Spelldeck,102,0,0,0,0,0,0,28,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Pharaoh's Deck,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Mummified Deck,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Gold Vendor, Drop, Bazaar",False,None

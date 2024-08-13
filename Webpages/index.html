@@ -1,40 +1,61 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Complete W101 Gear - Myth and Ice Gear</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Wizard101 Gear</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-        }
-        h1 {
             text-align: center;
         }
-        .links {
+        .header {
+            margin-top: 50px;
+            font-size: 36px;
+            font-weight: bold;
+        }
+        .tabs {
+            margin-top: 30px;
             display: flex;
             justify-content: center;
-            flex-direction: column;
-            align-items: center;
+            gap: 20px;
         }
-        a {
-            margin: 10px;
-            font-size: 20px;
+        .tabs a {
             text-decoration: none;
-            color: #007BFF;
+            font-size: 18px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
         }
-        a:hover {
-            text-decoration: underline;
+        .tabs a:hover {
+            background-color: #0056b3;
+        }
+        .welcome-message {
+            margin-top: 50px;
+            font-size: 20px;
+            line-height: 1.6;
         }
     </style>
 </head>
 <body>
-    <h1>Complete W101 Gear - Myth and Ice Gear</h1>
-    <div class="links">
-        <a href="Myth_Gear/myth_hats.html">Myth Hats</a>
-        <a href="Myth_Gear/myth_robes.html">Myth Robes</a>
-        <a href="Myth_Gear/myth_boots.html">Myth Boots</a>
-        <a href="Ice_Gear/ice_hats.html">Ice Hats</a>
-        <a href="Ice_Gear/ice_robes.html">Ice Robes</a>
-        <a href="Ice_Gear/ice_boots.html">Ice Boots</a>
+
+    <div class="header">Complete Wizard101 Gear</div>
+
+    <div class="tabs">
+        <a href="select_owned_gear.html">Select Owned Gear</a>
+        <a href="view_gear.html">View Gear</a>
+        <a href="view_sets.html">View Sets</a>
+        <a href="create_sets.html">Create Sets</a>
     </div>
+
+    <div class="welcome-message">
+        Welcome to a complete guide on all Wizard101 gear.<br>
+        Please note PVP and Deckathalon Gear is not included.<br>
+        Click one of the tabs above to get started.<br>
+        For total customization, move along the tabs, left to right.
+    </div>
+
 </body>
 </html>

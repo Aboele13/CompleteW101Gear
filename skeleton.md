@@ -10,7 +10,6 @@ Webpage
     |       |--- Select School and Gear Type (both are dropdown menus)
     |               |--- All the normal filters (level, source)
     |               |--- Show all or just objectively better switch
-    |               |       |--- Unique Source for mounts and pets
     |               |--- Includes Owned if that tab has been filled
     |               |--- Accessories get a switch for jeweled or not jeweled
     |--- View Sets

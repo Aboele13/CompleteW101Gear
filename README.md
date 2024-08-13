@@ -1,9 +1,8 @@
 TODO:
 
-- mount sourcing incomplete
-- roc source needs to be fixed (Tier but not key boss?)
-
-- new webpage with 4 tabs
+- view gear needs to show correct csv
+- view gear needs to have functional level dropdown and source checkboxes
+- view gear needs search and sort functionality
 
 - need to webscrape to get correct jewel amounts
 - need to webscrape set base values (wizard base stats by level)
