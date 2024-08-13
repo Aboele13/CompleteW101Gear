@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Wizard101 Gear - View Gear</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .header {
+            margin-top: 50px;
+            font-size: 36px;
+            font-weight: bold;
+        }
+        .tabs {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .tabs a {
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .tabs a:hover {
+            background-color: #0056b3;
+        }
+        .tabs a.disabled {
+            background-color: #a9a9a9;
+            cursor: default;
+        }
+        .dropdowns {
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .dropdowns select {
+            font-size: 18px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .dropdowns label {
+            font-size: 20px;
+            margin-right: 10px;
+        }
+        .source-section {
+            margin-top: 30px;
+            text-align: left;
+            display: inline-block;
+            margin-left: 20px;
+        }
+        .source-title {
+            font-size: 20px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .checkbox-group {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .checkbox-group label {
+            font-size: 18px;
+            margin-right: 10px;
+        }
+        .checkbox-group input[type="checkbox"] {
+            margin-right: 10px;
+        }
+        .data-table {
+            margin-top: 50px;
+            overflow-x: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">Complete Wizard101 Gear</div>
+
+    <div class="tabs">
+        <a href="select_owned_gear.html">Select Owned Gear</a>
+        <a href="view_gear.html" class="disabled">View Gear</a>
+        <a href="view_sets.html">View Sets</a>
+        <a href="create_sets.html">Create Sets</a>
+    </div>
+
+    <div class="dropdowns">
+        <div>
+            <label for="school">School:</label>
+            <select id="school">
+                <option value="balance">Balance</option>
+                <option value="death">Death</option>
+                <option value="fire">Fire</option>
+                <option value="ice">Ice</option>
+                <option value="life">Life</option>
+                <option value="myth">Myth</option>
+                <option value="storm">Storm</option>
+            </select>
+        </div>
+        <div>
+            <label for="itemType">Item Type:</label>
+            <select id="itemType">
+                <option value="hat">Hat</option>
+                <option value="robe">Robe</option>
+                <option value="boots">Boots</option>
+                <option value="wand">Wand</option>
+                <option value="athame">Athame</option>
+                <option value="amulet">Amulet</option>
+                <option value="ring">Ring</option>
+                <option value="pet">Pet</option>
+                <option value="mount">Mount</option>
+                <option value="deck">Deck</option>
+            </select>
+        </div>
+        <div>
+            <label for="level">Level:</label>
+            <select id="level">
+                <!-- Populate level dropdown from 170 to 1 -->
+                <script>
+                    for (let i = 170; i >= 1; i--) {
+                        document.write('<option value="' + i + '">' + i + '</option>');
+                    }
+                </script>
+            </select>
+        </div>
+    </div>
+
+    <div class="source-section">
+        <div class="source-title">Source:</div>
+        <div class="checkbox-group">
+            <label><input type="checkbox" checked> Gold Vendor</label>
+            <label><input type="checkbox" checked> Drop</label>
+            <label><input type="checkbox" checked> Bazaar</label>
+            <label><input type="checkbox" checked> Crafting</label>
+            <label><input type="checkbox" checked> Gold Key</label>
+            <label><input type="checkbox" checked> Stone Key</label>
+            <label><input type="checkbox" checked> Wooden Key</label>
+            <label><input type="checkbox" checked> Housing Gauntlet</label>
+            <label><input type="checkbox" checked> Rematch</label>
+            <label><input type="checkbox" checked> Quest</label>
+            <label><input type="checkbox" checked> One Shot Housing Gauntlet</label>
+            <label><input type="checkbox" checked> Fishing</label>
+            <label><input type="checkbox" checked> Raid</label>
+            <label><input type="checkbox" checked> Crowns</label>
+            <label><input type="checkbox" checked> Gift Card</label>
+            <label><input type="checkbox" checked> Unavailable</label>
+        </div>
+    </div>
+
+    <div class="data-table">
+        <table id="csvTable" border="1">
+            <thead>
+                <tr id="tableHeader">
+                    <!-- Table headers will be populated here -->
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+                <!-- Table rows will be populated here -->
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const schoolDropdown = document.getElementById('school');
+            const itemTypeDropdown = document.getElementById('itemType');
+            const tableHeader = document.getElementById('tableHeader');
+            const tableBody = document.getElementById('tableBody');
+
+            function fetchCSV() {
+                const school = schoolDropdown.value;
+                const itemType = itemTypeDropdown.value;
+                const pluralizedItemType = pluralize(itemType);
+                const url = `https://aboele13.github.io/CompleteW101Gear/${school}_Gear/${school}_${pluralizedItemType}.csv`;
+
+                fetch(url)
+                    .then(response => response.text())
+                    .then(text => parseCSV(text))
+                    .catch(error => console.error('Error fetching the CSV file:', error));
+            }
+
+            function pluralize(itemType) {
+                const pluralExceptions = {
+                    'boots': 'Boots', // No change
+                    'pet': 'Pets',
+                    'mount': 'Mounts',
+                    'deck': 'Decks'
+                };
+
+                return pluralExceptions[itemType] || itemType + 's';
+            }
+
+            function parseCSV(text) {
+                const rows = text.split('\n').filter(row => row.trim() !== '');
+                const headers = rows[0].split(',');
+                const data = rows.slice(1);
+
+                // Clear existing table content
+                tableHeader.innerHTML = '';
+                tableBody.innerHTML = '';
+
+                // Populate table headers
+                headers.forEach(header => {
+                    const th = document.createElement('th');
+                    th.textContent = header;
+                    tableHeader.appendChild(th);
+                });
+
+                // Populate table rows
+                data.forEach(row => {
+                    const tr = document.createElement('tr');
+                    const cells = row.split(',');
+                    cells.forEach(cell => {
+                        const td = document.createElement('td');
+                        td.textContent = cell;
+                        tr.appendChild(td);
+                    });
+                    tableBody.appendChild(tr);
+                });
+            }
+
+            // Add event listeners to dropdowns
+            schoolDropdown.addEventListener('change', fetchCSV);
+            itemTypeDropdown.addEventListener('change', fetchCSV);
+
+            // Initial fetch
+            fetchCSV();
+        });
+    </script>
+
+</body>
+</html>
