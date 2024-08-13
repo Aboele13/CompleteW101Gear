@@ -100,7 +100,7 @@
     <div class="dropdowns">
         <div>
             <label for="school">School:</label>
-            <select id="school" onchange="loadCSV()">
+            <select id="school">
                 <option value="Balance">Balance</option>
                 <option value="Death">Death</option>
                 <option value="Fire">Fire</option>
@@ -112,7 +112,7 @@
         </div>
         <div>
             <label for="itemType">Item Type:</label>
-            <select id="itemType" onchange="loadCSV()">
+            <select id="itemType">
                 <option value="Hats">Hat</option>
                 <option value="Robes">Robe</option>
                 <option value="Boots">Boots</option>
@@ -219,7 +219,7 @@
                                 .map(cb => cb.id);
 
                             let filteredData = originalData.filter(row => {
-                                const isLevelMatch = row.Level === level;
+                                const isLevelMatch = row.Level == level; // Use == for comparison
                                 const isSourceMatch = checkedSources.some(source => row.Source.includes(source)) || checkedSources.includes('unavailable');
                                 return isLevelMatch && isSourceMatch;
                             });
@@ -250,6 +250,10 @@
                             updateTableBody(data);
                         }
 
+                        function isNumeric(value) {
+                            return !isNaN(value - parseFloat(value));
+                        }
+
                         // Add search functionality
                         document.getElementById('search-input').addEventListener('keyup', function() {
                             const searchTerm = this.value.toLowerCase();
@@ -262,6 +266,8 @@
                         });
 
                         // Apply filters on change
+                        document.getElementById('school').addEventListener('change', loadCSV);
+                        document.getElementById('itemType').addEventListener('change', loadCSV);
                         document.getElementById('level').addEventListener('change', applyFilters);
                         document.querySelectorAll('.checkbox-group input[type="checkbox"]').forEach(cb => {
                             cb.addEventListener('change', applyFilters);
