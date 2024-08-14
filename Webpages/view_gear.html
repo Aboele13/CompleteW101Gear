@@ -97,11 +97,7 @@
             text-align: left;
         }
     
-        /* Sorting indicators */
-        .sorted-asc::after {
-            content: ' ▲';
-        }
-    
+        /* Sorting indicator */
         .sorted-desc::after {
             content: ' ▼';
         }
@@ -250,6 +246,15 @@
     
             // Append sorted rows back to table
             rows.forEach(row => table.appendChild(row));
+
+            // Restore the sorting arrow
+            headers.forEach((header, index) => {
+                header.classList.remove('sorted-desc');
+                if (index === columnIndex) {
+                    header.classList.add('sorted-desc');
+                }
+            });
+
         }
     
         function filterTable() {
