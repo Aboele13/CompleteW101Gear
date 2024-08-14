@@ -121,6 +121,26 @@
         th {
             background-color: #f2f2f2;
         }
+
+        .pagination {
+            margin-top: 20px;
+        }
+
+        .pagination button {
+            font-size: 16px;
+            padding: 10px 20px;
+            margin: 0 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+        }
+
+        .pagination button.disabled {
+            background-color: #a9a9a9;
+            cursor: default;
+        }
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
 </head>
@@ -139,7 +159,7 @@
     <div class="dropdowns">
         <div>
             <label for="school">School:</label>
-            <select id="school" onchange="loadCSV()">
+            <select id="school" onchange="loadData()">
                 <option value="Balance">Balance</option>
                 <option value="Death">Death</option>
                 <option value="Fire">Fire</option>
@@ -151,7 +171,7 @@
         </div>
         <div>
             <label for="itemType">Item Type:</label>
-            <select id="itemType" onchange="loadCSV()">
+            <select id="itemType" onchange="loadData()">
                 <option value="Hats">Hat</option>
                 <option value="Robes">Robe</option>
                 <option value="Boots">Boots</option>
@@ -178,22 +198,22 @@
 
     <div class="checkbox-group">
         <label>Source:</label>
-        <label><input type="checkbox" checked> Gold Vendor</label>
-        <label><input type="checkbox" checked> Drop</label>
-        <label><input type="checkbox" checked> Bazaar</label>
-        <label><input type="checkbox" checked> Crafting</label>
-        <label><input type="checkbox" checked> Gold Key</label>
-        <label><input type="checkbox" checked> Stone Key</label>
-        <label><input type="checkbox" checked> Wooden Key</label>
-        <label><input type="checkbox" checked> Housing Gauntlet</label>
-        <label><input type="checkbox" checked> Rematch</label>
-        <label><input type="checkbox" checked> Quest</label>
-        <label><input type="checkbox" checked> One Shot Housing Gauntlet</label>
-        <label><input type="checkbox" checked> Fishing</label>
-        <label><input type="checkbox" checked> Raid</label>
-        <label><input type="checkbox" checked> Crowns</label>
-        <label><input type="checkbox" checked> Gift Card</label>
-        <label><input type="checkbox" checked> Unavailable</label>
+        <label><input type="checkbox" value="Gold Vendor" checked> Gold Vendor</label>
+        <label><input type="checkbox" value="Drop" checked> Drop</label>
+        <label><input type="checkbox" value="Bazaar" checked> Bazaar</label>
+        <label><input type="checkbox" value="Crafting" checked> Crafting</label>
+        <label><input type="checkbox" value="Gold Key" checked> Gold Key</label>
+        <label><input type="checkbox" value="Stone Key" checked> Stone Key</label>
+        <label><input type="checkbox" value="Wooden Key" checked> Wooden Key</label>
+        <label><input type="checkbox" value="Housing Gauntlet" checked> Housing Gauntlet</label>
+        <label><input type="checkbox" value="Rematch" checked> Rematch</label>
+        <label><input type="checkbox" value="Quest" checked> Quest</label>
+        <label><input type="checkbox" value="One Shot Housing Gauntlet" checked> One Shot Housing Gauntlet</label>
+        <label><input type="checkbox" value="Fishing" checked> Fishing</label>
+        <label><input type="checkbox" value="Raid" checked> Raid</label>
+        <label><input type="checkbox" value="Crowns" checked> Crowns</label>
+        <label><input type="checkbox" value="Gift Card" checked> Gift Card</label>
+        <label><input type="checkbox" value="Unavailable" checked> Unavailable</label>
     </div>
 
     <div class="search-container">
@@ -202,11 +222,18 @@
 
     <table id="gearTable"></table>
 
+    <div class="pagination">
+        <button id="prevBtn" onclick="changePage(-1)" class="disabled">Previous</button>
+        <button id="nextBtn" onclick="changePage(1)">Next</button>
+    </div>
+
     <script>
         let data = [];
-        let originalData = [];
+        let filteredData = [];
+        let currentPage = 1;
+        const rowsPerPage = 10;
 
-        function loadCSV() {
+        function loadData() {
             const school = document.getElementById('school').value;
             const itemType = document.getElementById('itemType').value;
             const csvUrl = `https://aboele13.github.io/CompleteW101Gear/${school}_Gear/${school}_${itemType}.csv`;
@@ -215,22 +242,22 @@
                 download: true,
                 header: true,
                 complete: function (results) {
-                    originalData = results.data; // Store original data
+                    data = results.data;
                     filterTable(); // Apply filters to the new data
                 }
             });
         }
 
-        function renderTable(filteredData) {
+        function renderTable(pageData) {
             const table = document.getElementById('gearTable');
             table.innerHTML = '';
 
-            if (filteredData.length === 0) {
+            if (pageData.length === 0) {
                 table.innerHTML = '<tr><td colspan="100%">No data available</td></tr>';
                 return;
             }
 
-            const headers = Object.keys(filteredData[0]);
+            const headers = Object.keys(pageData[0]);
             const headerRow = document.createElement('tr');
 
             headers.forEach(header => {
@@ -242,7 +269,7 @@
 
             table.appendChild(headerRow);
 
-            filteredData.forEach(row => {
+            pageData.forEach(row => {
                 const tr = document.createElement('tr');
                 headers.forEach(header => {
                     const td = document.createElement('td');
@@ -251,10 +278,12 @@
                 });
                 table.appendChild(tr);
             });
+
+            updatePaginationButtons();
         }
 
         function sortData(key) {
-            data.sort(function (a, b) {
+            filteredData.sort(function (a, b) {
                 let aValue = a[key];
                 let bValue = b[key];
 
@@ -273,7 +302,7 @@
                 return 0;
             });
 
-            renderTable(data);
+            renderTable(getCurrentPageData());
         }
 
         function isNumeric(value) {
@@ -283,17 +312,35 @@
         function filterTable() {
             const searchValue = document.getElementById('search').value.toLowerCase();
             const levelValue = parseInt(document.getElementById('level').value, 10);
+            const checkedSources = Array.from(document.querySelectorAll('.checkbox-group input[type="checkbox"]:checked')).map(cb => cb.value);
 
-            data = originalData.filter(row => {
+            filteredData = data.filter(row => {
                 const nameMatch = row['Name'].toLowerCase().includes(searchValue);
                 const levelMatch = parseInt(row['Level'], 10) <= levelValue;
-                return nameMatch && levelMatch;
+                const sourceMatch = checkedSources.includes(row['Source']) || checkedSources.length === 0;
+                return nameMatch && levelMatch && sourceMatch;
             });
 
-            renderTable(data);
+            renderTable(getCurrentPageData());
         }
 
-        window.onload = loadCSV;
+        function getCurrentPageData() {
+            const start = (currentPage - 1) * rowsPerPage;
+            const end = start + rowsPerPage;
+            return filteredData.slice(start, end);
+        }
+
+        function changePage(direction) {
+            currentPage += direction;
+            renderTable(getCurrentPageData());
+        }
+
+        function updatePaginationButtons() {
+            document.getElementById('prevBtn').classList.toggle('disabled', currentPage === 1);
+            document.getElementById('nextBtn').classList.toggle('disabled', currentPage * rowsPerPage >= filteredData.length);
+        }
+
+        window.onload = loadData;
     </script>
 
 </body>
