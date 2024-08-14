@@ -203,7 +203,11 @@
     <table id="gearTable"></table>
 
     <script>
-        let data = [];
+        let fullData = [];
+        let filteredData = [];
+        let currentPage = 1;
+        const rowsPerPage = 50; // Number of rows to display per page
+        let currentSortKey = 'Name'; // Default sort key
     
         function loadCSV() {
             const school = document.getElementById('school').value;
@@ -214,8 +218,8 @@
                 download: true,
                 header: true,
                 complete: function (results) {
-                    data = results.data;
-                    renderTable(data);
+                    fullData = results.data;
+                    filterTable(); // Apply initial filter and render table
                 }
             });
         }
@@ -235,13 +239,20 @@
             headers.forEach(header => {
                 const th = document.createElement('th');
                 th.textContent = header;
-                th.onclick = () => sortData(header);
+                th.onclick = () => {
+                    currentSortKey = header; // Set the column to sort by
+                    sortData(header); // Sort and render
+                };
                 headerRow.appendChild(th);
             });
     
             table.appendChild(headerRow);
     
-            data.forEach(row => {
+            const startIndex = (currentPage - 1) * rowsPerPage;
+            const endIndex = startIndex + rowsPerPage;
+            const pageData = data.slice(startIndex, endIndex);
+    
+            pageData.forEach(row => {
                 const tr = document.createElement('tr');
                 headers.forEach(header => {
                     const td = document.createElement('td');
@@ -251,29 +262,24 @@
                 table.appendChild(tr);
             });
     
-            // Apply filter after sorting
-            filterTable();
+            updatePaginationControls();
         }
     
         function sortData(key) {
-            const isNumericColumn = data.every(row => isNumeric(row[key]));
-    
-            data.sort(function (a, b) {
+            filteredData.sort(function (a, b) {
                 let aValue = a[key];
                 let bValue = b[key];
     
-                if (isNumericColumn) {
+                if (isNumeric(aValue) && isNumeric(bValue)) {
                     aValue = parseFloat(aValue);
                     bValue = parseFloat(bValue);
-    
                     return bValue - aValue; // Descending
                 } else {
-                    // Not Numeric
-                    return aValue.localeCompare(bValue); // Ascending / Alphabetical
+                    return aValue.localeCompare(bValue); // Ascending
                 }
             });
     
-            renderTable(data);
+            renderTable(filteredData);
         }
     
         function isNumeric(value) {
@@ -284,13 +290,22 @@
             const searchValue = document.getElementById('search').value.toLowerCase();
             const levelValue = parseInt(document.getElementById('level').value, 10);
     
-            const filteredData = data.filter(row => {
+            filteredData = fullData.filter(row => {
                 const nameMatch = row['Name'].toLowerCase().includes(searchValue);
                 const levelMatch = parseInt(row['Level'], 10) <= levelValue;
                 return nameMatch && levelMatch;
             });
     
+            // Sort and render table after filtering
+            sortData(currentSortKey);
+    
+            currentPage = 1; // Reset to first page
             renderTable(filteredData);
+        }
+    
+        function updatePaginationControls() {
+            // Update pagination controls (add buttons, etc.) as needed
+            // For simplicity, this is left as a placeholder
         }
     
         window.onload = loadCSV;
