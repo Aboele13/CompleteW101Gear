@@ -203,120 +203,96 @@
     <table id="gearTable"></table>
 
     <script>
-        let originalData = [];
-        let filteredData = [];
-        let sortedData = [];
-
+        let data = [];
+    
         function loadCSV() {
             const school = document.getElementById('school').value;
             const itemType = document.getElementById('itemType').value;
             const csvUrl = `https://aboele13.github.io/CompleteW101Gear/${school}_Gear/${school}_${itemType}.csv`;
-
+    
             Papa.parse(csvUrl, {
                 download: true,
                 header: true,
                 complete: function (results) {
-                    originalData = results.data;
-                    filteredData = [...originalData]; // Initialize filtered data
-                    sortAndRenderTable(); // Initial render after loading
+                    data = results.data;
+                    renderTable(data);
                 }
             });
         }
-
-        function filterAndRenderTable() {
-            const searchValue = document.getElementById('search').value.toLowerCase();
-            const levelValue = parseInt(document.getElementById('level').value, 10);
-
-            filteredData = originalData.filter(row => {
-                const nameMatch = row['Name'] && row['Name'].toLowerCase().includes(searchValue);
-                const levelMatch = row['Level'] && parseInt(row['Level'], 10) <= levelValue;
-                return nameMatch && levelMatch;
-            });
-
-            sortAndRenderTable();
-        }
-
-        function sortAndRenderTable() {
-            const sortKey = document.querySelector('th.sorted')?.dataset.key; // Get the current sort key if any
-            if (sortKey) {
-                sortData(sortKey);
-            } else {
-                sortedData = [...filteredData]; // No sorting needed if no key
-            }
-            renderTable(sortedData);
-        }
-
-        function sortData(key) {
-            sortedData = [...filteredData];
-            sortedData.sort(function (a, b) {
-                let aValue = a[key];
-                let bValue = b[key];
-
-                if (isNumeric(aValue) && isNumeric(bValue)) {
-                    aValue = parseFloat(aValue);
-                    bValue = parseFloat(bValue);
-
-                    if (aValue < bValue) return 1; // Descending
-                    if (aValue > bValue) return -1; // Descending
-                    return 0;
-                }
-
-                // Not Numeric
-                if (aValue < bValue) return -1; // Ascending / Alphabetical
-                if (aValue > bValue) return 1; // Ascending / Alphabetical
-                return 0;
-            });
-        }
-
-        function isNumeric(value) {
-            return !isNaN(value - parseFloat(value));
-        }
-
+    
         function renderTable(data) {
             const table = document.getElementById('gearTable');
             table.innerHTML = '';
-
+    
             if (data.length === 0) {
                 table.innerHTML = '<tr><td colspan="100%">No data available</td></tr>';
                 return;
             }
-
+    
             const headers = Object.keys(data[0]);
             const headerRow = document.createElement('tr');
-
+    
             headers.forEach(header => {
                 const th = document.createElement('th');
                 th.textContent = header;
-                th.dataset.key = header; // Set the sort key for the header
-                th.classList.toggle('sorted', document.querySelector('th.sorted')?.dataset.key === header); // Add class if sorted
-                th.onclick = () => {
-                    const currentSortKey = document.querySelector('th.sorted')?.dataset.key;
-                    if (currentSortKey === header) {
-                        // Toggle sort direction
-                        th.classList.toggle('sorted-asc', !th.classList.contains('sorted-asc'));
-                        th.classList.toggle('sorted-desc', th.classList.contains('sorted-asc'));
-                    } else {
-                        document.querySelectorAll('th').forEach(h => h.classList.remove('sorted-asc', 'sorted-desc'));
-                        th.classList.add('sorted-asc');
-                    }
-                    sortAndRenderTable();
-                };
+                th.onclick = () => sortData(header);
                 headerRow.appendChild(th);
             });
-
+    
             table.appendChild(headerRow);
-
+    
             data.forEach(row => {
                 const tr = document.createElement('tr');
                 headers.forEach(header => {
                     const td = document.createElement('td');
-                    td.textContent = row[header] || ''; // Handle undefined values
+                    td.textContent = row[header];
                     tr.appendChild(td);
                 });
                 table.appendChild(tr);
             });
+    
+            // Apply filter after sorting
+            filterTable();
         }
-
+    
+        function sortData(key) {
+            const isNumericColumn = data.every(row => isNumeric(row[key]));
+    
+            data.sort(function (a, b) {
+                let aValue = a[key];
+                let bValue = b[key];
+    
+                if (isNumericColumn) {
+                    aValue = parseFloat(aValue);
+                    bValue = parseFloat(bValue);
+    
+                    return bValue - aValue; // Descending
+                } else {
+                    // Not Numeric
+                    return aValue.localeCompare(bValue); // Ascending / Alphabetical
+                }
+            });
+    
+            renderTable(data);
+        }
+    
+        function isNumeric(value) {
+            return !isNaN(value - parseFloat(value));
+        }
+    
+        function filterTable() {
+            const searchValue = document.getElementById('search').value.toLowerCase();
+            const levelValue = parseInt(document.getElementById('level').value, 10);
+    
+            const filteredData = data.filter(row => {
+                const nameMatch = row['Name'].toLowerCase().includes(searchValue);
+                const levelMatch = parseInt(row['Level'], 10) <= levelValue;
+                return nameMatch && levelMatch;
+            });
+    
+            renderTable(filteredData);
+        }
+    
         window.onload = loadCSV;
     </script>
 
