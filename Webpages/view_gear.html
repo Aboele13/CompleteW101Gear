@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,17 +10,20 @@
             font-family: Arial, sans-serif;
             text-align: center;
         }
+
         .header {
             margin-top: 50px;
             font-size: 36px;
             font-weight: bold;
         }
+
         .tabs {
             margin-top: 30px;
             display: flex;
             justify-content: center;
             gap: 20px;
         }
+
         .tabs a {
             text-decoration: none;
             font-size: 18px;
@@ -29,13 +33,16 @@
             border-radius: 5px;
             transition: background-color 0.3s ease;
         }
+
         .tabs a:hover {
             background-color: #0056b3;
         }
+
         .tabs a.disabled {
             background-color: #a9a9a9;
             cursor: default;
         }
+
         .dropdowns {
             margin-top: 50px;
             display: flex;
@@ -43,16 +50,19 @@
             gap: 20px;
             flex-wrap: wrap;
         }
+
         .dropdowns select {
             font-size: 18px;
             padding: 10px;
             border-radius: 5px;
             border: 1px solid #ccc;
         }
+
         .dropdowns label {
             font-size: 20px;
             margin-right: 10px;
         }
+
         .checkbox-group {
             margin-top: 20px;
             display: flex;
@@ -60,21 +70,25 @@
             flex-wrap: wrap;
             gap: 20px;
         }
+
         .checkbox-group label {
             font-size: 18px;
             margin-bottom: 5px;
             display: flex;
             align-items: center;
         }
+
         .checkbox-group input[type="checkbox"] {
             margin-right: 10px;
         }
+
         .search-container {
             margin-top: 20px;
             display: flex;
             justify-content: center;
             gap: 10px;
         }
+
         .search-container input[type="text"] {
             font-size: 18px;
             padding: 10px;
@@ -82,23 +96,35 @@
             border: 1px solid #ccc;
             width: 200px;
         }
+
         table {
             margin-top: 30px;
             width: 80%;
             margin-left: auto;
             margin-right: auto;
             border-collapse: collapse;
+            cursor: pointer;
         }
-        table, th, td {
+
+        table,
+        th,
+        td {
             border: 1px solid black;
         }
-        th, td {
+
+        th,
+        td {
             padding: 10px;
             text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
         }
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
 </head>
+
 <body>
 
     <div class="header">Complete Wizard101 Gear</div>
@@ -177,6 +203,8 @@
     <table id="gearTable"></table>
 
     <script>
+        let data = [];
+
         function loadCSV() {
             const school = document.getElementById('school').value;
             const itemType = document.getElementById('itemType').value;
@@ -185,61 +213,91 @@
             Papa.parse(csvUrl, {
                 download: true,
                 header: true,
-                complete: function(results) {
-                    const table = document.getElementById('gearTable');
-                    table.innerHTML = '';
-
-                    // Create table headers
-                    const headers = results.meta.fields;
-                    const headerRow = document.createElement('tr');
-                    headers.forEach(header => {
-                        const th = document.createElement('th');
-                        th.textContent = header;
-                        headerRow.appendChild(th);
-                    });
-                    table.appendChild(headerRow);
-
-                    // Create table rows
-                    results.data.forEach(row => {
-                        const tr = document.createElement('tr');
-                        headers.forEach(header => {
-                            const td = document.createElement('td');
-                            td.textContent = row[header];
-                            tr.appendChild(td);
-                        });
-                        table.appendChild(tr);
-                    });
-
-                    // Apply filters
-                    filterTable();
+                complete: function (results) {
+                    data = results.data;
+                    renderTable(data);
                 }
             });
+        }
+
+        function renderTable(data) {
+            const table = document.getElementById('gearTable');
+            table.innerHTML = '';
+
+            if (data.length === 0) {
+                table.innerHTML = '<tr><td colspan="100%">No data available</td></tr>';
+                return;
+            }
+
+            const headers = Object.keys(data[0]);
+            const headerRow = document.createElement('tr');
+
+            headers.forEach(header => {
+                const th = document.createElement('th');
+                th.textContent = header;
+                th.onclick = () => sortData(header);
+                headerRow.appendChild(th);
+            });
+
+            table.appendChild(headerRow);
+
+            data.forEach(row => {
+                const tr = document.createElement('tr');
+                headers.forEach(header => {
+                    const td = document.createElement('td');
+                    td.textContent = row[header];
+                    tr.appendChild(td);
+                });
+                table.appendChild(tr);
+            });
+
+            // Apply filter after sorting
+            filterTable();
+        }
+
+        function sortData(key) {
+            data.sort(function (a, b) {
+                let aValue = a[key];
+                let bValue = b[key];
+
+                if (isNumeric(aValue) && isNumeric(bValue)) {
+                    aValue = parseFloat(aValue);
+                    bValue = parseFloat(bValue);
+
+                    if (aValue < bValue) return 1; // Descending
+                    if (aValue > bValue) return -1; // Descending
+                    return 0;
+                }
+
+                // Not Numeric
+                if (aValue < bValue) return -1; // Ascending / Alphabetical
+                if (aValue > bValue) return 1; // Ascending / Alphabetical
+                return 0;
+            });
+
+            renderTable(data);
+        }
+
+        function isNumeric(value) {
+            return !isNaN(value - parseFloat(value));
         }
 
         function filterTable() {
             const searchValue = document.getElementById('search').value.toLowerCase();
-            const maxLevel = parseInt(document.getElementById('level').value, 10);
-            const table = document.getElementById('gearTable');
-            const rows = table.querySelectorAll('tr:not(:first-child)');
+            const levelValue = parseInt(document.getElementById('level').value, 10);
 
-            rows.forEach(row => {
-                const nameCell = row.querySelector('td:first-child'); // Assuming the "Name" column is the first column
-                const levelCell = row.querySelector('td:nth-child(2)'); // "Level" column is the second column
-
-                const nameMatches = nameCell && nameCell.textContent.toLowerCase().includes(searchValue);
-                const levelMatches = levelCell && parseInt(levelCell.textContent, 10) <= maxLevel;
-
-                if (nameMatches && levelMatches) {
-                    row.style.display = '';
-                } else {
-                    row.style.display = 'none';
-                }
+            const filteredData = data.filter(row => {
+                const nameMatch = row['Name'].toLowerCase().includes(searchValue);
+                const levelMatch = parseInt(row['Level'], 10) <= levelValue;
+                return nameMatch && levelMatch;
             });
+
+            renderTable(filteredData);
         }
 
-        // Initial load
-        loadCSV();
+        window.onload = loadCSV;
     </script>
 
 </body>
+
 </html>
