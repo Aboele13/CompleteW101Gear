@@ -149,6 +149,9 @@
                 </script>
             </select>
         </div>
+        <div style="display: flex; align-items: center;">
+            <label><input type="checkbox" id="ownedGear" onchange="filterTable()"> Owned Gear</label>
+        </div>
     </div>
 
     <div class="checkbox-group">
@@ -221,10 +224,12 @@
         function filterTable() {
             const searchValue = document.getElementById('search').value.toLowerCase();
             const levelValue = parseInt(document.getElementById('level').value, 10);
+            const ownedGearChecked = document.getElementById('ownedGear').checked;
             const table = document.getElementById('gearTable');
             const rows = table.querySelectorAll('tr:not(:first-child)');
             const headers = Array.from(table.querySelectorAll('tr:first-child th'));
             const sourceIndex = headers.findIndex(th => th.textContent === 'Source');
+            const ownedIndex = headers.findIndex(th => th.textContent === 'Owned');
         
             // Get checked sources
             const checkedSources = Array.from(document.querySelectorAll('.checkbox-group input[type="checkbox"]:checked'))
@@ -235,9 +240,11 @@
                 const nameCell = cells[0]; // Assuming "Name" column is the first column
                 const levelCell = cells[1]; // Assuming "Level" column is the second column
                 const sourceCell = sourceIndex >= 0 ? cells[sourceIndex] : null; // Check if "Source" column exists
+                const ownedCell = ownedIndex >= 0 ? cells[ownedIndex] : null; // Check if "Owned" column exists
         
                 const nameMatch = nameCell && nameCell.textContent.toLowerCase().includes(searchValue);
                 const levelMatch = levelCell && parseInt(levelCell.textContent, 10) <= levelValue;
+                const ownedMatch = !ownedGearChecked || (ownedCell && ownedCell.textContent.trim() === "True");
         
                 let sourceMatch = false;
                 if (sourceCell && checkedSources.length > 0) {
@@ -245,20 +252,19 @@
                         const regex = new RegExp(`(^|, )${source}($|,)`, 'i');
                         return regex.test(sourceCell.textContent);
                     });
-                } else if (sourceCell){
+                } else if (sourceCell) {
                     sourceMatch = false; // If no sources are checked, there are no matches
                 } else {
                     sourceMatch = true // If the "Source" column doesn't exist, treat as such (keep everything)
                 }
         
-                if (nameMatch && levelMatch && sourceMatch) {
+                if (nameMatch && levelMatch && sourceMatch && ownedMatch) {
                     row.style.display = '';
                 } else {
                     row.style.display = 'none';
                 }
             });
         }
-        
     
         function sortTable(columnIndex, columnName) {
             const table = document.getElementById('gearTable');
