@@ -1,156 +1,156 @@
 Name,Level,Health,Damage,Resist,Accuracy,Power Pip,Critical,Critical Block,Pierce,Stun Resist,Incoming,Outgoing,Pip Conserve,Shadow Pip,Archmastery,Owned,Gear Set
 Chipmunk Conductor (Max Damage),1,0,33,0,0,0,0,0,0,0,0,0,0,0,0,False,Arcane Engineer's Set
+Grim Scarab (Max Damage),1,0,33,0,0,0,0,0,0,0,0,0,0,0,0,False,Road Fury Set
+Gloomy Goatling (Max Damage),1,0,33,0,0,0,0,0,0,0,0,0,0,0,0,False,Stygian Set
 Grim Goatling (Max Damage),1,0,33,0,0,0,0,0,0,0,0,0,0,0,0,False,Haros' Set
 Glum Goatling (Max Damage),1,0,33,0,0,0,0,0,0,0,0,0,0,0,0,False,Charon's Set
-Gloomy Goatling (Max Damage),1,0,33,0,0,0,0,0,0,0,0,0,0,0,0,False,Stygian Set
-Grim Scarab (Max Damage),1,0,33,0,0,0,0,0,0,0,0,0,0,0,0,False,Road Fury Set
 Marshfellow (Max Damage),1,0,33,0,0,0,0,0,0,0,0,0,0,0,0,False,Sweetish Chef Set
+Rude Goblin (Max Damage),1,0,33,0,0,0,0,0,0,0,0,0,0,0,0,False,Cold Rider Set
 Scratchy Frillasaur (Max Damage),1,0,33,0,0,0,0,0,0,0,0,0,0,0,0,False,Fossil Avenger's Set
 Scaly Frillasaur (Max Damage),1,0,33,0,0,0,0,0,0,0,0,0,0,0,0,False,Fossil Warrior's Set
-Rude Goblin (Max Damage),1,0,33,0,0,0,0,0,0,0,0,0,0,0,0,False,Cold Rider Set
 Snappy Frillasaur (Max Damage),1,0,33,0,0,0,0,0,0,0,0,0,0,0,0,False,Fossil Hunter's Set
 Tailstorm Pantera (Max Damage),1,0,33,0,0,0,0,0,0,0,0,0,0,0,0,False,Thunder Road Set
 Tanuki (Max Damage),1,0,33,0,0,0,0,0,0,0,0,0,0,0,0,False,Sky Sorcerer's Set
 Other (Max Damage),1,0,33,0,0,0,0,0,0,0,0,0,0,0,0,False,None
 Chipmunk Conductor (Triple Double),1,0,25,17,0,0,0,0,0,0,0,0,0,0,0,False,Arcane Engineer's Set
+Grim Scarab (Triple Double),1,0,25,17,0,0,0,0,0,0,0,0,0,0,0,False,Road Fury Set
+Gloomy Goatling (Triple Double),1,0,25,17,0,0,0,0,0,0,0,0,0,0,0,False,Stygian Set
 Grim Goatling (Triple Double),1,0,25,17,0,0,0,0,0,0,0,0,0,0,0,False,Haros' Set
 Glum Goatling (Triple Double),1,0,25,17,0,0,0,0,0,0,0,0,0,0,0,False,Charon's Set
-Gloomy Goatling (Triple Double),1,0,25,17,0,0,0,0,0,0,0,0,0,0,0,False,Stygian Set
-Grim Scarab (Triple Double),1,0,25,17,0,0,0,0,0,0,0,0,0,0,0,False,Road Fury Set
 Marshfellow (Triple Double),1,0,25,17,0,0,0,0,0,0,0,0,0,0,0,False,Sweetish Chef Set
+Rude Goblin (Triple Double),1,0,25,17,0,0,0,0,0,0,0,0,0,0,0,False,Cold Rider Set
 Scratchy Frillasaur (Triple Double),1,0,25,17,0,0,0,0,0,0,0,0,0,0,0,False,Fossil Avenger's Set
 Scaly Frillasaur (Triple Double),1,0,25,17,0,0,0,0,0,0,0,0,0,0,0,False,Fossil Warrior's Set
-Rude Goblin (Triple Double),1,0,25,17,0,0,0,0,0,0,0,0,0,0,0,False,Cold Rider Set
 Snappy Frillasaur (Triple Double),1,0,25,17,0,0,0,0,0,0,0,0,0,0,0,False,Fossil Hunter's Set
 Tailstorm Pantera (Triple Double),1,0,25,17,0,0,0,0,0,0,0,0,0,0,0,False,Thunder Road Set
 Tanuki (Triple Double),1,0,25,17,0,0,0,0,0,0,0,0,0,0,0,False,Sky Sorcerer's Set
 Other (Triple Double),1,0,25,17,0,0,0,0,0,0,0,0,0,0,0,False,None
 "Chipmunk Conductor (3 Damage, Resist, Pierce)",1,0,25,11,0,0,0,0,4,0,0,0,0,0,0,False,Arcane Engineer's Set
+"Grim Scarab (3 Damage, Resist, Pierce)",1,0,25,11,0,0,0,0,4,0,0,0,0,0,0,False,Road Fury Set
+"Gloomy Goatling (3 Damage, Resist, Pierce)",1,0,25,11,0,0,0,0,4,0,0,0,0,0,0,False,Stygian Set
 "Grim Goatling (3 Damage, Resist, Pierce)",1,0,25,11,0,0,0,0,4,0,0,0,0,0,0,False,Haros' Set
 "Glum Goatling (3 Damage, Resist, Pierce)",1,0,25,11,0,0,0,0,4,0,0,0,0,0,0,False,Charon's Set
-"Gloomy Goatling (3 Damage, Resist, Pierce)",1,0,25,11,0,0,0,0,4,0,0,0,0,0,0,False,Stygian Set
-"Grim Scarab (3 Damage, Resist, Pierce)",1,0,25,11,0,0,0,0,4,0,0,0,0,0,0,False,Road Fury Set
 "Marshfellow (3 Damage, Resist, Pierce)",1,0,25,11,0,0,0,0,4,0,0,0,0,0,0,False,Sweetish Chef Set
+"Rude Goblin (3 Damage, Resist, Pierce)",1,0,25,11,0,0,0,0,4,0,0,0,0,0,0,False,Cold Rider Set
 "Scratchy Frillasaur (3 Damage, Resist, Pierce)",1,0,25,11,0,0,0,0,4,0,0,0,0,0,0,False,Fossil Avenger's Set
 "Scaly Frillasaur (3 Damage, Resist, Pierce)",1,0,25,11,0,0,0,0,4,0,0,0,0,0,0,False,Fossil Warrior's Set
-"Rude Goblin (3 Damage, Resist, Pierce)",1,0,25,11,0,0,0,0,4,0,0,0,0,0,0,False,Cold Rider Set
 "Snappy Frillasaur (3 Damage, Resist, Pierce)",1,0,25,11,0,0,0,0,4,0,0,0,0,0,0,False,Fossil Hunter's Set
 "Tailstorm Pantera (3 Damage, Resist, Pierce)",1,0,25,11,0,0,0,0,4,0,0,0,0,0,0,False,Thunder Road Set
 "Tanuki (3 Damage, Resist, Pierce)",1,0,25,11,0,0,0,0,4,0,0,0,0,0,0,False,Sky Sorcerer's Set
 "Other (3 Damage, Resist, Pierce)",1,0,25,11,0,0,0,0,4,0,0,0,0,0,0,False,None
 "Chipmunk Conductor (3 Damage, Resist, Accuracy)",1,0,25,11,10,0,0,0,0,0,0,0,0,0,0,False,Arcane Engineer's Set
+"Grim Scarab (3 Damage, Resist, Accuracy)",1,0,25,11,10,0,0,0,0,0,0,0,0,0,0,False,Road Fury Set
+"Gloomy Goatling (3 Damage, Resist, Accuracy)",1,0,25,11,10,0,0,0,0,0,0,0,0,0,0,False,Stygian Set
 "Grim Goatling (3 Damage, Resist, Accuracy)",1,0,25,11,10,0,0,0,0,0,0,0,0,0,0,False,Haros' Set
 "Glum Goatling (3 Damage, Resist, Accuracy)",1,0,25,11,10,0,0,0,0,0,0,0,0,0,0,False,Charon's Set
-"Gloomy Goatling (3 Damage, Resist, Accuracy)",1,0,25,11,10,0,0,0,0,0,0,0,0,0,0,False,Stygian Set
-"Grim Scarab (3 Damage, Resist, Accuracy)",1,0,25,11,10,0,0,0,0,0,0,0,0,0,0,False,Road Fury Set
 "Marshfellow (3 Damage, Resist, Accuracy)",1,0,25,11,10,0,0,0,0,0,0,0,0,0,0,False,Sweetish Chef Set
+"Rude Goblin (3 Damage, Resist, Accuracy)",1,0,25,11,10,0,0,0,0,0,0,0,0,0,0,False,Cold Rider Set
 "Scratchy Frillasaur (3 Damage, Resist, Accuracy)",1,0,25,11,10,0,0,0,0,0,0,0,0,0,0,False,Fossil Avenger's Set
 "Scaly Frillasaur (3 Damage, Resist, Accuracy)",1,0,25,11,10,0,0,0,0,0,0,0,0,0,0,False,Fossil Warrior's Set
-"Rude Goblin (3 Damage, Resist, Accuracy)",1,0,25,11,10,0,0,0,0,0,0,0,0,0,0,False,Cold Rider Set
 "Snappy Frillasaur (3 Damage, Resist, Accuracy)",1,0,25,11,10,0,0,0,0,0,0,0,0,0,0,False,Fossil Hunter's Set
 "Tailstorm Pantera (3 Damage, Resist, Accuracy)",1,0,25,11,10,0,0,0,0,0,0,0,0,0,0,False,Thunder Road Set
 "Tanuki (3 Damage, Resist, Accuracy)",1,0,25,11,10,0,0,0,0,0,0,0,0,0,0,False,Sky Sorcerer's Set
 "Other (3 Damage, Resist, Accuracy)",1,0,25,11,10,0,0,0,0,0,0,0,0,0,0,False,None
 "Chipmunk Conductor (3 Damage, 2 Pierce)",1,0,25,0,0,0,0,0,6,0,0,0,0,0,0,False,Arcane Engineer's Set
+"Grim Scarab (3 Damage, 2 Pierce)",1,0,25,0,0,0,0,0,6,0,0,0,0,0,0,False,Road Fury Set
+"Gloomy Goatling (3 Damage, 2 Pierce)",1,0,25,0,0,0,0,0,6,0,0,0,0,0,0,False,Stygian Set
 "Grim Goatling (3 Damage, 2 Pierce)",1,0,25,0,0,0,0,0,6,0,0,0,0,0,0,False,Haros' Set
 "Glum Goatling (3 Damage, 2 Pierce)",1,0,25,0,0,0,0,0,6,0,0,0,0,0,0,False,Charon's Set
-"Gloomy Goatling (3 Damage, 2 Pierce)",1,0,25,0,0,0,0,0,6,0,0,0,0,0,0,False,Stygian Set
-"Grim Scarab (3 Damage, 2 Pierce)",1,0,25,0,0,0,0,0,6,0,0,0,0,0,0,False,Road Fury Set
 "Marshfellow (3 Damage, 2 Pierce)",1,0,25,0,0,0,0,0,6,0,0,0,0,0,0,False,Sweetish Chef Set
+"Rude Goblin (3 Damage, 2 Pierce)",1,0,25,0,0,0,0,0,6,0,0,0,0,0,0,False,Cold Rider Set
 "Scratchy Frillasaur (3 Damage, 2 Pierce)",1,0,25,0,0,0,0,0,6,0,0,0,0,0,0,False,Fossil Avenger's Set
 "Scaly Frillasaur (3 Damage, 2 Pierce)",1,0,25,0,0,0,0,0,6,0,0,0,0,0,0,False,Fossil Warrior's Set
-"Rude Goblin (3 Damage, 2 Pierce)",1,0,25,0,0,0,0,0,6,0,0,0,0,0,0,False,Cold Rider Set
 "Snappy Frillasaur (3 Damage, 2 Pierce)",1,0,25,0,0,0,0,0,6,0,0,0,0,0,0,False,Fossil Hunter's Set
 "Tailstorm Pantera (3 Damage, 2 Pierce)",1,0,25,0,0,0,0,0,6,0,0,0,0,0,0,False,Thunder Road Set
 "Tanuki (3 Damage, 2 Pierce)",1,0,25,0,0,0,0,0,6,0,0,0,0,0,0,False,Sky Sorcerer's Set
 "Other (3 Damage, 2 Pierce)",1,0,25,0,0,0,0,0,6,0,0,0,0,0,0,False,None
 "Chipmunk Conductor (3 Damage, Pierce, Accuracy)",1,0,25,0,10,0,0,0,4,0,0,0,0,0,0,False,Arcane Engineer's Set
+"Grim Scarab (3 Damage, Pierce, Accuracy)",1,0,25,0,10,0,0,0,4,0,0,0,0,0,0,False,Road Fury Set
+"Gloomy Goatling (3 Damage, Pierce, Accuracy)",1,0,25,0,10,0,0,0,4,0,0,0,0,0,0,False,Stygian Set
 "Grim Goatling (3 Damage, Pierce, Accuracy)",1,0,25,0,10,0,0,0,4,0,0,0,0,0,0,False,Haros' Set
 "Glum Goatling (3 Damage, Pierce, Accuracy)",1,0,25,0,10,0,0,0,4,0,0,0,0,0,0,False,Charon's Set
-"Gloomy Goatling (3 Damage, Pierce, Accuracy)",1,0,25,0,10,0,0,0,4,0,0,0,0,0,0,False,Stygian Set
-"Grim Scarab (3 Damage, Pierce, Accuracy)",1,0,25,0,10,0,0,0,4,0,0,0,0,0,0,False,Road Fury Set
 "Marshfellow (3 Damage, Pierce, Accuracy)",1,0,25,0,10,0,0,0,4,0,0,0,0,0,0,False,Sweetish Chef Set
+"Rude Goblin (3 Damage, Pierce, Accuracy)",1,0,25,0,10,0,0,0,4,0,0,0,0,0,0,False,Cold Rider Set
 "Scratchy Frillasaur (3 Damage, Pierce, Accuracy)",1,0,25,0,10,0,0,0,4,0,0,0,0,0,0,False,Fossil Avenger's Set
 "Scaly Frillasaur (3 Damage, Pierce, Accuracy)",1,0,25,0,10,0,0,0,4,0,0,0,0,0,0,False,Fossil Warrior's Set
-"Rude Goblin (3 Damage, Pierce, Accuracy)",1,0,25,0,10,0,0,0,4,0,0,0,0,0,0,False,Cold Rider Set
 "Snappy Frillasaur (3 Damage, Pierce, Accuracy)",1,0,25,0,10,0,0,0,4,0,0,0,0,0,0,False,Fossil Hunter's Set
 "Tailstorm Pantera (3 Damage, Pierce, Accuracy)",1,0,25,0,10,0,0,0,4,0,0,0,0,0,0,False,Thunder Road Set
 "Tanuki (3 Damage, Pierce, Accuracy)",1,0,25,0,10,0,0,0,4,0,0,0,0,0,0,False,Sky Sorcerer's Set
 "Other (3 Damage, Pierce, Accuracy)",1,0,25,0,10,0,0,0,4,0,0,0,0,0,0,False,None
 "Chipmunk Conductor (Triple Double, Pierce)",1,0,22,15,0,0,0,0,3,0,0,0,0,0,0,False,Arcane Engineer's Set
+"Grim Scarab (Triple Double, Pierce)",1,0,22,15,0,0,0,0,3,0,0,0,0,0,0,False,Road Fury Set
+"Gloomy Goatling (Triple Double, Pierce)",1,0,22,15,0,0,0,0,3,0,0,0,0,0,0,False,Stygian Set
 "Grim Goatling (Triple Double, Pierce)",1,0,22,15,0,0,0,0,3,0,0,0,0,0,0,False,Haros' Set
 "Glum Goatling (Triple Double, Pierce)",1,0,22,15,0,0,0,0,3,0,0,0,0,0,0,False,Charon's Set
-"Gloomy Goatling (Triple Double, Pierce)",1,0,22,15,0,0,0,0,3,0,0,0,0,0,0,False,Stygian Set
-"Grim Scarab (Triple Double, Pierce)",1,0,22,15,0,0,0,0,3,0,0,0,0,0,0,False,Road Fury Set
 "Marshfellow (Triple Double, Pierce)",1,0,22,15,0,0,0,0,3,0,0,0,0,0,0,False,Sweetish Chef Set
+"Rude Goblin (Triple Double, Pierce)",1,0,22,15,0,0,0,0,3,0,0,0,0,0,0,False,Cold Rider Set
 "Scratchy Frillasaur (Triple Double, Pierce)",1,0,22,15,0,0,0,0,3,0,0,0,0,0,0,False,Fossil Avenger's Set
 "Scaly Frillasaur (Triple Double, Pierce)",1,0,22,15,0,0,0,0,3,0,0,0,0,0,0,False,Fossil Warrior's Set
-"Rude Goblin (Triple Double, Pierce)",1,0,22,15,0,0,0,0,3,0,0,0,0,0,0,False,Cold Rider Set
 "Snappy Frillasaur (Triple Double, Pierce)",1,0,22,15,0,0,0,0,3,0,0,0,0,0,0,False,Fossil Hunter's Set
 "Tailstorm Pantera (Triple Double, Pierce)",1,0,22,15,0,0,0,0,3,0,0,0,0,0,0,False,Thunder Road Set
 "Tanuki (Triple Double, Pierce)",1,0,22,15,0,0,0,0,3,0,0,0,0,0,0,False,Sky Sorcerer's Set
 "Other (Triple Double, Pierce)",1,0,22,15,0,0,0,0,3,0,0,0,0,0,0,False,None
 "Chipmunk Conductor (Triple Double, Accuracy)",1,0,22,15,10,0,0,0,0,0,0,0,0,0,0,False,Arcane Engineer's Set
+"Grim Scarab (Triple Double, Accuracy)",1,0,22,15,10,0,0,0,0,0,0,0,0,0,0,False,Road Fury Set
+"Gloomy Goatling (Triple Double, Accuracy)",1,0,22,15,10,0,0,0,0,0,0,0,0,0,0,False,Stygian Set
 "Grim Goatling (Triple Double, Accuracy)",1,0,22,15,10,0,0,0,0,0,0,0,0,0,0,False,Haros' Set
 "Glum Goatling (Triple Double, Accuracy)",1,0,22,15,10,0,0,0,0,0,0,0,0,0,0,False,Charon's Set
-"Gloomy Goatling (Triple Double, Accuracy)",1,0,22,15,10,0,0,0,0,0,0,0,0,0,0,False,Stygian Set
-"Grim Scarab (Triple Double, Accuracy)",1,0,22,15,10,0,0,0,0,0,0,0,0,0,0,False,Road Fury Set
 "Marshfellow (Triple Double, Accuracy)",1,0,22,15,10,0,0,0,0,0,0,0,0,0,0,False,Sweetish Chef Set
+"Rude Goblin (Triple Double, Accuracy)",1,0,22,15,10,0,0,0,0,0,0,0,0,0,0,False,Cold Rider Set
 "Scratchy Frillasaur (Triple Double, Accuracy)",1,0,22,15,10,0,0,0,0,0,0,0,0,0,0,False,Fossil Avenger's Set
 "Scaly Frillasaur (Triple Double, Accuracy)",1,0,22,15,10,0,0,0,0,0,0,0,0,0,0,False,Fossil Warrior's Set
-"Rude Goblin (Triple Double, Accuracy)",1,0,22,15,10,0,0,0,0,0,0,0,0,0,0,False,Cold Rider Set
 "Snappy Frillasaur (Triple Double, Accuracy)",1,0,22,15,10,0,0,0,0,0,0,0,0,0,0,False,Fossil Hunter's Set
 "Tailstorm Pantera (Triple Double, Accuracy)",1,0,22,15,10,0,0,0,0,0,0,0,0,0,0,False,Thunder Road Set
 "Tanuki (Triple Double, Accuracy)",1,0,22,15,10,0,0,0,0,0,0,0,0,0,0,False,Sky Sorcerer's Set
 "Other (Triple Double, Accuracy)",1,0,22,15,10,0,0,0,0,0,0,0,0,0,0,False,None
 "Chipmunk Conductor (3 Damage, 2 Pierce, Resist)",1,0,22,10,0,0,0,0,5,0,0,0,0,0,0,False,Arcane Engineer's Set
+"Grim Scarab (3 Damage, 2 Pierce, Resist)",1,0,22,10,0,0,0,0,5,0,0,0,0,0,0,False,Road Fury Set
+"Gloomy Goatling (3 Damage, 2 Pierce, Resist)",1,0,22,10,0,0,0,0,5,0,0,0,0,0,0,False,Stygian Set
 "Grim Goatling (3 Damage, 2 Pierce, Resist)",1,0,22,10,0,0,0,0,5,0,0,0,0,0,0,False,Haros' Set
 "Glum Goatling (3 Damage, 2 Pierce, Resist)",1,0,22,10,0,0,0,0,5,0,0,0,0,0,0,False,Charon's Set
-"Gloomy Goatling (3 Damage, 2 Pierce, Resist)",1,0,22,10,0,0,0,0,5,0,0,0,0,0,0,False,Stygian Set
-"Grim Scarab (3 Damage, 2 Pierce, Resist)",1,0,22,10,0,0,0,0,5,0,0,0,0,0,0,False,Road Fury Set
 "Marshfellow (3 Damage, 2 Pierce, Resist)",1,0,22,10,0,0,0,0,5,0,0,0,0,0,0,False,Sweetish Chef Set
+"Rude Goblin (3 Damage, 2 Pierce, Resist)",1,0,22,10,0,0,0,0,5,0,0,0,0,0,0,False,Cold Rider Set
 "Scratchy Frillasaur (3 Damage, 2 Pierce, Resist)",1,0,22,10,0,0,0,0,5,0,0,0,0,0,0,False,Fossil Avenger's Set
 "Scaly Frillasaur (3 Damage, 2 Pierce, Resist)",1,0,22,10,0,0,0,0,5,0,0,0,0,0,0,False,Fossil Warrior's Set
-"Rude Goblin (3 Damage, 2 Pierce, Resist)",1,0,22,10,0,0,0,0,5,0,0,0,0,0,0,False,Cold Rider Set
 "Snappy Frillasaur (3 Damage, 2 Pierce, Resist)",1,0,22,10,0,0,0,0,5,0,0,0,0,0,0,False,Fossil Hunter's Set
 "Tailstorm Pantera (3 Damage, 2 Pierce, Resist)",1,0,22,10,0,0,0,0,5,0,0,0,0,0,0,False,Thunder Road Set
 "Tanuki (3 Damage, 2 Pierce, Resist)",1,0,22,10,0,0,0,0,5,0,0,0,0,0,0,False,Sky Sorcerer's Set
 "Other (3 Damage, 2 Pierce, Resist)",1,0,22,10,0,0,0,0,5,0,0,0,0,0,0,False,None
 "Chipmunk Conductor (3 Damage, Resist, Pierce, Accuracy)",1,0,22,10,10,0,0,0,3,0,0,0,0,0,0,False,Arcane Engineer's Set
+"Grim Scarab (3 Damage, Resist, Pierce, Accuracy)",1,0,22,10,10,0,0,0,3,0,0,0,0,0,0,False,Road Fury Set
+"Gloomy Goatling (3 Damage, Resist, Pierce, Accuracy)",1,0,22,10,10,0,0,0,3,0,0,0,0,0,0,False,Stygian Set
 "Grim Goatling (3 Damage, Resist, Pierce, Accuracy)",1,0,22,10,10,0,0,0,3,0,0,0,0,0,0,False,Haros' Set
 "Glum Goatling (3 Damage, Resist, Pierce, Accuracy)",1,0,22,10,10,0,0,0,3,0,0,0,0,0,0,False,Charon's Set
-"Gloomy Goatling (3 Damage, Resist, Pierce, Accuracy)",1,0,22,10,10,0,0,0,3,0,0,0,0,0,0,False,Stygian Set
-"Grim Scarab (3 Damage, Resist, Pierce, Accuracy)",1,0,22,10,10,0,0,0,3,0,0,0,0,0,0,False,Road Fury Set
 "Marshfellow (3 Damage, Resist, Pierce, Accuracy)",1,0,22,10,10,0,0,0,3,0,0,0,0,0,0,False,Sweetish Chef Set
+"Rude Goblin (3 Damage, Resist, Pierce, Accuracy)",1,0,22,10,10,0,0,0,3,0,0,0,0,0,0,False,Cold Rider Set
 "Scratchy Frillasaur (3 Damage, Resist, Pierce, Accuracy)",1,0,22,10,10,0,0,0,3,0,0,0,0,0,0,False,Fossil Avenger's Set
 "Scaly Frillasaur (3 Damage, Resist, Pierce, Accuracy)",1,0,22,10,10,0,0,0,3,0,0,0,0,0,0,False,Fossil Warrior's Set
-"Rude Goblin (3 Damage, Resist, Pierce, Accuracy)",1,0,22,10,10,0,0,0,3,0,0,0,0,0,0,False,Cold Rider Set
 "Snappy Frillasaur (3 Damage, Resist, Pierce, Accuracy)",1,0,22,10,10,0,0,0,3,0,0,0,0,0,0,False,Fossil Hunter's Set
 "Tailstorm Pantera (3 Damage, Resist, Pierce, Accuracy)",1,0,22,10,10,0,0,0,3,0,0,0,0,0,0,False,Thunder Road Set
 "Tanuki (3 Damage, Resist, Pierce, Accuracy)",1,0,22,10,10,0,0,0,3,0,0,0,0,0,0,False,Sky Sorcerer's Set
 "Other (3 Damage, Resist, Pierce, Accuracy)",1,0,22,10,10,0,0,0,3,0,0,0,0,0,0,False,None
 "Chipmunk Conductor (3 Damage, 2 Pierce, Accuracy)",1,0,22,0,10,0,0,0,5,0,0,0,0,0,0,False,Arcane Engineer's Set
+"Grim Scarab (3 Damage, 2 Pierce, Accuracy)",1,0,22,0,10,0,0,0,5,0,0,0,0,0,0,False,Road Fury Set
+"Gloomy Goatling (3 Damage, 2 Pierce, Accuracy)",1,0,22,0,10,0,0,0,5,0,0,0,0,0,0,False,Stygian Set
 "Grim Goatling (3 Damage, 2 Pierce, Accuracy)",1,0,22,0,10,0,0,0,5,0,0,0,0,0,0,False,Haros' Set
 "Glum Goatling (3 Damage, 2 Pierce, Accuracy)",1,0,22,0,10,0,0,0,5,0,0,0,0,0,0,False,Charon's Set
-"Gloomy Goatling (3 Damage, 2 Pierce, Accuracy)",1,0,22,0,10,0,0,0,5,0,0,0,0,0,0,False,Stygian Set
-"Grim Scarab (3 Damage, 2 Pierce, Accuracy)",1,0,22,0,10,0,0,0,5,0,0,0,0,0,0,False,Road Fury Set
 "Marshfellow (3 Damage, 2 Pierce, Accuracy)",1,0,22,0,10,0,0,0,5,0,0,0,0,0,0,False,Sweetish Chef Set
+"Rude Goblin (3 Damage, 2 Pierce, Accuracy)",1,0,22,0,10,0,0,0,5,0,0,0,0,0,0,False,Cold Rider Set
 "Scratchy Frillasaur (3 Damage, 2 Pierce, Accuracy)",1,0,22,0,10,0,0,0,5,0,0,0,0,0,0,False,Fossil Avenger's Set
 "Scaly Frillasaur (3 Damage, 2 Pierce, Accuracy)",1,0,22,0,10,0,0,0,5,0,0,0,0,0,0,False,Fossil Warrior's Set
-"Rude Goblin (3 Damage, 2 Pierce, Accuracy)",1,0,22,0,10,0,0,0,5,0,0,0,0,0,0,False,Cold Rider Set
 "Snappy Frillasaur (3 Damage, 2 Pierce, Accuracy)",1,0,22,0,10,0,0,0,5,0,0,0,0,0,0,False,Fossil Hunter's Set
 "Tailstorm Pantera (3 Damage, 2 Pierce, Accuracy)",1,0,22,0,10,0,0,0,5,0,0,0,0,0,0,False,Thunder Road Set
 "Tanuki (3 Damage, 2 Pierce, Accuracy)",1,0,22,0,10,0,0,0,5,0,0,0,0,0,0,False,Sky Sorcerer's Set
 "Other (3 Damage, 2 Pierce, Accuracy)",1,0,22,0,10,0,0,0,5,0,0,0,0,0,0,False,None
 Chipmunk Conductor (Max Resist),1,0,0,21,0,0,0,0,0,0,0,0,0,0,0,False,Arcane Engineer's Set
+Grim Scarab (Max Resist),1,0,0,21,0,0,0,0,0,0,0,0,0,0,0,False,Road Fury Set
+Gloomy Goatling (Max Resist),1,0,0,21,0,0,0,0,0,0,0,0,0,0,0,False,Stygian Set
 Grim Goatling (Max Resist),1,0,0,21,0,0,0,0,0,0,0,0,0,0,0,False,Haros' Set
 Glum Goatling (Max Resist),1,0,0,21,0,0,0,0,0,0,0,0,0,0,0,False,Charon's Set
-Gloomy Goatling (Max Resist),1,0,0,21,0,0,0,0,0,0,0,0,0,0,0,False,Stygian Set
-Grim Scarab (Max Resist),1,0,0,21,0,0,0,0,0,0,0,0,0,0,0,False,Road Fury Set
 Marshfellow (Max Resist),1,0,0,21,0,0,0,0,0,0,0,0,0,0,0,False,Sweetish Chef Set
+Rude Goblin (Max Resist),1,0,0,21,0,0,0,0,0,0,0,0,0,0,0,False,Cold Rider Set
 Scratchy Frillasaur (Max Resist),1,0,0,21,0,0,0,0,0,0,0,0,0,0,0,False,Fossil Avenger's Set
 Scaly Frillasaur (Max Resist),1,0,0,21,0,0,0,0,0,0,0,0,0,0,0,False,Fossil Warrior's Set
-Rude Goblin (Max Resist),1,0,0,21,0,0,0,0,0,0,0,0,0,0,0,False,Cold Rider Set
 Snappy Frillasaur (Max Resist),1,0,0,21,0,0,0,0,0,0,0,0,0,0,0,False,Fossil Hunter's Set
 Tailstorm Pantera (Max Resist),1,0,0,21,0,0,0,0,0,0,0,0,0,0,0,False,Thunder Road Set
 Tanuki (Max Resist),1,0,0,21,0,0,0,0,0,0,0,0,0,0,0,False,Sky Sorcerer's Set

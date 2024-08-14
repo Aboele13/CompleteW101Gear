@@ -8,8 +8,8 @@ Unreal Deck of Overwriting,170,180,0,0,0,0,0,73,0,0,0,0,133,0,68,1,0,0,0,0,0,0,0
 Daemonic Deck of Overwriting,170,160,0,0,0,0,77,0,0,0,0,0,120,0,62,1,0,0,0,0,0,1,0,0,Raid,False,None
 Fell Dream Stalker Deck,170,160,0,0,0,0,0,104,0,0,0,0,120,0,62,1,0,0,0,0,0,0,1,0,Crafting,False,None
 Baleful Archival Array (Level 150+),150,155,0,0,0,0,54,69,0,0,0,0,0,0,52,1,0,0,0,0,0,0,1,0,Crowns,False,None
-Baleful Archival Array (Level 160+),160,155,0,0,0,0,54,69,0,0,0,0,0,0,52,1,0,0,0,0,0,0,1,0,Crowns,False,None
 Deadly Night Mire Deck (Level 160+),160,155,0,0,0,0,54,69,0,0,0,0,0,0,52,1,0,0,0,0,0,0,1,0,"Housing Gauntlet, Crowns",False,None
+Baleful Archival Array (Level 160+),160,155,0,0,0,0,54,69,0,0,0,0,0,0,52,1,0,0,0,0,0,0,1,0,Crowns,False,None
 Gloomy Night Mire Deck,160,155,0,0,0,0,54,69,0,0,0,0,0,0,52,1,0,0,0,0,0,0,1,0,Housing Gauntlet,False,None
 Murky Night Mire Deck,160,155,0,0,0,0,54,69,0,0,0,0,0,0,52,1,0,0,0,0,0,0,1,0,Housing Gauntlet,False,None
 Fell Dream Reaver Deck,170,140,0,0,0,0,77,94,0,0,0,0,0,0,55,1,0,0,0,0,0,1,0,0,"Drop, Crafting, Crowns",False,None
@@ -17,20 +17,20 @@ Goth Fairy Kei Deck (Level 160+),160,140,0,0,0,0,59,61,0,0,0,0,0,0,52,1,0,0,0,0,
 Xibalba Singularity Deck (Level 160+),160,140,0,0,0,0,59,61,0,0,0,0,0,0,52,1,0,0,0,0,1,0,0,0,Raid,False,None
 Hunhau's Singularity Deck (Level 160+),160,140,0,0,0,0,54,61,0,0,0,0,0,0,58,1,0,0,0,0,0,0,0,1,Raid,False,None
 Floramancer Deck of Decay (Level 160+),160,140,0,0,0,0,0,61,0,0,0,0,123,0,64,1,0,0,0,0,0,0,0,1,Crowns,False,None
+The Void's Ghastly Cards,160,140,0,0,0,0,0,61,0,0,0,0,123,0,64,1,0,0,0,0,0,0,0,1,Raid,False,None
 The Void's Ghoulish Cards,160,140,0,0,0,0,0,61,0,0,0,0,123,0,64,1,0,0,0,0,0,0,0,1,Raid,False,None
 The Void's Deadly Cards (Level 160+),160,140,0,0,0,0,0,61,0,0,0,0,123,0,64,1,0,0,0,0,0,0,0,1,Raid,False,None
-The Void's Ghastly Cards,160,140,0,0,0,0,0,61,0,0,0,0,123,0,64,1,0,0,0,0,0,0,0,1,Raid,False,None
 Deadly Night Mire Deck (Level 150+),150,130,0,0,0,0,51,64,0,0,0,0,0,0,48,1,0,0,0,0,0,0,1,0,Crowns,False,None
 Ghostly Cerberus Master Deck (Level 150+),150,130,0,0,0,0,51,64,0,0,0,0,0,0,48,1,0,0,0,0,0,0,1,0,Crowns,False,None
 Supreme Ancient One Deck,148,125,0,0,0,0,0,52,0,0,0,0,69,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
-Nullity's Ghastly Cards,160,124,0,0,0,0,59,0,0,0,0,0,111,0,58,1,0,0,0,0,1,0,0,0,Raid,False,None
 Nullity's Deadly Cards (Level 160+),160,124,0,0,0,0,59,0,0,0,0,0,111,0,58,1,0,0,0,0,1,0,0,0,Raid,False,None
+Nullity's Ghastly Cards,160,124,0,0,0,0,59,0,0,0,0,0,111,0,58,1,0,0,0,0,1,0,0,0,Raid,False,None
 Nullity's Ghoulish Cards,160,124,0,0,0,0,59,0,0,0,0,0,111,0,58,1,0,0,0,0,1,0,0,0,Raid,False,None
 Burrower's Necromancy Deck (Level 160+),160,124,0,0,0,0,54,86,0,0,0,0,0,0,52,1,0,0,0,0,0,0,1,0,"Gold Key, Crowns",False,None
-Eternal Macabre Deck,160,124,0,0,0,0,0,86,0,0,0,0,111,0,58,1,0,0,0,0,0,0,1,0,Crafting,False,None
-Great Inventor's Death Deck (Level 160+),160,124,0,0,0,0,0,86,0,0,0,0,111,0,58,1,0,0,0,0,0,0,1,0,Crowns,False,None
 Eternal Malignant Deck,160,124,0,0,0,0,0,86,0,0,0,0,111,0,58,1,0,0,0,0,0,0,1,0,Crafting,False,None
+Great Inventor's Death Deck (Level 160+),160,124,0,0,0,0,0,86,0,0,0,0,111,0,58,1,0,0,0,0,0,0,1,0,Crowns,False,None
 Eternal Morbid Deck,160,124,0,0,0,0,0,86,0,0,0,0,111,0,58,1,0,0,0,0,0,0,1,0,Crafting,False,None
+Eternal Macabre Deck,160,124,0,0,0,0,0,86,0,0,0,0,111,0,58,1,0,0,0,0,0,0,1,0,Crafting,False,None
 Supreme Undead Deck,148,124,0,0,0,0,0,56,0,0,0,0,91,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
 Fell Dream Warper Deck,170,120,0,0,0,0,70,84,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,Drop,False,None
 Supreme Old Judge Deck,148,119,0,0,0,0,41,0,0,0,0,0,73,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
@@ -87,10 +87,10 @@ Goth Fairy Kei Deck (Level 140+),140,94,0,0,0,0,50,52,0,0,0,0,0,0,45,1,0,0,0,0,0
 Floramancer Deck of Decay (Level 140+),140,94,0,0,0,0,0,52,0,0,0,0,106,0,56,1,0,0,0,0,0,0,0,1,Crowns,False,None
 Gothic City Dweller Deck,160,93,0,0,0,0,54,69,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,Drop,False,None
 Macabre Masterpiece Deck,160,93,0,0,0,0,53,69,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Drop,False,None
+Sentamentalist Square Deck,140,93,0,0,0,0,48,50,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Crafting,False,None
 Sentamentalist Triangle Deck,140,93,0,0,0,0,48,50,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Crafting,False,None
 Uber Sentamentalist Box,140,93,0,0,0,0,48,50,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Drop,False,None
 Sentamentalist Tear Deck,140,93,0,0,0,0,48,50,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Crafting,False,None
-Sentamentalist Square Deck,140,93,0,0,0,0,48,50,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Crafting,False,None
 Uber Candymancer Box,140,93,0,0,0,0,37,46,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Drop,False,None
 Interstellar Officer's Deck,122,93,0,0,0,0,0,35,0,0,0,0,45,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar, Stone Key, Fishing",False,None
 Demiurge's Destruction Cards,150,91,0,0,0,0,56,72,0,0,0,0,0,0,48,1,0,0,0,0,1,0,0,0,Crafting,False,None
@@ -105,14 +105,14 @@ Guten Candymancer Box,140,87,0,0,0,0,35,43,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Drop,
 Burrower's Necromancy Deck (Level 140+),140,84,0,0,0,0,45,74,0,0,0,0,0,0,45,1,0,0,0,0,0,0,1,0,Crowns,False,None
 Great Inventor's Death Deck (Level 140+),140,84,0,0,0,0,0,74,0,0,0,0,96,0,51,1,0,0,0,0,0,0,1,0,Crowns,False,None
 Glistening Death Box,155,80,0,0,0,0,52,65,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Drop,False,None
-Alphoi Archive Deck,130,80,0,0,0,0,37,35,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Crafting,False,None
 Alphoi Beacon Cards,130,80,0,0,0,0,37,35,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Crafting,False,None
+Alphoi Archive Deck,130,80,0,0,0,0,37,35,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Crafting,False,None
 Divine Paradox Deck,130,80,0,0,0,0,37,35,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Drop,False,None
 Alphoi Aethyrium Hand,130,80,0,0,0,0,37,35,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Crafting,False,None
+Alphoi Cards of Undoing,130,79,0,0,0,0,50,45,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Crafting,False,None
 Alphoi Deck of Decay,130,79,0,0,0,0,50,45,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Crafting,False,None
 Alphoi Hand of Gloom,130,79,0,0,0,0,50,45,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Crafting,False,None
 Deathly Paradox Deck,130,79,0,0,0,0,50,45,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Drop,False,None
-Alphoi Cards of Undoing,130,79,0,0,0,0,50,45,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Crafting,False,None
 Gothic Townie Deck,160,78,0,0,0,0,48,61,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,Drop,False,None
 Hopeful Zanadu Deck,130,78,0,0,0,0,34,35,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Drop,False,None
 Baleful Archival Array (Level 130+),130,78,0,0,0,0,33,56,0,0,0,0,0,0,42,1,0,0,0,0,0,0,1,0,Crowns,False,None
@@ -131,10 +131,10 @@ Luphilim's Eternal Deck,110,63,0,0,0,0,34,35,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Sto
 Burrower's Necromancy Deck (Level 130+),130,63,0,0,0,0,33,70,0,0,0,0,0,0,42,1,0,0,0,0,0,0,1,0,Crowns,False,None
 Great Inventor's Death Deck (Level 130+),130,63,0,0,0,0,0,70,0,0,0,0,83,0,47,1,0,0,0,0,0,0,1,0,Crowns,False,None
 Luphilim's Grim Gallery,110,62,0,0,0,0,39,42,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Stone Key,False,None
-Lord of Death's Hand,100,60,0,0,0,0,18,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crafting,False,None
-Lord of Death's Bitter Hand (Tear),100,60,0,0,0,0,18,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Crafting,False,None
-Lord of Death's Bitter Hand (Triangle),100,60,0,0,0,0,18,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Crafting,False,None
 Lord of Death's Bitter Hand (Square),100,60,0,0,0,0,18,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Crafting,False,None
+Lord of Death's Bitter Hand (Tear),100,60,0,0,0,0,18,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Crafting,False,None
+Lord of Death's Hand,100,60,0,0,0,0,18,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crafting,False,None
+Lord of Death's Bitter Hand (Triangle),100,60,0,0,0,0,18,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Crafting,False,None
 The OneWhoKnows' Tarot,95,60,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Crafting,False,None
 Arcanum Exile Bevy of Strife,110,59,0,0,0,0,39,41,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Drop,False,None
 Horizon Hold Array of Gloom,110,59,0,0,0,0,39,41,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Unavailable,False,None
@@ -187,16 +187,16 @@ Trickster's Pack of Lies,40,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Drop,F
 Tonkatsu's Deck of Discord,25,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Drop,False,None
 Deadly August Sage Deck (Level 170+),170,0,0,0,0,0,77,84,0,0,0,0,120,0,62,1,0,0,0,0,0,1,0,0,"Gold Key, Crowns",False,None
 Night King's Tome (Level 170+),170,0,0,0,0,0,77,84,0,0,0,0,120,0,62,1,0,0,0,0,0,1,0,0,"Gold Key, Crowns",False,None
-Wastelander's Grim Cards (Level 170+),170,0,0,0,0,0,70,84,0,0,0,0,133,0,68,1,0,0,0,0,0,0,0,1,Crowns,False,None
 Umbra Queen's Grim Cards (Level 170+),170,0,0,0,0,0,70,84,0,0,0,0,133,0,68,1,0,0,0,0,0,0,0,1,Rematch,False,None
+Wastelander's Grim Cards (Level 170+),170,0,0,0,0,0,70,84,0,0,0,0,133,0,68,1,0,0,0,0,0,0,0,1,Crowns,False,None
 Malistaire's Ghostly Deck (Level 160+),160,0,0,0,0,0,54,69,0,0,0,0,123,0,64,1,0,0,0,0,0,0,0,1,Rematch,False,None
 Ominous Skyfarer's Deck (Level 160+),160,0,0,0,0,0,54,69,0,0,0,0,123,0,64,1,0,0,0,0,0,0,0,1,Crowns,False,None
 Wastelander's Grim Cards (Level 160+),160,0,0,0,0,0,54,69,0,0,0,0,123,0,64,1,0,0,0,0,0,0,0,1,Crowns,False,None
-Ominous Skyfarer's Deck (Level 150+),150,0,0,0,0,0,51,64,0,0,0,0,114,0,60,1,0,0,0,0,0,0,0,1,Crowns,False,None
 Wastelander's Grim Cards (Level 150+),150,0,0,0,0,0,51,64,0,0,0,0,114,0,60,1,0,0,0,0,0,0,0,1,Crowns,False,None
+Ominous Skyfarer's Deck (Level 150+),150,0,0,0,0,0,51,64,0,0,0,0,114,0,60,1,0,0,0,0,0,0,0,1,Crowns,False,None
 Deadly August Sage Deck (Level 140+),140,0,0,0,0,0,50,60,0,0,0,0,96,0,51,1,0,0,0,0,0,1,0,0,Crowns,False,None
-Wastelander's Grim Cards (Level 140+),140,0,0,0,0,0,45,60,0,0,0,0,106,0,56,1,0,0,0,0,0,0,0,1,Crowns,False,None
 Ominous Skyfarer's Deck (Level 140+),140,0,0,0,0,0,45,60,0,0,0,0,106,0,56,1,0,0,0,0,0,0,0,1,Crowns,False,None
+Wastelander's Grim Cards (Level 140+),140,0,0,0,0,0,45,60,0,0,0,0,106,0,56,1,0,0,0,0,0,0,0,1,Crowns,False,None
 Eerem Spread of Menace,118,0,0,0,0,0,41,0,0,0,0,0,66,0,0,1,0,0,0,0,1,0,0,0,"Drop, Bazaar",False,None
 Sand Sea Hand of Emptiness,116,0,0,0,0,0,40,0,0,0,0,0,65,0,0,1,0,0,0,0,1,0,0,0,"Drop, Bazaar",False,None
 Rubal Deck of Carnage,114,0,0,0,0,0,39,0,0,0,0,0,64,0,0,1,0,0,0,0,1,0,0,0,"Drop, Bazaar",False,None
@@ -219,160 +219,160 @@ Deadly August Sage Deck (Level 120+),120,0,0,0,0,0,27,52,0,0,0,0,81,0,44,1,0,0,0
 Ominous Skyfarer's Deck (Level 120+),120,0,0,0,0,0,25,52,0,0,0,0,89,0,48,1,0,0,0,0,0,0,0,1,Crowns,False,None
 Wastelander's Grim Cards (Level 120+),120,0,0,0,0,0,25,52,0,0,0,0,89,0,48,1,0,0,0,0,0,0,0,1,Crowns,False,None
 Deadly August Sage Deck (Level 110+),110,0,0,0,0,0,16,45,0,0,0,0,73,0,40,1,0,0,0,0,0,1,0,0,Crowns,False,None
-Wastelander's Grim Cards (Level 110+),110,0,0,0,0,0,15,45,0,0,0,0,81,0,44,1,0,0,0,0,0,0,0,1,Crowns,False,None
 Ominous Skyfarer's Deck (Level 110+),110,0,0,0,0,0,15,45,0,0,0,0,81,0,44,1,0,0,0,0,0,0,0,1,Crowns,False,None
-Astute Necromancer's Deck,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Gold Vendor, Bazaar",False,None
-Akuji's Deck of Premise,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
-Baleful Archival Array (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Baleful Archival Array (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Bleaks Hand of Despair,104,0,0,0,0,0,0,34,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Gold Vendor,False,None
-Brady's Distressed Deck,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Baleful Archival Array (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,26,0,0,0,0,0,0,0,1,0,Crowns,False,None
-Burrower's Necromancy Deck (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Arcana of the Dark Asura,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Wooden Key",False,None
-Deadly Night Mire Deck (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,"Housing Gauntlet, Crowns",False,None
-Baleful Archival Array (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Baleful Archival Array (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Wastelander's Grim Cards (Level 110+),110,0,0,0,0,0,15,45,0,0,0,0,81,0,44,1,0,0,0,0,0,0,0,1,Crowns,False,None
 Advanced Death Deck,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Crowns,False,None
-Baleful Archival Array (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Burrower's Necromancy Deck (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0,0,0,0,0,0,0,1,0,"Gold Key, Crowns",False,None
-Baleful Archival Array (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Baleful Archival Array (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,23,0,0,0,0,0,0,0,1,0,Crowns,False,None
-Condemned Soldier's Arcana,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Stone Key",False,None
-Burrower's Necromancy Deck (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,1,0,Crowns,False,None
-Deadly Night Mire Deck (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Barkingham Pack of Malaise,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Drop,False,None
-Burrower's Necromancy Deck (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Burrower's Necromancy Deck (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,23,0,0,0,0,0,0,0,1,0,Crowns,False,None
-Deadly Night Mire Deck (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Deadly Night Mire Deck (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
-Burrower's Necromancy Deck (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Deck of Pondering,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Bazaar, Quest",False,None
-Burrower's Necromancy Deck (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,29,0,0,0,0,0,0,0,1,0,Crowns,False,None
-Deadly Night Mire Deck (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Deadly Night Mire Deck (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
-Deck of Forethought,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
 Baleful Archival Array (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0,0,0,0,0,0,0,1,0,"Housing Gauntlet, Crowns",False,None
+Akuji's Deck of Premise,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
 Burrower's Necromancy Deck (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Deck of the Abyss,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Gold Vendor, Bazaar",False,Celestian Abyss Set
-Deck of the Banshee,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Drop,False,None
-Burrower's Necromancy Deck (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
-Deadly Night Mire Deck (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Baleful Archival Array (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Astute Necromancer's Deck,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Gold Vendor, Bazaar",False,None
+Barkingham Pack of Malaise,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Drop,False,None
+Baleful Archival Array (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Burrower's Necromancy Deck (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Baleful Archival Array (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Burrower's Necromancy Deck (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Baleful Archival Array (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,26,0,0,0,0,0,0,0,1,0,Crowns,False,None
 Deadly Night Mire Deck (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Deadly Night Mire Deck (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
-Deadly Night Mire Deck (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
 Deck of Last Departure,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar, Crowns",False,None
+Baleful Archival Array (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,23,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Bleaks Hand of Despair,104,0,0,0,0,0,0,34,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Gold Vendor,False,None
+Baleful Archival Array (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Brady's Distressed Deck,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Deck of Pondering,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Bazaar, Quest",False,None
+Baleful Archival Array (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Burrower's Necromancy Deck (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Deadly Night Mire Deck (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Arcana of the Dark Asura,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Wooden Key",False,None
+Condemned Soldier's Arcana,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Stone Key",False,None
+Deck of the Banshee,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Drop,False,None
+Burrower's Necromancy Deck (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,29,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Deadly Night Mire Deck (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,"Housing Gauntlet, Crowns",False,None
+Deadly Night Mire Deck (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Deadly Night Mire Deck (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Burrower's Necromancy Deck (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Baleful Archival Array (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Baleful Archival Array (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,29,0,0,0,0,0,0,0,1,0,Crowns,False,None
-Dead Chieftain's Fanged Deck,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Deadly Night Mire Deck (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Deadly Night Mire Deck (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
 Deadly Night Mire Deck (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Dead Chieftain's Fanged Deck,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Deadly Night Mire Deck (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Burrower's Necromancy Deck (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
+Burrower's Necromancy Deck (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,23,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Deck of Forethought,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
+Burrower's Necromancy Deck (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0,0,0,0,0,0,0,1,0,"Gold Key, Crowns",False,None
+Deadly Night Mire Deck (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Djinn Array of Reverie,112,0,0,0,0,0,0,36,0,0,0,0,83,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Floramancer Deck of Decay (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Floramancer Deck of Decay (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Ghostly Cerberus Master Deck (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Goth Fairy Kei Deck (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Goth Fairy Kei Deck (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Great Inventor's Death Deck (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
-Goth Fairy Kei Deck (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,1,0,0,Crowns,False,None
-Great Inventor's Death Deck (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Crowns,False,None
-Goth Fairy Kei Deck (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Goth Fairy Kei Deck (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,26,0,0,0,0,0,0,1,0,0,Crowns,False,None
-Floramancer Deck of Decay (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0,0,0,0,0,0,0,0,1,Crowns,False,None
-Great Inventor's Death Deck (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
-Goth Fairy Kei Deck (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,23,0,0,0,0,0,0,1,0,0,Crowns,False,None
-Goth Fairy Kei Deck (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Ghostly Cerberus Master Deck (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
-Great Inventor's Death Deck (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Floramancer Deck of Decay (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Hand-Chased Nightmare Box,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
-Goth Fairy Kei Deck (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Goth Fairy Kei Deck (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,29,0,0,0,0,0,0,1,0,0,Crowns,False,None
-Great Inventor's Death Deck (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Grimcaster's Doomfaring Deck,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Drop,False,None
-Great Inventor's Death Deck (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Ghostly Cerberus Master Deck (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Floramancer Deck of Decay (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,28,0,0,0,0,0,0,0,0,1,Crowns,False,None
-Floramancer Ring of Decay (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0,0,0,0,1,Crowns,False,None
-Great Inventor's Death Deck (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
-Great Inventor's Death Deck (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Eerem Gallery of Agony,118,0,0,0,0,0,0,39,0,0,0,0,89,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Goth Fairy Kei Deck (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Great Inventor's Death Deck (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Druid's Knot Deck,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Great Inventor's Death Deck (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Great Inventor's Death Deck (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
-Hand of the Wicked Heart,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Drop,False,None
+Deadly Night Mire Deck (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Deck of the Abyss,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Gold Vendor, Bazaar",False,Celestian Abyss Set
+Eerem Gallery of Agony,118,0,0,0,0,0,0,39,0,0,0,0,89,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Floramancer Deck of Decay (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Floramancer Deck of Decay (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0,0,0,0,1,Crowns,False,None
+Goth Fairy Kei Deck (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Hand of the Wicked Heart,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Drop,False,None
+Floramancer Deck of Decay (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0,0,0,0,0,0,0,0,1,Crowns,False,None
+Goth Fairy Kei Deck (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Ghostly Cerberus Master Deck (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Goth Fairy Kei Deck (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Goth Fairy Kei Deck (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,23,0,0,0,0,0,0,1,0,0,Crowns,False,None
+Floramancer Ring of Decay (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0,0,0,0,1,Crowns,False,None
+Goth Fairy Kei Deck (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,1,0,0,Crowns,False,None
+Ghostly Cerberus Master Deck (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Floramancer Deck of Decay (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Great Inventor's Death Deck (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Goth Fairy Kei Deck (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,29,0,0,0,0,0,0,1,0,0,Crowns,False,None
+Floramancer Deck of Decay (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Great Inventor's Death Deck (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Great Inventor's Death Deck (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Great Inventor's Death Deck (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Hand-Chased Nightmare Box,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
+Great Inventor's Death Deck (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Grimcaster's Doomfaring Deck,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Drop,False,None
+Great Inventor's Death Deck (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Great Inventor's Death Deck (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Floramancer Deck of Decay (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,28,0,0,0,0,0,0,0,0,1,Crowns,False,None
+Goth Fairy Kei Deck (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Goth Fairy Kei Deck (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,26,0,0,0,0,0,0,1,0,0,Crowns,False,None
+Great Inventor's Death Deck (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Crowns,False,None
+Goth Fairy Kei Deck (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Floramancer Deck of Decay (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Great Inventor's Death Deck (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Goth Fairy Kei Deck (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Ghostly Cerberus Master Deck (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Great Inventor's Death Deck (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
 Kataba Assemblage of Toil,108,0,0,0,0,0,0,35,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Malistaire's Ghostly Deck (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,0,0,0,0,0,0,1,Rematch,False,None
 Malistaire's Ghostly Deck (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,Rematch,False,None
+Malistaire's Ghostly Deck (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,0,0,0,0,0,0,1,Rematch,False,None
+Great Inventor's Death Deck (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Necromancer's Deck,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
-Ominous Skyfarer's Deck (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Ominous Skyfarer's Deck (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,0,0,0,0,0,0,1,Crowns,False,None
-Ominous Skyfarer's Deck (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0,0,0,0,0,0,0,0,1,Crowns,False,None
-Ominous Skyfarer's Deck (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Tundra Cards of Disarray,102,0,0,0,0,0,0,33,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
-Ominous Skyfarer's Deck (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Novice Death Deck,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Shadow Queen Deck of Graves,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Unavailable,False,None
-Silvershield Cards,73,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar",False,None
-Shadow Queen Box of Graves,100,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0,0,0,0,0,1,0,0,0,Crafting,False,None
+Ominous Skyfarer's Deck (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Nomoonaga's Deck,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Drop,False,None
+Ominous Skyfarer's Deck (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,0,0,0,0,0,0,1,Crowns,False,None
 Snowcrusher Mortalis Deck,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-Soul Devourer's Arcana (Square),60,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Stone Key,False,None
+Silvershield Cards,73,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar",False,None
+Sand Sea Deck of Blight,116,0,0,0,0,0,0,38,0,0,0,0,87,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Ominous Skyfarer's Deck (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0,0,0,0,0,0,0,0,1,Crowns,False,None
+Ominous Skyfarer's Deck (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Wastelander's Grim Cards (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Ominous Skyfarer's Deck (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Tayg Deck of Wrath,106,0,0,0,0,0,0,34,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Wastelander's Grim Cards (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,0,0,0,0,0,0,1,Crowns,False,None
-Wastelander's Grim Cards (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Wastelander's Grim Cards (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Snowcrusher Mortalis Box,50,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0,"Drop, Crafting",False,None
 Umbra Queen's Grim Cards (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,0,0,0,0,0,0,1,Rematch,False,None
 Ominous Skyfarer's Deck (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Soul Devourer's Arcana (Triangle),60,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Stone Key",False,None
-Rubal Cards of Cessation,114,0,0,0,0,0,0,37,0,0,0,0,85,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Von Shane's Hand of Doom,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Gold Key",False,None
-Sand Sea Deck of Blight,116,0,0,0,0,0,0,38,0,0,0,0,87,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Tempestra's Onyx Deck,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Soul Devourer's Arcana (Tear),60,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Stone Key,False,None
-Ominous Skyfarer's Deck (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0,0,0,0,1,Crowns,False,None
 Ominous Skyfarer's Deck (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,28,0,0,0,0,0,0,0,0,1,Crowns,False,None
 Ominous Skyfarer's Deck (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Ominous Skyfarer's Deck (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Nomoonaga's Deck,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Drop,False,None
-Wastelander's Grim Cards (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Wastelander's Grim Cards (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Wastelander's Grim Cards (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,28,0,0,0,0,0,0,0,0,1,Crowns,False,None
-Wastelander's Grim Cards (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Soul Devourer's Arcana (Triangle),60,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Stone Key",False,None
+Ominous Skyfarer's Deck (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Undead Deck,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Bazaar, Crafting",False,None
+Tempestra's Onyx Deck,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Ominous Skyfarer's Deck (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0,0,0,0,1,Crowns,False,None
+Wastelander's Grim Cards (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0,0,0,0,1,Crowns,False,None
+Wastelander's Grim Cards (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,28,0,0,0,0,0,0,0,0,1,Crowns,False,None
+Shadow Queen Box of Graves,100,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0,0,0,0,0,1,0,0,0,Crafting,False,None
+Wastelander's Grim Cards (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Rubal Cards of Cessation,114,0,0,0,0,0,0,37,0,0,0,0,85,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Soul Devourer's Arcana (Tear),60,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Stone Key,False,None
+Tundra Cards of Disarray,102,0,0,0,0,0,0,33,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
 Wastelander's Grim Cards (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Soul Devourer's Arcana (Square),60,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Stone Key,False,None
+Wastelander's Grim Cards (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Wastelander's Grim Cards (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,0,0,0,0,0,0,1,Crowns,False,None
+Shadow Queen Deck of Graves,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Unavailable,False,None
 Wastelander's Grim Cards (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,36,0,0,0,0,0,0,0,0,1,Crowns,False,None
 Wastelander's Grim Cards (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0,0,0,0,0,0,0,0,1,Crowns,False,None
-Wastelander's Grim Cards (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0,0,0,0,1,Crowns,False,None
+Wastelander's Grim Cards (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Antique Deck,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Wooden Key",False,None
-Armillary Deck,70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Gold Vendor, Bazaar",False,None
-Cage of the Old Kings,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
-Deck of the Sage,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar, Crowns",False,None
-Duelist's Devil-May-Care Deck (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Dunes Djinni's Array,112,0,0,0,0,0,0,32,0,0,0,0,42,0,0,1,0,0,0,0,0,0,1,0,Gold Vendor,False,None
-Deck of the Sand Sea,116,0,0,0,0,0,0,34,0,0,0,0,43,0,0,1,0,0,0,0,0,0,1,0,Gold Vendor,False,None
-Aristocrat's Deck,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar, Quest",False,None
-Deck of Ancients,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Bazaar, Quest",False,None
-Basket of Shaman's Juju,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
 Ancient Rubal Cards,114,0,0,0,0,0,0,33,0,0,0,0,43,0,0,1,0,0,0,0,0,0,1,0,Gold Vendor,False,None
-Celestian Deck,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
-Deck of Chivalry,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar, Quest",False,None
-Deck of the Lotus,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Armillary Deck,70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Gold Vendor, Bazaar",False,None
+Basket of Shaman's Juju,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
 Dragonfire Deck,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Bazaar, Quest",False,None
+Cage of the Old Kings,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
+Aristocrat's Deck,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar, Quest",False,None
+Duelist's Devil-May-Care Deck (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Deck of the Sage,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar, Crowns",False,None
+Deck of the Lotus,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Deck of Ancients,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Bazaar, Quest",False,None
 Deck of Deliberation,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Gold Vendor, Bazaar",False,None
-Eerem Palace Gallery,118,0,0,0,0,0,0,35,0,0,0,0,44,0,0,1,0,0,0,0,0,0,1,0,"Gold Vendor, Stone Key",False,None
-Hand of the Kataba Iceblock,108,0,0,0,0,0,0,31,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Hand of the Forlorn Tayg,106,0,0,0,0,0,0,30,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Runewarden's Deck,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Deck of the Sand Sea,116,0,0,0,0,0,0,34,0,0,0,0,43,0,0,1,0,0,0,0,0,0,1,0,Gold Vendor,False,None
+Eerem Palace Gallery,118,0,0,0,0,0,0,35,0,0,0,0,44,0,0,1,0,0,0,0,0,0,1,0,"Gold Vendor, Stone Key",False,None
+Deck of Chivalry,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar, Quest",False,None
+Hand of the Kataba Iceblock,108,0,0,0,0,0,0,31,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Dunes Djinni's Array,112,0,0,0,0,0,0,32,0,0,0,0,42,0,0,1,0,0,0,0,0,0,1,0,Gold Vendor,False,None
+Celestian Deck,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
 Knotwork Case,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Gold Vendor, Bazaar",False,None
+Malistaire's Forlorn Deck,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Pharaoh's Deck,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Pinewood Deck,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
+Mummified Deck,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Gold Vendor, Drop, Bazaar",False,None
+Runewarden's Deck,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
 Starter Deck,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Quest,False,None
 Watchman's Deck,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar",False,None
-Mummified Deck,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Gold Vendor, Drop, Bazaar",False,None
-Treasure Deck,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Gold Vendor, Bazaar, Quest",False,Celestian Totality Set
-Malistaire's Forlorn Deck,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Polarian Tundra Spelldeck,102,0,0,0,0,0,0,28,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Pharaoh's Deck,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Sheaf of the Polarian Bleaks,104,0,0,0,0,0,0,29,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Gold Vendor,False,None
+Polarian Tundra Spelldeck,102,0,0,0,0,0,0,28,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Treasure Deck,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Gold Vendor, Bazaar, Quest",False,Celestian Totality Set

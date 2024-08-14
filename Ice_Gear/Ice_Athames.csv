@@ -7,8 +7,8 @@ Icy Imperial Court Knife (Level 170+),170,1135,20,0,0,18,0,88,0,0,0,0,0,0,0,0,0,
 Unwavering Chivalric Athame (Level 170+),170,1135,20,0,0,18,0,88,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,"Gold Key, Crowns",False,None
 Daemonic Dirk of Freezing,170,0,20,0,0,18,0,88,0,0,0,8,0,0,0,0,0,0,0,1,2,0,1,Raid,False,None
 Crystalline Aeon Athame,160,1151,19,0,0,16,0,87,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,"Drop, Crafting, Crowns",False,None
-Glimmering Aeon Athame,160,1151,19,0,0,16,0,87,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crafting,False,None
 Glistening Aeon Athame,160,1151,19,0,0,16,0,87,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crafting,False,None
+Glimmering Aeon Athame,160,1151,19,0,0,16,0,87,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crafting,False,None
 Xibalba Comet Athame (Level 160+),160,1151,19,0,0,16,0,87,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Raid,False,None
 Nullity's Frigid Athame (Level 160+),160,767,19,0,0,18,0,100,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Raid,False,None
 Burrower's Thaumaturgy Athame (Level 160+),160,1278,18,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,"Gold Key, Crowns",False,None
@@ -22,9 +22,9 @@ Steely Enforcer's Athame,165,1079,18,0,0,14,0,81,0,0,0,0,0,0,0,0,0,0,0,1,2,1,0,D
 Demiurge's Frigid Athame,150,1045,18,0,0,16,0,83,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crafting,False,None
 Merciless Ice Athame,150,1045,18,0,0,16,0,83,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,"Drop, Crowns",False,None
 Arctic Skyfarer's Athame (Level 160+),160,1023,18,0,0,20,0,75,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
-Brisk Night Mire Athame,160,1023,18,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Housing Gauntlet,False,None
-Chill Night Mire Athame,160,1023,18,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Housing Gauntlet,False,None
 Chilling Archival Dirk (Level 160+),160,1023,18,0,0,0,0,124,0,0,0,8,0,0,0,0,0,0,0,1,2,1,0,Crowns,False,None
+Chill Night Mire Athame,160,1023,18,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Housing Gauntlet,False,None
+Brisk Night Mire Athame,160,1023,18,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Housing Gauntlet,False,None
 Crisp City Dweller Athame,160,1023,18,0,0,14,0,75,0,0,0,0,0,0,0,0,0,0,0,1,2,1,0,Drop,False,None
 Icy Night Mire Athame (Level 160+),160,1023,18,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,"Housing Gauntlet, Crowns",False,None
 Malistaire's Chilly Blade (Level 160+),160,1023,18,0,0,20,0,75,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Rematch,False,None
@@ -40,8 +40,8 @@ Icy Night Mire Athame (Level 150+),150,929,17,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,1
 Ghastly Cerberus Master Dirk (Level 150+),150,929,17,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
 Shadow Spider's Sting (Level 99+),99,420,17,0,0,14,0,17,0,0,0,18,0,0,0,1,1,0,0,0,1,0,1,Unavailable,False,None
 Eternal Crystalline Athame,160,1278,16,0,0,18,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crafting,False,None
-Eternal Glistening Athame,160,1278,16,0,0,18,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crafting,False,None
 Eternal Glimmering Athame,160,1278,16,0,0,18,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crafting,False,None
+Eternal Glistening Athame,160,1278,16,0,0,18,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crafting,False,None
 Great Inventor's Ice Dirk (Level 160+),160,1278,16,0,0,18,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
 Cruel Dream Stalker Knife,170,1135,16,0,0,18,0,0,0,0,0,9,0,0,0,0,0,0,0,1,1,1,1,Crafting,False,None
 Magician's Ice Athame,150,1097,16,0,0,0,0,160,0,0,8,0,0,0,0,1,0,0,0,0,2,0,0,Drop,False,None
@@ -53,19 +53,19 @@ Glistening Ice Dagger,155,976,16,0,0,13,0,73,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Drop,
 Steely Protector's Athame,165,944,16,0,0,12,0,68,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,"Drop, Bazaar",False,None
 Crisp Townie Athame,160,895,16,0,0,12,0,62,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,"Drop, Bazaar",False,None
 Floramancer Blade of Bark (Level 160+),160,895,16,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
-Nullity's Freezing Athame,160,895,16,0,0,20,0,112,0,0,0,7,0,0,0,0,0,0,0,1,2,0,1,Raid,False,None
 Nullity's Glacial Athame,160,895,16,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Raid,False,None
-The Void's Freezing Athame,160,895,16,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Raid,False,None
+Nullity's Freezing Athame,160,895,16,0,0,20,0,112,0,0,0,7,0,0,0,0,0,0,0,1,2,0,1,Raid,False,None
 The Void's Glacial Athame,160,895,16,0,0,20,0,112,0,0,0,7,0,0,0,0,0,0,0,1,2,0,1,Raid,False,None
 The Void's Frigid Athame (Level 160+),160,895,16,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Raid,False,None
+The Void's Freezing Athame,160,895,16,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Raid,False,None
 Arctic Skyfarer's Athame (Level 140+),140,833,16,0,0,19,0,65,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
 Icy Night Mire Athame (Level 140+),140,833,16,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
 Wastelander's Chill Dirk (Level 140+),140,833,16,0,0,19,0,0,0,0,0,5,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
 Wolf's Lancet of Shivers,100,441,16,0,2,16,0,18,0,0,15,0,0,0,0,1,1,0,0,0,1,0,1,Drop,False,None
 Unreal Dirk of Freezing,170,0,16,0,0,20,0,132,0,0,0,7,0,0,0,0,0,0,0,1,1,1,1,Raid,False,None
 Great Inventor's Ice Dirk (Level 150+),150,1161,15,0,0,18,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
-Supreme Detective Athame,148,1040,15,0,0,0,0,149,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,"Drop, Bazaar",False,None
 Supreme Cold Steel Athame,148,1040,15,0,0,0,0,149,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
+Supreme Detective Athame,148,1040,15,0,0,0,0,149,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,"Drop, Bazaar",False,None
 Wunderbar Wonderneer Knife,140,1019,15,0,0,0,0,154,0,0,0,5,0,0,0,1,0,0,0,0,2,0,0,"Drop, Stone Key",False,None
 Trooper Officer Knife,150,930,15,0,0,13,0,71,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Unavailable,False,None
 Lemurian Freezer Athame,142,924,15,0,0,0,0,0,0,0,0,4,0,0,0,0,1,0,0,0,0,0,0,"Drop, Bazaar",False,None
@@ -78,10 +78,10 @@ Dragoon's Icy Dagger,130,1075,14,0,0,0,0,147,0,0,8,0,0,0,0,1,0,0,0,0,2,0,1,"Craf
 Great Inventor's Ice Dirk (Level 140+),140,1041,14,0,0,18,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
 Supreme Old Judge Athame,148,1013,14,0,0,0,0,0,0,0,0,3,0,0,0,0,1,0,0,0,1,0,1,"Drop, Bazaar",False,None
 Guten Wonderneer Knife,140,998,14,0,0,0,0,149,0,0,0,5,0,0,0,1,0,0,0,0,2,0,0,Drop,False,None
-Hierarch's Detective Athame,145,982,14,0,0,0,0,140,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
 Hierarch's Cold Steel Athame,145,982,14,0,0,0,0,140,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
-Lemurian Cold Steel Athame,142,924,14,0,0,0,0,132,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Hierarch's Detective Athame,145,982,14,0,0,0,0,140,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
 Lemurian Detective Athame,142,924,14,0,0,0,0,132,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,"Drop, Bazaar",False,None
+Lemurian Cold Steel Athame,142,924,14,0,0,0,0,132,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Golden Ice Dagger,155,854,14,0,0,11,0,61,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,"Drop, Bazaar",False,None
 Chill Kalamar Knife,127,840,14,0,0,0,0,0,0,0,0,5,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Regulation Trooper Knife,150,813,14,0,0,11,0,59,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,Bazaar,False,None
@@ -100,8 +100,8 @@ Interstellar Explorer's Knife,122,735,13,0,0,0,0,0,0,0,0,5,0,0,0,1,0,0,0,0,0,0,0
 Lead's Cryo Knife,135,709,13,0,0,0,0,110,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
 Supervisor Cryo Knife,135,709,13,0,0,0,0,110,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
 Soldier's Icy Dagger,130,1015,12,0,0,0,0,142,0,0,6,0,0,0,0,1,0,0,0,0,2,0,0,Drop,False,None
-Supreme Founder's Athame,148,1013,12,0,0,0,0,93,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,"Drop, Bazaar",False,None
 Supreme Ancient One Athame,148,1013,12,0,0,0,0,93,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
+Supreme Founder's Athame,148,1013,12,0,0,0,0,93,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,"Drop, Bazaar",False,None
 Wunderbar Candymancer Knife,140,992,12,0,0,0,0,128,0,0,5,0,0,0,0,1,0,0,0,0,0,2,0,"Drop, Stone Key",False,None
 Guten Candymancer Knife,140,972,12,0,0,0,0,124,0,0,5,0,0,0,0,1,0,0,0,0,2,0,0,Drop,False,None
 Lemurian Old Judge Athame,142,900,12,0,0,0,0,0,0,0,0,3,0,0,0,0,1,0,0,0,0,0,0,"Drop, Bazaar",False,None
@@ -113,14 +113,14 @@ Specialist Cryo Knife,132,667,12,0,0,0,0,100,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,"Drop
 Executive Hazmat Knife,138,646,12,0,0,0,0,0,0,0,0,3,0,0,0,0,1,0,0,0,1,0,1,"Drop, Bazaar",False,None
 Floramancer Blade of Bark (Level 130+),130,645,12,0,0,19,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
 Arctic Skyfarer's Athame (Level 120+),120,641,12,0,0,19,0,42,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
-Ghastly Cerberus Master Dirk (Level 120+),120,641,12,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
 Icy Night Mire Athame (Level 120+),120,641,12,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
+Ghastly Cerberus Master Dirk (Level 120+),120,641,12,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
 Chief's Hazmat Knife,135,610,12,0,0,0,0,0,0,0,0,3,0,0,0,0,1,0,0,0,0,0,1,"Drop, Bazaar",False,None
 Icy Imperial Court Knife (Level 110+),110,545,12,0,0,17,0,41,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
-Hierarch's Founder's Athame,145,956,11,0,0,0,0,88,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
 Hierarch's Ancient One Athame,145,956,11,0,0,0,0,88,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
-Lemurian Founder's Athame,142,900,11,0,0,0,0,83,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,"Drop, Bazaar",False,None
+Hierarch's Founder's Athame,145,956,11,0,0,0,0,88,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
 Lemurian Ancient One Athame,142,900,11,0,0,0,0,83,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Lemurian Founder's Athame,142,900,11,0,0,0,0,83,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,"Drop, Bazaar",False,None
 Freezing Zanadu Dagger,130,861,11,0,0,0,0,110,0,0,6,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Stone Key",False,None
 Cool Crane Athame,140,840,11,0,0,0,0,115,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Quest,False,None
 Great Inventor's Ice Dirk (Level 120+),120,801,11,0,0,18,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
@@ -149,11 +149,11 @@ Burrower's Thaumaturgy Athame (Level 100+),100,561,9,0,0,15,0,0,0,0,0,0,0,0,0,0,
 Shadow Spider's Sting,100,505,9,0,0,15,0,45,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,"Drop, Crafting",False,None
 Arcanum Thaumaturge's Blade,108,483,9,0,0,0,0,0,0,0,0,3,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
 Chilling Archival Dirk (Level 100+),100,449,9,0,0,0,0,63,0,0,0,6,0,0,0,0,0,0,0,1,2,1,0,"Housing Gauntlet, Crowns",False,None
-Ghastly Cerberus Master Dirk (Level 100+),100,449,9,0,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
 Icy Night Mire Athame (Level 100+),100,449,9,0,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,"Housing Gauntlet, Crowns",False,None
 Malistaire's Chilly Blade (Level 100+),100,449,9,0,0,18,0,38,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Rematch,False,None
-Umbra Queen's Chill Dirk (Level 100+),100,449,9,0,0,18,0,0,0,0,0,5,0,0,0,0,0,0,0,1,2,0,1,Rematch,False,None
+Ghastly Cerberus Master Dirk (Level 100+),100,449,9,0,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
 Shadow Spider's Kris,100,449,9,0,0,13,0,38,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Drop,False,None
+Umbra Queen's Chill Dirk (Level 100+),100,449,9,0,0,18,0,0,0,0,0,5,0,0,0,0,0,0,0,1,2,0,1,Rematch,False,None
 Ghastly Cerberus Master Dirk (Level 110+),110,411,9,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
 Aphrodite's Winterspine,100,337,9,0,0,10,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,0,1,Stone Key,False,None
 Storm Caiman's Cruel Fang,88,240,9,0,0,16,0,11,0,0,0,16,0,0,0,1,0,0,0,0,1,0,1,Drop,False,None
@@ -254,10 +254,10 @@ Ghastly Cerberus Master Dirk (Level 50+),50,285,3,0,0,12,0,0,0,0,0,0,0,0,0,0,0,0
 Icy Night Mire Athame (Level 50+),50,285,3,0,0,12,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,"Housing Gauntlet, Crowns",False,None
 Wild Tangle Blade,74,268,3,0,0,9,0,0,0,0,10,0,0,0,0,1,0,0,0,0,1,0,1,"Drop, Bazaar",False,None
 Raven's Sapphire Talon,50,260,3,0,0,8,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,"Gold Vendor, Bazaar",False,None
-Gurtok Chillblade,50,257,3,0,0,12,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,"Drop, Crafting, Crowns",False,None
 Floramancer Blade of Bark (Level 50+),50,257,3,0,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
-Malistaire's Chilly Blade (Level 50+),50,228,3,0,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Rematch,False,None
+Gurtok Chillblade,50,257,3,0,0,12,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,"Drop, Crafting, Crowns",False,None
 Gurtok Chill Spell Knife,50,228,3,0,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Drop,False,None
+Malistaire's Chilly Blade (Level 50+),50,228,3,0,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Rematch,False,None
 Wolf's Ruby Claw,54,0,3,0,0,13,0,0,0,0,15,11,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
 Wolf's Silver Claw,54,0,3,0,0,15,0,5,0,0,18,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
 Smoking Mirror's Final Touch,86,465,2,0,0,13,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,Drop,False,None
@@ -333,19 +333,19 @@ Kimba's Fang,68,310,0,0,0,20,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,"Drop, Stone Key"
 Steel of the Wild Hunt,72,308,0,0,0,8,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,"Drop, Bazaar",False,None
 Sky Flower Sliver,82,305,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,"Drop, Bazaar",False,None
 Weirwood's Thorn,72,304,0,0,0,8,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,"Drop, Bazaar",False,None
-Brood Mother's Regal Blade,98,300,0,0,0,15,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,Drop,False,None
 Brutal Azteca Horn,82,300,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,"Drop, Bazaar",False,None
+Brood Mother's Regal Blade,98,300,0,0,0,15,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,Drop,False,None
 Rackum's Blade of Deceit,98,300,0,0,0,5,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,Drop,False,None
 Stone Quetzal's Tooth,82,300,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,"Drop, Bazaar",False,None
 Zero Hour Eagle Talon,82,300,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,"Drop, Bazaar",False,None
 Avalanche's Icy Athame,45,295,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Drop,False,None
 Hopper Blade of Sandstorms,98,293,0,0,0,15,0,0,5,0,10,0,0,0,0,1,1,0,0,0,1,0,1,Crafting,False,None
-Gorilla's Fang,64,290,0,0,0,6,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
 Gwendolyn's True Friend,78,290,0,0,0,14,0,0,0,0,0,0,0,0,0,1,2,0,0,0,0,0,1,Drop,False,None
-Ockam's Razor,78,290,0,0,0,14,0,0,0,0,0,0,0,0,0,1,2,0,0,0,0,0,1,Drop,False,None
+Gorilla's Fang,64,290,0,0,0,6,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
 Mother's New Moon Athame,88,290,0,0,0,15,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,Drop,False,None
-Sworn Knife to Artorius,78,290,0,0,0,14,0,0,0,0,0,0,0,0,0,1,2,0,0,0,0,0,1,Drop,False,None
+Ockam's Razor,78,290,0,0,0,14,0,0,0,0,0,0,0,0,0,1,2,0,0,0,0,0,1,Drop,False,None
 Sir Malory's Bloody Oath,78,290,0,0,0,14,0,0,0,0,0,0,0,0,0,1,2,0,0,0,0,0,1,Drop,False,None
+Sworn Knife to Artorius,78,290,0,0,0,14,0,0,0,0,0,0,0,0,0,1,2,0,0,0,0,0,1,Drop,False,None
 Great Inventor's Ice Dirk (Level 50+),50,285,0,0,0,14,0,0,0,0,0,3,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
 Piercing Poniard,50,283,0,0,0,0,0,0,0,0,11,0,0,0,0,0,1,0,0,1,1,0,0,"Gold Vendor, Bazaar",False,None
 Bull's Charge,64,280,0,0,0,6,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
@@ -370,8 +370,8 @@ Frostforged Steel,45,259,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,"Gold Vendor,
 Snowcrusher's Sliver of Frost,45,259,0,0,0,15,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,Drop,False,None
 Zanga's Blade,68,255,0,0,0,16,0,0,0,0,6,5,0,0,0,1,0,0,0,0,2,0,1,Drop,False,None
 Icetalon,45,250,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,"Bazaar, Quest",False,None
-Bleeding Sun Dagger,84,250,0,0,0,9,0,0,0,0,11,0,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
 Dagger of the Blue Leaves,85,250,0,0,0,20,0,0,0,15,0,0,0,0,0,0,1,0,0,0,0,0,1,Unavailable,False,None
+Bleeding Sun Dagger,84,250,0,0,0,9,0,0,0,0,11,0,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
 Fox's Fang,74,250,0,0,0,7,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
 Glistening Edge,50,250,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,"Bazaar, Crafting",False,None
 Tears of Mother Moon Blade,84,250,0,0,0,9,0,0,0,0,11,0,0,0,0,1,0,0,0,0,1,0,1,"Drop, Bazaar",False,None
@@ -396,18 +396,18 @@ Revered Dagger,50,229,0,0,0,19,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,"Bazaar, Crafti
 Cold Iron Dagger,40,225,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,"Drop, Bazaar",False,None
 Lemon Sour Blade,75,225,0,0,0,18,0,0,0,15,0,0,0,0,0,0,1,0,0,0,0,0,1,Unavailable,False,None
 Raven's Razor of Wrath,65,225,0,0,0,16,0,0,0,15,0,0,0,0,0,0,1,0,0,0,0,0,1,Unavailable,False,None
-Stinger's Razor of Fortune,98,225,0,0,0,13,0,0,0,0,12,0,0,0,0,0,1,0,0,1,0,0,0,Drop,False,None
 Stone Town Scimitar,62,225,0,0,0,14,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Stinger's Razor of Fortune,98,225,0,0,0,13,0,0,0,0,12,0,0,0,0,0,1,0,0,1,0,0,0,Drop,False,None
 Vicious Sky's Sacred Athame,88,225,0,0,0,15,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,Drop,False,None
 Esteemed Edge,52,222,0,0,0,18,0,0,0,0,0,0,0,0,0,0,1,0,0,1,1,0,0,"Bazaar, Crafting",False,None
 Jungle Thorn,62,220,0,0,0,14,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,"Drop, Bazaar",False,None
 Introspective Knife,35,218,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,1,"Bazaar, Quest",False,None
 Burning Water Talon,84,215,0,0,0,9,0,0,0,0,11,0,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
 Dirk of Unknown Origin,52,215,0,0,0,0,0,0,0,0,0,21,0,0,0,1,1,0,0,0,1,0,0,"Bazaar, Crafting",False,None
-Moon Skull's Blessed Edge,84,215,0,0,0,10,0,0,0,0,11,0,0,0,0,1,0,0,0,0,1,0,1,"Drop, Bazaar",False,None
 Prideful Paw,62,215,0,0,0,14,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,"Drop, Bazaar",False,None
-Thunder Horn's Rough Cutter,84,215,0,0,0,10,0,0,0,0,11,0,0,0,0,1,0,0,0,0,1,0,1,"Drop, Bazaar",False,None
+Moon Skull's Blessed Edge,84,215,0,0,0,10,0,0,0,0,11,0,0,0,0,1,0,0,0,0,1,0,1,"Drop, Bazaar",False,None
 Winged Tooth Knight's Hook,84,215,0,0,0,10,0,0,0,0,11,0,0,0,0,1,0,0,0,0,1,0,1,"Drop, Bazaar",False,None
+Thunder Horn's Rough Cutter,84,215,0,0,0,10,0,0,0,0,11,0,0,0,0,1,0,0,0,0,1,0,1,"Drop, Bazaar",False,None
 Striped Spear Blade,62,210,0,0,0,14,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,"Drop, Bazaar",False,None
 Venerable Blade,54,210,0,0,0,0,0,0,0,0,15,0,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
 Cosmic Kris,58,208,0,0,0,16,0,0,0,0,21,20,0,0,0,1,0,0,0,0,1,0,0,"Bazaar, Crafting",False,None
@@ -424,8 +424,8 @@ Edge of Resistance,55,200,0,0,0,15,0,0,0,15,0,0,0,0,0,0,0,0,0,1,0,0,1,Unavailabl
 Moonshard Stiletto,94,200,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,"Bazaar, Quest",False,None
 Long Lost Dagger,52,200,0,0,0,16,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Sun Kris,58,200,0,0,0,15,0,0,0,0,21,0,0,0,0,1,0,0,0,0,1,0,1,"Drop, Bazaar",False,None
-Tenacious Blade,52,195,0,0,0,14,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Wolf's Amethyst Claw,52,195,0,0,0,0,0,8,0,0,16,15,0,0,0,1,2,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Tenacious Blade,52,195,0,0,0,14,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Edge of Echoes,54,194,0,0,0,14,0,0,0,0,0,18,0,0,0,1,0,0,0,0,1,0,1,"Bazaar, Crafting",False,None
 Hound's Tooth,74,192,0,0,0,9,0,0,0,0,10,0,0,0,0,1,0,0,0,0,1,0,1,"Drop, Bazaar",False,None
 Loyal Steel,74,192,0,0,0,10,0,0,0,0,10,0,0,0,0,1,0,0,0,0,1,0,1,"Drop, Bazaar",False,None
@@ -459,11 +459,11 @@ Stiletto of Severity,25,159,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,Quest,Fals
 Celestial Dagger,54,159,0,0,0,9,0,0,0,0,14,12,0,0,0,1,0,0,0,0,1,0,1,"Bazaar, Crafting",False,None
 Immortal Blade,45,151,0,0,0,0,0,0,0,0,13,0,0,0,0,0,1,0,0,0,0,0,0,"Bazaar, Crafting",False,None
 Adamant Kris,45,150,0,0,0,15,0,0,0,15,0,0,0,0,0,0,0,0,0,0,0,0,1,Unavailable,False,None
-Athame of the Lotus,40,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar, Gold Key",False,None
 Bodkin of Battlefrenzy,40,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
+Athame of the Lotus,40,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar, Gold Key",False,None
 Ethereal Athame,56,150,0,0,0,15,0,0,0,0,0,18,0,0,0,0,1,0,0,0,0,0,1,"Drop, Bazaar, Quest",False,None
-Stonecutter,45,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,"Drop, Bazaar",False,None
 Vernal Shears,27,150,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
+Stonecutter,45,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,"Drop, Bazaar",False,None
 Blade of the Berserker,45,140,0,0,0,7,0,0,0,0,0,0,0,0,0,1,2,0,0,0,0,0,0,"Drop, Crowns",False,None
 Crystalline Queen's Shardblade,45,140,0,0,0,0,0,0,0,0,0,15,0,0,0,0,0,0,0,1,1,0,0,"Drop, Bazaar",False,None
 Knife of Effervessence,45,140,0,0,0,0,0,0,0,0,14,0,0,0,0,0,1,0,0,0,0,0,0,"Bazaar, Quest",False,None
@@ -485,21 +485,21 @@ Surgeon's Scalpel,35,110,0,0,0,0,0,0,0,0,7,7,0,0,0,1,1,0,1,0,0,0,0,"Drop, Crowns
 Icicle Blade,25,109,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
 Dagger of Force,30,108,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
 Polar Shortblade,15,100,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,"Gold Vendor, Bazaar",False,None
-Talon of the Wyrmkin,45,100,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,"Drop, Bazaar",False,None
 Unbreakable Blade,35,100,0,0,0,12,0,0,0,15,0,0,0,0,0,0,0,0,0,0,0,0,1,Unavailable,False,None
+Talon of the Wyrmkin,45,100,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,"Drop, Bazaar",False,None
 Athame of the Allfather,20,98,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
 Himoolayan Ice Floe Dagger,25,98,0,0,0,8,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,1,Unavailable,False,None
-Grimoire's Edge,24,96,0,0,0,0,0,0,0,0,8,1,0,0,0,1,0,0,0,0,1,0,0,"Gold Vendor, Drop, Bazaar",False,None
 Dirk of Nobles,25,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,"Drop, Bazaar",False,None
+Grimoire's Edge,24,96,0,0,0,0,0,0,0,0,8,1,0,0,0,1,0,0,0,0,1,0,0,"Gold Vendor, Drop, Bazaar",False,None
 Athame of Infinity,35,92,0,0,0,0,0,0,0,0,8,0,0,0,0,1,0,0,0,0,1,0,0,"Bazaar, Crafting",False,None
 Knife of Icy Vigor,25,91,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
 Permafrost Stiletto,15,91,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Bazaar, Quest",False,None
 Floramancer Blade of Bark (Level 20+),20,90,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
 Spine of the Dragon,20,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,"Bazaar, Crafting",False,None
 Tanto of Icy Power,40,85,0,0,0,12,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,Drop,False,None
+Keen-Edged Dirk,15,85,0,0,0,0,0,0,0,0,3,0,0,0,0,1,1,0,0,0,0,0,0,"Drop, Crowns",False,None
 Nomoonaga's Kris of Hope,40,85,0,0,0,9,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,Drop,False,None
 Mugsy's Stylish Athame,30,85,0,0,0,0,0,0,0,0,6,0,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
-Keen-Edged Dirk,15,85,0,0,0,0,0,0,0,0,3,0,0,0,0,1,1,0,0,0,0,0,0,"Drop, Crowns",False,None
 Possibility Dirk,35,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,"Bazaar, Crafting",False,None
 Vigilant Steel,40,85,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Quest",False,None
 Athame of the Sleuth,15,84,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
@@ -510,8 +510,8 @@ Wastelander's Chill Dirk (Level 20+),20,80,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2
 Agent's Kris,25,80,0,0,0,0,0,0,0,0,0,6,0,0,0,1,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
 Banewarden's Cutter,30,80,0,0,0,0,0,0,0,0,5,0,0,0,0,1,0,0,0,0,1,0,1,Drop,False,None
 Point of the Icy Himoolayas,25,78,0,0,0,5,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,Wooden Key,False,None
-Commoner's Stiletto,25,75,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,1,"Gold Vendor, Bazaar",False,None
 Charged Knife,25,75,0,0,0,0,0,0,0,0,0,6,0,0,0,1,2,0,1,0,0,0,0,"Drop, Crowns",False,None
+Commoner's Stiletto,25,75,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,1,"Gold Vendor, Bazaar",False,None
 Kyuto's Kris of Questions,35,75,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar, Quest",False,None
 Steadfast Steel,25,75,0,0,0,9,0,0,0,15,0,0,0,0,0,0,0,0,0,0,0,0,1,Unavailable,False,None
 Lifebringer's Athame,10,71,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
@@ -525,8 +525,8 @@ Blade of Frost,25,55,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Unavailable,False
 Edge of Survival,25,55,0,0,0,0,0,0,0,0,0,3,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
 Kepi's Dirk of the Adept,20,55,0,0,0,0,0,0,0,0,0,3,0,0,0,0,1,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Old Smokey's Dagger,30,55,0,0,0,7,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,Drop,False,None
-Athame of Frostbite,10,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest, Fishing",False,None
 Arctic Skyfarer's Athame (Level 10+),10,52,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Athame of Frostbite,10,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest, Fishing",False,None
 Athame of Pyramids,20,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
 Dagger of Talent,10,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
 Pharaoh's Shortsword,20,50,0,0,0,0,0,0,0,0,3,0,0,0,0,0,1,0,0,0,0,0,0,"Drop, Bazaar",False,None
@@ -557,110 +557,110 @@ Studded Knife,10,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",Fal
 Frost-Touched Dagger,5,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
 Simple Dirk,1,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
 Dulled Athame,1,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Adamantine Dirk,40,0,0,0,0,0,0,0,0,0,0,9,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
-Aristocrat's Dagger,30,0,0,0,0,0,0,0,0,0,0,7,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
 Athame of Awakening,45,0,0,0,0,10,0,0,0,0,13,0,0,0,0,0,0,0,0,1,1,0,1,"Drop, Bazaar",False,None
-Athame of Attention,30,0,0,0,0,0,0,0,0,0,8,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar, Fishing",False,None
-Athame of Perserverance,45,0,0,0,0,0,0,0,0,0,13,0,0,0,0,0,0,0,0,0,1,0,1,"Drop, Bazaar",False,None
-Athame of the Desert,20,0,0,0,0,0,0,0,0,0,3,3,0,0,0,0,1,0,0,1,0,0,0,"Drop, Bazaar",False,None
-Bodkin of Fury,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
 Athame of Mortality,15,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,1,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Bodkin of the Hearty,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,0,0,0,0,"Drop, Crowns",False,None
-Blade of Proportions,20,0,0,0,0,0,0,0,0,0,0,4,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
-Crystalline Dagger,20,0,0,0,0,3,0,0,0,0,0,3,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
-Claw of Conciliation,45,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,"Drop, Bazaar",False,None
-Dagger of Dissolution,20,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,"Drop, Bazaar",False,None
-Cryptkeeper's Shortsword,15,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Dagger of Silence,20,0,0,0,0,2,0,0,0,0,2,0,0,0,0,1,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
-Clanker's Lifeline Dagger,30,0,0,0,0,0,0,0,0,0,6,7,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
-Bobby's Dirk,25,0,0,0,0,0,0,0,0,0,0,5,0,0,0,1,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Conventional Dagger,20,0,0,0,0,0,0,0,0,0,4,0,0,0,0,1,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
+Aristocrat's Dagger,30,0,0,0,0,0,0,0,0,0,0,7,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
 Athame of Consideration,35,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,1,0,0,"Bazaar, Quest",False,None
 Changeling Knife,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
-Chipped Knife,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
-Conundrum Blade,5,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
-Dagger of Solitude,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Curing Claw,50,0,0,0,0,0,0,0,0,0,0,23,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
-Athame of Chivalry,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
-Dagger of Detachment,30,0,0,0,0,0,0,0,0,0,0,9,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Dagger of Absolution,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
-Brady's Provincial Kris,25,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,1,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Bobby's Dirk,25,0,0,0,0,0,0,0,0,0,0,5,0,0,0,1,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Claw of Conciliation,45,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,"Drop, Bazaar",False,None
 Athame of the Volcano,45,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
-Dancing Dirk,52,0,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Athame of the Desert,20,0,0,0,0,0,0,0,0,0,3,3,0,0,0,0,1,0,0,1,0,0,0,"Drop, Bazaar",False,None
+Dagger of Solitude,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Bodkin of Fury,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
+Dagger of Dissolution,20,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Conundrum Blade,5,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
+Adamantine Dirk,40,0,0,0,0,0,0,0,0,0,0,9,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
+Athame of Chivalry,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
+Athame of Perserverance,45,0,0,0,0,0,0,0,0,0,13,0,0,0,0,0,0,0,0,0,1,0,1,"Drop, Bazaar",False,None
+Blade of Proportions,20,0,0,0,0,0,0,0,0,0,0,4,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
+Chipped Knife,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
+Crystalline Dagger,20,0,0,0,0,3,0,0,0,0,0,3,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
+Dagger of Detachment,30,0,0,0,0,0,0,0,0,0,0,9,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Dagger of Silence,20,0,0,0,0,2,0,0,0,0,2,0,0,0,0,1,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Clanker's Lifeline Dagger,30,0,0,0,0,0,0,0,0,0,6,7,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
+Dagger of Absolution,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
+Conventional Dagger,20,0,0,0,0,0,0,0,0,0,4,0,0,0,0,1,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
+Athame of Attention,30,0,0,0,0,0,0,0,0,0,8,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar, Fishing",False,None
+Brady's Provincial Kris,25,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,1,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Cryptkeeper's Shortsword,15,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Bodkin of the Hearty,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,0,0,0,0,"Drop, Crowns",False,None
+Curing Claw,50,0,0,0,0,0,0,0,0,0,0,23,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
 Dauntless Dirk,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Detective's Dagger,20,0,0,0,0,0,0,0,0,0,0,5,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar, Quest",False,None
-Dirk of the Daring,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
-Ember's Pensive Dagger,40,0,0,0,0,0,0,0,0,0,0,10,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
-Explorer's Edge,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,"Drop, Bazaar, Stone Key",False,None
-Dirk of Sandcastles,40,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
 Dragon's Claw Blade,45,0,0,0,0,0,0,0,0,0,14,15,0,0,0,0,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
+Dancing Dirk,52,0,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
 Duelist's Fatal Razor (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,1,Unavailable,False,None
-Empyrean Blade,35,0,0,0,0,7,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,"Bazaar, Crafting",False,None
 Dirk of Brainwork,30,0,0,0,0,7,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar, Fishing",False,None
-Dragon's Eye Dagger,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
-Haru's Dirk of Regard,40,0,0,0,0,0,0,0,0,0,10,11,0,0,0,1,0,0,0,0,0,0,1,Drop,False,None
-Flamedancer's Athame,15,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Fink's Stiletto,30,0,0,0,0,0,0,0,0,0,7,0,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
-Glyph-Etched Knife,40,0,0,0,0,0,0,0,0,0,10,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
-Graceful Stiletto,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,"Drop, Bazaar",False,None
+Empyrean Blade,35,0,0,0,0,7,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,"Bazaar, Crafting",False,None
 Glyphcarver,10,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
+Ember's Pensive Dagger,40,0,0,0,0,0,0,0,0,0,0,10,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
 Glittering Dagger,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
+Flamedancer's Athame,15,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Dirk of Sandcastles,40,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Dragon's Eye Dagger,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Dirk of the Daring,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
 Glacial Dagger,20,0,0,0,0,0,0,0,0,0,3,0,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
-Icewarden's Knife,20,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
-Initiate's Dirk,15,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
-Honed Athame,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Informant's Dirk,30,0,0,0,0,0,0,0,0,0,0,8,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
+Explorer's Edge,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,"Drop, Bazaar, Stone Key",False,None
+Glyph-Etched Knife,40,0,0,0,0,0,0,0,0,0,10,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
 Dirk of Harmony,10,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Honed Athame,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Fink's Stiletto,30,0,0,0,0,0,0,0,0,0,7,0,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
+Graceful Stiletto,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,"Drop, Bazaar",False,None
+Haru's Dirk of Regard,40,0,0,0,0,0,0,0,0,0,10,11,0,0,0,1,0,0,0,0,0,0,1,Drop,False,None
+Icewarden's Knife,20,0,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
+Informant's Dirk,30,0,0,0,0,0,0,0,0,0,0,8,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
+Initiate's Dirk,15,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
 Keeper's Blade of Runes,15,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
 Jikiru's Shortblade of Images,40,0,0,0,0,7,0,0,0,0,9,0,0,0,0,1,0,0,0,0,0,0,1,Drop,False,None
-Living Claw,50,0,0,0,0,0,0,0,0,0,23,0,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
-Librarian's Stylet,26,0,0,0,0,6,0,0,0,0,6,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar",False,None
+Knife of Preoccupation,40,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
 Kris of the Pensive Ones,35,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar, Quest",False,None
-Novice's Athame,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
-Mercurial Dagger,10,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
+Living Claw,50,0,0,0,0,0,0,0,0,0,23,0,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
+Powerful Stiletto,10,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
+Poniard of the Wyrms,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Malistaire's Forlorn Blade,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Mugsy's Perceptive Knife,25,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,"Drop, Bazaar",False,None
+Mercurial Dagger,10,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
+Novice's Athame,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
 Poniard of the Last Rune,30,0,0,0,0,0,0,0,0,0,0,8,0,0,0,1,0,0,0,0,1,0,0,"Gold Vendor, Drop, Bazaar",False,None
+Mugsy's Perceptive Knife,25,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,"Drop, Bazaar",False,None
+Poniard of Hardiness,45,0,0,0,0,0,0,0,0,0,0,15,0,0,0,1,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Librarian's Stylet,26,0,0,0,0,6,0,0,0,0,6,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar",False,None
+Prince's Dirk of Tempests,15,0,0,0,0,2,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,"Drop, Bazaar",False,None
 Pennon Poniard,25,0,0,0,0,8,0,0,0,0,5,2,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
 Mistlore Blade,25,0,0,0,0,4,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
 Poniard of Gallantry,10,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
-Knife of Preoccupation,40,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
-Powerful Stiletto,10,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
-Poniard of the Wyrms,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Poniard of Hardiness,45,0,0,0,0,0,0,0,0,0,0,15,0,0,0,1,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Prince's Dirk of Tempests,15,0,0,0,0,2,0,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0,0,"Drop, Bazaar",False,None
-Sandblasted Dagger,15,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar, Quest",False,None
-Shortblade of Ruination,20,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,"Drop, Bazaar",False,None
+River Spirit's Drifting Dirk,40,0,0,0,0,8,0,0,0,0,0,9,0,0,0,1,0,0,0,0,0,0,1,Drop,False,None
+Sergeant's Stilleto of Zip,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Scavenger's Shortblade,15,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Shortblade,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Shadowmark's Smallblade,45,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,"Drop, Bazaar",False,None
+Shortblade of Flowers,25,0,0,0,0,0,0,0,0,0,4,5,0,0,0,0,0,0,0,0,2,0,0,"Drop, Bazaar, Quest",False,None
 Smallsword of Euphoria,45,0,0,0,0,10,0,0,0,0,0,8,0,0,0,0,0,0,0,1,1,0,1,"Drop, Bazaar",False,None
-Shaman's Shortblade,45,0,0,0,0,0,0,0,0,0,0,13,0,0,0,1,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
-Tooth of the Serpent,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
+Tamauji's Discerning Dagger,35,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,"Drop, Bazaar",False,None
+Scaled Smallsword,45,0,0,0,0,0,0,0,0,0,0,13,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Shortsword of Scrutiny,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Shortblade of Valor,20,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Stormshadow's Claw,20,0,0,0,0,2,0,0,0,0,0,2,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
 Shortblade of a Daydreamer,40,0,0,0,0,0,0,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Soothing Steel,45,0,0,0,0,0,0,0,0,0,12,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Usunoki's Logical Athame,35,0,0,0,0,0,0,0,0,0,8,9,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
+Student's Shortblade,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,"Gold Vendor, Drop, Bazaar",False,None
+Soulwoven Stylet,45,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
+Smokey's Pompous Dagger,30,0,0,0,0,5,0,0,0,0,5,0,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
+Sliver of Doubt,45,0,0,0,0,0,0,0,0,0,12,13,0,0,0,0,0,0,0,1,0,0,1,"Drop, Bazaar",False,None
+Tooth of the Serpent,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
 Stiletto of Inspiration,45,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Gold Vendor, Bazaar",False,None
 Stinger of the Scorpion,20,0,0,0,0,4,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Bazaar, Crafting",False,None
-Scaled Smallsword,45,0,0,0,0,0,0,0,0,0,0,13,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Tamauji's Discerning Dagger,35,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,"Drop, Bazaar",False,None
 Smokey's Clever Dagger,25,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,Drop,False,None
-Smokey's Pompous Dagger,30,0,0,0,0,5,0,0,0,0,5,0,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
-Shortblade,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Shortsword of Scrutiny,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
-Soulwoven Stylet,45,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
-Sergeant's Stilleto of Zip,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Stormshadow's Claw,20,0,0,0,0,2,0,0,0,0,0,2,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
-Shortblade of Valor,20,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
-Sliver of Doubt,45,0,0,0,0,0,0,0,0,0,12,13,0,0,0,0,0,0,0,1,0,0,1,"Drop, Bazaar",False,None
-Shadowmark's Smallblade,45,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,"Drop, Bazaar",False,None
-River Spirit's Drifting Dirk,40,0,0,0,0,8,0,0,0,0,0,9,0,0,0,1,0,0,0,0,0,0,1,Drop,False,None
-Student's Shortblade,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,"Gold Vendor, Drop, Bazaar",False,None
-Scavenger's Shortblade,15,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Shortblade of Flowers,25,0,0,0,0,0,0,0,0,0,4,5,0,0,0,0,0,0,0,0,2,0,0,"Drop, Bazaar, Quest",False,None
-Whirlwind Dagger,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Watchman's Athame,15,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
-Widow's Dirk of Fulfillment,25,0,0,0,0,6,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Shaman's Shortblade,45,0,0,0,0,0,0,0,0,0,0,13,0,0,0,1,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
+Sandblasted Dagger,15,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar, Quest",False,None
 Veteran's Kris of Zeal,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Vibrant Dagger,30,0,0,0,0,0,0,0,0,0,0,7,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
-Soothing Steel,45,0,0,0,0,0,0,0,0,0,12,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Watchman's Athame,15,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Shortblade of Ruination,20,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,1,"Drop, Bazaar",False,None
+Whirlwind Dagger,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Wolf's Emerald Talon,54,0,0,0,0,0,0,8,0,0,25,25,0,0,0,0,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
-Usunoki's Logical Athame,35,0,0,0,0,0,0,0,0,0,8,9,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
 Widow's Engraved Athame,20,0,0,0,0,5,0,0,0,0,0,7,0,0,0,0,0,0,0,1,0,0,1,"Gold Vendor, Drop, Bazaar",False,None
+Widow's Dirk of Fulfillment,25,0,0,0,0,6,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Vibrant Dagger,30,0,0,0,0,0,0,0,0,0,0,7,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
 Wolf's Spike of Vitality,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Wolf's Tanzanite Talon,54,0,0,0,0,14,0,0,0,0,18,12,0,0,0,0,0,0,0,0,1,0,1,"Drop, Bazaar",False,None

@@ -15,9 +15,9 @@ Cruel Dream Warper Deck,170,143,0,0,0,0,54,91,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,Dr
 Xibalba Comet Deck (Level 160+),160,133,0,0,0,0,53,64,0,0,0,0,0,0,52,1,0,0,0,0,1,0,0,0,Raid,False,None
 Hunhau's Comet Deck (Level 160+),160,133,0,0,0,0,48,64,0,0,0,0,0,0,58,1,0,0,0,0,0,0,0,1,Raid,False,None
 Floramancer Deck of Bark (Level 160+),160,133,0,0,0,0,0,64,0,0,0,0,123,0,64,1,0,0,0,0,0,0,0,1,Crowns,False,None
-The Void's Freezing Cards,160,133,0,0,0,0,0,64,0,0,0,0,123,0,64,1,0,0,0,0,0,0,0,1,Raid,False,None
-The Void's Frigid Cards (Level 160+),160,133,0,0,0,0,0,64,0,0,0,0,123,0,64,1,0,0,0,0,0,0,0,1,Raid,False,None
 The Void's Glacial Cards,160,133,0,0,0,0,0,64,0,0,0,0,123,0,64,1,0,0,0,0,0,0,0,1,Raid,False,None
+The Void's Frigid Cards (Level 160+),160,133,0,0,0,0,0,64,0,0,0,0,123,0,64,1,0,0,0,0,0,0,0,1,Raid,False,None
+The Void's Freezing Cards,160,133,0,0,0,0,0,64,0,0,0,0,123,0,64,1,0,0,0,0,0,0,0,1,Raid,False,None
 Supreme Cold Steel Deck,148,128,0,0,0,0,0,66,0,0,0,0,90,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
 Chilling Archival Array (Level 150+),150,125,0,0,0,0,46,70,0,0,0,0,0,0,48,1,0,0,0,0,0,0,1,0,Crowns,False,None
 Icy Night Mire Deck (Level 150+),150,125,0,0,0,0,46,70,0,0,0,0,0,0,48,1,0,0,0,0,0,0,1,0,Crowns,False,None
@@ -28,14 +28,14 @@ Hierarch's Cold Steel Deck,145,122,0,0,0,0,0,63,0,0,0,0,83,0,0,1,0,0,0,0,0,0,0,1
 Supreme Old Judge Deck,148,119,0,0,0,0,41,0,0,0,0,0,73,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
 Supreme Founder's Deck,148,119,0,0,0,0,37,46,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
 Hierarch's Ancient One Deck,145,119,0,0,0,0,0,49,0,0,0,0,63,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
-Nullity's Freezing Cards,160,118,0,0,0,0,53,0,0,0,0,0,111,0,58,1,0,0,0,0,1,0,0,0,Raid,False,None
 Nullity's Frigid Cards (Level 160+),160,118,0,0,0,0,53,0,0,0,0,0,111,0,58,1,0,0,0,0,1,0,0,0,Raid,False,None
+Nullity's Freezing Cards,160,118,0,0,0,0,53,0,0,0,0,0,111,0,58,1,0,0,0,0,1,0,0,0,Raid,False,None
 Nullity's Glacial Cards,160,118,0,0,0,0,53,0,0,0,0,0,111,0,58,1,0,0,0,0,1,0,0,0,Raid,False,None
 Burrower's Thaumaturgy Deck (Level 160+),160,118,0,0,0,0,48,91,0,0,0,0,0,0,52,1,0,0,0,0,0,0,1,0,"Gold Key, Crowns",False,None
-Eternal Glimmering Deck,160,118,0,0,0,0,0,91,0,0,0,0,111,0,58,1,0,0,0,0,0,0,1,0,Crafting,False,None
-Great Inventor's Ice Deck (Level 160+),160,118,0,0,0,0,0,91,0,0,0,0,111,0,58,1,0,0,0,0,0,0,1,0,Crowns,False,None
-Eternal Crystalline Deck,160,118,0,0,0,0,0,91,0,0,0,0,111,0,58,1,0,0,0,0,0,0,1,0,Crafting,False,None
 Eternal Glistening Deck,160,118,0,0,0,0,0,91,0,0,0,0,111,0,58,1,0,0,0,0,0,0,1,0,Crafting,False,None
+Eternal Crystalline Deck,160,118,0,0,0,0,0,91,0,0,0,0,111,0,58,1,0,0,0,0,0,0,1,0,Crafting,False,None
+Great Inventor's Ice Deck (Level 160+),160,118,0,0,0,0,0,91,0,0,0,0,111,0,58,1,0,0,0,0,0,0,1,0,Crowns,False,None
+Eternal Glimmering Deck,160,118,0,0,0,0,0,91,0,0,0,0,111,0,58,1,0,0,0,0,0,0,1,0,Crafting,False,None
 Producer's Cryo Box,138,117,0,0,0,0,0,54,0,0,0,0,83,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
 Steely Enforcer's Deck,165,116,0,0,0,0,51,82,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,Drop,False,None
 Hierarch's Freezer Deck,145,116,0,0,0,0,42,0,0,0,0,0,89,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
@@ -81,17 +81,17 @@ Consultant Hazmat Box,132,97,0,0,0,0,32,0,0,0,0,0,57,0,0,1,0,0,0,0,0,0,0,1,"Drop
 Specialist Hazmat Box,132,97,0,0,0,0,28,34,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
 Uber Wonderneer Box,140,96,0,0,0,0,39,58,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Drop,False,None
 Wonderneer Square Deck,140,96,0,0,0,0,39,58,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Crafting,False,None
-Wonderneer Tear Deck,140,96,0,0,0,0,39,58,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Crafting,False,None
 Wonderneer Triangle Deck,140,96,0,0,0,0,39,58,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Crafting,False,None
+Wonderneer Tear Deck,140,96,0,0,0,0,39,58,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Crafting,False,None
 Wunderbar Wonderneer Box,140,94,0,0,0,0,38,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,"Drop, Bazaar, Stone Key",False,None
 Icy Liaison's Deck,130,94,0,0,0,0,34,37,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Quest,False,None
 Uber Candymancer Box,140,93,0,0,0,0,37,46,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Drop,False,None
 Cool Deck,140,93,0,0,0,0,31,46,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Quest,False,None
 Interstellar Officer's Deck,122,93,0,0,0,0,0,35,0,0,0,0,45,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar, Stone Key, Fishing",False,None
 Wunderbar Candymancer Box,140,91,0,0,0,0,35,44,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Stone Key",False,None
+Alphoi Hand of Winter,130,90,0,0,0,0,49,50,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Crafting,False,None
 Alphoi Cards of Snowfall,130,90,0,0,0,0,49,50,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Crafting,False,None
 Alphoi Deck of Frigid Winds,130,90,0,0,0,0,49,50,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Crafting,False,None
-Alphoi Hand of Winter,130,90,0,0,0,0,49,50,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Crafting,False,None
 Icy Paradox Deck,130,90,0,0,0,0,49,50,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Drop,False,None
 Guten Wonderneer Box,140,90,0,0,0,0,37,55,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Drop,False,None
 Floramancer Deck of Bark (Level 140+),140,90,0,0,0,0,0,58,0,0,0,0,106,0,56,1,0,0,0,0,0,0,0,1,Crowns,False,None
@@ -106,10 +106,10 @@ Interstellar Explorer's Deck,122,84,0,0,0,0,0,43,0,0,0,0,90,0,0,0,0,0,0,0,0,0,0,
 Tetrus Deck of Sleet,120,84,0,0,0,0,0,43,0,0,0,0,90,0,0,1,0,0,0,0,0,0,0,1,Drop,False,None
 Cabalist Deck of Vengeance,125,82,0,0,0,0,43,43,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Drop,False,None
 Trooper Officer Cards,150,80,0,0,0,0,46,70,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Drop,False,None
-Alphoi Beacon Cards,130,80,0,0,0,0,37,35,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Crafting,False,None
 Alphoi Archive Deck,130,80,0,0,0,0,37,35,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Crafting,False,None
 Alphoi Aethyrium Hand,130,80,0,0,0,0,37,35,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Crafting,False,None
 Divine Paradox Deck,130,80,0,0,0,0,37,35,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Drop,False,None
+Alphoi Beacon Cards,130,80,0,0,0,0,37,35,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Crafting,False,None
 Hopeful Zanadu Deck,130,78,0,0,0,0,34,35,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Drop,False,None
 PatternDancer's Hand,95,78,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Crafting,False,None
 Icy Night Mire Deck (Level 130+),130,75,0,0,0,0,22,62,0,0,0,0,0,0,42,1,0,0,0,0,0,0,1,0,Crowns,False,None
@@ -127,14 +127,14 @@ Istanboa Array of Icefall,118,67,0,0,0,0,40,42,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"
 Kobra Hand of Rigor,116,64,0,0,0,0,39,41,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
 Luphilim's Eternal Deck,110,63,0,0,0,0,34,35,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Stone Key,False,None
 Viper Cards of Numbing,114,61,0,0,0,0,38,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Village of Carpathes Case,100,60,0,0,0,0,18,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crafting,False,None
+Terror of Carpathes Cards (Square),100,60,0,0,0,0,18,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Crafting,False,None
 Terror of Carpathes Cards (Triangle),100,60,0,0,0,0,18,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Crafting,False,None
 Terror of Carpathes Cards (Tear),100,60,0,0,0,0,18,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Crafting,False,None
-Terror of Carpathes Cards (Square),100,60,0,0,0,0,18,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Crafting,False,None
-Village of Carpathes Case,100,60,0,0,0,0,18,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crafting,False,None
 Great Inventor's Ice Deck (Level 130+),130,60,0,0,0,0,0,77,0,0,0,0,83,0,47,1,0,0,0,0,0,0,1,0,Crowns,False,None
 Array of Mighty Istanboa,118,59,0,0,0,0,36,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Gold Vendor, Stone Key",False,None
-Chief Advisor's Pack of Lies,110,59,0,0,0,0,34,34,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Unavailable,False,None
 Ancient Deck of Horizon Hold,110,59,0,0,0,0,34,34,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Drop,False,None
+Chief Advisor's Pack of Lies,110,59,0,0,0,0,34,34,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Unavailable,False,None
 Parcel of the Arcanum Exile,110,59,0,0,0,0,34,34,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Drop,False,None
 Fang Deck of Frostfall,112,58,0,0,0,0,37,39,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
 Kobra Mercenary's Hand,116,56,0,0,0,0,35,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Gold Vendor,False,None
@@ -169,12 +169,12 @@ Great Inventor's Ice Deck (Level 110+),110,20,0,0,0,0,0,61,0,0,0,0,73,0,40,1,0,0
 Drawer of Secrets,85,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Gold Vendor,False,None
 Calendar Stone Cards,80,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Gold Vendor,False,None
 Watson's Cold Case,40,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Drop,False,None
-Gallery of Kembaalung (Square),25,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Drop,False,None
 Gallery of Kembaalung (Triangle),25,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Drop,False,None
+Gallery of Kembaalung (Square),25,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Drop,False,None
 Icy Imperial Court Deck (Level 170+),170,0,0,0,0,0,59,91,0,0,0,0,120,0,62,1,0,0,0,0,0,1,0,0,"Gold Key, Crowns",False,None
 Unwavering Chivalric Tome (Level 170+),170,0,0,0,0,0,59,91,0,0,0,0,120,0,62,1,0,0,0,0,0,1,0,0,"Gold Key, Crowns",False,None
-Wastelander's Chill Cards (Level 170+),170,0,0,0,0,0,54,91,0,0,0,0,133,0,68,1,0,0,0,0,0,0,0,1,Crowns,False,None
 Umbra Queen's Chill Cards (Level 170+),170,0,0,0,0,0,54,91,0,0,0,0,133,0,68,1,0,0,0,0,0,0,0,1,Rematch,False,None
+Wastelander's Chill Cards (Level 170+),170,0,0,0,0,0,54,91,0,0,0,0,133,0,68,1,0,0,0,0,0,0,0,1,Crowns,False,None
 Arctic Skyfarer's Deck (Level 160+),160,0,0,0,0,0,48,73,0,0,0,0,123,0,64,1,0,0,0,0,0,0,0,1,Crowns,False,None
 Malistaire's Chilly Deck (Level 160+),160,0,0,0,0,0,48,73,0,0,0,0,123,0,64,1,0,0,0,0,0,0,0,1,Rematch,False,None
 Wastelander's Chill Cards (Level 160+),160,0,0,0,0,0,48,73,0,0,0,0,123,0,64,1,0,0,0,0,0,0,0,1,Crowns,False,None
@@ -206,145 +206,145 @@ Wastelander's Chill Cards (Level 120+),120,0,0,0,0,0,18,56,0,0,0,0,89,0,48,1,0,0
 Icy Imperial Court Deck (Level 110+),110,0,0,0,0,0,12,49,0,0,0,0,73,0,40,1,0,0,0,0,0,1,0,0,Crowns,False,None
 Arctic Skyfarer's Deck (Level 110+),110,0,0,0,0,0,11,49,0,0,0,0,81,0,44,1,0,0,0,0,0,0,0,1,Crowns,False,None
 Wastelander's Chill Cards (Level 110+),110,0,0,0,0,0,11,49,0,0,0,0,81,0,44,1,0,0,0,0,0,0,0,1,Crowns,False,None
-Arcana of Neverwhere,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-Arctic Skyfarer's Deck (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Advanced Ice Deck,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Crowns,False,None
-Blackrock's Obsidian Deck,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Drop,False,None
-Arctic Skyfarer's Deck (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,0,0,0,0,0,0,1,Crowns,False,None
-Burrower's Thaumaturgy Deck (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Arctic Skyfarer's Deck (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,28,0,0,0,0,0,0,0,0,1,Crowns,False,None
-Brisk Breeze Pasteboards,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Stone Key",False,None
-Arctic Skyfarer's Deck (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Arctic Skyfarer's Deck (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Argent Rose Deck,73,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar",False,None
-Burrower's Thaumaturgy Deck (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,29,0,0,0,0,0,0,0,1,0,Crowns,False,None
-Astute Thaumaturge's Deck,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Gold Vendor, Bazaar",False,None
-Arctic Skyfarer's Deck (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0,0,0,0,0,0,0,0,1,Crowns,False,None
-Arctic Skyfarer's Deck (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Burrower's Thaumaturgy Deck (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Arctic Skyfarer's Deck (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0,0,0,0,1,Crowns,False,None
-Burrower's Thaumaturgy Deck (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Chilling Archival Array (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Cool Fairy Kei Box (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Burrower's Thaumaturgy Deck (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Arctic Skyfarer's Deck (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Arctic Skyfarer's Deck (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,0,0,0,0,0,0,1,Crowns,False,None
+Astute Thaumaturge's Deck,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Gold Vendor, Bazaar",False,None
 Chilling Archival Array (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,26,0,0,0,0,0,0,0,1,0,Crowns,False,None
-Burrower's Thaumaturgy Deck (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
-Cool Fairy Kei Box (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Arcana of Neverwhere,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
 Arctic Skyfarer's Deck (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Arctic Skyfarer's Deck (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,36,0,0,0,0,0,0,0,0,1,Crowns,False,None
-Chilling Archival Array (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,29,0,0,0,0,0,0,0,1,0,Crowns,False,None
-Deck of the Ice Wyrm,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar, Crowns",False,None
-Cards of the Blue Ague,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Gold Key, Stone Key",False,None
-Burrower's Thaumaturgy Deck (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,23,0,0,0,0,0,0,0,1,0,Crowns,False,None
-Chilling Archival Array (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Deck of Intent,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
-Burrower's Thaumaturgy Deck (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0,0,0,0,0,0,0,1,0,"Gold Key, Crowns",False,None
-Chilling Archival Array (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Blackrock's Obsidian Deck,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Drop,False,None
 Bundle of Mountain Snows,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
-Chilling Archival Array (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Cool Fairy Kei Box (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,23,0,0,0,0,0,0,1,0,0,Crowns,False,None
-Burrower's Thaumaturgy Deck (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,26,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Burrower's Thaumaturgy Deck (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
+Arctic Skyfarer's Deck (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Chilling Archival Array (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Cool Fairy Kei Box (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,23,0,0,0,0,0,0,1,0,0,Crowns,False,None
+Brisk Breeze Pasteboards,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Stone Key",False,None
 Burrower's Thaumaturgy Deck (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Burrower's Thaumaturgy Deck (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Arctic Skyfarer's Deck (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Chilling Archival Array (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0,0,0,0,0,0,0,1,0,"Housing Gauntlet, Crowns",False,None
-Arctic Skyfarer's Deck (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Burrower's Thaumaturgy Deck (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Burrower's Thaumaturgy Deck (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Argent Rose Deck,73,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar",False,None
+Burrower's Thaumaturgy Deck (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0,0,0,0,0,0,0,1,0,"Gold Key, Crowns",False,None
+Chilling Archival Array (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Deck of the Ice Wyrm,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar, Crowns",False,None
+Arctic Skyfarer's Deck (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cool Fairy Kei Box (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Chilling Archival Array (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Cool Fairy Kei Box (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,1,0,0,Crowns,False,None
+Burrower's Thaumaturgy Deck (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,29,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Arctic Skyfarer's Deck (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,36,0,0,0,0,0,0,0,0,1,Crowns,False,None
+Burrower's Thaumaturgy Deck (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,23,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Chilling Archival Array (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Burrower's Thaumaturgy Deck (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,26,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Cool Fairy Kei Box (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Arctic Skyfarer's Deck (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Cool Fairy Kei Box (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cards of the Blue Ague,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Gold Key, Stone Key",False,None
+Chilling Archival Array (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Chilling Archival Array (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,29,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Arctic Skyfarer's Deck (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0,0,0,0,0,0,0,0,1,Crowns,False,None
+Burrower's Thaumaturgy Deck (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Djinn Array of Wintertide,112,0,0,0,0,0,0,39,0,0,0,0,83,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Floramancer Deck of Bark (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0,0,0,0,1,Crowns,False,None
-Icy Night Mire Deck (Any Level),5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Hand of Tundra Blizzards,102,0,0,0,0,0,0,35,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Floramancer Deck of Bark (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Great Inventor's Ice Deck (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Ghastly Cerberus Master Deck (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
-Ghastly Cerberus Master Deck (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
-Great Inventor's Ice Deck (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Ghastly Cerberus Master Deck (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Icy Night Mire Deck (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Deck of Intent,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
 Floramancer Deck of Bark (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,36,0,0,0,0,0,0,0,0,1,Crowns,False,None
-Great Inventor's Ice Deck (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Frostbit Deck,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Gold Vendor, Bazaar",False,Celestian Frostbit Set
-Icy Night Mire Deck (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Introspective Deck,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Bazaar, Quest",False,None
-Great Inventor's Ice Deck (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Crowns,False,None
-Icy Night Mire Deck (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Icy Night Mire Deck (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Floramancer Deck of Bark (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Ghastly Cerberus Master Deck (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
 Great Inventor's Ice Deck (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Great Inventor's Ice Deck (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
-Icy Night Mire Deck (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,"Housing Gauntlet, Crowns",False,None
 Haru's Rational Deck,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Drop,False,None
-Floramancer Deck of Bark (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Kataba Fascicle of Glaciers,108,0,0,0,0,0,0,38,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Icy Night Mire Deck (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
-Ghastly Cerberus Master Deck (Any Level),5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Icy Night Mire Deck (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
-Hand of the Himoolayas,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Wooden Key",False,None
-Hand-Chased Box of Winter,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Icy Night Mire Deck (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Floramancer Deck of Bark (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Icy Night Mire Deck (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Malistaire's Chilly Deck (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,0,0,0,0,0,0,1,Rematch,False,None
-Mugsy's Deck of Ice,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Drop,False,None
+Ghastly Cerberus Master Deck (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Great Inventor's Ice Deck (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Great Inventor's Ice Deck (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Hand-Chased Box of Winter,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Floramancer Deck of Bark (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Kataba Fascicle of Glaciers,108,0,0,0,0,0,0,38,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Great Inventor's Ice Deck (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Crowns,False,None
+Icy Night Mire Deck (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Great Inventor's Ice Deck (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Introspective Deck,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Bazaar, Quest",False,None
+Frostbit Deck,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Gold Vendor, Bazaar",False,Celestian Frostbit Set
+Floramancer Deck of Bark (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Icy Night Mire Deck (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Hand of Tundra Blizzards,102,0,0,0,0,0,0,35,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Great Inventor's Ice Deck (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Icy Night Mire Deck (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Floramancer Deck of Bark (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0,0,0,0,1,Crowns,False,None
+Icy Night Mire Deck (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,"Housing Gauntlet, Crowns",False,None
+Icy Night Mire Deck (Any Level),5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Icy Night Mire Deck (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
 Eerem Gallery of Frostfall,118,0,0,0,0,0,0,42,0,0,0,0,89,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Paniwi's Sapphire Deck,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Novice Ice Deck,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Hand of the Himoolayas,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Wooden Key",False,None
+Icy Night Mire Deck (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Ghastly Cerberus Master Deck (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Great Inventor's Ice Deck (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Icy Night Mire Deck (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Icy Night Mire Deck (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Ghastly Cerberus Master Deck (Any Level),5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Icy Night Mire Deck (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Malistaire's Chilly Deck (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,0,0,0,0,0,0,1,Rematch,False,None
 Malistaire's Chilly Deck (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,Rematch,False,None
-Rubal Cards of Frostbite,114,0,0,0,0,0,0,40,0,0,0,0,85,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 O'Leary's Deck of Winter,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Set of the Ravenous Teeth (Triangle),60,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Stone Key,False,None
-Set of the Ravenous Teeth (Tear),60,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Stone Key,False,None
-Shadow Queen Deck of Crystals,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Unavailable,False,None
-Snowbound Tayg Gallery,106,0,0,0,0,0,0,37,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Set of the Ravenous Teeth (Square),60,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Stone Key,False,None
-Set of the Frosted Bleaks,104,0,0,0,0,0,0,36,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Gold Vendor,False,None
+Mugsy's Deck of Ice,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Drop,False,None
+Novice Ice Deck,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Rubal Cards of Frostbite,114,0,0,0,0,0,0,40,0,0,0,0,85,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Paniwi's Sapphire Deck,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Shadow Queen Box of Crystals,100,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0,0,0,0,0,1,0,0,0,Crafting,False,None
+Set of the Ravenous Teeth (Tear),60,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Stone Key,False,None
 Sand Sea Deck of Blusters,116,0,0,0,0,0,0,41,0,0,0,0,87,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Usegi's Careful Deck,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
-Thaumaturge's Deck,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
-Umbra Queen's Chill Cards (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,0,0,0,0,0,0,1,Rematch,False,None
-Wastelander's Chill Cards (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,0,0,0,0,0,0,1,Crowns,False,None
-Wastelander's Chill Cards (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0,0,0,0,1,Crowns,False,None
+Snowbound Tayg Gallery,106,0,0,0,0,0,0,37,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Set of the Ravenous Teeth (Triangle),60,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Stone Key,False,None
+Set of the Frosted Bleaks,104,0,0,0,0,0,0,36,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Gold Vendor,False,None
+Set of the Ravenous Teeth (Square),60,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Stone Key,False,None
 Snowcrusher Iceblock Deck,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-Wastelander's Chill Cards (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Wastelander's Chill Cards (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Wastelander's Chill Cards (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Sub Zero Deck,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Bazaar, Crafting",False,None
-Wastelander's Chill Cards (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Wastelander's Chill Cards (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Wastelander's Chill Cards (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,36,0,0,0,0,0,0,0,0,1,Crowns,False,None
-Upper Zigazag Arcana,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Drop,False,None
-Woodlocke Deck,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Wastelander's Chill Cards (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,28,0,0,0,0,0,0,0,0,1,Crowns,False,None
 Snowcrusher Iceblock Box,50,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0,"Drop, Crafting",False,None
+Wastelander's Chill Cards (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,36,0,0,0,0,0,0,0,0,1,Crowns,False,None
+Thaumaturge's Deck,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
+Sub Zero Deck,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Bazaar, Crafting",False,None
+Wastelander's Chill Cards (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Shadow Queen Deck of Crystals,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Unavailable,False,None
+Wastelander's Chill Cards (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Wastelander's Chill Cards (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Upper Zigazag Arcana,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Drop,False,None
+Wastelander's Chill Cards (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0,0,0,0,1,Crowns,False,None
+Wastelander's Chill Cards (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,28,0,0,0,0,0,0,0,0,1,Crowns,False,None
+Wastelander's Chill Cards (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,0,0,0,0,0,0,1,Crowns,False,None
+Usegi's Careful Deck,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Wastelander's Chill Cards (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Umbra Queen's Chill Cards (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,0,0,0,0,0,0,1,Rematch,False,None
 Wastelander's Chill Cards (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Armillary Deck,70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Gold Vendor, Bazaar",False,None
-Antique Deck,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Wooden Key",False,None
-Basket of Shaman's Juju,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
-Aristocrat's Deck,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar, Quest",False,None
+Wastelander's Chill Cards (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Woodlocke Deck,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Ancient Rubal Cards,114,0,0,0,0,0,0,33,0,0,0,0,43,0,0,1,0,0,0,0,0,0,1,0,Gold Vendor,False,None
-Deck of the Lotus,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
-Dragonfire Deck,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Bazaar, Quest",False,None
-Dunes Djinni's Array,112,0,0,0,0,0,0,32,0,0,0,0,42,0,0,1,0,0,0,0,0,0,1,0,Gold Vendor,False,None
-Deck of Chivalry,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar, Quest",False,None
-Hand of the Forlorn Tayg,106,0,0,0,0,0,0,30,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Cage of the Old Kings,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
+Antique Deck,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Wooden Key",False,None
+Armillary Deck,70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Gold Vendor, Bazaar",False,None
 Deck of the Sage,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar, Crowns",False,None
-Deck of Ancients,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Bazaar, Quest",False,None
-Deck of Deliberation,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Gold Vendor, Bazaar",False,None
-Hand of the Kataba Iceblock,108,0,0,0,0,0,0,31,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Deck of the Sand Sea,116,0,0,0,0,0,0,34,0,0,0,0,43,0,0,1,0,0,0,0,0,0,1,0,Gold Vendor,False,None
-Celestian Deck,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
+Deck of Chivalry,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar, Quest",False,None
 Duelist's Devil-May-Care Deck (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Deck of the Lotus,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Cage of the Old Kings,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
+Aristocrat's Deck,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar, Quest",False,None
+Dragonfire Deck,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Bazaar, Quest",False,None
 Eerem Palace Gallery,118,0,0,0,0,0,0,35,0,0,0,0,44,0,0,1,0,0,0,0,0,0,1,0,"Gold Vendor, Stone Key",False,None
-Knotwork Case,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Gold Vendor, Bazaar",False,None
+Celestian Deck,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
+Deck of the Sand Sea,116,0,0,0,0,0,0,34,0,0,0,0,43,0,0,1,0,0,0,0,0,0,1,0,Gold Vendor,False,None
+Deck of Deliberation,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Gold Vendor, Bazaar",False,None
+Deck of Ancients,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Bazaar, Quest",False,None
+Basket of Shaman's Juju,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
+Hand of the Kataba Iceblock,108,0,0,0,0,0,0,31,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Dunes Djinni's Array,112,0,0,0,0,0,0,32,0,0,0,0,42,0,0,1,0,0,0,0,0,0,1,0,Gold Vendor,False,None
+Hand of the Forlorn Tayg,106,0,0,0,0,0,0,30,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Mummified Deck,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Gold Vendor, Drop, Bazaar",False,None
-Runewarden's Deck,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
 Pinewood Deck,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
-Polarian Tundra Spelldeck,102,0,0,0,0,0,0,28,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Treasure Deck,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Gold Vendor, Bazaar, Quest",False,Celestian Totality Set
-Pharaoh's Deck,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Watchman's Deck,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar",False,None
 Sheaf of the Polarian Bleaks,104,0,0,0,0,0,0,29,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Gold Vendor,False,None
-Starter Deck,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Quest,False,None
+Knotwork Case,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Gold Vendor, Bazaar",False,None
 Malistaire's Forlorn Deck,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Pharaoh's Deck,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Runewarden's Deck,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Treasure Deck,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Gold Vendor, Bazaar, Quest",False,Celestian Totality Set
+Polarian Tundra Spelldeck,102,0,0,0,0,0,0,28,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Starter Deck,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Quest,False,None
+Watchman's Deck,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar",False,None

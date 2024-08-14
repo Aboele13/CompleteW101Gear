@@ -9,21 +9,21 @@ Trendy Fairy Kei Charm (Level 170+),170,476,0,10,0,0,0,59,0,0,0,0,98,0,0,0,0,0,0
 Xibalba Heavenly Amulet (Level 170+),170,476,0,10,0,0,0,59,0,0,0,0,98,0,0,0,0,0,0,0,1,0,1,Raid,False,None
 Fabled Dream Stalker Amulet,170,680,0,9,0,0,0,67,0,0,0,0,122,0,0,0,0,0,0,0,0,1,1,Crafting,False,None
 Epic Archival Ampul (Level 150+),150,492,0,9,0,0,0,54,0,0,0,0,84,0,0,0,0,0,0,0,0,1,1,Crowns,False,None
-Mythic Night Mire Amulet (Level 150+),150,492,0,9,0,0,0,54,0,0,0,0,167,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
 Gruesome Cerberus Master Ampul (Level 150+),150,492,0,9,0,0,0,54,0,0,0,0,167,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
+Mythic Night Mire Amulet (Level 150+),150,492,0,9,0,0,0,54,0,0,0,0,167,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
 Floramancer Amulet of Ages (Level 160+),140,469,0,9,0,0,0,49,0,0,0,0,225,0,0,0,0,0,0,1,0,1,0,Crowns,False,None
 Hunhau's Heavenly Amulet (Level 160+),160,469,0,9,0,0,0,49,0,0,0,0,203,0,0,0,0,0,0,1,0,1,0,Raid,False,None
 The Void's Mystic Totem,160,469,0,9,0,0,0,49,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Raid,False,None
-The Void's Mysterious Totem,160,469,0,9,0,0,0,49,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Raid,False,None
 The Void's Mythic Totem (Level 160+),160,469,0,9,0,0,0,49,0,0,0,0,225,0,0,0,0,0,0,1,0,1,0,Raid,False,None
+The Void's Mysterious Totem,160,469,0,9,0,0,0,49,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Raid,False,None
 Xibalba Heavenly Amulet (Level 160+),160,469,0,9,0,0,0,49,0,0,0,0,180,0,0,0,0,0,0,1,0,1,0,Raid,False,None
 Epic Archival Ampul (Level 140+),140,448,0,9,0,0,0,47,0,0,0,0,78,0,0,0,0,0,0,0,0,1,1,Crowns,False,None
 Mythic Night Mire Amulet (Level 140+),140,448,0,9,0,0,0,47,0,0,0,0,155,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
 The Void's Mythic Totem (Level 150+),150,431,0,9,0,0,0,47,0,0,0,0,208,0,0,0,0,0,0,1,0,1,0,Drop,False,None
 Floramancer Amulet of Ages (Level 140+),140,392,0,9,0,0,0,41,0,0,0,0,193,0,0,0,0,0,0,1,0,1,0,Crowns,False,None
 Eternal Surreal Charm,160,669,0,8,0,0,0,56,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crafting,False,None
-Eternal Dreamscape Charm,160,669,0,8,0,0,0,56,0,0,0,0,203,0,0,0,0,0,0,0,0,2,0,Crafting,False,None
 Eternal Dreamlike Charm,160,669,0,8,0,0,0,56,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crafting,False,None
+Eternal Dreamscape Charm,160,669,0,8,0,0,0,56,0,0,0,0,203,0,0,0,0,0,0,0,0,2,0,Crafting,False,None
 Great Inventor's Myth Ampul (Level 160+),160,669,0,8,0,0,0,56,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
 Great Inventor's Myth Ampul (Level 150+),150,615,0,8,0,0,0,54,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
 Great Inventor's Myth Ampul (Level 140+),140,559,0,8,0,0,0,47,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
@@ -38,12 +38,12 @@ Epic Archival Ampul (Level 110+),110,313,0,8,0,0,0,22,0,0,0,0,57,0,0,0,0,0,0,0,0
 Mythic Night Mire Amulet (Level 110+),110,313,0,8,0,0,0,22,0,0,0,0,114,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
 Floramancer Amulet of Ages (Level 110+),110,274,0,8,0,0,0,19,0,0,0,0,142,0,0,0,0,0,0,1,0,1,0,Crowns,False,None
 Epic Archival Ampul (Level 100+),100,268,0,8,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,"Housing Gauntlet, Crowns",False,None
-Mythic Night Mire Amulet (Level 100+),100,268,0,8,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,"Housing Gauntlet, Crowns",False,None
 Mythic Night Mire Amulet (Level 90+),90,268,0,8,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
+Mythic Night Mire Amulet (Level 100+),100,268,0,8,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,"Housing Gauntlet, Crowns",False,None
 Trendy Fairy Kei Charm (Level 100+),100,235,0,8,0,0,0,19,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,Crowns,False,None
-Mystic Chrysanthemum Ampul (Level 170+),170,544,0,7,0,0,0,50,0,0,0,0,122,0,0,0,0,0,0,0,1,0,1,"Gold Key, Crowns",False,None
-Summer Palace Charm (Level 170+),170,544,0,7,0,0,0,50,0,0,0,0,122,0,0,0,0,0,0,0,1,0,1,"Gold Key, Crowns",False,None
 Measured Chivalric Charm (Level 170+),170,544,0,7,0,0,0,50,0,0,0,0,122,0,0,0,0,0,0,0,1,0,1,"Gold Key, Crowns",False,None
+Summer Palace Charm (Level 170+),170,544,0,7,0,0,0,50,0,0,0,0,122,0,0,0,0,0,0,0,1,0,1,"Gold Key, Crowns",False,None
+Mystic Chrysanthemum Ampul (Level 170+),170,544,0,7,0,0,0,50,0,0,0,0,122,0,0,0,0,0,0,0,1,0,1,"Gold Key, Crowns",False,None
 Umbra Queen's Furious Totem (Level 170+),170,544,0,7,0,0,0,50,0,0,0,0,146,0,0,0,0,0,0,1,0,0,1,Rematch,False,None
 Wastelander's Furious Totem (Level 170+),170,544,0,7,0,0,0,50,0,0,0,0,146,0,0,0,0,0,0,1,0,0,1,Crowns,False,None
 Great Inventor's Myth Ampul (Level 130+),130,503,0,7,0,0,0,33,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
@@ -69,9 +69,9 @@ Wunderbar Artisan Rope,140,535,0,6,0,0,0,64,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,"Drop,
 Wastelander's Furious Totem (Level 150+),150,492,0,6,0,0,0,41,0,0,0,0,125,0,0,0,0,0,0,1,0,0,1,Crowns,False,None
 Mystic Chrysanthemum Ampul (Level 140+),140,448,0,6,0,0,0,35,0,0,0,0,97,0,0,0,0,0,0,0,1,0,1,Crowns,False,None
 Wastelander's Furious Totem (Level 140+),140,448,0,6,0,0,0,35,0,0,0,0,116,0,0,0,0,0,0,1,0,0,1,Crowns,False,None
-Nullity's Mysterious Totem,160,402,0,6,0,0,0,56,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Raid,False,None
 Nullity's Mystic Totem,160,402,0,6,0,0,0,56,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Raid,False,None
 Nullity's Mythic Totem (Level 160+),160,402,0,6,0,0,0,56,0,0,0,0,203,0,0,0,0,0,0,1,0,1,0,Raid,False,None
+Nullity's Mysterious Totem,160,402,0,6,0,0,0,56,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Raid,False,None
 Nullity's Mythic Totem (Level 150+),150,369,0,6,0,0,0,54,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Drop,False,None
 Yolok's Ampul of Observation,110,284,0,6,0,0,0,80,0,0,0,0,0,0,0,1,0,0,0,0,0,2,0,Unavailable,False,None
 Relic of the Shadow Palace,100,235,0,6,0,0,0,24,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,"Drop, Crafting",False,None
@@ -149,22 +149,22 @@ Burnished Rubal Locket,114,255,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Gold Ve
 Dunes Djinni's Pendant,112,247,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Gold Vendor,False,None
 Memento of the Bleaks,104,211,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Polarian Tundra Pendant,102,194,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Gold Vendor,False,None
-Supreme Old Judge Talisman,148,594,0,0,0,0,0,0,0,0,0,0,152,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Supreme Ancient One Talisman,148,594,0,0,0,0,0,74,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Supreme Ferocious Talisman,148,577,0,0,0,0,0,0,0,0,0,0,203,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Supreme Barbarian Talisman,148,577,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Supreme Old Judge Talisman,148,594,0,0,0,0,0,0,0,0,0,0,152,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Supreme Undaunting Talisman,148,577,0,0,0,0,0,87,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Supreme Barbarian Talisman,148,577,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Supreme Ferocious Talisman,148,577,0,0,0,0,0,0,0,0,0,0,203,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Hierarch's Ancient One Talisman,145,531,0,0,0,0,0,70,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Hierarch's Old Judge Talisman,145,531,0,0,0,0,0,0,0,0,0,0,141,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Hierarch's Undaunting Talisman,145,516,0,0,0,0,0,82,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Hierarch's Ferocious Talisman,145,516,0,0,0,0,0,0,0,0,0,0,187,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Hierarch's Barbarian Talisman,145,516,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Hierarch's Undaunting Talisman,145,516,0,0,0,0,0,82,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Lemurian Ancient One Talisman,142,500,0,0,0,0,0,66,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
 Lemurian Old Judge Talisman,142,500,0,0,0,0,0,0,0,0,0,0,131,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
 Horizon of Underworld Charm,82,489,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,"Drop, Bazaar",False,None
+Lemurian Undaunting Talisman,142,486,0,0,0,0,0,77,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
 Lemurian Ferocious Talisman,142,486,0,0,0,0,0,0,0,0,0,0,174,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
 Lemurian Barbarian Talisman,142,486,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
-Lemurian Undaunting Talisman,142,486,0,0,0,0,0,77,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
 Amulet of the Third Sun,80,465,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Epic Mind Talisman,140,442,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Quest,False,None
 Mondo Kalamar Amulet,127,417,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
@@ -178,8 +178,8 @@ Interstellar Hero's Charm,122,367,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Dro
 Blue Razor Collar,90,365,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,"Drop, Bazaar",False,None
 Sacred Burrower Pendant,92,365,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
 North Sun Ancestral Shell,80,363,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Executive Pressure Rope,138,361,0,0,0,0,0,0,0,0,0,0,188,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Director Pressure Rope,138,361,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Executive Pressure Rope,138,361,0,0,0,0,0,0,0,0,0,0,188,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Producer's Pressure Rope,138,361,0,0,0,0,0,86,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Cold Iron Torc,70,360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Dependable Squire's Torc,72,355,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
@@ -193,14 +193,14 @@ Torc of the Faithful Squire,72,325,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Dr
 Chief's Pressure Rope,135,323,0,0,0,0,0,0,0,0,0,0,174,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Lead's Pressure Rope,135,323,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Supervisor Pressure Rope,135,323,0,0,0,0,0,78,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Contractor Hazmat Rope,132,319,0,0,0,0,0,54,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
 Consultant Hazmat Rope,132,319,0,0,0,0,0,0,0,0,0,0,120,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
+Contractor Hazmat Rope,132,319,0,0,0,0,0,54,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
 Golden Gaze Necklace,80,315,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
 Home Hearth Relic,82,310,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,"Drop, Bazaar",False,None
 Berserker's Rage Pendant,68,305,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Stone Key",False,None
 Wise Wood Amulet,72,305,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,"Drop, Bazaar",False,None
-Contractor Pressure Rope,132,304,0,0,0,0,0,70,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
 Consultant Pressure Rope,132,304,0,0,0,0,0,0,0,0,0,0,160,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
+Contractor Pressure Rope,132,304,0,0,0,0,0,70,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
 Specialist Pressure Rope,132,304,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
 Mythic Liaison's Amulet,130,304,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Quest,False,None
 Pendant of the Wild Wings,82,303,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
@@ -236,18 +236,18 @@ Shining Shard Charm,62,265,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,"Drop, Baza
 Tears of the Sky Jade Charm,80,265,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar",False,None
 Sand Sea Amulet of Curiosity,116,262,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
 Amulet of the Mouse Scout,90,260,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,"Drop, Bazaar",False,None
-Charm of the Fierce Mantis,92,260,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,"Drop, Bazaar",False,None
 Benzzi's Campaign Memento,92,260,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,"Drop, Bazaar",False,None
+Charm of the Fierce Mantis,92,260,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,"Drop, Bazaar",False,None
 Collar of the Besieged,92,260,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,"Drop, Bazaar",False,None
 Collar of the Ice Hound,64,260,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Drop,False,None
 Last Wood Defender's Jewel,95,260,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Drop,False,None
-Mantis Prophet's Ornament,92,260,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,"Drop, Bazaar",False,None
-Mirror Shard Charm,62,260,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Bazaar,False,None
-Moon's Glow Jewel,96,260,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Quest,False,None
 Locket of the QuietOne,90,260,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,"Drop, Bazaar",False,None
+Mirror Shard Charm,62,260,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Bazaar,False,None
+Mantis Prophet's Ornament,92,260,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,"Drop, Bazaar",False,None
+Moon's Glow Jewel,96,260,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Quest,False,None
 Mouse Revenant's Talisman,92,260,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,"Drop, Bazaar",False,None
-Relic of Thriving Bastion,90,260,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,"Drop, Bazaar",False,None
 Olyphant's Power Pendant,64,260,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Unavailable,False,None
+Relic of Thriving Bastion,90,260,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,"Drop, Bazaar",False,None
 Stinger's Carcanet,92,260,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,"Drop, Bazaar",False,None
 ToeBiter's Cursed Relic,92,260,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,"Drop, Bazaar",False,None
 Sand Sea Wanderer's Charm,116,259,0,0,0,0,0,0,0,0,0,0,76,0,0,0,0,1,0,0,0,0,0,"Gold Vendor, Quest",False,None
@@ -256,15 +256,15 @@ Kobra Choker of Acumen,116,255,0,0,0,0,0,0,0,0,0,0,152,0,0,1,0,0,0,0,0,0,0,"Drop
 Apidae Village Memento,90,255,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Bumbler Talisman,90,255,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Collar of the Royal Guard,92,255,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Glider's Torc of Soaring,95,255,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
 Foothold Defender's Charm,95,255,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
+Glider's Torc of Soaring,95,255,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
 Jazzon's Medallion,90,255,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,"Gold Vendor, Bazaar",False,None
 Mouse Knight's Charm,90,255,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Night Dread's Choker,95,255,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
 Pepper Grass Jewel,90,255,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Pollen Collector's Amulet,95,255,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
-Star Shard Charm,62,255,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 SkyScreamer's Charm,90,255,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Star Shard Charm,62,255,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Umbra Soldier's Talisman,95,255,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
 Umbra Legion Amulet,90,255,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Torc of the Royal Guard,95,255,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
@@ -277,8 +277,8 @@ BurrowBuilder's Medallion,92,245,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,"Drop
 Necklace of the Lizard King,84,245,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crafting,False,None
 Rubal Locket of Formation,114,243,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Battletested Fang Collar,112,243,0,0,0,0,0,0,0,0,0,0,73,0,0,0,0,1,0,0,0,0,0,Gold Vendor,False,None
-Dark Snow Amulet,60,240,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Collar of the Icezilla,62,240,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Dark Snow Amulet,60,240,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Ruby and Sapphire Bauble,66,240,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Drop,False,None
 Stolid Squire's Circlet,72,240,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
 Rubal Wastes Necklace,114,239,0,0,0,0,0,0,0,0,0,0,74,0,0,1,0,0,0,0,0,1,0,Gold Vendor,False,None
@@ -308,8 +308,8 @@ Arcanum Conjurer's Amulet,108,221,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Dro
 Terrible Sun Amulet,84,220,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crafting,False,None
 Torc of Hidden Wisdom,72,220,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,"Drop, Bazaar",False,None
 Tundarian Enforcer's Charm,106,220,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Gold Vendor,False,None
-Memento of the Sun Caiman,86,218,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Drop,False,None
 Memento of the Storm Caiman,86,218,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Memento of the Sun Caiman,86,218,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Drop,False,None
 Tayg Collar of Folklore,106,217,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
 Enchanter's New Horizon Charm,106,214,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
 Fancy Tundarian Riviere,106,211,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Gold Vendor,False,None
@@ -320,18 +320,18 @@ Black Light Medallion,95,205,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Ven
 Polarian Kossack Medallion,104,204,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,"Drop, Bazaar",False,None
 Kronosaur's Shell of Passion,84,203,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Drop,False,None
 Bleaks Pendant of Mischief,104,202,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Barbarian Philosopher's Mark,75,200,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,Drop,False,None
 Blue Star Amulet,50,200,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,"Gold Vendor, Bazaar",False,None
+Barbarian Philosopher's Mark,75,200,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,Drop,False,None
 Fallen Star Charm,50,200,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Unavailable,False,None
-Memento of Tragedy,45,200,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Unavailable,False,None
 Jade Skycarrier Pendant,84,200,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crafting,False,None
 Knight of the Wyrd's Pendant,76,200,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,Drop,False,None
 Mantis Amulet of Fortitude,96,200,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Drop,False,None
+Memento of Tragedy,45,200,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Unavailable,False,None
 Order of Misfortune,40,200,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Unavailable,False,None
 Seely Wizard's Torc,76,200,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,Drop,False,None
 Red Star Amulet,50,200,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,"Gold Vendor, Bazaar",False,None
-Sun's Piercing Ray,50,200,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,"Gold Vendor, Bazaar",False,None
 Strength of the Oak Pendant,74,200,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,Drop,False,None
+Sun's Piercing Ray,50,200,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,"Gold Vendor, Bazaar",False,None
 Raven's Shadow Necklace,52,198,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Crafting,False,None
 Polarian Evoker's Charm,104,197,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Gold Vendor,False,None
 Kossack Locket of Counsel,104,195,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,"Drop, Bazaar",False,None
@@ -340,8 +340,8 @@ Shango's Shield Pendant,62,195,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, 
 Pachyderm's Strength Pendant,62,190,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Evoker's Strand of Acuity,104,189,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Gold Vendor,False,None
 Battlefield Blessing Charm,52,188,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,Crafting,False,None
-Memento of the Frigid Maw,102,188,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
 Moon of Talos Amulet,52,188,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Crafting,False,None
+Memento of the Frigid Maw,102,188,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
 Pearl of the Elementals,52,188,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crafting,False,None
 Raven Spirit Necklace,52,188,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crafting,False,None
 Tundra Talisman of Sagacity,102,186,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Gold Vendor,False,None
@@ -362,32 +362,32 @@ Charm of the Gold Aztecosaur,82,169,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,"D
 Shango's Lifeblade Amulet,60,165,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Gold Vendor, Bazaar",False,None
 Charm of the Black Pearl,52,160,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Jewel of the Apiary,92,160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,"Drop, Bazaar",False,None
-Shango's Deathblade Amulet,60,160,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Gold Vendor, Bazaar",False,None
 Shango's Mythblade Amulet,60,160,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Gold Vendor, Bazaar",False,None
+Shango's Deathblade Amulet,60,160,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Gold Vendor, Bazaar",False,None
 Token of the Underworld Sun,84,160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crafting,False,None
 Moon's Radiance Necklace,52,155,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Crafting,False,None
 Shango's Iceblade Amulet,60,155,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Gold Vendor, Bazaar",False,None
 Smashing Claw Charm,52,151,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Crafting,False,None
-Cow's Pearl Amulet,52,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,"Drop, Bazaar",False,None
 Deep-Deep Desert Charm,94,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Crafting,False,None
-Dragon Smoke Amulet,56,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,"Drop, Bazaar",False,None
-Garnet Spiral Necklace,50,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,"Gold Vendor, Bazaar",False,None
-Evergreen Spiral Necklace,50,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,"Gold Vendor, Bazaar",False,None
 Dragon's Shield Amulet,56,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,"Drop, Bazaar",False,None
-Garden of Vida Memento,94,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Crafting,False,None
-Elemental Defuse Amulet,52,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,"Drop, Bazaar",False,None
-Dragon's Amulet of Ill Omen,50,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Gold Vendor, Bazaar",False,None
+Cow's Pearl Amulet,52,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,"Drop, Bazaar",False,None
+Dragon Smoke Amulet,56,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,"Drop, Bazaar",False,None
 FireWing's Jewel,92,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,"Drop, Bazaar",False,None
+Elemental Defuse Amulet,52,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,"Drop, Bazaar",False,None
+Garden of Vida Memento,94,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Crafting,False,None
+Dragon's Amulet of Ill Omen,50,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Gold Vendor, Bazaar",False,None
+Evergreen Spiral Necklace,50,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,"Gold Vendor, Bazaar",False,None
+Garnet Spiral Necklace,50,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,"Gold Vendor, Bazaar",False,None
 Hopper's Desert Relic,94,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Crafting,False,None
 Hopper's Dustdevil Jewel,94,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Crafting,False,None
-Knight's Torc of Virtue,76,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,Drop,False,None
 Longshadow's Vial of Gloom,94,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Crafting,False,None
 Necklace of Weak Minds,50,150,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Shango's Fireblade Amulet,60,150,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Gold Vendor, Bazaar",False,None
+Knight's Torc of Virtue,76,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,Drop,False,None
 Night's Piercing Ray,50,150,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Sandstone Village Talisman,94,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Crafting,False,None
-Spirit Defuse Amulet,52,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,"Drop, Bazaar",False,None
+Shango's Fireblade Amulet,60,150,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Gold Vendor, Bazaar",False,None
 Squire's Gold Wrought Torc,70,150,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Spirit Defuse Amulet,52,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,"Drop, Bazaar",False,None
 Trader's Snowdrift Charm,94,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Crafting,False,None
 Wyrm's Curse Charm,54,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Shango's Stormblade Amulet,60,145,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Gold Vendor, Bazaar",False,None
@@ -402,11 +402,11 @@ Shining Cold House Amulet,82,133,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,"Drop
 Pitch Black Lake Plague Shell,82,132,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Great Wild Wood Pendant,78,130,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,Drop,False,None
 Numinous Torc,78,130,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Drop,False,None
-Trickster's Onyx Charm,50,130,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Gold Vendor, Bazaar",False,None
 Trickster's Garnet Charm,50,130,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Gold Vendor, Bazaar",False,None
+Trickster's Onyx Charm,50,130,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Gold Vendor, Bazaar",False,None
 Alphoi Guerilla Medallion,130,128,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Crafting,False,None
-Keen Beak Pendant,80,128,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
 Lively Paradox Amulet,130,128,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Drop,False,None
+Keen Beak Pendant,80,128,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
 Amulet of the Cold Wyrm,50,125,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Gold Vendor, Bazaar",False,None
 Alphoi Saboteur Medallion,130,125,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Crafting,False,None
 Balanced Paradox Amulet,130,125,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Drop,False,None
@@ -436,8 +436,8 @@ Stormy Paradox Amulet,130,107,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Drop,Fal
 Heart of Sky Greenstone Relic,86,105,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Quest",False,None
 Luphilim's Rapture Pendant,110,104,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Stone Key,False,None
 Crackling Zanadu Pendant,130,101,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Stone Key",False,None
-Moon's Grace Necklace,52,101,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,Crafting,False,None
 Luphilim's Valiant Pendant,110,101,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Stone Key,False,None
+Moon's Grace Necklace,52,101,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,Crafting,False,None
 Epic Archival Ampul (Level 50+),50,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,"Housing Gauntlet, Crowns",False,None
 Mother Moon's Hushed Charm,84,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crafting,False,None
 Tricksy Dragon Charm,56,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,"Drop, Bazaar",False,None
@@ -451,8 +451,8 @@ Luphilim's Blazing Bauble,110,92,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Stone
 Chronius' Continuum Circlet,50,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,"Drop, Crafting, Crowns",False,None
 Trendy Fairy Kei Charm (Level 50+),50,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,Crowns,False,None
 Luphilim's Howling Chain,110,86,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Stone Key,False,None
-Chronius' Continuum Amulet,50,80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Drop,False,None
 Burrower's Conjuration Amulet (Level 50+),50,80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,"Gold Key, Crowns",False,None
+Chronius' Continuum Amulet,50,80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Drop,False,None
 Mythic Night Mire Amulet (Level 50+),50,80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,"Housing Gauntlet, Crowns",False,None
 Gruesome Cerberus Master Ampul (Level 50+),50,80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
 Wastelander's Furious Totem (Level 50+),50,80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,Crowns,False,None
@@ -465,8 +465,8 @@ Rebus Medallion,60,65,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Stone Key
 Valkyrie's Light Pendant,52,63,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,Bazaar,False,None
 Heroic Torc,74,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crafting,False,None
 Northwind's Shielding Charm,52,58,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crafting,False,None
-Epic Archival Ampul (Level 30+),30,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,Crowns,False,None
 Epic Archival Ampul (Level 40+),40,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,Crowns,False,None
+Epic Archival Ampul (Level 30+),30,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,Crowns,False,None
 Great Inventor's Myth Ampul (Level 30+),30,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
 Great Inventor's Myth Ampul (Level 40+),40,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
 Vial of Fabled Shangri-Baa,25,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Drop,False,None
@@ -477,172 +477,172 @@ Spellwrought Band,74,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crafting,False
 Witch's Star Necklace,58,50,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Drop,False,None
 Smoking Fang Talisman,82,47,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,"Drop, Bazaar",False,None
 Burrower's Conjuration Amulet (Level 40+),40,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
-Mythic Night Mire Amulet (Level 30+),30,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
 Mythic Night Mire Amulet (Level 40+),40,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
-Wastelander's Furious Totem (Level 30+),30,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,Crowns,False,None
+Mythic Night Mire Amulet (Level 30+),30,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
 Wastelander's Furious Totem (Level 40+),40,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,Crowns,False,None
+Wastelander's Furious Totem (Level 30+),30,44,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,Crowns,False,None
 Shining Horns of Light Relic,88,43,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Drop,False,None
 Amulet of the Mind Monk,25,40,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Wooden Key",False,None
 Skystorm Necklace,52,38,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Crafting,False,None
 Pagoda of Harmony Memento,25,25,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Wooden Key",False,None
 Valkyrie's Pearl Pendant,52,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,"Drop, Bazaar",False,None
-Advanced Myth Charm,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,Crowns,False,None
-Burrower's Conjuration Amulet (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Burrower's Conjuration Amulet (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Epic Archival Ampul (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Crown's Charm of Adroitness,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Wooden Key",False,None
+Advanced Myth Charm,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,Crowns,False,None
+Fabled Skyfarer's Amulet (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Crowns,False,None
+Floramancer Amulet of Ages (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Epic Archival Ampul (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Great Inventor's Myth Ampul (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Great Inventor's Myth Ampul (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Burrower's Conjuration Amulet (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Fabled Skyfarer's Amulet (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Crowns,False,None
+Chronius' Continuum Circlet (Level 45+),45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Bazaar,False,None
+Fabled Skyfarer's Amulet (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Fabled Skyfarer's Amulet (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Epic Archival Ampul (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Fabled Skyfarer's Amulet (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Crowns,False,None
-Chronius' Continuum Circlet (Level 45+),45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,Bazaar,False,None
 Epic Archival Ampul (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,Crowns,False,None
-Fabled Skyfarer's Amulet (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Crowns,False,None
-Floramancer Amulet of Ages (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Fabled Skyfarer's Amulet (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Fabled Skyfarer's Amulet (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Crowns,False,None
-Great Inventor's Myth Ampul (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Fabled Skyfarer's Amulet (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Great Inventor's Myth Ampul (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Malistaire's Infamous Charm (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Rematch,False,None
+Burrower's Conjuration Amulet (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Great Inventor's Myth Ampul (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
 Gruesome Cerberus Master Ampul (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Locket of the Opera Nova,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Drop,False,None
-Mythic Night Mire Amulet (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
-Mythic Night Mire Amulet (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Great Inventor's Myth Ampul (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
-Ornament of Mesmerization,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Drop,False,None
 Mythic Night Mire Amulet (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Mythic Night Mire Amulet (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Mythic Night Mire Amulet (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
+Malistaire's Infamous Charm (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Rematch,False,None
 Trendy Fairy Kei Charm (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,Crowns,False,None
-Wastelander's Furious Totem (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Ornament of Mesmerization,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Drop,False,None
 Wastelander's Furious Totem (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Amulet of Free Movement,1,0,0,0,0,0,0,0,0,30,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Ahnic's Ethereal Pendant,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,"Drop, Bazaar",False,None
+Wastelander's Furious Totem (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Alphoi Brigadier Medallion,130,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Crafting,False,None
+Amulet of Dragon Steam,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Akori's Deepwater Amulet,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
+Amulet of Chilled Creatures,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar",False,None
+Amulet of Free Movement,1,0,0,0,0,0,0,0,0,30,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Amulet of Dark Desires,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Fishing",False,None
+Balance Mastery Amulet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Charging Pearl Pendant,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Bazaar, Stone Key",False,None
+Amber Charm of Trapped Moxie,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Arcane Ampul,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,"Bazaar, Crafting",False,None
 Amulet of Agony,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Amulet of Chilled Creatures,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar",False,None
-Amulet of Dragon Steam,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Balance Mastery Amulet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Amulet of Dark Desires,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Fishing",False,None
 Bellows' Bitter Cold Amulet,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Amber Charm of Trapped Moxie,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Bogeyman's Pendant,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
-Alphoi Brigadier Medallion,130,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Crafting,False,None
-Brilliant Night Mask Memento,86,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Drop,False,None
-Choker of Ferocity,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar, Quest",False,None
-Choker of Swarms,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
+Brood Mother's Lavalliere,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Drop,False,None
 Amulet of Eyes,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
+Bogeyman's Pendant,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
 Amulet of the Fay,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
+Brilliant Night Mask Memento,86,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Drop,False,None
+Bastilla's Deadly Choker,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
 Chaplet of the Death Knight,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Stone Key,False,None
 Champion's Decoy Choker,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,"Drop, Bazaar",False,None
-Charging Pearl Pendant,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Bazaar, Stone Key",False,None
-Brood Mother's Lavalliere,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Drop,False,None
-Bastilla's Deadly Choker,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
-Clanker's Choker of Bones,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar",False,None
+Choker of Ferocity,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar, Quest",False,None
+Ahnic's Ethereal Pendant,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,"Drop, Bazaar",False,None
+Choker of Swarms,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
 Choker of Mischief,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Fishing",False,None
-Collar of the Betrayed,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Stone Key,False,None
 Crisp Choker,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Bazaar, Crafting",False,None
-Diadem of Despair,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Clanker's Choker of Bones,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar",False,None
+Eye of the Fiery Feline,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Fishing",False,None
 Death Oni's Necklace of Doom,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Elven Pendant,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
-Forsaken Pendant,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Bazaar, Crafting",False,None
+Flash Frozen Choker,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
+Divine Paradox Amulet,130,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Unavailable,False,None
+Frost Crawler Necklace,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Fishing",False,None
+Collar of the Betrayed,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Stone Key,False,None
+Frost Giant's Talisman,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,Celestian Frostbit Set
+Diadem of Despair,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Exalted Life Amulet,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Drop,False,None
+Forsaken Pendant,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Bazaar, Crafting",False,None
+Empowered Talisman,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
+Fervent Charm,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,"Bazaar, Crafting",False,None
+Fire Mastery Amulet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Exalted Death Amulet,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Drop,False,None
 Death Mastery Amulet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Elven Pendant,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
+Exalted Balance Amulet,90,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Drop,False,None
+Exalted Ice Amulet,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Drop,False,None
+Earthquake Amulet,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
 Exalted Storm Amulet,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Drop,False,None
 Djeserit's Lucky Pendant,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
-Fushiko's Choker,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
-Divine Paradox Amulet,130,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Unavailable,False,None
-Gobblestone's Pendant,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
-Exalted Ice Amulet,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Drop,False,None
-Flash Frozen Choker,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
 Exalted Fire Amulet,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Drop,False,None
-Fervent Charm,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,"Bazaar, Crafting",False,None
-Earthquake Amulet,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
-Fire Mastery Amulet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Exalted Balance Amulet,90,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Drop,False,None
-Eye of the Fiery Feline,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Fishing",False,None
-Frost Crawler Necklace,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Fishing",False,None
-Empowered Talisman,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
-Exalted Death Amulet,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Drop,False,None
-Frost Giant's Talisman,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,Celestian Frostbit Set
+Fushiko's Choker,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
+Gobblestone's Pendant,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
 Greebly's Gemstone,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
 Hopeful Zanadu Pendant,130,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Stone Key",False,None
-Iceblade Vial,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
-Jade Oni's Amulet of Duplicity,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
-Katzenstein's Necklace,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,"Drop, Bazaar",False,None
 Ice Mastery Amulet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Life Mastery Amulet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Iceblade Vial,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
 Howling Werewolf's Collar,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Stone Key,False,None
-Jewel of the Dragons,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,Celestian Cinder Set
-Meowiarty's Satyrical Choker,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Malistaire's Forlorn Charm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Infectious Necklace,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Fishing",False,None
-Lovelorn Spirit's Amulet,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Stone Key,False,None
-Meowiarty's Fyery Necklace,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Judgement of Pitch Black Lake,88,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-Moon Pendant,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar, Fishing",False,None
+Jade Oni's Amulet of Duplicity,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
 Kepi's Aviary Amulet,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Life Mastery Amulet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Jewel of the Dragons,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,Celestian Cinder Set
+Judgement of Pitch Black Lake,88,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Katzenstein's Necklace,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,"Drop, Bazaar",False,None
 Jewel of the Feint,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,"Drop, Bazaar, Fishing",False,None
-Nebit's Locket of Whimsy,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,"Drop, Bazaar",False,None
-Mugsy's Meteorite Amulet,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar",False,None
-Nature's Circle of Calm,72,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,"Drop, Bazaar",False,None
-Legendary Vial,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Gold Vendor, Drop, Bazaar",False,None
-Lifetree Amulet,74,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crafting,False,None
+Moon Pendant,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar, Fishing",False,None
+Lovelorn Spirit's Amulet,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Stone Key,False,None
 Nellek's Regenerating Jewel,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
+Nature's Circle of Calm,72,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,"Drop, Bazaar",False,None
+Meowiarty's Fyery Necklace,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Meowiarty's Satyrical Choker,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Lifetree Amulet,74,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crafting,False,None
+Malistaire's Forlorn Charm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Nebit's Locket of Whimsy,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,"Drop, Bazaar",False,None
 Nganga's Strong Muti Pendant,68,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Stone Key",False,None
+Legendary Vial,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Gold Vendor, Drop, Bazaar",False,None
+Mugsy's Meteorite Amulet,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar",False,None
+Nova Necklace,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar, Fishing",False,Versatile Celestian Set
 Oyotomi's Snowstorm Pendant,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
+Pendant of the Icy Soul,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,"Drop, Bazaar",False,None
+O'Leary's Briney Amulet,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Pendant of Fangs,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Fishing",False,None
 Nightshade's Choker,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
+Plagued Collar of the Beast,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
 Old Smokey's Froggy Loop,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,"Drop, Bazaar",False,None
 Plucky Chameleon's Charm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Pendant of Fangs,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Fishing",False,None
-Protective Pendant,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Gold Vendor, Drop, Bazaar",False,None
-Scarecrow's Sinister Vial,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar, Fishing",False,Celestian Abyss Set
-Pendant of the Icy Soul,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,"Drop, Bazaar",False,None
-Pendant of Baobab Branches,62,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,"Drop, Bazaar",False,None
-Shemet's Bloody Choker,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,"Drop, Bazaar",False,None
-Rotunda's Torc,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
-Sanctuary Collar,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
-Seal of the Seven Seas,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Bazaar, Crafting",False,Celestian Totality Set
 Scratcher's Black Amulet,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Bazaar,False,None
-Proportional Pendant,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,"Bazaar, Crafting",False,None
-Nova Necklace,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar, Fishing",False,Versatile Celestian Set
-Scorched Talisman,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar, Fishing",False,None
 Orthrus's Choker,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar, Fishing",False,Storied Celestian Set
-Plagued Collar of the Beast,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
-Pendant of Pandemonium,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Bazaar, Crafting",False,None
-Smogger's Sand Choker,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-O'Leary's Briney Amulet,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Spirit's Flowering Choker,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
-Smoking Vial,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
-Sokkwi's Necklace of Skies,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,"Drop, Bazaar",False,None
-Spike's Amulet of Smiting,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,"Drop, Bazaar",False,None
-Spectral Choker,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
+Pendant of Baobab Branches,62,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,"Drop, Bazaar",False,None
+Scorched Talisman,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar, Fishing",False,None
+Protective Pendant,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Gold Vendor, Drop, Bazaar",False,None
+Sanctuary Collar,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
+Rotunda's Torc,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
 Shai's Amulet of Screams,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Proportional Pendant,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,"Bazaar, Crafting",False,None
+Shemet's Bloody Choker,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,"Drop, Bazaar",False,None
 Silver Rose Pendant,74,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crafting,False,None
-Sokkwi's Weathered Amulet,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar, Wooden Key",False,None
-Sprockets' Amulet,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Star Amulet,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar, Fishing",False,None
-Soulsapper's Twisted Ankh,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Scarecrow's Sinister Vial,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar, Fishing",False,Celestian Abyss Set
+Smogger's Sand Choker,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Sokkwi's Necklace of Skies,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,"Drop, Bazaar",False,None
 Son of Storms' Sigil,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,"Drop, Bazaar",False,None
+Smoking Vial,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
+Soulsapper's Twisted Ankh,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Spectral Choker,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
+Spirit's Flowering Choker,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
+Star Amulet,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar, Fishing",False,None
+Spike's Amulet of Smiting,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,"Drop, Bazaar",False,None
+Pendant of Pandemonium,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Bazaar, Crafting",False,None
+Sprockets' Amulet,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Seal of the Seven Seas,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Bazaar, Crafting",False,Celestian Totality Set
+Sokkwi's Weathered Amulet,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar, Wooden Key",False,None
 Squire's Torc of Deception,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Stone Key,False,None
-Storm Lord's Pendant,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,Celestian Tempest Set
-Swiftarrow's Necklace,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
+Talisman of the Tower,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar, Quest",False,None
 Talisman of Disorder,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Bazaar, Quest",False,None
-Swooping Necklace,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
-Troll Ear Pendant,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
-Vial of Stormy Seas,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar, Fishing",False,None
 Storm Mastery Amulet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Vial of the Sun,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar, Fishing",False,None
+Storm Lord's Pendant,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,Celestian Tempest Set
+Valkyrie's Star Necklace,58,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Drop,False,None
+Swiftarrow's Necklace,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
 Triton's Torc,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Bazaar, Crafting",False,None
+Vial of Rebirth,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar, Fishing",False,Everlasting Celestian Set
 Ursine Gold Band,74,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crafting,False,None
+Widow's Red Rising Amulet,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Vial of Stormy Seas,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar, Fishing",False,None
 Windstorm Choker,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Gold Vendor, Drop, Bazaar",False,None
+Witch Doctor's Juju Pendant,68,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Stone Key",False,None
+Storm Slitherer Gem,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Fishing",False,None
+Wyldfire Collar,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
+Troll Ear Pendant,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
+Vial of the Sun,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar, Fishing",False,None
+Swooping Necklace,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
+Vial of the Unchecked Ego,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Stone Key,False,None
 Vial of Frozen Fury,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Vial of Judgement,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
-Storm Slitherer Gem,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Fishing",False,None
-Witch Doctor's Juju Pendant,68,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Stone Key",False,None
-Wyldfire Collar,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
-Valkyrie's Star Necklace,58,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Drop,False,None
-Vial of the Unchecked Ego,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Stone Key,False,None
-Talisman of the Tower,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar, Quest",False,None
-Vial of Rebirth,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar, Fishing",False,Everlasting Celestian Set
-Triskelion Torc,74,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crafting,False,None
-Widow's Red Rising Amulet,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 War Oni's Tempestial Circle,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
+Triskelion Torc,74,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crafting,False,None

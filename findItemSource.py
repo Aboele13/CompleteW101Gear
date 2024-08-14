@@ -202,7 +202,7 @@ def order_sources_list(sources_list):
 
 def has_normal_drop(formatted_info, arr, actually_mount_from_housing = False):
     
-    ending_phrases = ["From Set", "Vendor", "Obtainable from", "Rewarded from", "Card Packs and Bundles", "Gift Card", "Granted by Interacting with ", "Crafting Recipe"]
+    ending_phrases = ["From Set", "Vendor", "Obtainable from", "Rewarded from", "Card Packs and Bundles", "Gift Card", "Granted by Interacting with ", "Crafting Recipe", "Looks Like Item"]
     
     try:
         i = formatted_info.index("Dropped By:") + 1 # clothing and accessories

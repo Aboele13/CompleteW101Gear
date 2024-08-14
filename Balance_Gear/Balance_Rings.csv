@@ -9,14 +9,14 @@ Burrower's Sorcery Ring (Level 160+),160,575,16,0,0,19,78,0,0,0,0,0,0,0,0,0,0,0,
 Hunhau's Vacuum Ring (Level 170+),170,561,16,0,0,21,91,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Raid,False,None
 Hunhau's Vacuum Ring (Level 160+),160,518,16,0,0,21,78,0,0,0,0,9,0,0,0,0,0,0,0,1,1,1,0,Raid,False,None
 Deft Dream Warper Ring,170,499,16,0,0,17,91,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Drop,False,None
-Umbra Queen's Dusty Loop (Level 170+),170,499,16,0,0,23,91,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,Rematch,False,None
 Wastelander's Dusty Loop (Level 170+),170,499,16,0,0,23,91,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,Crowns,False,None
+Umbra Queen's Dusty Loop (Level 170+),170,499,16,0,0,23,91,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,Rematch,False,None
 Just Enforcer's Ring,165,480,16,0,0,17,84,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Drop,False,None
 Abstract Masterpiece Ring,160,460,16,0,0,16,78,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Drop,False,None
 Elegant City Dweller Ring,160,460,16,0,0,17,78,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Drop,False,None
 Malistaire's Harmonic Band (Level 160+),160,460,16,0,0,23,78,0,0,0,0,10,0,0,0,0,0,0,0,1,1,1,0,Rematch,False,None
-Wastelander's Dusty Loop (Level 160+),160,460,16,0,0,23,78,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,Crowns,False,None
 Stable Skyfarer's Band (Level 160+),160,460,16,0,0,23,78,0,0,0,0,10,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Wastelander's Dusty Loop (Level 160+),160,460,16,0,0,23,78,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,Crowns,False,None
 Executive Protective Ring,138,184,16,0,0,0,81,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,"Drop, Bazaar",False,None
 Demiurge's Schemer Ring,150,507,15,0,0,18,83,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crafting,False,None
 Merciless Balance Ring,150,507,15,0,0,18,83,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,"Drop, Crowns",False,None
@@ -58,18 +58,18 @@ Executive Hazmat Ring,138,179,12,0,0,0,60,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,"Drop,
 Chief's Hazmat Ring,135,169,12,0,0,0,57,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Eternal Abstract Ring,160,575,11,0,0,21,89,0,0,0,0,9,0,0,0,0,0,0,0,1,1,1,0,Crafting,False,None
 Eternal Esoteric Ring,160,575,11,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crafting,False,None
-Great Inventor's Balance Ring (Level 160+),160,575,11,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,Crowns,False,None
 Eternal Abstruse Ring,160,575,11,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crafting,False,None
+Great Inventor's Balance Ring (Level 160+),160,575,11,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,Crowns,False,None
 Ghoulish Cerberus Master Ring (Level 150+),150,563,11,0,0,18,93,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
 Burrower's Sorcery Ring (Level 120+),120,533,11,0,0,17,56,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
 Floramancer Ring of Cycles (Level 160+),160,518,11,0,0,23,89,0,0,0,0,10,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
 The Void's Balanced Ring (Level 160+),160,518,11,0,0,23,89,0,0,0,0,10,0,0,0,0,0,0,0,1,1,1,0,Raid,False,None
-Nullity's Stable Ring,160,518,11,0,0,23,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Raid,False,None
 Nullity's Harmonic Ring,160,518,11,0,0,23,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Raid,False,None
+Nullity's Stable Ring,160,518,11,0,0,23,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Raid,False,None
 The Void's Harmonic Ring,160,518,11,0,0,23,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Raid,False,None
 The Void's Stable Ring,160,518,11,0,0,23,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Raid,False,None
-Wastelander's Dusty Loop (Level 120+),120,427,11,0,0,21,56,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,Crowns,False,None
 Stable Skyfarer's Band (Level 120+),120,427,11,0,0,21,56,0,0,0,0,9,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Wastelander's Dusty Loop (Level 120+),120,427,11,0,0,21,56,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,Crowns,False,None
 Shadow of the Land's Ring,96,355,11,0,0,14,0,0,0,0,6,0,0,0,0,0,0,1,0,0,0,0,0,Drop,False,None
 Magician's Balance Ring,150,295,11,0,0,0,99,0,0,0,13,0,0,0,0,0,0,1,0,0,1,0,0,Drop,False,None
 Delightful Dreamsearcher Ring,140,282,11,0,0,0,105,0,0,0,0,11,0,0,0,1,0,1,0,0,1,0,0,Crafting,False,None
@@ -124,8 +124,8 @@ Supreme Founder's Ring,148,281,9,0,0,0,70,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,"Drop,
 Supreme Old Judge Ring,148,281,9,0,0,0,66,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,"Drop, Bazaar",False,None
 Hierarch's Old Judge Ring,145,266,9,0,0,0,62,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Vanguard's Balanced Ring,130,263,9,0,0,0,101,0,0,0,12,0,0,0,0,0,0,1,0,0,1,0,0,"Crafting, Stone Key",False,None
-Balanced Paradox Ring,130,231,9,0,0,0,91,0,0,0,10,10,0,0,0,0,0,1,0,0,1,0,0,Unavailable,False,None
 Alphoi Saboteur Ring,130,231,9,0,0,0,91,0,0,0,10,10,0,0,0,0,0,1,0,0,1,0,0,Crafting,False,None
+Balanced Paradox Ring,130,231,9,0,0,0,91,0,0,0,10,10,0,0,0,0,0,1,0,0,1,0,0,Unavailable,False,None
 Amazing Skull Ring,140,226,9,0,0,0,72,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Quest,False,None
 Charmbeak's Karma Band,120,202,9,0,0,0,83,0,0,0,12,0,0,0,0,1,0,0,0,0,1,1,0,Stone Key,False,None
 Great Inventor's Balance Ring (Level 130+),130,543,8,0,0,19,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
@@ -172,9 +172,9 @@ Ring of Aztlan,88,330,6,0,0,13,0,0,0,0,11,0,0,0,0,1,0,0,0,0,1,0,0,Drop,False,Non
 Great Inventor's Balance Ring (Level 60+),60,297,6,0,0,18,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
 Gloom Dancer's Band,94,275,6,0,0,13,0,0,0,0,0,24,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
 Cute Fairy Kei Ring (Level 60+),60,268,6,0,0,16,14,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
-Balanced Night Mire Ring (Level 50+),50,265,6,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,"Housing Gauntlet, Crowns",False,None
 Astute Archival Band (Level 50+),50,265,6,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,2,0,1,0,"Housing Gauntlet, Crowns",False,None
 Burrower's Sorcery Ring (Level 50+),50,265,6,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,"Gold Key, Crowns",False,None
+Balanced Night Mire Ring (Level 50+),50,265,6,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,"Housing Gauntlet, Crowns",False,None
 Moon's Tear Band,94,245,6,0,0,13,0,0,0,0,17,0,0,0,0,1,0,0,0,0,1,0,0,Drop,False,None
 Gurtok Oroboros Loop,50,239,6,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,"Drop, Crafting, Crowns",False,None
 Gurtok Oroboros Coil,50,212,6,0,0,14,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Drop,False,None
@@ -194,16 +194,16 @@ Acampi Reedfist's Lost Seal,84,250,5,0,0,12,0,0,0,0,0,23,0,0,0,1,0,0,0,0,1,0,0,"
 Raven's Justice,50,247,5,0,0,8,0,12,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,"Gold Vendor, Bazaar",False,None
 Jewel of Nullification,50,237,5,0,0,10,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,Drop,False,Versatile Celestian Set
 Bleeding Sun Warrior's Loop,84,225,5,0,0,12,0,0,0,0,16,0,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
-Astute Archival Band (Level 40+),40,220,5,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,2,0,1,0,Crowns,False,None
 Antique Barkingham Ring,40,220,5,0,0,8,0,0,0,0,12,0,0,0,0,1,0,0,0,0,1,1,0,Drop,False,None
+Astute Archival Band (Level 40+),40,220,5,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,2,0,1,0,Crowns,False,None
 Balanced Night Mire Ring (Level 40+),40,220,5,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
 Ghoulish Cerberus Master Ring (Level 40+),40,220,5,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
 Ghoulish Cerberus Master Ring (Level 60+),60,209,5,0,0,12,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
 Esop's Dancing Ring,62,200,5,0,0,11,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Unathi's Nighttime Circle,62,200,5,0,0,11,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Tetrus Ringlet of Fusion,120,194,5,0,0,0,78,0,0,0,0,9,0,0,0,1,0,0,0,0,1,1,0,Drop,False,None
-Wastelander's Dusty Loop (Level 40+),40,176,5,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,Crowns,False,None
 Stable Skyfarer's Band (Level 40+),40,176,5,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Wastelander's Dusty Loop (Level 40+),40,176,5,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,Crowns,False,None
 Hall of Justice Signet,60,168,5,0,0,8,0,8,0,0,5,0,0,0,0,1,0,0,0,0,1,0,0,Drop,False,None
 Loranzo's Unbreakable Loop,110,152,5,0,0,0,78,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,Drop,False,None
 Steady Arcanum Exile Signet,110,144,5,0,0,0,76,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,Drop,False,None
@@ -223,14 +223,14 @@ Ring of the Wolf's Song,52,195,4,0,0,14,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,"Drop,
 Ring of Sister Wolf,52,185,4,0,0,0,0,0,0,0,23,0,0,0,0,1,0,0,0,0,1,1,0,"Drop, Bazaar",False,None
 Luphilim's Valiant Band,110,161,4,0,0,0,80,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,Stone Key,False,None
 Scales of Justice Band,60,151,4,0,0,6,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Stone Key",False,None
-Burrower's Sorcery Ring (Level 30+),30,144,4,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
 Balanced Night Mire Ring (Level 30+),30,144,4,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
+Burrower's Sorcery Ring (Level 30+),30,144,4,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
 Ghoulish Cerberus Master Ring (Level 30+),30,144,4,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
 Great Inventor's Balance Ring (Level 30+),30,144,4,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
 Gulag Guard's Stout Band,110,135,4,0,0,0,74,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,Drop,False,None
 Baba Yaga's Loop of Symmetry,105,135,4,0,0,0,56,0,0,0,6,0,0,0,0,1,0,0,0,0,1,1,0,Drop,False,None
-Stable Skyfarer's Band (Level 30+),30,116,4,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
 Wastelander's Dusty Loop (Level 30+),30,116,4,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,Crowns,False,None
+Stable Skyfarer's Band (Level 30+),30,116,4,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
 Order of the Silver Rose Seal,70,323,3,0,0,11,0,0,0,0,5,0,0,0,0,1,0,1,0,0,1,0,0,"Gold Vendor, Bazaar",False,None
 Bannerman's Honorbound Ring,72,293,3,0,0,11,0,14,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,"Drop, Bazaar",False,None
 Hopeful Zanadu Band,130,219,3,0,0,0,65,0,0,0,9,9,0,0,0,0,0,1,0,0,1,0,0,Drop,False,None
@@ -277,32 +277,32 @@ Sky Knight's Challenge Ring,86,340,0,0,0,15,0,0,0,0,25,0,0,0,0,1,0,0,0,0,1,1,0,C
 Lake Spiral Ring,72,336,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,"Drop, Bazaar",False,None
 Dun Dara's Triskelion,72,333,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,"Drop, Bazaar",False,None
 Ganelon's Lost Ring,72,331,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,"Drop, Bazaar",False,None
-Seal of the Fifth Column,99,320,0,0,0,15,0,19,0,0,0,36,0,0,0,0,0,1,0,0,0,0,0,Drop,False,None
 Seal of the Lost King,94,320,0,0,0,13,0,22,0,0,0,24,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Seal of the Fifth Column,99,320,0,0,0,15,0,19,0,0,0,36,0,0,0,0,0,1,0,0,0,0,0,Drop,False,None
 Knight Errant's Seal,72,314,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,"Drop, Bazaar",False,None
 Coatl Earth Mother's Ring,86,310,0,0,0,15,0,0,0,0,25,0,0,0,0,1,0,0,0,0,1,1,0,Crafting,False,None
 Ring of the Dying Star,98,310,0,0,0,14,0,18,0,0,0,35,0,0,0,0,0,1,0,0,0,0,0,Drop,False,None
 Band of the Lost Abbey,72,302,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,"Drop, Bazaar",False,None
-Argent Rose Ring,76,300,0,0,0,14,0,0,0,0,25,0,0,0,0,0,0,0,0,1,0,1,0,Crafting,False,None
 Band of Desert Mirages,96,300,0,0,0,18,0,0,0,0,15,0,0,0,0,0,0,0,0,1,1,1,0,Crafting,False,None
+Argent Rose Ring,76,300,0,0,0,14,0,0,0,0,25,0,0,0,0,0,0,0,0,1,0,1,0,Crafting,False,None
 Desert Stone of Gall,98,300,0,0,0,18,0,0,0,0,20,0,0,0,0,0,1,0,0,0,0,1,0,Crafting,False,None
-Gripping Ring,76,300,0,0,0,14,0,0,0,0,25,0,0,0,0,0,0,0,0,0,1,1,0,Crafting,False,None
+Hopper Ring of Spine-Chills,98,300,0,0,0,18,0,0,0,0,20,0,0,0,0,0,1,0,0,0,0,1,0,Crafting,False,None
 Die Another Day Ring,98,300,0,0,0,18,0,0,0,0,20,0,0,0,0,0,1,0,0,0,0,1,0,Crafting,False,None
 Dzorak's Ring of Shivers,96,300,0,0,0,18,0,0,0,0,15,0,0,0,0,0,0,0,0,1,1,1,0,Crafting,False,None
 Horned Ring,76,300,0,0,0,14,0,0,0,0,25,0,0,0,0,0,0,0,0,1,0,1,0,Crafting,False,None
-Hopper Ring of Spine-Chills,98,300,0,0,0,18,0,0,0,0,20,0,0,0,0,0,1,0,0,0,0,1,0,Crafting,False,None
 Hopper Ring of Visions,98,300,0,0,0,18,0,0,0,0,20,0,0,0,0,0,1,0,0,0,0,1,0,Crafting,False,None
+Gripping Ring,76,300,0,0,0,14,0,0,0,0,25,0,0,0,0,0,0,0,0,0,1,1,0,Crafting,False,None
 Kinsman's Bond,76,300,0,0,0,14,0,0,0,0,25,0,0,0,0,0,0,0,0,1,0,1,0,Crafting,False,None
 Raptorial Sentry's Loop,96,300,0,0,0,18,0,0,0,0,15,0,0,0,0,0,0,0,0,1,1,1,0,Crafting,False,None
+Ring of the Diabolica,96,300,0,0,0,18,0,0,0,0,15,0,0,0,0,0,0,0,0,1,1,1,0,Crafting,False,None
 Ring of Desert Blazes,98,300,0,0,0,18,0,0,0,0,20,0,0,0,0,0,1,0,0,0,0,1,0,Crafting,False,None
 Ring of the Day's Death,98,300,0,0,0,18,0,0,0,0,20,0,0,0,0,0,1,0,0,0,0,1,0,Crafting,False,None
-Ring of the Diabolica,96,300,0,0,0,18,0,0,0,0,15,0,0,0,0,0,0,0,0,1,1,1,0,Crafting,False,None
+Spider Shadow's Stone,68,300,0,0,0,13,0,0,0,0,13,0,0,0,0,1,1,0,0,0,0,0,0,Drop,False,None
+Silver Petal Band,76,300,0,0,0,14,0,0,0,0,25,0,0,0,0,0,0,0,0,0,1,1,0,Crafting,False,None
 Signet of the Sand Devil,98,300,0,0,0,18,0,0,0,0,20,0,0,0,0,0,1,0,0,0,0,1,0,Crafting,False,None
 Stone of the Wave Tamer,96,300,0,0,0,18,0,0,0,0,15,0,0,0,0,0,0,0,0,1,1,1,0,Crafting,False,None
-Silver Petal Band,76,300,0,0,0,14,0,0,0,0,25,0,0,0,0,0,0,0,0,0,1,1,0,Crafting,False,None
-Three-Lobed Seal,76,300,0,0,0,14,0,0,0,0,25,0,0,0,0,0,0,0,0,1,0,1,0,Crafting,False,None
-Spider Shadow's Stone,68,300,0,0,0,13,0,0,0,0,13,0,0,0,0,1,1,0,0,0,0,0,0,Drop,False,None
 Triskelion Band,76,300,0,0,0,14,0,0,0,0,25,0,0,0,0,0,0,0,0,1,0,1,0,Crafting,False,None
+Three-Lobed Seal,76,300,0,0,0,14,0,0,0,0,25,0,0,0,0,0,0,0,0,1,0,1,0,Crafting,False,None
 Zelda's Signet of Guidance,96,300,0,0,0,18,0,0,0,0,15,0,0,0,0,0,0,0,0,1,1,1,0,Crafting,False,None
 Zed's Ring of the Dead,96,300,0,0,0,18,0,0,0,0,15,0,0,0,0,0,0,0,0,1,1,1,0,Crafting,False,None
 Black Annie's Band,74,292,0,0,0,11,0,15,0,0,0,22,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
@@ -311,10 +311,10 @@ Ring of Rapport,56,288,0,0,0,15,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar"
 Supreme Ancient One Ring,148,281,0,0,0,0,70,0,0,0,0,15,0,0,0,0,1,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Falling Star's End Time Band,84,280,0,0,0,12,0,20,0,0,0,23,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Supreme Stability Ring,148,279,0,0,0,0,94,0,0,0,13,0,0,0,0,0,1,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Circle of Lion's Honor,66,275,0,0,0,13,0,0,0,0,24,0,0,0,0,0,1,0,0,0,0,1,0,Crafting,False,None
 Band of the Great Apes,66,275,0,0,0,13,0,0,0,0,24,0,0,0,0,0,1,0,0,0,0,1,0,Crafting,False,None
-Drum Jungle Shelter Ring,66,275,0,0,0,13,0,0,0,0,24,0,0,0,0,0,1,0,0,0,0,1,0,Crafting,False,None
+Circle of Lion's Honor,66,275,0,0,0,13,0,0,0,0,24,0,0,0,0,0,1,0,0,0,0,1,0,Crafting,False,None
 Elephant's Tusked Loop,66,275,0,0,0,13,0,0,0,0,24,0,0,0,0,0,1,0,0,0,0,1,0,Crafting,False,None
+Drum Jungle Shelter Ring,66,275,0,0,0,13,0,0,0,0,24,0,0,0,0,0,1,0,0,0,0,1,0,Crafting,False,None
 Lion's Seal of Pride,66,275,0,0,0,13,0,0,0,0,24,0,0,0,0,0,1,0,0,0,0,1,0,Crafting,False,None
 Olyphant's War Ring,66,275,0,0,0,13,0,0,0,0,24,0,0,0,0,0,1,0,0,0,0,1,0,Crafting,False,None
 Shield Circle of Zamunda,66,275,0,0,0,13,0,0,0,0,24,0,0,0,0,0,1,0,0,0,0,1,0,Crafting,False,None
@@ -333,8 +333,8 @@ Lemurian Stability Ring,142,248,0,0,0,0,83,0,0,0,12,0,0,0,0,1,0,0,0,0,0,0,0,"Dro
 Ring of Discovery,50,243,0,0,0,0,0,0,0,0,0,26,0,0,0,1,0,0,0,0,1,0,0,"Bazaar, Crafting",False,None
 Stone of the Other Side,78,242,0,0,0,12,0,15,0,0,0,33,0,0,0,1,0,0,0,0,1,1,0,Drop,False,None
 Everband of the Hoarder,45,240,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,Drop,False,None
-Mother Moon's Count Ring,84,240,0,0,0,12,0,20,0,0,17,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Lords of Night Challenge Ring,88,240,0,0,0,13,0,17,0,0,0,34,0,0,0,1,0,0,0,0,0,1,0,Drop,False,None
+Mother Moon's Count Ring,84,240,0,0,0,12,0,20,0,0,17,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Dazzling Celestian Ring,52,236,0,0,0,0,0,0,0,0,26,0,0,0,0,0,1,0,0,0,0,1,0,"Bazaar, Crafting",False,None
 Ring of Resolution,52,230,0,0,0,0,0,0,0,0,12,0,0,0,0,1,0,0,0,0,0,1,0,"Gold Vendor, Bazaar",False,None
 Crustacean Band,50,230,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,"Drop, Bazaar",False,None
@@ -359,24 +359,24 @@ Senator's Signet,54,205,0,0,0,0,0,0,0,0,0,15,0,0,0,0,0,1,0,0,0,0,0,"Gold Vendor,
 Ring of Claw,52,203,0,0,0,0,0,12,0,0,23,0,0,0,0,1,0,0,0,0,1,1,0,"Drop, Bazaar",False,None
 Band of Principles,50,201,0,0,0,0,0,0,0,0,9,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Ring of Awakening,56,201,0,0,0,15,0,0,0,0,20,0,0,0,0,0,0,1,0,0,1,0,0,"Bazaar, Crafting",False,None
+Aryanah's Golden Loop,64,200,0,0,0,13,0,0,0,0,12,0,0,0,0,1,0,1,0,0,1,0,0,"Drop, Bazaar",False,None
 Amahle's Striped Band,64,200,0,0,0,9,0,0,0,0,18,0,0,0,0,1,0,1,0,0,1,0,0,"Drop, Bazaar",False,None
 Band of Aid,45,200,0,0,0,0,0,0,0,0,9,9,0,0,0,1,1,1,0,0,0,0,0,"Drop, Crowns",False,None
-Aryanah's Golden Loop,64,200,0,0,0,13,0,0,0,0,12,0,0,0,0,1,0,1,0,0,1,0,0,"Drop, Bazaar",False,None
 Hannibal's Bronze Ring,62,200,0,0,0,12,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Kakenya's Broken Band,62,200,0,0,0,12,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Mondli's Green Stone,62,200,0,0,0,12,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Piscean Ring,52,200,0,0,0,16,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
 Mandisa's Star Stone,64,200,0,0,0,13,0,0,0,0,6,11,0,0,0,1,0,1,0,0,1,0,0,"Drop, Bazaar",False,None
-Ring of Rare Origins,58,200,0,0,0,15,0,0,0,0,21,0,0,0,0,1,0,0,0,0,1,1,0,"Drop, Bazaar",False,None
 Mago's River Stone,62,200,0,0,0,12,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Ring of Rare Origins,58,200,0,0,0,15,0,0,0,0,21,0,0,0,0,1,0,0,0,0,1,1,0,"Drop, Bazaar",False,None
+Piscean Ring,52,200,0,0,0,16,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
 Ring of the Fearless,55,200,0,0,0,15,0,0,0,15,0,0,0,0,0,0,0,0,0,0,1,1,0,Unavailable,False,None
 Tanei's Ghost Ring,64,200,0,0,0,4,0,0,0,0,24,0,0,0,0,1,1,0,0,0,0,1,0,"Drop, Bazaar, Stone Key",False,None
 Vir's Zafarite Stone,62,200,0,0,0,12,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Ring of Equilibrium,45,198,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,"Drop, Bazaar, Fishing",False,None
 Captain's Ring,56,195,0,0,0,14,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Celestian Ring,54,194,0,0,0,14,0,0,0,0,0,18,0,0,0,0,0,0,0,1,1,1,0,"Bazaar, Crafting",False,None
-Nomoonaga's Band,40,192,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,Drop,False,None
 Interstellar Delegate's Band,122,192,0,0,0,0,0,0,0,0,10,10,0,0,0,0,1,0,0,0,0,0,0,"Drop, Bazaar, Stone Key, Fishing",False,None
+Nomoonaga's Band,40,192,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,Drop,False,None
 Majestic Signet,56,190,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
 Ring of Exploration,52,190,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Wysteria Stone,27,190,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1,0,0,1,0,1,0,"Drop, Bazaar",False,None
@@ -415,17 +415,17 @@ Ring of Apotheosis,45,160,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,"Bazaar, Cra
 Sublime Band,58,160,0,0,0,15,0,0,0,0,18,0,0,0,0,1,0,0,0,0,1,1,0,"Drop, Bazaar",False,None
 Contractor Hazmat Ring,132,159,0,0,0,0,55,0,0,0,0,11,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Ethereal Ring,54,159,0,0,0,9,0,0,0,0,14,12,0,0,0,0,0,0,0,1,1,1,0,"Bazaar, Crafting",False,None
-Ring of the Introverted,35,157,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
 Signet of Ataraxia,40,157,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,"Bazaar, Quest",False,None
+Ring of the Introverted,35,157,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
 Band of the Boundless,45,155,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,"Drop, Bazaar",False,None
 Echo Ring,58,155,0,0,0,16,0,0,0,0,20,0,0,0,0,1,0,0,0,0,1,1,0,"Drop, Bazaar",False,None
 Eerem Signet of Ability,118,151,0,0,0,0,0,0,0,0,10,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Band of the Snow Owl,40,150,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Ring of the Naturewalker,40,150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,"Drop, Bazaar, Gold Key",False,None
-Ring of the Rose,45,150,0,0,0,7,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,"Drop, Crowns",False,None
 Sunken Celestian Circle,56,150,0,0,0,15,0,0,0,0,0,18,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Verdurous Band,25,150,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,"Drop, Crowns",False,None
+Ring of the Rose,45,150,0,0,0,7,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,"Drop, Crowns",False,None
 Unshakable Stone,45,150,0,0,0,15,0,0,0,15,0,0,0,0,0,0,0,0,0,0,1,1,0,Unavailable,False,None
+Verdurous Band,25,150,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,0,0,0,0,"Drop, Crowns",False,None
 Eerem Palace Signet,118,148,0,0,0,0,0,0,0,0,8,0,0,0,0,1,0,0,0,0,0,1,0,Gold Vendor,False,None
 Istanboa Signet of Scruples,118,147,0,0,0,0,0,0,0,0,10,8,0,0,0,0,0,1,0,0,1,0,0,"Drop, Bazaar",False,None
 Tournament Ring,26,145,0,0,0,0,0,0,0,0,6,3,0,0,0,0,0,1,0,1,1,0,0,"Drop, Bazaar",False,None
@@ -433,8 +433,8 @@ Widow's Noteworthy Ring,30,144,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,Drop,Fa
 Eerem Band of Harmony,118,143,0,0,0,0,81,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
 Istanboa Signet of Might,118,143,0,0,0,0,0,0,0,0,8,8,0,0,0,0,0,1,0,0,1,0,0,Gold Vendor,False,None
 Sand Sea Ring of Accord,116,141,0,0,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Bedazzled Band,45,140,0,0,0,0,0,0,0,0,0,15,0,0,0,0,0,1,0,1,1,0,0,"Gold Vendor, Bazaar",False,None
 Band of the Primitives,35,140,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Bedazzled Band,45,140,0,0,0,0,0,0,0,0,0,15,0,0,0,0,0,1,0,1,1,0,0,"Gold Vendor, Bazaar",False,None
 Tiny Bauble,45,140,0,0,0,0,0,0,0,0,14,0,0,0,0,0,1,0,0,1,0,1,0,"Drop, Bazaar",False,None
 Eerem Courtier's Band,118,139,0,0,0,0,74,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,Gold Vendor,False,None
 Sand Sea Ring,116,138,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,1,0,Gold Vendor,False,None
@@ -468,8 +468,8 @@ House Djinni's Signet,112,117,0,0,0,0,69,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Gold Ve
 Tayg Loop of Justice,106,117,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Band of Consistency,25,116,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Bazaar, Quest",False,None
 Signet of the Arcanum,108,115,0,0,0,0,61,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
-Seal of the Rime King,40,115,0,0,0,0,0,0,0,0,0,10,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Seal of the Seraphim,35,115,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,"Bazaar, Crafting",False,None
+Seal of the Rime King,40,115,0,0,0,0,0,0,0,0,0,10,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Usegi Ring of Domain,40,115,0,0,0,0,0,0,0,0,10,0,0,0,0,0,1,0,0,1,0,1,0,"Drop, Bazaar",False,None
 Tundarian Band of Equity,106,113,0,0,0,0,0,0,0,0,7,6,0,0,0,0,0,0,0,0,0,1,0,Gold Vendor,False,None
 Band of the Forlorn Tayg,106,113,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
@@ -520,8 +520,8 @@ Band of the Shrewd,15,75,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Gold Vendor,
 Cat Burglar's Ring,25,75,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar, Quest",False,None
 Brambled Band,23,75,0,0,0,5,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
 Jewel of Instinct,10,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
-Nails' Band of Stasis,25,75,0,0,0,0,0,0,0,0,0,5,0,0,0,0,1,0,0,1,0,0,0,"Drop, Bazaar",False,None
 Loop of the Lucky,25,75,0,0,0,9,0,0,0,15,0,0,0,0,0,0,0,0,0,0,1,1,0,Unavailable,False,None
+Nails' Band of Stasis,25,75,0,0,0,0,0,0,0,0,0,5,0,0,0,0,1,0,0,1,0,0,0,"Drop, Bazaar",False,None
 Band of the Skies,20,70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Stone of Confidence,20,70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
 Signet of Proportions,15,68,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
@@ -530,17 +530,17 @@ Band of Purpose,5,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",Fa
 Sandblasted Jewel,15,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Bazaar, Quest",False,None
 Djeserit's Signet,20,55,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,1,1,0,0,"Drop, Bazaar",False,None
 Widow's Breakneck Ring,30,55,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
-Band of the Bastion,20,50,0,0,0,0,0,0,0,0,3,0,0,0,0,0,1,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Band of Intuition,10,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
+Band of the Bastion,20,50,0,0,0,0,0,0,0,0,3,0,0,0,0,0,1,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Cryptkeeper's Band,10,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
 Signet of Significance,15,50,0,0,0,0,0,0,0,0,5,0,0,0,0,1,1,1,0,0,0,0,0,Crowns,False,None
 Burrower's Sorcery Ring (Level 10+),10,48,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Great Inventor's Balance Ring (Level 10+),10,48,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Ghoulish Cerberus Master Ring (Level 10+),10,48,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Great Inventor's Balance Ring (Level 10+),10,48,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Skullsplitter's Signet,10,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Band of Energy,15,47,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
-Band of the Vindicator,15,45,0,0,0,0,0,0,0,0,2,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar, Quest",False,None
 Band of Equilibrium,15,45,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Band of the Vindicator,15,45,0,0,0,0,0,0,0,0,2,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar, Quest",False,None
 Commoner's Ring,25,45,0,0,0,6,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,"Drop, Bazaar",False,None
 Signet of the North Wind,15,45,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
 Band of the Answer,15,42,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
@@ -557,9 +557,9 @@ Coruscating Ring,5,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Craftin
 Gravewynd's Circle,10,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Ring of Refreshment,5,30,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
 Seal of the Icicle,20,30,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,"Drop, Bazaar",False,None
-Ring of Elation,5,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
-Ring of Dependability,10,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Prince Karanahn's Loop,15,25,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,"Drop, Bazaar",False,None
+Ring of Dependability,10,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Ring of Elation,5,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
 Burrower's Sorcery Ring (Any Level),1,24,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Flawed Citrine Ring,5,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
 Floramancer Ring of Cycles (Any Level),5,22,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -571,134 +571,134 @@ Bastilla's Seal,10,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",F
 Flawed Opal Band,1,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar, Quest",False,None
 Lord's Signet,5,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Ancestral Ring,45,0,0,0,0,0,0,0,0,0,14,0,0,0,0,1,0,0,0,0,0,1,0,"Gold Vendor, Bazaar",False,None
-Aiuchi's Soul-Searching Ring,35,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
-Band of Brotherhood,45,0,0,0,0,0,0,0,0,0,14,15,0,0,0,1,0,0,0,0,1,1,0,"Drop, Bazaar",False,None
-Band of Incentive,10,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
-Animated Ring,25,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
 Advocate's Ring,15,0,0,0,0,0,0,0,0,0,3,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Band of Hope,30,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar, Fishing",False,None
-Band of Paradise,35,0,0,0,0,8,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Bazaar, Crafting",False,None
-Band of the Last Bulwark,45,0,0,0,0,10,0,0,0,0,0,8,0,0,0,1,0,0,0,0,1,1,0,"Bazaar, Quest",False,None
-Band of Sandcastles,40,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
-Band of the Contender,20,0,0,0,0,5,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
-Bizarre Band,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
-Brady's Provincial Ring,25,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,1,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Band of Quintessence,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,"Bazaar, Crafting",False,None
-Band of the Brave,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,Unavailable,False,None
-Band of the Oasis,20,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,1,0,1,0,"Drop, Bazaar",False,None
-Brimstone Band,45,0,0,0,0,10,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Animated Ring,25,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
 Band of Attunement,5,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
-Brady's Conventional Ring,30,0,0,0,0,0,0,0,0,0,0,8,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Band of Sandcastles,40,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
+Band of Brotherhood,45,0,0,0,0,0,0,0,0,0,14,15,0,0,0,1,0,0,0,0,1,1,0,"Drop, Bazaar",False,None
+Band of Quintessence,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,"Bazaar, Crafting",False,None
+Band of the Oasis,20,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,1,0,1,0,"Drop, Bazaar",False,None
+Band of Paradise,35,0,0,0,0,8,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Bazaar, Crafting",False,None
+Brimstone Band,45,0,0,0,0,10,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Band of the Winterhawk,25,0,0,0,0,2,0,0,0,0,2,0,0,0,0,0,1,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Burnished Band,25,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,1,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Coiled Ring of the Serpent,45,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,"Gold Vendor, Bazaar",False,None
-Band of the Mirage,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Band of the Hearth,45,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0,1,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Band of the Brave,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,Unavailable,False,None
 Clanker's Ring of Symmetry,30,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,Drop,False,None
-Doomcarved Ring,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Discerning Ring,35,0,0,0,0,0,0,0,0,0,11,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
-Duelist's Daredevil Ring (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,Unavailable,False,None
+Bizarre Band,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
+Coiled Ring of the Serpent,45,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,"Gold Vendor, Bazaar",False,None
+Aiuchi's Soul-Searching Ring,35,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
+Band of the Hearth,45,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0,1,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Brady's Provincial Ring,25,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,1,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Band of the Last Bulwark,45,0,0,0,0,10,0,0,0,0,0,8,0,0,0,1,0,0,0,0,1,1,0,"Bazaar, Quest",False,None
+Band of the Contender,20,0,0,0,0,5,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
+Brady's Conventional Ring,30,0,0,0,0,0,0,0,0,0,0,8,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Burnished Band,25,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,1,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Band of Incentive,10,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
+Band of the Mirage,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Band of Hope,30,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar, Fishing",False,None
 Crazed Preoccupied Ring,35,0,0,0,0,7,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
-Duelist's Daredevil Ring (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,Unavailable,False,None
-Duelist's Daredevil Ring (Level 130+),130,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,Unavailable,False,None
-Exquisite Band,30,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,"Drop, Bazaar, Quest",False,None
-Duelist's Daredevil Ring (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,Unavailable,False,None
-Duelist's Daredevil Ring (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,Unavailable,False,None
-Glimmering Band,45,0,0,0,0,0,0,0,0,0,0,13,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Golden Ring of Valor,20,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
-Duelist's Daredevil Ring (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,Unavailable,False,None
 Do-Daga's Band,35,0,0,0,0,0,0,0,0,0,8,9,0,0,0,0,0,0,0,0,1,1,0,"Drop, Bazaar",False,None
-Flawed Pearl Ring,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
-Flamesoul's Ring of the Cycle,45,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,"Drop, Bazaar",False,None
-Duelist's Daredevil Ring (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,Unavailable,False,None
-Eye of the Ancients,40,0,0,0,0,7,0,0,0,0,8,0,0,0,0,1,0,0,0,0,1,1,0,"Drop, Bazaar",False,None
-Dragontooth Ring,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Duelist's Daredevil Ring (Level 120+),120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,Unavailable,False,None
-Ice Raider's Ring,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
-Duelist's Daredevil Ring (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,Unavailable,False,None
-Frostward Seal,30,0,0,0,0,6,0,0,0,0,4,0,0,0,0,0,0,0,0,0,1,1,0,Drop,False,None
+Duelist's Daredevil Ring (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Duelist's Daredevil Ring (Level 110+),110,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,Unavailable,False,None
-Golden Stag's Ring of Elan,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Duelist's Daredevil Ring (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,Unavailable,False,None
+Duelist's Daredevil Ring (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,Unavailable,False,None
+Duelist's Daredevil Ring (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,Unavailable,False,None
+Duelist's Daredevil Ring (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,Unavailable,False,None
+Initiate's Ring,15,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,"Gold Vendor, Bazaar, Fishing",False,None
+Flamesoul's Ring of the Cycle,45,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,"Drop, Bazaar",False,None
+Dragontooth Ring,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Duelist's Daredevil Ring (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,Unavailable,False,None
+Jewel of Identity,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
+Ice Raider's Ring,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
+Gleaming Seal,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
+Duelist's Daredevil Ring (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,Unavailable,False,None
 Duelist's Daredevil Ring (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,Unavailable,False,None
 Frostbright Loop,40,0,0,0,0,0,0,0,0,0,0,11,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Gleaming Seal,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
-Duelist's Daredevil Ring (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,Unavailable,False,None
-Jewel of Identity,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
-Kanago's Ring of the Lotus,35,0,0,0,0,8,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
-Duelist's Daredevil Ring (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Initiate's Ring,15,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,"Gold Vendor, Bazaar, Fishing",False,None
-Lapis Circle,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Fishing",False,None
+Duelist's Daredevil Ring (Level 130+),130,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,Unavailable,False,None
+Exquisite Band,30,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,"Drop, Bazaar, Quest",False,None
+Glimmering Band,45,0,0,0,0,0,0,0,0,0,0,13,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Duelist's Daredevil Ring (Level 120+),120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,Unavailable,False,None
+Golden Stag's Ring of Elan,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Doomcarved Ring,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Flawed Pearl Ring,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
+Eye of the Ancients,40,0,0,0,0,7,0,0,0,0,8,0,0,0,0,1,0,0,0,0,1,1,0,"Drop, Bazaar",False,None
+Golden Ring of Valor,20,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
 Kanago's Band of Brainwork,35,0,0,0,0,7,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Duelist's Daredevil Ring (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,Unavailable,False,None
+Frostward Seal,30,0,0,0,0,6,0,0,0,0,4,0,0,0,0,0,0,0,0,0,1,1,0,Drop,False,None
+Lapis Circle,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Fishing",False,None
+Kanago's Ring of the Lotus,35,0,0,0,0,8,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
+Duelist's Daredevil Ring (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,Unavailable,False,None
+Discerning Ring,35,0,0,0,0,0,0,0,0,0,11,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
+Logical Band,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
 Loop of Quietude,20,0,0,0,0,0,0,0,0,0,0,4,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Loop of Retribution,15,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
+Loop of the Defender,15,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Loop of Tall Tales,15,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Meowiarty's Clever Ring,30,0,0,0,0,6,0,0,0,0,5,0,0,0,0,1,0,0,0,0,1,1,0,"Drop, Bazaar",False,None
-Maito's Band of the Wild,35,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0,1,0,0,1,0,1,0,"Drop, Bazaar",False,None
-Logical Band,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
-Loop of the Defender,15,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Powerful Ring,20,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
-Mysterious Band,30,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,1,1,0,0,"Drop, Bazaar",False,None
-Relic Ring,52,0,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
-O'Leary's Forest Band,30,0,0,0,0,0,0,0,0,0,6,7,0,0,0,0,0,0,0,1,0,1,0,"Drop, Bazaar",False,None
-Ring of Mortality,15,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar, Wooden Key",False,None
-Old Smokey's Band,25,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
-Puzzling Band,20,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Ring of Detachment,35,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
-Ring of Insight,10,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
-Ring of Scrutiny,35,0,0,0,0,7,0,0,0,0,0,8,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
-Partisan's Ring,15,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,"Drop, Bazaar",False,None
-Raven's Looper Ring,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Loop of Talent,15,0,0,0,0,2,0,0,0,0,0,1,0,0,0,0,0,1,0,0,1,0,0,"Drop, Bazaar",False,None
-Ring of Regard,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,"Drop, Bazaar",False,None
-Rejuvenating Circlet,20,0,0,0,0,0,0,0,0,0,0,4,0,0,0,1,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
-Ring of Rejuvenation,25,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,1,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
-Pops' Band of Stability,30,0,0,0,0,7,0,0,0,0,0,9,0,0,0,1,0,0,0,0,1,1,0,Drop,False,None
+Mysterious Band,30,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,1,1,0,0,"Drop, Bazaar",False,None
+Maito's Band of the Wild,35,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0,1,0,0,1,0,1,0,"Drop, Bazaar",False,None
+Loop of Retribution,15,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
 Nomoonaga's Analytical Ring,40,0,0,0,0,0,0,0,0,0,10,11,0,0,0,0,1,0,0,0,0,1,0,Drop,False,None
-Pharaoh's Seal,20,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,"Drop, Bazaar",False,None
+Old Smokey's Band,25,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
 Remedy Ring,50,0,0,0,0,0,0,0,0,0,0,23,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Ring of Subtlety,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar, Quest",False,None
-Ring of Refusal,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,Unavailable,False,None
-Ring of the Carbuncle,45,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0,1,0,0,1,0,1,0,"Drop, Bazaar",False,None
 Malistaire's Forlorn Band,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Pharaoh's Seal,20,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,"Drop, Bazaar",False,None
+Puzzling Band,20,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Pops' Band of Stability,30,0,0,0,0,7,0,0,0,0,0,9,0,0,0,1,0,0,0,0,1,1,0,Drop,False,None
 Pops's Band of the Mender,30,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,1,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Ring of Redemption,50,0,0,0,0,0,0,0,0,0,23,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Ring of the Badlands,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
-Ring of the Hunting Wolf,54,0,0,0,0,0,0,10,0,0,25,25,0,0,0,0,0,0,0,1,1,1,0,"Drop, Bazaar",False,None
-Ring of the Fount,24,0,0,0,0,7,0,0,0,0,5,0,0,0,0,0,1,0,0,0,0,1,0,"Gold Vendor, Drop, Bazaar",False,None
-Ring of Wyrmkind,45,0,0,0,0,0,0,0,0,0,0,15,0,0,0,0,0,1,0,1,1,0,0,"Drop, Bazaar",False,None
-Seal of Impetus,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
-Seething Ring,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
+Relic Ring,52,0,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
+Partisan's Ring,15,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,"Drop, Bazaar",False,None
+Ring of Insight,10,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
+O'Leary's Forest Band,30,0,0,0,0,0,0,0,0,0,6,7,0,0,0,0,0,0,0,1,0,1,0,"Drop, Bazaar",False,None
+Ring of the Carbuncle,45,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0,1,0,0,1,0,1,0,"Drop, Bazaar",False,None
+Raven's Looper Ring,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Rejuvenating Circlet,20,0,0,0,0,0,0,0,0,0,0,4,0,0,0,1,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
 Ring of the Forefathers,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Ring of the Vehement Lion,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Sparkling Band,15,0,0,0,0,0,0,0,0,0,0,2,0,0,0,1,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
-Signet of Intellect,15,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,"Bazaar, Quest",False,None
+Ring of Subtlety,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar, Quest",False,None
+Powerful Ring,20,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
+Ring of Refusal,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,Unavailable,False,None
+Ring of Rejuvenation,25,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,1,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
+Ring of Scrutiny,35,0,0,0,0,7,0,0,0,0,0,8,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
+Ring of Regard,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,"Drop, Bazaar",False,None
+Ring of Detachment,35,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
+Ring of Mortality,15,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar, Wooden Key",False,None
+Ring of the Fount,24,0,0,0,0,7,0,0,0,0,5,0,0,0,0,0,1,0,0,0,0,1,0,"Gold Vendor, Drop, Bazaar",False,None
+Ring of the Badlands,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
 Ring of the Hungry Wolf,54,0,0,0,0,14,0,0,0,0,12,22,0,0,0,0,0,0,0,1,1,1,0,"Drop, Bazaar",False,None
+Ring of the Glacier,40,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
+Ring of Truthiness,45,0,0,0,0,10,0,0,0,0,0,9,0,0,0,1,0,0,0,0,1,1,0,"Drop, Bazaar",False,None
+Ring of the Unicorn,25,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Rotunda's Regal Signet,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Seal of the Conqueror,20,0,0,0,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,1,1,0,"Drop, Bazaar",False,None
+Signet of Ancients,20,0,0,0,0,3,0,0,0,0,0,3,0,0,0,0,0,1,0,0,1,0,0,"Drop, Bazaar",False,None
+Seal of Impetus,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
+Seal of the Watchful,45,0,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0,1,0,1,1,0,0,"Drop, Bazaar",False,None
 Spiritist's Ring,25,0,0,0,0,6,0,0,0,0,0,8,0,0,0,1,0,0,0,0,1,1,0,"Bazaar, Quest",False,None
 Sphinx's Ring,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
-Ring of Truthiness,45,0,0,0,0,10,0,0,0,0,0,9,0,0,0,1,0,0,0,0,1,1,0,"Drop, Bazaar",False,None
-Rotunda's Regal Signet,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Signet of Aptitude,20,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
+Signet of Intellect,15,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,"Bazaar, Quest",False,None
 Signet of Authority,45,0,0,0,0,10,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Bazaar, Quest",False,None
-Shimmerstone,20,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
-Seal of the Conqueror,20,0,0,0,0,0,0,0,0,0,3,3,0,0,0,0,0,0,0,0,1,1,0,"Drop, Bazaar",False,None
-Seal of the Tundra,15,0,0,0,0,0,0,0,0,0,0,2,0,0,0,1,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
-Ring of the Unicorn,25,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Seal of the Gallium Paladin,45,0,0,0,0,0,0,0,0,0,13,14,0,0,0,1,0,0,0,0,1,1,0,"Drop, Bazaar",False,None
-Seal of the Watchful,45,0,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0,1,0,1,1,0,0,"Drop, Bazaar",False,None
-Ring of the Glacier,40,0,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
-Signet of the Chimera,45,0,0,0,0,10,0,0,0,0,13,0,0,0,0,1,0,0,0,0,1,1,0,"Drop, Bazaar",False,None
-Serpent Eye Band,45,0,0,0,0,0,0,0,0,0,0,14,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Seething Ring,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
 Seal of the Exemplar,45,0,0,0,0,10,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Bazaar, Crafting",False,None
-Student's Band,40,0,0,0,0,9,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Bazaar, Quest",False,None
-Superstitious Band,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
-Signet of Ancients,20,0,0,0,0,3,0,0,0,0,0,3,0,0,0,0,0,1,0,0,1,0,0,"Drop, Bazaar",False,None
-The Bonekeeper's Band,20,0,0,0,0,2,0,0,0,0,2,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Scratcher's Ring of Chivalry,25,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,Bazaar,False,None
-Thinker's Ring,15,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar, Quest",False,None
+Ring of the Hunting Wolf,54,0,0,0,0,0,0,10,0,0,25,25,0,0,0,0,0,0,0,1,1,1,0,"Drop, Bazaar",False,None
+Ring of Wyrmkind,45,0,0,0,0,0,0,0,0,0,0,15,0,0,0,0,0,1,0,1,1,0,0,"Drop, Bazaar",False,None
+Shimmerstone,20,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
+Seal of the Tundra,15,0,0,0,0,0,0,0,0,0,0,2,0,0,0,1,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
+Ring of the Vehement Lion,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Sparkling Band,15,0,0,0,0,0,0,0,0,0,0,2,0,0,0,1,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
+Serpent Eye Band,45,0,0,0,0,0,0,0,0,0,0,14,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Seal of the Gallium Paladin,45,0,0,0,0,0,0,0,0,0,13,14,0,0,0,1,0,0,0,0,1,1,0,"Drop, Bazaar",False,None
+Superstitious Band,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
+Signet of the Chimera,45,0,0,0,0,10,0,0,0,0,13,0,0,0,0,1,0,0,0,0,1,1,0,"Drop, Bazaar",False,None
+Signet of Aptitude,20,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
+Student's Band,40,0,0,0,0,9,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Bazaar, Quest",False,None
 Tarnished Noble's Ring,25,0,0,0,0,0,0,0,0,0,4,5,0,0,0,1,0,0,0,0,1,1,0,"Drop, Bazaar",False,None
 Swiftarrow's Signet,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Wavebringer's Ring,40,0,0,0,0,8,0,0,0,0,0,9,0,0,0,0,1,0,0,0,0,1,0,Drop,False,None
-Winged Circlet,25,0,0,0,0,6,0,0,0,0,5,6,0,0,0,1,0,0,0,0,1,1,0,"Drop, Bazaar",False,None
-Victor's Signet,15,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar, Wooden Key",False,None
-Watchman's Decoder Ring,25,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,1,0,0,1,0,0,0,"Drop, Bazaar",False,None
+Thinker's Ring,15,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar, Quest",False,None
+The Bonekeeper's Band,20,0,0,0,0,2,0,0,0,0,2,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Zaneki's Entranced Band,40,0,0,0,0,0,0,0,0,0,0,11,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
+Watchman's Decoder Ring,25,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,1,0,0,1,0,0,0,"Drop, Bazaar",False,None
+Wavebringer's Ring,40,0,0,0,0,8,0,0,0,0,0,9,0,0,0,0,1,0,0,0,0,1,0,Drop,False,None
+Victor's Signet,15,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar, Wooden Key",False,None
+Winged Circlet,25,0,0,0,0,6,0,0,0,0,5,6,0,0,0,1,0,0,0,0,1,1,0,"Drop, Bazaar",False,None
