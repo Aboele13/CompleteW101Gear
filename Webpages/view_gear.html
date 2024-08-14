@@ -187,125 +187,102 @@
     <table id="gearTable"></table>
 
     <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            let currentSortColumn = null;
-            let currentSortDirection = 'desc'; // Default sort direction
+        let lastSortedColumn = null;
     
-            function loadCSV() {
-                const school = document.getElementById('school').value;
-                const itemType = document.getElementById('itemType').value;
-                const csvUrl = `https://aboele13.github.io/CompleteW101Gear/${school}_Gear/${school}_${itemType}.csv`;
+        function loadCSV() {
+            const school = document.getElementById('school').value;
+            const itemType = document.getElementById('itemType').value;
+            const csvUrl = `https://aboele13.github.io/CompleteW101Gear/${school}_Gear/${school}_${itemType}.csv`;
     
-                Papa.parse(csvUrl, {
-                    download: true,
-                    header: true,
-                    complete: function(results) {
-                        const table = document.getElementById('gearTable');
-                        table.innerHTML = '';
+            Papa.parse(csvUrl, {
+                download: true,
+                header: true,
+                complete: function(results) {
+                    const table = document.getElementById('gearTable');
+                    table.innerHTML = '';
     
-                        // Create table headers
-                        const headers = results.meta.fields;
-                        const headerRow = document.createElement('tr');
-                        headers.forEach((header, index) => {
-                            const th = document.createElement('th');
-                            th.textContent = header;
-                            th.dataset.index = index; // Store column index for sorting
-                            th.addEventListener('click', () => sortTable(index));
-                            headerRow.appendChild(th);
+                    // Create table headers
+                    const headers = results.meta.fields;
+                    const headerRow = document.createElement('tr');
+                    headers.forEach((header, index) => {
+                        const th = document.createElement('th');
+                        th.textContent = header;
+                        th.addEventListener('click', () => sortTable(index));
+                        headerRow.appendChild(th);
+                    });
+                    table.appendChild(headerRow);
+    
+                    // Create table rows
+                    results.data.forEach(row => {
+                        const tr = document.createElement('tr');
+                        headers.forEach(header => {
+                            const td = document.createElement('td');
+                            td.textContent = row[header];
+                            tr.appendChild(td);
                         });
-                        table.appendChild(headerRow);
+                        table.appendChild(tr);
+                    });
     
-                        // Create table rows
-                        results.data.forEach(row => {
-                            const tr = document.createElement('tr');
-                            headers.forEach(header => {
-                                const td = document.createElement('td');
-                                td.textContent = row[header];
-                                tr.appendChild(td);
-                            });
-                            table.appendChild(tr);
-                        });
+                    // Apply filters
+                    filterTable();
+                }
+            });
+        }
     
-                        // Apply filter and sorting
-                        filterTable();
-                        if (currentSortColumn !== null) {
-                            sortTable(currentSortColumn);
-                        }
-                    }
-                });
-            }
+        function filterTable() {
+            const searchValue = document.getElementById('search').value.toLowerCase();
+            const levelFilter = parseInt(document.getElementById('level').value, 10);
+            const table = document.getElementById('gearTable');
+            const rows = table.querySelectorAll('tr:not(:first-child)');
     
-            function sortTable(columnIndex) {
-                const table = document.getElementById('gearTable');
-                const rows = Array.from(table.querySelectorAll('tr:not(:first-child)')); // Skip the header row
-                const header = table.querySelector('tr:first-child');
-                const headers = header.querySelectorAll('th');
-                const cellContent = rows[0].cells[columnIndex].textContent.trim();
-                const isNumeric = !isNaN(parseFloat(cellContent)) && isFinite(cellContent);
+            rows.forEach(row => {
+                const cells = row.querySelectorAll('td');
+                const nameCell = cells[0]; // Assuming "Name" is the first column
+                const levelCell = parseInt(cells[1].textContent, 10); // Assuming "Level" is the second column
     
-                // Determine the sort direction
-                const sortDirection = (currentSortColumn === columnIndex && currentSortDirection === 'desc') ? 'asc' : 'desc';
+                if (nameCell && nameCell.textContent.toLowerCase().includes(searchValue) && levelCell <= levelFilter) {
+                    row.style.display = '';
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+        }
     
-                // Sort the rows
-                rows.sort((rowA, rowB) => {
-                    const cellA = rowA.cells[columnIndex].textContent.trim();
-                    const cellB = rowB.cells[columnIndex].textContent.trim();
+        function sortTable(columnIndex) {
+            const table = document.getElementById('gearTable');
+            const rowsArray = Array.from(table.querySelectorAll('tr:not(:first-child)'));
+            const headers = table.querySelectorAll('th');
+            const headerText = headers[columnIndex].textContent;
+            const isNumericColumn = !isNaN(rowsArray[0].cells[columnIndex].textContent);
     
-                    if (isNumeric) {
-                        // Convert to numbers and sort in descending order
-                        return sortDirection === 'desc' ? parseFloat(cellB) - parseFloat(cellA) : parseFloat(cellA) - parseFloat(cellB);
-                    } else {
-                        // Sort alphabetically in ascending order
-                        return sortDirection === 'asc' ? cellA.localeCompare(cellB) : cellB.localeCompare(cellA);
-                    }
-                });
+            rowsArray.sort((a, b) => {
+                const aText = a.cells[columnIndex].textContent;
+                const bText = b.cells[columnIndex].textContent;
     
-                // Append sorted rows to the table
-                rows.forEach(row => table.appendChild(row));
+                const aValue = isNumericColumn ? parseFloat(aText) : aText;
+                const bValue = isNumericColumn ? parseFloat(bText) : bText;
     
-                // Update column headers to show sort direction
-                headers.forEach((header, index) => {
-                    header.classList.remove('sorted-asc', 'sorted-desc');
-                    if (index === columnIndex) {
-                        header.classList.add(sortDirection === 'desc' ? 'sorted-desc' : 'sorted-asc');
-                    }
-                });
+                if (isNumericColumn) {
+                    return bValue - aValue; // Descending for numeric columns
+                } else {
+                    return aValue.localeCompare(bValue); // Ascending for non-numeric columns
+                }
+            });
     
-                // Update current sort column and direction
-                currentSortColumn = columnIndex;
-                currentSortDirection = sortDirection;
-            }
+            rowsArray.forEach(row => table.appendChild(row));
     
-            function filterTable() {
-                const searchValue = document.getElementById('search').value.toLowerCase();
-                const levelFilter = parseInt(document.getElementById('level').value, 10);
-                const table = document.getElementById('gearTable');
-                const rows = table.querySelectorAll('tr:not(:first-child)');
+            // Restore the sorting arrow
+            headers.forEach((header, index) => {
+                header.classList.toggle('sorted-asc', index === columnIndex && !isNumericColumn);
+                header.classList.toggle('sorted-desc', index === columnIndex && isNumericColumn);
+            });
     
-                rows.forEach(row => {
-                    const nameCell = row.cells[0]; // Assuming "Name" column is the first column
-                    const levelCell = row.cells[1]; // Assuming "Level" column is the second column
+            // Save the last sorted column
+            lastSortedColumn = columnIndex;
+        }
     
-                    const nameMatch = nameCell && nameCell.textContent.toLowerCase().includes(searchValue);
-                    const levelMatch = levelCell && parseInt(levelCell.textContent, 10) <= levelFilter;
-    
-                    if (nameMatch && levelMatch) {
-                        row.style.display = '';
-                    } else {
-                        row.style.display = 'none';
-                    }
-                });
-            }
-    
-            // Attach event listeners to dropdowns and search input
-            document.getElementById('school').addEventListener('change', loadCSV);
-            document.getElementById('itemType').addEventListener('change', loadCSV);
-            document.getElementById('level').addEventListener('change', filterTable);
-            document.getElementById('search').addEventListener('input', filterTable);
-    
-            // Initial load
-            loadCSV();
-        });
+        // Initial load
+        loadCSV();
     </script>
     
 </body>
