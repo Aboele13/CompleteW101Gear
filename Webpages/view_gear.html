@@ -177,7 +177,7 @@
 
     <table id="gearTable"></table>
 
-    <script?>
+    <script>
         function loadCSV() {
             const school = document.getElementById('school').value;
             const itemType = document.getElementById('itemType').value;
@@ -206,7 +206,7 @@
                         const tr = document.createElement('tr');
                         headers.forEach(header => {
                             const td = document.createElement('td');
-                            td.textContent = row[header];
+                            td.textContent = row[header] || ''; // Handle empty values
                             tr.appendChild(td);
                         });
                         table.appendChild(tr);
