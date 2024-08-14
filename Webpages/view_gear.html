@@ -180,6 +180,8 @@
     <table id="gearTable"></table>
 
     <script>
+        let sortOrder = {}; // Object to store sort order for each column
+    
         function loadCSV() {
             const school = document.getElementById('school').value;
             const itemType = document.getElementById('itemType').value;
@@ -198,7 +200,7 @@
                     headers.forEach((header, index) => {
                         const th = document.createElement('th');
                         th.textContent = header;
-                        th.onclick = () => sortTable(index);
+                        th.addEventListener('click', () => sortTable(index, header));
                         headerRow.appendChild(th);
                     });
                     table.appendChild(headerRow);
@@ -214,10 +216,41 @@
                         table.appendChild(tr);
                     });
     
-                    // Apply filter and sort
+                    // Apply filter
                     filterTable();
                 }
             });
+        }
+    
+        function sortTable(columnIndex, header) {
+            const table = document.getElementById('gearTable');
+            const rows = Array.from(table.querySelectorAll('tr:not(:first-child)'));
+            const isNumericColumn = !['Name', 'Source', 'Owned', 'Gear Set'].includes(header);
+    
+            rows.sort((a, b) => {
+                const cellA = a.children[columnIndex].textContent;
+                const cellB = b.children[columnIndex].textContent;
+    
+                let valueA = isNumericColumn ? parseFloat(cellA) : cellA;
+                let valueB = isNumericColumn ? parseFloat(cellB) : cellB;
+    
+                if (isNaN(valueA)) valueA = cellA;
+                if (isNaN(valueB)) valueB = cellB;
+    
+                if (isNumericColumn) {
+                    return sortOrder[header] === 'asc' 
+                        ? valueB - valueA 
+                        : valueA - valueB;
+                } else {
+                    return sortOrder[header] === 'asc'
+                        ? valueA.localeCompare(valueB)
+                        : valueB.localeCompare(valueA);
+                }
+            });
+    
+            sortOrder[header] = (sortOrder[header] === 'asc') ? 'desc' : 'asc';
+    
+            rows.forEach(row => table.appendChild(row));
         }
     
         function filterTable() {
@@ -228,36 +261,16 @@
     
             rows.forEach(row => {
                 const nameCell = row.querySelector('td:first-child'); // Assuming the "Name" column is the first column
-                const levelCell = row.querySelector('td:nth-child(2)'); // Assuming the "Level" column is the second column
-                const nameVisible = nameCell && nameCell.textContent.toLowerCase().includes(searchValue);
-                const levelVisible = levelCell && parseInt(levelCell.textContent, 10) <= levelValue;
-                if (nameVisible && levelVisible) {
+                const levelCell = row.querySelectorAll('td')[1]; // Assuming the "Level" column is the second column
+                const level = parseInt(levelCell.textContent, 10);
+    
+                if (nameCell && nameCell.textContent.toLowerCase().includes(searchValue) &&
+                    level <= levelValue) {
                     row.style.display = '';
                 } else {
                     row.style.display = 'none';
                 }
             });
-        }
-    
-        function sortTable(columnIndex) {
-            const table = document.getElementById('gearTable');
-            const rows = Array.from(table.querySelectorAll('tr:not(:first-child)'));
-            const isNumericColumn = !isNaN(parseFloat(rows[0].querySelector(`td:nth-child(${columnIndex + 1})`).textContent));
-            
-            rows.sort((rowA, rowB) => {
-                const cellA = rowA.querySelector(`td:nth-child(${columnIndex + 1})`).textContent;
-                const cellB = rowB.querySelector(`td:nth-child(${columnIndex + 1})`).textContent;
-    
-                if (isNumericColumn) {
-                    // Convert to numbers for numeric columns
-                    return parseFloat(cellB) - parseFloat(cellA); // Descending order
-                } else {
-                    // Sort alphabetically for non-numeric columns
-                    return cellA.localeCompare(cellB); // Ascending order
-                }
-            });
-    
-            rows.forEach(row => table.appendChild(row));
         }
     
         // Initial load
