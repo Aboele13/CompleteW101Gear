@@ -187,8 +187,6 @@
     <table id="gearTable"></table>
 
     <script>
-        let lastSortedColumn = null;
-    
         function loadCSV() {
             const school = document.getElementById('school').value;
             const itemType = document.getElementById('itemType').value;
@@ -273,12 +271,11 @@
     
             // Restore the sorting arrow
             headers.forEach((header, index) => {
-                header.classList.toggle('sorted-asc', index === columnIndex && !isNumericColumn);
-                header.classList.toggle('sorted-desc', index === columnIndex && isNumericColumn);
+                header.classList.remove('sorted-asc', 'sorted-desc');
+                if (index === columnIndex) {
+                    header.classList.add(isNumericColumn ? 'sorted-desc' : 'sorted-asc');
+                }
             });
-    
-            // Save the last sorted column
-            lastSortedColumn = columnIndex;
         }
     
         // Initial load
