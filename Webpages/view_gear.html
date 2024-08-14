@@ -180,7 +180,8 @@
     <table id="gearTable"></table>
 
     <script>
-        let sortOrder = {}; // Object to store sort order for each column
+        let lastSortedColumn = null;
+        let sortAscending = true;
     
         function loadCSV() {
             const school = document.getElementById('school').value;
@@ -200,7 +201,7 @@
                     headers.forEach((header, index) => {
                         const th = document.createElement('th');
                         th.textContent = header;
-                        th.addEventListener('click', () => sortTable(index, header));
+                        th.onclick = () => sortTable(index);
                         headerRow.appendChild(th);
                     });
                     table.appendChild(headerRow);
@@ -222,33 +223,35 @@
             });
         }
     
-        function sortTable(columnIndex, header) {
+        function sortTable(columnIndex) {
             const table = document.getElementById('gearTable');
             const rows = Array.from(table.querySelectorAll('tr:not(:first-child)'));
-            const isNumericColumn = !['Name', 'Source', 'Owned', 'Gear Set'].includes(header);
+            const headers = table.querySelectorAll('th');
+            const isNumeric = !['Name', 'Source', 'Owned', 'Gear Set'].includes(header);
     
-            rows.sort((a, b) => {
-                const cellA = a.children[columnIndex].textContent;
-                const cellB = b.children[columnIndex].textContent;
+            if (lastSortedColumn === columnIndex) {
+                sortAscending = !sortAscending;
+            } else {
+                lastSortedColumn = columnIndex;
+                sortAscending = false;
+            }
     
-                let valueA = isNumericColumn ? parseFloat(cellA) : cellA;
-                let valueB = isNumericColumn ? parseFloat(cellB) : cellB;
+            rows.sort((rowA, rowB) => {
+                const cellA = rowA.cells[columnIndex].textContent;
+                const cellB = rowB.cells[columnIndex].textContent;
+    
+                let valueA = isNumeric ? parseFloat(cellA) : cellA;
+                let valueB = isNumeric ? parseFloat(cellB) : cellB;
     
                 if (isNaN(valueA)) valueA = cellA;
                 if (isNaN(valueB)) valueB = cellB;
     
-                if (isNumericColumn) {
-                    return sortOrder[header] === 'asc' 
-                        ? valueB - valueA 
-                        : valueA - valueB;
+                if (isNumeric) {
+                    return sortAscending ? valueA - valueB : valueB - valueA;
                 } else {
-                    return sortOrder[header] === 'asc'
-                        ? valueA.localeCompare(valueB)
-                        : valueB.localeCompare(valueA);
+                    return sortAscending ? valueA.localeCompare(valueB) : valueB.localeCompare(valueA);
                 }
             });
-    
-            sortOrder[header] = (sortOrder[header] === 'asc') ? 'desc' : 'asc';
     
             rows.forEach(row => table.appendChild(row));
         }
@@ -260,12 +263,13 @@
             const rows = table.querySelectorAll('tr:not(:first-child)');
     
             rows.forEach(row => {
-                const nameCell = row.querySelector('td:first-child'); // Assuming the "Name" column is the first column
-                const levelCell = row.querySelectorAll('td')[1]; // Assuming the "Level" column is the second column
-                const level = parseInt(levelCell.textContent, 10);
+                const nameCell = row.querySelector('td:first-child');
+                const levelCell = row.cells[1];
     
-                if (nameCell && nameCell.textContent.toLowerCase().includes(searchValue) &&
-                    level <= levelValue) {
+                const nameMatch = nameCell && nameCell.textContent.toLowerCase().includes(searchValue);
+                const levelMatch = levelCell && parseInt(levelCell.textContent, 10) <= levelValue;
+    
+                if (nameMatch && levelMatch) {
                     row.style.display = '';
                 } else {
                     row.style.display = 'none';
@@ -276,6 +280,6 @@
         // Initial load
         loadCSV();
     </script>
-
+    
 </body>
 </html>
