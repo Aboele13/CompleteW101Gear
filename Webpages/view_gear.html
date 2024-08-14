@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,20 +9,17 @@
             font-family: Arial, sans-serif;
             text-align: center;
         }
-
         .header {
             margin-top: 50px;
             font-size: 36px;
             font-weight: bold;
         }
-
         .tabs {
             margin-top: 30px;
             display: flex;
             justify-content: center;
             gap: 20px;
         }
-
         .tabs a {
             text-decoration: none;
             font-size: 18px;
@@ -33,16 +29,13 @@
             border-radius: 5px;
             transition: background-color 0.3s ease;
         }
-
         .tabs a:hover {
             background-color: #0056b3;
         }
-
         .tabs a.disabled {
             background-color: #a9a9a9;
             cursor: default;
         }
-
         .dropdowns {
             margin-top: 50px;
             display: flex;
@@ -50,19 +43,16 @@
             gap: 20px;
             flex-wrap: wrap;
         }
-
         .dropdowns select {
             font-size: 18px;
             padding: 10px;
             border-radius: 5px;
             border: 1px solid #ccc;
         }
-
         .dropdowns label {
             font-size: 20px;
             margin-right: 10px;
         }
-
         .checkbox-group {
             margin-top: 20px;
             display: flex;
@@ -70,25 +60,21 @@
             flex-wrap: wrap;
             gap: 20px;
         }
-
         .checkbox-group label {
             font-size: 18px;
             margin-bottom: 5px;
             display: flex;
             align-items: center;
         }
-
         .checkbox-group input[type="checkbox"] {
             margin-right: 10px;
         }
-
         .search-container {
             margin-top: 20px;
             display: flex;
             justify-content: center;
             gap: 10px;
         }
-
         .search-container input[type="text"] {
             font-size: 18px;
             padding: 10px;
@@ -96,35 +82,26 @@
             border: 1px solid #ccc;
             width: 200px;
         }
-
         table {
             margin-top: 30px;
             width: 80%;
             margin-left: auto;
             margin-right: auto;
             border-collapse: collapse;
-            cursor: pointer;
         }
-
-        table,
-        th,
-        td {
+        table, th, td {
             border: 1px solid black;
         }
-
-        th,
-        td {
+        th, td {
             padding: 10px;
             text-align: left;
         }
-
         th {
-            background-color: #f2f2f2;
+            cursor: pointer;
         }
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
 </head>
-
 <body>
 
     <div class="header">Complete Wizard101 Gear</div>
@@ -166,7 +143,7 @@
         </div>
         <div>
             <label for="level">Level:</label>
-            <select id="level" onchange="filterAndRenderTable()">
+            <select id="level" onchange="filterTable()">
                 <script>
                     for (let i = 170; i >= 1; i--) {
                         document.write('<option value="' + i + '">' + i + '</option>');
@@ -197,120 +174,101 @@
     </div>
 
     <div class="search-container">
-        <input type="text" id="search" oninput="filterAndRenderTable()" placeholder="Search for item names...">
+        <input type="text" id="search" oninput="filterTable()" placeholder="Search for item names...">
     </div>
 
     <table id="gearTable"></table>
 
     <script>
-        let fullData = [];
-        let filteredData = [];
-        let currentPage = 1;
-        const rowsPerPage = 50; // Number of rows to display per page
-        let currentSortKey = 'Name'; // Default sort key
-    
         function loadCSV() {
             const school = document.getElementById('school').value;
             const itemType = document.getElementById('itemType').value;
             const csvUrl = `https://aboele13.github.io/CompleteW101Gear/${school}_Gear/${school}_${itemType}.csv`;
-    
+
             Papa.parse(csvUrl, {
                 download: true,
                 header: true,
-                complete: function (results) {
-                    fullData = results.data;
-                    filterTable(); // Apply initial filter and render table
+                complete: function(results) {
+                    const table = document.getElementById('gearTable');
+                    table.innerHTML = '';
+
+                    // Create table headers
+                    const headers = results.meta.fields;
+                    const headerRow = document.createElement('tr');
+                    headers.forEach((header, index) => {
+                        const th = document.createElement('th');
+                        th.textContent = header;
+                        th.addEventListener('click', () => sortTable(index));
+                        headerRow.appendChild(th);
+                    });
+                    table.appendChild(headerRow);
+
+                    // Create table rows
+                    results.data.forEach(row => {
+                        const tr = document.createElement('tr');
+                        headers.forEach(header => {
+                            const td = document.createElement('td');
+                            td.textContent = row[header];
+                            tr.appendChild(td);
+                        });
+                        table.appendChild(tr);
+                    });
+
+                    // Apply filters
+                    filterTable();
                 }
             });
         }
-    
-        function renderTable(data) {
-            const table = document.getElementById('gearTable');
-            table.innerHTML = '';
-    
-            if (data.length === 0) {
-                table.innerHTML = '<tr><td colspan="100%">No data available</td></tr>';
-                return;
-            }
-    
-            const headers = Object.keys(data[0]);
-            const headerRow = document.createElement('tr');
-    
-            headers.forEach(header => {
-                const th = document.createElement('th');
-                th.textContent = header;
-                th.onclick = () => {
-                    currentSortKey = header; // Set the column to sort by
-                    sortData(header); // Sort and render
-                };
-                headerRow.appendChild(th);
-            });
-    
-            table.appendChild(headerRow);
-    
-            const startIndex = (currentPage - 1) * rowsPerPage;
-            const endIndex = startIndex + rowsPerPage;
-            const pageData = data.slice(startIndex, endIndex);
-    
-            pageData.forEach(row => {
-                const tr = document.createElement('tr');
-                headers.forEach(header => {
-                    const td = document.createElement('td');
-                    td.textContent = row[header];
-                    tr.appendChild(td);
-                });
-                table.appendChild(tr);
-            });
-    
-            updatePaginationControls();
-        }
-    
-        function sortData(key) {
-            filteredData.sort(function (a, b) {
-                let aValue = a[key];
-                let bValue = b[key];
-    
-                if (isNumeric(aValue) && isNumeric(bValue)) {
-                    aValue = parseFloat(aValue);
-                    bValue = parseFloat(bValue);
-                    return bValue - aValue; // Descending
-                } else {
-                    return aValue.localeCompare(bValue); // Ascending
-                }
-            });
-    
-            renderTable(filteredData);
-        }
-    
-        function isNumeric(value) {
-            return !isNaN(value - parseFloat(value));
-        }
-    
+
         function filterTable() {
             const searchValue = document.getElementById('search').value.toLowerCase();
             const levelValue = parseInt(document.getElementById('level').value, 10);
-    
-            filteredData = fullData.filter(row => {
-                const nameMatch = row['Name'].toLowerCase().includes(searchValue);
-                const levelMatch = parseInt(row['Level'], 10) <= levelValue;
-                return nameMatch && levelMatch;
+            const table = document.getElementById('gearTable');
+            const rows = table.querySelectorAll('tr:not(:first-child)');
+
+            rows.forEach(row => {
+                const nameCell = row.querySelector('td:first-child');
+                const levelCell = row.querySelector('td:nth-child(2)');
+                const nameMatches = nameCell && nameCell.textContent.toLowerCase().includes(searchValue);
+                const levelMatches = levelCell && parseInt(levelCell.textContent, 10) <= levelValue;
+
+                if (nameMatches && levelMatches) {
+                    row.style.display = '';
+                } else {
+                    row.style.display = 'none';
+                }
             });
-    
-            // Sort and render table after filtering
-            sortData(currentSortKey);
-    
-            currentPage = 1; // Reset to first page
-            renderTable(filteredData);
         }
-    
-        function updatePaginationControls() {
-            // Update pagination controls (add buttons, etc.) as needed
-            // For simplicity, this is left as a placeholder
+
+        function sortTable(columnIndex) {
+            const table = document.getElementById('gearTable');
+            const rows = Array.from(table.querySelectorAll('tr:not(:first-child)'));
+            const headerRow = table.querySelector('tr:first-child');
+            const isNumeric = rows.every(row => !isNaN(parseFloat(row.cells[columnIndex].textContent)));
+            const sortOrder = headerRow.dataset.sortOrder === 'asc' ? 'desc' : 'asc';
+
+            rows.sort((a, b) => {
+                const aValue = a.cells[columnIndex].textContent.trim();
+                const bValue = b.cells[columnIndex].textContent.trim();
+
+                if (isNumeric) {
+                    return sortOrder === 'asc'
+                        ? parseFloat(aValue) - parseFloat(bValue)
+                        : parseFloat(bValue) - parseFloat(aValue);
+                } else {
+                    return sortOrder === 'asc'
+                        ? aValue.localeCompare(bValue)
+                        : bValue.localeCompare(aValue);
+                }
+            });
+
+            rows.forEach(row => table.appendChild(row));
+            headerRow.dataset.sortOrder = sortOrder;
         }
-    
-        window.onload = loadCSV;
+
+        // Initial load
+        loadCSV();
     </script>
 
 </body>
-
 </html>
