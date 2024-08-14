@@ -121,26 +121,6 @@
         th {
             background-color: #f2f2f2;
         }
-
-        .pagination {
-            margin-top: 20px;
-        }
-
-        .pagination button {
-            font-size: 16px;
-            padding: 10px 20px;
-            margin: 0 5px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-            background-color: #007bff;
-            color: white;
-            cursor: pointer;
-        }
-
-        .pagination button.disabled {
-            background-color: #a9a9a9;
-            cursor: default;
-        }
     </style>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
 </head>
@@ -159,7 +139,7 @@
     <div class="dropdowns">
         <div>
             <label for="school">School:</label>
-            <select id="school" onchange="loadData()">
+            <select id="school" onchange="loadCSV()">
                 <option value="Balance">Balance</option>
                 <option value="Death">Death</option>
                 <option value="Fire">Fire</option>
@@ -171,7 +151,7 @@
         </div>
         <div>
             <label for="itemType">Item Type:</label>
-            <select id="itemType" onchange="loadData()">
+            <select id="itemType" onchange="loadCSV()">
                 <option value="Hats">Hat</option>
                 <option value="Robes">Robe</option>
                 <option value="Boots">Boots</option>
@@ -186,7 +166,7 @@
         </div>
         <div>
             <label for="level">Level:</label>
-            <select id="level" onchange="filterTable()">
+            <select id="level" onchange="filterAndRenderTable()">
                 <script>
                     for (let i = 170; i >= 1; i--) {
                         document.write('<option value="' + i + '">' + i + '</option>');
@@ -198,136 +178,145 @@
 
     <div class="checkbox-group">
         <label>Source:</label>
-        <label><input type="checkbox" value="Gold Vendor" checked> Gold Vendor</label>
-        <label><input type="checkbox" value="Drop" checked> Drop</label>
-        <label><input type="checkbox" value="Bazaar" checked> Bazaar</label>
-        <label><input type="checkbox" value="Crafting" checked> Crafting</label>
-        <label><input type="checkbox" value="Gold Key" checked> Gold Key</label>
-        <label><input type="checkbox" value="Stone Key" checked> Stone Key</label>
-        <label><input type="checkbox" value="Wooden Key" checked> Wooden Key</label>
-        <label><input type="checkbox" value="Housing Gauntlet" checked> Housing Gauntlet</label>
-        <label><input type="checkbox" value="Rematch" checked> Rematch</label>
-        <label><input type="checkbox" value="Quest" checked> Quest</label>
-        <label><input type="checkbox" value="One Shot Housing Gauntlet" checked> One Shot Housing Gauntlet</label>
-        <label><input type="checkbox" value="Fishing" checked> Fishing</label>
-        <label><input type="checkbox" value="Raid" checked> Raid</label>
-        <label><input type="checkbox" value="Crowns" checked> Crowns</label>
-        <label><input type="checkbox" value="Gift Card" checked> Gift Card</label>
-        <label><input type="checkbox" value="Unavailable" checked> Unavailable</label>
+        <label><input type="checkbox" checked> Gold Vendor</label>
+        <label><input type="checkbox" checked> Drop</label>
+        <label><input type="checkbox" checked> Bazaar</label>
+        <label><input type="checkbox" checked> Crafting</label>
+        <label><input type="checkbox" checked> Gold Key</label>
+        <label><input type="checkbox" checked> Stone Key</label>
+        <label><input type="checkbox" checked> Wooden Key</label>
+        <label><input type="checkbox" checked> Housing Gauntlet</label>
+        <label><input type="checkbox" checked> Rematch</label>
+        <label><input type="checkbox" checked> Quest</label>
+        <label><input type="checkbox" checked> One Shot Housing Gauntlet</label>
+        <label><input type="checkbox" checked> Fishing</label>
+        <label><input type="checkbox" checked> Raid</label>
+        <label><input type="checkbox" checked> Crowns</label>
+        <label><input type="checkbox" checked> Gift Card</label>
+        <label><input type="checkbox" checked> Unavailable</label>
     </div>
 
     <div class="search-container">
-        <input type="text" id="search" oninput="filterTable()" placeholder="Search for item names...">
+        <input type="text" id="search" oninput="filterAndRenderTable()" placeholder="Search for item names...">
     </div>
 
     <table id="gearTable"></table>
 
-    <div class="pagination">
-        <button id="prevBtn" onclick="changePage(-1)" class="disabled">Previous</button>
-        <button id="nextBtn" onclick="changePage(1)">Next</button>
-    </div>
-
     <script>
-        let data = [];
-        let originalData = []; // Store original data for consistent filtering
-    
+        let originalData = [];
+        let filteredData = [];
+        let sortedData = [];
+
         function loadCSV() {
             const school = document.getElementById('school').value;
             const itemType = document.getElementById('itemType').value;
             const csvUrl = `https://aboele13.github.io/CompleteW101Gear/${school}_Gear/${school}_${itemType}.csv`;
-    
+
             Papa.parse(csvUrl, {
                 download: true,
                 header: true,
                 complete: function (results) {
-                    data = results.data;
-                    originalData = [...data]; // Make a copy of the original data
-                    filterAndRenderTable(); // Render the table with all records initially
+                    originalData = results.data;
+                    filteredData = [...originalData]; // Initialize filtered data
+                    sortAndRenderTable(); // Initial render after loading
                 }
             });
         }
-    
+
         function filterAndRenderTable() {
             const searchValue = document.getElementById('search').value.toLowerCase();
             const levelValue = parseInt(document.getElementById('level').value, 10);
-    
-            // Apply filters
-            const filteredData = originalData.filter(row => {
-                const nameMatch = row['Name'].toLowerCase().includes(searchValue);
-                const levelMatch = parseInt(row['Level'], 10) <= levelValue;
+
+            filteredData = originalData.filter(row => {
+                const nameMatch = row['Name'] && row['Name'].toLowerCase().includes(searchValue);
+                const levelMatch = row['Level'] && parseInt(row['Level'], 10) <= levelValue;
                 return nameMatch && levelMatch;
             });
-    
-            renderTable(filteredData);
+
+            sortAndRenderTable();
         }
-    
-        function renderTable(data) {
-            const table = document.getElementById('gearTable');
-            table.innerHTML = '';
-    
-            if (data.length === 0) {
-                table.innerHTML = '<tr><td colspan="100%">No data available</td></tr>';
-                return;
+
+        function sortAndRenderTable() {
+            const sortKey = document.querySelector('th.sorted')?.dataset.key; // Get the current sort key if any
+            if (sortKey) {
+                sortData(sortKey);
+            } else {
+                sortedData = [...filteredData]; // No sorting needed if no key
             }
-    
-            const headers = Object.keys(data[0]);
-            const headerRow = document.createElement('tr');
-    
-            headers.forEach(header => {
-                const th = document.createElement('th');
-                th.textContent = header;
-                th.onclick = () => sortData(header);
-                headerRow.appendChild(th);
-            });
-    
-            table.appendChild(headerRow);
-    
-            data.forEach(row => {
-                const tr = document.createElement('tr');
-                headers.forEach(header => {
-                    const td = document.createElement('td');
-                    td.textContent = row[header];
-                    tr.appendChild(td);
-                });
-                table.appendChild(tr);
-            });
+            renderTable(sortedData);
         }
-    
+
         function sortData(key) {
-            // Ensure sorting is applied to the original data
-            data.sort(function (a, b) {
+            sortedData = [...filteredData];
+            sortedData.sort(function (a, b) {
                 let aValue = a[key];
                 let bValue = b[key];
-    
+
                 if (isNumeric(aValue) && isNumeric(bValue)) {
                     aValue = parseFloat(aValue);
                     bValue = parseFloat(bValue);
-    
+
                     if (aValue < bValue) return 1; // Descending
                     if (aValue > bValue) return -1; // Descending
                     return 0;
                 }
-    
+
                 // Not Numeric
                 if (aValue < bValue) return -1; // Ascending / Alphabetical
                 if (aValue > bValue) return 1; // Ascending / Alphabetical
                 return 0;
             });
-    
-            filterAndRenderTable(); // Re-apply filters after sorting
         }
-    
+
         function isNumeric(value) {
             return !isNaN(value - parseFloat(value));
         }
-    
-        // Attach event listeners to dropdowns and search input
-        document.getElementById('school').addEventListener('change', loadCSV);
-        document.getElementById('itemType').addEventListener('change', loadCSV);
-        document.getElementById('search').addEventListener('input', filterAndRenderTable);
-        document.getElementById('level').addEventListener('change', filterAndRenderTable);
-    
-        // Initial load
+
+        function renderTable(data) {
+            const table = document.getElementById('gearTable');
+            table.innerHTML = '';
+
+            if (data.length === 0) {
+                table.innerHTML = '<tr><td colspan="100%">No data available</td></tr>';
+                return;
+            }
+
+            const headers = Object.keys(data[0]);
+            const headerRow = document.createElement('tr');
+
+            headers.forEach(header => {
+                const th = document.createElement('th');
+                th.textContent = header;
+                th.dataset.key = header; // Set the sort key for the header
+                th.classList.toggle('sorted', document.querySelector('th.sorted')?.dataset.key === header); // Add class if sorted
+                th.onclick = () => {
+                    const currentSortKey = document.querySelector('th.sorted')?.dataset.key;
+                    if (currentSortKey === header) {
+                        // Toggle sort direction
+                        th.classList.toggle('sorted-asc', !th.classList.contains('sorted-asc'));
+                        th.classList.toggle('sorted-desc', th.classList.contains('sorted-asc'));
+                    } else {
+                        document.querySelectorAll('th').forEach(h => h.classList.remove('sorted-asc', 'sorted-desc'));
+                        th.classList.add('sorted-asc');
+                    }
+                    sortAndRenderTable();
+                };
+                headerRow.appendChild(th);
+            });
+
+            table.appendChild(headerRow);
+
+            data.forEach(row => {
+                const tr = document.createElement('tr');
+                headers.forEach(header => {
+                    const td = document.createElement('td');
+                    td.textContent = row[header] || ''; // Handle undefined values
+                    tr.appendChild(td);
+                });
+                table.appendChild(tr);
+            });
+        }
+
         window.onload = loadCSV;
     </script>
 
