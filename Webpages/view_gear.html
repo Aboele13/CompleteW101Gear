@@ -187,6 +187,8 @@
     <table id="gearTable"></table>
 
     <script>
+        let lastSortedColumn = null;
+    
         function loadCSV() {
             const school = document.getElementById('school').value;
             const itemType = document.getElementById('itemType').value;
@@ -205,7 +207,7 @@
                     headers.forEach((header, index) => {
                         const th = document.createElement('th');
                         th.textContent = header;
-                        th.addEventListener('click', () => sortTable(index));
+                        th.addEventListener('click', () => sortTable(index, header));
                         headerRow.appendChild(th);
                     });
                     table.appendChild(headerRow);
@@ -221,59 +223,51 @@
                         table.appendChild(tr);
                     });
     
-                    // Apply filters
+                    // Apply filter
                     filterTable();
                 }
             });
         }
     
+        function sortTable(columnIndex, columnName) {
+            const table = document.getElementById('gearTable');
+            const rows = Array.from(table.querySelectorAll('tr:not(:first-child)')); // Exclude header row
+            const isNumericColumn = columnName !== 'Name' && columnName !== 'Source' && columnName !== 'Owned' && columnName !== 'Gear Set';
+            
+            // Sorting logic
+            rows.sort((a, b) => {
+                const aText = a.children[columnIndex].textContent.trim();
+                const bText = b.children[columnIndex].textContent.trim();
+                
+                if (isNumericColumn) {
+                    const aValue = parseFloat(aText) || 0;
+                    const bValue = parseFloat(bText) || 0;
+                    return bValue - aValue; // Descending for numeric columns
+                } else {
+                    return aText.localeCompare(bText); // Ascending for non-numeric columns
+                }
+            });
+    
+            // Append sorted rows back to table
+            rows.forEach(row => table.appendChild(row));
+        }
+    
         function filterTable() {
             const searchValue = document.getElementById('search').value.toLowerCase();
-            const levelFilter = parseInt(document.getElementById('level').value, 10);
+            const levelValue = parseInt(document.getElementById('level').value, 10);
             const table = document.getElementById('gearTable');
             const rows = table.querySelectorAll('tr:not(:first-child)');
     
             rows.forEach(row => {
-                const cells = row.querySelectorAll('td');
-                const nameCell = cells[0]; // Assuming "Name" is the first column
-                const levelCell = parseInt(cells[1].textContent, 10); // Assuming "Level" is the second column
-    
-                if (nameCell && nameCell.textContent.toLowerCase().includes(searchValue) && levelCell <= levelFilter) {
+                const nameCell = row.querySelector('td:first-child'); // Assuming the "Name" column is the first column
+                const levelCell = row.querySelectorAll('td')[1]; // Assuming "Level" is the second column
+                const nameMatch = nameCell && nameCell.textContent.toLowerCase().includes(searchValue);
+                const levelMatch = levelCell && parseInt(levelCell.textContent, 10) <= levelValue;
+                
+                if (nameMatch && levelMatch) {
                     row.style.display = '';
                 } else {
                     row.style.display = 'none';
-                }
-            });
-        }
-    
-        function sortTable(columnIndex) {
-            const table = document.getElementById('gearTable');
-            const rowsArray = Array.from(table.querySelectorAll('tr:not(:first-child)'));
-            const headers = table.querySelectorAll('th');
-            const headerText = headers[columnIndex].textContent;
-            const isNumericColumn = !isNaN(rowsArray[0].cells[columnIndex].textContent);
-    
-            rowsArray.sort((a, b) => {
-                const aText = a.cells[columnIndex].textContent;
-                const bText = b.cells[columnIndex].textContent;
-    
-                const aValue = isNumericColumn ? parseFloat(aText) : aText;
-                const bValue = isNumericColumn ? parseFloat(bText) : bText;
-    
-                if (isNumericColumn) {
-                    return bValue - aValue; // Descending for numeric columns
-                } else {
-                    return aValue.localeCompare(bValue); // Ascending for non-numeric columns
-                }
-            });
-    
-            rowsArray.forEach(row => table.appendChild(row));
-    
-            // Restore the sorting arrow
-            headers.forEach((header, index) => {
-                header.classList.remove('sorted-asc', 'sorted-desc');
-                if (index === columnIndex) {
-                    header.classList.add(isNumericColumn ? 'sorted-desc' : 'sorted-asc');
                 }
             });
         }
