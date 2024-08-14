@@ -229,6 +229,7 @@
 
     <script>
         let data = [];
+        let originalData = []; // Store original data for consistent filtering
     
         function loadCSV() {
             const school = document.getElementById('school').value;
@@ -240,7 +241,8 @@
                 header: true,
                 complete: function (results) {
                     data = results.data;
-                    filterAndRenderTable();
+                    originalData = [...data]; // Make a copy of the original data
+                    filterAndRenderTable(); // Render the table with all records initially
                 }
             });
         }
@@ -249,7 +251,8 @@
             const searchValue = document.getElementById('search').value.toLowerCase();
             const levelValue = parseInt(document.getElementById('level').value, 10);
     
-            const filteredData = data.filter(row => {
+            // Apply filters
+            const filteredData = originalData.filter(row => {
                 const nameMatch = row['Name'].toLowerCase().includes(searchValue);
                 const levelMatch = parseInt(row['Level'], 10) <= levelValue;
                 return nameMatch && levelMatch;
@@ -291,6 +294,7 @@
         }
     
         function sortData(key) {
+            // Ensure sorting is applied to the original data
             data.sort(function (a, b) {
                 let aValue = a[key];
                 let bValue = b[key];
@@ -310,17 +314,22 @@
                 return 0;
             });
     
-            filterAndRenderTable(); // Apply filters after sorting
+            filterAndRenderTable(); // Re-apply filters after sorting
         }
     
         function isNumeric(value) {
             return !isNaN(value - parseFloat(value));
         }
     
+        // Attach event listeners to dropdowns and search input
+        document.getElementById('school').addEventListener('change', loadCSV);
+        document.getElementById('itemType').addEventListener('change', loadCSV);
+        document.getElementById('search').addEventListener('input', filterAndRenderTable);
+        document.getElementById('level').addEventListener('change', filterAndRenderTable);
+    
         // Initial load
         window.onload = loadCSV;
     </script>
-    
 
 </body>
 
