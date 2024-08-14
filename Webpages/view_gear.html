@@ -204,6 +204,7 @@
 
     <script>
         let data = [];
+        let originalData = [];
 
         function loadCSV() {
             const school = document.getElementById('school').value;
@@ -214,22 +215,22 @@
                 download: true,
                 header: true,
                 complete: function (results) {
-                    data = results.data;
-                    renderTable(data);
+                    originalData = results.data; // Store original data
+                    filterTable(); // Apply filters to the new data
                 }
             });
         }
 
-        function renderTable(data) {
+        function renderTable(filteredData) {
             const table = document.getElementById('gearTable');
             table.innerHTML = '';
 
-            if (data.length === 0) {
+            if (filteredData.length === 0) {
                 table.innerHTML = '<tr><td colspan="100%">No data available</td></tr>';
                 return;
             }
 
-            const headers = Object.keys(data[0]);
+            const headers = Object.keys(filteredData[0]);
             const headerRow = document.createElement('tr');
 
             headers.forEach(header => {
@@ -241,7 +242,7 @@
 
             table.appendChild(headerRow);
 
-            data.forEach(row => {
+            filteredData.forEach(row => {
                 const tr = document.createElement('tr');
                 headers.forEach(header => {
                     const td = document.createElement('td');
@@ -250,12 +251,8 @@
                 });
                 table.appendChild(tr);
             });
-
-            // Apply filter after sorting
-            filterTable();
         }
 
-        // personal sorting
         function sortData(key) {
             data.sort(function (a, b) {
                 let aValue = a[key];
@@ -287,13 +284,13 @@
             const searchValue = document.getElementById('search').value.toLowerCase();
             const levelValue = parseInt(document.getElementById('level').value, 10);
 
-            const filteredData = data.filter(row => {
+            data = originalData.filter(row => {
                 const nameMatch = row['Name'].toLowerCase().includes(searchValue);
                 const levelMatch = parseInt(row['Level'], 10) <= levelValue;
                 return nameMatch && levelMatch;
             });
 
-            renderTable(filteredData);
+            renderTable(data);
         }
 
         window.onload = loadCSV;
