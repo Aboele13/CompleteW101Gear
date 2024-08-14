@@ -184,25 +184,25 @@
             const school = document.getElementById('school').value;
             const itemType = document.getElementById('itemType').value;
             const csvUrl = `https://aboele13.github.io/CompleteW101Gear/${school}_Gear/${school}_${itemType}.csv`;
-
+    
             Papa.parse(csvUrl, {
                 download: true,
                 header: true,
                 complete: function(results) {
                     const table = document.getElementById('gearTable');
                     table.innerHTML = '';
-
+    
                     // Create table headers
                     const headers = results.meta.fields;
                     const headerRow = document.createElement('tr');
                     headers.forEach((header, index) => {
                         const th = document.createElement('th');
                         th.textContent = header;
-                        th.addEventListener('click', () => sortTable(index));
+                        th.onclick = () => sortTable(index);
                         headerRow.appendChild(th);
                     });
                     table.appendChild(headerRow);
-
+    
                     // Create table rows
                     results.data.forEach(row => {
                         const tr = document.createElement('tr');
@@ -213,59 +213,53 @@
                         });
                         table.appendChild(tr);
                     });
-
-                    // Apply filters
+    
+                    // Apply filter and sort
                     filterTable();
                 }
             });
         }
-
+    
         function filterTable() {
             const searchValue = document.getElementById('search').value.toLowerCase();
             const levelValue = parseInt(document.getElementById('level').value, 10);
             const table = document.getElementById('gearTable');
             const rows = table.querySelectorAll('tr:not(:first-child)');
-
+    
             rows.forEach(row => {
-                const nameCell = row.querySelector('td:first-child');
-                const levelCell = row.querySelector('td:nth-child(2)');
-                const nameMatches = nameCell && nameCell.textContent.toLowerCase().includes(searchValue);
-                const levelMatches = levelCell && parseInt(levelCell.textContent, 10) <= levelValue;
-
-                if (nameMatches && levelMatches) {
+                const nameCell = row.querySelector('td:first-child'); // Assuming the "Name" column is the first column
+                const levelCell = row.querySelector('td:nth-child(2)'); // Assuming the "Level" column is the second column
+                const nameVisible = nameCell && nameCell.textContent.toLowerCase().includes(searchValue);
+                const levelVisible = levelCell && parseInt(levelCell.textContent, 10) <= levelValue;
+                if (nameVisible && levelVisible) {
                     row.style.display = '';
                 } else {
                     row.style.display = 'none';
                 }
             });
         }
-
+    
         function sortTable(columnIndex) {
             const table = document.getElementById('gearTable');
             const rows = Array.from(table.querySelectorAll('tr:not(:first-child)'));
-            const headerRow = table.querySelector('tr:first-child');
-            const isNumeric = rows.every(row => !isNaN(parseFloat(row.cells[columnIndex].textContent)));
-            const sortOrder = headerRow.dataset.sortOrder === 'asc' ? 'desc' : 'asc';
-
-            rows.sort((a, b) => {
-                const aValue = a.cells[columnIndex].textContent.trim();
-                const bValue = b.cells[columnIndex].textContent.trim();
-
-                if (isNumeric) {
-                    return sortOrder === 'asc'
-                        ? parseFloat(aValue) - parseFloat(bValue)
-                        : parseFloat(bValue) - parseFloat(aValue);
+            const isNumericColumn = !isNaN(parseFloat(rows[0].querySelector(`td:nth-child(${columnIndex + 1})`).textContent));
+            
+            rows.sort((rowA, rowB) => {
+                const cellA = rowA.querySelector(`td:nth-child(${columnIndex + 1})`).textContent;
+                const cellB = rowB.querySelector(`td:nth-child(${columnIndex + 1})`).textContent;
+    
+                if (isNumericColumn) {
+                    // Convert to numbers for numeric columns
+                    return parseFloat(cellB) - parseFloat(cellA); // Descending order
                 } else {
-                    return sortOrder === 'asc'
-                        ? aValue.localeCompare(bValue)
-                        : bValue.localeCompare(aValue);
+                    // Sort alphabetically for non-numeric columns
+                    return cellA.localeCompare(cellB); // Ascending order
                 }
             });
-
+    
             rows.forEach(row => table.appendChild(row));
-            headerRow.dataset.sortOrder = sortOrder;
         }
-
+    
         // Initial load
         loadCSV();
     </script>
