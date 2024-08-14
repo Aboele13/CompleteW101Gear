@@ -229,47 +229,57 @@
 
     <script>
         let data = [];
-        let filteredData = [];
-        let currentPage = 1;
-        const rowsPerPage = 10;
-
-        function loadData() {
+    
+        function loadCSV() {
             const school = document.getElementById('school').value;
             const itemType = document.getElementById('itemType').value;
             const csvUrl = `https://aboele13.github.io/CompleteW101Gear/${school}_Gear/${school}_${itemType}.csv`;
-
+    
             Papa.parse(csvUrl, {
                 download: true,
                 header: true,
                 complete: function (results) {
                     data = results.data;
-                    filterTable(); // Apply filters to the new data
+                    filterAndRenderTable();
                 }
             });
         }
-
-        function renderTable(pageData) {
+    
+        function filterAndRenderTable() {
+            const searchValue = document.getElementById('search').value.toLowerCase();
+            const levelValue = parseInt(document.getElementById('level').value, 10);
+    
+            const filteredData = data.filter(row => {
+                const nameMatch = row['Name'].toLowerCase().includes(searchValue);
+                const levelMatch = parseInt(row['Level'], 10) <= levelValue;
+                return nameMatch && levelMatch;
+            });
+    
+            renderTable(filteredData);
+        }
+    
+        function renderTable(data) {
             const table = document.getElementById('gearTable');
             table.innerHTML = '';
-
-            if (pageData.length === 0) {
+    
+            if (data.length === 0) {
                 table.innerHTML = '<tr><td colspan="100%">No data available</td></tr>';
                 return;
             }
-
-            const headers = Object.keys(pageData[0]);
+    
+            const headers = Object.keys(data[0]);
             const headerRow = document.createElement('tr');
-
+    
             headers.forEach(header => {
                 const th = document.createElement('th');
                 th.textContent = header;
                 th.onclick = () => sortData(header);
                 headerRow.appendChild(th);
             });
-
+    
             table.appendChild(headerRow);
-
-            pageData.forEach(row => {
+    
+            data.forEach(row => {
                 const tr = document.createElement('tr');
                 headers.forEach(header => {
                     const td = document.createElement('td');
@@ -278,70 +288,39 @@
                 });
                 table.appendChild(tr);
             });
-
-            updatePaginationButtons();
         }
-
+    
         function sortData(key) {
-            filteredData.sort(function (a, b) {
+            data.sort(function (a, b) {
                 let aValue = a[key];
                 let bValue = b[key];
-
+    
                 if (isNumeric(aValue) && isNumeric(bValue)) {
                     aValue = parseFloat(aValue);
                     bValue = parseFloat(bValue);
-
+    
                     if (aValue < bValue) return 1; // Descending
                     if (aValue > bValue) return -1; // Descending
                     return 0;
                 }
-
+    
                 // Not Numeric
                 if (aValue < bValue) return -1; // Ascending / Alphabetical
                 if (aValue > bValue) return 1; // Ascending / Alphabetical
                 return 0;
             });
-
-            renderTable(getCurrentPageData());
+    
+            filterAndRenderTable(); // Apply filters after sorting
         }
-
+    
         function isNumeric(value) {
             return !isNaN(value - parseFloat(value));
         }
-
-        function filterTable() {
-            const searchValue = document.getElementById('search').value.toLowerCase();
-            const levelValue = parseInt(document.getElementById('level').value, 10);
-            const checkedSources = Array.from(document.querySelectorAll('.checkbox-group input[type="checkbox"]:checked')).map(cb => cb.value);
-
-            filteredData = data.filter(row => {
-                const nameMatch = row['Name'].toLowerCase().includes(searchValue);
-                const levelMatch = parseInt(row['Level'], 10) <= levelValue;
-                const sourceMatch = checkedSources.includes(row['Source']) || checkedSources.length === 0;
-                return nameMatch && levelMatch && sourceMatch;
-            });
-
-            renderTable(getCurrentPageData());
-        }
-
-        function getCurrentPageData() {
-            const start = (currentPage - 1) * rowsPerPage;
-            const end = start + rowsPerPage;
-            return filteredData.slice(start, end);
-        }
-
-        function changePage(direction) {
-            currentPage += direction;
-            renderTable(getCurrentPageData());
-        }
-
-        function updatePaginationButtons() {
-            document.getElementById('prevBtn').classList.toggle('disabled', currentPage === 1);
-            document.getElementById('nextBtn').classList.toggle('disabled', currentPage * rowsPerPage >= filteredData.length);
-        }
-
-        window.onload = loadData;
+    
+        // Initial load
+        window.onload = loadCSV;
     </script>
+    
 
 </body>
 
