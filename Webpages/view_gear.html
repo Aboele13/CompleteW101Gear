@@ -189,7 +189,7 @@
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             let currentSortColumn = null;
-            let currentSortDirection = null;
+            let currentSortDirection = 'desc'; // Default sort direction
     
             function loadCSV() {
                 const school = document.getElementById('school').value;
@@ -226,10 +226,8 @@
                             table.appendChild(tr);
                         });
     
-                        // Apply filter
+                        // Apply filter and sorting
                         filterTable();
-    
-                        // Apply sorting
                         if (currentSortColumn !== null) {
                             sortTable(currentSortColumn);
                         }
@@ -242,7 +240,8 @@
                 const rows = Array.from(table.querySelectorAll('tr:not(:first-child)')); // Skip the header row
                 const header = table.querySelector('tr:first-child');
                 const headers = header.querySelectorAll('th');
-                const isNumeric = !['Name', 'Source', 'Owned', 'Gear Set'].includes(header);
+                const cellContent = rows[0].cells[columnIndex].textContent.trim();
+                const isNumeric = !isNaN(parseFloat(cellContent)) && isFinite(cellContent);
     
                 // Determine the sort direction
                 const sortDirection = (currentSortColumn === columnIndex && currentSortDirection === 'desc') ? 'asc' : 'desc';
@@ -298,10 +297,11 @@
                 });
             }
     
-            // Attach event listeners to dropdowns
+            // Attach event listeners to dropdowns and search input
             document.getElementById('school').addEventListener('change', loadCSV);
             document.getElementById('itemType').addEventListener('change', loadCSV);
             document.getElementById('level').addEventListener('change', filterTable);
+            document.getElementById('search').addEventListener('input', filterTable);
     
             // Initial load
             loadCSV();
