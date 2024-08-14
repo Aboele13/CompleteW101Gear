@@ -225,28 +225,40 @@
             const rows = table.querySelectorAll('tr:not(:first-child)');
             const headers = Array.from(table.querySelectorAll('tr:first-child th'));
             const sourceIndex = headers.findIndex(th => th.textContent === 'Source');
-    
+        
             // Get checked sources
             const checkedSources = Array.from(document.querySelectorAll('.checkbox-group input[type="checkbox"]:checked'))
                 .map(checkbox => checkbox.nextSibling.textContent.trim());
-    
+        
             rows.forEach(row => {
                 const cells = Array.from(row.children);
                 const nameCell = cells[0]; // Assuming "Name" column is the first column
                 const levelCell = cells[1]; // Assuming "Level" column is the second column
                 const sourceCell = sourceIndex >= 0 ? cells[sourceIndex] : null; // Check if "Source" column exists
-    
+        
                 const nameMatch = nameCell && nameCell.textContent.toLowerCase().includes(searchValue);
                 const levelMatch = levelCell && parseInt(levelCell.textContent, 10) <= levelValue;
-                const sourceMatch = sourceCell && checkedSources.some(source => sourceCell.textContent.includes(source));
-    
-                if (nameMatch && levelMatch && (checkedSources.length === 0 || sourceMatch || sourceIndex === -1)) {
+        
+                let sourceMatch = false;
+                if (sourceCell && checkedSources.length > 0) {
+                    sourceMatch = checkedSources.some(source => {
+                        const regex = new RegExp(`(^|, )${source}($|,)`, 'i');
+                        return regex.test(sourceCell.textContent);
+                    });
+                } else if (sourceCell){
+                    sourceMatch = false; // If no sources are checked, there are no matches
+                } else {
+                    sourceMatch = true // If the "Source" column doesn't exist, treat as such (keep everything)
+                }
+        
+                if (nameMatch && levelMatch && sourceMatch) {
                     row.style.display = '';
                 } else {
                     row.style.display = 'none';
                 }
             });
         }
+        
     
         function sortTable(columnIndex, columnName) {
             const table = document.getElementById('gearTable');
