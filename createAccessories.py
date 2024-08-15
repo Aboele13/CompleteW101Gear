@@ -125,7 +125,7 @@ def parse_wiki_error_gear(item_name, bonuses, parts):
         value = int(parts[0][1:]) # should throw an error and end execution
         return value
 
-def parse_bonuses(info_lines, item_name):
+def parse_bonuses(formatted_info, item_name):
     bonuses = {
         'Max Health': 0,
         f'{school} Damage': 0,
@@ -166,57 +166,60 @@ def parse_bonuses(info_lines, item_name):
     valid_schools = {"Global", f"{school}"}
     all_schools = {"Global", "Death", "Fire", "Balance", "Myth", "Storm", "Ice", "Life", "Shadow"}
     
-    for i, line in enumerate(info_lines):
-        if line.startswith("Bonuses:"):
+    for i in range(len(formatted_info)):
+        if formatted_info[i].startswith("Bonuses:"): # start reading here
             capture = True
-        elif line.startswith("Tradeable") or line.startswith("Auctionable") or line.startswith("No Trade") or line.startswith("Unknown Trade Status") or line.startswith("Item Card") or line.startswith("Sockets"):
+        # stop reading once you find one of these
+        elif formatted_info[i].startswith("Tradeable") or formatted_info[i].startswith("Auctionable") or formatted_info[i].startswith("No Trade") or formatted_info[i].startswith("Unknown Trade Status") or formatted_info[i].startswith("Item Card") or formatted_info[i].startswith("Sockets"):
             break
-        elif capture:
-            if line in all_schools and line not in valid_schools:
-                if i > 0 and info_lines[i - 1].startswith("+"):
-                    info_lines[i - 1] = ""
-                info_lines[i] = ""
+        elif capture: # in the range you should be reading
+            if formatted_info[i] in all_schools and formatted_info[i] not in valid_schools: # other school, should be deleted
+                if i > 0 and formatted_info[i - 1].startswith("+"):
+                    formatted_info[i - 1] = "" # delete the amount
+                formatted_info[i] = "" # delete the other school
                 continue
-            if line.startswith("+") and not line.startswith("+No"):
-                if category_parts:
+            if formatted_info[i].startswith("+") and not formatted_info[i].startswith("+No"): # +number
+                if category_parts: # already some part of a stat
                     category = " ".join(category_parts).strip()
                     if category in bonuses:
                         bonuses[category] += int(value)
                     elif category in valid_schools:
                         # look forward for nearest category and concatenate
                             curr_school = category
-                            poss_cate = ""
+                            poss_cate = []
                             j = i + 2
-                            while j < len(info_lines):
-                                if info_lines[j].startswith("+"):
+                            while j < len(formatted_info):
+                                if formatted_info[j].startswith("+"):
                                     j += 1
-                                elif info_lines[j] in all_schools:
+                                elif formatted_info[j] in all_schools:
                                     j += 1
                                 else:
-                                    poss_cate += info_lines[j]
-                                    if poss_cate in poss_school_spec_cate:
-                                        bonuses[curr_school + " " + poss_cate] += int(value)
+                                    poss_cate.append(formatted_info[j])
+                                    poss_cate_str = " ".join(poss_cate)
+                                    if poss_cate_str in poss_school_spec_cate:
+                                        bonuses[curr_school + " " + poss_cate_str] += int(value)
                                         break
                                     else:
                                         j += 1
                     category_parts = []
-                parts = line.split()
+                parts = formatted_info[i].split()
                 try:
                     value = int(parts[0][1:])
                 except ValueError:
                     return parse_wiki_error_gear(item_name, bonuses, parts)
                 category_parts = parts[1:]
             else:
-                category_parts.append(line)
+                category_parts.append(formatted_info[i])
     
+    # final check, not included in loop
     if category_parts:
         category = " ".join(category_parts).strip()
         if category in bonuses:
             bonuses[category] += int(value)
         
     # Check for Sockets and count occurrences of specific types
-    if "Sockets" in info_lines:
-        combined_text = " ".join(info_lines)
+    if "Sockets" in formatted_info:
+        combined_text = " ".join(formatted_info)
         unlocked_tears = combined_text.count("Tear Socket Tear")
         unlocked_circles = combined_text.count("Circle Socket Circle")
         unlocked_squares = combined_text.count("Square Socket Square")

@@ -38,17 +38,17 @@ Outback Adventurer's Hat (Level 160+),160,666,28,9,0,8,126,84,4,0,0,0,0,17,0,0,0
 Grandfather Spider's Steady Cowl (Level 150+),150,1299,28,0,6,13,140,0,0,0,0,0,0,16,0,0,0,0,Crowns,False,None
 Balanced August Sage Cap (Level 170+),170,874,28,0,5,10,184,82,9,0,0,0,0,21,0,2,0,1,"Gold Key, Crowns",False,None
 Measured Chivalric Crown (Level 170+),170,874,28,0,5,10,184,82,9,0,0,0,0,21,0,2,0,1,"Gold Key, Crowns",False,None
-Black New Year's Top Cloche (Level 150+),150,821,28,0,0,15,0,0,0,0,0,0,0,19,0,0,0,0,Crowns,False,None
-Black New Year's Top Hat (Level 150+),150,821,28,0,0,15,0,0,0,0,0,0,0,19,0,0,0,0,Crowns,False,None
-Cosmographer's Cowl (Level 140+),140,775,28,0,0,15,0,0,0,0,0,0,0,18,0,0,0,0,Crowns,False,None
+Black New Year's Top Cloche (Level 150+),150,821,28,0,0,15,166,0,0,0,0,0,0,19,0,0,0,0,Crowns,False,None
+Black New Year's Top Hat (Level 150+),150,821,28,0,0,15,166,0,0,0,0,0,0,19,0,0,0,0,Crowns,False,None
+Cosmographer's Cowl (Level 140+),140,775,28,0,0,15,138,0,0,0,0,0,0,18,0,0,0,0,Crowns,False,None
 Veggilante Helmet,135,767,28,0,0,13,146,0,0,0,0,0,0,17,0,0,0,0,Crowns,False,None
 Malevolent Balance Cap,150,764,28,0,4,14,124,0,4,0,0,0,0,18,0,0,0,0,Drop,False,None
 Magician's Balance Cap,150,745,28,0,4,13,124,0,4,0,0,0,0,17,0,0,0,0,Drop,False,None
 Supreme Teleological Hat,148,745,28,0,6,12,0,0,0,0,0,0,0,18,0,0,0,0,"Drop, Bazaar",False,None
 Allfather's Helm (Level 140+),140,732,28,0,0,9,148,0,0,5,0,0,0,17,0,0,0,0,Crowns,False,None
-Festive Sleeping Cap (Level 150+),150,700,28,0,0,14,0,0,0,9,0,0,0,19,0,0,0,0,Crowns,False,None
+Festive Sleeping Cap (Level 150+),150,700,28,0,0,14,149,0,0,9,0,0,0,19,0,0,0,0,Crowns,False,None
 Creepy Clown Mask (Level 140+),140,682,28,0,7,11,138,0,4,0,0,0,0,15,0,0,0,0,Gift Card,False,None
-Cool Rancher's Hat (Level 140+),140,646,28,0,7,13,0,0,0,0,0,0,0,18,0,0,0,0,Crowns,False,None
+Cool Rancher's Hat (Level 140+),140,646,28,0,7,13,189,0,0,0,0,0,0,18,0,0,0,0,Crowns,False,None
 Hierarch's Hex Hat,145,605,28,0,0,10,165,0,0,0,0,0,0,18,0,0,0,0,"Drop, Bazaar",False,None
 Sweetish Chef Hat (Level 130+),130,504,28,0,6,15,113,0,4,0,0,0,0,16,0,0,0,0,Gift Card,False,Sweetish Chef Set
 Eternal Abstract Helm,160,812,27,15,7,10,128,97,0,0,0,0,0,15,0,2,1,0,Crafting,False,None
@@ -75,7 +75,7 @@ Uber Dreamsearcher Cap,140,720,27,0,4,15,116,0,3,0,0,0,0,18,0,0,0,0,Drop,False,N
 Elegant Townie Kanga-Cap,160,711,27,0,0,8,128,61,5,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Hierarch's Teleological Hat,145,699,27,0,6,11,0,0,0,0,0,0,0,17,0,0,0,0,"Drop, Bazaar",False,None
 Shadoe's Hat of Justice (Level 140+),140,594,27,0,0,0,119,0,3,0,0,0,0,18,0,0,0,0,Crowns,False,None
-Savannah Tribal Helm (Level 130+),130,576,27,0,5,11,0,0,0,0,0,0,0,16,0,0,0,0,Crowns,False,None
+Savannah Tribal Helm (Level 130+),130,576,27,0,5,11,121,0,0,0,0,0,0,16,0,0,0,0,Crowns,False,None
 Lemurian Hex Hat,142,559,27,0,0,9,165,0,0,0,0,0,0,17,0,0,0,0,"Drop, Bazaar",False,None
 Pet Trainer Conical (Level 130+),130,543,27,0,9,9,0,0,0,0,0,0,0,16,0,0,0,0,Gift Card,False,None
 Ancient Purrzian Combat Mask (Level 140+),140,675,26,12,0,0,117,0,3,6,0,0,0,16,0,0,0,0,Crowns,False,None
@@ -86,16 +86,16 @@ Arcane Beach Hat (Level 170+),170,767,26,6,8,0,130,130,5,0,0,0,0,0,0,0,0,0,Gift 
 Night King's Crown (Level 140+),140,850,26,0,0,13,0,0,0,0,11,12,0,12,0,0,0,0,Crowns,False,None
 Alphoi Saboteur Helm,130,773,26,0,6,13,137,0,0,0,0,0,0,14,0,0,0,0,Crafting,False,None
 Balanced Paradox Conical,130,773,26,0,6,13,137,0,0,0,0,0,0,14,0,0,0,0,Drop,False,None
-Black New Year's Top Cloche (Level 140+),140,746,26,0,0,15,0,0,0,0,0,0,0,18,0,0,0,0,Crowns,False,None
-Black New Year's Top Hat (Level 140+),140,746,26,0,0,15,0,0,0,0,0,0,0,18,0,0,0,0,Crowns,False,None
+Black New Year's Top Cloche (Level 140+),140,746,26,0,0,15,155,0,0,0,0,0,0,18,0,0,0,0,Crowns,False,None
+Black New Year's Top Hat (Level 140+),140,746,26,0,0,15,155,0,0,0,0,0,0,18,0,0,0,0,Crowns,False,None
 Wunderbar Dreamsearcher Cap,140,695,26,0,4,14,116,0,3,0,0,0,0,17,0,0,0,0,Drop,False,None
 Cap of Tomorrow (Level 140+),140,682,26,0,8,13,123,0,0,0,3,0,0,15,0,0,0,0,Gift Card,False,None
 Rokugo Helmet (Level 140+),140,680,26,0,4,13,131,0,3,0,0,0,0,12,0,0,0,0,Crowns,False,None
 Guten Dreamsearcher Cap,140,678,26,0,4,13,116,0,3,0,0,0,0,16,0,0,0,0,Drop,False,None
-Haros' Countenance (Level 140+),140,670,26,0,0,0,0,0,2,0,0,0,0,18,0,0,0,0,Crowns,False,Haros' Set
-Festive Sleeping Cap (Level 140+),140,635,26,0,0,14,0,0,0,9,0,0,0,18,0,0,0,0,Crowns,False,None
+Haros' Countenance (Level 140+),140,670,26,0,0,0,189,0,2,0,0,0,0,18,0,0,0,0,Crowns,False,Haros' Set
+Festive Sleeping Cap (Level 140+),140,635,26,0,0,14,139,0,0,9,0,0,0,18,0,0,0,0,Crowns,False,None
 Creepy Clown Mask (Level 130+),130,620,26,0,7,11,132,0,4,0,0,0,0,14,0,0,0,0,Gift Card,False,None
-Drum Jungle Tribal Helm (Level 130+),130,599,26,0,8,10,0,0,0,0,0,0,0,16,0,0,0,0,Crowns,False,None
+Drum Jungle Tribal Helm (Level 130+),130,599,26,0,8,10,118,0,0,0,0,0,0,16,0,0,0,0,Crowns,False,None
 Great Inventor's Balance Hat (Level 150+),150,742,25,14,7,10,120,90,0,0,0,0,0,14,0,2,1,0,Crowns,False,None
 Highlands Raider's Balmoral (Level 150+),150,742,25,14,7,10,120,90,0,0,0,0,0,14,0,0,0,0,Crowns,False,None
 Balanced Night Mire Top Hat (Level 130+),130,755,25,12,6,8,120,80,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -106,28 +106,28 @@ Balanced Conical of The Nullity (Level 150+),150,742,25,9,5,12,160,0,8,0,0,0,0,1
 Grandfather Spider's Steady Cowl (Level 130+),130,604,25,8,6,12,120,0,0,0,0,0,0,13,0,0,0,0,Crowns,False,None
 Arcane Beach Hat (Level 160+),160,766,25,6,8,0,124,124,4,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Lightkeeper's Dive Helmet (Level 160+),160,666,25,6,5,10,144,0,5,0,0,0,0,15,0,0,0,0,Gift Card,False,None
-Motorist's Goggles (Level 140+),140,939,25,0,0,16,0,0,2,0,0,0,0,16,0,0,0,0,Crowns,False,None
-Spellwright's Druidic Cowl (Level 130+),130,854,25,0,5,14,0,0,0,0,0,0,0,16,0,0,0,0,Crowns,False,None
+Motorist's Goggles (Level 140+),140,939,25,0,0,16,135,0,2,0,0,0,0,16,0,0,0,0,Crowns,False,None
+Spellwright's Druidic Cowl (Level 130+),130,854,25,0,5,14,145,0,0,0,0,0,0,16,0,0,0,0,Crowns,False,None
 Dragoon's Balanced Helm,130,806,25,0,6,14,155,0,4,0,0,0,0,14,0,0,0,0,Crafting,False,Dragoon's Balanced Set
 Hierarch's Stability Hat,145,792,25,0,0,14,0,0,0,0,3,0,0,16,0,0,0,0,"Drop, Bazaar",False,None
 Immutable Zanadu Helm,130,765,25,0,5,12,133,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
 Cabal Hood of Disruption,125,757,25,0,0,12,126,0,3,0,0,0,0,14,0,0,0,0,"Drop, Bazaar",False,None
 Aristocratic Alphoi Mantle,125,757,25,0,5,0,122,0,3,0,0,0,0,14,0,0,0,0,Crafting,False,None
-Cosmographer's Cowl (Level 130+),130,750,25,0,0,15,0,0,0,0,0,0,0,16,0,0,0,0,Crowns,False,None
+Cosmographer's Cowl (Level 130+),130,750,25,0,0,15,116,0,0,0,0,0,0,16,0,0,0,0,Crowns,False,None
 Monarch's Diadem (Level 130+),130,729,25,0,7,12,146,0,0,0,0,0,0,16,0,0,0,0,Gift Card,False,None
 Helm of the Briny Deep (Level 130+),130,729,25,0,0,13,140,0,0,9,0,7,0,16,0,0,0,0,Gift Card,False,None
 Tundra Hunter Tuke (Level 130+),130,717,25,0,0,14,151,0,0,0,0,0,0,16,0,0,0,0,Crowns,False,None
 Dwarven Helmet,125,698,25,0,0,12,120,0,0,0,0,0,0,13,0,0,0,0,Crowns,False,None
-Formal Alpine Hat (Level 140+),140,680,25,0,8,0,0,0,3,0,0,0,0,18,0,0,0,0,Crowns,False,None
+Formal Alpine Hat (Level 140+),140,680,25,0,8,0,139,0,3,0,0,0,0,18,0,0,0,0,Crowns,False,None
 White Pandamonium Warhelm (Level 130+),130,677,25,0,0,7,92,0,0,0,0,7,0,15,0,0,0,0,Crowns,False,None
 Merry Sleeping Cap (Level 150+),150,670,25,0,0,14,0,0,0,0,0,0,0,19,0,0,0,0,Crowns,False,None
 Allfather's Helm (Level 130+),130,659,25,0,0,9,138,0,0,5,0,0,0,15,0,0,0,0,"Gold Key, Crowns",False,None
 Lemurian Teleological Hat,142,652,25,0,6,11,0,0,0,0,0,0,0,16,0,0,0,0,"Drop, Bazaar",False,None
-Adventurous Ranger's Hat (Level 140+),140,629,25,0,0,9,0,0,3,0,0,0,0,12,0,0,0,0,Crowns,False,None
-Cool Rancher's Hat (Level 130+),130,627,25,0,7,13,0,0,0,0,0,0,0,16,0,0,0,0,Crowns,False,None
+Adventurous Ranger's Hat (Level 140+),140,629,25,0,0,9,135,0,3,0,0,0,0,12,0,0,0,0,Crowns,False,None
+Cool Rancher's Hat (Level 130+),130,627,25,0,7,13,175,0,0,0,0,0,0,16,0,0,0,0,Crowns,False,None
 Sinister Harlequin Mask (Level 130+),130,620,25,0,0,11,151,0,4,0,7,0,0,15,0,0,0,0,Gift Card,False,None
 Executive Protective Hood,138,593,25,0,0,10,160,0,0,0,0,0,0,18,0,0,0,0,"Drop, Bazaar",False,None
-Savannah Tribal Helm (Level 120+),120,501,25,0,5,10,0,0,0,0,0,0,0,15,0,0,0,0,Crowns,False,None
+Savannah Tribal Helm (Level 120+),120,501,25,0,5,10,106,0,0,0,0,0,0,15,0,0,0,0,Crowns,False,None
 Sweetish Chef Hat (Level 120+),120,389,25,0,6,15,102,0,3,0,0,0,0,15,0,0,0,0,Gift Card,False,Sweetish Chef Set
 Witchcrafter's Conical (Level 160+),160,766,24,11,0,8,0,84,4,15,0,0,0,0,0,0,0,0,Gift Card,False,None
 Sacred Yarn Cap (Level 150+),150,756,24,8,6,0,119,80,0,0,0,0,0,11,0,0,0,0,Gift Card,False,None
@@ -140,7 +140,7 @@ Vanguard's Balanced Helm,130,788,24,0,6,13,155,0,4,0,0,0,0,14,0,0,0,0,"Drop, Cra
 Night King's Crown (Level 130+),130,775,24,0,0,13,0,0,0,0,11,12,0,10,0,0,0,0,Crowns,False,None
 Grand Admiral's Turban (Level 130+),130,723,24,0,0,13,143,0,0,10,0,0,0,16,0,0,0,0,Crowns,False,None
 Shadoe's Hat of the Night (Level 130+),130,713,24,0,0,0,80,0,0,7,0,0,0,16,0,0,0,0,Crowns,False,None
-Haunted Captain's Tricorne (Level 130+),130,676,24,0,7,13,0,0,0,0,0,0,0,15,0,0,0,0,Crowns,False,None
+Haunted Captain's Tricorne (Level 130+),130,676,24,0,7,13,145,0,0,0,0,0,0,15,0,0,0,0,Crowns,False,None
 Balanced August Sage Cap (Level 140+),140,673,24,0,5,10,151,66,7,0,0,0,0,16,0,2,0,1,Crowns,False,None
 Battlemage Helm (Level 130+),130,659,24,0,5,0,96,0,3,0,0,0,0,16,0,0,0,0,Gift Card,False,None
 Cap of Tomorrow (Level 130+),130,620,24,0,8,13,118,0,0,0,3,0,0,14,0,0,0,0,Gift Card,False,None
@@ -165,21 +165,21 @@ Oyoroi Helmet (Level 140+),140,810,23,0,0,9,0,0,0,30,7,7,0,12,0,0,0,0,Crowns,Fal
 Soldier's Balanced Helm,130,762,23,0,6,12,155,0,4,0,0,0,0,14,0,0,0,0,Drop,False,None
 Lemurian Stability Hat,142,745,23,0,0,13,0,0,0,0,3,0,0,15,0,0,0,0,"Drop, Bazaar",False,None
 Director Protective Hood,138,678,23,0,6,12,0,0,0,0,0,0,0,17,0,0,0,0,"Drop, Bazaar",False,None
-Black New Year's Top Hat (Level 130+),130,675,23,0,0,15,0,0,0,0,0,0,0,16,0,0,0,0,Crowns,False,None
+Black New Year's Top Hat (Level 130+),130,675,23,0,0,15,143,0,0,0,0,0,0,16,0,0,0,0,Crowns,False,None
 Spooky Carnival Hat (Level 130+),130,659,23,0,9,0,148,0,0,10,0,7,0,15,0,0,0,0,Gift Card,False,None
 Supreme Old Judge Hat,148,656,23,0,0,9,130,0,0,0,0,0,0,19,0,0,0,0,"Drop, Bazaar",False,None
 Merry Sleeping Cap (Level 140+),140,650,23,0,0,14,0,0,0,9,0,0,0,18,0,0,0,0,Crowns,False,None
-Haros' Countenance (Level 130+),130,609,23,0,0,0,0,0,2,0,0,0,0,16,0,0,0,0,Crowns,False,Haros' Set
-Cosmographer's Cowl (Level 120+),120,590,23,0,0,15,0,0,0,0,0,0,0,15,0,0,0,0,Crowns,False,None
-Festive Sleeping Cap (Level 130+),130,580,23,0,0,14,0,0,0,9,0,0,0,16,0,0,0,0,Crowns,False,None
-Spellwright's Druidic Cowl (Level 120+),120,572,23,0,4,13,0,0,0,0,0,0,0,15,0,0,0,0,Crowns,False,None
-Ghost Hunter Hat (Level 130+),130,561,23,0,7,15,0,0,0,0,0,0,0,16,0,0,0,0,Crowns,False,None
+Haros' Countenance (Level 130+),130,609,23,0,0,0,175,0,2,0,0,0,0,16,0,0,0,0,Crowns,False,Haros' Set
+Cosmographer's Cowl (Level 120+),120,590,23,0,0,15,106,0,0,0,0,0,0,15,0,0,0,0,Crowns,False,None
+Festive Sleeping Cap (Level 130+),130,580,23,0,0,14,128,0,0,9,0,0,0,16,0,0,0,0,Crowns,False,None
+Spellwright's Druidic Cowl (Level 120+),120,572,23,0,4,13,127,0,0,0,0,0,0,15,0,0,0,0,Crowns,False,None
+Ghost Hunter Hat (Level 130+),130,561,23,0,7,15,166,0,0,0,0,0,0,16,0,0,0,0,Crowns,False,None
 Tundra Hunter Tuke (Level 120+),120,560,23,0,0,13,138,0,0,0,0,0,0,15,0,0,0,0,Crowns,False,None
 Chief's Protective Hood,135,551,23,0,0,10,145,0,0,0,0,0,0,17,0,0,0,0,"Drop, Bazaar",False,None
 White Pandamonium Warhelm (Level 120+),120,520,23,0,0,7,80,0,0,0,0,7,0,14,0,0,0,0,Crowns,False,None
-Drum Jungle Tribal Helm (Level 120+),120,518,23,0,8,9,0,0,0,0,0,0,0,15,0,0,0,0,Crowns,False,None
+Drum Jungle Tribal Helm (Level 120+),120,518,23,0,8,9,104,0,0,0,0,0,0,15,0,0,0,0,Crowns,False,None
 Allfather's Helm (Level 120+),120,507,23,0,0,9,121,0,0,5,0,0,0,14,0,0,0,0,Crowns,False,None
-Cool Rancher's Hat (Level 120+),120,491,23,0,7,13,0,0,0,0,0,0,0,15,0,0,0,0,Crowns,False,None
+Cool Rancher's Hat (Level 120+),120,491,23,0,7,13,153,0,0,0,0,0,0,15,0,0,0,0,Crowns,False,None
 Creepy Clown Mask (Level 120+),120,478,23,0,7,11,116,0,3,0,0,0,0,13,0,0,0,0,Gift Card,False,None
 Helm of the Briny Deep (Level 110+),110,463,23,0,0,12,114,0,0,8,0,6,0,0,0,0,0,0,Gift Card,False,None
 Sinister Harlequin Mask (Level 110+),110,394,23,0,0,10,124,0,4,0,6,0,0,0,0,0,0,0,Gift Card,False,None
@@ -189,14 +189,14 @@ Witchcrafter's Conical (Level 140+),140,644,22,11,0,7,0,76,3,13,0,0,0,0,0,0,0,0,
 Outback Adventurer's Hat (Level 120+),120,454,22,8,0,7,0,66,3,0,0,0,0,12,0,0,0,0,Gift Card,False,None
 Sacred Yarn Cap (Level 130+),130,693,22,7,6,0,109,72,0,0,0,0,0,10,0,0,0,0,Gift Card,False,None
 Aquilan Velite Kalkris (Level 140+),140,863,22,0,0,0,165,0,0,5,4,0,0,15,0,0,0,0,"Gold Key, Crowns",False,None
-Motorist's Goggles (Level 130+),130,845,22,0,0,16,0,0,2,0,0,0,0,14,0,0,0,0,Crowns,False,None
+Motorist's Goggles (Level 130+),130,845,22,0,0,16,125,0,2,0,0,0,0,14,0,0,0,0,Crowns,False,None
 Dashing Outlaw's Feather Cap (Level 130+),130,775,22,0,10,0,146,0,0,10,0,0,0,16,0,0,0,0,Gift Card,False,None
 Malevolent Power Cap,150,769,22,0,4,13,93,0,3,0,0,0,0,18,0,0,0,0,Drop,False,None
 Producer's Protective Hood,138,762,22,0,0,14,0,0,0,0,3,0,0,16,0,0,0,0,"Drop, Bazaar",False,None
 Supreme Founder's Hat,148,750,22,0,5,11,0,0,0,0,0,0,0,18,0,0,0,0,"Drop, Bazaar",False,None
-Fossil Avenger's Helm (Level 130+),130,748,22,0,0,0,0,0,0,7,0,0,0,16,0,0,0,0,Crowns,False,Fossil Avenger's Set
+Fossil Avenger's Helm (Level 130+),130,748,22,0,0,0,166,0,0,7,0,0,0,16,0,0,0,0,Crowns,False,Fossil Avenger's Set
 Dramaturgist's Hat (Level 130+),130,732,22,0,0,10,110,0,0,12,0,0,0,15,0,0,0,0,Gift Card,False,None
-Formal Alpine Hat (Level 130+),130,645,22,0,8,0,0,0,3,0,0,0,0,16,0,0,0,0,Crowns,False,None
+Formal Alpine Hat (Level 130+),130,645,22,0,8,0,128,0,3,0,0,0,0,16,0,0,0,0,Crowns,False,None
 Shadoe's Hat of the Night (Level 120+),120,642,22,0,0,0,72,0,0,6,0,0,0,15,0,0,0,0,Crowns,False,None
 Bodacious Kalamar Lid,127,638,22,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Lead's Protective Hood,135,635,22,0,6,11,0,0,0,0,0,0,0,16,0,0,0,0,"Drop, Bazaar",False,None
@@ -205,24 +205,24 @@ Night King's Crown (Level 120+),120,600,22,0,0,13,0,0,0,0,11,12,0,10,0,0,0,0,Cro
 Brown Werewolf Skullcap (Level 130+),130,585,22,0,0,13,129,0,0,0,0,0,0,15,0,0,0,0,Crowns,False,None
 Time Warden Kavuk of Truth,120,581,22,0,5,0,120,0,3,0,0,0,0,14,0,0,0,0,Drop,False,None
 Snowdrifter's Hat (Level 130+),130,580,22,0,8,0,123,0,6,0,0,0,0,14,0,0,0,0,Crowns,False,None
-Adventurous Ranger's Hat (Level 130+),130,571,22,0,0,9,0,0,3,0,0,0,0,10,0,0,0,0,Crowns,False,None
+Adventurous Ranger's Hat (Level 130+),130,571,22,0,0,9,125,0,3,0,0,0,0,10,0,0,0,0,Crowns,False,None
 Monarch's Diadem (Level 120+),120,562,22,0,6,11,128,0,0,0,0,0,0,15,0,0,0,0,Gift Card,False,None
 Apocalypse Helmet (Level 120+),120,560,22,0,9,0,130,0,0,6,0,0,0,13,0,0,0,0,Crowns,False,Road Fury Set
 Grand Admiral's Turban (Level 120+),120,555,22,0,0,12,127,0,0,9,0,0,0,15,0,0,0,0,Crowns,False,None
 Forgemaster's Helm (Level 140+),140,543,22,0,0,14,115,0,3,0,0,3,0,18,0,0,0,0,Gift Card,False,None
-Black New Year's Top Cloche (Level 120+),120,519,22,0,0,15,0,0,0,0,0,0,0,15,0,0,0,0,Crowns,False,None
+Black New Year's Top Cloche (Level 120+),120,519,22,0,0,15,125,0,0,0,0,0,0,15,0,0,0,0,Crowns,False,None
 Consultant Protective Hood,132,508,22,0,0,9,140,0,0,0,0,0,0,16,0,0,0,0,"Drop, Bazaar",False,None
 Spooky Carnival Hat (Level 120+),120,508,22,0,8,0,134,0,0,10,0,7,0,14,0,0,0,0,Gift Card,False,None
 Shadoe's Hat of Justice (Level 120+),120,482,22,0,0,0,96,0,3,0,0,0,0,15,0,0,0,0,Crowns,False,None
 Cap of Tomorrow (Level 120+),120,478,22,0,8,13,103,0,0,0,3,0,0,13,0,0,0,0,Gift Card,False,None
 Glorious Chivalric Crown (Level 110+),110,470,22,0,8,0,90,0,3,0,0,0,0,9,0,0,0,0,Crowns,False,None
-Haros' Countenance (Level 120+),120,467,22,0,0,0,0,0,2,0,0,0,0,15,0,0,0,0,Crowns,False,Haros' Set
+Haros' Countenance (Level 120+),120,467,22,0,0,0,153,0,2,0,0,0,0,15,0,0,0,0,Crowns,False,Haros' Set
 Cowl of the Dark Elf (Level 130+),130,465,22,0,0,8,143,0,5,0,0,0,0,15,0,0,0,0,Crowns,False,None
-Festive Sleeping Cap (Level 120+),120,445,22,0,0,13,0,0,0,8,0,0,0,15,0,0,0,0,Crowns,False,None
-Ghost Hunter Hat (Level 120+),120,431,22,0,6,14,0,0,0,0,0,0,0,15,0,0,0,0,Crowns,False,None
+Festive Sleeping Cap (Level 120+),120,445,22,0,0,13,113,0,0,8,0,0,0,15,0,0,0,0,Crowns,False,None
+Ghost Hunter Hat (Level 120+),120,431,22,0,6,14,146,0,0,0,0,0,0,15,0,0,0,0,Crowns,False,None
 Helm of the Briny Deep (Level 100+),100,394,22,0,0,11,104,0,0,8,0,6,0,0,0,0,0,0,Gift Card,False,None
 Sky Sorcerer Kasa (Level 120+),120,389,22,0,6,14,111,0,0,0,3,3,0,0,0,0,0,0,Gift Card,False,Sky Sorcerer's Set
-Savannah Tribal Helm (Level 110+),110,384,22,0,4,10,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Savannah Tribal Helm (Level 110+),110,384,22,0,4,10,95,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Sweetish Chef Hat (Level 110+),110,320,22,0,5,15,92,0,3,0,0,0,0,14,0,0,0,0,Gift Card,False,Sweetish Chef Set
 Sinister Harlequin Mask (Level 100+),100,315,22,0,0,10,112,0,4,0,6,0,0,11,0,0,0,0,Gift Card,False,None
 Burrower's Sorcery Hood (Level 110+),110,467,21,13,0,7,0,70,4,0,0,0,0,11,0,0,0,0,Crowns,False,None
@@ -276,31 +276,31 @@ Dashing Outlaw's Feather Cap (Level 120+),120,625,20,0,10,0,133,0,0,10,0,0,0,15,
 Abyssal Warrior's Mask (Level 130+),130,620,20,0,8,7,140,0,4,0,0,0,0,15,0,0,0,0,Gift Card,False,None
 Snowdrifter's Mantle (Level 130+),130,620,20,0,0,12,0,0,0,5,5,0,0,14,0,0,0,0,Crowns,False,None
 Shadoe's Hat of the Night (Level 110+),110,578,20,0,0,0,65,0,0,5,0,0,0,14,0,0,0,0,Crowns,False,None
-Fossil Avenger's Helm (Level 120+),120,574,20,0,0,0,0,0,0,6,0,0,0,15,0,0,0,0,Crowns,False,Fossil Avenger's Set
+Fossil Avenger's Helm (Level 120+),120,574,20,0,0,0,146,0,0,6,0,0,0,15,0,0,0,0,Crowns,False,Fossil Avenger's Set
 Dramaturgist's Hat (Level 120+),120,568,20,0,0,9,105,0,0,11,0,0,0,14,0,0,0,0,Gift Card,False,None
 Interstellar Delegate's Helm,122,558,20,0,0,0,126,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Stone Key",False,None
 Balanced Liaison's Hat,130,551,20,0,5,11,0,0,0,0,0,0,0,15,0,0,0,0,Quest,False,None
 Forgemaster's Helm (Level 130+),130,543,20,0,0,14,110,0,3,0,0,3,0,16,0,0,0,0,Gift Card,False,None
 Balanced August Sage Cap (Level 120+),120,536,20,0,5,8,136,55,5,0,0,0,0,13,0,2,0,1,Crowns,False,None
-Formal Alpine Hat (Level 120+),120,500,20,0,8,0,0,0,3,0,0,0,0,15,0,0,0,0,Crowns,False,None
+Formal Alpine Hat (Level 120+),120,500,20,0,8,0,113,0,3,0,0,0,0,15,0,0,0,0,Crowns,False,None
 Night King's Crown (Level 110+),110,495,20,0,0,13,0,0,0,0,11,12,0,9,0,0,0,0,Crowns,False,None
-Cosmographer's Cowl (Level 110+),110,485,20,0,0,15,0,0,0,0,0,0,0,14,0,0,0,0,Crowns,False,None
+Cosmographer's Cowl (Level 110+),110,485,20,0,0,15,95,0,0,0,0,0,0,14,0,0,0,0,Crowns,False,None
 Luphilim's Valiant Greathelm,110,481,20,0,5,8,117,0,0,0,0,0,0,0,0,0,0,0,Stone Key,False,None
-Spellwright's Druidic Cowl (Level 110+),110,473,20,0,4,13,0,0,0,0,0,0,0,14,0,0,0,0,Crowns,False,None
+Spellwright's Druidic Cowl (Level 110+),110,473,20,0,4,13,114,0,0,0,0,0,0,14,0,0,0,0,Crowns,False,None
 Tundra Hunter Tuke (Level 110+),110,458,20,0,0,12,124,0,0,0,0,0,0,14,0,0,0,0,Crowns,False,None
 Snowdrifter's Hat (Level 120+),120,445,20,0,8,0,112,0,6,0,0,0,0,13,0,0,0,0,Crowns,False,None
 Shadoe's Hat of Justice (Level 110+),110,434,20,0,0,0,86,0,2,0,0,0,0,14,0,0,0,0,Crowns,False,None
 White Pandamonium Warhelm (Level 110+),110,430,20,0,0,6,72,0,0,0,0,6,0,0,0,0,0,0,Crowns,False,None
 Allfather's Helm (Level 110+),110,419,20,0,0,8,108,0,0,4,0,0,0,13,0,0,0,0,Crowns,False,None
-Cool Rancher's Hat (Level 110+),110,406,20,0,6,13,0,0,0,0,0,0,0,14,0,0,0,0,Crowns,False,None
+Cool Rancher's Hat (Level 110+),110,406,20,0,6,13,137,0,0,0,0,0,0,14,0,0,0,0,Crowns,False,None
 Ancient Purrzian War Mantle (Level 110+),110,404,20,0,0,0,80,0,3,5,0,0,0,12,0,0,0,0,Crowns,False,None
 Creepy Clown Mask (Level 110+),110,394,20,0,6,11,104,0,3,0,0,0,0,12,0,0,0,0,Gift Card,False,None
 Brown Werewolf Skullcap (Level 110+),110,384,20,0,0,11,107,0,0,0,0,0,0,13,0,0,0,0,Crowns,False,None
 Spooky Carnival Hat (Level 100+),100,356,20,0,8,0,109,0,0,9,0,6,0,11,0,0,0,0,Gift Card,False,None
 Helm of the Briny Deep (Level 90+),90,335,20,0,0,11,94,0,0,7,0,6,0,11,0,0,0,0,Gift Card,False,None
-Drum Jungle Tribal Helm (Level 100+),100,330,20,0,7,8,0,0,0,0,0,0,0,13,0,0,0,0,Crowns,False,None
+Drum Jungle Tribal Helm (Level 100+),100,330,20,0,7,8,84,0,0,0,0,0,0,13,0,0,0,0,Crowns,False,None
 Prestigious Hat (Level 100+),100,325,20,0,11,0,25,45,0,0,0,0,0,0,0,0,0,0,"Crowns, Gift Card",False,None
-Savannah Tribal Helm (Level 90+),90,273,20,0,4,9,0,0,0,0,0,0,0,11,0,0,0,0,Crowns,False,None
+Savannah Tribal Helm (Level 90+),90,273,20,0,4,9,77,0,0,0,0,0,0,11,0,0,0,0,Crowns,False,None
 Sinister Harlequin Mask (Level 90+),90,252,20,0,0,9,101,0,3,0,6,0,0,10,0,0,0,0,Gift Card,False,None
 Burrower's Sorcery Hood (Level 100+),100,398,19,13,0,9,0,65,4,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
 Aztecosaur War-Helm (Level 130+),130,724,19,12,0,0,0,0,4,0,6,0,0,16,0,0,0,0,Gift Card,False,None
@@ -331,26 +331,26 @@ Monarch's Diadem (Level 110+),110,463,19,0,6,11,115,0,0,0,0,0,0,14,0,0,0,0,Gift 
 Grand Admiral's Turban (Level 110+),110,459,19,0,0,11,113,0,0,9,0,0,0,14,0,0,0,0,Crowns,False,None
 Majoris Helm of Cohesion,110,455,19,0,0,11,116,0,3,0,0,0,0,12,0,0,0,0,Drop,False,None
 Merry Sleeping Cap (Level 120+),120,440,19,0,0,13,0,0,0,8,0,0,0,15,0,0,0,0,Crowns,False,None
-Haunted Captain's Tricorne (Level 110+),110,430,19,0,6,12,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Haunted Captain's Tricorne (Level 110+),110,430,19,0,6,12,114,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Alkali Kalpak of Fealty,118,428,19,0,0,0,122,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Black New Year's Top Cloche (Level 110+),110,428,19,0,0,15,0,0,0,0,0,0,0,14,0,0,0,0,Crowns,False,None
+Black New Year's Top Cloche (Level 110+),110,428,19,0,0,15,112,0,0,0,0,0,0,14,0,0,0,0,Crowns,False,None
 Battlemage Helm (Level 110+),110,419,19,0,4,0,79,0,2,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Apocalypse Helmet (Level 100+),100,404,19,0,8,0,118,0,0,5,0,0,0,11,0,0,0,0,Crowns,False,Road Fury Set
 Ancient Purrzian Combat Mask (Level 110+),110,400,19,0,0,0,87,0,3,5,0,0,0,0,0,0,0,0,Crowns,False,None
 Grandfather Spider's Steady Cowl (Level 100+),100,398,19,0,6,11,116,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Stable Skyfarer's Douli Hat (Level 100+),100,398,19,0,6,11,116,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Malistaire's Harmonic Locks (Level 100+),100,398,19,0,6,11,116,0,0,0,0,0,0,0,0,0,0,0,Rematch,False,None
+Stable Skyfarer's Douli Hat (Level 100+),100,398,19,0,6,11,116,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Cap of Tomorrow (Level 110+),110,394,19,0,7,13,92,0,0,0,3,0,0,12,0,0,0,0,Gift Card,False,None
-Haros' Countenance (Level 110+),110,386,19,0,0,0,0,0,2,0,0,0,0,14,0,0,0,0,Crowns,False,Haros' Set
+Haros' Countenance (Level 110+),110,386,19,0,0,0,137,0,2,0,0,0,0,14,0,0,0,0,Crowns,False,Haros' Set
 White Pandamonium Warhelm (Level 100+),100,366,19,0,0,6,65,0,0,0,0,6,0,0,0,0,0,0,Crowns,False,None
-Festive Sleeping Cap (Level 110+),110,365,19,0,0,12,0,0,0,8,0,0,0,14,0,0,0,0,Crowns,False,None
+Festive Sleeping Cap (Level 110+),110,365,19,0,0,12,101,0,0,8,0,0,0,14,0,0,0,0,Crowns,False,None
 Cowl of the Dark Elf (Level 120+),120,359,19,0,0,7,136,0,4,0,0,0,0,14,0,0,0,0,Crowns,False,None
-Ghost Hunter Hat (Level 110+),110,356,19,0,6,13,0,0,0,0,0,0,0,14,0,0,0,0,Crowns,False,None
+Ghost Hunter Hat (Level 110+),110,356,19,0,6,13,131,0,0,0,0,0,0,14,0,0,0,0,Crowns,False,None
 Allfather's Helm (Level 100+),100,352,19,0,0,8,97,0,0,4,0,0,0,11,0,0,0,0,Crowns,False,None
 Ancient Purrzian War Mantle (Level 100+),100,343,19,0,0,0,72,0,3,5,0,0,0,10,0,0,0,0,Crowns,False,None
 Brown Werewolf Skullcap (Level 100+),100,326,19,0,0,10,96,0,0,0,0,0,0,12,0,0,0,0,Crowns,False,None
 Sky Sorcerer Kasa (Level 110+),110,320,19,0,5,14,100,0,0,0,3,3,0,0,0,0,0,0,Gift Card,False,Sky Sorcerer's Set
-Drum Jungle Tribal Helm (Level 90+),90,284,19,0,7,8,0,0,0,0,0,0,0,11,0,0,0,0,Crowns,False,None
+Drum Jungle Tribal Helm (Level 90+),90,284,19,0,7,8,76,0,0,0,0,0,0,11,0,0,0,0,Crowns,False,None
 Sweetish Chef Hat (Level 100+),100,272,19,0,4,13,84,0,3,0,0,0,0,13,0,0,0,0,Gift Card,False,Sweetish Chef Set
 Burrower's Sorcery Hood (Level 90+),90,355,18,11,0,8,0,60,4,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Arcane Smith's Cap (Level 120+),120,359,18,10,0,0,0,0,8,0,0,9,0,15,0,0,0,0,Gift Card,False,None
@@ -388,21 +388,21 @@ Aquilan Velite Kalkris (Level 110+),110,499,18,0,0,0,132,0,0,5,4,0,0,12,0,0,0,0,
 Dragonhorn Helm of Balance,110,481,18,0,0,0,119,0,3,0,0,0,0,13,0,0,0,0,Drop,False,None
 Queen's Color Guard Shako (Level 130+),130,480,18,0,0,8,55,0,0,0,11,11,0,0,0,0,0,0,Crowns,False,None
 Abyssal Warrior's Mask (Level 120+),120,475,18,0,8,7,127,0,4,0,0,0,0,14,0,0,0,0,Gift Card,False,None
-Fossil Avenger's Helm (Level 110+),110,475,18,0,0,0,0,0,0,6,0,0,0,14,0,0,0,0,Crowns,False,Fossil Avenger's Set
+Fossil Avenger's Helm (Level 110+),110,475,18,0,0,0,131,0,0,6,0,0,0,14,0,0,0,0,Crowns,False,Fossil Avenger's Set
 Snowdrifter's Mantle (Level 120+),120,475,18,0,0,12,0,0,0,5,5,0,0,13,0,0,0,0,Crowns,False,None
 Sorcerer's Pointy Hat,85,450,18,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Shard Warrior's Helm (Level 110+),110,435,18,0,0,8,110,0,0,0,0,15,0,13,0,0,0,0,Gift Card,False,None
 Titan Warrior Honesty Cowl,110,430,18,0,0,10,114,0,2,0,0,0,0,0,0,0,0,0,Drop,False,None
 Forgemaster's Helm (Level 120+),120,419,18,0,0,14,97,0,3,0,3,0,0,15,0,0,0,0,Gift Card,False,None
-Formal Alpine Hat (Level 110+),110,415,18,0,8,0,0,0,3,0,0,0,0,14,0,0,0,0,Crowns,False,None
+Formal Alpine Hat (Level 110+),110,415,18,0,8,0,101,0,3,0,0,0,0,14,0,0,0,0,Crowns,False,None
 All Souls Headwrap (Level 110+),110,412,18,0,7,0,111,0,0,0,0,0,0,13,0,0,0,0,Crowns,False,None
-Spellwright's Druidic Cowl (Level 100+),100,407,18,0,4,12,0,0,0,0,0,0,0,13,0,0,0,0,Crowns,False,None
+Spellwright's Druidic Cowl (Level 100+),100,407,18,0,4,12,103,0,0,0,0,0,0,13,0,0,0,0,Crowns,False,None
 Vizier's Mantle of Dignity,116,398,18,0,0,0,119,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Tundra Hunter Tuke (Level 100+),100,394,18,0,0,12,112,0,0,0,0,0,0,13,0,0,0,0,Crowns,False,None
 Shadoe's Hat of Justice (Level 100+),100,391,18,0,0,0,77,0,2,0,0,0,0,13,0,0,0,0,Crowns,False,None
 Snowdrifter's Hat (Level 110+),110,378,18,0,7,0,102,0,5,0,0,0,0,12,0,0,0,0,Crowns,False,None
 Shard Warrior's Helm (Level 100+),100,370,18,0,0,7,105,0,0,0,0,15,0,11,0,0,0,0,Gift Card,False,None
-Adventurous Ranger's Hat (Level 110+),110,362,18,0,0,8,0,0,3,0,0,0,0,9,0,0,0,0,Crowns,False,None
+Adventurous Ranger's Hat (Level 110+),110,362,18,0,0,8,98,0,3,0,0,0,0,9,0,0,0,0,Crowns,False,None
 Grandfather Spider's Steady Cowl (Level 90+),90,355,18,0,5,9,100,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Stable Skyfarer's Douli Hat (Level 90+),90,355,18,0,5,9,100,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Chieftain's Crown (Level 100+),100,345,18,0,8,0,60,20,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
@@ -416,12 +416,12 @@ Moon Cover,58,288,18,0,0,9,20,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Harmony Helm,56,288,18,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Helm of the Briny Deep (Level 80+),80,285,18,0,0,10,84,0,0,7,0,5,0,0,0,0,0,0,Gift Card,False,None
 Prestigious Hat (Level 90+),90,285,18,0,10,0,20,40,0,0,0,0,0,0,0,0,0,0,"Crowns, Gift Card",False,None
-Balanced Brimstone Brim,55,245,18,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
-Coalescent Ice Cap,55,245,18,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
-Cap of Tragic Tolerance,55,245,18,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
-Harmonious Heart Helm,55,245,18,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
-Lawful Thunder Hood,55,245,18,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
-Mask of Mutual Mystery,55,245,18,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
+Balanced Brimstone Brim,55,245,18,0,5,0,67,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
+Cap of Tragic Tolerance,55,245,18,0,5,0,67,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
+Coalescent Ice Cap,55,245,18,0,5,0,67,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
+Harmonious Heart Helm,55,245,18,0,5,0,67,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
+Lawful Thunder Hood,55,245,18,0,5,0,67,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
+Mask of Mutual Mystery,55,245,18,0,5,0,67,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
 Synthesis Cover,56,216,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Sinister Harlequin Mask (Level 80+),80,202,18,0,0,9,91,0,3,0,5,0,0,0,0,0,0,0,Gift Card,False,None
 Krokopatra Justice Fez,100,531,17,14,0,9,151,0,2,0,0,0,0,10,0,0,0,0,One Shot Housing Gauntlet,False,None
@@ -459,7 +459,7 @@ Hat of Perfect Poise,80,400,17,0,4,0,90,5,2,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Monarch's Diadem (Level 100+),100,398,17,0,6,10,105,0,0,0,0,0,0,13,0,0,0,0,Gift Card,False,None
 Grand Admiral's Turban (Level 100+),110,395,17,0,0,11,102,0,0,8,0,0,0,13,0,0,0,0,"Housing Gauntlet, Crowns",False,None
 Wayfarer's Fez of Poise,114,367,17,0,0,0,116,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Haunted Captain's Tricorne (Level 100+),100,361,17,0,6,11,0,0,0,0,0,0,0,11,0,0,0,0,Crowns,False,None
+Haunted Captain's Tricorne (Level 100+),100,361,17,0,6,11,103,0,0,0,0,0,0,11,0,0,0,0,Crowns,False,None
 Battlemage Helm (Level 100+),100,356,17,0,4,0,71,0,2,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Apocalypse Helmet (Level 90+),90,343,17,0,8,0,106,0,0,5,0,0,0,0,0,0,0,0,Crowns,False,Road Fury Set
 Creepy Clown Mask (Level 100+),100,335,17,0,5,10,88,0,3,0,0,0,0,11,0,0,0,0,Gift Card,False,None
@@ -507,7 +507,7 @@ Alhazred's Karmic Fez (Level 110+),110,430,16,0,4,12,112,0,3,0,0,0,0,13,0,0,0,0,
 Aquilan Velite Kalkris (Level 100+),100,424,16,0,0,0,125,0,0,4,4,0,0,11,0,0,0,0,Crowns,False,None
 Transcendent Noble Laurel,90,415,16,0,5,8,0,0,0,0,7,0,0,0,0,0,0,0,Crafting,False,None
 Valiant Jouster's Helm (Level 110+),110,412,16,0,0,10,125,0,8,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Cosmographer's Cowl (Level 100+),100,412,16,0,0,14,0,0,0,0,0,0,0,13,0,0,0,0,Crowns,False,None
+Cosmographer's Cowl (Level 100+),100,412,16,0,0,14,86,0,0,0,0,0,0,13,0,0,0,0,Crowns,False,None
 Abyssal Warrior's Mask (Level 110+),110,404,16,0,7,7,114,0,3,0,0,0,0,13,0,0,0,0,Gift Card,False,None
 Snowdrifter's Mantle (Level 110+),110,404,16,0,0,11,0,0,0,4,4,0,0,0,0,0,0,0,Crowns,False,None
 Royal Fusilier's Shako (Level 110+),110,400,16,0,4,8,60,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -519,7 +519,7 @@ Arcanum Sorcerer's Spire,108,354,16,0,0,0,102,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaa
 Shadoe's Hat of Justice (Level 90+),90,352,16,0,0,0,69,0,2,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Glider's Helm of Equality,96,350,16,0,15,0,110,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 All Souls Headwrap (Level 100+),100,350,16,0,6,0,100,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Spellwright's Druidic Cowl (Level 90+),90,350,16,0,4,12,0,0,0,0,0,0,0,11,0,0,0,0,Crowns,False,None
+Spellwright's Druidic Cowl (Level 90+),90,350,16,0,4,12,93,0,0,0,0,0,0,11,0,0,0,0,Crowns,False,None
 Lightkeeper's Dive Helmet (Level 100+),100,348,16,0,6,6,104,0,3,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Forgemaster's Helm (Level 110+),110,345,16,0,0,14,87,0,3,0,0,2,0,14,0,0,0,0,Gift Card,False,None
 Tundra Hunter Tuke (Level 90+),90,339,16,0,0,11,101,0,0,0,0,0,0,11,0,0,0,0,Crowns,False,None
@@ -578,7 +578,7 @@ Dragoon's Capitano Hat (Level 100+),100,383,15,0,0,0,100,0,5,6,0,0,0,10,0,0,0,0,
 Celestian Xenon Mask (Level 100+),100,379,15,0,0,11,107,0,0,0,0,0,0,13,0,0,0,0,Crowns,False,None
 Dwarven Aerohelm (Level 100+),100,377,15,0,0,11,114,0,0,0,0,0,0,13,0,0,0,0,Gift Card,False,None
 Alhazred's Karmic Fez (Level 100+),100,366,15,0,4,11,101,0,2,0,0,0,0,11,0,0,0,0,Crowns,False,None
-Black New Year's Top Cloche (Level 100+),100,364,15,0,0,14,0,0,0,0,0,0,0,13,0,0,0,0,Crowns,False,None
+Black New Year's Top Cloche (Level 100+),100,364,15,0,0,14,101,0,0,0,0,0,0,13,0,0,0,0,Crowns,False,None
 Shinobi Hood (Level 110+),110,355,15,0,0,8,89,0,4,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Royal Fusilier's Shako (Level 100+),100,355,15,0,3,8,56,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Valiant Jouster's Helm (Level 100+),100,350,15,0,0,10,120,0,8,0,0,0,0,0,0,0,0,0,Gift Card,False,None
@@ -590,9 +590,9 @@ Silent Knight's Headgear (Level 100+),100,340,15,0,0,0,98,0,0,0,3,2,0,11,0,0,0,0
 Grand Admiral's Turban (Level 90+),90,340,15,0,0,11,92,0,0,8,0,0,0,11,0,0,0,0,Crowns,False,None
 Artisan's Stately Laurel,70,330,15,0,4,7,0,0,3,0,6,0,0,0,0,0,0,0,Crafting,False,None
 Enchanter's Hat of Poise,106,329,15,0,0,0,99,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Haros' Countenance (Level 100+),100,328,15,0,0,0,0,0,2,0,0,0,0,13,0,0,0,0,Crowns,False,Haros' Set
+Haros' Countenance (Level 100+),100,328,15,0,0,0,123,0,2,0,0,0,0,13,0,0,0,0,Crowns,False,Haros' Set
 Wysteria Warrior's Armet (Level 90+),90,311,15,0,0,7,90,0,2,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Festive Sleeping Cap (Level 100+),100,310,15,0,0,11,0,0,0,8,0,0,0,13,0,0,0,0,Crowns,False,None
+Festive Sleeping Cap (Level 100+),100,310,15,0,0,11,91,0,0,8,0,0,0,13,0,0,0,0,Crowns,False,None
 Merry Sleeping Cap (Level 100+),100,306,15,0,0,11,0,0,0,8,0,0,0,13,0,0,0,0,Crowns,False,None
 Favored One's Headwrap,80,305,15,0,2,9,0,0,0,0,5,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Battlemage Helm (Level 90+),90,303,15,0,4,0,64,0,2,0,0,0,0,11,0,0,0,0,Gift Card,False,None
@@ -626,12 +626,12 @@ Winter Solstice Cowl (Level 130+),130,696,14,0,0,10,0,0,0,5,0,0,0,0,0,0,0,0,Crow
 Mantle of the Frozen Sun (Level 130+),130,550,14,0,0,7,90,0,4,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Hood of the Arund Vale (Level 110+),110,500,14,0,5,9,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Hood of the Arund Vale (Level 100+),100,483,14,0,5,8,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Motorist's Goggles (Level 100+),100,457,14,0,0,13,0,0,1,0,0,0,0,12,0,0,0,0,Crowns,False,None
+Motorist's Goggles (Level 100+),100,457,14,0,0,13,88,0,1,0,0,0,0,12,0,0,0,0,Crowns,False,None
 Seal Team Assault Helmet (Level 100+),100,439,14,0,7,0,0,0,0,5,0,0,0,12,0,0,0,0,Crowns,False,None
 Mantle of the Frozen Sun (Level 120+),120,425,14,0,0,7,88,0,4,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Shadoe's Hat of the Night (Level 80+),80,421,14,0,0,0,48,0,0,5,0,0,0,0,0,0,0,0,Crowns,False,None
 Cowl of the Sentinel (Level 130+),130,410,14,0,5,10,125,0,3,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Fossil Avenger's Helm (Level 100+),100,409,14,0,0,0,0,0,0,6,0,0,0,13,0,0,0,0,Crowns,False,Fossil Avenger's Set
+Fossil Avenger's Helm (Level 100+),100,409,14,0,0,0,118,0,0,6,0,0,0,13,0,0,0,0,Crowns,False,Fossil Avenger's Set
 Dunerunner's Headwrap (Level 110+),110,406,14,0,7,0,94,0,0,0,2,0,0,13,0,0,0,0,Gift Card,False,None
 Raider Scrap Helm (Level 100+),100,398,14,0,0,0,112,0,3,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Commemoration Hat (Level 100+),100,386,14,0,0,12,104,0,0,0,0,0,0,11,0,0,0,0,Crowns,False,None
@@ -641,8 +641,8 @@ Silvertongue Cowl,76,370,14,0,4,0,120,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Queen's Color Guard Shako (Level 90+),90,370,14,0,0,7,40,0,0,0,10,10,0,0,0,0,0,0,Crowns,False,None
 Aquilan Velite Kalkris (Level 90+),90,360,14,0,0,0,112,0,0,4,4,0,0,0,0,0,0,0,Crowns,False,None
 Wildranger Cowl (Level 100+),100,350,14,0,0,8,90,0,6,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Cosmographer's Cowl (Level 90+),90,350,14,0,0,13,0,0,0,0,0,0,0,11,0,0,0,0,Crowns,False,None
-Cool Rancher's Hat (Level 100+),100,345,14,0,6,12,0,0,0,0,0,0,0,13,0,0,0,0,Crowns,False,None
+Cosmographer's Cowl (Level 90+),90,350,14,0,0,13,77,0,0,0,0,0,0,11,0,0,0,0,Crowns,False,None
+Cool Rancher's Hat (Level 100+),100,345,14,0,6,12,123,0,0,0,0,0,0,13,0,0,0,0,Crowns,False,None
 Abyssal Warrior's Mask (Level 100+),100,343,14,0,7,6,104,0,3,0,0,0,0,11,0,0,0,0,Gift Card,False,None
 Snowdrifter's Mantle (Level 100+),100,343,14,0,0,11,0,0,0,4,4,0,0,10,0,0,0,0,Crowns,False,None
 Unicorn Champion Helmet (Level 90+),90,329,14,0,0,9,94,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -653,26 +653,26 @@ Sidhe Cowl of Attunement,65,319,14,0,3,0,0,0,1,0,0,0,0,0,0,0,0,0,"Drop, Crowns",
 Shadoe's Hat of Justice (Level 80+),80,317,14,0,0,0,62,0,2,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Royal Fusilier's Shako (Level 90+),90,315,14,0,3,7,50,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Alhazred's Karmic Fez (Level 90+),90,311,14,0,3,11,91,0,2,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Black New Year's Top Cloche (Level 90+),90,309,14,0,0,14,0,0,0,0,0,0,0,11,0,0,0,0,Crowns,False,None
-Black New Year's Top Hat (Level 90+),90,309,14,0,0,14,0,0,0,0,0,0,0,11,0,0,0,0,Crowns,False,None
-Adventurous Ranger's Hat (Level 100+),100,308,14,0,0,7,0,0,2,0,0,0,0,8,0,0,0,0,Crowns,False,None
+Black New Year's Top Cloche (Level 90+),90,309,14,0,0,14,91,0,0,0,0,0,0,11,0,0,0,0,Crowns,False,None
+Black New Year's Top Hat (Level 90+),90,309,14,0,0,14,91,0,0,0,0,0,0,11,0,0,0,0,Crowns,False,None
+Adventurous Ranger's Hat (Level 100+),100,308,14,0,0,7,88,0,2,0,0,0,0,8,0,0,0,0,Crowns,False,None
 Wise One's Mantle,70,306,14,0,2,8,0,0,0,0,5,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Evoker's Gallant Brim,104,304,14,0,0,0,96,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Ghost Hunter Hat (Level 100+),100,303,14,0,6,12,0,0,0,0,0,0,0,13,0,0,0,0,Crowns,False,None
-Spellwright's Druidic Cowl (Level 80+),80,301,14,0,3,11,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Ghost Hunter Hat (Level 100+),100,303,14,0,6,12,118,0,0,0,0,0,0,13,0,0,0,0,Crowns,False,None
+Spellwright's Druidic Cowl (Level 80+),80,301,14,0,3,11,84,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Dragonrider's Assailing Helm (Level 80+),80,300,14,0,0,5,30,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 All Souls Headwrap (Level 90+),90,298,14,0,6,0,90,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Forgemaster's Helm (Level 100+),100,293,14,0,0,12,74,0,2,0,0,2,0,13,0,0,0,0,Gift Card,False,None
 Tundra Hunter Tuke (Level 80+),80,292,14,0,0,11,91,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Creepy Clown Mask (Level 90+),90,285,14,0,4,10,75,0,2,0,0,0,0,9,0,0,0,0,Gift Card,False,None
 Cap of Tomorrow (Level 90+),90,285,14,0,5,10,66,0,0,0,2,0,0,9,0,0,0,0,Gift Card,False,None
-Haros' Countenance (Level 90+),90,279,14,0,0,0,0,0,1,0,0,0,0,11,0,0,0,0,Crowns,False,Haros' Set
+Haros' Countenance (Level 90+),90,279,14,0,0,0,111,0,1,0,0,0,0,11,0,0,0,0,Crowns,False,Haros' Set
 Snowdrifter's Hat (Level 90+),90,273,14,0,7,0,81,0,4,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Baobab's Spirit Hood,66,270,14,0,2,0,99,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Noble Explorer's Safari Hat,66,270,14,0,2,0,99,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Shard Warrior's Helm (Level 80+),80,268,14,0,0,6,80,0,0,0,0,13,0,0,0,0,0,0,Gift Card,False,None
 Wysteria Warrior's Armet (Level 80+),80,264,14,0,0,6,81,0,2,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Festive Sleeping Cap (Level 90+),90,264,14,0,0,10,0,0,0,7,0,0,0,11,0,0,0,0,Crowns,False,None
+Festive Sleeping Cap (Level 90+),90,264,14,0,0,10,82,0,0,7,0,0,0,11,0,0,0,0,Crowns,False,None
 Sky Sorcerer Kasa (Level 90+),90,231,14,0,5,10,84,0,0,0,2,2,0,10,0,0,0,0,Gift Card,False,Sky Sorcerer's Set
 Prestigious Hat (Level 80+),80,225,14,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Gift Card",False,None
 Lightkeeper's Dive Helmet (Level 70+),70,222,14,0,5,5,69,0,2,0,0,0,0,0,0,0,0,0,Gift Card,False,None
@@ -714,9 +714,9 @@ True Silver Helmet (Level 100+),100,445,13,0,0,7,62,0,3,0,9,0,0,0,0,0,0,0,Gift C
 Evergreen Cowl (Level 130+),130,415,13,0,0,9,65,0,8,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Night King's Crown (Level 100+),100,400,13,0,0,10,0,0,0,25,11,12,0,0,0,0,0,0,Crowns,False,None
 Cowl of the Sentinel (Level 120+),120,395,13,0,5,10,120,0,3,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Motorist's Goggles (Level 90+),90,388,13,0,0,12,0,0,1,0,0,0,0,10,0,0,0,0,Crowns,False,None
+Motorist's Goggles (Level 90+),90,388,13,0,0,12,79,0,1,0,0,0,0,10,0,0,0,0,Crowns,False,None
 Shadoe's Hat of the Night (Level 70+),70,379,13,0,0,0,43,0,0,4,0,0,0,0,0,0,0,0,Crowns,False,None
-Fossil Avenger's Helm (Level 90+),90,352,13,0,0,0,0,0,0,5,0,0,0,11,0,0,0,0,Crowns,False,Fossil Avenger's Set
+Fossil Avenger's Helm (Level 90+),90,352,13,0,0,0,106,0,0,5,0,0,0,11,0,0,0,0,Crowns,False,Fossil Avenger's Set
 Queen's Color Guard Shako (Level 80+),80,350,13,0,0,7,34,0,0,0,9,9,0,0,0,0,0,0,Crowns,False,None
 Dunerunner's Headwrap (Level 100+),100,345,13,0,6,0,86,0,0,0,2,0,0,11,0,0,0,0,Gift Card,False,None
 Dramaturgist's Hat (Level 90+),90,338,13,0,0,8,70,0,0,10,0,0,0,10,0,0,0,0,Gift Card,False,None
@@ -728,7 +728,7 @@ Wildranger Cowl (Level 80+),80,306,13,0,0,7,70,0,4,0,0,0,0,0,0,0,0,0,Gift Card,F
 Shinobi Hood (Level 100+),100,302,13,0,0,7,80,0,3,0,0,0,0,13,0,0,0,0,Gift Card,False,None
 Valiant Jouster's Helm (Level 90+),90,298,13,0,0,9,110,0,7,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Monarch's Diadem (Level 80+),80,294,13,0,5,9,85,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Cool Rancher's Hat (Level 90+),90,293,13,0,6,11,0,0,0,0,0,0,0,11,0,0,0,0,Crowns,False,None
+Cool Rancher's Hat (Level 90+),90,293,13,0,6,11,111,0,0,0,0,0,0,11,0,0,0,0,Crowns,False,None
 Grand Admiral's Turban (Level 80+),80,292,13,0,0,10,83,0,0,7,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
 Silent Knight's Headgear (Level 90+),90,289,13,0,0,0,88,0,0,0,3,2,0,0,0,0,0,0,Crowns,False,None
 Shadoe's Hat of Justice (Level 70+),70,285,13,0,0,0,56,0,1,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -738,18 +738,18 @@ Dragoon's Capitano Hat (Level 80+),80,277,13,0,0,0,80,0,4,6,0,0,0,0,0,0,0,0,Gift
 Royal Fusilier's Shako (Level 80+),80,275,13,0,3,6,44,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Celestian Xenon Mask (Level 80+),80,274,13,0,0,9,86,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Alhazred's Karmic Fez (Level 80+),80,264,13,0,3,11,82,0,2,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Adventurous Ranger's Hat (Level 90+),90,262,13,0,0,7,0,0,2,0,0,0,0,7,0,0,0,0,Crowns,False,None
+Adventurous Ranger's Hat (Level 90+),90,262,13,0,0,7,79,0,2,0,0,0,0,7,0,0,0,0,Crowns,False,None
 Merry Sleeping Cap (Level 90+),90,260,13,0,0,10,0,0,0,7,0,0,0,11,0,0,0,0,Crowns,False,None
 Battlemage Helm (Level 80+),80,258,13,0,3,0,57,0,1,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Ghost Hunter Hat (Level 90+),90,258,13,0,5,11,0,0,0,0,0,0,0,11,0,0,0,0,Crowns,False,None
-Haunted Captain's Tricorne (Level 80+),80,255,13,0,5,10,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Ghost Hunter Hat (Level 90+),90,258,13,0,5,11,106,0,0,0,0,0,0,11,0,0,0,0,Crowns,False,None
+Haunted Captain's Tricorne (Level 80+),80,255,13,0,5,10,84,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Apocalypse Helmet (Level 70+),70,248,13,0,7,0,77,0,0,5,0,0,0,0,0,0,0,0,Crowns,False,Road Fury Set
 Wysteria Warrior's Armet (Level 70+),70,224,13,0,0,6,73,0,1,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Chieftain's Crown (Level 60+),60,216,13,0,6,0,20,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Pet Trainer Conical (Level 80+),80,212,13,0,5,6,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Ancient Purrzian War Mantle (Level 70+),70,211,13,0,0,0,47,0,2,4,0,0,0,0,0,0,0,0,Crowns,False,None
 Brown Werewolf Skullcap (Level 70+),70,200,13,0,0,7,63,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Drum Jungle Tribal Helm (Level 60+),60,181,13,0,6,6,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Drum Jungle Tribal Helm (Level 60+),60,181,13,0,6,6,55,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Lightkeeper's Dive Helmet (Level 60+),60,180,13,0,5,5,56,0,1,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Mantle of the Frozen Sun (Level 100+),100,175,13,0,0,6,82,0,4,0,0,0,0,0,0,0,0,0,Crowns,False,None
 White Pandamonium Warhelm (Level 50+),50,162,13,0,0,3,0,0,0,0,0,3,0,0,0,0,0,0,Crowns,False,None
@@ -796,21 +796,21 @@ Mask of Mirror Lake,66,335,12,0,0,0,80,0,1,0,0,0,0,0,0,0,0,0,"Drop, Stone Key",F
 Dashing Outlaw's Feather Cap (Level 80+),80,326,12,0,8,0,90,0,0,8,0,0,0,0,0,0,0,0,Gift Card,False,None
 Black Star Eagle's Helm (Level 110+),110,308,12,0,3,9,55,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Aquilan Velite Kalkris (Level 80+),80,307,12,0,0,0,94,0,0,4,4,0,0,0,0,0,0,0,Crowns,False,None
-Cosmographer's Cowl (Level 80+),80,298,12,0,0,12,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cosmographer's Cowl (Level 80+),80,298,12,0,0,12,69,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Dunerunner's Headwrap (Level 90+),90,293,12,0,6,0,78,0,0,0,2,0,0,10,0,0,0,0,Gift Card,False,None
 Abyssal Warrior's Mask (Level 90+),90,292,12,0,6,6,94,0,2,0,0,0,0,10,0,0,0,0,Gift Card,False,None
 Wildranger Cowl (Level 70+),70,280,12,0,0,6,60,0,3,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Witch Hunter's Capotain (Level 80+),80,272,12,0,7,0,85,0,2,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Black New Year's Top Cloche (Level 80+),80,263,12,0,0,13,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Black New Year's Top Hat (Level 80+),80,263,12,0,0,13,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Spellwright's Druidic Cowl (Level 70+),70,259,12,0,3,11,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Black New Year's Top Hat (Level 80+),80,263,12,0,0,13,82,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Black New Year's Top Cloche (Level 80+),80,263,12,0,0,13,82,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Spellwright's Druidic Cowl (Level 70+),70,259,12,0,3,11,76,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Shadoe's Hat of Justice (Level 60+),60,257,12,0,0,0,50,0,1,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Tundra Hunter Tuke (Level 70+),70,251,12,0,0,10,82,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Forgemaster's Helm (Level 90+),90,249,12,0,0,10,63,0,2,0,0,2,0,11,0,0,0,0,Gift Card,False,None
 Creepy Clown Mask (Level 80+),80,242,12,0,3,9,64,0,2,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Cap of Tomorrow (Level 80+),80,242,12,0,4,9,56,0,0,0,2,0,0,0,0,0,0,0,Gift Card,False,None
 Unicorn Champion Helmet (Level 70+),70,238,12,0,0,7,77,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Haros' Countenance (Level 80+),80,237,12,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Crowns,False,Haros' Set
+Haros' Countenance (Level 80+),80,237,12,0,0,0,100,0,1,0,0,0,0,0,0,0,0,0,Crowns,False,Haros' Set
 Dragoon's Capitano Hat (Level 70+),70,235,12,0,0,0,70,0,4,5,0,0,0,0,0,0,0,0,Gift Card,False,None
 Royal Fusilier's Shako (Level 70+),70,235,12,0,2,5,35,0,2,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Celestian Xenon Mask (Level 70+),70,233,12,0,0,7,77,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -867,12 +867,12 @@ Oyoroi Helmet (Level 100+),100,375,11,0,0,9,0,0,0,30,7,7,0,0,0,0,0,0,Crowns,Fals
 Evergreen Cowl (Level 110+),110,365,11,0,0,9,55,0,8,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Cowl of the Sentinel (Level 100+),100,365,11,0,5,10,110,0,3,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Hawkrider Cowl (Level 100+),100,335,11,0,8,0,60,60,3,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Motorist's Goggles (Level 80+),80,330,11,0,0,11,0,0,1,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Motorist's Goggles (Level 80+),80,330,11,0,0,11,71,0,1,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Crocogator's Ambush Hood,62,312,11,0,2,0,20,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Hippogriff's Hat of Harmony,62,312,11,0,2,0,20,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Glorious Chivalric Crown (Level 100+),100,310,11,0,8,0,90,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Shadoe's Hat of the Night (Level 50+),50,307,11,0,0,0,35,0,0,4,0,0,0,0,0,0,0,0,Crowns,False,None
-Fossil Avenger's Helm (Level 80+),80,303,11,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,Crowns,False,Fossil Avenger's Set
+Fossil Avenger's Helm (Level 80+),80,303,11,0,0,0,95,0,0,5,0,0,0,0,0,0,0,0,Crowns,False,Fossil Avenger's Set
 Dramaturgist's Hat (Level 80+),80,287,11,0,0,7,60,0,0,9,0,0,0,0,0,0,0,0,Gift Card,False,None
 Kermes Fire-Hardened Mask,96,280,11,0,0,0,115,0,0,0,11,0,0,0,0,0,0,0,Drop,False,None
 Hood of the Arund Vale (Level 70+),70,274,11,0,3,6,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -882,8 +882,8 @@ Monarch's Diadem (Level 70+),70,253,11,0,5,9,75,0,0,0,0,0,0,0,0,0,0,0,Gift Card,
 Grand Admiral's Turban (Level 70+),70,251,11,0,0,10,75,0,0,7,0,0,0,0,0,0,0,0,Crowns,False,None
 Valiant Jouster's Helm (Level 80+),80,250,11,0,0,8,100,0,6,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Dragonrider's Assailing Helm (Level 70+),70,250,11,0,0,4,25,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cool Rancher's Hat (Level 80+),80,249,11,0,6,10,100,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Dunerunner's Headwrap (Level 80+),80,249,11,0,5,0,70,0,0,0,2,0,0,0,0,0,0,0,Gift Card,False,None
-Cool Rancher's Hat (Level 80+),80,249,11,0,6,10,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Silent Knight's Headgear (Level 80+),80,246,11,0,0,0,79,0,0,0,2,1,0,0,0,0,0,0,Crowns,False,None
 Mask of the Sun Eagle (Level 100+),100,240,11,0,3,9,50,0,3,0,0,7,0,0,0,0,0,0,Crowns,False,None
 Dawn Jaguar's Helm (Level 100+),100,240,11,0,3,9,40,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -894,7 +894,7 @@ Merry Sleeping Cap (Level 80+),80,221,11,0,0,10,0,0,0,7,0,0,0,0,0,0,0,0,Crowns,F
 Crown of the Night Jaguar (Level 100+),100,220,11,0,3,9,50,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Battlemage Helm (Level 70+),70,219,11,0,3,0,51,0,1,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Royal Fusilier's Shako (Level 60+),60,215,11,0,2,5,25,0,1,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Haunted Captain's Tricorne (Level 70+),70,214,11,0,5,10,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Haunted Captain's Tricorne (Level 70+),70,214,11,0,5,10,76,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Apocalypse Helmet (Level 60+),60,211,11,0,6,0,65,0,0,4,0,0,0,0,0,0,0,0,Crowns,False,Road Fury Set
 Unicorn Champion Helmet (Level 60+),60,202,11,0,0,7,69,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Dragoon's Capitano Hat (Level 60+),60,200,11,0,0,0,60,0,3,5,0,0,0,0,0,0,0,0,Gift Card,False,None
@@ -970,9 +970,9 @@ Wildranger Cowl (Level 50+),50,240,10,0,0,5,30,0,1,0,0,0,0,0,0,0,0,0,Gift Card,F
 Kraysys' Hood of the Hidden (H240),50,240,10,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Mantle of Order,45,240,10,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Dwarven Aerohelm (Level 70+),70,231,10,0,0,10,83,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Black New Year's Top Cloche (Level 70+),70,224,10,0,0,13,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Black New Year's Top Hat (Level 70+),70,224,10,0,0,13,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Spellwright's Druidic Cowl (Level 60+),60,223,10,0,3,10,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Black New Year's Top Cloche (Level 70+),70,224,10,0,0,13,74,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Black New Year's Top Hat (Level 70+),70,224,10,0,0,13,74,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Spellwright's Druidic Cowl (Level 60+),60,223,10,0,3,10,68,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Mask of the Sun Eagle (Level 90+),90,220,10,0,3,8,45,0,2,0,0,5,0,0,0,0,0,0,"Gold Key, Crowns",False,None
 Dawn Jaguar's Helm (Level 90+),90,220,10,0,2,8,35,0,2,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Shinobi Hood (Level 80+),80,218,10,0,0,6,62,0,2,0,0,0,0,0,0,0,0,0,Gift Card,False,None
@@ -985,12 +985,12 @@ Shadoe's Hat of Justice (Level 40+),40,208,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crow
 Creepy Clown Mask (Level 70+),70,206,10,0,3,9,54,0,2,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Cap of Tomorrow (Level 70+),70,206,10,0,3,9,48,0,0,0,2,0,0,0,0,0,0,0,Gift Card,False,None
 Yeoman's Topper of Unity,40,203,10,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-Haros' Countenance (Level 70+),70,201,10,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Crowns,False,Haros' Set
+Haros' Countenance (Level 70+),70,201,10,0,0,0,90,0,1,0,0,0,0,0,0,0,0,0,Crowns,False,Haros' Set
 Crown of the Night Jaguar (Level 90+),90,200,10,0,2,8,45,0,2,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Snowdrifter's Hat (Level 70+),70,197,10,0,6,0,60,0,4,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Witch Hunter's Capotain (Level 60+),60,196,10,0,6,0,65,0,2,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Shard Warrior's Helm (Level 60+),60,194,10,0,0,5,60,0,0,0,0,11,0,0,0,0,0,0,Gift Card,False,None
-Festive Sleeping Cap (Level 70+),70,190,10,0,0,9,0,0,0,7,0,0,0,0,0,0,0,0,Crowns,False,None
+Festive Sleeping Cap (Level 70+),70,190,10,0,0,9,67,0,0,7,0,0,0,0,0,0,0,0,Crowns,False,None
 Black Star Eagle's Helm (Level 80+),80,180,10,0,2,7,40,0,2,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
 Smoldering Vengeance Helm (Level 90+),90,175,10,0,0,4,90,0,1,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Grandfather Spider's Steady Cowl (Level 40+),40,173,10,0,3,8,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -1064,11 +1064,11 @@ Queen's Color Guard Shako (Level 70+),70,315,9,0,0,7,25,0,0,0,7,7,0,0,0,0,0,0,Cr
 Glorious Chivalric Crown (Level 80+),80,310,9,0,4,0,80,0,2,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Setesh's Khepresh (Level 70+),70,292,9,0,4,0,77,0,0,0,2,2,0,0,0,0,0,0,Crowns,False,Setesh's Warrior Set
 Oyoroi Helmet (Level 80+),80,285,9,0,0,7,0,0,0,28,5,5,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
-Motorist's Goggles (Level 70+),70,281,9,0,0,9,0,0,1,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Motorist's Goggles (Level 70+),70,281,9,0,0,9,64,0,1,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Mask of the Crystal Caves,76,275,9,0,0,0,100,0,0,0,10,0,0,0,0,0,0,0,Drop,False,None
 True Silver Helmet (Level 60+),60,265,9,0,0,5,25,0,2,0,5,0,0,0,0,0,0,0,Gift Card,False,None
 Hawkrider Cowl (Level 80+),80,265,9,0,6,0,40,40,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Fossil Avenger's Helm (Level 70+),70,261,9,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,Crowns,False,Fossil Avenger's Set
+Fossil Avenger's Helm (Level 70+),70,261,9,0,0,0,86,0,0,5,0,0,0,0,0,0,0,0,Crowns,False,Fossil Avenger's Set
 Shadoe's Hat of the Night (Level 30+),30,248,9,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,Crowns,False,None
 Karamelle Knight Helm (Level 70+),70,245,9,0,4,0,70,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Raider Scrap Helm (Level 70+),70,244,9,0,0,0,81,0,1,0,0,0,0,0,0,0,0,0,Gift Card,False,None
@@ -1077,10 +1077,10 @@ Wildranger Cowl (Level 40+),40,240,9,0,3,5,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,Fal
 Commemoration Hat (Level 70+),70,237,9,0,0,11,77,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 True Silver Helmet (Level 50+),50,235,9,0,0,4,20,0,2,0,5,0,0,0,0,0,0,0,Gift Card,False,None
 Dashing Outlaw's Feather Cap (Level 60+),60,235,9,0,7,0,70,0,0,7,0,0,0,0,0,0,0,0,Gift Card,False,None
-Formal Alpine Hat (Level 70+),70,217,9,0,6,0,0,0,2,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Formal Alpine Hat (Level 70+),70,217,9,0,6,0,67,0,2,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Grand Admiral's Turban (Level 60+),60,216,9,0,0,10,68,0,0,6,0,0,0,0,0,0,0,0,Crowns,False,None
-Cosmographer's Cowl (Level 60+),60,215,9,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Cool Rancher's Hat (Level 70+),70,212,9,0,5,9,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cosmographer's Cowl (Level 60+),60,215,9,0,0,9,56,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cool Rancher's Hat (Level 70+),70,212,9,0,5,9,90,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Abyssal Warrior's Mask (Level 70+),70,211,9,0,5,5,74,0,1,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Silent Knight's Headgear (Level 70+),70,209,9,0,0,0,71,0,0,0,2,1,0,0,0,0,0,0,Crowns,False,None
 Valiant Jouster's Helm (Level 70+),70,208,9,0,0,7,90,0,5,0,0,0,0,0,0,0,0,0,Gift Card,False,None
@@ -1089,23 +1089,23 @@ Balanced Cowl of Legend,44,202,9,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting
 Chilly Veil of Neutrality,44,202,9,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
 Smoldering Hat of Equity,44,202,9,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
 Steady Mantle of Woe,44,202,9,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
-Vivid Hat of Discovery,44,202,9,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
 Thundering Hood of Stasis,44,202,9,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
+Vivid Hat of Discovery,44,202,9,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
 Mask of the Sun Eagle (Level 80+),80,200,9,0,3,7,40,0,1,0,0,5,0,0,0,0,0,0,"Gold Key, Crowns",False,None
 Dawn Jaguar's Helm (Level 80+),80,200,9,0,2,7,30,0,1,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Dwarven Aerohelm (Level 60+),60,196,9,0,0,9,75,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Royal Fusilier's Shako (Level 50+),50,195,9,0,2,5,18,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Adventurous Ranger's Hat (Level 70+),70,190,9,0,0,6,0,0,1,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Adventurous Ranger's Hat (Level 70+),70,190,9,0,0,6,64,0,1,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Merry Sleeping Cap (Level 70+),70,188,9,0,0,9,0,0,0,7,0,0,0,0,0,0,0,0,Crowns,False,None
 Monarch's Diadem (Level 50+),50,187,9,0,4,8,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Shadoe's Hat of Justice (Level 30+),30,187,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Battlemage Helm (Level 60+),60,186,9,0,3,0,46,0,1,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Ghost Hunter Hat (Level 70+),70,186,9,0,5,9,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Ghost Hunter Hat (Level 70+),70,186,9,0,5,9,86,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Shinobi Hood (Level 70+),70,185,9,0,0,5,53,0,2,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Forgemaster's Helm (Level 70+),70,180,9,0,0,9,46,0,2,0,0,2,0,0,0,0,0,0,Gift Card,False,None
 Crown of the Night Jaguar (Level 80+),80,180,9,0,2,7,40,0,2,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Haunted Captain's Tricorne (Level 60+),60,180,9,0,5,9,68,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Dunerunner's Headwrap (Level 60+),60,180,9,0,4,0,54,0,0,0,2,0,0,0,0,0,0,0,Gift Card,False,None
-Haunted Captain's Tricorne (Level 60+),60,180,9,0,5,9,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Apocalypse Helmet (Level 50+),50,179,9,0,6,0,55,0,0,4,0,0,0,0,0,0,0,0,Crowns,False,Road Fury Set
 Creepy Clown Mask (Level 60+),60,175,9,0,3,8,46,0,1,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Cap of Tomorrow (Level 60+),60,175,9,0,3,8,41,0,0,0,2,0,0,0,0,0,0,0,Gift Card,False,None
@@ -1195,44 +1195,44 @@ Evergreen Cowl (Level 80+),80,295,8,0,0,7,37,0,7,0,0,0,0,0,0,0,0,0,Gift Card,Fal
 Night King's Crown (Level 80+),80,290,8,0,0,6,0,0,0,25,6,5,0,0,0,0,0,0,Crowns,False,None
 Nirini Helm of Scorching (Level 100+),100,270,8,0,11,9,65,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Digger's Helm of Symmetry,92,260,8,0,0,0,102,0,3,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Motorist's Goggles (Level 60+),60,239,8,0,0,8,0,0,1,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Motorist's Goggles (Level 60+),60,239,8,0,0,8,58,0,1,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Brave One's Mantle,72,237,8,0,0,0,102,0,1,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Hawkrider Cowl (Level 70+),70,230,8,0,6,0,30,30,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Seal Team Assault Helmet (Level 60+),60,229,8,0,5,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
-Fossil Avenger's Helm (Level 60+),60,224,8,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,Crowns,False,Fossil Avenger's Set
+Fossil Avenger's Helm (Level 60+),60,224,8,0,0,0,77,0,0,5,0,0,0,0,0,0,0,0,Crowns,False,Fossil Avenger's Set
 Shadoe's Hat of the Night (Level 20+),20,223,8,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Aquilan Velite Kalkris (Level 60+),60,222,8,0,0,0,66,0,0,3,3,0,0,0,0,0,0,0,Crowns,False,None
 Snowdrifter's Mantle (Level 70+),70,211,8,0,0,9,0,0,0,3,3,0,0,0,0,0,0,0,Crowns,False,None
 Karamelle Knight Helm (Level 60+),60,208,8,0,3,0,63,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Raider Scrap Helm (Level 60+),60,207,8,0,0,0,73,0,1,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Dramaturgist's Hat (Level 60+),60,207,8,0,0,6,40,0,0,8,0,0,0,0,0,0,0,0,Gift Card,False,None
-Dawn Jaguar Hunting Garb (Level 40+),40,200,8,0,1,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Dashing Outlaw's Feather Cap (Level 50+),50,200,8,0,6,0,0,0,0,6,0,0,0,0,0,0,0,0,Gift Card,False,None
+Dawn Jaguar Hunting Garb (Level 40+),40,200,8,0,1,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Wildranger Cowl (Level 30+),30,200,8,0,3,4,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Plagued Cowl of Aspirations,40,192,8,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
 Tranquil Topper,40,192,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Spellwright's Druidic Cowl (Level 50+),50,192,8,0,3,10,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Black New Year's Top Hat (Level 60+),60,190,8,0,0,12,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Black New Year's Top Cloche (Level 60+),60,190,8,0,0,12,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Black New Year's Top Hat (Level 60+),60,190,8,0,0,12,67,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Black New Year's Top Cloche (Level 60+),60,190,8,0,0,12,67,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Tundra Hunter Tuke (Level 50+),50,186,8,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Royal Fusilier's Shako (Level 40+),40,185,8,0,2,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 All Souls Headwrap (Level 60+),60,183,8,0,4,0,66,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Cosmographer's Cowl (Level 50+),50,183,8,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Dawn Jaguar's Helm (Level 70+),70,180,8,0,2,7,25,0,1,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Cool Rancher's Hat (Level 60+),60,180,8,0,5,8,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cool Rancher's Hat (Level 60+),60,180,8,0,5,8,81,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Abyssal Warrior's Mask (Level 60+),60,179,8,0,5,5,64,0,1,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Valiant Jouster's Helm (Level 60+),60,171,8,0,0,6,80,0,4,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Haros' Countenance (Level 60+),60,171,8,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Crowns,False,Haros' Set
+Haros' Countenance (Level 60+),60,171,8,0,0,0,81,0,1,0,0,0,0,0,0,0,0,0,Crowns,False,Haros' Set
 Hood of the Arund Vale (Level 50+),50,169,8,0,2,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Shadoe's Hat of Justice (Level 20+),20,168,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Dwarven Aerohelm (Level 50+),50,167,8,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Festive Sleeping Cap (Level 60+),60,162,8,0,0,8,0,0,0,6,0,0,0,0,0,0,0,0,Crowns,False,None
+Festive Sleeping Cap (Level 60+),60,162,8,0,0,8,60,0,0,6,0,0,0,0,0,0,0,0,Crowns,False,None
 Monarch's Diadem (Level 40+),40,161,8,0,4,7,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Crown of the Night Jaguar (Level 70+),70,160,8,0,2,7,35,0,2,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Furious Winter Mukluks (Level 80+),80,160,8,0,3,15,0,0,0,0,0,8,0,0,0,0,0,0,Crowns,False,None
 Merry Sleeping Cap (Level 60+),60,160,8,0,0,8,0,0,0,6,0,0,0,0,0,0,0,0,Crowns,False,None
+Ghost Hunter Hat (Level 60+),60,158,8,0,5,8,77,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Battlemage Helm (Level 50+),50,158,8,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Ghost Hunter Hat (Level 60+),60,158,8,0,5,8,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Shinobi Hood (Level 60+),60,157,8,0,0,5,44,0,1,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Forgemaster's Helm (Level 60+),60,153,8,0,0,8,39,0,1,0,0,2,0,0,0,0,0,0,Gift Card,False,None
 Dunerunner's Headwrap (Level 50+),50,153,8,0,4,0,0,0,0,0,1,0,0,0,0,0,0,0,Gift Card,False,None
@@ -1463,8 +1463,8 @@ Night King's Crown (Level 60+),60,210,6,0,0,4,0,0,0,15,4,3,0,0,0,0,0,0,Crowns,Fa
 Cold-Kissed Cowl,56,200,6,0,0,0,20,0,0,0,5,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Cowl of Spirit Calling,56,200,6,0,0,0,20,0,0,0,5,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Cowl of Crackling,56,200,6,0,0,0,20,0,0,0,5,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Cowl of the One Eyed Crow,56,200,6,0,0,0,20,0,0,0,5,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Cowl of Esprit,56,200,6,0,0,0,20,0,0,0,5,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Cowl of the One Eyed Crow,56,200,6,0,0,0,20,0,0,0,5,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Aquilan Velite Kalkris (Level 50+),50,188,6,0,0,0,55,0,0,3,3,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
 Oyoroi Helmet (Level 60+),60,185,6,0,0,4,0,0,0,15,3,3,0,0,0,0,0,0,Crowns,False,None
 Cowl of Justice,56,181,6,0,0,0,20,0,0,0,5,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
@@ -1477,10 +1477,10 @@ Hawkrider Cowl (Level 50+),50,168,6,0,5,0,12,14,0,0,0,0,0,0,0,0,0,0,Gift Card,Fa
 Fossil Avenger's Helm (Level 40+),40,166,6,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,Crowns,False,Fossil Avenger's Set
 Cowl of the Dark Waters,56,163,6,0,0,0,20,0,0,0,5,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Grand Admiral's Turban (Level 40+),40,160,6,0,0,9,0,0,0,5,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
-Coif of the Fair Winds,33,159,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
 Cowl of Weighty Grief,33,159,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
-Hat of Blazing Honor,33,159,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
+Coif of the Fair Winds,33,159,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
 Hat of Answered Questions,33,159,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
+Hat of Blazing Honor,33,159,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
 Helm of the Ordered Spirit,33,159,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
 Hood of Icy Composure,33,159,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
 All Souls Headwrap (Level 50+),50,156,6,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -1642,8 +1642,8 @@ Monarch's Diadem (Level 10+),10,102,5,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,Fa
 Thunderous Karanahn Veil (Level 90+),90,100,5,0,8,0,50,0,9,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Crown of the Night Jaguar (Level 40+),40,100,5,0,1,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Alhazred's Karmic Fez (Level 20+),20,99,5,0,2,9,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Black New Year's Top Hat (Level 20+),20,99,5,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Black New Year's Top Cloche (Level 20+),20,99,5,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Black New Year's Top Hat (Level 20+),20,99,5,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Drum Jungle Tribal Helm (Level 20+),20,99,5,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Festive Sleeping Cap (Level 30+),30,99,5,0,0,5,0,0,0,5,0,0,0,0,0,0,0,0,Crowns,False,None
 Merry Sleeping Cap (Level 30+),30,99,5,0,0,5,0,0,0,5,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -1702,10 +1702,10 @@ Spiral Cup Cowl (Level 40+),40,113,4,6,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,Fal
 Darkwraith's Compelling Cowl (Level 50+),50,0,4,6,4,1,15,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Winter Palace Guard Shako (Level 40+),40,195,4,5,2,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Angelic Helm,35,79,4,5,2,2,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Darkwraith's Umbral Cowl (Level 60+),60,0,4,5,5,6,15,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Darkwraith's Umbral Cowl (Level 50+),50,0,4,5,4,2,15,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Darkwraith's Cowl of Penance (Level 50+),50,0,4,5,4,0,15,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Darkwraith's Umbral Cowl (Level 50+),50,0,4,5,4,2,15,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Darkwraith's Cowl of Penance (Level 40+),40,0,4,5,4,0,15,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Darkwraith's Umbral Cowl (Level 60+),60,0,4,5,5,6,15,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Darkwraith's Compelling Cowl (Level 40+),40,0,4,5,4,0,10,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Darkwraith's Umbral Cowl (Level 40+),40,0,4,5,4,0,10,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Sokkwi Mantle of Blizzards (Level 60+),60,230,4,4,0,0,20,0,0,0,3,0,0,0,0,0,0,0,Crowns,False,None
@@ -1724,9 +1724,9 @@ Greenwarden's Brilliant Mask (Level 20+),20,95,4,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,C
 Arcane Smith's Cap (Level 20+),20,69,4,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Gift Card,False,None
 Nighttide Torment Top Hat (Level 10+),10,65,4,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Darkwraith's Atonement Cowl (Level 40+),40,0,4,3,0,0,0,0,0,0,3,0,0,0,0,0,0,0,Crowns,False,None
-Dragon's Eye Guard (Level 70+),70,0,4,3,0,0,0,0,0,0,10,0,0,0,0,0,0,0,Crowns,False,None
 Dragon's Eye Guard (Level 60+),60,0,4,3,0,0,0,0,0,0,9,0,0,0,0,0,0,0,Crowns,False,None
 Dragon's Eye Guard (Level 90+),90,0,4,3,0,0,0,0,0,0,12,0,0,0,0,0,0,0,Crowns,False,None
+Dragon's Eye Guard (Level 70+),70,0,4,3,0,0,0,0,0,0,10,0,0,0,0,0,0,0,Crowns,False,None
 Tiki Crown of Sacred Songs (Level 50+),50,150,4,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Aztecosaur War-Helm (Level 20+),20,110,4,2,0,0,0,0,0,0,2,0,0,0,0,0,0,0,Gift Card,False,None
 Dragontooth Helm (Level 30+),30,0,4,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -1842,8 +1842,8 @@ Widow's Noteworthy Cap,25,0,4,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False
 Arcane Angler's Souwester (Level 40+),40,0,4,0,4,0,0,0,0,0,4,0,0,0,0,0,0,0,Gift Card,False,None
 Cap of Symmetry,25,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
 Darkwraith's Atonement Cowl (Level 30+),30,0,4,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,Crowns,False,None
-Dragonfire Mantle,45,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
 Dragonbone Mantle (Level 40+),40,0,4,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Dragonfire Mantle,45,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
 Stinger Helmet (Level 10+),10,0,4,0,2,0,0,0,0,0,1,0,0,0,0,0,0,0,Gift Card,False,None
 Cap of the Frontier,45,113,3,9,4,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
 Chapeau of Bones,35,91,3,8,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
@@ -1945,8 +1945,8 @@ Commemoration Hat (Any Level),1,76,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,
 Haunted Captain's Tricorne (Level 10+),10,76,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Dwarven Aerohelm (Any Level),1,75,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Adventurous Ranger's Hat (Level 10+),10,71,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Black New Year's Top Cloche (Any Level),1,71,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Black New Year's Top Hat (Any Level),1,71,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Black New Year's Top Cloche (Any Level),1,71,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 White Pandamonium Warhelm (Any Level),1,71,3,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Crowns,False,None
 Battlemage Helm (Any Level),1,70,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Dawn Jaguar's Helm (Level 20+),20,70,3,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -2017,8 +2017,8 @@ Helm of Winterbane (Level 20+),20,100,2,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,
 Earthen Tri-Corn of the Seraph,15,90,2,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Spiral Cup Cowl (Level 10+),10,70,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Winter Palace Guard Shako (Level 10+),10,65,2,3,1,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Darkwraith's Compelling Cowl (Level 20+),20,0,2,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Darkwraith's Umbral Cowl (Level 20+),20,0,2,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Darkwraith's Compelling Cowl (Level 20+),20,0,2,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Sokkwi Mantle of Blizzards (Level 30+),30,110,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Atlantean Great Helm (Level 20+),20,100,2,2,2,1,0,0,0,0,0,5,0,0,0,0,0,0,Gift Card,False,None
 Tanglewood Terror Coif (Level 20+),20,78,2,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,One Shot Housing Gauntlet,False,None
@@ -2137,8 +2137,8 @@ Celestian Xenon Mask (Any Level),1,75,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,Fal
 Alhazred's Karmic Fez (Any Level),1,71,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Evenbloom Mantle,15,70,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
 Frostguard Hood,15,70,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
-Flamesign Cowl,15,70,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
 Fairmuse Crown,15,70,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
+Flamesign Cowl,15,70,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
 Honorbane Shroud,15,70,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
 Thundersight Cap,15,70,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
 All Souls Headwrap (Any Level),1,70,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -2427,8 +2427,8 @@ Odin's Helm (Level 140+),140,704,0,0,0,9,99,0,0,5,0,0,0,17,0,0,0,0,"Gold Key, Cr
 Astromancer's Cowl (Level 130+),130,700,0,0,0,15,0,0,0,0,0,0,0,16,0,0,0,0,Crowns,False,None
 Masque of the Soothsayer (Level 110+),110,699,0,0,0,8,118,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 All Souls Skullcap (Level 130+),130,695,0,0,8,0,123,0,0,0,0,0,0,15,0,0,0,0,Crowns,False,None
-Gold New Year's Top Cloche (Level 140+),140,692,0,0,0,14,0,0,0,0,3,0,0,18,0,0,0,0,Crowns,False,None
 Gold New Year's Top Hat (Level 140+),140,692,0,0,0,14,0,0,0,0,3,0,0,18,0,0,0,0,Crowns,False,None
+Gold New Year's Top Cloche (Level 140+),140,692,0,0,0,14,0,0,0,0,3,0,0,18,0,0,0,0,Crowns,False,None
 Unicorn Paladin Helmet (Level 130+),130,690,0,0,0,12,151,0,0,0,0,0,0,15,0,0,0,0,Crowns,False,None
 Moolinda's Hardy Headwrap (Level 130+),130,690,0,0,4,12,0,0,0,0,0,0,0,15,0,0,0,0,Crowns,False,None
 Winter Sleeping Cap (Level 150+),150,690,0,0,0,13,0,0,0,10,0,0,0,19,0,0,0,0,Crowns,False,None
@@ -2476,8 +2476,8 @@ Black Werewolf Skullcap (Level 130+),130,615,0,0,0,12,129,0,0,0,0,0,0,13,0,0,0,0
 Casual Alpine Hat (Level 130+),130,615,0,0,8,0,0,0,0,0,0,0,0,16,0,0,0,0,Crowns,False,None
 Dalia's Smoldering Hairdo (Level 130+),130,615,0,0,5,11,0,0,0,0,0,0,0,15,0,0,0,0,Crowns,False,None
 Silent Knight Helmet (Level 130+),130,615,0,0,0,0,0,0,0,0,5,5,0,15,0,0,0,0,Crowns,False,None
-Gold New Year's Top Cloche (Level 130+),130,614,0,0,0,14,0,0,0,0,3,0,0,16,0,0,0,0,Crowns,False,None
 Gold New Year's Top Hat (Level 130+),130,614,0,0,0,14,0,0,0,0,3,0,0,16,0,0,0,0,Crowns,False,None
+Gold New Year's Top Cloche (Level 130+),130,614,0,0,0,14,0,0,0,0,3,0,0,16,0,0,0,0,Crowns,False,None
 Nimbari Justicar Helm (Level 130+),130,614,0,0,5,0,0,0,0,5,0,0,0,15,0,0,0,0,Crowns,False,None
 Autoist's Goggles (Level 120+),120,610,0,0,0,15,0,0,3,0,0,0,0,14,0,0,0,0,Crowns,False,None
 Helm of the Silent Knight (Level 130+),130,605,0,0,0,0,0,0,0,0,4,3,0,15,0,0,0,0,Crowns,False,None
@@ -2557,8 +2557,8 @@ Seal Team Recon Helmet (Level 110+),110,475,0,0,6,0,0,0,0,5,0,0,0,13,0,0,0,0,"St
 Blighted Captain's Tricorne (Level 120+),120,473,0,0,0,11,0,0,0,0,0,0,0,14,0,0,0,0,Crowns,False,None
 Leisure Dome Cap (Level 110+),110,471,0,0,0,9,0,0,0,0,0,0,0,13,0,0,0,0,Crowns,False,None
 Wysteria Warrior's Helmet (Level 110+),110,470,0,0,0,7,107,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Dalia's Smoldering Hairdo (Level 110+),110,470,0,0,5,11,0,0,0,0,0,0,0,13,0,0,0,0,Crowns,False,None
 Dalia's Smoldering Hairdo (Level 120+),120,470,0,0,5,11,0,0,0,0,0,0,0,14,0,0,0,0,Crowns,False,None
+Dalia's Smoldering Hairdo (Level 110+),110,470,0,0,5,11,0,0,0,0,0,0,0,13,0,0,0,0,Crowns,False,None
 Nimbari Justicar Helm (Level 120+),120,470,0,0,5,0,0,0,0,5,0,0,0,14,0,0,0,0,Crowns,False,None
 Silent Knight Helmet (Level 120+),120,470,0,0,0,0,0,0,0,0,4,4,0,14,0,0,0,0,Crowns,False,None
 Luphilim's Eternal Helm,110,468,0,0,2,5,102,0,0,0,0,0,0,13,0,0,0,0,Stone Key,False,None
@@ -2669,8 +2669,8 @@ Kataba Furcap of Destiny,108,374,0,0,0,0,0,0,0,5,2,0,0,0,0,0,0,0,Bazaar,False,No
 Moolinda's Hardy Headwrap (Level 100+),100,374,0,0,4,11,0,0,0,0,0,0,0,11,0,0,0,0,Crowns,False,None
 Nimbari Centurion Helm (Level 100+),100,374,0,0,4,0,0,0,0,5,0,0,0,0,0,0,0,0,Crowns,False,None
 Phantom Catcher Hat (Level 110+),110,374,0,0,6,12,0,0,0,0,0,0,0,14,0,0,0,0,Crowns,False,None
-White New Year's Top Hat (Level 100+),100,374,0,0,0,13,0,0,0,0,3,0,0,13,0,0,0,0,Crowns,False,None
 White New Year's Top Cloche (Level 100+),100,374,0,0,0,13,0,0,0,0,3,0,0,13,0,0,0,0,Crowns,False,None
+White New Year's Top Hat (Level 100+),100,374,0,0,0,13,0,0,0,0,3,0,0,13,0,0,0,0,Crowns,False,None
 Immaculate Djinn Ghutrah,112,373,0,0,6,11,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Zamunda Tribal Helm (Level 110+),110,373,0,0,6,9,0,0,0,0,0,0,0,14,0,0,0,0,Crowns,False,None
 Traveler's Goggles (Level 90+),90,371,0,0,0,12,0,0,3,0,0,0,0,10,0,0,0,0,Crowns,False,None
@@ -2754,8 +2754,8 @@ Thirteen Death Mask,84,330,0,0,0,8,0,0,0,0,5,0,0,0,0,0,0,0,"Drop, Bazaar",False,
 Tree of Secrets Chac Mask,84,330,0,0,0,8,0,0,0,0,5,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Tundarian Bear's Papakh,106,330,0,0,3,10,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 All Souls Skullcap (Level 90+),90,326,0,0,7,0,84,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Gold New Year's Top Cloche (Level 100+),100,326,0,0,0,13,0,0,0,0,2,0,0,13,0,0,0,0,Crowns,False,None
 Gold New Year's Top Hat (Level 100+),100,326,0,0,0,13,0,0,0,0,2,0,0,13,0,0,0,0,Crowns,False,None
+Gold New Year's Top Cloche (Level 100+),100,326,0,0,0,13,0,0,0,0,2,0,0,13,0,0,0,0,Crowns,False,None
 Nimbari Justicar Helm (Level 100+),100,326,0,0,5,0,0,0,0,4,0,0,0,0,0,0,0,0,Crowns,False,None
 Helmet of Excavation,94,325,0,0,0,9,0,0,0,0,8,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Noble Bleaks Ushanka,104,324,0,0,0,0,0,0,0,4,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
@@ -2776,8 +2776,8 @@ Unicorn Paladin Helmet (Level 90+),90,318,0,0,0,8,98,0,0,0,0,0,0,0,0,0,0,0,Crown
 Rockstar High Hat (Level 80+),80,318,0,0,0,5,70,0,0,3,0,0,0,0,0,0,0,0,One Shot Housing Gauntlet,False,None
 Moolinda's Hardy Headwrap (Level 90+),90,318,0,0,3,11,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Nimbari Centurion Helm (Level 90+),90,318,0,0,3,0,0,0,0,5,0,0,0,0,0,0,0,0,Crowns,False,None
-White New Year's Top Hat (Level 90+),90,318,0,0,0,13,0,0,0,0,2,0,0,11,0,0,0,0,Crowns,False,None
 White New Year's Top Cloche (Level 90+),90,318,0,0,0,13,0,0,0,0,2,0,0,11,0,0,0,0,Crowns,False,None
+White New Year's Top Hat (Level 90+),90,318,0,0,0,13,0,0,0,0,2,0,0,11,0,0,0,0,Crowns,False,None
 Polarian Bleaks Ushanka,104,316,0,0,0,0,0,0,0,4,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Traveler's Goggles (Level 80+),80,315,0,0,0,11,0,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Mask of the Wyrd,70,315,0,0,0,7,0,0,2,0,5,5,0,0,0,0,0,0,"Bazaar, Quest",False,None
@@ -2812,14 +2812,14 @@ Fossil Warrior's Helm (Level 80+),80,303,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,Crowns,
 Ancient Purrzian Battle Helm (Level 90+),90,301,0,0,0,0,64,0,4,7,0,0,0,0,0,0,0,0,Crowns,False,None
 Crimson Pandamonium Warhelm (Level 90+),90,301,0,0,0,5,72,0,0,0,5,0,0,0,0,0,0,0,Crowns,False,None
 Imperial Court Helm (Level 90+),90,300,0,0,0,2,60,0,4,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Shroud of the One,78,300,0,0,3,8,0,0,1,0,0,0,0,0,0,0,0,0,Drop,False,None
 Mask of the Ponycorn's Friend,78,300,0,0,3,8,0,0,1,0,0,0,0,0,0,0,0,0,Drop,False,None
+Shroud of the One,78,300,0,0,3,8,0,0,1,0,0,0,0,0,0,0,0,0,Drop,False,None
 Lambent's Hood of Penance,70,300,0,0,0,5,0,0,0,6,6,0,0,0,0,0,0,0,Gold Key,False,None
 Dworgyn's Havoc Hood (Level 90+),90,300,0,0,3,10,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Five Fangs of Fury Headdress,84,300,0,0,0,8,0,0,0,0,7,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Stargazer's Cowl (Level 90+),90,300,0,0,0,13,0,0,0,0,0,0,0,11,0,0,0,0,Crowns,False,None
-Tundra Ushanka of Loyalty,102,299,0,0,0,0,0,0,0,4,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Tundra Ushanko of Loyalty,102,299,0,0,0,0,0,0,0,4,1,0,0,0,0,0,0,0,Bazaar,False,None
+Tundra Ushanka of Loyalty,102,299,0,0,0,0,0,0,0,4,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Odin's Helm (Level 90+),90,298,0,0,0,7,66,0,0,4,0,0,0,0,0,0,0,0,Crowns,False,None
 Lydia's Frigid Hat (Level 80+),80,298,0,0,3,10,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Grey Werewolf Skullcap (Level 100+),100,297,0,0,0,9,105,0,0,0,0,0,0,12,0,0,0,0,Crowns,False,None
@@ -2861,8 +2861,8 @@ Turban of the Olyphants,66,280,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,"Drop, Stone Key"
 Lightning Lizard Rider's Helm,74,280,0,0,0,8,0,0,0,0,5,0,0,0,0,0,0,0,"Drop, Bazaar, Gold Key",False,None
 Celestian Photon Mask (Level 80+),80,278,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 All Souls Skullcap (Level 80+),80,277,0,0,6,0,76,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Gold New Year's Top Cloche (Level 90+),90,277,0,0,0,13,0,0,0,0,2,0,0,11,0,0,0,0,Crowns,False,None
 Gold New Year's Top Hat (Level 90+),90,277,0,0,0,13,0,0,0,0,2,0,0,11,0,0,0,0,Crowns,False,None
+Gold New Year's Top Cloche (Level 90+),90,277,0,0,0,13,0,0,0,0,2,0,0,11,0,0,0,0,Crowns,False,None
 Nimbari Justicar Helm (Level 90+),90,277,0,0,4,0,0,0,0,4,0,0,0,0,0,0,0,0,Crowns,False,None
 Shadoe's Hat of Vengeance (Level 40+),40,276,0,0,3,4,0,0,0,2,1,0,0,0,0,0,0,0,Crowns,False,None
 Dragonrider's Utility Helm (Level 70+),70,275,0,0,5,5,23,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -2880,8 +2880,8 @@ Greenwarden's Peaceful Mask (Level 100+),100,270,0,0,7,0,0,0,0,0,26,0,0,0,0,0,0,
 Moolinda's Hardy Headwrap (Level 80+),80,270,0,0,3,11,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Nimbari Centurion Helm (Level 80+),80,270,0,0,3,0,0,0,0,5,0,0,0,0,0,0,0,0,Crowns,False,None
 Phantom Catcher Hat (Level 90+),90,270,0,0,5,10,0,0,0,0,0,0,0,11,0,0,0,0,Crowns,False,None
-White New Year's Top Hat (Level 80+),80,270,0,0,0,12,0,0,0,0,2,0,0,0,0,0,0,0,Crowns,False,None
 White New Year's Top Cloche (Level 80+),80,270,0,0,0,12,0,0,0,0,2,0,0,0,0,0,0,0,Crowns,False,None
+White New Year's Top Hat (Level 80+),80,270,0,0,0,12,0,0,0,0,2,0,0,0,0,0,0,0,Crowns,False,None
 Traveler's Goggles (Level 70+),70,268,0,0,0,10,0,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Leisure Dome Topper (Level 80+),80,268,0,0,3,9,86,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Fancy Alpine Hat (Level 90+),90,268,0,0,8,0,0,0,0,0,0,0,0,11,0,0,0,0,Crowns,False,None
@@ -3049,8 +3049,8 @@ Unicorn Knight Helmet (Level 60+),60,196,0,0,0,8,67,0,0,0,0,0,0,0,0,0,0,0,Crowns
 Moolinda's Hardy Headwrap (Level 60+),60,196,0,0,3,10,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Nimbari Centurion Helm (Level 60+),60,196,0,0,3,0,0,0,0,4,0,0,0,0,0,0,0,0,Crowns,False,None
 Phantom Catcher Hat (Level 70+),70,196,0,0,5,8,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-White New Year's Top Cloche (Level 60+),60,196,0,0,0,11,0,0,0,0,2,0,0,0,0,0,0,0,Crowns,False,None
 White New Year's Top Hat (Level 60+),60,196,0,0,0,11,0,0,0,0,2,0,0,0,0,0,0,0,Crowns,False,None
+White New Year's Top Cloche (Level 60+),60,196,0,0,0,11,0,0,0,0,2,0,0,0,0,0,0,0,Crowns,False,None
 Leisure Dome Topper (Level 60+),60,194,0,0,3,8,69,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Fancy Alpine Hat (Level 70+),70,194,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Headwrap of the Victorious,45,194,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
@@ -3258,8 +3258,8 @@ Fleet Kapudan's Turban (Level 30+),30,127,0,0,0,8,0,0,0,5,0,0,0,0,0,0,0,0,Crowns
 Woodland Hunter Tuke (Level 30+),30,127,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Casual Alpine Hat (Level 40+),40,125,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Dalia's Smoldering Hairdo (Level 40+),40,125,0,0,3,8,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Shroud of Paramount,30,125,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
 Silent Knight Helmet (Level 40+),40,125,0,0,0,0,0,0,0,0,2,2,0,0,0,0,0,0,Crowns,False,None
+Shroud of Paramount,30,125,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
 Zamunda Tribal Helm (Level 40+),40,125,0,0,4,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Cursed Captain's Tricorne (Level 40+),40,124,0,0,3,7,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Odin's Helm (Level 40+),40,124,0,0,0,5,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3277,8 +3277,8 @@ Moolinda's Hardy Headwrap (Level 30+),30,121,0,0,2,9,0,0,0,0,0,0,0,0,0,0,0,0,Cro
 Nimbari Centurion Helm (Level 30+),30,121,0,0,2,0,0,0,0,3,0,0,0,0,0,0,0,0,Crowns,False,None
 Road Legend Helm (Level 20+),20,121,0,0,4,0,0,0,0,4,0,0,0,0,0,0,0,0,Crowns,False,Cold Rider Set
 Sherlock's Deerstalker (Level 50+),50,121,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,0,Gift Card,False,None
-Unicorn Knight Helmet (Level 30+),30,121,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Unicorn Paladin Helmet (Level 30+),30,121,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Unicorn Knight Helmet (Level 30+),30,121,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Imperial Court Helm (Level 60+),60,120,0,0,0,0,25,0,2,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Ashen Cap,50,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Sokar's Khepresh (Level 20+),20,120,0,0,3,0,0,0,0,0,1,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,Sokar's Warrior Set
@@ -3305,8 +3305,8 @@ Helm of Minty Freshness (Level 30+),30,114,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crown
 Ancient Purrzian Battle Helm (Level 30+),30,113,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,Crowns,False,None
 Blighted Captain's Tricorne (Level 40+),40,113,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Cat Burglar's Cap,30,113,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Crown of Hardiness,30,113,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Crimson Pandamonium Warhelm (Level 30+),30,113,0,0,0,2,0,0,0,0,2,0,0,0,0,0,0,0,Crowns,False,None
+Crown of Hardiness,30,113,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Dworgyn's Havoc Hood (Level 30+),30,113,0,0,2,8,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Lydia's Frigid Hat (Level 20+),20,113,0,0,2,8,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Stargazer's Cowl (Level 30+),30,113,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3324,8 +3324,8 @@ Cyrus's Secret Skullcap (Level 30+),30,109,0,0,2,8,0,0,0,0,0,0,0,0,0,0,0,0,Crown
 Fleet Kapudan's Turban (Level 20+),20,109,0,0,0,8,0,0,0,4,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
 Leisure Dome Cap (Level 20+),20,109,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Stygian Countenance (Level 30+),30,109,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Wysteria Warrior's Helmet (Level 20+),20,109,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Woodland Hunter Tuke (Level 20+),20,109,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Wysteria Warrior's Helmet (Level 20+),20,109,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Aquilan Secutor Kalkris (Level 10+),10,108,0,0,0,0,0,0,0,4,1,0,0,0,0,0,0,0,Crowns,False,None
 Zamunda Tribal Helm (Level 30+),30,108,0,0,4,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Cowl of Soul-Searching,35,107,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
@@ -3351,10 +3351,10 @@ Phantom Catcher Hat (Level 30+),30,103,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,Fa
 Road Legend Helm (Level 10+),10,103,0,0,4,0,0,0,0,4,0,0,0,0,0,0,0,0,Crowns,False,None
 Sherlock's Deerstalker (Level 40+),40,103,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,Gift Card,False,None
 Sokar's Khepresh (Level 10+),10,103,0,0,3,0,0,0,0,0,1,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
-Unicorn Paladin Helmet (Level 20+),20,103,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Unicorn Knight Helmet (Level 20+),20,103,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-White New Year's Top Cloche (Level 20+),20,103,0,0,0,9,0,0,0,0,1,0,0,0,0,0,0,0,Crowns,False,None
+Unicorn Paladin Helmet (Level 20+),20,103,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 White New Year's Top Hat (Level 20+),20,103,0,0,0,9,0,0,0,0,1,0,0,0,0,0,0,0,Crowns,False,None
+White New Year's Top Cloche (Level 20+),20,103,0,0,0,9,0,0,0,0,1,0,0,0,0,0,0,0,Crowns,False,None
 Apophis' Khepresh (Level 10+),10,102,0,0,4,0,0,0,0,0,1,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
 Sky Captain's Turban (Level 10+),10,102,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,Crowns,False,None
 Intrepid Ranger's Hat (Level 30+),30,101,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3388,8 +3388,8 @@ Nekhbet's Shrewd Cowl,15,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False
 Ancient Purrzian Battle Helm (Level 20+),20,96,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,Crowns,False,None
 Crimson Pandamonium Warhelm (Level 20+),20,96,0,0,0,2,0,0,0,0,2,0,0,0,0,0,0,0,Crowns,False,None
 Dworgyn's Havoc Hood (Level 20+),20,96,0,0,2,8,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Lightning Helm,50,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Lydia's Frigid Hat (Level 10+),10,96,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Lightning Helm,50,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Stargazer's Cowl (Level 20+),20,96,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Black Werewolf Skullcap (Level 20+),20,95,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Blighted Captain's Tricorne (Level 30+),30,95,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3434,10 +3434,10 @@ Phantom Catcher Hat (Level 20+),20,88,0,0,4,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,Fal
 Road Legend Helm (Any Level),1,88,0,0,3,0,0,0,0,4,0,0,0,0,0,0,0,0,Crowns,False,None
 Sherlock's Deerstalker (Level 30+),30,88,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,Gift Card,False,None
 Sky Captain's Turban (Any Level),1,88,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
-Unicorn Paladin Helmet (Level 10+),10,88,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Unicorn Knight Helmet (Level 10+),10,88,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-White New Year's Top Hat (Level 10+),10,88,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Crowns,False,None
+Unicorn Paladin Helmet (Level 10+),10,88,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 White New Year's Top Cloche (Level 10+),10,88,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Crowns,False,None
+White New Year's Top Hat (Level 10+),10,88,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Crowns,False,None
 Winter Sleeping Cap (Level 20+),20,88,0,0,0,3,0,0,0,6,0,0,0,0,0,0,0,0,Crowns,False,None
 Cursed Captain's Tricorne (Level 20+),20,87,0,0,2,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Odin's Helm (Level 20+),20,87,0,0,0,4,0,0,0,1,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
@@ -3463,8 +3463,8 @@ Wysteria Warrior's Warhelm (Level 10+),10,84,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Cro
 Headbanger's Topper (Level 30+),30,83,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0,One Shot Housing Gauntlet,False,None
 Ancient Purrzian Battle Helm (Level 10+),10,82,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,Crowns,False,None
 Crimson Pandamonium Warhelm (Level 10+),10,82,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Crowns,False,None
-Ebony Pandamonium Warhelm (Level 10+),10,82,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,Crowns,False,None
 Dworgyn's Havoc Hood (Level 10+),10,82,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Ebony Pandamonium Warhelm (Level 10+),10,82,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,Crowns,False,None
 Helm of Minty Freshness (Level 10+),10,82,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Lydia's Frigid Hat (Any Level),1,82,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
 Stargazer's Cowl (Level 10+),10,82,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3502,8 +3502,8 @@ Gold New Year's Top Cloche (Level 10+),10,76,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Cro
 Gold New Year's Top Hat (Level 10+),10,76,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Crowns,False,None
 Nimbari Justicar Helm (Level 10+),10,76,0,0,2,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Able Ranger's Hat (Level 10+),10,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-August Sage Cap (Level 30+),30,75,0,0,1,3,0,0,0,0,1,0,0,0,0,0,0,0,Crowns,False,None
 Astromancer's Cowl (Any Level),1,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+August Sage Cap (Level 30+),30,75,0,0,1,3,0,0,0,0,1,0,0,0,0,0,0,0,Crowns,False,None
 Cowl of the Sentinel (Level 10+),10,75,0,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Helm of the Silent Knight (Level 10+),10,75,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,Crowns,False,None
 Moolinda's Hardy Headwrap (Any Level),1,75,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3580,8 +3580,8 @@ August Sage Cap (Level 20+),20,60,0,0,1,3,0,0,0,0,1,0,0,0,0,0,0,0,Crowns,False,N
 Halston's Eureka Hat (Any Level),1,60,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Helmet of Royal Retribution (Level 10+),10,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Nirini Helm of Scorching (Level 20+),20,60,0,0,3,1,0,0,0,0,0,0,0,0,0,0,0,0,"Wooden Key, Crowns",False,None
-Prairie Rambler's Hat (Any Level),1,60,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Pixie's Mask of Encanta (Level 10+),10,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Prairie Rambler's Hat (Any Level),1,60,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Starter Ice Conical,1,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Starter Life Conical,1,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 World's Fool Mask (Level 10+),10,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
@@ -3598,8 +3598,8 @@ Sherlock's Deerstalker (Any Level),1,54,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,Gift Car
 Skillful Hat,25,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Rockstar High Hat (Any Level),1,51,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,One Shot Housing Gauntlet,False,None
 Imperial Court Helm (Level 40+),40,50,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Cowl of the Light Elf (Any Level),1,50,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,Crowns,False,None
 Cowl of the Badlands,15,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
+Cowl of the Light Elf (Any Level),1,50,0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,0,Crowns,False,None
 Fortune Teller's Mask (Level 10+),10,50,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Greenwarden's Peaceful Mask (Level 10+),10,50,0,0,3,0,0,0,0,0,10,0,0,0,0,0,0,0,"Drop, Crowns",False,None
 Headbanger's Topper (Level 10+),10,50,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,One Shot Housing Gauntlet,False,None
@@ -3613,8 +3613,8 @@ Scholarly Cap,10,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
 The Great Troll's Cap,10,48,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Headcloth of the Fray,15,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Helm of Supremacy,10,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Starter Myth Conical,1,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Starter Fire Conical,1,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Starter Myth Conical,1,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Helm of the Citadel,15,43,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Seal Team Recon Helmet (Any Level),1,39,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Sandblasted Cap,10,38,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
@@ -3627,9 +3627,9 @@ Circlet of the Adept,15,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False
 Soulsapper's Headwrap,15,32,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Twice Stitched Hat,5,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Wooden Key, Quest",False,None
 Helmet of Royal Retribution (Any Level),1,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Imperial Court Helm (Level 30+),30,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Helm of Zeal,30,30,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Imp Lord's Helm,10,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Imperial Court Helm (Level 30+),30,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Mantle of Tribute,1,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Mask of the Faerie Court (Any Level),1,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
 Nirini Helm of Scorching (Level 10+),10,30,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3670,674 +3670,674 @@ Headgear of Resistance,45,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False
 Helm of Higher Learning,52,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Hat of Triumph,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Hood of the Invariable,35,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Pleasing Hat,25,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Nebit's Cap of Harmony,20,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Shroud of the Wasteland,15,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
+Nebit's Cap of Harmony,20,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Pleasing Hat,25,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Zippy Shroud,35,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Gold Key",False,None
 Adventurer Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Alienware Completionist,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Adventurer's Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
-Aeon Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
 Alicane's Helm,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Alienware Completionist,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Aeon Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
+Adventurer's Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
 Antique Helm,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Arcane Engineer Cap (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
 Arcane Engineer Cap (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
 Arcane Engineer Cap (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
-Arcane Engineer Cap (Level 150+),150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
-Arcane Engineer Cap (Level 130+),130,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
-Arcane Engineer Cap (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
-Arcane Engineer Cap (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
-Arcane Engineer Cap (Level 140+),140,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
-Arcane Engineer Cap (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
-Arcane Engineer Cap (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
-Archeologist's Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Arcane Engineer Cap (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
 Arcane Engineer Cap (Level 110+),110,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
 Arcane Engineer Cap (Level 120+),120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
-Ashikata's Hat of Inflection,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Archangel's Hood,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-August Sage Cap (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Arcane Engineer Cap (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
+Arcane Engineer Cap (Level 140+),140,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
+Arcane Engineer Cap (Level 150+),150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
+Arcane Engineer Cap (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
+Arcane Engineer Cap (Level 130+),130,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
 Arcane Engineer Cap (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
-Artificial Headwrap,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Arcane Engineer Cap (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
+Archeologist's Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Arcane Engineer Cap (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
+Arcane Engineer Cap (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
 Arcane Engineer Cap (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
+August Sage Cap (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Arcane Engineer Cap (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
+Artificial Headwrap,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Archangel's Hood,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Autumnal Imp's Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Arcane Engineer Cap (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
+Ashikata's Hat of Inflection,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Aztecan Shaman Mask,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Aztecan Beast Headdress,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Aztecan Headdress,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Aztecan Guard Mask,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Aztecan Shaman Mask,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Autumnal Imp's Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Balanced Wolfen Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Bardic Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key,False,None
 Balanced Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Beachcomber's Mackintosh Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Bardic Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key,False,None
 Barbarian Helmet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Beastmaster's Hood,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Beachcomber's Mackintosh Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Bear Mantle,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Benign Cap,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Gold Key",False,None
-Bandit Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Birthday Conical,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Bandit Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Birthday Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Blended Wool Cap,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Blustery Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Boo Pumpkin Mask,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-Blooming Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Brisk Wolfen Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Brimstone Hood,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Boreas' Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Boxplane Captain Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Brisk Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Blustery Wolfen Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Cap of Fascination,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Brigadier's Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Blooming Wolfen Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Black Widow's Fancy Cap,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Cap of Hinderance,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Cap of the Aggressor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Cap of Annihilation,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Blaze's Garnet Cowl,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
-Canvas Cover,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
-Cap of Resolution,20,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Blooming Beastmoon Boots,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Bunny Hood,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Cap of the Archivist,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Cap of Energy,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Quest",False,None
-Cap of the Banshee,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
-Cap of Expertise,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Cap of Song,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Cap of Atlantis,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Cap of the Phoenix,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
-Cap of the Star,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Stone Key,False,None
-Cap of the Unicorn,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Cap of Ideals,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Bonfire Headdress,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Blooming Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Bunny Ears Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Cap of the Supreme,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Cap of the Verse,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Cap of the Glorious Morn,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Blended Wool Cap,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Blooming Wolfen Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Blustery Wolfen Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Blooming Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Boo Pumpkin Mask,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Cap of Hinderance,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Brisk Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Cap of the Inventor,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
+Boxplane Captain Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Canvas Cover,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
+Brigadier's Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Cap of Ideals,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Cap of the Glorious Morn,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Cap of Expertise,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Boreas' Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Blooming Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Cap of the Aggressor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Cap of the Phoenix,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
+Brisk Wolfen Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Bunny Ears Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Bunny Hood,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Cap of Annihilation,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Cap of Energy,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Quest",False,None
+Cap of Fascination,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Cap of Song,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Blustery Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Cap of the Banshee,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
+Cap of Atlantis,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Cap of the Archivist,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Brimstone Hood,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Blooming Beastmoon Boots,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Cap of Resolution,20,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Cap of the Verse,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Cap of the Supreme,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Cap of the Unicorn,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Cap of the Star,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Stone Key,False,None
+Bonfire Headdress,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Cap of the Wyrd,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Captain's Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Cap of the Whirlwind,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
-Carnival Krewe Top Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Captain's Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Celestial Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Cardinal's Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Carnival Krewe Top Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Centurion's Helmet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Challenger's Warhelm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Challenger's Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Ceremonial Khepresh,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Housing Gauntlet",False,None
 Ceres' Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Challenger's Warhelm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Charred Cowl,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
-Chaos Wizard Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Cobbler Elf Cap (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Cobbler Elf Cap (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Clanker's Refined Cap,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Circlet of the Sunbird,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
-Chimney Sweep Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Cobbler Elf Cap (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Chrysanthemum Cowl (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Cloudburst Helm,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Cobbler Elf Cap (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Cobbler Elf Cap (Level 150+),150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Cobbler Elf Cap (Level 130+),130,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Cobbler Elf Cap (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Cleric's Hood,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Comedian's Hat,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
-Cobbler Elf Cap (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Challenger's Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Cobbler Elf Cap (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Cobbler Elf Cap (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Cobbler Elf Cap (Level 160+),160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Cobbler Elf Cap (Level 170+),170,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Chilled Shroud,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
+Cobbler Elf Cap (Level 170+),170,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Circlet of the Sunbird,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
+Cobbler Elf Cap (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cobbler Elf Cap (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Clanker's Refined Cap,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Cobbler Elf Cap (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cobbler Elf Cap (Level 150+),150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cobbler Elf Cap (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cobbler Elf Cap (Level 130+),130,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cloudburst Helm,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Chimney Sweep Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Charged Cover,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Cobbler Elf Cap (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Cobbler Elf Cap (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cobbler Elf Cap (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Cobbler Elf Cap (Level 140+),140,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Commander's Beret,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Conjurer's Timeless Brim,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
-Conical of the Brief Candle,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Stone Key,False,None
+Cleric's Hood,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Cobbler Elf Cap (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cobbler Elf Cap (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Comedian's Hat,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
 Conical of Fire Light,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Commander's Beret,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Conical of Refraction,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Stone Key,False,None
+Conjurer's Timeless Brim,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
 Concordant Headwraps,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Conjurer's Hat,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Cobbler Elf Cap (Level 160+),160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Conical of the Brief Candle,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Stone Key,False,None
+Cobbler Elf Cap (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cobbler Elf Cap (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cobbler Elf Cap (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Chrysanthemum Cowl (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Chaos Wizard Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Consuming Cover,54,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Corporal's Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Cowl of Adaptation,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
-Cool Pumpkin Mask,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-Cowl of Smoke,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Cowl of Blazes,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Conjurer's Hat,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Corporate Mascot Mask,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Corporal's Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Cool Pumpkin Mask,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
 Cowl of Sympathy,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Cowl of Blazes,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Cowl of the Northern Wind,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Cowl of the Necromancer,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Cowl of Diplomacy,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Cowl of the Djinn,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
+Cowl of Smoke,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Cowl of Adaptation,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
 Cowl of the East Road,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Cowl of the Northern Wind,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Cowl of the Djinn,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
 Cowl of the Thicket,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
 Cowl of Wisdom,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Cowl of Tribulation,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Cowl of Watchfulness,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Crown of Tall Tales,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
-Crown of the Whirlwind,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
-Crown of Talent,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
-Crown of Seasons,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
-Crown of Mortality,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
-Crowns,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Cyclops Pumpkin Mask,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
 Curious Mask,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Cyclone Coif,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Cryptkeeper's Circlet,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Crown of the Whirlwind,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
+Crown of Seasons,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
+Cowl of Watchfulness,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Crown of Mortality,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
+Crown of Tall Tales,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
 Cryptid Hood,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Daredevil's Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Crowns,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Cryptkeeper's Circlet,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Cyclops Pumpkin Mask,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Cyclone Coif,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Crown of Talent,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
 Darkwraith's Atonement Cowl (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Dandy's Bowler,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Dandy Hat,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Darkwraith's Compelling Cowl (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Darkwraith's Umbral Cowl (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Deathly Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Deathly Wolfen Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Debonair Cap,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Daredevil's Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Dandy Hat,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Defender's Warhelm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Dingo Scrap Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Devastating Wolfen Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Destructive Cowl,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Disciple Headgear,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Draco Spikehelm of Deathfang,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Draco Spikehelm of Nimbus,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Draco Tornado Spikehelm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Debonair Cap,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Devastating Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Draco Spikehelm of Goldhoard,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Dracomancer's Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Draco Spikehelm of Fury,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Draco Spikehelm of Cold Blood,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Draco Spikehelm of Eternity,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Draco Spikehelm of Dragonbite,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Draco Spikehelm of Rage,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Draco Spikehelm of Long Life,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Draco Spikehelm of Goldenscale,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Draco Spikehelm of Goldtrove,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Draco Spikehelm of Old,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Draco Spikehelm of Fables,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Draco Spikehelm of Legend,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Dingo Scrap Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Draco Spikehelm of Deathfang,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Draco Spikehelm of Grimtooth,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Double Sided Hat,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Decorative Khepresh,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Housing Gauntlet",False,None
-Devastating Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Draco Spikehelm of Fire Breath,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Draco Spikehelm of Scaleskin,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Desert Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Draco Spikehelm of Fables,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Draco Tornado Spikehelm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Diviner's Timeless Brim,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
-Draco Spikehelm of Omnipotence,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Draco Spikehelm of Goldenscale,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Draco Spikehelm of Nimbus,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Disciple Headgear,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Draco Spikehelm of Cold Blood,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Draco Spikehelm of Eternity,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Draco Spikehelm of Goldtrove,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Draco Spikehelm of Dragonbite,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Decorative Khepresh,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Housing Gauntlet",False,None
+Destructive Cowl,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Draco Spikehelm of Long Life,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Draco Spikehelm of Rage,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Dracomancer's Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Draco Spikehelm of Old,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Draco Spikehelm of Fire Breath,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Draco Spikehelm of Frigid Soul,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Draco Spikehelm of Legend,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Deathly Wolfen Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Devastating Wolfen Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Draco Spikehelm of Stratus,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Draco Spikehelm of Ice Heart,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Durable Hood,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Druidic Cowl,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
+Desert Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Deathly Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Draco Spikehelm of Omnipotence,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Dragoon's Cowl,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Crafting",False,None
+Druidic Cowl,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
 Dromel Turban,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
 Dusty Hood,15,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Dyeable Officer Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Dyeable Delightful Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
-Elegant Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar, Crafting",False,None
-Ember Helm,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Durable Hood,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Dyeable Hierarch's Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
+Elegant Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar, Crafting",False,None
+Dyeable Delightful Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
+Dyeable Merciless Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
+Ember Helm,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Equalizer's Coif,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Dyeable Golden Helmet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Ethereal Headdress,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Dyeable Candymancer Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
 Dyeable Hazmat Hood,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
+Enticing Cowl,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Dyeable Officer Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Dyeable Demiurge's Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
 Elegant Helm,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Famous Cap,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Ethereal Headdress,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Dyeable Merciless Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
-Enticing Cowl,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Examiner's Hat,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Fabled Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Elemental Thimble Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Fabled Wolfen Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Examiner's Hat,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Fairy Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Fabled Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Electrifyin' Thimble Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Dyeable Candymancer Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
+Dyeable Golden Helmet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Exclusive Cap,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Fearsome Marauder Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Famous Cap,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Electrifyin' Thimble Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Fancy City Dweller Kanga-Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
 Farmer's Straw Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Fearsome Marauder Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Finely Finished Mask,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Fairy Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Fiery Wolfen Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Flamelicked Shroud,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
-Fiery Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Firestorm Cap,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Forgotten Facade,54,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Flamelicked Shroud,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
+Finely Finished Mask,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Floral Raiment Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Fiery Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Flametouched Hat,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Frozen Hat,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Friendly Helm,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Forgotten Facade,54,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Ghastly Wolfen Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Gallant Rogue's Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Stone Key,False,None
+Fur-Lined Hood,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Frost-Touched Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
+Friendly Helm,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Gleeman's Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
 Glacial Crown,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
+Gallant Rogue's Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Stone Key,False,None
+Furious Facade,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Genie Turban,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Glorious Hero's Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
+Frozen Hat,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Ghastly Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Gallant Shroud,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Gold Key",False,None
 Giraffe Wig,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Gleeman's Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
-Fur-Lined Hood,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Furious Facade,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Ghastly Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Frost-Touched Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
-Glorious Hero's Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Goofy Pumpkin Mask,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-Gravedigger's Mask,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Graduation Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Quest,False,None
+Goofy Pumpkin Mask,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
 Gothic Thimble Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Gravedigger's Hat,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
-Gravedigger's Helm,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Grandiose Headwraps,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Hard Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Harmonious Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Guardian's Warhelmet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Hallowe'en Skeleton Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Hat of Eradication,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Happy Pumpkin Mask,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-Hallowe'en Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Harmonious Wolfen Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Hallowe'en Witch Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Halcyon Hood,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Haskarr's Barbarish Cap,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Hallowed Hood,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Guardian's Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Hat of the Gale,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Gravedigger's Mask,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Gravedigger's Helm,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Greystone's Veil of Mysteries,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Groostak's Mindful Cap,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Hardened Cap,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Hat of Nuisance,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Hallowe'en Witch Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Hallowe'en Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Harmonious Thimble Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Hat of No Limit,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
 Hat of the Dawn,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Harmonious Thimble Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Hat of Nuisance,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Happy Pumpkin Mask,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Groostak's Mindful Cap,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Halcyon Hood,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Harmonious Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Hat of Mutiny,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Hardened Cap,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Hallowed Hood,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Hat of the Night,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Hat of Eradication,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Haskarr's Barbarish Cap,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Guardian's Warhelmet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Harmonious Wolfen Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Hallowe'en Skeleton Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Hat of the Gale,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Guardian's Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Hard Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Healer's Cowl,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Headwrap of the Affected,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Headdress,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-Headdress of the Grove,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Heat Lightning Conical,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Helm of Daring,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Headdress of the Phoenix,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Helm of Intolerance,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Headwraps of Superiority,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Helm of Daring,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Headdress of the Grove,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Headwrap of the Affected,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Helm of Refuge,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Helm of the Cyclone,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Helm of Tales,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Headwraps of Preference,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Helm of Imagination,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Headdress,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
 Helm of Struggling,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Headgear of the Absolute,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Headdress of the Phoenix,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Helm of Stability,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Heat Lightning Conical,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Helm of Intolerance,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Helm of the Cyclone,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Helm of Imagination,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Helm of Ultimate Protection,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Hero of MooShu Helmet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
-Hingen's Helm of Pictures,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Hood of the Historian,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Hood of Fulmination,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Hood of the Solstice,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Hood of Lamentation,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Hood of Chimes,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Highland Keffiyeh,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-House Sayameez Turban,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
-Icefire Hood,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Igneous Cover,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Immersive Cowl,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
-Hood of the Oracle,15,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Icestar Cover,54,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-House Tabbi Turban,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
-Imperial Cover,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Imperial Court Helm (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Infamous Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Hermit's Hood,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-House Calixco Turban,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
-Industrial Helm,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Inspiring Retro Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Illustrious Hood,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Infamous Wolfen Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Icy Wolfen Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Interstellar Captain Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
+Hero of MooShu Helmet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
 Hood of Storms,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Insulated Helm,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Icy Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Horned King's Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Hingen's Helm of Pictures,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Highland Keffiyeh,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Igneous Cover,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Hood of Lamentation,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Hood of the Oracle,15,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Hood Turban,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
-Janus' Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Icy Wolfen Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Icefire Hood,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+House Sayameez Turban,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
+Icestar Cover,54,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+House Calixco Turban,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
+Hood of the Historian,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+House Tabbi Turban,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
+Horned King's Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Imperial Cover,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Hermit's Hood,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Immersive Cowl,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
+Imperial Court Helm (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Hood of the Solstice,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Illustrious Hood,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Hood of Fulmination,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Icy Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Infamous Wolfen Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Industrial Helm,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Insulated Helm,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Interstellar Captain Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
+Infamous Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Inspiring Retro Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Ivy-Wrapped Cap,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Jester's Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Janus' Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Jolted Cowl,54,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Khrysalis Murine Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Knight's Fire Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Khrysalis Mandible Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Jolly Winter Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Khrysalis Murine Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Knight's Life Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Knight's Balance Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Khrysalis Armored Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Knight's Death Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Kozane Helm (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
-Jolted Cowl,54,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Jupiter's Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Knight's Armet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Kitty Pumpkin Mask,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
 Knight's Ice Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Knight's Storm Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Jupiter's Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Jolly Winter Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Knight's Death Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Knight's Myth Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Kitty Pumpkin Mask,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Knight's Balance Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Knight's Storm Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Jester's Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Khrysalis Armored Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Knight's Life Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Kozane Helm (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Knight's Armet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Lifestyle Thimble Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Librarian's Mantle,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Lifewarden's Veil,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Malistaire's Forlorn Hood,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Lively Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Lively Wolfen Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Maglump's Blistering Hood,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Magnetic Circlet,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
 Light-As-Air Hat,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Gold Key",False,None
-Mage's Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Librarian's Mantle,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Lively Wolfen Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Lightning-Charged Mantle,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Lifewarden's Veil,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Mariner's Rain Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Mask of Impression,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Gold Key",False,None
+Mage's Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Martyr's Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
+Lively Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Magnetic Circlet,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
+Malistaire's Forlorn Hood,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Maglump's Blistering Hood,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Mask of Impression,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Gold Key",False,None
 Mask of Devotion,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Mask of Proportions,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Mask of Vision,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Merry Mask,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Menacing Mask,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Masterpiece Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
-Midnight Torment Top Hat (Level 110+),110,0,0,0,0,9,0,0,0,0,6,0,0,0,0,0,0,0,Crowns,False,None
-Midnight Torment Top Hat (Any Level),1,0,0,0,0,1,0,0,0,0,2,0,0,0,0,0,0,0,Crowns,False,None
-Minotaur's Headgear,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Master's Cowl,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Midnight Torment Top Hat (Level 100+),100,0,0,0,0,9,0,0,0,0,5,0,0,0,0,0,0,0,Crowns,False,None
-Midnight Torment Top Hat (Level 70+),70,0,0,0,0,6,0,0,0,0,4,0,0,0,0,0,0,0,Crowns,False,None
-Midnight Torment Top Hat (Level 50+),50,0,0,0,0,5,0,0,0,0,4,0,0,0,0,0,0,0,Crowns,False,None
-Midnight Torment Top Hat (Level 60+),60,0,0,0,0,5,0,0,0,0,4,0,0,0,0,0,0,0,Crowns,False,None
+Merry Mask,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Mask of Vision,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Menacing Mask,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Midnight Torment Top Hat (Level 20+),20,0,0,0,0,3,0,0,0,0,3,0,0,0,0,0,0,0,Crowns,False,None
-Midnight Torment Top Hat (Level 120+),120,0,0,0,0,9,0,0,0,0,6,0,0,0,0,0,0,0,Crowns,False,None
-Midnight Torment Top Hat (Level 90+),90,0,0,0,0,8,0,0,0,0,5,0,0,0,0,0,0,0,Crowns,False,None
+Masterpiece Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
 Midnight Torment Top Hat (Level 30+),30,0,0,0,0,3,0,0,0,0,3,0,0,0,0,0,0,0,Crowns,False,None
 Mercurial Mantle,54,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Midnight Torment Top Hat (Level 80+),80,0,0,0,0,7,0,0,0,0,5,0,0,0,0,0,0,0,Crowns,False,None
-Mistral Mantle,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Monk's Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Midnight Torment Top Hat (Level 10+),10,0,0,0,0,2,0,0,0,0,2,0,0,0,0,0,0,0,Crowns,False,None
 Midnight Torment Top Hat (Level 40+),40,0,0,0,0,4,0,0,0,0,4,0,0,0,0,0,0,0,Crowns,False,None
+Midnight Torment Top Hat (Level 100+),100,0,0,0,0,9,0,0,0,0,5,0,0,0,0,0,0,0,Crowns,False,None
+Minotaur's Headgear,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Midnight Torment Top Hat (Any Level),1,0,0,0,0,1,0,0,0,0,2,0,0,0,0,0,0,0,Crowns,False,None
+Midnight Torment Top Hat (Level 120+),120,0,0,0,0,9,0,0,0,0,6,0,0,0,0,0,0,0,Crowns,False,None
+Midnight Torment Top Hat (Level 80+),80,0,0,0,0,7,0,0,0,0,5,0,0,0,0,0,0,0,Crowns,False,None
+Midnight Torment Top Hat (Level 90+),90,0,0,0,0,8,0,0,0,0,5,0,0,0,0,0,0,0,Crowns,False,None
+Midnight Torment Top Hat (Level 110+),110,0,0,0,0,9,0,0,0,0,6,0,0,0,0,0,0,0,Crowns,False,None
+Midnight Torment Top Hat (Level 60+),60,0,0,0,0,5,0,0,0,0,4,0,0,0,0,0,0,0,Crowns,False,None
+Midnight Torment Top Hat (Level 50+),50,0,0,0,0,5,0,0,0,0,4,0,0,0,0,0,0,0,Crowns,False,None
+Mistral Mantle,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Masterful Canine Cowl,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Midnight Torment Top Hat (Level 70+),70,0,0,0,0,6,0,0,0,0,4,0,0,0,0,0,0,0,Crowns,False,None
 Morbid Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Mummy Costume Headwraps,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Mythic Wolfen Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Morbid Wolfen Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Mystifying Helmet,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Mythic Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Morpheus' Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Mummified Headwraps,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
-Night-Knight Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Mythic Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Mystifying Helmet,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Mystical Headdress,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Necromancer's Timeless Brim,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
 Mythical Mantle,54,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Ninja Pig Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crafting",False,None
+Morbid Wolfen Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Necromancer's Timeless Brim,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
+Mythic Wolfen Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Mummy Costume Headwraps,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Night-Knight Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Ninja PAX Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Ninja Pig Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crafting",False,None
 Nirini Helm of Scorching (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Numbing Facade,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Overlord's Peaked Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Oasis Headdress,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Novitiate Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
 Notorious Thimble Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Otomo's Impulsive Helm,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Numbing Facade,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Overlord's Peaked Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Penumbra Cowl,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Noble Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Crafting",False,None
 Opportunists' Cap,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Ornamental Khepresh,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Housing Gauntlet",False,None
 Overlord's Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Nunu's Mask of the Twisted,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Ornamental Khepresh,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Housing Gauntlet",False,None
 Oyoroi Helmet (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Oasis Headdress,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Party Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Peasant Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Penumbra Cowl,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Otomo's Impulsive Helm,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Pharaoh's Fez,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Crafting",False,None
-Pigswick Academy Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
-Pilgrim's Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Crafting",False,None
+Party Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Nunu's Mask of the Twisted,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Plain Pumpkin Mask,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Quest",False,None
-Pilgrim Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-Poet's Crown,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Pirate Pumpkin Mask,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
 Pharoah's Crown of Judgement,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Poised Thimble Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Pluto's Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Polarian Conical,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Polarian Ushanka,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Pilgrim's Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Crafting",False,None
+Pilgrim Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
 Pirate Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Poised Thimble Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Pirate Pumpkin Mask,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Poet's Crown,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Pluto's Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Pharaoh's Fez,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Crafting",False,None
+Polarian Conical,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Protector's Battlehelm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Pigswick Academy Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
 Proactive Cowl,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Pyromancer's Timeless Brim,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Stone Key,False,None
-Pure Fire Thimble Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Pure Helm,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Pupil's Cap,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
-Restorative Mantle,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Rain Dance Mask,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Raven Helm of Unkindness (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Racing Helmet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Pyromancer's Lambent Hat,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Resistive Mask,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Ravenwood Initiate Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Rhapsodist's Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
-Regal Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Pyromancer's Timeless Brim,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Stone Key,False,None
+Pure Helm,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Racing Helmet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Raven Hood,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Recreational Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Remarkable Cowl,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Pure Fire Thimble Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Pupil's Cap,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
+Resistive Mask,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Regal Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Raven Helm of Unkindness (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Ravenwood Initiate Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Rattlebones' Cowl,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bazaar,False,None
-Rokugo Helmet (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Restorative Mantle,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Recreational Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Rhapsodist's Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
+Remarkable Cowl,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Rain Dance Mask,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Ronin's Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Scorching Wolfen Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Scary Pumpkin Mask,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Savannah Headwrap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Safari Pith Helmet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Rogue's Cowl,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Rokugo Helmet (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Santa Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Gold Key, Crowns",False,None
 Scorpion's Headgear,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Scorching Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Seafarer's Cloche Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Safari Pith Helmet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Samurai Helmet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Scorching Wolfen Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Savannah Headwrap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Scary Pumpkin Mask,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
 Royal Crown,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Scribe's Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Stone Key,False,None
-Scorching Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Samurai Helmet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Santa Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Gold Key, Crowns",False,None
-Seafarer's Cloche Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Serpentine Turban,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
 Secret Mask,54,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Sharp's Balanced Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Shaman's Mask,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Sharp's Mythic Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Serpentine Turban,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
 Sharp's Stormy Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Sharp's Mythic Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Shaman's Mask,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Sharp's Deathly Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Sharp's Balanced Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Sharp's Fiery Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Sharp's Icy Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Sharp's Lively Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Simmering Beastmoon Boots,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Simmering Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Simmering Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Shroud of Sagas,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Shroud of the Universe,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Simmering Wolfen Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Silent Knight Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
+Sharp's Icy Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Shroud of Scruples,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
-Silent Nightcap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Shroud of Predominance,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Simmering Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Shroud of Audacity,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Sinbad's Turban,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Housing Gauntlet,False,None
+Simmering Wolfen Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Shroud of Predominance,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Silent Knight Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
+Shroud of Sagas,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Silent Circlet,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
+Simmering Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Shroud of the Universe,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Simmering Beastmoon Boots,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Sinbad's Turban,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Housing Gauntlet,False,None
+Silent Nightcap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Sokkwi Mantle of Blizzards (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Smooth Spun Hat,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Snowflake Cowl,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
+Smoldering Vengeance Helm (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Sleepy Agent Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Sleuth Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Smooth Spun Hat,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Smoldering Vengeance Helm (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Sneaky Wombat Mask,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
-Sokkwi Mantle of Blizzards (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Snowflake Cowl,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
-Solstice Elf Cap (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Solstice Elf Cap (Level 110+),110,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Solstice Elf Cap (Level 150+),150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Solstice Elf Cap (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Solstice Elf Cap (Level 170+),170,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Solstice Elf Cap (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Solstice Elf Cap (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Spiritual Thimble Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Sophisticated Headwraps,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Solstice Elf Cap (Level 130+),130,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Spiral Cup Cowl,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Housing Gauntlet",False,None
-Sorcerer's Timeless Brim,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
-Solstice Elf Cap (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Sorcerer's Maroon Hat,15,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Solstice Elf Cap (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Solstice Elf Cap (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Spearcaller's Deluge Mantle,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Solstice Elf Cap (Level 160+),160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Solstice Elf Cap (Level 140+),140,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Sphinx's Mantle,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Sonneteer's Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
-Songster's Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
 Solstice Elf Cap (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Spark of Life Conical,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Stone Key,False,None
-Spellbinder's Hood,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Solstice Elf Cap (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Solstice Elf Cap (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Solstice Elf Cap (Level 120+),120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Stag Lord's Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-South Road Warrior's Kavuk,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Songster's Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
+Spellbinder's Hood,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Solstice Elf Cap (Level 140+),140,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Solstice Elf Cap (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Soot Stained Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
+Solstice Elf Cap (Level 120+),120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Solstice Elf Cap (Level 160+),160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Solstice Elf Cap (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+South Road Warrior's Kavuk,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Spearcaller's Deluge Mantle,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Sorcerer's Maroon Hat,15,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Sphinx's Mantle,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Solstice Elf Cap (Level 150+),150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Spiral Cup Cowl,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Housing Gauntlet",False,None
+Solstice Elf Cap (Level 170+),170,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Solstice Elf Cap (Level 110+),110,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Solstice Elf Cap (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Spiritual Thimble Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Stag Lord's Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Solstice Elf Cap (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Solstice Elf Cap (Level 130+),130,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Spark of Life Conical,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Stone Key,False,None
+Sorcerer's Timeless Brim,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
+Sophisticated Headwraps,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Solstice Elf Cap (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Sonneteer's Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
+Solstice Elf Cap (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Steady Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Steady Wolfen Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Steel Raven Helmet (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Stormy Cover,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
 Stormbreaker's Shroud,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Storied Helm,54,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Stormy Wolfen Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Stormy Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Steel Raven Helmet (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Straw Boater Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Sturdy Hood,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Stormy Wolfen Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Storied Helm,54,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Stormzilla Head,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Stormy Cover,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
+Stormy Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Sturdy Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
-Superstitious Circlet,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
-Swashbuckler Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-The Snow Crown,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-The Frosted Tips,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-The Valiant Defender,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Sturdy Hood,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Superfan Headphones,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-The Cat Ears,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-The Coiffed Giraffe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Tempest Cowl,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
-Tangleroot's Spirit Mask,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-The Enchanter,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-The Legend,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-The Raven Eye,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Stone Key, Crowns",False,None
-The Sorcerer,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Theurge's Timeless Brim,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key,False,None
-The Halfpipe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Superstitious Circlet,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
 The Bewitcher,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Thane's Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-The Wyrmrider,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Swashbuckler Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Thaumaturge's Timeless Brim,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
-The Snowfall Earmuffs,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-The Winterland Earmuffs,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-The Restless Titan,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Stone Key, Crowns",False,None
-The Fakie Ollie,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-The Dragon Wisp,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-The Hexbreaker,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Thought and Memory Helm (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
-The Clobbered Gobbler,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-The Troll Hunter,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-The Spellslinger,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-The Mischievous Elf,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"One Shot Housing Gauntlet, Crowns",False,None
-The Dreamweaver,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Stone Key",False,None
-Thimble Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-The Stalwart Guardian,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-The Ice Horns,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-The Gremlinsbane,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"One Shot Housing Gauntlet, Crowns",False,None
-The Unicorn's Mane,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-The Kroktop,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-The Halo,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-The Cold Cut,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-The Warlock,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Stone Key, Crowns",False,None
+The Valiant Defender,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
 The Savvy Satyr,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-The Winter Antlers,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-The Yaxche,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"One Shot Housing Gauntlet, Crowns",False,None
-The Stardust,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-The Alchemist,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+The Snow Crown,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+The Dreamweaver,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Stone Key",False,None
+Thane's Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Tangleroot's Spirit Mask,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+The Coiffed Giraffe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+The Enchanter,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+The Dragon Wisp,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+The Ice Horns,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+The Hexbreaker,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+The Halo,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+The Mischievous Elf,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"One Shot Housing Gauntlet, Crowns",False,None
+The Frosted Tips,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+The Clobbered Gobbler,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+The Warlock,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Stone Key, Crowns",False,None
+The Raven Eye,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Stone Key, Crowns",False,None
+The Gremlinsbane,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"One Shot Housing Gauntlet, Crowns",False,None
 The Pandarian,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-The Mists Dun Dara,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"One Shot Housing Gauntlet, Crowns",False,None
-The Manticore,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Stone Key, One Shot Housing Gauntlet, Crowns",False,None
 The Goat Horns,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Thimble Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+The Stardust,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+The Spellslinger,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Theurge's Timeless Brim,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key,False,None
+The Restless Titan,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Stone Key, Crowns",False,None
+Thought and Memory Helm (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+The Mists Dun Dara,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"One Shot Housing Gauntlet, Crowns",False,None
+The Wyrmrider,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+The Cat Ears,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+The Winterland Earmuffs,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+The Manticore,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Stone Key, One Shot Housing Gauntlet, Crowns",False,None
+The Cold Cut,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+The Kroktop,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+The Alchemist,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+The Unicorn's Mane,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+The Troll Hunter,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+The Fakie Ollie,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+The Halfpipe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+The Legend,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Tempest Cowl,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
+The Snowfall Earmuffs,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+The Yaxche,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"One Shot Housing Gauntlet, Crowns",False,None
+The Sorcerer,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+The Stalwart Guardian,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+The Winter Antlers,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Tiki Crown of Purity (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Thunderous Karanahn Veil (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Toymaker Elf Cap (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Top Hat of the Germane,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Toymaker Elf Cap (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Tiki Crown of Riptides (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Top Hat of Bottled Anger,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Toymaker Elf Cap (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Toymaker Elf Cap (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Troubador's Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
-Toymaker Elf Cap (Level 160+),160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Toymaker Elf Cap (Level 120+),120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Top Hat of the Germane,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Toymaker Elf Cap (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Tiki Crown of Riptides (Level 10+),10,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,Crowns,False,None
 Toymaker Elf Cap (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Tiki Crown of Sacred Songs (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
-Toymaker Elf Cap (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Trouper's Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
-Timeless Arboreal Brim,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
-Toymaker Elf Cap (Level 150+),150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Toymaker Elf Cap (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Toymaker Elf Cap (Level 170+),170,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Toymaker Elf Cap (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Trollskin Hat,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Toymaker Elf Cap (Level 110+),110,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Toymaker Elf Cap (Level 140+),140,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Tiki Crown of Riptides (Level 10+),10,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,Crowns,False,None
+Toymaker Elf Cap (Level 120+),120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Toymaker Elf Cap (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Toymaker Elf Cap (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Toymaker Elf Cap (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Toymaker Elf Cap (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Timeless Arboreal Brim,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
+Tiki Crown of Sacred Songs (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Toymaker Elf Cap (Level 150+),150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Toymaker Elf Cap (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Toymaker Elf Cap (Level 170+),170,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Troubador's Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
 Toymaker Elf Cap (Level 130+),130,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Toymaker Elf Cap (Level 140+),140,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Toymaker Elf Cap (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Toymaker Elf Cap (Level 160+),160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Triumphant Thimble Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Twilight Conical,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Stone Key,False,None
-Turbulent Topper,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Toymaker Elf Cap (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Trouper's Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
+Toymaker Elf Cap (Level 110+),110,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Turkey Hat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Turbulent Topper,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Ultimate Wolfen Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Vampire Costume Wig,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Veil of Fulmination,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Twilight Conical,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Stone Key,False,None
 Veil of Activity,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Veil of the Apologue,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Venomous Cowl,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Veil of Virtue,54,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Vampire Costume Wig,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
 Veil of the Frost Queen,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
+Veil of Fulmination,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Veil of Uncertainty,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Venomous Cowl,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Very Cool Thimble Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Walrusk Soldier's Papakh,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Warlord's Death Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Vivacious Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Wallaru Protector's Helmet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
-Vivacious Wolfen Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Vindicator's Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Veil of the Apologue,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Veil of Virtue,54,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Warlord's Balance Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Warlord's Myth Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Warlord's Fire Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-West Road Wanderer's Kabalak,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Warlord's Storm Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Whimsical Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Weekend Warrior Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Volcanic Mask,54,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Warlord's Storm Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Warlord's Fire Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Vulcan's Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Wild Hair,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Vindicator's Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Weekend Warrior Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Warlord's Myth Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Warlord's Ice Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Vivacious Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Volcanic Mask,54,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Walrusk Soldier's Papakh,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Wallaru Protector's Helmet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
+West Road Wanderer's Kabalak,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Warlord's Death Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Warlord's Life Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Vivacious Wolfen Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Wild Hair,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Widow's Furious Hat,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Winter Elf Cap (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Winter Elf Cap (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Winter Elf Cap (Level 110+),110,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Winter Elf Cap (Level 140+),140,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Winter Elf Cap (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Winter Elf Cap (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Winter Elf Cap (Level 160+),160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Wintry Wolfen Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Winter Elf Cap (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Winter Elf Cap (Level 130+),130,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Winter Elf Cap (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Winter Elf Cap (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Winter Elf Cap (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Winter Elf Cap (Level 150+),150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Wimple of Whimsy,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Will-O'-The-Wisp Conical,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Stone Key,False,None
 Winter Elf Cap (Level 170+),170,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Winter Elf Cap (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Winter Elf Cap (Level 150+),150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Winter Elf Cap (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Winter Elf Cap (Level 130+),130,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Winter Elf Cap (Level 140+),140,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Winter Elf Cap (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Winter Elf Cap (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Winter Elf Cap (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Winter Elf Cap (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Winter Elf Cap (Level 110+),110,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Winter Elf Cap (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Winter Elf Cap (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Winter Elf Cap (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Wintry Wolfen Helm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Wimple of Whimsy,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Wintry Beastmoon Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Witch Doctor's Mask,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Winter Elf Cap (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Winter Elf Cap (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Winter Elf Cap (Level 160+),160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Winter Elf Cap (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Wizard's Timeless Brim,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
 Wombat Beanie,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Wolf Cowl,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None

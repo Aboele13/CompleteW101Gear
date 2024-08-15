@@ -1,8 +1,8 @@
 Name,Level,Health,Damage,Resist,Accuracy,Power Pip,Critical,Critical Block,Pierce,Stun Resist,Incoming,Outgoing,Pip Conserve,Shadow Pip,Archmastery,Source,Owned,Gear Set
 Storm Ghulture,1,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Battle Havox,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Balance Ghulture,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Battle Narwhal,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,"Fishing, Crowns, Gift Card",False,None
+Battle Havox,1,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Charon's Ferry,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,Charon's Set
 Haros' Ferry,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,Haros' Set
 Stygian Ferry,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,Stygian Set
@@ -10,423 +10,423 @@ Tartarus Ferry,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,Charon's Set
 Clockwork Courser,1,0,0,0,0,0,0,0,2,0,0,0,0,0,0,"Crowns, Gift Card",False,None
 Vulpine Avenger,1,0,0,0,0,0,0,0,2,0,0,0,0,0,0,"Crowns, Gift Card",False,None
 Festive Fox,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Crowns,False,None
-Alien Nebula,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Adventurer's Rover,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-All Souls Pegasus,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Alphyn,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
 Aethyr Cloud,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Stone Key,False,None
-Astromancer's Rocket,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Ancient Koi,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Gold Key, Stone Key, Crowns",False,None
-Balance Whirlwind,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crafting, One Shot Housing Gauntlet",False,None
-Balance Decade Vortex,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Autumnal Treant,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+All Souls Pegasus,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Alien Nebula,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Balance Brume,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Autumn-Mobile,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Attack Badger,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Astral Unicorn,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Auroch,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Ankylosaurus,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Gold Key, Crowns",False,None
-Balanced Flying Carpet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Battle Badger,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Autumn Leaf Swarm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Apophis' Krokosphinx,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
-Bee Wings,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Fishing, Gift Card",False,None
-Cast Symbol Fire,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Charity Bah Humbug,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Aero Glider,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Arcane Minecart,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Fishing, Gift Card",False,None
-Charity Noelephant,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Blood Raven,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Bruin Ram,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Gold Key, Crowns",False,None
-Calixco Magic Carpet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
-Celestial Pantera,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Bone Dragon,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Charity Hippogriff,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Blue Fairy Wings,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Bat Wings,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Stone Key, Fishing, Crowns",False,None
-Charity Meowmodon,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Arcus Cloud,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
-Brown Warg,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Stone Key, Crowns",False,None
-Cavalry Elephant,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Bat Swarm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Bookmobile,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Cast Symbol Death,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Charity Chrismoose,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Bone Dragon (Retired),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Birthday Box,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Balance Decade Vortex,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Bengal Tiger,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Gold Key, Crowns",False,None
-Care Hare,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Cast Symbol Ice,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Charity Candied Ram,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Cephalopod Racer,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Caribou Carrier,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Bat Glider,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Astral Unicorn,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Ancient Koi,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Gold Key, Stone Key, Crowns",False,None
+Blue Fairy Wings,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Barrel of Fun,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Adventurer's Rover,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Arcus Cloud,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
+Birthday Box,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Black Stallion,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Crowns",False,None
+Alphyn,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
 Auld Lang Sphere,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Attack Badger,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Ankylosaurus,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Gold Key, Crowns",False,None
+Botanical Beast,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Apophis' Krokosphinx,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Blue Kirin,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Wooden Key, Crowns",False,None
+Astromancer's Rocket,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Celestial Wolf,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Fishing, Crowns, Gift Card",False,None
+Autumnal Treant,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Aero Glider,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Bruin Ram,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Gold Key, Crowns",False,None
+Bat Swarm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Bumbershoot,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Beach Ball,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Auroch,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Buck Gordon's Jetpack,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Celestial Pantera,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Balanced Flying Carpet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Blitzing Tricycle,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Bookwyrm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Charity Feliz Navidog,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Caribou Carrier,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Bat Wings,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Stone Key, Fishing, Crowns",False,None
+Autumn-Mobile,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Cast Symbol Myth,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Balance Whirlwind,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crafting, One Shot Housing Gauntlet",False,None
+Bat Glider,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Bookmobile,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Blue Dragon,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Gold Key, Housing Gauntlet, Crowns",False,None
 Blue Candy-Cane,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
 Boxplane,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Beach Ball,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Casual Gummy Bunny,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Stone Key, Crowns",False,None
-Bumbershoot,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Camel,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Wooden Key, Fishing, Crowns",False,None
+Charity Chrismoose,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Autumn Leaf Swarm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Birthday Balloons,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Blue Dragon,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Gold Key, Housing Gauntlet, Crowns",False,None
-Charming Moon,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Cast Symbol Life,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Charity Silent Reindeer Mount,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Candy Cane Snowboard,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Bookwyrm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Blue Kirin,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Wooden Key, Crowns",False,None
-Charity Fa-La-La-La Llama,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Chitin Crawler,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Celestian Mech,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
-Cast Symbol Balance,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Aquilan Dual Chariot,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Fishing, Crowns, Gift Card",False,None
-Charity Feliz Navidog,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Botanical Beast,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Barrel of Fun,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Cast Symbol Myth,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Cast Symbol Storm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Celestial Wolf,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Fishing, Crowns, Gift Card",False,None
-Blitzing Tricycle,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Black Stallion,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Crowns",False,None
-Buck Gordon's Jetpack,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Charity Rex,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Chestnut Pony,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Crowns",False,None
-Blue Ox,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Butterfly Swarm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Chill Wasteland Emu,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Chimney Sweeper,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Caerbannog Rabbit,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Blood Raven,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Aquilan Dual Chariot,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Fishing, Crowns, Gift Card",False,None
+Butterfly Swarm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Arcane Minecart,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Fishing, Gift Card",False,None
+Charity Fa-La-La-La Llama,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Blue Ox,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
+Brown Warg,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Stone Key, Crowns",False,None
+Celestian Mech,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
+Bone Dragon (Retired),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Charity Hippogriff,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Care Hare,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Celestial Carpet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Cast Symbol Storm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Bee Wings,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Fishing, Gift Card",False,None
+Bone Dragon,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Calixco Magic Carpet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
+Candy Cane Snowboard,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Charity Bah Humbug,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Charity Meowmodon,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Charity Noelephant,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Cast Symbol Life,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Cephalopod Racer,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Battle Badger,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Charity Candied Ram,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cast Symbol Ice,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Cast Symbol Balance,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Camel,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Wooden Key, Fishing, Crowns",False,None
+Cavalry Elephant,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Casual Gummy Bunny,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Stone Key, Crowns",False,None
+Cast Symbol Fire,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cast Symbol Death,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
 Charity Parade Truck,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Chocolate Bunny,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Cobbler's Rocking Horse,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Chompy Bronto,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,Fossil Warrior's Set
-Chocolate Moose,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Stone Key, Crowns",False,None
-Creepy Clown Car,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Desert Racer,1,0,0,0,0,2,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Coolest Mount Ever,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Cutesy Moon,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Couch Potato,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Charity Silent Reindeer Mount,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
+Charming Moon,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Charity Rex,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Crumbles Gingerhorse,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Deathly Flying Carpet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Digmoore Pogo Stick,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crafting",False,None
-Death Ghulture,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Death Brume,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Dread Loch Monster,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
-Dappled Mustang,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Dragon Wings,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
-Explorer's Rover,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Chromaticat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Fjord Dragon,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Fire Ghulture,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Evil Carnival Wagon,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Dual Dragonflyer,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
-Formal Gummy Bunny,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Stone Key, Crowns",False,None
-Enchanted Broom,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Wooden Key, Crowns",False,None
 Cloud Wyvern,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Fresh Oarfish,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Flying Dutchman,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-False Dawn Harrowings,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Dolphin Chariot,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Festive Snowped,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Fancy Moon,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Fire Brume,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Fire Wyvern,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Ghost Host,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Death Decade Vortex,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Chimney Sweeper,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Chocolate Bunny,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Chompy Bronto,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,Fossil Warrior's Set
+Crystal Unicorn,1,0,0,0,2,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
+Creepy Clown Car,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Friendship Voyager,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Giant Panda,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Dromel Magic Carpet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
-Fur Wheeler,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Deep Oarfish,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Desert Warthog,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cobbler's Rocking Horse,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Coolest Mount Ever,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Dire Loch Monster,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
-Cyber Scooter,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Grey Warg,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Stone Key, Crowns",False,None
-Evil Snowman Board,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Gator Glider,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
-Grim Loch Monster,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
-Feathered Raptor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Fishing, Crowns, Gift Card",False,None
-Dusty Wasteland Emu,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Fowl Gobbler,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Frostfang Tiger,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Stone Key, Crowns",False,None
-Hart of Darkness,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Flying Saucer,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Floral Fiend,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Explorer's Rover,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Combat Badger,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Creepy Bumper Car,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Drake Hatchling,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Fire Decade Vortex,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Grim Cerberus,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Crystal Unicorn,1,0,0,0,2,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Dark Redwing,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Housing Gauntlet, Crowns",False,None
-Don't Fall Board,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Cosmographer's Rocket,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Himoolayan Yak,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Stone Key, Crowns",False,None
-Escargo-getter,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Dual Skimmer,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Crokagator,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Gold Key, Wooden Key, Crowns",False,None
-Gobbler,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Stone Key, Crowns",False,None
-Cloudstrider Pegasus,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Hawk,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Gift Card",False,None
-Dream Filly,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Death Whirlwind,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crafting, One Shot Housing Gauntlet",False,None
-Faithful Dragoness,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Gold Key, Stone Key, Housing Gauntlet, Crowns",False,None
-Gloomthorn Vine,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Hobgobbler,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Ghostly Cerberus,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Gold Kirin,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Wooden Key, Crowns",False,None
-Creepy Bumper Car,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Festive Rocking Horse,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Gyrocycle,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Ghoulish Cerberus,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Combat Badger,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Fancy Gummy Bunny,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Stone Key, Crowns",False,None
-Grand Panda,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Fiery Flying Carpet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Furious Wasteland Emu,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Frontier Dragon,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Heli-Chiroptera,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Frosthopper Sleigh,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Herbal Horror,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Great Panda,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Grim Wasteland Emu,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Gold Wyvern,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Fantastic Unicorn,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
-Floral Fiend,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Fire Wyvern,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Fire Whirlwind,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crafting, One Shot Housing Gauntlet",False,None
-Gold-Wrought Eagle,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
-Hoods' Magic Carpet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
-Flying Saucer,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Hippogriff,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Stone Key, Crowns",False,None
-Green Candy-Cane,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
-Horned Sweeper,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Wooden Key, Crowns",False,None
-Great Hornocerous,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Gift Card",False,None
+Evil Carnival Wagon,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
+Cyber Scooter,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Dream Filly,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Frosty Treant,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Ice Brume,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Hydra,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Manta Ray,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Life Whirlwind,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crafting, One Shot Housing Gauntlet",False,None
-Jeweled Scarab,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
-Jungle Warthog,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Magic Carpet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Fishing, Crowns, Gift Card",False,None
-Jeweled Wings,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Lively Flying Carpet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Jousting Destrier,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Ice-Cycle,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Light Hart,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Krampus Runner,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Ice Whirlwind,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crafting, One Shot Housing Gauntlet",False,None
-Light Blades,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Stone Key, Crowns",False,None
-Petalfarthing,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Mecha Rex,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Labyrinth Board,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Mammoth Mini,1,0,0,0,0,0,0,0,0,0,0,2,0,0,0,"Drop, Crowns",False,None
-Majestic Crane,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Sky Sorcerer's Set
-Life Ghulture,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Outrigger Canoe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Jaguar,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Mystic Skiff,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Gift Card",False,None
-Orange Fairy Wings,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Myth Ghulture,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Nightflame Pegasus,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Lucky Board,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Mechanical Wings,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Nightfall Harrowings,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Moonblade Pantera,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Mini Streetcar,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Ice Decade Vortex,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Pennyfarthing,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Megabat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Pato de los Muertos,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Junk-Copter,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Stone Key, Crowns, Gift Card",False,None
-Ostrich,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Merle's Holiday Rug,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Pirate Rowboat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Stone Key, Crowns",False,None
-Moseyin' Armadillo,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
-Myth Decade Vortex,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Pink Candy-Cane,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Polygonal Predator,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Mini Tram,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Night Wyvern,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Maximum Horsepower,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Lightkeeper's Submarine,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Midnight Owl,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Outback Rover,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Plains Warthog,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Nightrunner,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Night Dragon,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Ice Ghulture,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Mander Palanquin,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Stone Key, Wooden Key, Crowns",False,None
-Moonlight Pony,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Stone Key, Wooden Key, Crowns",False,None
-Myth Whirlwind,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crafting, One Shot Housing Gauntlet",False,None
-Proud Lion,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Crowns",False,None
-Prismatic Hare,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Mighty Steed,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Lil' Steam Engine,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
-Nimbari Chariot,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Luphilim Wings,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Stone Key,False,None
-Life Brume,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Poodle Moth,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Midnight Rider,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Owl,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Stone Key, Crowns",False,None
-Malorian Dragon,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Fishing, Crowns, Gift Card",False,None
-Punk Flamingo,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Midnight Harrowings,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Majestic Unicorn,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Mini Trolley,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cosmographer's Rocket,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Couch Potato,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Fowl Gobbler,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Fiery Flying Carpet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Festive Rocking Horse,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Fantastic Unicorn,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
+Death Decade Vortex,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Dark Redwing,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Housing Gauntlet, Crowns",False,None
+Dolphin Chariot,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
+Faithful Dragoness,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Gold Key, Stone Key, Housing Gauntlet, Crowns",False,None
+Cutesy Moon,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Frostfang Tiger,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Stone Key, Crowns",False,None
+Feathered Raptor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Fishing, Crowns, Gift Card",False,None
+Deep Oarfish,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Dusty Wasteland Emu,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Gator Glider,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Dromel Magic Carpet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
+False Dawn Harrowings,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Dappled Mustang,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Dual Skimmer,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Desert Warthog,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Enchanted Broom,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Wooden Key, Crowns",False,None
+Death Whirlwind,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crafting, One Shot Housing Gauntlet",False,None
+Dual Dragonflyer,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
+Festive Snowped,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Don't Fall Board,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Chestnut Pony,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Crowns",False,None
+Fresh Oarfish,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Dragon Wings,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Flying Dutchman,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Frosthopper Sleigh,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Death Ghulture,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Fire Brume,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Chocolate Moose,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Stone Key, Crowns",False,None
+Desert Racer,1,0,0,0,0,2,0,0,0,0,0,0,0,0,0,Gift Card,False,None
+Fjord Dragon,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
+Frontier Dragon,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Fancy Moon,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Chill Wasteland Emu,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Deathly Flying Carpet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Death Brume,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Dread Loch Monster,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Escargo-getter,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Chromaticat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cloudstrider Pegasus,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Furious Wasteland Emu,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Fire Ghulture,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Chitin Crawler,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Formal Gummy Bunny,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Stone Key, Crowns",False,None
+Crokagator,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Gold Key, Wooden Key, Crowns",False,None
+Gold Kirin,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Wooden Key, Crowns",False,None
+Ghost Host,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Grim Loch Monster,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Great Hornocerous,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Gift Card",False,None
+Grim Cerberus,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Hobgobbler,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Horned Sweeper,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Wooden Key, Crowns",False,None
+Gloomthorn Vine,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Fur Wheeler,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
+Grey Warg,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Stone Key, Crowns",False,None
+Great Panda,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Giant Panda,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Digmoore Pogo Stick,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crafting",False,None
+Gobbler,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Stone Key, Crowns",False,None
+Gyrocycle,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
+Grand Panda,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Heli-Chiroptera,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Gold Wyvern,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Green Candy-Cane,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
+Gold-Wrought Eagle,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
+Herbal Horror,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Ghoulish Cerberus,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Hoods' Magic Carpet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
+Hawk,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Gift Card",False,None
+Ghostly Cerberus,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Grim Wasteland Emu,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Himoolayan Yak,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Stone Key, Crowns",False,None
+Hart of Darkness,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Hippogriff,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Stone Key, Crowns",False,None
+Evil Snowman Board,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Jade Wyvern,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Pumpkin Carriage,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Gift Card",False,None
-Marleybone Car,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Mythic Flying Carpet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Panther,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Prismaticat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-New Fangle,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Myth Brume,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Pioneer Dragon,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Polygonal Prowler,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Polaris Express,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Phoenix,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Hydra,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Icy Flying Carpet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Jeweled Wings,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Jaguar,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Ice Decade Vortex,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Ice Brume,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Jungle Warthog,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Krampus Runner,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Ice Ghulture,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Life Brume,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Ice Whirlwind,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crafting, One Shot Housing Gauntlet",False,None
+Megabat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Jousting Destrier,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
+Malorian Dragon,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Fishing, Crowns, Gift Card",False,None
+Majestic Crane,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Sky Sorcerer's Set
+Maximum Horsepower,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Lil' Steam Engine,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
+Majestic Unicorn,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Life Ghulture,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Midnight Rider,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
+Lively Flying Carpet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Midnight Harrowings,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Owl,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Stone Key, Crowns",False,None
+Mecha Rex,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Moseyin' Armadillo,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Manta Ray,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Midnight Owl,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Mystic Unicorn,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
-Life Decade Vortex,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Petalfarthing,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Pink Candy-Cane,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Mixed Candy-Cane,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Outback Rover,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
+Nightrunner,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Mythic Flying Carpet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Nightshade's Board,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Jeweled Scarab,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
+Lucky Board,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Night Wyvern,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Mechanical Wings,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Junk-Copter,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Stone Key, Crowns, Gift Card",False,None
+Phoenix,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Mystic Skiff,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Gift Card",False,None
+Lightkeeper's Submarine,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
+Orange Fairy Wings,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Polygonal Predator,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
+Life Decade Vortex,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Mander Palanquin,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Stone Key, Wooden Key, Crowns",False,None
+Pirate Rowboat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Stone Key, Crowns",False,None
+Luphilim Wings,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Stone Key,False,None
+Light Hart,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Labyrinth Board,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Outrigger Canoe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
+Ostrich,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+New Fangle,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Myth Decade Vortex,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Nimbari Chariot,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Mammoth Mini,1,0,0,0,0,0,0,0,0,0,0,2,0,0,0,"Drop, Crowns",False,None
+Magic Carpet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Fishing, Crowns, Gift Card",False,None
+Polygonal Prowler,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Myth Brume,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Mini Trolley,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Light Blades,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Stone Key, Crowns",False,None
+Mini Streetcar,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Ice-Cycle,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Panther,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Mini Tram,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Life Whirlwind,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crafting, One Shot Housing Gauntlet",False,None
+Mighty Steed,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Moonblade Pantera,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Merle's Holiday Rug,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Polaris Express,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Pioneer Dragon,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Pato de los Muertos,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Moonlight Pony,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Stone Key, Wooden Key, Crowns",False,None
+Night Dragon,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Marleybone Car,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Nightflame Pegasus,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Myth Whirlwind,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crafting, One Shot Housing Gauntlet",False,None
 Monarch Butterfly,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
-Purple Fairy Wings,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Gold Key, Crowns",False,None
-Reindeer Sleigh,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Purple Glider,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Stone Key, Wooden Key, Crowns",False,None
-Pygmy Grey Whale,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Revolutionary's Cannon,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Snow Ram,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Gold Key, Stone Key, Crowns",False,None
-Snowboard,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Roc,1,0,0,0,0,3,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
-Santa Jaws,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Scarasol,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Solar Sabercat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Roadster,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Snappy Lobster,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Gold Key, Crowns",False,None
-Storm Rider,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Siege Elephant,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Rubber Ducky,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Rugged Seahorse,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Stone Key, Crowns",False,None
-Sabertooth Tiger,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Stompy Bronto,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,Fossil Avenger's Set
-Shadowy Flying Carpet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Raven Wings,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Roller Blades,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Starter Broomstick,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Seraph Wings,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Shinobi Dragon,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Gift Card",False,None
-Scarydactyl,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Gift Card",False,None
-Ravenwood Pogo Stick,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crafting",False,None
-Ramblin' Armadillo,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
-Scorched Wasteland Emu,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Starlight Pony,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Wooden Key, Crowns",False,None
-Storm Decade Vortex,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Snow Owl,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Skyracer Pegasus,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Soaring Simian,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Shocked Wasteland Emu,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Solstice Rocking Horse,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Scorching Tricycle,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Spritely Seahorse,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Stone Key, Crowns",False,None
-Setesh's Krokosphinx,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Poodle Moth,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
+Myth Ghulture,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Nightfall Harrowings,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Plains Warthog,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Prismatic Hare,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Pennyfarthing,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Proud Lion,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Crowns",False,None
+Pumpkin Carriage,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Gift Card",False,None
 Raven,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
-Sayameez Magic Carpet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
-Starry Rocking Horse,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Shark Skirunner,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Gift Card",False,None
-Serpentine Magic Carpet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
-Shiver-Toothed Tiger,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Scare-iot,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Sokar's Krokosphinx,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Prismaticat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Pygmy Grey Whale,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
+Purple Fairy Wings,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Gold Key, Crowns",False,None
 Red Candy-Cane,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
-Rickshaw,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Gift Card",False,None
-Snowhopper Sleigh,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Storm Brume,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Skyvern,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Slowpoke Sloth,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Stargazer's Rocket,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Spring Flower,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Royal Lioness,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Stone Key, Crowns",False,None
-Road Warrior's Chopper,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Spirit Lifter,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Stage Ship,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Gift Card",False,None
-Rainbow Roller,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Renaissance Wings,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Shadowsteed,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Sun Skimmer,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Spring Board,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Roaming Tome,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Sayameez Magic Carpet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
 Sky Sedan De-Luxe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Summer Skateboard,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Ravenwood Rider,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Spirited Away,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Soaring Eagle,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Sand Swarm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
-Sea Turtle,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Gold Key, Crowns",False,None
-Snow Swarm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Stormzilla,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Story Lorry,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Silver Kirin,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Wooden Key, Crowns",False,None
-Sunshine Pony,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Stone Key, Wooden Key, Crowns",False,None
-Sunflower Skimmer,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Storm Whirlwind,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crafting, One Shot Housing Gauntlet",False,None
-Stormy Flying Carpet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Racing Tricycle,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Ravenwood Pogo Stick,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crafting",False,None
+Rickshaw,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Gift Card",False,None
+Roller Blades,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Road Warrior's Chopper,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Rainbow Roller,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Shadowsteed,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Soaring Heart Wings,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Stonehopper,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
-Standard Mount,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Sweet Heart,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Sabertooth Tiger,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Storm Decade Vortex,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Sea Turtle,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Gold Key, Crowns",False,None
+Skyvern,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Storm Brume,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Santa Jaws,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Spirited Away,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Shadowy Flying Carpet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Storm Whirlwind,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crafting, One Shot Housing Gauntlet",False,None
+Scarasol,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Scarydactyl,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Gift Card",False,None
 Spider Rider,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Starshine Pony,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Wooden Key, Crowns",False,None
+Shiver-Toothed Tiger,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Racing Tricycle,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Siege Elephant,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Setesh's Krokosphinx,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Scare-iot,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Storm Rider,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Ravenwood Rider,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Royal Lioness,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Stone Key, Crowns",False,None
+Ramblin' Armadillo,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Skyracer Pegasus,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Rugged Seahorse,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Stone Key, Crowns",False,None
+Roaming Tome,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Punk Flamingo,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Snappy Lobster,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Gold Key, Crowns",False,None
+Starry Rocking Horse,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Reindeer Sleigh,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Snow Swarm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Roc,1,0,0,0,0,3,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Rubber Ducky,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Stargazer's Rocket,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Starter Broomstick,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Raven Wings,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Solar Sabercat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Solstice Rocking Horse,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Snow Ram,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Gold Key, Stone Key, Crowns",False,None
+Soaring Simian,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Stormrider Hare,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Spring Board,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Snowhopper Sleigh,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Stompy Bronto,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,Fossil Avenger's Set
+Scorched Wasteland Emu,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Shark Skirunner,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Gift Card",False,None
+Spring Flower,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Stage Ship,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Gift Card",False,None
+Serpentine Magic Carpet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
+Stonehopper,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
+Spirit Lifter,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Seraph Wings,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Standard Mount,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Snowboard,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Revolutionary's Cannon,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
+Soaring Eagle,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Snow Owl,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Purple Glider,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Stone Key, Wooden Key, Crowns",False,None
+Shocked Wasteland Emu,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Silver Kirin,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Wooden Key, Crowns",False,None
+Starlight Pony,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Wooden Key, Crowns",False,None
+Sand Swarm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
+Shinobi Dragon,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Gift Card",False,None
+Sokar's Krokosphinx,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Story Lorry,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Stormy Flying Carpet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Roadster,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Summer Skateboard,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Sweet Ride!,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Sweetish Chef Set
-Swift Gryphon,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Gold Key, Crowns, Gift Card",False,None
-Swiftshadow Wings,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Fishing, Crowns",False,None
+Starshine Pony,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Wooden Key, Crowns",False,None
+Scorching Tricycle,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Slowpoke Sloth,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Sunflower Skimmer,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Swift Shark,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Toboggan,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Terror Dog,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Triceratops,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Gold Key, Crowns",False,None
+Sun Skimmer,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+The Nightmare,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Tanglewood Stalker,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,One Shot Housing Gauntlet,False,None
+Toymaker's Rocking Horse,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+The Ball-N-Chain,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Tabbi Magic Carpet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
 Tiki Waverider,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Treant,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Tanglewood Stalker,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,One Shot Housing Gauntlet,False,None
-Tawny Ram,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Gold Key, Crowns",False,None
-The Ball-N-Chain,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Toymaker's Rocking Horse,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Toboggan,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Triceratops,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Gold Key, Crowns",False,None
 Tanglewood Vine,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Gift Card",False,None
-The Nightmare,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Sweet Heart,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Treant,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Stormzilla,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Swiftshadow Wings,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Fishing, Crowns",False,None
+Tawny Ram,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Gold Key, Crowns",False,None
+Spritely Seahorse,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Stone Key, Crowns",False,None
+Terror Dog,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Sunshine Pony,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Stone Key, Wooden Key, Crowns",False,None
+Swift Gryphon,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Gold Key, Crowns, Gift Card",False,None
 Tropical Candy Cane,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Trusty Armadillo,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Vibrant Oarfish,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+White-Striped Ziger,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,One Shot Housing Gauntlet,False,None
 White Mare,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Stone Key, Crowns",False,None
-WinterGlide Skates,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Stone Key, Crowns",False,None
+Tyrannosaurus Rex,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Fishing, Crowns, Gift Card",False,None
+White Stag,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key, Crowns",False,None
+Trusty Armadillo,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
 Up Up & Bouquet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Willow Walker,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-War Boar,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Vibrant Oarfish,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Waddling Witch Hut,1,0,0,0,0,2,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Yellow Candy-Cane,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-White-Striped Ziger,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,One Shot Housing Gauntlet,False,None
-Winter Treant,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Stone Key, Crowns",False,None
-Tyrannosaurus Rex,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Fishing, Crowns, Gift Card",False,None
-Yuletide Stag,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Trompy Bronto,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,Fossil Hunter's Set
-Windbreaker,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Wings of Whimsy,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Wolf of the Winter,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Wild Hare,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Wild Wasteland Emu,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Zheng,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Witch's Familiar,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-White Stag,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key, Crowns",False,None
 Wandering Wombat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
+Wild Hare,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+War Elephant,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Winter Treant,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Stone Key, Crowns",False,None
 Wizard City Wheels,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Zoom Zoom Broom,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Winter Rocking Horse,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Zheng,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
+Wild Wasteland Emu,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Waddling Witch Hut,1,0,0,0,0,2,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Wings of Whimsy,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Yuletide Stag,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Wolf of the Winter,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+WinterGlide Skates,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Stone Key, Crowns",False,None
 Wuffalump,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Winds of Love,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Yuletide Parade Truck,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Wonky the Donkey,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Yuletide Snowped,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Wooly Rhino,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Yule Mule,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-War Elephant,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Utopian Sabertooth,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Windbreaker,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Winter Rocking Horse,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+War Boar,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
+Wonky the Donkey,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Wooly Rhino,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Yuletide Parade Truck,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Yuletide Snowped,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Yellow Candy-Cane,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Winds of Love,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Yule Mule,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None

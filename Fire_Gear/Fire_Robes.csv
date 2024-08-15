@@ -6,7 +6,7 @@ Illuminated Plot Armor (Level 170+),170,1393,27,14,6,9,112,134,9,0,0,0,0,0,0,2,0
 Fiery Night Mire Coat (Level 160+),160,1377,27,14,6,9,98,120,7,0,0,0,0,0,0,2,0,1,"Housing Gauntlet, Crowns",False,None
 Illuminated Plot Armor (Level 160+),160,1377,27,14,6,9,98,120,7,0,0,0,0,0,0,2,0,1,Crowns,False,None
 Hunhau's Meteoric Mail (Level 170+),170,1219,27,13,0,10,112,117,9,0,0,0,0,19,0,1,0,2,Raid,False,None
-Fiery Robe of The Nullity (Level 150+),150,917,27,11,9,8,0,0,8,0,0,0,0,14,0,0,0,0,Raid,False,None
+Fiery Robe of The Nullity (Level 150+),150,917,27,11,9,8,104,0,8,0,0,0,0,14,0,0,0,0,Raid,False,None
 Lightkeeper's Dive Suit (Level 150+),150,875,27,11,8,8,85,0,4,0,0,0,0,14,0,0,0,0,Gift Card,False,None
 Hunhau's Meteoric Mail (Level 160+),160,1549,27,10,0,8,98,105,7,0,0,0,0,23,0,1,0,2,Raid,False,None
 Umbra Queen's Scorched Garment (Level 170+),170,1393,27,9,10,9,112,0,9,0,0,0,0,22,0,1,0,2,Rematch,False,None
@@ -39,8 +39,8 @@ Xibalba Meteoric Mail (Level 170+),170,1567,24,10,8,0,128,117,12,0,0,0,0,17,0,2,
 Unreal Armor of Overheating,170,1567,24,10,8,11,0,117,8,0,0,0,0,22,0,1,0,2,Raid,False,None
 Fire Fairy Kei Dress (Level 160+),160,1549,24,10,8,0,112,105,10,0,0,0,0,15,0,2,0,1,Crowns,False,None
 Xibalba Meteoric Mail (Level 160+),160,1549,24,10,6,0,112,90,10,0,0,0,0,20,0,2,0,1,Raid,False,None
-Floramancer Armor of Rashes (Level 160+),160,1549,24,10,8,11,0,105,6,0,0,0,0,20,0,1,0,2,Crowns,False,None
 Fiery Robe of The Void (Level 160+),160,1549,24,10,8,11,0,105,6,0,0,0,0,20,0,1,0,2,Raid,False,None
+Floramancer Armor of Rashes (Level 160+),160,1549,24,10,8,11,0,105,6,0,0,0,0,20,0,1,0,2,Crowns,False,None
 Lightkeeper's Dive Suit (Level 120+),120,535,24,9,7,7,64,0,3,0,0,0,0,11,0,0,0,0,Gift Card,False,None
 Fiery Chrysanthemum Coat (Level 170+),170,1393,24,0,9,8,128,101,12,0,0,0,0,19,0,2,0,1,"Gold Key, Crowns",False,None
 Flaming Chivalric Plate (Level 170+),170,1393,24,0,9,8,128,101,12,0,0,0,0,19,0,2,0,1,"Gold Key, Crowns",False,None
@@ -112,7 +112,7 @@ Revolutionary's Uniform (Level 120+),120,562,20,10,5,8,65,84,0,0,0,0,0,0,0,0,0,0
 Revolutionary's Uniform (Level 110+),110,411,20,10,6,0,54,76,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Zigazag Desert Armor,60,323,20,10,5,4,46,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
 Fiery Chrysanthemum Coat (Level 130+),130,918,20,0,9,7,91,79,9,0,0,0,0,14,0,2,0,1,Crowns,False,None
-Trader's Winter Garb,96,600,20,0,7,0,0,46,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Trader's Winter Garb,96,600,20,0,7,0,60,46,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Wildranger Coat (Level 100+),100,550,20,0,0,8,60,0,6,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Queen's Color Guard Jacket (Level 80+),80,550,20,0,0,9,23,0,0,0,14,14,0,0,0,0,0,0,Crowns,False,None
 Morganthe's Fiery Trappings (Level 100+),100,547,20,0,10,6,74,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -186,15 +186,15 @@ Wastelander's Scorched Armor (Level 80+),80,379,18,0,8,6,54,0,5,0,0,0,0,0,0,0,0,
 Blazing Skyfarer's Garb (Level 80+),80,379,18,0,8,6,54,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 White Fire Chac's Armor,86,365,18,0,0,8,70,0,0,0,6,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Molten Jerkin,58,360,18,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Fire-Forged Warlord Armor,58,347,18,0,8,0,27,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Fire-Forged Warlord Armor,58,347,18,0,8,0,37,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
 Wastelander's Scorched Armor (Level 70+),70,336,18,0,8,6,47,0,4,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Morganthe's Fiery Trappings (Level 70+),70,336,18,0,8,6,47,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Ashen Snow Jerkin,55,306,18,0,8,0,0,20,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
-Burnt Uniform of Balance,55,306,18,0,8,0,0,20,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
-Firedreamer's Armor,55,306,18,0,8,0,0,20,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
-Raiment of Blazing Bolts,55,306,18,0,8,0,0,20,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
-Scorched Smock of Sorrow,55,306,18,0,8,0,0,20,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
-Pyro's Carefree Tunic,55,306,18,0,8,0,0,20,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
+Ashen Snow Jerkin,55,306,18,0,8,0,37,20,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
+Burnt Uniform of Balance,55,306,18,0,8,0,37,20,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
+Firedreamer's Armor,55,306,18,0,8,0,37,20,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
+Scorched Smock of Sorrow,55,306,18,0,8,0,37,20,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
+Raiment of Blazing Bolts,55,306,18,0,8,0,37,20,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
+Pyro's Carefree Tunic,55,306,18,0,8,0,37,20,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
 Maglump's Cinder Smock,56,252,18,0,0,0,0,20,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Lightkeeper's Dive Suit (Level 60+),60,242,18,0,6,5,31,0,1,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Smoldering Vengeance Armor (Level 80+),80,215,18,0,5,9,58,0,5,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -220,30 +220,30 @@ Whitehart Armor (Level 110+),110,496,17,6,8,5,61,55,3,0,0,0,0,8,0,0,0,0,Gift Car
 Whitehart Armor (Level 100+),100,401,17,6,8,5,61,50,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Revolutionary's Uniform (Level 70+),70,242,17,6,5,0,28,41,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Outback Adventurer's Attire (Level 60+),60,302,17,5,0,6,0,41,1,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Dark House Robes,86,670,17,0,6,0,0,0,1,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Dark House Robes,86,670,17,0,6,0,68,0,1,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Dragonrider's Assailing Robe (Level 100+),100,615,17,0,7,9,50,0,2,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
 Battle-Worn Burrower Armor,90,515,17,0,7,8,0,27,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Scorched Desert Gear,96,470,17,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Charred Leaf Raiment,96,460,17,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Trader's Steamburned Robe,96,450,17,0,10,0,61,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Scorched Desert Gear,96,470,17,0,10,0,61,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Charred Leaf Raiment,96,460,17,0,10,0,61,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Trader's Armor of Scalding,96,450,17,0,10,0,61,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Trader's Steamburned Robe,96,450,17,0,10,0,61,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Mantis Armor of Embers,90,445,17,0,7,0,70,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Mantis Hunter's Raiment,94,430,17,0,6,9,0,0,3,0,8,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Laughing Skull Wrap,86,430,17,0,6,0,0,0,2,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Prince of the Sky Robes,86,430,17,0,6,0,0,0,2,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Laughing Skull Wrap,86,430,17,0,6,0,66,0,2,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Prince of the Sky Robes,86,430,17,0,6,0,66,0,2,0,0,0,0,0,0,0,0,0,Crafting,False,None
 New Fire Chac's Armor,86,425,17,0,6,0,66,0,2,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Wildranger Coat (Level 70+),70,420,17,0,0,6,40,0,3,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Cloak of the Hungry Dead,86,420,17,0,6,0,66,0,2,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Elite Jura Guard Garb,84,420,17,0,5,8,0,0,2,0,7,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Blazing Skyfarer's Garb (Level 60+),60,296,17,0,8,6,32,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Morganthe's Fiery Trappings (Level 60+),60,296,17,0,8,6,32,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Trader's Fire-Forged Mail,96,270,17,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Trader's Fire-Forged Mail,96,270,17,0,10,0,61,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Volatile Vestment,58,252,17,0,8,0,10,10,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Incendiary Armor,56,240,17,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Torched Tunic,56,240,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Philosoraptor's High Robes,86,225,17,0,6,0,0,0,2,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Philosoraptor's High Robes,86,225,17,0,6,0,66,0,2,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Lightkeeper's Dive Suit (Level 50+),50,221,17,0,4,0,0,0,1,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Raiment of Smoke,56,212,17,0,0,0,32,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Raiment of Smoke,56,212,17,0,0,0,37,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Smoldering Vengeance Armor (Level 70+),70,180,17,0,5,8,42,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Reckless Raiment,52,144,17,0,0,0,12,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Glorious Avenger's Armor (Level 50+),50,75,17,0,0,5,15,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -290,15 +290,15 @@ Robes of the Frozen Sun (Level 130+),130,1100,16,0,0,20,50,0,5,0,0,0,0,0,0,0,0,0
 Cloak of the Black Star Eagle (Level 130+),130,1070,16,0,4,10,27,0,5,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Nimbari Praetor Armor (Level 120+),120,1034,16,0,0,10,0,108,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Rokugo Armor (Level 100+),100,840,16,0,4,13,0,0,3,0,12,0,0,0,0,0,0,0,Crowns,False,None
-Silvertongue Smock,76,670,16,0,6,0,0,0,1,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Silvertongue Smock,76,670,16,0,6,0,63,0,1,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Robes of the Frozen Sun (Level 100+),100,650,16,0,0,20,40,0,5,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Cloak of the Black Star Eagle (Level 110+),110,546,16,0,3,10,27,0,4,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Dragonrider's Assailing Robe (Level 90+),90,545,16,0,6,8,45,0,2,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Robe of the Furious Winter (Level 130+),130,525,16,0,5,20,50,0,0,0,0,9,0,0,0,0,0,0,Crowns,False,None
 Tunic of the Broken Spear,82,500,16,0,6,7,0,25,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Queen's Color Guard Jacket (Level 70+),70,490,16,0,0,8,18,0,0,0,13,13,0,0,0,0,0,0,Crowns,False,None
-Wildgrave Garment,76,460,16,0,6,0,0,0,2,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Wrought Steel Sheath,76,450,16,0,6,0,0,0,2,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Wildgrave Garment,76,460,16,0,6,0,62,0,2,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Wrought Steel Sheath,76,450,16,0,6,0,62,0,2,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Eloquent Drape,76,440,16,0,6,0,62,0,2,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Longcoat of Legacy,76,440,16,0,6,0,62,0,2,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Headbanger's Getup (Level 90+),90,425,16,0,6,6,45,0,0,0,0,0,0,0,0,0,0,0,One Shot Housing Gauntlet,False,None
@@ -310,7 +310,7 @@ Blazing Skyfarer's Garb (Level 50+),50,260,16,0,8,5,0,0,0,0,0,0,0,0,0,0,0,0,Crow
 Malistaire's Vengeance Vestment (Level 50+),50,260,16,0,8,5,0,0,0,0,0,0,0,0,0,0,0,0,Rematch,False,None
 Morganthe's Fiery Trappings (Level 50+),50,260,16,0,8,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Wastelander's Scorched Armor (Level 50+),50,260,16,0,8,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Hornbound Tunic,76,255,16,0,6,0,0,0,2,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Hornbound Tunic,76,255,16,0,6,0,62,0,2,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Royal Fusilier's Dress Coat (Level 30+),30,190,16,0,2,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Smoldering Vengeance Armor (Level 60+),60,150,16,0,4,7,25,0,2,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Glorious Avenger's Armor (Level 40+),40,60,16,0,4,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -343,15 +343,15 @@ Charred Nirini Robe (Level 120+),120,931,15,0,7,4,120,0,0,0,0,0,0,0,0,0,0,0,Crow
 Garb of the Fortune Teller (Level 100+),100,775,15,0,0,8,0,78,0,0,0,0,0,11,0,0,0,0,Crowns,False,None
 Glorious Chivalric Plate (Level 100+),100,750,15,0,6,10,50,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Charred Nirini Robe (Level 110+),110,665,15,0,6,4,120,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Burning Cold Garb,66,585,15,0,6,0,0,41,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Burning Cold Garb,66,585,15,0,6,0,56,41,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Robes of the Frozen Sun (Level 90+),90,575,15,0,0,18,35,0,4,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Arund Vale Winter Raiment (Level 100+),100,537,15,0,5,10,60,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Burning Ram Armor,70,490,15,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Dragonrider's Assailing Robe (Level 80+),80,475,15,0,6,7,45,0,2,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
 Charred Nirini Robe (Level 100+),100,475,15,0,6,4,120,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Digger Lieutenant's Garb,90,475,15,0,3,7,26,0,0,0,0,0,0,0,0,0,0,0,Quest,False,None
-Robes of the Blazing Sun,66,445,15,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Longdreamer's Smoking Skin,66,435,15,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Robes of the Blazing Sun,66,445,15,0,6,0,56,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Longdreamer's Smoking Skin,66,435,15,0,6,0,56,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Burning Bitey Cloak,66,425,15,0,6,0,56,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Fire Valley Chief's Garb,66,425,15,0,6,0,56,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Zafaria Tour Jacket,68,420,15,0,0,6,56,0,3,0,0,0,0,0,0,0,0,0,Drop,False,None
@@ -365,9 +365,9 @@ Cloak of the Black Star Eagle (Level 90+),90,350,15,0,2,9,23,0,3,0,0,0,0,0,0,0,0
 Robe of the Furious Winter (Level 90+),90,350,15,0,4,18,35,0,0,0,0,8,0,0,0,0,0,0,Crowns,False,None
 Fire Valley Outfit,64,325,15,0,0,0,56,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Fire-Feather Robes,66,310,15,0,0,7,56,0,3,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Stormfire Vestments,66,245,15,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Stormfire Vestments,66,245,15,0,6,0,56,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Witch Doctor's Fiery Garb,62,220,15,0,6,0,56,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Raiment of Ash,56,181,15,0,0,0,25,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Raiment of Ash,56,181,15,0,0,0,30,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Smoldering Vengeance Armor (Level 50+),50,120,15,0,4,6,19,0,1,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Smoldering Vengeance Armor (Level 40+),40,95,15,0,4,6,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Dragonbone Raiment (Level 120+),120,0,15,0,8,6,40,0,9,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -395,8 +395,8 @@ Arcane Beachwear (Level 100+),100,590,14,6,0,0,76,76,2,0,0,0,0,0,0,0,0,0,Gift Ca
 Highlands Fighter's Kit (Level 70+),70,462,14,6,7,5,0,54,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Highlands Fighter's Kit (Level 60+),60,374,14,6,7,4,0,45,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Outback Adventurer's Attire (Level 70+),70,355,14,6,0,6,0,50,1,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Malistaire's Dragonfire Cloak,50,227,14,6,7,0,0,0,3,0,0,0,0,0,0,0,0,0,"Drop, Crafting, Crowns",False,None
 Malistaire's Dragonfire Suit (Socketed),50,227,14,6,7,0,0,0,3,0,0,0,0,0,0,2,0,1,Crafting,False,None
+Malistaire's Dragonfire Cloak,50,227,14,6,7,0,0,0,3,0,0,0,0,0,0,0,0,0,"Drop, Crafting, Crowns",False,None
 Storm Caiman's Brave Tunic,88,465,14,5,2,8,23,0,0,0,5,0,0,0,0,0,0,0,Drop,False,None
 Great Inventor's Fire Coat (Level 50+),50,324,14,5,8,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Highlands Fighter's Kit (Level 50+),50,324,14,5,8,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -425,8 +425,8 @@ Winter Palace Full Dress Coat (Level 130+),130,950,13,16,5,10,0,45,0,0,0,0,0,0,0
 Stinger Armor (Level 130+),130,0,13,16,0,0,80,0,5,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Darkwraith's Atonement Robe (Level 90+),90,0,13,16,0,4,50,0,0,0,3,0,0,0,0,0,0,0,Crowns,False,None
 Winter Palace Full Dress Coat (Level 100+),100,735,13,15,4,9,0,35,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Stinger Armor (Level 110+),110,0,13,15,0,0,80,0,5,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Stinger Armor (Level 120+),120,0,13,15,0,0,80,0,5,0,0,0,0,0,0,0,0,0,Gift Card,False,None
+Stinger Armor (Level 110+),110,0,13,15,0,0,80,0,5,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Stinger Armor (Level 100+),100,0,13,15,0,0,75,0,5,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Turquoise Eagle's Raiment (Level 80+),80,415,13,13,2,9,0,19,2,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
 Raiment of Winter’s Reign (Level 70+),70,0,13,13,0,0,0,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -660,8 +660,8 @@ Turquoise Eagle's Raiment (Level 40+),40,270,9,7,1,5,0,0,0,0,0,0,0,0,0,0,0,0,Cro
 Champion's Armor of Courage (Level 40+),40,225,9,7,1,3,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Robe of the Deep,45,100,9,7,0,4,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
 Darkwraith's Atonement Robe (Level 50+),50,0,9,6,0,2,10,0,0,0,2,0,0,0,0,0,0,0,Crowns,False,None
-Dragontooth Armor (Level 40+),40,0,9,6,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Dragontooth Armor (Level 50+),50,0,9,6,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Dragontooth Armor (Level 40+),40,0,9,6,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Plant Punisher's Garb (Level 70+),70,322,9,5,0,5,15,15,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Vestment of the Spiral Cup (Level 70+),70,247,9,5,0,8,40,0,2,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Arcane Smith's Leather Kit (Level 30+),30,162,9,5,0,0,0,0,0,0,0,2,0,0,0,0,0,0,Gift Card,False,None
@@ -686,11 +686,11 @@ Night Jaguar's Cloak (Level 50+),50,250,9,0,2,6,7,3,1,0,0,0,0,0,0,0,0,0,Crowns,F
 Bonebreaker Robe of Flame,40,247,9,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,One Shot Housing Gauntlet,False,None
 Vestment of the Sun Eagle (Level 50+),50,240,9,0,2,6,7,0,0,0,0,4,0,0,0,0,0,0,Crowns,False,None
 Dawn Jaguar Hunting Garb (Level 50+),50,240,9,0,2,6,5,5,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cloak of the Gleaming Havoc,44,217,9,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
 Coat of the Burning Principle,44,217,9,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
 Coat of the Arctic Flame,44,217,9,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
-Cloak of the Gleaming Havoc,44,217,9,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
-Surcoat of the Spirit Fire,44,217,9,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
 Smock of the Glowing Fable,44,217,9,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
+Surcoat of the Spirit Fire,44,217,9,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
 Raiment of the Funeral Pyre,44,217,9,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
 Chronius' Cloak of the Inferno,45,200,9,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Fighter's Vestment,45,200,9,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
@@ -829,8 +829,8 @@ Barkingham Cinder Smock,40,202,7,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Fishing",F
 Arund Vale Winter Raiment (Level 50+),50,188,7,0,2,5,8,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Queen's Color Guard Jacket (Level 20+),20,185,7,0,0,3,0,0,0,0,6,6,0,0,0,0,0,0,Crowns,False,None
 Burning Vestment,40,160,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Jerkin of the Firestar,40,160,7,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
 Maito's Vestment,35,160,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Jerkin of the Firestar,40,160,7,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
 River Spirit's Diligent Tunic,35,160,7,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Vestment of the Sun Eagle (Level 30+),30,160,7,0,2,4,0,0,0,0,0,3,0,0,0,0,0,0,Crowns,False,None
 Coat of the Formidable,35,60,7,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
@@ -1015,10 +1015,10 @@ Bonebreaker Rattled Robe,40,275,4,5,2,0,0,0,0,0,0,0,0,0,0,0,0,0,One Shot Housing
 Winter Solstice Vesture (Level 50+),50,235,4,5,0,5,10,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Winter Palace Full Dress Coat (Level 20+),20,215,4,5,2,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Infernal Drape,25,79,4,5,0,2,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Darkwraith's Shroud of Penance (Level 40+),40,0,4,5,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Darkwraith's Umbral Shroud (Level 40+),40,0,4,5,4,0,0,10,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Darkwraith's Umbral Shroud (Level 60+),60,0,4,5,5,0,0,10,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Darkwraith's Shroud of Penance (Level 40+),40,0,4,5,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Darkwraith's Umbral Shroud (Level 50+),50,0,4,5,5,0,0,10,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Darkwraith's Umbral Shroud (Level 60+),60,0,4,5,5,0,0,10,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Winter Solstice Vesture (Level 40+),40,180,4,4,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Atlantean Trident Armor (Level 30+),30,175,4,4,2,3,0,0,0,0,0,5,0,0,0,0,0,0,Gift Card,False,None
 Hawkrider Uniform (Level 30+),30,168,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
@@ -1247,10 +1247,10 @@ Whitehart Armor (Any Level),1,27,1,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False
 Tiki Armor of Purity (Level 10+),10,200,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Crowns,False,None
 Tiki Armor of Riptides (Level 20+),20,165,1,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,Crowns,False,None
 Emberflood Coat,15,85,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
-Everfrost Surcoat,15,85,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
-Firebleak Coat,15,85,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
 Firefrost Cloak,15,85,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
+Everfrost Surcoat,15,85,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
 Glowmuse Uniform,15,85,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
+Firebleak Coat,15,85,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
 Soulburner Tunic,15,85,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
 Faerie Court Steel Leaf (Any Level),1,60,1,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,Crowns,False,None
 Turquoise Eagle's Raiment (Any Level),1,60,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -1314,8 +1314,8 @@ Shard Warrior's Armor (Level 90+),90,495,0,18,0,7,84,0,0,0,22,0,0,12,0,0,0,0,Gif
 Jade Robe of Mystery (Level 70+),70,240,0,18,0,2,0,20,0,0,0,3,0,0,0,0,0,0,Crowns,False,None
 Traveler's Overcoat (Level 140+),140,1752,0,17,0,10,0,158,2,0,0,0,0,19,0,0,0,0,Crowns,False,None
 Cool Rider's Gear (Level 140+),140,1660,0,17,0,9,0,146,0,0,0,0,0,18,0,0,0,0,Crowns,False,Cold Rider Set
-Black New Year's Dress (Level 150+),150,1642,0,17,0,13,0,0,0,0,0,11,0,23,0,0,0,0,Crowns,False,None
 Black New Year's Tux (Level 150+),150,1642,0,17,0,13,0,0,0,0,0,11,0,23,0,0,0,0,Crowns,False,None
+Black New Year's Dress (Level 150+),150,1642,0,17,0,13,0,0,0,0,0,11,0,23,0,0,0,0,Crowns,False,None
 Autoist's Overcoat (Level 130+),130,1590,0,17,0,11,0,137,2,0,0,0,0,18,0,0,0,0,Crowns,False,None
 Astromancer's Tunic (Level 140+),140,1590,0,17,0,13,0,124,0,0,0,0,0,21,0,0,0,0,Crowns,False,None
 Cool Rider's Gear (Level 130+),130,1579,0,17,0,8,0,144,0,0,0,0,0,16,0,0,0,0,Crowns,False,Cold Rider Set
@@ -1464,16 +1464,16 @@ Fossil Hunter's Raiment (Level 130+),130,1619,0,15,0,11,0,161,0,0,0,0,0,20,0,0,0
 Dragonspyre Dragoon's Armor,130,1605,0,15,3,12,0,136,1,0,7,0,0,17,0,0,0,0,Crafting,False,Dragonspyre Dragoon's Set
 Aquilan Velite Hamata (Level 130+),130,1541,0,15,0,11,0,140,0,3,10,0,0,17,0,0,0,0,"Gold Key, Crowns",False,None
 Monarch's Regalia (Level 130+),130,1457,0,15,0,10,0,134,0,0,0,12,0,20,0,0,0,0,Gift Card,False,None
-White New Year's Dress (Level 140+),140,1448,0,15,0,12,0,0,0,0,11,0,0,21,0,0,0,0,Crowns,False,None
 White New Year's Tux (Level 140+),140,1448,0,15,0,12,0,0,0,0,11,0,0,21,0,0,0,0,Crowns,False,None
+White New Year's Dress (Level 140+),140,1448,0,15,0,12,0,0,0,0,11,0,0,21,0,0,0,0,Crowns,False,None
 Tundra Hunter Flannel (Level 130+),130,1434,0,15,0,12,0,153,0,0,0,15,0,20,0,0,0,0,Crowns,False,None
 Charon's Mantle (Level 140+),140,1415,0,15,0,0,0,186,0,0,0,0,0,21,0,0,0,0,Crowns,False,Charon's Set
 Wotan's Raiment (Level 140+),140,1407,0,15,5,7,0,146,0,0,0,0,0,19,0,0,0,0,Crowns,False,None
 Unicorn Paladin Plate (Level 130+),130,1382,0,15,0,0,0,0,0,0,15,0,0,18,0,0,0,0,Crowns,False,None
 Wysteria Warrior's Plate (Level 130+),130,1370,0,15,0,0,0,107,3,0,10,10,0,18,0,0,0,0,"Gold Key, Crowns",False,None
 Comfort Zone Leisure Suit (Level 130+),130,1363,0,15,0,0,0,111,0,5,0,0,0,18,0,0,0,0,Crowns,False,None
-White New Year's Tux (Level 130+),130,1362,0,15,0,12,0,0,0,0,10,0,0,20,0,0,0,0,Crowns,False,None
 White New Year's Dress (Level 130+),130,1362,0,15,0,12,0,0,0,0,10,0,0,20,0,0,0,0,Crowns,False,None
+White New Year's Tux (Level 130+),130,1362,0,15,0,12,0,0,0,0,10,0,0,20,0,0,0,0,Crowns,False,None
 Stygian Mantle (Level 140+),140,1346,0,15,0,0,0,186,0,0,0,0,0,21,0,0,0,0,Crowns,False,Stygian Set
 Armor of Minty Freshness (Level 130+),130,1343,0,15,0,0,0,118,0,0,0,0,0,18,0,0,0,0,Crowns,False,None
 Crimson Pandamonium Lamellar (Level 130+),130,1305,0,15,8,5,0,105,0,0,0,0,0,18,0,0,0,0,Crowns,False,None
@@ -1608,7 +1608,7 @@ Road Fury Jacket (Level 120+),120,1115,0,14,0,10,0,127,3,0,0,0,0,15,0,0,0,0,Crow
 Unicorn Paladin Plate (Level 120+),120,1072,0,14,0,0,0,0,0,0,14,0,0,17,0,0,0,0,Crowns,False,None
 Dashing Outlaw's Tunic (Level 110+),110,1067,0,14,7,0,0,86,0,5,0,0,0,14,0,0,0,0,Gift Card,False,None
 Wu's Wild Kimono (Level 120+),120,1065,0,14,0,11,0,115,0,0,0,0,0,17,0,0,0,0,Crowns,False,None
-White New Year's Tux (Level 120+),120,1063,0,14,0,12,0,114,0,0,9,0,0,18,0,0,0,0,Crowns,False,None
+White New Year's Tux (Level 120+),120,1063,0,14,0,12,0,208,0,0,9,0,0,18,0,0,0,0,Crowns,False,None
 Fossil Hunter's Raiment (Level 110+),110,1047,0,14,0,9,0,103,0,0,0,0,0,17,0,0,0,0,Crowns,False,Fossil Hunter's Set
 Comfort Zone Leisure Suit (Level 120+),120,1045,0,14,0,0,0,99,0,5,0,0,0,0,0,0,0,0,"Stone Key, Crowns",False,None
 Alhazred's Resolute Raiment (Level 120+),120,1040,0,14,0,11,0,101,0,0,0,0,0,17,0,0,0,0,Crowns,False,None
@@ -1671,12 +1671,12 @@ Winter Jammies (Level 100+),100,642,0,14,0,10,0,65,0,6,0,0,0,15,0,0,0,0,Crowns,F
 Sherlock's Coat (Level 110+),110,641,0,14,0,0,0,77,0,0,0,18,0,17,0,0,0,0,Gift Card,False,None
 Sky Sorcerer Hakama (Level 110+),110,641,0,14,5,12,0,70,0,0,8,8,0,0,0,0,0,0,Gift Card,False,Sky Sorcerer's Set
 Phantom Catcher Vestment (Level 100+),100,636,0,14,5,10,0,84,0,0,0,0,0,15,0,0,0,0,Crowns,False,None
-White New Year's Dress (Level 90+),90,636,0,14,0,11,0,0,0,0,7,0,0,14,0,0,0,0,Crowns,False,None
 White New Year's Tux (Level 90+),90,636,0,14,0,11,0,0,0,0,7,0,0,14,0,0,0,0,Crowns,False,None
+White New Year's Dress (Level 90+),90,636,0,14,0,11,0,0,0,0,7,0,0,14,0,0,0,0,Crowns,False,None
 Wysteria Warrior's Armor (Level 90+),90,625,0,14,0,0,0,57,2,0,13,13,0,0,0,0,0,0,Crowns,False,None
 Festive Jammies (Level 100+),100,625,0,14,0,10,0,65,0,5,0,0,0,15,0,0,0,0,Crowns,False,None
-Black New Year's Dress (Level 90+),90,620,0,14,0,12,0,0,0,0,0,6,0,14,0,0,0,0,Crowns,False,None
 Black New Year's Tux (Level 90+),90,620,0,14,0,12,0,0,0,0,0,6,0,14,0,0,0,0,Crowns,False,None
+Black New Year's Dress (Level 90+),90,620,0,14,0,12,0,0,0,0,0,6,0,14,0,0,0,0,Crowns,False,None
 Adventurous Ranger's Uniform (Level 100+),100,616,0,14,0,0,0,76,2,0,8,8,0,10,0,0,0,0,Crowns,False,None
 Battlemage Armor (Level 90+),90,605,0,14,0,0,0,36,0,0,10,0,0,14,0,0,0,0,Gift Card,False,None
 Cursed Captain's Coat (Level 90+),90,596,0,14,3,8,0,68,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -1697,8 +1697,8 @@ Celestian Neon Cape (Level 80+),80,531,0,14,0,0,0,0,2,0,0,0,0,0,0,0,0,0,Crowns,F
 Wysteria Warrior's Armor (Level 80+),80,531,0,14,0,0,0,51,2,0,12,12,0,0,0,0,0,0,Crowns,False,None
 Festive Jammies (Level 90+),90,531,0,14,0,10,0,59,0,4,0,0,0,14,0,0,0,0,Crowns,False,None
 Violet Robes of Bitter Truth (Level 80+),80,530,0,14,6,9,0,20,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Black New Year's Tux (Level 80+),80,527,0,14,0,11,0,0,0,0,0,6,0,0,0,0,0,0,Crowns,False,None
 Black New Year's Dress (Level 80+),80,527,0,14,0,11,0,0,0,0,0,6,0,0,0,0,0,0,Crowns,False,None
+Black New Year's Tux (Level 80+),80,527,0,14,0,11,0,0,0,0,0,6,0,0,0,0,0,0,Crowns,False,None
 Dramaturgist's Costume (Level 70+),70,489,0,14,4,6,0,33,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Winter Jammies (Level 80+),80,464,0,14,0,8,0,53,0,5,0,0,0,0,0,0,0,0,Crowns,False,None
 Able Ranger's Uniform (Level 80+),80,460,0,14,0,0,0,61,1,0,10,3,0,0,0,0,0,0,Crowns,False,None
@@ -1842,8 +1842,8 @@ Black New Year's Dress (Level 60+),60,381,0,13,0,10,0,0,0,0,0,5,0,0,0,0,0,0,Crow
 Winter Jammies (Level 60+),60,335,0,13,0,6,0,43,0,4,0,0,0,0,0,0,0,0,Crowns,False,None
 Able Ranger's Uniform (Level 60+),60,332,0,13,0,0,0,50,1,0,9,3,0,0,0,0,0,0,Crowns,False,None
 Festive Jammies (Level 60+),60,326,0,13,0,7,0,43,0,3,0,0,0,0,0,0,0,0,Crowns,False,None
-Black New Year's Tux (Level 50+),50,324,0,13,0,10,0,0,0,0,0,5,0,0,0,0,0,0,Crowns,False,None
 Black New Year's Dress (Level 50+),50,324,0,13,0,10,0,0,0,0,0,5,0,0,0,0,0,0,Crowns,False,None
+Black New Year's Tux (Level 50+),50,324,0,13,0,10,0,0,0,0,0,5,0,0,0,0,0,0,Crowns,False,None
 Spooky Carnival Suit (Level 50+),50,315,0,13,4,5,0,0,0,0,0,12,0,0,0,0,0,0,Gift Card,False,None
 Greyrose Glacial Jerkin (Level 40+),40,313,0,13,0,7,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Sinister Harlequin Tunic (Level 60+),60,288,0,13,0,6,0,19,2,0,13,0,0,0,0,0,0,0,Gift Card,False,None
@@ -1855,8 +1855,8 @@ Intrepid Ranger's Uniform (Level 40+),40,239,0,13,0,0,0,0,0,0,2,8,0,0,0,0,0,0,Cr
 Malevolent Power Cloak,150,1538,0,12,0,11,0,93,0,3,0,9,0,22,0,0,0,0,Drop,False,None
 Producer's Hazmat Suit,138,1534,0,12,7,0,0,105,0,0,0,0,0,19,0,0,0,0,"Drop, Bazaar",False,None
 Vanguard's Fiery Armor,130,1524,0,12,4,10,0,155,3,0,8,0,0,17,0,0,0,0,"Crafting, Stone Key",False,None
-Magician's Power Cloak,150,1500,0,12,0,10,0,93,0,3,0,9,0,20,0,0,0,0,Drop,False,None
 Lemurian Ancient One Robe,142,1500,0,12,4,0,0,99,0,0,0,0,0,18,0,0,0,0,"Drop, Bazaar",False,None
+Magician's Power Cloak,150,1500,0,12,0,10,0,93,0,3,0,9,0,20,0,0,0,0,Drop,False,None
 Producer's Thermal Suit,138,1490,0,12,9,0,0,119,0,0,0,0,0,19,0,0,0,0,"Drop, Bazaar",False,None
 Sokar's Raiment (Level 130+),130,1470,0,12,0,7,0,145,0,0,8,0,0,0,0,0,0,0,Crowns,False,Sokar's Warrior Set
 Lemurian Firewall Robe,142,1457,0,12,6,0,0,116,0,0,0,0,0,18,0,0,0,0,"Drop, Bazaar",False,None
@@ -1973,8 +1973,8 @@ Savannah Tribal Robe (Level 70+),70,404,0,12,0,6,0,72,0,0,0,0,0,0,0,0,0,0,Crowns
 Celestian Photon Cape (Level 60+),60,402,0,12,0,0,0,63,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Gold New Year's Tux (Level 70+),70,401,0,12,0,10,0,0,0,0,5,0,0,0,0,0,0,0,Crowns,False,None
 Unicorn Knight Plate (Level 60+),60,394,0,12,0,0,0,0,0,0,0,16,0,0,0,0,0,0,Crowns,False,None
-White New Year's Tux (Level 60+),60,391,0,12,0,9,0,0,0,0,6,0,0,0,0,0,0,0,Crowns,False,None
 White New Year's Dress (Level 60+),60,391,0,12,0,9,0,0,0,0,6,0,0,0,0,0,0,0,Crowns,False,None
+White New Year's Tux (Level 60+),60,391,0,12,0,9,0,0,0,0,6,0,0,0,0,0,0,0,Crowns,False,None
 Wu's Wild Kimono (Level 60+),60,391,0,12,0,9,0,56,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Wysteria Warrior's Plate (Level 60+),60,383,0,12,0,0,0,43,1,0,6,6,0,0,0,0,0,0,Crowns,False,None
 Alhazred's Resolute Raiment (Level 60+),60,382,0,12,0,9,0,48,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -2262,8 +2262,8 @@ Abyssal Warrior's Suit (Level 40+),40,259,0,10,0,4,0,0,0,3,5,0,0,0,0,0,0,0,Gift 
 Shard Warrior's Armor (Level 50+),50,258,0,10,0,5,52,0,0,0,14,0,0,0,0,0,0,0,Gift Card,False,None
 Dramaturgist's Costume (Level 30+),30,256,0,10,3,4,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Dragonrider's Vigilant Robe (Level 50+),50,255,0,10,0,0,0,10,0,0,3,2,0,0,0,0,0,0,Crowns,False,None
-Gold New Year's Dress (Level 40+),40,247,0,10,0,8,0,0,0,0,4,0,0,0,0,0,0,0,Crowns,False,None
 Gold New Year's Tux (Level 40+),40,247,0,10,0,8,0,0,0,0,4,0,0,0,0,0,0,0,Crowns,False,None
+Gold New Year's Dress (Level 40+),40,247,0,10,0,8,0,0,0,0,4,0,0,0,0,0,0,0,Crowns,False,None
 Unicorn Knight Plate (Level 40+),40,245,0,10,0,0,0,0,0,0,0,14,0,0,0,0,0,0,Crowns,False,None
 Wysteria Warrior's Plate (Level 30+),30,235,0,10,0,0,0,0,0,0,5,5,0,0,0,0,0,0,"Gold Key, Crowns",False,None
 Wysteria Warrior's Armor (Level 20+),20,200,0,10,0,0,0,0,0,0,9,9,0,0,0,0,0,0,Crowns,False,None
@@ -2484,8 +2484,8 @@ Traveler's Overcoat (Level 40+),40,330,0,8,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,Fa
 Spellwright's Druidic Robe (Level 40+),40,329,0,8,0,9,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 White Pandamonium Lamellar (Level 50+),50,326,0,8,0,3,0,27,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Blighted Captain's Coat (Level 60+),60,323,0,8,0,7,0,46,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Mocking Raiment,56,320,0,8,0,0,5,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Apophis' Raiment (Level 40+),40,320,0,8,0,4,0,0,0,0,5,0,0,0,0,0,0,0,Crowns,False,Apophis' Warrior Set
-Mocking Raiment,56,320,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Valiant Jouster's Cuirass (Level 40+),40,315,0,8,0,5,0,0,0,2,0,0,0,0,0,0,0,0,Gift Card,False,None
 Stargazer's Tunic (Level 50+),50,314,0,8,0,6,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Ancient Purrzian Armour (Level 50+),50,309,0,8,4,9,0,0,1,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -2633,8 +2633,8 @@ Violet Robes of Bitter Truth (Level 50+),50,260,0,7,5,7,0,12,0,0,0,0,0,0,0,0,0,0
 Raider Scrap Armor (Level 30+),30,256,0,7,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Greenwarden's Peaceful Shroud (Level 50+),50,255,0,7,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Haunted Captain's Coat (Level 40+),40,254,0,7,0,8,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Greenwarden's Brilliant Shroud (Level 60+),60,250,0,7,8,6,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Greenwarden's Brilliant Shroud (Level 50+),50,250,0,7,8,6,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Greenwarden's Brilliant Shroud (Level 60+),60,250,0,7,8,6,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Silent Knight Vestment (Level 40+),40,250,0,7,0,0,0,0,0,0,10,10,0,0,0,0,0,0,Crowns,False,None
 Valiant Jouster's Cuirass (Level 30+),30,249,0,7,0,4,0,0,0,2,0,0,0,0,0,0,0,0,Gift Card,False,None
 Brown Werewolf Fur Sleeves (Level 40+),40,247,0,7,3,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -2738,8 +2738,8 @@ Stygian Mantle (Level 40+),40,256,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,N
 Fleet Kapudan's Armor (Level 30+),30,254,0,6,0,0,0,0,0,4,0,0,0,0,0,0,0,0,Crowns,False,None
 Woodland Hunter Flannel (Level 30+),30,254,0,6,0,7,0,0,0,0,8,0,0,0,0,0,0,0,Crowns,False,None
 All Souls Regalia (Level 40+),40,253,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Charon's Mantle (Level 40+),40,253,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Celebration Robe (Level 30+),30,253,0,6,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Charon's Mantle (Level 40+),40,253,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Hauberk of the Briny Deep (Level 30+),30,253,0,6,2,5,0,0,0,0,0,10,0,0,0,0,0,0,Gift Card,False,None
 Dalia's Blazing Suit (Level 40+),40,251,0,6,5,7,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Ancient Druidic Robe (Level 20+),20,247,0,6,0,7,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -2802,8 +2802,8 @@ Merry Jammies (Level 20+),20,167,0,6,0,2,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,No
 Prairie Rambler's Duster (Level 20+),20,167,0,6,2,2,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
 Cosmographer's Tunic (Any Level),1,163,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Savannah Tribal Robe (Level 10+),10,163,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Ancient Purrzian Plate (Level 20+),20,162,0,6,4,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Alpine Hunter Flannel (Level 20+),20,162,0,6,0,0,0,0,0,0,5,5,0,0,0,0,0,0,Crowns,False,None
+Ancient Purrzian Plate (Level 20+),20,162,0,6,4,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Light Elf Raiment (Level 30+),30,162,0,6,0,0,0,0,0,0,7,7,0,0,0,0,0,0,Crowns,False,None
 Snowdrifter's Outfit (Level 20+),20,162,0,6,0,0,0,0,0,0,5,5,0,0,0,0,0,0,Crowns,False,None
 Cool Rancher's Duster (Level 10+),10,160,0,6,2,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
@@ -2825,8 +2825,8 @@ Dworgyn's Sinister Smock (Any Level),1,139,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crown
 Black Werewolf Fur Sleeves (Level 10+),10,138,0,6,1,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Light Elf Raiment (Level 20+),20,138,0,6,0,0,0,0,0,0,6,6,0,0,0,0,0,0,Crowns,False,None
 Shard Warrior's Armor (Level 10+),10,134,0,6,0,3,0,0,0,0,6,0,0,0,0,0,0,0,Gift Card,False,None
-Gold New Year's Dress (Any Level),1,129,0,6,0,0,0,0,0,0,3,0,0,0,0,0,0,0,Crowns,False,None
 Gold New Year's Tux (Any Level),1,129,0,6,0,0,0,0,0,0,3,0,0,0,0,0,0,0,Crowns,False,None
+Gold New Year's Dress (Any Level),1,129,0,6,0,0,0,0,0,0,3,0,0,0,0,0,0,0,Crowns,False,None
 Winter Jammies (Any Level),1,127,0,6,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Phantom Catcher Vestment (Any Level),1,125,0,6,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Spirit Tracker Vestment (Any Level),1,125,0,6,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -2849,13 +2849,13 @@ Arcanum Exile Fiery Cloak,105,598,0,5,0,0,0,102,0,0,0,0,0,15,0,0,0,0,Unavailable
 Seal Team Demolitions Suit (Level 60+),60,428,0,5,0,8,0,0,0,0,5,0,0,0,0,0,0,0,Crowns,False,None
 Aquilan Charioteer Hamata (Level 50+),50,377,0,5,0,9,0,56,0,2,5,0,0,0,0,0,0,0,Crowns,False,None
 Witch Hunter's Vesture (Level 50+),50,335,0,5,0,6,0,0,1,2,0,0,0,0,0,0,0,0,Gift Card,False,None
-Blustering Coat,54,327,0,5,0,0,0,0,0,0,5,5,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Burnt Coat,54,327,0,5,0,0,0,0,0,0,5,5,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Chill-Kissed Coat,54,327,0,5,0,0,0,0,0,0,5,5,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Coat of Ages,54,327,0,5,0,0,0,0,0,0,5,5,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Coat of Justice,54,327,0,5,0,0,0,0,0,0,5,5,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Coat of the Crypt,54,327,0,5,0,0,0,0,0,0,5,5,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Hardy Coat,54,327,0,5,0,0,0,0,0,0,5,5,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Blustering Coat,54,327,0,5,0,0,0,12,0,0,5,5,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Burnt Coat,54,327,0,5,0,0,0,12,0,0,5,5,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Coat of Justice,54,327,0,5,0,0,0,12,0,0,5,5,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Chill-Kissed Coat,54,327,0,5,0,0,0,12,0,0,5,5,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Coat of Ages,54,327,0,5,0,0,0,12,0,0,5,5,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Coat of the Crypt,54,327,0,5,0,0,0,12,0,0,5,5,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Hardy Coat,54,327,0,5,0,0,0,12,0,0,5,5,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Burrower's Pyromancy Robe (Level 50+),50,324,0,5,0,5,0,0,3,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
 Chrysanthemum Coat (Level 60+),60,320,0,5,0,4,0,0,0,0,0,6,0,0,0,0,0,0,Crowns,False,None
 Karamelle Knight Armor (Level 40+),40,301,0,5,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -2916,8 +2916,8 @@ All Souls Splendor (Level 20+),20,190,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,Fal
 Ancient Purrzian Armour (Level 20+),20,190,0,5,3,7,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Grey Werewolf Fur Sleeves (Level 20+),20,190,0,5,3,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Snowdrifter's Vestment (Level 30+),30,190,0,5,0,6,0,0,0,0,5,0,0,0,0,0,0,0,Crowns,False,None
-Greenwarden's Energetic Shroud (Level 30+),30,185,0,5,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Greenwarden's Brilliant Shroud (Level 30+),30,185,0,5,4,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Greenwarden's Energetic Shroud (Level 30+),30,185,0,5,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Raider Scrap Armor (Level 10+),10,185,0,5,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 All Souls Regalia (Level 20+),20,183,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Hauberk of the Briny Deep (Level 10+),10,183,0,5,1,0,0,0,0,0,0,8,0,0,0,0,0,0,Gift Card,False,None
@@ -2953,8 +2953,8 @@ Valiant Jouster's Cuirass (Level 10+),10,146,0,5,0,3,0,0,0,1,0,0,0,0,0,0,0,0,Gif
 Merry Jammies (Level 10+),10,142,0,5,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Prairie Rambler's Duster (Level 10+),10,142,0,5,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Savannah Tribal Robe (Any Level),1,140,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Ancient Purrzian Plate (Level 10+),10,138,0,5,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Alpine Hunter Flannel (Level 10+),10,138,0,5,0,0,0,0,0,0,4,4,0,0,0,0,0,0,Crowns,False,None
+Ancient Purrzian Plate (Level 10+),10,138,0,5,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Snowdrifter's Outfit (Level 10+),10,138,0,5,0,0,0,0,0,0,4,4,0,0,0,0,0,0,Crowns,False,None
 Cool Rancher's Duster (Any Level),1,136,0,5,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Dunerunner's Tunic (Any Level),1,136,0,5,0,0,0,0,0,0,2,2,0,0,0,0,0,0,Gift Card,False,None
@@ -3179,8 +3179,8 @@ Pet Trainer Attire (Any Level),1,116,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,F
 Seal Team Recon Suit (Level 10+),10,112,0,3,0,4,0,0,0,0,0,5,0,0,0,0,0,0,Crowns,False,None
 Sky Sorcerer Hakama (Any Level),1,108,0,3,3,0,0,0,0,0,6,6,0,0,0,0,0,0,Gift Card,False,None
 Sweetish Chef Smock (Any Level),1,108,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Greenwarden's Brilliant Shroud (Level 10+),10,100,0,3,0,2,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
 Greenwarden's Energetic Shroud (Level 10+),10,100,0,3,0,2,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Greenwarden's Brilliant Shroud (Level 10+),10,100,0,3,0,2,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
 Everwinter Plate (Level 20+),20,84,0,3,0,0,0,10,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Seal Team Recon Suit (Any Level),1,78,0,3,0,3,0,0,0,0,0,5,0,0,0,0,0,0,Crowns,False,None
 Bitter Cloak,15,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
@@ -3371,8 +3371,8 @@ Snowdrifter's Raiment (Level 90+),90,592,0,0,5,9,0,66,3,0,0,0,0,0,0,0,0,0,Crowns
 Polarian Mage's Cloak,102,592,0,0,0,0,0,0,1,0,0,4,0,0,0,0,0,0,Gold Vendor,False,None
 Armor of the Mouse Knight,94,590,0,0,0,9,0,0,3,0,8,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Bleaks Jacket of Pyres,104,589,0,0,0,0,0,96,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Biting Winter Shaman's Skin,66,585,0,0,0,0,0,41,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Biting Cold Dream Jacket,66,585,0,0,0,0,0,41,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Biting Winter Shaman's Skin,66,585,0,0,0,0,0,41,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Robes of the Icewind Doctor,66,585,0,0,0,0,0,41,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Stout Coat of Black Ice,66,585,0,0,0,0,0,41,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Twisted Fang Vestments,84,580,0,0,0,8,0,0,2,0,7,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
@@ -3527,7 +3527,7 @@ Vile Outfit,56,277,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Mantis Raiment of Fairness,96,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 SpiceSeer's Armor of Havoc,96,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Vestment of the Lotus,40,275,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Raven's Eye Raiment,56,274,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Raven's Eye Raiment,56,274,0,0,0,0,13,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Cloak of the Catacombs,76,270,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Coat of Pain and Fear,86,270,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Jerkin of Derring-Do,76,270,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,Crafting,False,None
@@ -3540,13 +3540,13 @@ Robes of the Ceiba Tree,86,260,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,Crafting,False,No
 Valiant Plate,76,260,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Pixie's Armor of Encanta (Level 40+),40,260,0,0,0,5,10,10,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Prideful Cloak of Stormkings,66,260,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Bear's Heart Jerkin,52,255,0,0,0,0,0,0,0,0,4,4,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Jerkin of the Bear's Shadow,52,255,0,0,0,0,0,0,0,0,4,4,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Jerkin of the Great Bear,52,255,0,0,0,0,0,0,0,0,4,4,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Jerkin of the Iron Bear,52,255,0,0,0,0,0,0,0,0,4,4,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Jerkin of the Roaring Bear,52,255,0,0,0,0,0,0,0,0,4,4,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Jerkin of the Howling Bear,52,255,0,0,0,0,0,0,0,0,4,4,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Jerkin of the Bleak Bear,52,255,0,0,0,0,0,0,0,0,4,4,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Bear's Heart Jerkin,52,255,0,0,0,0,0,7,0,0,4,4,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Jerkin of the Howling Bear,52,255,0,0,0,0,0,7,0,0,4,4,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Jerkin of the Iron Bear,52,255,0,0,0,0,0,7,0,0,4,4,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Jerkin of the Bleak Bear,52,255,0,0,0,0,0,7,0,0,4,4,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Jerkin of the Roaring Bear,52,255,0,0,0,0,0,7,0,0,4,4,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Jerkin of the Great Bear,52,255,0,0,0,0,0,7,0,0,4,4,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Jerkin of the Bear's Shadow,52,255,0,0,0,0,0,7,0,0,4,4,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Cloak of Deliberation,35,253,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Soothsayer's Finery (Level 50+),50,253,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Salgio's Tinder Cloak,54,252,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
@@ -3562,8 +3562,8 @@ Longcoat of the Ice Floes,35,242,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",
 Robe of Consideration,35,242,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Gold Key",False,None
 Blistering Jerkin,54,240,0,0,8,0,37,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
 Imperial Court Tunic (Level 40+),40,240,0,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Indulgent Vestment,40,240,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Insulated Wrap,40,240,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Bazaar,False,None
+Indulgent Vestment,40,240,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Thermic Longcoat,35,240,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Vestment of Cooperation,35,240,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Gold Key",False,None
 Irontrunk Cloak of Dreams,62,240,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
@@ -3574,8 +3574,8 @@ Snowdrifter's Raiment (Level 30+),30,224,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,
 Clanker's Exquisite Cloak,30,220,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Tunic of Chivalry,30,209,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Pixie's Armor of Encanta (Level 30+),30,205,0,0,0,4,8,8,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Raiment of the Sun,56,202,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Pandemonium Platemail,56,202,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
-Raiment of the Sun,56,202,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Smock of the Storm Star,56,202,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Night King's Plate (Level 20+),20,200,0,0,0,2,5,5,0,6,0,0,0,0,0,0,0,0,Crowns,False,None
 Cloak of the Djinni,45,200,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
@@ -3586,12 +3586,12 @@ Snowdrifter's Raiment (Level 20+),20,190,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,
 Soothsayer's Finery (Level 40+),40,187,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Tunic of the Breakneck,25,187,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Vest of Predominance,25,180,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-Innate Tunic,50,173,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Raiment of the Evil Eye,56,173,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Insightful Cloak,52,173,0,0,0,9,0,15,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Innate Tunic,50,173,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Longcoat of Long Life,52,173,0,0,0,9,0,15,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Raiment of Rapport,54,173,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Raiment of the Evil Eye,56,173,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Raiment of Sharp Talons,56,168,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Raiment of Sharp Talons,56,168,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Oyoroi Breastplate (Level 30+),30,167,0,0,0,4,8,8,0,10,1,0,0,0,0,0,0,0,Crowns,False,None
 Rockstar Threads (Level 30+),30,167,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,One Shot Housing Gauntlet,False,None
 Skillful Cloak,25,165,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
@@ -3648,20 +3648,20 @@ Robe of the Firebloom,15,82,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False
 Scavenger's Radiant Robe,15,80,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Stout Robe,15,80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Sweltering Vestment,15,80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Vestment of Ominous Skies (Any Level),1,80,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Vestment of the Spiral Cup (Any Level),1,80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
+Vestment of Ominous Skies (Any Level),1,80,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Vestment of Smoke,20,78,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Initiate's Uniform,15,77,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Rocker's Stagewear (Level 10+),10,75,0,0,0,2,0,0,0,0,0,2,0,0,0,0,0,0,One Shot Housing Gauntlet,False,None
-Starter Myth Robes,1,75,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Starter Balance Robes,1,75,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Starter Fire Robes,1,75,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Starter Myth Robes,1,75,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Soothsayer's Finery (Level 10+),10,64,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Benign Robe,30,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Distinguished Robe,20,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Fire-Stitched Clothing,10,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
 Garments of the Observant,35,60,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Gallant Tunic,35,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Fire-Stitched Clothing,10,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
 Lord Nightshade's Cloak,10,60,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Nails' Singed Tunic,25,60,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
 Robe of Being,10,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
@@ -3682,8 +3682,8 @@ Bonekeeper's Robe,15,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,Non
 Ruby Studded Cloak,5,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Wooden Key, Quest",False,None
 Soot Stained Tunic,10,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Vest of Humidity,15,40,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Aztecosaur War-Shell (Any Level),1,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Fishing, Gift Card",False,None
 August Sage Coat (Level 10+),10,40,0,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Aztecosaur War-Shell (Any Level),1,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Fishing, Gift Card",False,None
 Night King's Plate (Any Level),1,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Pixie's Armor of Encanta (Any Level),1,40,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Starter Storm Robes,1,40,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3693,10 +3693,10 @@ Imperial Court Tunic (Level 20+),20,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,Fa
 Novice's Robe,1,22,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
 Splendiferous Robe,5,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Chrysanthemum Coat (Level 10+),10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Nightfall Torment Guise (Level 120+),120,0,0,0,0,10,0,0,10,25,0,0,0,0,0,0,0,0,Crowns,False,None
-Nightfall Torment Guise (Level 100+),100,0,0,0,0,10,0,0,10,25,0,0,0,0,0,0,0,0,Crowns,False,None
-Nightfall Torment Guise (Level 90+),90,0,0,0,0,9,0,0,10,24,0,0,0,0,0,0,0,0,Crowns,False,None
 Nightfall Torment Guise (Level 110+),110,0,0,0,0,10,0,0,10,25,0,0,0,0,0,0,0,0,Crowns,False,None
+Nightfall Torment Guise (Level 100+),100,0,0,0,0,10,0,0,10,25,0,0,0,0,0,0,0,0,Crowns,False,None
+Nightfall Torment Guise (Level 120+),120,0,0,0,0,10,0,0,10,25,0,0,0,0,0,0,0,0,Crowns,False,None
+Nightfall Torment Guise (Level 90+),90,0,0,0,0,9,0,0,10,24,0,0,0,0,0,0,0,0,Crowns,False,None
 Nightfall Torment Guise (Level 80+),80,0,0,0,0,9,0,0,9,21,0,0,0,0,0,0,0,0,Crowns,False,None
 Nightfall Torment Guise (Level 70+),70,0,0,0,0,8,0,0,7,18,0,0,0,0,0,0,0,0,Crowns,False,None
 Nightfall Torment Guise (Level 60+),60,0,0,0,0,8,0,0,5,15,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3705,617 +3705,617 @@ Ashen Outfit,50,0,0,0,8,0,25,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Ember Armor,50,0,0,0,0,0,25,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Duelist's Drape,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Immortals' Radiant Armor,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,One Shot Housing Gauntlet,False,None
-Swiftarrow's Mantle,10,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Raiment of Rivalry,10,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Swiftarrow's Mantle,10,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Abominable Snow Suit,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Aeon Cape,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
 Adventurer Coat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Alienware T-Shirt,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Aeon Cape,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
 Ancient Cloak,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
 Animated Canine Cloak,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Antique Overshirt,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Arcane Engineer Coveralls (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
-Arcane Engineer Coveralls (Level 130+),130,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
-Arcane Engineer Coveralls (Level 150+),150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
-Arcane Engineer Coveralls (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
-Arcane Engineer Coveralls (Level 140+),140,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
-Arcane Engineer Coveralls (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
-Arcane Engineer Coveralls (Level 110+),110,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
+Arcane Engineer Coveralls (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
 Arcane Engineer Coveralls (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
 Arcane Engineer Coveralls (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
-Arcane Engineer Coveralls (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
-Arcane Engineer Coveralls (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
-Arcane Engineer Coveralls (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
-Arcane Engineer Coveralls (Level 120+),120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
+Arcane Engineer Coveralls (Level 150+),150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
 Arcane Engineer Coveralls (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
 Arcane Engineer Coveralls (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
-Arcane Engineer Coveralls (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
-Archeologist's Outfit,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Arctic Robe,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Artificial Robe,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Arcane Engineer Coveralls (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
+Arcane Engineer Coveralls (Level 140+),140,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
+Arcane Engineer Coveralls (Level 130+),130,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
+Arcane Engineer Coveralls (Level 110+),110,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
+Arcane Engineer Coveralls (Level 120+),120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
+Arcane Engineer Coveralls (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
+Arcane Engineer Coveralls (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
+Arcane Engineer Coveralls (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
+Arcane Engineer Coveralls (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
+Arcane Engineer Coveralls (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Arcane Engineer's Set
 Archangel's Vestment,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Armor of Many Winters (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Arctic Robe,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Archeologist's Outfit,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Ashen Cloak,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Armor of Ordeal,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Armor of Many Winters (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
-Aztecan Cloak,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Balanced Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Bandit Outfit,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Aztecan Shaman Cloak,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Balanced Wolfen Mail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Artificial Robe,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+August Sage Coat (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Aztecan Guard Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Aztecan Beast Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Aztecan Shaman Cloak,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Autumnal Imp's Raiment,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Bardic Tunic,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
-Barbarian Furs,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-August Sage Coat (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Beastmaster's Jerkin,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Aztecan Cloak,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Beachcomber's Poncho,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Barbarian Furs,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Balanced Wolfen Mail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Bandit Outfit,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Balanced Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Bear Tunic,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Blooming Wolfen Mail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Beastmaster's Jerkin,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Boxplane Captain Jacket,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Blustery Wolfen Mail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Brisk Wolfen Mail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Biting Garment,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
-Blustery Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Brisk Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Blizzard Cloak,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Blazing Vest,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Blustery Wolfen Mail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Biting Garment,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
+Brisk Wolfen Mail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Blaze's Garnet Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
 Boreas' Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Brisk Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Blooming Wolfen Mail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Blustery Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Blazing Vest,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Brigadier Uniform,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Bunny Suit,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Captain's Tunic,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Cape of Refraction,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Stone Key,False,None
 Carnival Krewe Coat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Cape of Fire Light,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Stone Key,False,None
-Cape of the Brief Candle,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Stone Key,False,None
+Captain's Tunic,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Cardinal's Uniform,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Cape of the Brief Candle,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Stone Key,False,None
 Canvas Cloak,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Celestial Garment,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Centurion's Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Ceres' Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Cape of Refraction,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Stone Key,False,None
+Cape of Fire Light,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Stone Key,False,None
 Challenger's Platemail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Charged Coat,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Ceremonial Raiment,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Housing Gauntlet",False,None
 Chaos Wizard Cape,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Ceres' Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Champion's Armor of Courage (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Cloak of Refuge,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Chimney Sweep Jacket,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Ceremonial Raiment,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Housing Gauntlet",False,None
+Centurion's Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Celestial Garment,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Charged Coat,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Cloak of Atlantis,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
-Chillcloak,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Cloak of Diplomacy,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Chrysanthemum Coat (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Cloak of Nuisance,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Cloak of Blessings,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Cloak of the Phantom,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-Cloak of Foresight,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Cloak of Respect,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Coat of Forethought,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Cloak of Order,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Cloak of the Justicar,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
-Cloak of the Seasons,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Cloak of the Stag,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Cloak of Nephele,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Cloak of the Seven Seas,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Chilling Cloak,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Cloak of Calamity,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Cleric's Vestment,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Chimney Sweep Jacket,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Cloak of Order,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Chilling Cloak,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Cloak of the Phantom,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Chillcloak,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Cloak of the Seven Seas,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Cloak of Respect,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Cloak of the Seasons,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Coat of Forethought,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Cloak of Nuisance,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Cloak of Clarity,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Coat of Impartiality,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Coat of Invincibility,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Cobbler Elf Suit (Level 110+),110,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Cobbler Elf Suit (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Cobbler Elf Suit (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Cobbler Elf Suit (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Cobbler Elf Suit (Level 170+),170,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Cobbler Elf Suit (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Coat of the Hurricane,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Quest,False,None
-Cobbler Elf Suit (Level 150+),150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Cobbler Elf Suit (Level 120+),120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cloak of Nephele,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Cloak of Fascination,25,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-Cobbler Elf Suit (Level 160+),160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Chrysanthemum Coat (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cloak of Refuge,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Cloak of the Justicar,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
+Cloak of Diplomacy,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Coat of Invincibility,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Cloak of the Stag,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Coat of the Hurricane,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Quest,False,None
+Cloak of Foresight,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Cobbler Elf Suit (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Cobbler Elf Suit (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Cobbler Elf Suit (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cobbler Elf Suit (Level 110+),110,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cobbler Elf Suit (Level 120+),120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Cobbler Elf Suit (Level 140+),140,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Cobbler Elf Suit (Level 130+),130,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Coat of Impartiality,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Cobbler Elf Suit (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cobbler Elf Suit (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cobbler Elf Suit (Level 170+),170,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cobbler Elf Suit (Level 150+),150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cleric's Vestment,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Cobbler Elf Suit (Level 160+),160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cobbler Elf Suit (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cobbler Elf Suit (Level 130+),130,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cobbler Elf Suit (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Cobbler Elf Suit (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Compatible Clothing,56,0,0,0,0,9,0,20,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
-Collective Costume,54,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Cobbler Elf Suit (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Conjurer's Timeless Tunic,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
-Corporal's Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Comedian's Robe,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
+Cloak of Blessings,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Cobbler Elf Suit (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Collective Costume,54,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Comedian's Robe,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
 Commander's Longcoat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Curious Costume,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Cryptkeeper's Cloak,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
-Darkwraith's Compelling Shroud (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Daredevil's Jacket,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Darkwraith's Atonement Robe (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Dandy's Clothes,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Crystalline Vest,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Conjurer's Timeless Tunic,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
+Cobbler Elf Suit (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Compatible Clothing,56,0,0,0,0,9,0,20,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
+Corporal's Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Crow's Wrap,45,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Deathly Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Crystalline Vest,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Dandy's Clothes,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Darkwraith's Atonement Robe (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Daredevil's Jacket,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Cryptkeeper's Cloak,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
+Curious Costume,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Darkwraith's Compelling Shroud (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Darkwraith's Umbral Shroud (Stitch),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Fishing,False,None
-Draco Wingmail of Cold Blood,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Draco Wingmail of Rage,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Diviner's Timeless Tunic,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
-Decorative Raiment,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Housing Gauntlet",False,None
-Dexterous Vest,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Draco Wingmail of Legend,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Draco Wingmail of Deathfang,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Draco Wingmail of Ice Heart,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Draco Wingmail of Dragonbite,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Devastating Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Draco Wingmail of Scaleskin,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Deathly Wolfen Mail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Draco Wingmail of Fury,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Draco Wingmail of Nimbus,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Draco Wingmail of Goldenscale,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Draco Wingmail of Fables,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Destructive Tunic,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
-Distressing Garment,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
-Draco Wingmail of Long Life,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Devastating Wolfen Mail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Draco Wingmail of Frigid Soul,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Disciple Garment,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Draco Tornado Wingmail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Draco Wingmail of Grimtooth,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Draco Wingmail of Omnipotence,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Desert Garb,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Draco Wingmail of Eternity,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Defender's Cuirass,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Draco Wingmail of Fire Breath,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Draco Wingmail of Goldhoard,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Draco Wingmail of Old,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Draco Wingmail of Stratus,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Draco Wingmail of Fables,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Decorative Raiment,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Housing Gauntlet",False,None
+Draco Wingmail of Nimbus,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Draco Wingmail of Eternity,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Doctor's Uniform,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
+Devastating Wolfen Mail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Devastating Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Draco Wingmail of Old,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Defender's Cuirass,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Draco Wingmail of Deathfang,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Draco Wingmail of Omnipotence,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Disciple Garment,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Draco Wingmail of Frigid Soul,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Draco Wingmail of Long Life,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Draco Wingmail of Legend,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Deathly Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Draco Wingmail of Cold Blood,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Draco Wingmail of Goldenscale,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Draco Wingmail of Fury,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Destructive Tunic,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
+Draco Wingmail of Rage,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Draco Tornado Wingmail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Draco Wingmail of Fire Breath,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Distressing Garment,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
+Diviner's Timeless Tunic,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
+Draco Wingmail of Scaleskin,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Draco Wingmail of Dragonbite,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Dexterous Vest,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Draco Wingmail of Goldtrove,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Draco Wingmail of Ice Heart,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Dracomancer's Outfit,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Dragoon's Garment,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Crafting",False,None
+Draco Wingmail of Grimtooth,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Draco Wingmail of Stratus,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Dragon's Eye Plate (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Dragoon's Garment,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Crafting",False,None
 Dramatic Uniform,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
-Drape of the Lost Archive,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Drape of Dissonance,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Drape of the Lost Archive,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Dusty Robe,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Drape of the White Squall,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Dromel Khlat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
 Drape of Magnitude,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Druidic Tunic,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Dyeable Golden Lamellar,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Dyeable Candymancer Smock,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
 Dyeable Delightful Smock,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
-Druidic Tunic,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Drape of the White Squall,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Dyeable Demiurge's Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
-Dusty Robe,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Dyeable Golden Lamellar,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Dyeable Hazmat Suit,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
 Dyeable Hierarch's Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
-Fabled Wolfen Mail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Dyeable Demiurge's Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
+Dyeable Merciless Cloak,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
 Dyeable Officer Uniform,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Fancy Garments,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Dyeable Hazmat Suit,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
 Fairy Cloak,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Electrifyin' Tailormail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Fabled Wolfen Mail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Engrossed Robes,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Festive Holiday Sweater,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Fearsome Marauder Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Elemental Tailormail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Everwinter Plate (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Dyeable Merciless Cloak,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
-Fabled Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Elegant Vestment,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
-Fancy City Dweller Vest,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
-Elegant Outfit,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Crafting",False,None
-Ethereal Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Elemental Tailormail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Festive Holiday Sweater,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Farmer's Overalls,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Fabled Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Ethereal Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Fearsome Marauder Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Fanciful Robe,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
-Fiery Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Fireglow Tunic,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Firestorm Vestment,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Fiery Wolfen Mail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Fancy City Dweller Vest,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
+Fancy Garments,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Elegant Outfit,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Crafting",False,None
 Festive Yule Sweater,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Finely Finished Cloak,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Firestorm Vestment,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Fiery Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Fireguard Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
+Fiery Wolfen Mail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Fireglow Tunic,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Flamefollower's Tunic,25,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Floral Raiment Mail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Flowering Mantle,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
-Forgotten Outfit,54,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Forbidden Costume,56,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
-Gale Force Gear,54,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Flowering Mantle,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
+Floral Raiment Mail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Forgotten Outfit,54,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Frost Wolf Cloak,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
+Frozen Tunic,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Garments of Generations,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Gallant Rogue's Tunic,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Stone Key,False,None
 Genie Drape,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Glacial Longcoat,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Ghastly Wolfen Mail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Gardener's Smock,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Frostwoven Coat,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Gleeman's Tunic,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Stone Key,False,None
-Gallant Rogue's Tunic,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Stone Key,False,None
-Frozen Tunic,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Garments of Explanation,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
 Glorious Hero's Shirt,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Garments of Generations,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Glacial Tunic,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Ghastly Wolfen Mail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Gale Force Gear,54,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Garments of Explanation,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
 Glendemming's Rampant Tabard,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Glacial Longcoat,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Frost Wolf Cloak,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
 Ghastly Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Gothic Tailormail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Gravedigger's Suit,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Graduation Gown,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Quest,False,None
+Gravedigger's Suit,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Harmonious Wolfen Mail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Hallowed Robes,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
+Guardian's Battle Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Harmonious Tailormail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Hallowe'en Witch Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Hallowe'en Skeleton Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Halcyon's Robe,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Harmonious Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Guardian's Vestment,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Harmonious Tailormail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Hallowe'en Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Guardian's Battle Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Hallowe'en Witch Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Halcyon's Robe,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Haskarr's Barbarish Tunic,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
-Harmonious Wolfen Mail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Heat Lightning Robes,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Stone Key,False,None
+Hero of MooShu Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
 Hermit's Robes,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 High Quality Cloak,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Hero of MooShu Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
 Highland Kaftan,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Hood Khalat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
 House Calixco Khalat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
 Horned King's Vestment,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Hood Khalat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
-House Tabbi Khalat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
-Inspiring Retro Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Industrial Uniform,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Infamous Wolfen Mail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Imperial Court Tunic (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Icy Wolfen Mail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Insulated Armor,52,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Infamous Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Icy Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Imperial Outfit,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Insulated Jerkin,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
 House Sayameez Khalat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
+Icy Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Interstellar Captain Uniform,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
+Industrial Uniform,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+House Tabbi Khalat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
 Imperial Court Tunic (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Illustrious Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Interstellar Captain Uniform,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
+Icy Wolfen Mail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Imperial Court Tunic (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Infamous Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Insulated Armor,52,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Insulated Jerkin,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
+Imperial Outfit,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Inspiring Retro Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Infamous Wolfen Mail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Jerkin of Brio,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Janus' Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Jerkin of the Rime,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Jolly Winter Coat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Jester's Motley,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Jerkin of the Just,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Jerkin of Brio,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Knight's Storm Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Knight's Life Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Jupiter's Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Knight's Balance Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Khrysalis Carapace Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Knight's Ice Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Knight's Death Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Khrysalis Murine Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Kozane Armor (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Knight's Cuirass,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Jinxed Tunic,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
-Knight's Fire Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Jolly Winter Coat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Knight's Myth Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Jinxed Tunic,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
 Khrysalis Armored Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Knight's Cuirass,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Jerkin of the Just,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Jester's Motley,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Khrysalis Carapace Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Kozane Armor (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Knight's Ice Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Jupiter's Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Knight's Fire Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Knight's Storm Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Knight's Balance Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Knight's Death Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Knight's Life Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Lifestyle Tailormail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Lively Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Malistaire's Forlorn Vestment,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Martyr's Raiment,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
 Lively Wolfen Mail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Mage's Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Longcoat of the Librarian,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Maelstrom Vestment,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Lightning Armor,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Lifestyle Tailormail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Malistaire's Forlorn Vestment,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Mariner's Rain Slicker,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Martyr's Raiment,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
-Mechanical Tunic,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Midnight Torment Guise (Level 100+),100,0,0,0,0,10,0,28,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Masterful Canine Cloak,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Midnight Torment Guise (Level 40+),40,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Menacing Costume,50,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Master's Tunic,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Morbid Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Midnight Torment Guise (Level 80+),80,0,0,0,0,8,0,18,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Midnight Torment Guise (Any Level),1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Midnight Torment Guise (Level 50+),50,0,0,0,0,5,0,3,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Midnight Torment Guise (Level 120+),120,0,0,0,0,10,0,32,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Midnight Torment Guise (Level 20+),20,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Merry Outfit,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Minotaur's Tunic,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Medley Costume,50,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Morpheus' Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Midnight Torment Guise (Level 70+),70,0,0,0,0,7,0,13,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Morbid Wolfen Mail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Mariner's Rain Slicker,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Lightning Armor,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Maelstrom Vestment,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Masterpiece Cape,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
+Masterful Canine Cloak,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Midnight Torment Guise (Level 70+),70,0,0,0,0,7,0,13,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Midnight Torment Guise (Level 50+),50,0,0,0,0,5,0,3,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Medley Costume,50,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Midnight Torment Guise (Level 10+),10,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Midnight Torment Guise (Level 60+),60,0,0,0,0,6,0,8,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Neelus's Inspired Surcoat,56,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Monk's Vestment,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Merry Outfit,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Morbid Wolfen Mail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Midnight Torment Guise (Level 30+),30,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Midnight Torment Guise (Level 90+),90,0,0,0,0,9,0,23,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Midnight Torment Guise (Level 20+),20,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Midnight Torment Guise (Level 100+),100,0,0,0,0,10,0,28,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Necromancer's Timeless Tunic,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
+Mystifying Armor,50,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Midnight Torment Guise (Level 120+),120,0,0,0,0,10,0,32,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Mythologist's Raiment,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Mechanical Tunic,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Midnight Torment Guise (Level 80+),80,0,0,0,0,8,0,18,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Minotaur's Tunic,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Menacing Costume,50,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Midnight Torment Guise (Level 40+),40,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Morbid Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Morpheus' Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Midnight Torment Guise (Level 60+),60,0,0,0,0,6,0,8,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Monk's Vestment,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Mummy Costume Bodywraps,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
 Mythic Wolfen Mail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Mythic Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Necromancer's Timeless Tunic,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
-Mummy Costume Bodywraps,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Mythologist's Raiment,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Midnight Torment Guise (Level 30+),30,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Mystifying Armor,50,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Nightfall Torment Guise (Level 40+),40,0,0,0,0,7,0,0,0,13,0,0,0,0,0,0,0,0,Crowns,False,None
+Neelus's Inspired Surcoat,56,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Midnight Torment Guise (Any Level),1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Night-Knight Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Nightfall Torment Guise (Level 20+),20,0,0,0,0,5,0,0,0,9,0,0,0,0,0,0,0,0,Crowns,False,None
 Nightfall Torment Guise (Any Level),1,0,0,0,0,3,0,0,0,5,0,0,0,0,0,0,0,0,Crowns,False,None
+Nightfall Torment Guise (Level 40+),40,0,0,0,0,7,0,0,0,13,0,0,0,0,0,0,0,0,Crowns,False,None
 Ninja PAX T-Shirt,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Ornamental Raiment,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Housing Gauntlet",False,None
 Nunu's Twisted Uniform,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Novitiate Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Gold Key",False,None
 Ninja Pig Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crafting",False,None
 Notorious Tailormail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Oasis Surcoat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Noble Garb,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Crafting",False,None
-Ornamental Raiment,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Housing Gauntlet",False,None
+Novitiate Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Gold Key",False,None
+Oasis Surcoat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Overlord's Uniform,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Peasant Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Pharaoh's Raiment,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Crafting",False,None
-Pirate Garb,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Oyoroi Breastplate (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Persistent Plates,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Pilgrim Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-Pharoah's Robe of Judgement,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Overlord's Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Pigswick Academy Uniform,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
+Overlord's Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Persistent Plates,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Oyoroi Breastplate (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Pirate Garb,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Peculiar Garments,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Poet's Cassock,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Pharaoh's Vestment,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
+Pharoah's Robe of Judgement,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Pilgrim Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Pluto's Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Poet's Cassock,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Poised Tailormail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Pilgrim's Clothing,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Crafting",False,None
-Pluto's Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Port Aero Flyboys Jersey,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
+Pharaoh's Raiment,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Crafting",False,None
 Polarian Luhkka,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Polarian Gakti,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Pyromancer's Timeless Tunic,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
-Raiment of Mythos,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Pure Plate Armor,50,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Protector's Chest Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Quixotic Robes,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Powerful Vestment,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Racing Suit,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Pupil's Uniform,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Premium Vestment,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Powerful Vestment,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Raiment of Legend,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
-Raiment of Storms,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Quixotic Robes,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Port Aero Flyboys Jersey,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
+Pupil's Uniform,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Protector's Chest Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Pure Fire Tailormail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Raiment of Mythos,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Racing Suit,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Pure Plate Armor,50,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Raiment of the East Road,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Raiment of Storms,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Pyromancer's Timeless Tunic,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
 Raiment of the Raven,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Raiment of Wonder,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Ravenking's Battle Story Armor (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
-Regal Outfit,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Raiment of the Lifespring,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Rhapsodist's Tunic,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
-Recreational Swimsuit,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Robe of Elegies,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Robe of Antiquities,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Remarkable Robe,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Rain Dance Raiment,50,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Robe of Politeness,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Robe of Embers,5,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Raven Cloak,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Ravenwood Initiate Uniform,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Robe of Cognition,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
+Ravenking's Battle Story Armor (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Rain Dance Raiment,50,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Remarkable Robe,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Robe of Hinderance,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
+Recreational Swimsuit,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Raiment of Wonder,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Riddled Raiment,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Robe of Proportions,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
-Robe of Song,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Robe of Ideals,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Robe of the Blizzard,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Rhapsodist's Tunic,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
+Ravenwood Initiate Uniform,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Regal Outfit,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Robe of Elegies,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Robe of Talent,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Robe of Antiquities,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Robe of Embers,5,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Robe of Song,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Robe of Proportions,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
 Robe of the Advantage,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Robe of Cognition,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
 Robe of the Bubble,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Robe of the Bastion,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Robe of Politeness,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Robe of the Conflagration,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Robe of the Bastion,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Robe of the Boon,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Robe of the Glorious Morn,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Robe of the Blizzard,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Robe of the Magister,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Robe of the Verse,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Rockin' Outfit,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Quest,False,None
-Robe of the Mirage,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Rogue's Coat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Robe of the Glorious Morn,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Robe of the Tornado,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Rokugo Armor (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Robe of the Universe,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
+Robe of the Verse,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Ronin's Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Sapphyra's Vestment,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Robe of the Mirage,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Rokugo Armor (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Rogue's Coat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Rockin' Outfit,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Quest,False,None
 Royal Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Serpentine Khalat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
-Safari Bush Jacket,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Seafarer's Overcoat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Sea-King's Surcoat,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Scholarly Robes,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
-Runed Vestment,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Scorching Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Sable Tunic,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Savannah Cloak,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Santa Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Gold Key, Crowns",False,None
-Scorching Wolfen Mail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Samurai Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Scorpion's Tunic,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Rugged Robe,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Samurai Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Sapphyra's Vestment,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Sable Tunic,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Scribe's Tunic,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Stone Key,False,None
-Sharp's Stormy Coat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Silent Knight Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Sharp's Icy Coat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Shroud of Grief,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Shimmering Cloak,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Sharp's Mythic Coat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Sharp's Lively Coat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Sharp's Balanced Coat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Santa Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Gold Key, Crowns",False,None
+Scholarly Robes,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
+Safari Bush Jacket,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Sea-King's Surcoat,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Scorching Wolfen Mail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Seafarer's Overcoat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Scorching Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Savannah Cloak,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Scorpion's Tunic,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Runed Vestment,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Serpentine Khalat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
 Shaman's Garb,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Shibboleth Smock,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Sharp's Stormy Coat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Sharp's Deathly Coat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Sharp's Icy Coat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Sharp's Mythic Coat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Sharp's Balanced Coat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Sharp's Fiery Coat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Shimmering Cloak,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Shroud of Grief,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Silent Knight Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
+Sharp's Lively Coat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Shibboleth Smock,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Sinbad's Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Housing Gauntlet,False,None
-Sneaky Wombat Costume,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
-Smock of the Sphinx,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Sleepy Agent Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Sneaky Wombat Costume,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
 Simmering Wolfen Mail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Sleuth Outfit,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Smock of the Sphinx,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Snowflake Tunic,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
-Solstice Elf Suit (Level 120+),120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Solstice Elf Suit (Level 170+),170,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Solstice Elf Suit (Level 140+),140,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Sonneteer's Tunic,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
-Solstice Elf Suit (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Solstice Elf Suit (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Speculative Tunic,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
-Solstice Elf Suit (Level 160+),160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Solstice Elf Suit (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Solstice Elf Suit (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Solstice Elf Suit (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Songster's Tunic,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
-Sorcerer's Robe,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Solstice Elf Suit (Level 150+),150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Spellbinder's Outfit,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Solstice Elf Suit (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-South Road Warrior's Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Spark of Life Cape,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Stone Key,False,None
-Solstice Elf Suit (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Sorcerer's Timeless Tunic,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
+Solstice Elf Suit (Level 160+),160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Solstice Elf Suit (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Speculative Tunic,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
+Solstice Elf Suit (Level 150+),150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Solstice Elf Suit (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Stag Lord's Cape,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Stormzilla Costume,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Stormcaller's Smock,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Stormcaller's Robe,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Solstice Elf Suit (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Spellbinder's Outfit,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Solstice Elf Suit (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Solstice Elf Suit (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Sorcerer's Robe,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+South Road Warrior's Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Solstice Elf Suit (Level 170+),170,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Solstice Elf Suit (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Solstice Elf Suit (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Sonneteer's Tunic,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
+Solstice Elf Suit (Level 120+),120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Solstice Elf Suit (Level 140+),140,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Spark of Life Cape,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Stone Key,False,None
+Solstice Elf Suit (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Spiritual Tailormail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Steady Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Stormforged Mantle,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
-Steady Wolfen Mail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Storyteller's Tunic,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Stormy Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Sturdy Robe,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Stormcaller's Smock,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Stormzilla Costume,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Stylish Garments,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Sturdy Coat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Stormy Wolfen Mail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Sturdy Robe,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Stylish Garments,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Thane's Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Tiki Armor of Purity (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
-Surcoat of the Victorious,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Stag Lord's Cape,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Steady Wolfen Mail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Storyteller's Tunic,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Stormforged Mantle,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
+Stormcaller's Robe,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Steady Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Swashbuckler Outfit,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Surcoat of the Victorious,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Superfan Jersey,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Thaumaturge's Timeless Tunic,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
 Tangleroot's Spirit Gear,54,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Tempest Tunic,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Quest,False,None
 Theurge's Timeless Tunic,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
-Thundercloud Cloak,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Tailormail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Theurge's Brown Cloak,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Terminus Wrap,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Tailormail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Tempest Tunic,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Quest,False,None
+Thaumaturge's Timeless Tunic,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
+Thundercloud Cloak,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Tiki Armor of Purity (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Theurge's Brown Cloak,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Thane's Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Tiki Armor of Sacred Songs (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
 Timeless Arboreal Tunic,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
-Toymaker Elf Suit (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Toymaker Elf Suit (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Toymaker Elf Suit (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Toymaker Elf Suit (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Troubador's Tunic,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
-Toymaker Elf Suit (Level 170+),170,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Toymaker Elf Suit (Level 120+),120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Toymaker Elf Suit (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Trouper's Tunic,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
-Trollskin Cloak,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
+Toymaker Elf Suit (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Toymaker Elf Suit (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Toymaker Elf Suit (Level 150+),150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Toymaker Elf Suit (Level 160+),160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Toymaker Elf Suit (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Toymaker Elf Suit (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Toymaker Elf Suit (Level 150+),150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Timeless Yuletide Armor (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
-Toymaker Elf Suit (Level 160+),160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Triumphant Tailormail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Toymaker Elf Suit (Level 130+),130,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Trouper's Tunic,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
 Torrid Cloak,15,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Toymaker Elf Suit (Level 120+),120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Timeless Yuletide Armor (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
+Triumphant Tailormail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Toymaker Elf Suit (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Timeless Astral Tunic,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
+Toymaker Elf Suit (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Trollskin Cloak,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
 Toymaker Elf Suit (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Tunic of Energy,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Tunic of Chimes,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Toymaker Elf Suit (Level 170+),170,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Toymaker Elf Suit (Level 130+),130,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Toymaker Elf Suit (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Troubador's Tunic,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
 Tunic of Icicles,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Tunic of Leverage,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Tunic of Mortality,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Tunic of Quietus,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Tunic of Scruples,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-Tunic of Impression,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Tunic of Chimes,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Tunic of Energy,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Tunic of Incineration,25,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Tunic of Leverage,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Tunic of Scruples,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Tunic of Quietus,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Tunic of Mortality,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Tunic of Impression,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Tunic of Tall Tales,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
-Tunic of the Whirlwind,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Tunic of the Unicorn,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
 Tunic of the Atheneum,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
-Twilight Cape,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Stone Key,False,None
-Ultimate Wolfen Mail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Twice Stitched Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Tunic of the Star,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Stone Key,False,None
+Ultimate Wolfen Mail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Tunic of the Whirlwind,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Twilight Cape,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Stone Key,False,None
 Undead Vestment,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
+Tunic of the Unicorn,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
 Tunic of the Wyrd,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Vestment of Darkness,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Vestment of Luck,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Versatile Armor,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Vestment of the Adverse,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Twice Stitched Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Vest of the Dawn,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Vest of Eminence,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Vestment of Disposition,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Vestment of Dreamland,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Vestment of the Howling Wind,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Vestment of Accuracy,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
-Vestment of Expertise,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Vestment of Dreaming,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
+Vampire Costume Coat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Vest of the Desert,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Vest of the Night,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Vestment of Commotion,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Vestment of Earth,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Housing Gauntlet",False,None
-Vestment of Panic,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Vest of the Oasis,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Vestment of Dreamland,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Very Cool Tailormail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Vest of the Desert,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Vestment of Disposition,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Vest of the Dawn,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Vestment of Frost,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Housing Gauntlet",False,None
 Vestment of Equilibrium,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bazaar,False,None
-Vestment of Spirit,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Housing Gauntlet",False,None
-Vestment of Serenity,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Vestment of the Phoenix,45,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Vestment of Ember,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Housing Gauntlet",False,None
-Vestment of the Howling Wind,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Vestment of Chaos,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Housing Gauntlet",False,None
-Velo City Legends Jersey,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
+Vestment of Panic,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Vestment of Luck,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Versatile Armor,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Vestment of Darkness,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Vest of the Cyclone,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Vampire Costume Coat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Vestment of Chaos,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Housing Gauntlet",False,None
+Vestment of Dreaming,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
+Vestment of Serenity,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Vestment of Frost,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Housing Gauntlet",False,None
+Vestment of Earth,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Housing Gauntlet",False,None
+Vestment of Spirit,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Housing Gauntlet",False,None
+Vestment of Ember,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Housing Gauntlet",False,None
+Very Cool Tailormail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Vestment of Tempest,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Housing Gauntlet",False,None
+Vestment of the Adverse,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Vestment of the Phoenix,45,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Vestment of Expertise,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Velo City Legends Jersey,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
 Vestment of Tragedy,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Vestment of Vision,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Vigilant Robe,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Vest of the Oasis,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Vindicator's Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Vestment of Yesteryear,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Vulcan's Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Walrusk Soldier's Coat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Vrixx's Verdant Robes,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Volcanic Costume,50,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Vivacious Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Vivacious Wolfen Mail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Weekend Warrior Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Wallaru Protector's Uniform,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
-Warlord's Ice Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Warlord's Life Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Warlord's Death Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Vigilant Robe,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Vestment of Vision,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Vital Vestment,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-West Road Wanderer's Khalat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Warlord's Fire Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Wheatsville Threshers Jersey,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
-Warlord's Myth Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Warlord's Storm Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Warlord's Balance Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Volcanic Costume,50,0,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Whimsical Coat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Winter Elf Suit (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Warlord's Ice Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Vivacious Wolfen Mail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Warlord's Death Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Walrusk Soldier's Coat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Warlord's Fire Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Warlord's Storm Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Vulcan's Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Vrixx's Verdant Robes,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Vivacious Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Warlord's Life Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Weekend Warrior Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+West Road Wanderer's Khalat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Wallaru Protector's Uniform,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
+Warlord's Myth Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Winter Elf Suit (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Winter Elf Suit (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Winter Elf Suit (Level 110+),110,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Winter Elf Suit (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Winter Elf Suit (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Wintry Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Winter Elf Suit (Level 160+),160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Winter Elf Suit (Level 140+),140,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Winter Elf Suit (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Winter Elf Suit (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Winter Elf Suit (Level 170+),170,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Winter Elf Suit (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Winter Elf Suit (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Winter Elf Suit (Level 150+),150,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Winter Elf Suit (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Winter Elf Suit (Level 120+),120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Winter Elf Suit (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Wintry Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Winter Elf Suit (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Winter Elf Suit (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Witch Doctor's Costume,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Wintry Wolfen Mail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
+Wintergale Garment,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Will-O'-The-Wisp Cape,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Stone Key,False,None
 Winter Elf Suit (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Wintergale Garment,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Winter Elf Suit (Level 170+),170,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Wintry Wolfen Mail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Winter Elf Suit (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Winter Elf Suit (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Winter Elf Suit (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Wolf Coat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Wizard's Timeless Tunic,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",False,None
 Wrap of the Woods,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
