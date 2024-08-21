@@ -21,9 +21,9 @@ def get_item_source(item_name, formatted_info, is_mount):
 def get_clothing_accessory_source(item_name, formatted_info):
     
     # should only return one source if raid, rematch
-    if item_name in raid_gear or "The Nullity" in formatted_info:
+    if item_name in raid_gear or "The Nullity" in formatted_info: # all raid gear is craftable or dropped by nullity
         return ["Raid"] # raid
-    if item_name in rematch_gear:
+    if item_name in rematch_gear: # all rematch gear is craftable
         return ["Rematch"] # rematch
     
     text = " ".join(formatted_info)
@@ -220,7 +220,7 @@ def has_normal_drop(formatted_info, arr, actually_mount_from_housing = False):
         
     return False
 
-# one shot dungeons (exalted, baddle of the bands, etc.)
+# one shot dungeons (exalted, baddle of the bands, etc.) needs to be updated if they add more one-shots
 def one_shot_sources_list():
     return ["Krokopatra (Rank ", "Rattlebones (Rank ", "Meowiarty (Rank ", "Zeus Sky Father (Zeus ", "Patt Minotaur (Tier ", "Forest Grump (Tier "]
 
@@ -354,6 +354,7 @@ def clean_housing_gauntlet_list(gauntlet_list):
     
     while i < len(gauntlet_list):
         gauntlet = gauntlet_list[i]
+        # needs to be updated if they add new one-shot gauntlets
         if gauntlet == "TestHousingGauntlet" or (i > 0 and gauntlet == gauntlet_list[i - 1]) or (gauntlet == "Baddle of the Bands" or gauntlet == "Tanglewood Terror") or (gauntlet.split()[-1] == "Challenge" or gauntlet.split()[-1] == "Rematch"):
             gauntlet_list.pop(i)
             i -= 1
@@ -381,6 +382,7 @@ def wooden_key_bosses_list():
 def wooden_key_chests_list():
     return create_locked_chest_list("https://wiki.wizard101central.com/wiki/Category:Wooden_Skeleton_Key_Locked_Chests")
 
+# call all these functions once and store return to save time
 rematch_gear = rematch_item_list()
 raid_gear = raid_item_list()
 gold_key_bosses = gold_key_bosses_list()

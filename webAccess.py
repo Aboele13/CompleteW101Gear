@@ -1,10 +1,7 @@
 import os
 import urllib.parse
-from concurrent.futures import ThreadPoolExecutor, as_completed
 
-import pandas as pd
 import requests
-from bs4 import BeautifulSoup
 
 
 def fetch_url_content(url):

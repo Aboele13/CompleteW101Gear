@@ -196,6 +196,7 @@ def clean_mounts_df(df):
     df = only_show_necessary_cols(df)
     return sort_by_cols(df, "Damage", "Resist", "Health", "Pierce", "Critical")
 
+# this likely gets moved to html along with all the other objectively better functions
 def remove_normal_mounts(df):
     # List of columns to check
     stats = ['Health', 'Damage', 'Resist', 'Accuracy', 'Power Pip', 'Critical', 'Critical Block', 'Pierce', 'Stun Resist', 'Incoming', 'Outgoing', 'Pip Conserve', 'Shadow Pip', 'Archmastery']

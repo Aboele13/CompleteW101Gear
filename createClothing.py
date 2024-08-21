@@ -100,7 +100,7 @@ def format_extracted_info(extracted_info):
         if any(phrase in line for phrase in skip_phrases):
             continue
         # Clean up extra commas and percentage signs
-        cleaned_line = line.replace(',', '').replace('%', '').replace('(25px-28Icon29_', '').replace('(18px-28Icon29_', '').replace('(50px-28Icon29 ', '').replace('.png)', '').replace('_', ' ')
+        cleaned_line = line.replace(',', '').replace('%', '').replace('(25px-28Icon29_', '').replace('(18px-28Icon29_', '').replace('(50px-28Icon29', '').replace('(28Icon29_', '').replace('.png)', '').replace('_', ' ')
         formatted_info.append(cleaned_line)
     return formatted_info
 
@@ -149,12 +149,16 @@ def parse_bonuses(formatted_info, item_name):
         'Global Pip Conversion Rating': 0,
         'Shadow Pip Rating': 0,
         'Archmastery Rating': 0,
+        f'{school} Flat Damage': 0,
+        'Global Flat Damage': 0,
+        f'{school} Flat Resistance': 0,
+        'Global Flat Resistance': 0,
         'Sword Pins': 0,
         'Shield Pins': 0,
         'Power Pins': 0
     }
     
-    poss_school_spec_cate = ["Damage", "Resistance", "Accuracy", "Critical Rating", "Critical Block Rating", "Armor Piercing", "Pip Conversion Rating"]
+    poss_school_spec_cate = ["Damage", "Resistance", "Accuracy", "Critical Rating", "Critical Block Rating", "Armor Piercing", "Pip Conversion Rating", "Flat Damage", "Flat Resistance"]
     
     capture = False
     category_parts = []
@@ -262,13 +266,14 @@ def combine_school_and_global_stats(df):
     df["Critical"] = df[f"{school} Critical Rating"] + df["Global Critical Rating"]
     df["Pierce"] = df[f"{school} Armor Piercing"] + df["Global Armor Piercing"]
     df["Pip Conserve"] = df[f"{school} Pip Conversion Rating"] + df["Global Pip Conversion Rating"]
+    df["Flat Damage"] = df[f"{school} Flat Damage"] + df["Global Flat Damage"]
 
 def only_show_necessary_cols(df):
-    df.rename(columns={'Max Health': 'Health', 'Global Resistance': 'Resist', 'Power Pip Chance': 'Power Pip', 'Global Critical Block Rating': 'Critical Block', 'Stun Resistance': 'Stun Resist', 'Incoming Healing': 'Incoming', 'Outgoing Healing': 'Outgoing', 'Shadow Pip Rating': 'Shadow Pip', 'Archmastery Rating': 'Archmastery'}, inplace=True)
+    df.rename(columns={'Max Health': 'Health', 'Global Resistance': 'Resist', 'Power Pip Chance': 'Power Pip', 'Global Critical Block Rating': 'Critical Block', 'Stun Resistance': 'Stun Resist', 'Incoming Healing': 'Incoming', 'Outgoing Healing': 'Outgoing', 'Shadow Pip Rating': 'Shadow Pip', 'Archmastery Rating': 'Archmastery', 'Global Flat Resistance': 'Flat Resist'}, inplace=True)
     df["Level"] = df["Level"].astype(int)
     df["Owned"] = False
     
-    return df[['Name', 'Level', 'Health', 'Damage', 'Resist', 'Accuracy', 'Power Pip', 'Critical', 'Critical Block', 'Pierce', 'Stun Resist', 'Incoming', 'Outgoing', 'Pip Conserve', 'Shadow Pip', 'Archmastery', 'Sword Pins', 'Shield Pins', 'Power Pins', 'Source', 'Owned', 'Gear Set']]
+    return df[['Name', 'Level', 'Health', 'Damage', 'Resist', 'Accuracy', 'Power Pip', 'Critical', 'Critical Block', 'Pierce', 'Stun Resist', 'Incoming', 'Outgoing', 'Pip Conserve', 'Shadow Pip', 'Archmastery', 'Flat Damage', 'Flat Resist', 'Sword Pins', 'Shield Pins', 'Power Pins', 'Source', 'Owned', 'Gear Set']]
 
 def sort_by_cols(df, *args):
     return df.sort_values(by = list(args), ascending = [False] * len(args)).reset_index(drop=True)

@@ -148,6 +148,10 @@ def parse_bonuses(formatted_info, item_name):
         'Global Pip Conversion Rating': 0,
         'Shadow Pip Rating': 0,
         'Archmastery Rating': 0,
+        f'{school} Flat Damage': 0,
+        'Global Flat Damage': 0,
+        f'{school} Flat Resistance': 0,
+        'Global Flat Resistance': 0,
         'Unlocked Tear': 0,
         'Unlocked Circle': 0,
         'Unlocked Square': 0,
@@ -158,7 +162,7 @@ def parse_bonuses(formatted_info, item_name):
         'Locked Triangle': 0
     }
     
-    poss_school_spec_cate = ["Damage", "Resistance", "Accuracy", "Critical Rating", "Critical Block Rating", "Armor Piercing", "Pip Conversion Rating"]
+    poss_school_spec_cate = ["Damage", "Resistance", "Accuracy", "Critical Rating", "Critical Block Rating", "Armor Piercing", "Pip Conversion Rating", "Flat Damage", "Flat Resistance"]
     
     capture = False
     category_parts = []
@@ -275,8 +279,8 @@ def process_bullet_point(base_url, bullet_point):
         while "at start of battle." in formatted_info:
             at_start_of_battle_index = formatted_info.index("at start of battle.")
             num_pips_str = formatted_info[at_start_of_battle_index - 2].replace("+", "")
-            num_pips = 0 if num_pips_str == "No" else int(num_pips_str) 
-            pip_worth = 1 if formatted_info[at_start_of_battle_index - 1] == 'Pip' else 2
+            num_pips = 0 if num_pips_str == "No" else int(num_pips_str)
+            pip_worth = 1 if formatted_info[at_start_of_battle_index - 1] == 'Pip' else 2 # this needs to be updated if new pip value added
             total_pips += (num_pips * pip_worth)
             formatted_info = formatted_info[at_start_of_battle_index + 1:]
             
@@ -293,16 +297,17 @@ def combine_school_and_global_stats(df):
     df["Critical"] = df[f"{school} Critical Rating"] + df["Global Critical Rating"]
     df["Pierce"] = df[f"{school} Armor Piercing"] + df["Global Armor Piercing"]
     df["Pip Conserve"] = df[f"{school} Pip Conversion Rating"] + df["Global Pip Conversion Rating"]
+    df["Flat Damage"] = df[f"{school} Flat Damage"] + df["Global Flat Damage"]
 
 def only_show_necessary_cols(df):
-    df.rename(columns={'Max Health': 'Health', 'Global Resistance': 'Resist', 'Power Pip Chance': 'Power Pip', 'Global Critical Block Rating': 'Critical Block', 'Stun Resistance': 'Stun Resist', 'Incoming Healing': 'Incoming', 'Outgoing Healing': 'Outgoing', 'Shadow Pip Rating': 'Shadow Pip', 'Archmastery Rating': 'Archmastery'}, inplace=True)
+    df.rename(columns={'Max Health': 'Health', 'Global Resistance': 'Resist', 'Power Pip Chance': 'Power Pip', 'Global Critical Block Rating': 'Critical Block', 'Stun Resistance': 'Stun Resist', 'Incoming Healing': 'Incoming', 'Outgoing Healing': 'Outgoing', 'Shadow Pip Rating': 'Shadow Pip', 'Archmastery Rating': 'Archmastery', 'Global Flat Resistance': 'Flat Resist'}, inplace=True)
     df["Level"] = df["Level"].astype(int)
     df["Owned"] = False
     
     if gear_type == "Wand" or gear_type == "Deck":
-        return df[['Name', 'Level', 'Health', 'Damage', 'Resist', 'Accuracy', 'Power Pip', 'Critical', 'Critical Block', 'Pierce', 'Stun Resist', 'Incoming', 'Outgoing', 'Pip Conserve', 'Shadow Pip', 'Archmastery', 'Starting Pips', 'Unlocked Tear', 'Unlocked Circle', 'Unlocked Square', 'Unlocked Triangle', 'Locked Tear', 'Locked Circle', 'Locked Square', 'Locked Triangle', 'Source', 'Owned', 'Gear Set']]
+        return df[['Name', 'Level', 'Health', 'Damage', 'Resist', 'Accuracy', 'Power Pip', 'Critical', 'Critical Block', 'Pierce', 'Stun Resist', 'Incoming', 'Outgoing', 'Pip Conserve', 'Shadow Pip', 'Archmastery', 'Flat Damage', 'Flat Resist', 'Starting Pips', 'Unlocked Tear', 'Unlocked Circle', 'Unlocked Square', 'Unlocked Triangle', 'Locked Tear', 'Locked Circle', 'Locked Square', 'Locked Triangle', 'Source', 'Owned', 'Gear Set']]
     else:
-        return df[['Name', 'Level', 'Health', 'Damage', 'Resist', 'Accuracy', 'Power Pip', 'Critical', 'Critical Block', 'Pierce', 'Stun Resist', 'Incoming', 'Outgoing', 'Pip Conserve', 'Shadow Pip', 'Archmastery', 'Unlocked Tear', 'Unlocked Circle', 'Unlocked Square', 'Unlocked Triangle', 'Locked Tear', 'Locked Circle', 'Locked Square', 'Locked Triangle', 'Source', 'Owned', 'Gear Set']]
+        return df[['Name', 'Level', 'Health', 'Damage', 'Resist', 'Accuracy', 'Power Pip', 'Critical', 'Critical Block', 'Pierce', 'Stun Resist', 'Incoming', 'Outgoing', 'Pip Conserve', 'Shadow Pip', 'Archmastery', 'Flat Damage', 'Flat Resist', 'Unlocked Tear', 'Unlocked Circle', 'Unlocked Square', 'Unlocked Triangle', 'Locked Tear', 'Locked Circle', 'Locked Square', 'Locked Triangle', 'Source', 'Owned', 'Gear Set']]
 
 def sort_by_cols(df, *args):
     return df.sort_values(by = list(args), ascending = [False] * len(args)).reset_index(drop=True)

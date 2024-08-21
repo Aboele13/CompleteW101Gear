@@ -3,7 +3,6 @@ import urllib.parse
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import pandas as pd
-import requests
 from bs4 import BeautifulSoup
 
 from webAccess import fetch_url_content, replace_img_with_filename
@@ -191,6 +190,7 @@ def remove_normal_pets(df):
 
 def create_pet_variants(df):
     
+    # personal variations of a "perfect pet" (personal opinion)
     variations = [
         {"Name": "Max Damage", "Damage": 33, "Resist": 0, "Accuracy": 0, "Pierce": 0},
         {"Name": "Triple Double", "Damage": 25, "Resist": 17, "Accuracy": 0, "Pierce": 0},

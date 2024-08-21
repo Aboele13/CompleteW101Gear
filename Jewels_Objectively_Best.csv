@@ -1,0 +1,303 @@
+Name,Shape,Level,Effect
+Unearthly Health Sapphire +735,Square,170,+735 Health
+Unearthly Health Ruby +595,Square,170,+595 Health
+Unearthly Health Peridot +595,Square,170,+595 Health
+Unearthly Health Onyx +650,Square,170,+650 Health
+Unearthly Health Jade +775,Square,170,+775 Health
+Unearthly Health Citrine +670,Square,170,+670 Health
+Unearthly Health Amethyst +525,Square,170,+525 Health
+Unearthly Damage Sapphire +9% (Ice),Circle,170,+9 Ice Damage
+Unearthly Damage Ruby +10% (Fire),Circle,170,+10 Fire Damage
+Unearthly Damage Peridot +10% (Myth),Circle,170,+10 Myth Damage
+Unearthly Damage Onyx +11% (Death),Circle,170,+11 Death Damage
+Unearthly Damage Jade +9% (Life),Circle,170,+9 Life Damage
+Unearthly Damage Citrine +10% (Balance),Circle,170,+10 Balance Damage
+Unearthly Damage Amethyst +11% (Storm),Circle,170,+11 Storm Damage
+Flawless Health Opal +155,Tear,155,+155 Health
+Flawless Defense Opal +34,Square,155,+34 Global Flat Resistance
+Flawless Damage Sapphire +34,Circle,155,+34 Ice Flat Damage
+Flawless Damage Ruby +34,Circle,155,+34 Fire Flat Damage
+Flawless Damage Peridot +34,Circle,155,+34 Myth Flat Damage
+Flawless Damage Onyx +34,Circle,155,+34 Death Flat Damage
+Flawless Damage Jade +34,Circle,155,+34 Life Flat Damage
+Flawless Damage Citrine +34,Circle,155,+34 Balance Flat Damage
+Flawless Damage Amethyst +34,Circle,155,+34 Storm Flat Damage
+Flawless Accurate Sapphire +16%,Triangle,155,+16 Ice Accuracy
+Flawless Accurate Ruby +16%,Triangle,155,+16 Fire Accuracy
+Flawless Accurate Peridot +16%,Triangle,155,+16 Myth Accuracy
+Flawless Accurate Onyx +16%,Triangle,155,+16 Death Accuracy
+Flawless Accurate Jade +16%,Triangle,155,+16 Life Accuracy
+Flawless Accurate Citrine +16%,Triangle,155,+16 Balance Accuracy
+Flawless Accurate Amethyst +16%,Triangle,155,+16 Storm Accuracy
+Amazing Health Opal +145,Tear,145,+145 Health
+Amazing Defense Opal +32,Square,145,+32 Global Flat Resistance
+Amazing Damage Sapphire +32,Circle,145,+32 Ice Flat Damage
+Amazing Damage Ruby +32,Circle,145,+32 Fire Flat Damage
+Amazing Damage Peridot +32,Circle,145,+32 Myth Flat Damage
+Amazing Damage Onyx +32,Circle,145,+32 Death Flat Damage
+Amazing Damage Jade +32,Circle,145,+32 Life Flat Damage
+Amazing Damage Citrine +32,Circle,145,+32 Balance Flat Damage
+Amazing Damage Amethyst +32,Circle,145,+32 Storm Flat Damage
+Amazing Accurate Sapphire +15%,Triangle,145,+15 Ice Accuracy
+Amazing Accurate Ruby +15%,Triangle,145,+15 Fire Accuracy
+Amazing Accurate Peridot +15%,Triangle,145,+15 Myth Accuracy
+Amazing Accurate Onyx +15%,Triangle,145,+15 Death Accuracy
+Amazing Accurate Jade +15%,Triangle,145,+15 Life Accuracy
+Amazing Accurate Citrine +15%,Triangle,145,+15 Balance Accuracy
+Amazing Accurate Amethyst +15%,Triangle,145,+15 Storm Accuracy
+Dazzling Health Opal +135,Tear,135,+135 Health
+Dazzling Defense Opal +30,Square,135,+30 Global Flat Resistance
+Dazzling Damage Sapphire +30,Circle,135,+30 Ice Flat Damage
+Dazzling Damage Ruby +30,Circle,135,+30 Fire Flat Damage
+Dazzling Damage Peridot +30,Circle,135,+30 Myth Flat Damage
+Dazzling Damage Onyx +30,Circle,135,+30 Death Flat Damage
+Dazzling Damage Jade +30,Circle,135,+30 Life Flat Damage
+Dazzling Damage Citrine +30,Circle,135,+30 Balance Flat Damage
+Dazzling Damage Amethyst +30,Circle,135,+30 Storm Flat Damage
+Dazzling Accurate Sapphire +14%,Triangle,135,+14 Ice Accuracy
+Dazzling Accurate Ruby +14%,Triangle,135,+14 Fire Accuracy
+Dazzling Accurate Peridot +14%,Triangle,135,+14 Myth Accuracy
+Dazzling Accurate Onyx +14%,Triangle,135,+14 Death Accuracy
+Dazzling Accurate Jade +14%,Triangle,135,+14 Life Accuracy
+Dazzling Accurate Citrine +14%,Triangle,135,+14 Balance Accuracy
+Dazzling Accurate Amethyst +14%,Triangle,135,+14 Storm Accuracy
+Sparkling Health Opal +125,Tear,125,+125 Health
+Sparkling Defense Opal +28,Square,125,+28 Global Flat Resistance
+Sparkling Damage Sapphire +28,Circle,125,+28 Ice Flat Damage
+Sparkling Damage Ruby +28,Circle,125,+28 Fire Flat Damage
+Sparkling Damage Peridot +28,Circle,125,+28 Myth Flat Damage
+Sparkling Damage Onyx +28,Circle,125,+28 Death Flat Damage
+Sparkling Damage Jade +28,Circle,125,+28 Life Flat Damage
+Sparkling Damage Citrine +28,Circle,125,+28 Balance Flat Damage
+Sparkling Damage Amethyst +28,Circle,125,+28 Storm Flat Damage
+Sparkling Accurate Sapphire +13%,Triangle,125,+13 Ice Accuracy
+Sparkling Accurate Ruby +13%,Triangle,125,+13 Fire Accuracy
+Sparkling Accurate Peridot +13%,Triangle,125,+13 Myth Accuracy
+Sparkling Accurate Onyx +13%,Triangle,125,+13 Death Accuracy
+Sparkling Accurate Jade +13%,Triangle,125,+13 Life Accuracy
+Sparkling Accurate Citrine +13%,Triangle,125,+13 Balance Accuracy
+Sparkling Accurate Amethyst +13%,Triangle,125,+13 Storm Accuracy
+Shiny Health Opal +115,Tear,115,+115 Health
+Shiny Defense Opal +26,Square,115,+26 Global Flat Resistance
+Shiny Damage Sapphire +26,Circle,115,+26 Ice Flat Damage
+Shiny Damage Ruby +26,Circle,115,+26 Fire Flat Damage
+Shiny Damage Peridot +26,Circle,115,+26 Myth Flat Damage
+Shiny Damage Onyx +26,Circle,115,+26 Death Flat Damage
+Shiny Damage Jade +26,Circle,115,+26 Life Flat Damage
+Shiny Damage Citrine +26,Circle,115,+26 Balance Flat Damage
+Shiny Damage Amethyst +26,Circle,115,+26 Storm Flat Damage
+Shiny Accurate Sapphire +12%,Triangle,115,+12 Ice Accuracy
+Shiny Accurate Ruby +12%,Triangle,115,+12 Fire Accuracy
+Shiny Accurate Peridot +12%,Triangle,115,+12 Myth Accuracy
+Shiny Accurate Onyx +12%,Triangle,115,+12 Death Accuracy
+Shiny Accurate Jade +12%,Triangle,115,+12 Life Accuracy
+Shiny Accurate Citrine +12%,Triangle,115,+12 Balance Accuracy
+Shiny Accurate Amethyst +12%,Triangle,115,+12 Storm Accuracy
+Epic Opal,Triangle,115,Gives 1 Epic Item Card
+Lustrous PIP Opal +10%,Triangle,105,+10 Power Pip Chance
+Lustrous Health Opal +105,Tear,105,+105 Health
+Lustrous Defense Opal +24,Square,105,+24 Global Flat Resistance
+Lustrous Damage Sapphire +24,Circle,105,+24 Ice Flat Damage
+Lustrous Damage Ruby +24,Circle,105,+24 Fire Flat Damage
+Lustrous Damage Peridot +24,Circle,105,+24 Myth Flat Damage
+Lustrous Damage Onyx +24,Circle,105,+24 Death Flat Damage
+Lustrous Damage Jade +24,Circle,105,+24 Life Flat Damage
+Lustrous Damage Citrine +24,Circle,105,+24 Balance Flat Damage
+Lustrous Damage Amethyst +24,Circle,105,+24 Storm Flat Damage
+Lustrous Accurate Sapphire +11%,Triangle,105,+11 Ice Accuracy
+Lustrous Accurate Ruby +11%,Triangle,105,+11 Fire Accuracy
+Lustrous Accurate Peridot +11%,Triangle,105,+11 Myth Accuracy
+Lustrous Accurate Onyx +11%,Triangle,105,+11 Death Accuracy
+Lustrous Accurate Jade +11%,Triangle,105,+11 Life Accuracy
+Lustrous Accurate Citrine +11%,Triangle,105,+11 Balance Accuracy
+Lustrous Accurate Amethyst +11%,Triangle,105,+11 Storm Accuracy
+Polished Piercing Sapphire +6%,Circle,95,+6 Ice Armor Piercing
+Polished Piercing Ruby +6%,Circle,95,+6 Fire Armor Piercing
+Polished Piercing Peridot +6%,Circle,95,+6 Myth Armor Piercing
+Polished Piercing Onyx +6%,Circle,95,+6 Death Armor Piercing
+Polished Piercing Jade +6%,Circle,95,+6 Life Armor Piercing
+Polished Piercing Citrine +6%,Circle,95,+6 Balance Armor Piercing
+Polished Piercing Amethyst +6%,Circle,95,+6 Storm Armor Piercing
+Polished PIP Opal +9%,Triangle,95,+9 Power Pip Chance
+Polished Health Opal +95,Tear,95,+95 Health
+Polished Defense Opal +22,Square,95,+22 Global Flat Resistance
+Polished Damage Sapphire +22,Circle,95,+22 Ice Flat Damage
+Polished Damage Ruby +22,Circle,95,+22 Fire Flat Damage
+Polished Damage Peridot +22,Circle,95,+22 Myth Flat Damage
+Polished Damage Onyx +22,Circle,95,+22 Death Flat Damage
+Polished Damage Jade +22,Circle,95,+22 Life Flat Damage
+Polished Damage Citrine +22,Circle,95,+22 Balance Flat Damage
+Polished Damage Amethyst +22,Circle,95,+22 Storm Flat Damage
+Polished Accurate Sapphire +10%,Triangle,95,+10 Ice Accuracy
+Polished Accurate Ruby +10%,Triangle,95,+10 Fire Accuracy
+Polished Accurate Peridot +10%,Triangle,95,+10 Myth Accuracy
+Polished Accurate Onyx +10%,Triangle,95,+10 Death Accuracy
+Polished Accurate Jade +10%,Triangle,95,+10 Life Accuracy
+Polished Accurate Citrine +10%,Triangle,95,+10 Balance Accuracy
+Polished Accurate Amethyst +10%,Triangle,95,+10 Storm Accuracy
+Colossal Opal,Triangle,95,Gives 1 Colossal Item Card
+Clear Piercing Sapphire +5%,Circle,85,+5 Ice Armor Piercing
+Clear Piercing Ruby +5%,Circle,85,+5 Fire Armor Piercing
+Clear Piercing Peridot +5%,Circle,85,+5 Myth Armor Piercing
+Clear Piercing Onyx +5%,Circle,85,+5 Death Armor Piercing
+Clear Piercing Jade +5%,Circle,85,+5 Life Armor Piercing
+Clear Piercing Citrine +5%,Circle,85,+5 Balance Armor Piercing
+Clear Piercing Amethyst +5%,Circle,85,+5 Storm Armor Piercing
+Clear PIP Opal +8%,Triangle,85,+8 Power Pip Chance
+Clear Health Opal +85,Tear,85,+85 Health
+Clear Defense Opal +20,Square,85,+20 Global Flat Resistance
+Clear Damage Sapphire +20,Circle,85,+20 Ice Flat Damage
+Clear Damage Ruby +20,Circle,85,+20 Fire Flat Damage
+Clear Damage Peridot +20,Circle,85,+20 Myth Flat Damage
+Clear Damage Onyx +20,Circle,85,+20 Death Flat Damage
+Clear Damage Jade +20,Circle,85,+20 Life Flat Damage
+Clear Damage Citrine +20,Circle,85,+20 Balance Flat Damage
+Clear Damage Amethyst +20,Circle,85,+20 Storm Flat Damage
+Clear Accurate Sapphire +9%,Triangle,85,+9 Ice Accuracy
+Clear Accurate Ruby +9%,Triangle,85,+9 Fire Accuracy
+Clear Accurate Peridot +9%,Triangle,85,+9 Myth Accuracy
+Clear Accurate Onyx +9%,Triangle,85,+9 Death Accuracy
+Clear Accurate Jade +9%,Triangle,85,+9 Life Accuracy
+Clear Accurate Citrine +9%,Triangle,85,+9 Balance Accuracy
+Clear Accurate Amethyst +9%,Triangle,85,+9 Storm Accuracy
+Opaque Piercing Sapphire +4%,Circle,75,+4 Ice Armor Piercing
+Opaque Piercing Ruby +4%,Circle,75,+4 Fire Armor Piercing
+Opaque Piercing Peridot +4%,Circle,75,+4 Myth Armor Piercing
+Opaque Piercing Onyx +4%,Circle,75,+4 Death Armor Piercing
+Opaque Piercing Jade +4%,Circle,75,+4 Life Armor Piercing
+Opaque Piercing Citrine +4%,Circle,75,+4 Balance Armor Piercing
+Opaque Piercing Amethyst +4%,Circle,75,+4 Storm Armor Piercing
+Opaque PIP Opal +7%,Triangle,75,+7 Power Pip Chance
+Opaque Health Opal +75,Tear,75,+75 Health
+Opaque Defense Opal +18,Square,75,+18 Global Flat Resistance
+Opaque Damage Sapphire +18,Circle,75,+18 Ice Flat Damage
+Opaque Damage Ruby +18,Circle,75,+18 Fire Flat Damage
+Opaque Damage Peridot +18,Circle,75,+18 Myth Flat Damage
+Opaque Damage Onyx +18,Circle,75,+18 Death Flat Damage
+Opaque Damage Jade +18,Circle,75,+18 Life Flat Damage
+Opaque Damage Citrine +18,Circle,75,+18 Balance Flat Damage
+Opaque Damage Amethyst +18,Circle,75,+18 Storm Flat Damage
+Opaque Accurate Sapphire +8%,Triangle,75,+8 Ice Accuracy
+Opaque Accurate Ruby +8%,Triangle,75,+8 Fire Accuracy
+Opaque Accurate Peridot +8%,Triangle,75,+8 Myth Accuracy
+Opaque Accurate Onyx +8%,Triangle,75,+8 Death Accuracy
+Opaque Accurate Jade +8%,Triangle,75,+8 Life Accuracy
+Opaque Accurate Citrine +8%,Triangle,75,+8 Balance Accuracy
+Opaque Accurate Amethyst +8%,Triangle,75,+8 Storm Accuracy
+Plain Piercing Sapphire +3%,Circle,65,+3 Ice Armor Piercing
+Plain Piercing Ruby +3%,Circle,65,+3 Fire Armor Piercing
+Plain Piercing Peridot +3%,Circle,65,+3 Myth Armor Piercing
+Plain Piercing Onyx +3%,Circle,65,+3 Death Armor Piercing
+Plain Piercing Jade +3%,Circle,65,+3 Life Armor Piercing
+Plain Piercing Citrine +3%,Circle,65,+3 Balance Armor Piercing
+Plain Piercing Amethyst +3%,Circle,65,+3 Storm Armor Piercing
+Plain PIP Opal +6%,Triangle,65,+6 Power Pip Chance
+Plain Health Opal +65,Tear,65,+65 Health
+Plain Defense Opal +16,Square,65,+16 Global Flat Resistance
+Plain Damage Sapphire +16,Circle,65,+16 Ice Flat Damage
+Plain Damage Ruby +16,Circle,65,+16 Fire Flat Damage
+Plain Damage Peridot +16,Circle,65,+16 Myth Flat Damage
+Plain Damage Onyx +16,Circle,65,+16 Death Flat Damage
+Plain Damage Jade +16,Circle,65,+16 Life Flat Damage
+Plain Damage Citrine +16,Circle,65,+16 Balance Flat Damage
+Plain Damage Amethyst +16,Circle,65,+16 Storm Flat Damage
+Plain Accurate Sapphire +7%,Triangle,65,+7 Ice Accuracy
+Plain Accurate Ruby +7%,Triangle,65,+7 Fire Accuracy
+Plain Accurate Peridot +7%,Triangle,65,+7 Myth Accuracy
+Plain Accurate Onyx +7%,Triangle,65,+7 Death Accuracy
+Plain Accurate Jade +7%,Triangle,65,+7 Life Accuracy
+Plain Accurate Citrine +7%,Triangle,65,+7 Balance Accuracy
+Plain Accurate Amethyst +7%,Triangle,65,+7 Storm Accuracy
+Dull Piercing Sapphire +2%,Circle,55,+2 Ice Armor Piercing
+Dull Piercing Ruby +2%,Circle,55,+2 Fire Armor Piercing
+Dull Piercing Peridot +2%,Circle,55,+2 Myth Armor Piercing
+Dull Piercing Onyx +2%,Circle,55,+2 Death Armor Piercing
+Dull Piercing Jade +2%,Circle,55,+2 Life Armor Piercing
+Dull Piercing Citrine +2%,Circle,55,+2 Balance Armor Piercing
+Dull Piercing Amethyst +2%,Circle,55,+2 Storm Armor Piercing
+Dull PIP Opal +5%,Triangle,55,+5 Power Pip Chance
+Dull Health Opal +55,Tear,55,+55 Health
+Dull Defense Opal +14,Square,55,+14 Global Flat Resistance
+Dull Damage Sapphire +14,Circle,55,+14 Ice Flat Damage
+Dull Damage Ruby +14,Circle,55,+14 Fire Flat Damage
+Dull Damage Peridot +14,Circle,55,+14 Myth Flat Damage
+Dull Damage Onyx +14,Circle,55,+14 Death Flat Damage
+Dull Damage Jade +14,Circle,55,+14 Life Flat Damage
+Dull Damage Citrine +14,Circle,55,+14 Balance Flat Damage
+Dull Damage Amethyst +14,Circle,55,+14 Storm Flat Damage
+Dull Accurate Sapphire +6%,Triangle,55,+6 Ice Accuracy
+Dull Accurate Ruby +6%,Triangle,55,+6 Fire Accuracy
+Dull Accurate Peridot +6%,Triangle,55,+6 Myth Accuracy
+Dull Accurate Onyx +6%,Triangle,55,+6 Death Accuracy
+Dull Accurate Jade +6%,Triangle,55,+6 Life Accuracy
+Dull Accurate Citrine +6%,Triangle,55,+6 Balance Accuracy
+Dull Accurate Amethyst +6%,Triangle,55,+6 Storm Accuracy
+Blemished PIP Opal +4%,Triangle,45,+4 Power Pip Chance
+Blemished Health Opal +45,Tear,45,+45 Health
+Blemished Defense Opal +12,Square,45,+12 Global Flat Resistance
+Blemished Damage Sapphire +12,Circle,45,+12 Ice Flat Damage
+Blemished Damage Ruby +12,Circle,45,+12 Fire Flat Damage
+Blemished Damage Peridot +12,Circle,45,+12 Myth Flat Damage
+Blemished Damage Onyx +12,Circle,45,+12 Death Flat Damage
+Blemished Damage Jade +12,Circle,45,+12 Life Flat Damage
+Blemished Damage Citrine +12,Circle,45,+12 Balance Flat Damage
+Blemished Damage Amethyst +12,Circle,45,+12 Storm Flat Damage
+Blemished Accurate Sapphire +5%,Triangle,45,+5 Ice Accuracy
+Blemished Accurate Ruby +5%,Triangle,45,+5 Fire Accuracy
+Blemished Accurate Peridot +5%,Triangle,45,+5 Myth Accuracy
+Blemished Accurate Onyx +5%,Triangle,45,+5 Death Accuracy
+Blemished Accurate Jade +5%,Triangle,45,+5 Life Accuracy
+Blemished Accurate Citrine +5%,Triangle,45,+5 Balance Accuracy
+Blemished Accurate Amethyst +5%,Triangle,45,+5 Storm Accuracy
+Flawed PIP Opal +3%,Triangle,35,+3 Power Pip Chance
+Flawed Health Opal +35,Tear,35,+35 Health
+Flawed Defense Opal +10,Square,35,+10 Global Flat Resistance
+Flawed Damage Sapphire +10,Circle,35,+10 Ice Flat Damage
+Flawed Damage Ruby +10,Circle,35,+10 Fire Flat Damage
+Flawed Damage Peridot +10,Circle,35,+10 Myth Flat Damage
+Flawed Damage Onyx +10,Circle,35,+10 Death Flat Damage
+Flawed Damage Jade +10,Circle,35,+10 Life Flat Damage
+Flawed Damage Citrine +10,Circle,35,+10 Balance Flat Damage
+Flawed Damage Amethyst +10,Circle,35,+10 Storm Flat Damage
+Flawed Accurate Sapphire +4%,Triangle,35,+4 Ice Accuracy
+Flawed Accurate Ruby +4%,Triangle,35,+4 Fire Accuracy
+Flawed Accurate Peridot +4%,Triangle,35,+4 Myth Accuracy
+Flawed Accurate Onyx +4%,Triangle,35,+4 Death Accuracy
+Flawed Accurate Jade +4%,Triangle,35,+4 Life Accuracy
+Flawed Accurate Citrine +4%,Triangle,35,+4 Balance Accuracy
+Flawed Accurate Amethyst +4%,Triangle,35,+4 Storm Accuracy
+Chipped PIP Opal +2%,Triangle,25,+2 Power Pip Chance
+Chipped Health Opal +25,Tear,25,+25 Health
+Chipped Defense Opal +8,Square,25,+8 Global Flat Resistance
+Chipped Damage Sapphire +8,Circle,25,+8 Ice Flat Damage
+Chipped Damage Ruby +8,Circle,25,+8 Fire Flat Damage
+Chipped Damage Peridot +8,Circle,25,+8 Myth Flat Damage
+Chipped Damage Onyx +8,Circle,25,+8 Death Flat Damage
+Chipped Damage Jade +8,Circle,25,+8 Life Flat Damage
+Chipped Damage Citrine +8,Circle,25,+8 Balance Flat Damage
+Chipped Damage Amethyst +8,Circle,25,+8 Storm Flat Damage
+Chipped Accurate Sapphire +3%,Triangle,25,+3 Ice Accuracy
+Chipped Accurate Ruby +3%,Triangle,25,+3 Fire Accuracy
+Chipped Accurate Peridot +3%,Triangle,25,+3 Myth Accuracy
+Chipped Accurate Onyx +3%,Triangle,25,+3 Death Accuracy
+Chipped Accurate Jade +3%,Triangle,25,+3 Life Accuracy
+Chipped Accurate Citrine +3%,Triangle,25,+3 Balance Accuracy
+Chipped Accurate Amethyst +3%,Triangle,25,+3 Storm Accuracy
+Cracked Health Opal +15,Tear,15,+15 Health
+Cracked Defense Opal +6,Square,15,+6 Global Flat Resistance
+Cracked Damage Sapphire +6,Circle,15,+6 Ice Flat Damage
+Cracked Damage Ruby +6,Circle,15,+6 Fire Flat Damage
+Cracked Damage Peridot +6,Circle,15,+6 Myth Flat Damage
+Cracked Damage Onyx +6,Circle,15,+6 Death Flat Damage
+Cracked Damage Jade +6,Circle,15,+6 Life Flat Damage
+Cracked Damage Citrine +6,Circle,15,+6 Balance Flat Damage
+Cracked Damage Amethyst +6,Circle,15,+6 Storm Flat Damage
+Cracked Accurate Sapphire +2%,Triangle,15,+2 Ice Accuracy
+Cracked Accurate Ruby +2%,Triangle,15,+2 Fire Accuracy
+Cracked Accurate Peridot +2%,Triangle,15,+2 Myth Accuracy
+Cracked Accurate Onyx +2%,Triangle,15,+2 Death Accuracy
+Cracked Accurate Jade +2%,Triangle,15,+2 Life Accuracy
+Cracked Accurate Citrine +2%,Triangle,15,+2 Balance Accuracy
+Cracked Accurate Amethyst +2%,Triangle,15,+2 Storm Accuracy
+Cracked Archmastery Opal +1 (Tear),Tear,1,+1 Archmastery Rating
+Cracked Archmastery Opal +1 (Square),Square,1,+1 Archmastery Rating
