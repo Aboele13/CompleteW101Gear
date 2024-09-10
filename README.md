@@ -1,6 +1,8 @@
 TODO:
 
-- save a list of urls that did not work correctly
+- python:
+    - create gear sets dataframes
+    - create list of items with damage enchantment item cards (must be benfifical (check level))
 
 - function to acknowledge enchantment item cards (called on set)
 

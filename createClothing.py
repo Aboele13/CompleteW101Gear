@@ -222,13 +222,13 @@ def parse_bonuses(formatted_info, item_name):
         sword_pins = formatted_info.count("Sword Socket")
         shield_pins = formatted_info.count("Shield Socket")
         power_pins = formatted_info.count("Power Socket")
-        bonuses['Sword Pins'] = sword_pins
-        bonuses['Shield Pins'] = shield_pins
-        bonuses['Power Pins'] = power_pins
+        bonuses['Sword Pins'] = int(sword_pins)
+        bonuses['Shield Pins'] = int(shield_pins)
+        bonuses['Power Pins'] = int(power_pins)
     
     return bonuses
 
-def process_bullet_point(base_url, bullet_point):
+def process_bullet_point(base_url, bullet_point, bad_urls):
     item_name = bullet_point['text'].replace("Item:", "").strip()
     
     # Construct absolute URL for the hyperlink
@@ -258,6 +258,7 @@ def process_bullet_point(base_url, bullet_point):
         return item_data
     else:
         print(f"Failed to fetch content from {full_url}")
+        bad_urls.append(full_url)
         return None
 
 def combine_school_and_global_stats(df):
@@ -275,26 +276,25 @@ def only_show_necessary_cols(df):
     
     return df[['Name', 'Level', 'Health', 'Damage', 'Resist', 'Accuracy', 'Power Pip', 'Critical', 'Critical Block', 'Pierce', 'Stun Resist', 'Incoming', 'Outgoing', 'Pip Conserve', 'Shadow Pip', 'Archmastery', 'Flat Damage', 'Flat Resist', 'Sword Pins', 'Shield Pins', 'Power Pins', 'Source', 'Owned', 'Gear Set']]
 
-def sort_by_cols(df, *args):
-    return df.sort_values(by = list(args), ascending = [False] * len(args)).reset_index(drop=True)
-
 def clean_gear_df(df):
     combine_school_and_global_stats(df)
     df = only_show_necessary_cols(df)
-    return sort_by_cols(df, "Damage", "Resist", "Health", "Pierce", "Critical")
+    df = df.sort_values(by = ["Damage", "Resist", "Health", "Pierce", "Critical", "Critical Block", "Shadow Pip", "Archmastery", "Accuracy", "Power Pip", "Incoming", "Outgoing", "Pip Conserve", "Stun Resist", "Sword Pins", "Shield Pins", "Power Pins", "Flat Damage", "Flat Resist", "Owned", "Gear Set", "Name"],
+                        ascending = [False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, True, True]).reset_index(drop=True)
+    return df
 
 def create_clothing(main_school):
     
     global school
     school = main_school
-            
-    df_list = []
     
+    bad_urls = []
+
     for type in gear_types:
         
         global gear_type
         gear_type = type
-    
+            
         base_url = "https://wiki.wizard101central.com"
         urls = [f"https://wiki.wizard101central.com/wiki/index.php?title=Category:{school}_School_{gear_type}s",
             f"https://wiki.wizard101central.com/wiki/Category:Any_School_{gear_type}s"
@@ -313,7 +313,7 @@ def create_clothing(main_school):
                     bullet_points = extract_bullet_points_from_html(html_content)
 
                     with ThreadPoolExecutor(max_workers=85) as executor:
-                        futures = [executor.submit(process_bullet_point, base_url, bp) for bp in bullet_points]
+                        futures = [executor.submit(process_bullet_point, base_url, bp, bad_urls) for bp in bullet_points]
                         for future in as_completed(futures):
                             item_data = future.result()
                             if item_data:
@@ -333,8 +333,6 @@ def create_clothing(main_school):
         df = pd.DataFrame(items_data).fillna(0)  # fill all empty values with 0
         df = clean_gear_df(df)
         print(df)
-        df.to_csv(f'{school}_Gear\\{school}_{gear_type}s.csv', index=False)
-        
-        df_list.append(df)
+        df.to_csv(f'Gear\\{school}_Gear\\{school}_{gear_type}s.csv', index=False)
     
-    return df_list
+    return bad_urls

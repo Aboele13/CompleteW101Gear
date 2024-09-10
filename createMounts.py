@@ -135,13 +135,13 @@ def parse_bonuses(info_lines, item_name):
                         value = int(stat[0][1:])
                         category = " ".join(stat[1:])
                         if category in bonuses:
-                            bonuses[category] = value
+                            bonuses[category] = int(value)
                             break
                     j -= 1
     
     return bonuses
 
-def process_bullet_point(base_url, bullet_point):
+def process_bullet_point(base_url, bullet_point, bad_urls):
     item_name = bullet_point['text'].replace("Mount:", "").strip()
     
     # Construct absolute URL for the hyperlink
@@ -172,6 +172,7 @@ def process_bullet_point(base_url, bullet_point):
         return item_data
     else:
         print(f"Failed to fetch content from {full_url}")
+        bad_urls.append(full_url)
         return None
 
 def combine_school_and_global_stats(df):
@@ -188,14 +189,12 @@ def only_show_necessary_cols(df):
     
     return df[['Name', 'Level', 'Health', 'Damage', 'Resist', 'Accuracy', 'Power Pip', 'Critical', 'Critical Block', 'Pierce', 'Stun Resist', 'Incoming', 'Outgoing', 'Pip Conserve', 'Shadow Pip', 'Archmastery', 'Source', 'Owned', 'Gear Set']]
 
-def sort_by_cols(df, *args):
-    return df.sort_values(by = list(args), ascending = [False] * len(args)).reset_index(drop=True)
-
 def clean_mounts_df(df):
     combine_school_and_global_stats(df)
     df = only_show_necessary_cols(df)
-    return sort_by_cols(df, "Damage", "Resist", "Health", "Pierce", "Critical")
-
+    df = df.sort_values(by = ["Damage", "Resist", "Health", "Pierce", "Critical", "Accuracy", "Power Pip", "Critical Block", "Shadow Pip", "Archmastery", "Incoming", "Outgoing", "Pip Conserve", "Stun Resist", "Gear Set", "Owned", "Name"],
+                        ascending = [False, False, False, False, False, False, False, False, False, False, False, False, False, False, True, False, True]).reset_index(drop=True)
+    return df
 # this likely gets moved to html along with all the other objectively better functions
 def remove_normal_mounts(df):
     # List of columns to check
@@ -226,6 +225,8 @@ def create_mounts(main_school):
     url = "https://wiki.wizard101central.com/wiki/index.php?title=Category:Mounts"
     
     items_data = []
+    
+    bad_urls = []
 
     while url:
         # Fetch content from the URL
@@ -237,7 +238,7 @@ def create_mounts(main_school):
             bullet_points = extract_bullet_points_from_html(html_content)
 
             with ThreadPoolExecutor(max_workers=85) as executor:
-                futures = [executor.submit(process_bullet_point, base_url, bp) for bp in bullet_points]
+                futures = [executor.submit(process_bullet_point, base_url, bp, bad_urls) for bp in bullet_points]
                 for future in as_completed(futures):
                     item_data = future.result()
                     if item_data:
@@ -258,6 +259,6 @@ def create_mounts(main_school):
     df = clean_mounts_df(df)
     # df = remove_normal_mounts(df) # save this function as a "remove objectively worse"
     print(df)
-    df.to_csv(f'{school}_Gear\\{school}_Mounts.csv', index=False)
+    df.to_csv(f'Gear\\{school}_Gear\\{school}_Mounts.csv', index=False)
         
-    return df
+    return bad_urls

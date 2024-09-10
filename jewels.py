@@ -10,87 +10,6 @@ from webAccess import fetch_url_content, replace_img_with_filename
 
 shape = ""
 
-# this needs to collect from the df (probably html?)
-def get_jewel_effects(school, level):
-    return [155, 11, 6, 550, 16, 10]
-
-# def jewel_the_gear(df):
-#     # Create new rows for each item with each variation
-#     new_rows = []
-#     for i, row in df.iterrows():
-#         # original (unjeweled)
-#         new_rows.append(row.to_dict())
-        
-#         # unlocked combinations
-#         if any(row[col] != 0 for col in ['Unlocked Tear', 'Unlocked Circle', 'Unlocked Square', 'Unlocked Triangle']):
-#             new_rows.extend(jewel_unlocked_sockets(row))
-        
-#         # locked combinations
-#         if any(row[col] != 0 for col in ['Locked Tear', 'Locked Circle', 'Locked Square', 'Locked Triangle']):
-#             new_rows.extend(jewel_locked_sockets(row))
-    
-#     return pd.DataFrame(new_rows)
-
-# def jewel_unlocked_sockets(item):
-#     # Define the conversions
-#     conversions = {
-#         'Unlocked Tear': ('Health', jewel_effects[0]),
-#         'Unlocked Circle': [('Damage', jewel_effects[1]), ('Pierce', jewel_effects[2])],
-#         'Unlocked Square': ('Health', jewel_effects[3]),
-#         'Unlocked Triangle': [('Accuracy', jewel_effects[4]), ('Pips', jewel_effects[5])]
-#     }
-    
-#     # Start with the base item, converting Tears and Squares
-#     base_item = item.copy()
-#     for col, (target, value) in [('Unlocked Tear', conversions['Unlocked Tear']), ('Unlocked Square', conversions['Unlocked Square'])]:
-#         base_item[target] += value * base_item[col]
-#         base_item[col] = 0
-
-#     # List to hold all variants
-#     variants = []
-
-#     # Generate all unique combinations for Circles and Triangles
-#     circle_combinations = list(combinations_with_replacement(conversions['Unlocked Circle'], item['Unlocked Circle']))
-#     triangle_combinations = list(combinations_with_replacement(conversions['Unlocked Triangle'], item['Unlocked Triangle']))
-
-#     # Create variants based on the combinations
-#     for circle_combo in circle_combinations:
-#         for triangle_combo in triangle_combinations:
-#             variant = base_item.copy()
-            
-#             # Apply circle effects
-#             for (effect, value), count in {(effect, value): circle_combo.count((effect, value)) for (effect, value) in set(circle_combo)}.items():
-#                 variant[effect] += value * count
-            
-#             # Apply triangle effects
-#             for (effect, value), count in {(effect, value): triangle_combo.count((effect, value)) for (effect, value) in set(triangle_combo)}.items():
-#                 variant[effect] += value * count
-            
-#             # Reset conversion items to 0
-#             for key in ['Unlocked Tear', 'Unlocked Circle', 'Unlocked Square', 'Unlocked Triangle']:
-#                 variant[key] = 0
-            
-#             # Convert to dict and add Name
-#             variant_dict = variant.to_dict()
-#             variant_dict['Name'] = item['Name']  # Keep the original name for all variants
-            
-#             variants.append(variant_dict)
-    
-#     return variants
-
-# def jewel_locked_sockets(item):
-#     item["Unlocked Tear"] += item["Locked Tear"]
-#     item["Unlocked Circle"] += item["Locked Circle"]
-#     item["Unlocked Square"] += item["Locked Square"]
-#     item["Unlocked Triangle"] += item["Locked Triangle"]
-    
-#     item["Locked Tear"] = 0
-#     item["Locked Circle"] = 0
-#     item["Locked Square"] = 0
-#     item["Locked Triangle"] = 0
-    
-#     return jewel_unlocked_sockets(item)
-
 def extract_bullet_points_from_html(html_content):
     if html_content is None:
         return []
@@ -160,7 +79,7 @@ def format_extracted_info(extracted_info):
         formatted_info.append(cleaned_line)
     return formatted_info
 
-def process_bullet_point(base_url, bullet_point):
+def process_bullet_point(base_url, bullet_point, bad_urls):
     item_name = bullet_point['text'].replace("Jewel:", "").strip()
     
     # Construct absolute URL for the hyperlink
@@ -181,6 +100,7 @@ def process_bullet_point(base_url, bullet_point):
         return jewel_data
     else:
         print(f"Failed to fetch content from {full_url}")
+        bad_urls.append(full_url)
         return None
 
 # need to get level and effect
@@ -189,6 +109,7 @@ def find_bonus(formatted_info, item_name):
     bonus = {
         "Shape": shape,
         "Level": 1,
+        "School": "Any",
         "Effect": "None"
     }
     
@@ -197,12 +118,11 @@ def find_bonus(formatted_info, item_name):
             bonus["Level"] = int(formatted_info[i].split("(Level ")[1].split("+")[0])
         elif formatted_info[i] == "Level":
             bonus["Level"] = 1 if formatted_info[i + 1] == "Any" else int(formatted_info[i + 1].replace("+", ""))
+        elif formatted_info[i] == "School":
+            bonus["School"] = formatted_info[i + 1]
         elif formatted_info[i] == "Effect":
             bonus["Effect"] = " ".join(formatted_info[i + 1:])
             return bonus
-
-def clean_jewel_df(df):
-    return df.sort_values(by = ["Level", "Name"], ascending = [False, False]).reset_index(drop=True)
 
 def keep_right_kind(df):
     
@@ -220,25 +140,29 @@ def keep_right_kind(df):
     # remove "Health" item cards
     return df[~df["Effect"].str.contains("Health Item Card")]
 
-def only_own_school_170(df):
+# everything has a space in front because it won't be the first word in jewel name
+def only_own_school(df, school):
     
-    # keep 170+ damage jewels school specific
-    schools = ["(Death)", "(Fire)", "(Balance)", "(Myth)", "(Storm)", "(Ice)", "(Life)"]
-    jewels = ["Onyx", "Ruby", "Citrine", "Peridot", "Amethyst", "Sapphire", "Jade"]
-
-    # Iterate over the DataFrame and collect indices to drop
-    indices_to_drop = []
-
-    for index, row in df.iterrows():
-        # Check if the last word in the 'Name' column matches any of the schools
-        school_found = next((school for school in schools if school == row["Name"].split()[-1]), None)
-        
-        # if the jewel's effect is not for the jewel's school
-        if school_found and jewels[schools.index(school_found)] not in row["Name"]:
-            indices_to_drop.append(index)
-
-    # Drop the collected indices from the DataFrame
-    df.drop(indices_to_drop, inplace=True)
+    # jewels to keep
+    good_jewels = [" Opal"]
+    
+    if school == "Death":
+        good_jewels.append(" Onyx")
+    elif school == "Fire":
+        good_jewels.append(" Ruby")
+    elif school == "Balance":
+        good_jewels.append(" Citrine")
+    elif school == "Myth":
+        good_jewels.append(" Peridot")
+    elif school == "Storm":
+        good_jewels.append(" Amethyst")
+    elif school == "Ice":
+        good_jewels.append(" Sapphire")
+    elif school == "Life":
+        good_jewels.append(" Jade")
+    
+    # only keep jewels that help this school
+    df = df[df["Name"].str.contains("|".join(good_jewels))]
     
     return df
 
@@ -266,21 +190,39 @@ def best_at_level(df):
     
     return df
 
-def objectively_best_jewels(df):
+def objectively_best_jewels(df, school):
 
     df = keep_right_kind(df).reset_index(drop=True)
     
-    df = only_own_school_170(df).reset_index(drop=True)
+    df = only_own_school(df, school).reset_index(drop=True)
     
     df = best_at_level(df).reset_index(drop=True)
     
     return df
 
-def collect_jewels():
+def create_school_jewels(schools):
+    
+    # all jewels for each school (for create set)
+    for school in schools:
+        df = pd.read_csv(f'Jewels\\All_Jewels.csv')
+        df = df[df["School"].isin([school, "Any"])]
+        df = df.drop(columns=['School'])
+        df.to_csv(f'Jewels\\{school}_Jewels\\All_{school}_Jewels.csv', index=False)
+        
+    # only objectively best for each school (for view sets)
+    for school in schools:
+        df = pd.read_csv(f'Jewels\\{school}_Jewels\\All_{school}_Jewels.csv')
+        df = objectively_best_jewels(df, school)
+        df.to_csv(f'Jewels\\{school}_Jewels\\Objectively_Best_{school}_Jewels.csv', index=False)
+
+
+def collect_jewels(schools):
     
     base_url = "https://wiki.wizard101central.com"
 
     jewels_data = []
+    
+    bad_urls = []
     
     # need to update if they add more jewel shapes
     good_jewel_shapes = ["Tear", "Circle", "Square", "Triangle"]
@@ -300,7 +242,7 @@ def collect_jewels():
                 bullet_points = extract_bullet_points_from_html(html_content)
 
                 with ThreadPoolExecutor(max_workers=85) as executor:
-                    futures = [executor.submit(process_bullet_point, base_url, bp) for bp in bullet_points]
+                    futures = [executor.submit(process_bullet_point, base_url, bp, bad_urls) for bp in bullet_points]
                     for future in as_completed(futures):
                         jewel_data = future.result()
                         if jewel_data:
@@ -320,13 +262,12 @@ def collect_jewels():
     
     # all jewels together (for create set)
     df = pd.DataFrame(jewels_data).fillna(0)  # fill all empty values with 0
-    df = clean_jewel_df(df)
+    df = df.sort_values(by = ["Level", "School", "Name"], ascending = [False, True, False]).reset_index(drop=True) # sort it
     print(df)
-    df.to_csv(f'Jewels_All.csv', index=False)
+    df.to_csv(f'Jewels\\All_Jewels.csv', index=False)
     
-    # objectively best jewels (for view sets)
-    df = objectively_best_jewels(pd.read_csv("Jewels_All.csv"))
-    print(df)
-    df.to_csv(f'Jewels_Objectively_Best.csv', index=False)
+    # create dataframes for each school
+    create_school_jewels(schools)
     
-    return df
+    return bad_urls
+

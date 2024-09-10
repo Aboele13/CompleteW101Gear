@@ -77,7 +77,7 @@ def create_pip_conv_lists():
     lines = pip_conversion_lines()
     
     # lists (Level, Fire, Ice, Storm, Myth, Life, Death, Balance)
-    lists = [[] for _ in range(8)] 
+    lists = [[] for _ in range(8)]
     
     list_i = 0
     for line in lines:
@@ -158,7 +158,15 @@ def clean_lists(lists):
     
     return lists
 
-def get_base_values():
+def create_school_base_values(schools):
+    
+    for school in schools:
+        df = pd.read_csv("Base_Values\\All_Base_Values.csv")
+        df = df[["Level", f"{school} HP", "Power Pip", "Shadow Pip", "Archmastery", f"{school} Pip Conserve"]]
+        df.rename(columns={f'{school} HP': 'Health', f'{school} Pip Conserve': 'Pip Conserve'}, inplace=True)
+        df.to_csv(f'Base_Values\\{school}_Base_Values.csv', index=False)
+
+def get_base_values(schools):
     
     lists = create_hp_lists()
     lists.extend(create_pip_conv_lists())
@@ -175,8 +183,8 @@ def get_base_values():
         "Life HP": life,
         "Death HP": death,
         "Balance HP": balance,
-        "Power Pips": pip,
-        "Shadow Pips": shad,
+        "Power Pip": pip,
+        "Shadow Pip": shad,
         "Archmastery": arch,
         "Fire Pip Conserve": fire_pc,
         "Ice Pip Conserve": ice_pc,
@@ -190,7 +198,10 @@ def get_base_values():
     # move all items to dataframe
     df = pd.DataFrame(data).fillna(0)  # fill all empty values with 0
     print(df)
-    df.to_csv(f'Base_Values.csv', index=False)
+    df.to_csv(f'Base_Values\\All_Base_Values.csv', index=False)
+    
+    # create dataframes for each school
+    create_school_base_values(schools)
     
     return df
 

@@ -120,7 +120,7 @@ def parse_bonuses(info_lines, item_name):
     
     return bonuses
 
-def process_bullet_point(base_url, bullet_point):
+def process_bullet_point(base_url, bullet_point, bad_urls):
     item_name = bullet_point['text'].replace("Pet:", "").strip()
     
     # Construct absolute URL for the hyperlink
@@ -145,6 +145,7 @@ def process_bullet_point(base_url, bullet_point):
         return item_data
     else:
         print(f"Failed to fetch content from {full_url}")
+        bad_urls.append(full_url)
         return None
 
 def combine_school_and_global_stats(df):
@@ -160,9 +161,6 @@ def only_show_necessary_cols(df):
     df["Owned"] = False
     
     return df[['Name', 'Level', 'Health', 'Damage', 'Resist', 'Accuracy', 'Power Pip', 'Critical', 'Critical Block', 'Pierce', 'Stun Resist', 'Incoming', 'Outgoing', 'Pip Conserve', 'Shadow Pip', 'Archmastery', 'Owned', 'Gear Set']]
-
-def sort_by_cols(df, *args):
-    return df.sort_values(by = list(args), ascending = [False] * len(args)).reset_index(drop=True)
 
 def clean_pets_df(df):
     combine_school_and_global_stats(df)
@@ -221,17 +219,22 @@ def create_pet_variants(df):
     # Create a new DataFrame with the new rows
     new_df = pd.DataFrame(new_rows)
     
-    return sort_by_cols(new_df, "Damage", "Resist", "Health", "Pierce", "Critical")
+    new_df = new_df.sort_values(by = ["Damage", "Resist", "Health", "Pierce", "Critical", "Accuracy", "Power Pip", "Critical Block", "Shadow Pip", "Archmastery", "Incoming", "Outgoing", "Pip Conserve", "Stun Resist", "Gear Set", "Owned", "Name"],
+                        ascending = [False, False, False, False, False, False, False, False, False, False, False, False, False, False, True, False, True]).reset_index(drop=True)
+    
+    return new_df
 
 def create_pets(main_school):
     
     global school
     school = main_school
-            
+    
     base_url = "https://wiki.wizard101central.com"
     url = "https://wiki.wizard101central.com/wiki/Category:Pets"
     
     items_data = []
+    
+    bad_urls = []
 
     while url:
         # Fetch content from the URL
@@ -243,7 +246,7 @@ def create_pets(main_school):
             bullet_points = extract_bullet_points_from_html(html_content)
 
             with ThreadPoolExecutor(max_workers=85) as executor:
-                futures = [executor.submit(process_bullet_point, base_url, bp) for bp in bullet_points]
+                futures = [executor.submit(process_bullet_point, base_url, bp, bad_urls) for bp in bullet_points]
                 for future in as_completed(futures):
                     item_data = future.result()
                     if item_data:
@@ -265,6 +268,6 @@ def create_pets(main_school):
     df = remove_normal_pets(df)
     df = create_pet_variants(df)
     print(df)
-    df.to_csv(f'{school}_Gear\\{school}_Pets.csv', index=False)
+    df.to_csv(f'Gear\\{school}_Gear\\{school}_Pets.csv', index=False)
         
-    return df
+    return bad_urls

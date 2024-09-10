@@ -232,18 +232,18 @@ def parse_bonuses(formatted_info, item_name):
         locked_circles = combined_text.count("Locked Socket Circle")
         locked_squares = combined_text.count("Locked Socket Square")
         locked_triangles = combined_text.count("Locked Socket Triangle")
-        bonuses['Unlocked Tear'] = unlocked_tears
-        bonuses['Unlocked Circle'] = unlocked_circles
-        bonuses['Unlocked Square'] = unlocked_squares
-        bonuses['Unlocked Triangle'] = unlocked_triangles
-        bonuses['Locked Tear'] = locked_tears
-        bonuses['Locked Circle'] = locked_circles
-        bonuses['Locked Square'] = locked_squares
-        bonuses['Locked Triangle'] = locked_triangles
+        bonuses['Unlocked Tear'] = int(unlocked_tears)
+        bonuses['Unlocked Circle'] = int(unlocked_circles)
+        bonuses['Unlocked Square'] = int(unlocked_squares)
+        bonuses['Unlocked Triangle'] = int(unlocked_triangles)
+        bonuses['Locked Tear'] = int(locked_tears)
+        bonuses['Locked Circle'] = int(locked_circles)
+        bonuses['Locked Square'] = int(locked_squares)
+        bonuses['Locked Triangle'] = int(locked_triangles)
     
     return bonuses
 
-def process_bullet_point(base_url, bullet_point):
+def process_bullet_point(base_url, bullet_point, bad_urls):
     item_name = bullet_point['text'].replace("Item:", "").strip()
     
     # Construct absolute URL for the hyperlink
@@ -289,6 +289,7 @@ def process_bullet_point(base_url, bullet_point):
         return item_data
     else:
         print(f"Failed to fetch content from {full_url}")
+        bad_urls.append(full_url)
         return None
 
 def combine_school_and_global_stats(df):
@@ -309,20 +310,19 @@ def only_show_necessary_cols(df):
     else:
         return df[['Name', 'Level', 'Health', 'Damage', 'Resist', 'Accuracy', 'Power Pip', 'Critical', 'Critical Block', 'Pierce', 'Stun Resist', 'Incoming', 'Outgoing', 'Pip Conserve', 'Shadow Pip', 'Archmastery', 'Flat Damage', 'Flat Resist', 'Unlocked Tear', 'Unlocked Circle', 'Unlocked Square', 'Unlocked Triangle', 'Locked Tear', 'Locked Circle', 'Locked Square', 'Locked Triangle', 'Source', 'Owned', 'Gear Set']]
 
-def sort_by_cols(df, *args):
-    return df.sort_values(by = list(args), ascending = [False] * len(args)).reset_index(drop=True)
-
 def clean_accessories_df(df):
     combine_school_and_global_stats(df)
     df = only_show_necessary_cols(df)
-    return sort_by_cols(df, "Damage", "Resist", "Health", "Pierce", "Critical")
+    df = df.sort_values(by = ["Damage", "Resist", "Health", "Pierce", "Critical", "Critical Block", "Shadow Pip", "Archmastery", "Accuracy", "Power Pip", "Incoming", "Outgoing", "Pip Conserve", "Stun Resist", "Unlocked Triangle", "Unlocked Circle", "Unlocked Square", "Unlocked Tear", "Locked Triangle", "Locked Circle", "Locked Square", "Locked Tear", "Flat Damage", "Flat Resist", "Owned", "Gear Set", "Name"],
+                        ascending = [False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, False, True, True]).reset_index(drop=True)
+    return df
 
 def create_accessories(main_school):
     
     global school
     school = main_school
-            
-    df_list = []
+    
+    bad_urls = []
     
     for type in gear_types:
         
@@ -347,7 +347,7 @@ def create_accessories(main_school):
                     bullet_points = extract_bullet_points_from_html(html_content)
 
                     with ThreadPoolExecutor(max_workers=85) as executor:
-                        futures = [executor.submit(process_bullet_point, base_url, bp) for bp in bullet_points]
+                        futures = [executor.submit(process_bullet_point, base_url, bp, bad_urls) for bp in bullet_points]
                         for future in as_completed(futures):
                             item_data = future.result()
                             if item_data:
@@ -367,8 +367,6 @@ def create_accessories(main_school):
         df = pd.DataFrame(items_data).fillna(0)  # fill all empty values with 0
         df = clean_accessories_df(df)
         print(df)
-        df.to_csv(f'{school}_Gear\\{school}_{gear_type}s.csv', index=False)
-        
-        df_list.append(df)
-    
-    return df_list
+        df.to_csv(f'Gear\\{school}_Gear\\{school}_{gear_type}s.csv', index=False)
+
+    return bad_urls
