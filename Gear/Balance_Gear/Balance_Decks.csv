@@ -1,0 +1,359 @@
+Name,Level,Health,Damage,Resist,Accuracy,Power Pip,Critical,Critical Block,Pierce,Stun Resist,Incoming,Outgoing,Pip Conserve,Shadow Pip,Archmastery,Flat Damage,Flat Resist,Starting Pips,Unlocked Tear,Unlocked Circle,Unlocked Square,Unlocked Triangle,Locked Tear,Locked Circle,Locked Square,Locked Triangle,Source,Owned,Gear Set
+LimeBlight's Gallery,93,33,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Drop,False,None
+Astute Archival Array (Level 170+),170,220,0,0,0,0,77,78,0,0,0,0,0,0,55,0,0,1,0,0,0,0,0,0,1,0,"Housing Gauntlet, Crowns",False,None
+Cute Fairy Kei Box (Level 170+),170,198,0,0,0,0,85,68,0,0,0,0,0,0,55,0,0,1,0,0,0,0,0,1,0,0,Crowns,False,None
+Xibalba Vacuum Deck (Level 170+),170,198,0,0,0,0,85,68,0,0,0,0,0,0,55,0,0,1,0,0,0,0,0,1,0,0,Raid,False,None
+Hunhau's Vacuum Deck (Level 170+),170,198,0,0,0,0,77,68,0,0,0,0,0,0,62,0,0,1,0,0,0,0,0,1,0,0,Raid,False,None
+Unreal Deck of Impossibility,170,198,0,0,0,0,0,68,0,0,0,0,133,0,68,0,0,1,0,0,0,0,0,0,0,1,Raid,False,None
+Daemonic Deck of Impossibility,170,176,0,0,0,0,85,0,0,0,0,0,120,0,62,0,0,1,0,0,0,0,0,1,0,0,Raid,False,None
+Deft Dream Stalker Deck,170,176,0,0,0,0,0,97,0,0,0,0,120,0,62,0,0,1,0,0,0,0,0,0,1,0,Crafting,False,None
+Astute Archival Array (Level 160+),160,158,0,0,0,0,61,66,0,0,0,0,0,0,52,0,0,1,0,0,0,0,0,0,1,0,Crowns,False,None
+Balanced Night Mire Deck (Level 160+),160,158,0,0,0,0,61,66,0,0,0,0,0,0,52,0,0,1,0,0,0,0,0,0,1,0,"Housing Gauntlet, Crowns",False,None
+Even Night Mire Deck,160,158,0,0,0,0,61,66,0,0,0,0,0,0,52,0,0,1,0,0,0,0,0,0,1,0,Housing Gauntlet,False,None
+Unified Night Mire Deck,160,158,0,0,0,0,61,66,0,0,0,0,0,0,52,0,0,1,0,0,0,0,0,0,1,0,Housing Gauntlet,False,None
+Deft Dream Reaver Deck,170,154,0,0,0,0,85,88,0,0,0,0,0,0,55,0,0,1,0,0,0,0,0,1,0,0,"Drop, Crafting, Crowns",False,None
+Cute Fairy Kei Box (Level 160+),160,143,0,0,0,0,67,58,0,0,0,0,0,0,52,0,0,1,0,0,0,0,0,1,0,0,Crowns,False,None
+Xibalba Vacuum Deck (Level 160+),160,143,0,0,0,0,67,58,0,0,0,0,0,0,52,0,0,1,0,0,0,0,1,0,0,0,Raid,False,None
+Hunhau's Vacuum Deck (Level 160+),160,143,0,0,0,0,61,58,0,0,0,0,0,0,58,0,0,1,0,0,0,0,0,0,0,1,Raid,False,None
+Floramancer Deck of Cycles (Level 160+),160,143,0,0,0,0,0,58,0,0,0,0,123,0,64,0,0,1,0,0,0,0,0,0,0,1,Crowns,False,None
+The Void's Balanced Cards (Level 160+),160,143,0,0,0,0,0,58,0,0,0,0,123,0,64,0,0,1,0,0,0,0,0,0,0,1,Raid,False,None
+The Void's Harmonic Cards,160,143,0,0,0,0,0,58,0,0,0,0,123,0,64,0,0,1,0,0,0,0,0,0,0,1,Raid,False,None
+The Void's Stable Cards,160,143,0,0,0,0,0,58,0,0,0,0,123,0,64,0,0,1,0,0,0,0,0,0,0,1,Raid,False,None
+Deft Dream Warper Deck,170,132,0,0,0,0,77,78,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,Drop,False,None
+Balanced Night Mire Deck (Level 150+),150,130,0,0,0,0,54,60,0,0,0,0,0,0,48,0,0,1,0,0,0,0,0,0,1,0,Crowns,False,None
+Nullity's Balanced Cards (Level 160+),160,127,0,0,0,0,67,0,0,0,0,0,111,0,58,0,0,1,0,0,0,0,1,0,0,0,Raid,False,None
+Nullity's Harmonic Cards,160,127,0,0,0,0,67,0,0,0,0,0,111,0,58,0,0,1,0,0,0,0,1,0,0,0,Raid,False,None
+Nullity's Stable Cards,160,127,0,0,0,0,67,0,0,0,0,0,111,0,58,0,0,1,0,0,0,0,1,0,0,0,Raid,False,None
+Burrower's Sorcery Deck (Level 160+),160,127,0,0,0,0,61,82,0,0,0,0,0,0,52,0,0,1,0,0,0,0,0,0,1,0,"Gold Key, Crowns",False,None
+Eternal Abstract Deck,160,127,0,0,0,0,0,82,0,0,0,0,111,0,58,0,0,1,0,0,0,0,0,0,1,0,Crafting,False,None
+Eternal Abstruse Deck,160,127,0,0,0,0,0,82,0,0,0,0,111,0,58,0,0,1,0,0,0,0,0,0,1,0,Crafting,False,None
+Eternal Esoteric Deck,160,127,0,0,0,0,0,82,0,0,0,0,111,0,58,0,0,1,0,0,0,0,0,0,1,0,Crafting,False,None
+Great Inventor's Balance Deck (Level 160+),160,127,0,0,0,0,0,82,0,0,0,0,111,0,58,0,0,1,0,0,0,0,0,0,1,0,Crowns,False,None
+Supreme Ancient One Deck,148,125,0,0,0,0,0,52,0,0,0,0,69,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Supreme Stability Deck,148,124,0,0,0,0,0,55,0,0,0,0,94,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Supreme Old Judge Deck,148,119,0,0,0,0,41,0,0,0,0,0,73,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Supreme Founder's Deck,148,119,0,0,0,0,37,46,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Hierarch's Ancient One Deck,145,119,0,0,0,0,0,49,0,0,0,0,63,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Supreme Hex Deck,148,118,0,0,0,0,55,0,0,0,0,0,100,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Supreme Teleological Deck,148,118,0,0,0,0,50,50,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Hierarch's Stability Deck,145,118,0,0,0,0,0,53,0,0,0,0,85,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+The Void's Balanced Cards (Level 150+),150,117,0,0,0,0,0,53,0,0,0,0,114,0,60,0,0,1,0,0,0,0,0,0,0,1,Drop,False,None
+Just Enforcer's Deck,165,114,0,0,0,0,69,72,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,Drop,False,None
+Producer's Hazmat Box,138,114,0,0,0,0,0,47,0,0,0,0,64,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Hierarch's Old Judge Deck,145,113,0,0,0,0,40,0,0,0,0,0,67,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Hierarch's Founder's Deck,145,113,0,0,0,0,35,44,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Producer's Protective Box,138,113,0,0,0,0,0,49,0,0,0,0,87,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Lemurian Ancient One Deck,142,113,0,0,0,0,0,46,0,0,0,0,57,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Hierarch's Hex Deck,145,112,0,0,0,0,53,0,0,0,0,0,92,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Hierarch's Teleological Deck,145,112,0,0,0,0,47,47,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar, Crowns",False,None
+Lemurian Stability Deck,142,112,0,0,0,0,0,50,0,0,0,0,78,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Abstract Aeon Deck,160,111,0,0,0,0,67,74,0,0,0,0,0,0,52,0,0,1,0,0,0,0,1,0,0,0,"Drop, Crafting, Crowns",False,None
+Abstruse Aeon Deck,160,111,0,0,0,0,67,74,0,0,0,0,0,0,52,0,0,1,0,0,0,0,1,0,0,0,Crafting,False,None
+Esoteric Aeon Deck,160,111,0,0,0,0,67,74,0,0,0,0,0,0,52,0,0,1,0,0,0,0,1,0,0,0,Crafting,False,None
+Executive Hazmat Box,138,108,0,0,0,0,38,0,0,0,0,0,68,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Director Hazmat Box,138,108,0,0,0,0,34,42,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Supervisor Hazmat Box,135,108,0,0,0,0,0,43,0,0,0,0,58,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Executive Protective Box,138,107,0,0,0,0,51,0,0,0,0,0,93,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Director Protective Box,138,107,0,0,0,0,46,44,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Supervisor Protective Box,135,107,0,0,0,0,0,45,0,0,0,0,79,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Lemurian Hex Deck,142,106,0,0,0,0,50,0,0,0,0,0,84,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Lemurian Teleological Deck,142,106,0,0,0,0,44,44,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Lemurian Old Judge Deck,142,106,0,0,0,0,37,0,0,0,0,0,62,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Lemurian Founder's Deck,142,106,0,0,0,0,33,41,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Nullity's Balanced Cards (Level 150+),150,104,0,0,0,0,59,0,0,0,0,0,103,0,54,0,0,1,0,0,0,0,1,0,0,0,Drop,False,None
+Burrower's Sorcery Deck (Level 150+),150,104,0,0,0,0,54,75,0,0,0,0,0,0,48,0,0,1,0,0,0,0,0,0,1,0,Crowns,False,None
+Astute Archival Array (Level 140+),140,104,0,0,0,0,46,57,0,0,0,0,0,0,45,0,0,1,0,0,0,0,0,0,1,0,Crowns,False,None
+Balanced Night Mire Deck (Level 140+),140,104,0,0,0,0,46,57,0,0,0,0,0,0,45,0,0,1,0,0,0,0,0,0,1,0,Crowns,False,None
+Great Inventor's Balance Deck (Level 150+),150,104,0,0,0,0,0,75,0,0,0,0,103,0,54,0,0,1,0,0,0,0,0,0,1,0,Crowns,False,None
+Demiurge's Schemer Set,150,102,0,0,0,0,53,53,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Crafting,False,None
+Demiurge's Schemer Deck,150,102,0,0,0,0,53,53,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Crafting,False,None
+Chief's Protective Box,135,102,0,0,0,0,46,0,0,0,0,0,85,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Lead's Protective Box,135,102,0,0,0,0,42,40,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Chief's Hazmat Box,135,102,0,0,0,0,35,0,0,0,0,0,62,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Lead's Hazmat Box,135,102,0,0,0,0,31,38,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Contractor Protective Box,132,102,0,0,0,0,0,41,0,0,0,0,72,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Contractor Hazmat Box,132,102,0,0,0,0,0,39,0,0,0,0,53,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Bodacious Kalamar Deck,127,101,0,0,0,0,0,40,0,0,0,0,90,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Malevolent Balance Deck,150,99,0,0,0,0,51,51,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Drop,False,None
+Choice Kalamar Deck,127,98,0,0,0,0,0,35,0,0,0,0,45,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Consultant Hazmat Box,132,97,0,0,0,0,32,0,0,0,0,0,57,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Specialist Hazmat Box,132,97,0,0,0,0,28,34,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Magician's Balance Deck,150,96,0,0,0,0,50,50,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Drop,False,None
+Consultant Protective Box,132,96,0,0,0,0,42,0,0,0,0,0,77,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Specialist Protective Box,132,96,0,0,0,0,38,36,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Elegant City Dweller Deck,160,95,0,0,0,0,61,66,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,Drop,False,None
+Just Protector's Deck,165,95,0,0,0,0,61,63,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,Drop,False,None
+Abstract Masterpiece Deck,160,95,0,0,0,0,60,66,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Drop,False,None
+Dreamsearcher Triangle Deck,140,93,0,0,0,0,49,49,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Crafting,False,None
+Dreamsearcher Square Deck,140,93,0,0,0,0,49,49,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Crafting,False,None
+Dreamsearcher Tear Deck,140,93,0,0,0,0,49,49,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Crafting,False,None
+Uber Dreamsearcher Box,140,93,0,0,0,0,49,49,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Drop,False,None
+Uber Candymancer Box,140,93,0,0,0,0,37,46,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Drop,False,None
+Interstellar Officer's Deck,122,93,0,0,0,0,0,35,0,0,0,0,45,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar, Stone Key, Fishing",False,None
+Demiurge's Schemer Cards,150,91,0,0,0,0,59,68,0,0,0,0,0,0,48,0,0,1,0,0,0,0,1,0,0,0,Crafting,False,None
+Merciless Balance Deck,150,91,0,0,0,0,59,68,0,0,0,0,0,0,48,0,0,1,0,0,0,0,1,0,0,0,Drop,False,None
+Wunderbar Candymancer Box,140,91,0,0,0,0,35,44,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Drop,False,None
+Wunderbar Dreamsearcher Box,140,90,0,0,0,0,47,47,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Drop,False,None
+Amazing Deck,140,90,0,0,0,0,39,39,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Quest,False,None
+Balanced Liaison's Deck,130,90,0,0,0,0,34,33,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Quest,False,None
+Guten Dreamsearcher Box,140,87,0,0,0,0,46,46,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Drop,False,None
+Guten Candymancer Box,140,87,0,0,0,0,35,43,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Drop,False,None
+Great Inventor's Balance Deck (Level 140+),140,84,0,0,0,0,0,71,0,0,0,0,96,0,51,0,0,1,0,0,0,0,0,0,1,0,Crowns,False,None
+Glistening Balance Box,155,82,0,0,0,0,55,62,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Drop,False,None
+Alphoi Even Hand,130,82,0,0,0,0,50,45,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Crafting,False,None
+Balanced Paradox Deck,130,82,0,0,0,0,50,45,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Drop,False,None
+Alphoi Deck of Scales,130,82,0,0,0,0,50,45,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Crafting,False,None
+Alphoi Cards of Stability,130,82,0,0,0,0,50,45,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Crafting,False,None
+Immutable Zanadu Deck,130,80,0,0,0,0,46,41,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Drop,False,None
+Alphoi Aethyrium Hand,130,80,0,0,0,0,37,35,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Crafting,False,None
+Divine Paradox Deck,130,80,0,0,0,0,37,35,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Drop,False,None
+Alphoi Archive Deck,130,80,0,0,0,0,37,35,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Crafting,False,None
+Alphoi Beacon Cards,130,80,0,0,0,0,37,35,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Crafting,False,None
+Elegant Townie Deck,160,79,0,0,0,0,54,58,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,Drop,False,None
+Scout Officer Cards,150,78,0,0,0,0,53,60,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Drop,False,None
+Balanced Night Mire Deck (Level 130+),130,78,0,0,0,0,36,54,0,0,0,0,0,0,42,0,0,1,0,0,0,0,0,0,1,0,Crowns,False,None
+Hopeful Zanadu Deck,130,78,0,0,0,0,34,35,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Drop,False,None
+Cabal Deck of Disruption,125,74,0,0,0,0,44,40,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Unavailable,False,None
+Interstellar Delegate's Deck,122,74,0,0,0,0,0,40,0,0,0,0,90,0,0,0,0,1,0,0,0,0,0,0,0,1,"Drop, Bazaar, Stone Key, Fishing",False,None
+Tetrus Deck of Fusion,120,74,0,0,0,0,0,40,0,0,0,0,90,0,0,0,0,1,0,0,0,0,0,0,0,1,Drop,False,None
+Cabalist Schism Deck,125,72,0,0,0,0,32,35,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Unavailable,False,None
+Tetrus Prison Deck,120,72,0,0,0,0,0,35,0,0,0,0,45,0,0,0,0,1,0,0,0,0,0,0,0,1,Drop,False,None
+Golden Balance Box,155,68,0,0,0,0,49,54,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,"Drop, Bazaar",False,None
+Regulation Scout Cards,150,65,0,0,0,0,47,53,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,"Drop, Bazaar",False,None
+Luphilim's Valiant Set,110,65,0,0,0,0,39,42,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Stone Key,False,None
+Elder's Hand of Unity,95,65,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Crafting,False,None
+Luphilim's Eternal Deck,110,63,0,0,0,0,34,35,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Stone Key,False,None
+Great Inventor's Balance Deck (Level 130+),130,63,0,0,0,0,0,67,0,0,0,0,83,0,47,0,0,1,0,0,0,0,0,0,1,0,Crowns,False,None
+Rasputin's Bevy of Answers,110,61,0,0,0,0,39,41,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Unavailable,False,None
+Steady Arcanum Exile Hand,110,61,0,0,0,0,39,41,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Drop,False,None
+Gallant Hand of Horizon Hold,110,61,0,0,0,0,39,41,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Drop,False,None
+Istanboa Array of Scruples,118,60,0,0,0,0,41,39,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Lovelorn Spirit's Set of Woe (Triangle),100,60,0,0,0,0,18,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Crafting,False,None
+Lovelorn Spirit's Set of Woe (Square),100,60,0,0,0,0,18,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Crafting,False,None
+Lovelorn Spirit's Set of Woe (Tear),100,60,0,0,0,0,18,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Crafting,False,None
+Set of the Lovelorn Spirit,100,60,0,0,0,0,18,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crafting,False,None
+Array of Mighty Istanboa,118,59,0,0,0,0,36,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Gold Vendor, Stone Key",False,None
+Chief Advisor's Pack of Lies,110,59,0,0,0,0,34,34,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Unavailable,False,None
+Parcel of the Arcanum Exile,110,59,0,0,0,0,34,34,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Drop,False,None
+Ancient Deck of Horizon Hold,110,59,0,0,0,0,34,34,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Drop,False,None
+Arcana of the Outer Void,100,58,0,0,0,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Kobra Hand of Amity,116,57,0,0,0,0,40,38,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Kobra Mercenary's Hand,116,56,0,0,0,0,35,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Gold Vendor,False,None
+Viper Cards of Splendor,114,54,0,0,0,0,39,37,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Street Viper's Cards,114,53,0,0,0,0,35,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Gold Vendor,False,None
+Astute Archival Array (Level 120+),120,52,0,0,0,0,20,49,0,0,0,0,0,0,39,0,0,1,0,0,0,0,0,0,1,0,Crowns,False,None
+Balanced Night Mire Deck (Level 120+),120,52,0,0,0,0,20,49,0,0,0,0,0,0,39,0,0,1,0,0,0,0,0,0,1,0,Crowns,False,None
+Fang Deck of Honor,112,51,0,0,0,0,38,36,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Battlehardened Fang Deck,112,50,0,0,0,0,34,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Gold Vendor,False,None
+Deck of Immortal Might,90,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Drop,False,None
+Walrusk Hand of Dignity,108,49,0,0,0,0,34,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Imperial Walrusk Deck,108,47,0,0,0,0,31,31,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Cute Fairy Kei Box (Level 120+),120,47,0,0,0,0,22,43,0,0,0,0,0,0,39,0,0,1,0,0,0,0,0,1,0,0,Crowns,False,None
+Enchanter's Gallery of Fusion,106,46,0,0,0,0,33,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Hundred Year War Deck,95,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Gold Vendor, Bazaar",False,None
+Arcanum Enchanter's Deck,106,44,0,0,0,0,30,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Patriote Sheaf of Prestige,105,44,0,0,0,0,28,30,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,Drop,False,None
+Patriote Deck of Victory,105,43,0,0,0,0,28,28,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Drop,False,None
+Kossack Parcel of Redress,104,42,0,0,0,0,32,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Burrower's Sorcery Deck (Level 120+),120,42,0,0,0,0,20,61,0,0,0,0,0,0,39,0,0,1,0,0,0,0,0,0,1,0,Crowns,False,None
+Polarian Kossack's Hand,104,41,0,0,0,0,29,29,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Pyramid Deck of the Moon,85,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Crafting,False,None
+Urville Parcel of Honor,102,39,0,0,0,0,31,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Gold Vendor,False,None
+Urville Station Assemblage,102,38,0,0,0,0,28,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Gold Vendor,False,None
+House of Harmonic Buzzing,95,38,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Drop,False,None
+Honeycomb Deck,90,38,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
+Deck of Shadow Prophecy (Triangle),95,30,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Drop,False,None
+Deck of Shadow Prophecy (Square),95,30,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Drop,False,None
+Deck of Shadow Prophecy (Tear),95,30,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Drop,False,None
+Jaguar Paw Pyramid,85,30,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Drop,False,None
+Calendar of the Spiral King,83,27,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Drop,False,None
+Astute Archival Array (Level 110+),110,26,0,0,0,0,13,43,0,0,0,0,0,0,36,0,0,1,0,0,0,0,0,0,1,0,Crowns,False,None
+Balanced Night Mire Deck (Level 110+),110,26,0,0,0,0,13,43,0,0,0,0,0,0,36,0,0,1,0,0,0,0,0,0,1,0,Crowns,False,None
+Burrower's Sorcery Deck (Level 110+),110,21,0,0,0,0,13,53,0,0,0,0,0,0,36,0,0,1,0,0,0,0,0,0,1,0,Crowns,False,None
+Great Inventor's Balance Deck (Level 110+),110,21,0,0,0,0,0,53,0,0,0,0,73,0,40,0,0,1,0,0,0,0,0,0,1,0,Crowns,False,None
+Drawer of Secrets,85,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Gold Vendor,False,None
+Calendar Stone Cards,80,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Gold Vendor,False,None
+Regal Gallery of Dignity,40,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Drop,False,None
+Ensemble of the Harmonious (Triangle),25,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Drop,False,None
+Ensemble of the Harmonious (Square),25,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Drop,False,None
+Ensemble of the Harmonious (Tear),25,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Drop,False,None
+Balanced August Sage Deck (Level 170+),170,0,0,0,0,0,85,78,0,0,0,0,120,0,62,0,0,1,0,0,0,0,0,1,0,0,"Gold Key, Crowns",False,None
+Measured Chivalric Tome (Level 170+),170,0,0,0,0,0,85,78,0,0,0,0,120,0,62,0,0,1,0,0,0,0,0,1,0,0,"Gold Key, Crowns",False,None
+Umbra Queen's Dusty Cards (Level 170+),170,0,0,0,0,0,77,78,0,0,0,0,133,0,68,0,0,1,0,0,0,0,0,0,0,1,Rematch,False,None
+Wastelander's Dusty Cards (Level 170+),170,0,0,0,0,0,77,78,0,0,0,0,133,0,68,0,0,1,0,0,0,0,0,0,0,1,Crowns,False,None
+Measured Chivalric Tome (Level 160+),160,0,0,0,0,0,67,66,0,0,0,0,111,0,58,0,0,1,0,0,0,0,0,1,0,0,Crowns,False,None
+Malistaire's Harmonic Deck (Level 160+),160,0,0,0,0,0,61,66,0,0,0,0,123,0,64,0,0,1,0,0,0,0,0,0,0,1,Rematch,False,None
+Stable Skyfarer's Deck (Level 160+),160,0,0,0,0,0,61,66,0,0,0,0,123,0,64,0,0,1,0,0,0,0,0,0,0,1,Crowns,False,None
+Wastelander's Dusty Cards (Level 160+),160,0,0,0,0,0,61,66,0,0,0,0,123,0,64,0,0,1,0,0,0,0,0,0,0,1,Crowns,False,None
+Stable Skyfarer's Deck (Level 150+),150,0,0,0,0,0,54,60,0,0,0,0,114,0,60,0,0,0,0,0,0,0,0,0,0,1,Crowns,False,None
+Wastelander's Dusty Cards (Level 150+),150,0,0,0,0,0,54,60,0,0,0,0,114,0,60,0,0,1,0,0,0,0,0,0,0,1,Crowns,False,None
+Balanced August Sage Deck (Level 140+),140,0,0,0,0,0,51,57,0,0,0,0,96,0,51,0,0,1,0,0,0,0,0,1,0,0,Crowns,False,None
+Stable Skyfarer's Deck (Level 140+),140,0,0,0,0,0,46,57,0,0,0,0,106,0,56,0,0,1,0,0,0,0,0,0,0,1,Crowns,False,None
+Wastelander's Dusty Cards (Level 140+),140,0,0,0,0,0,46,57,0,0,0,0,106,0,56,0,0,1,0,0,0,0,0,0,0,1,Crowns,False,None
+Eerem Spread of Harmony,118,0,0,0,0,0,41,0,0,0,0,0,66,0,0,0,0,1,0,0,0,0,1,0,0,0,"Drop, Bazaar",False,None
+Sand Sea Hand of Decorum,116,0,0,0,0,0,40,0,0,0,0,0,65,0,0,0,0,1,0,0,0,0,1,0,0,0,"Drop, Bazaar",False,None
+Rubal Deck of Loyalty,114,0,0,0,0,0,39,0,0,0,0,0,64,0,0,0,0,1,0,0,0,0,1,0,0,0,"Drop, Bazaar",False,None
+Immaculate Djinn Cards,112,0,0,0,0,0,38,0,0,0,0,0,63,0,0,0,0,1,0,0,0,0,1,0,0,0,"Drop, Bazaar",False,None
+Eerem Courtier's Spread,118,0,0,0,0,0,37,0,0,0,0,0,33,0,0,0,0,1,0,0,0,0,1,0,0,0,"Gold Vendor, Stone Key",False,None
+Wastelander's Dusty Cards (Level 130+),130,0,0,0,0,0,36,54,0,0,0,0,92,0,52,0,0,1,0,0,0,0,0,0,0,1,Crowns,False,None
+Sand Sea Wanderer's Hand,116,0,0,0,0,0,36,0,0,0,0,0,33,0,0,0,0,1,0,0,0,0,1,0,0,0,Gold Vendor,False,None
+Deck of the Rubal Wastes,114,0,0,0,0,0,35,0,0,0,0,0,32,0,0,0,0,1,0,0,0,0,1,0,0,0,Gold Vendor,False,None
+House Djinni's Cards,112,0,0,0,0,0,34,0,0,0,0,0,31,0,0,0,0,1,0,0,0,0,1,0,0,0,Gold Vendor,False,None
+Arcanum Sorcerer's Array,108,0,0,0,0,0,34,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,"Drop, Bazaar",False,None
+Enchanter's Array of Poise,106,0,0,0,0,0,33,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Gold Vendor,False,None
+Evoker's Gallant Hand,104,0,0,0,0,0,32,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,"Drop, Bazaar",False,None
+Assemblage of the Arcanum,108,0,0,0,0,0,31,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,"Drop, Bazaar",False,None
+Mage's Cards of Aplomb,102,0,0,0,0,0,31,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,"Drop, Bazaar",False,None
+Enchanter's New Horizon Deck,106,0,0,0,0,0,30,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Gold Vendor,False,None
+Polarian Evoker's Bevy,104,0,0,0,0,0,29,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,"Drop, Bazaar",False,None
+Polarian Mage's Gallery,102,0,0,0,0,0,28,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,"Drop, Bazaar",False,None
+Balanced August Sage Deck (Level 120+),110,0,0,0,0,0,22,49,0,0,0,0,81,0,44,0,0,1,0,0,0,0,0,1,0,0,Crowns,False,None
+Stable Skyfarer's Deck (Level 120+),120,0,0,0,0,0,20,49,0,0,0,0,89,0,48,0,0,1,0,0,0,0,0,0,0,1,Crowns,False,None
+Wastelander's Dusty Cards (Level 120+),120,0,0,0,0,0,20,49,0,0,0,0,89,0,48,0,0,1,0,0,0,0,0,0,0,1,Crowns,False,None
+Balanced August Sage Deck (Level 110+),110,0,0,0,0,0,14,43,0,0,0,0,73,0,40,0,0,1,0,0,0,0,0,1,0,0,Crowns,False,None
+Stable Skyfarer's Deck (Level 110+),110,0,0,0,0,0,13,43,0,0,0,0,81,0,44,0,0,1,0,0,0,0,0,0,0,1,Crowns,False,None
+Wastelander's Dusty Cards (Level 110+),110,0,0,0,0,0,13,43,0,0,0,0,81,0,44,0,0,1,0,0,0,0,0,0,0,1,Crowns,False,None
+Eerem Gallery of Ability,118,0,0,0,0,0,0,39,0,0,0,0,89,0,0,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Sand Sea Deck of Accord,116,0,0,0,0,0,0,38,0,0,0,0,87,0,0,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Rubal Cards of Competence,114,0,0,0,0,0,0,37,0,0,0,0,85,0,0,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Djinn Array of Justice,112,0,0,0,0,0,0,36,0,0,0,0,83,0,0,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Eerem Palace Gallery,118,0,0,0,0,0,0,35,0,0,0,0,44,0,0,0,0,1,0,0,0,0,0,0,1,0,"Gold Vendor, Stone Key",False,None
+Kataba Parcel of Destiny,108,0,0,0,0,0,0,35,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Bazaar,False,None
+Deck of the Sand Sea,116,0,0,0,0,0,0,34,0,0,0,0,43,0,0,0,0,1,0,0,0,0,0,0,1,0,Gold Vendor,False,None
+Noble Cards of the Bleaks,104,0,0,0,0,0,0,34,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Gold Vendor,False,None
+Tayg Set of Leveling,106,0,0,0,0,0,0,34,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Ancient Rubal Cards,114,0,0,0,0,0,0,33,0,0,0,0,43,0,0,0,0,1,0,0,0,0,0,0,1,0,Gold Vendor,False,None
+Tundra Hand of Loyalty,102,0,0,0,0,0,0,33,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Dunes Djinni's Array,112,0,0,0,0,0,0,32,0,0,0,0,42,0,0,0,0,1,0,0,0,0,0,0,1,0,Gold Vendor,False,None
+Hand of the Kataba Iceblock,108,0,0,0,0,0,0,31,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Hand of the Forlorn Tayg,106,0,0,0,0,0,0,30,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Sheaf of the Polarian Bleaks,104,0,0,0,0,0,0,29,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Gold Vendor,False,None
+Polarian Tundra Spelldeck,102,0,0,0,0,0,0,28,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Malistaire's Harmonic Deck (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,0,0,0,0,0,0,0,0,1,Rematch,False,None
+Umbra Queen's Dusty Cards (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,0,0,0,0,0,0,0,0,1,Rematch,False,None
+Floramancer Deck of Cycles (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,36,0,0,0,0,0,0,0,0,0,0,1,Crowns,False,None
+Wastelander's Dusty Cards (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,36,0,0,0,0,0,0,0,0,0,0,1,Crowns,False,None
+Wastelander's Dusty Cards (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0,0,0,0,0,0,0,0,0,0,1,Crowns,False,None
+Astute Archival Array (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0,0,0,0,0,0,0,0,0,1,0,"Housing Gauntlet, Crowns",False,None
+Burrower's Sorcery Deck (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0,0,0,0,0,0,0,0,0,1,0,"Gold Key, Crowns",False,None
+Shadow Queen Box of Dust,100,0,0,0,0,0,0,0,0,0,0,0,0,0,32,0,0,0,0,0,0,0,1,0,0,0,Crafting,False,None
+Cute Fairy Kei Box (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,29,0,0,0,0,0,0,0,0,1,0,0,Crowns,False,None
+Astute Archival Array (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,29,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Burrower's Sorcery Deck (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,29,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Stable Skyfarer's Deck (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,28,0,0,0,0,0,0,0,0,0,0,1,Crowns,False,None
+Astute Archival Array (Level 80+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,26,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Stable Skyfarer's Deck (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0,0,0,0,0,0,1,Crowns,False,None
+Wastelander's Dusty Cards (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,24,0,0,0,0,0,0,0,0,0,0,1,Crowns,False,None
+Cute Fairy Kei Box (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,23,0,0,0,0,0,0,0,0,1,0,0,Crowns,False,None
+Burrower's Sorcery Deck (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,23,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Cute Fairy Kei Box (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,1,0,0,Crowns,False,None
+Astute Archival Array (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Burrower's Sorcery Deck (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Malistaire's Harmonic Deck (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,Rematch,False,None
+Stable Skyfarer's Deck (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Wastelander's Dusty Cards (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Astute Archival Array (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Burrower's Sorcery Deck (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
+Snowcrusher Scales Box,50,0,0,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crafting",False,None
+House of Scales Array (Triangle),60,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Stone Key,False,None
+House of Scales Array (Square),60,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Stone Key,False,None
+House of Scales Array (Tear),60,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Stone Key,False,None
+Advanced Balance Deck,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,Crowns,False,None
+Armillary Deck,70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Gold Vendor, Bazaar",False,None
+Astute Sorcerer's Deck,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Gold Vendor, Bazaar",False,None
+Deck of the Lotus,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Deck of the Sage,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar, Crowns",False,None
+Dragonfire Deck,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Bazaar, Quest",False,None
+Mummified Deck,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Gold Vendor, Drop, Bazaar",False,None
+Resolute Deck,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Bazaar, Crafting",False,None
+Runewarden's Deck,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Shoji's Deck of Aspirations,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
+Treasure Deck,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Gold Vendor, Bazaar, Quest",False,Celestian Totality Set
+Astrological Gallery,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar, Stone Key",False,None
+Balanced Night Mire Deck (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,"Housing Gauntlet, Crowns",False,None
+Balanced Night Mire Deck (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Balanced Night Mire Deck (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Balanced Night Mire Deck (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Balanced Night Mire Deck (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Biti Nirini's Citrine Deck,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Deck of Ancients,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Bazaar, Quest",False,None
+Deck of Augury,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Bazaar, Quest",False,None
+Deck of Deliberation,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Gold Vendor, Bazaar",False,None
+Deck of Perfect Harmony,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Deck of the Melodious Ones,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Wooden Key,False,None
+Ghoulish Cerberus Master Deck (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Ghoulish Cerberus Master Deck (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Great Inventor's Balance Deck (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Crowns,False,None
+Great Inventor's Balance Deck (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Great Inventor's Balance Deck (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Great Inventor's Balance Deck (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crowns,False,None
+Hand-Chased Box of Destiny,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Her Majesty's Regal Array,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Drop,False,None
+Knotwork Case,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Gold Vendor, Bazaar",False,None
+Pops' Deck of Stasis,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Scales of Justice Arcana,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Drop,False,None
+Tamauji's Deck of Disillusion,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Drop,False,None
+Versatile Deck,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Gold Vendor, Bazaar",False,Versatile Celestian Set
+Anubis' Cards of Veracity,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Stone Key",False,None
+Aristocrat's Deck,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar, Quest",False,None
+Barkingham Set of Integrity,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Drop,False,None
+Basket of Shaman's Juju,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
+Cage of the Old Kings,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
+Celestian Deck,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
+Clockwork Deck,73,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar",False,None
+Darkmoor's Case of Scrutiny,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Gold Key, Stone Key",False,None
+Deck of Baobab,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
+Deck of Chivalry,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar, Quest",False,None
+Deck of Prudence,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
+Deck of the Black Mantle,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Drop,False,None
+Shadow Queen Deck of Dust,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Unavailable,False,None
+Sorcerer's Deck,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Bazaar",False,None
+Steelwielder's Metalbound Deck,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,Drop,False,None
+Temple Guardian's Cards,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Wooden Key",False,None
+Watchman's Deck,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar",False,None
+Antique Deck,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Wooden Key",False,None
+Astute Archival Array (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Astute Archival Array (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Astute Archival Array (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Astute Archival Array (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Balanced Night Mire Deck (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Balanced Night Mire Deck (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Balanced Night Mire Deck (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Balanced Night Mire Deck (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Balanced Night Mire Deck (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Balanced Night Mire Deck (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Burrower's Sorcery Deck (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Burrower's Sorcery Deck (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Burrower's Sorcery Deck (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Burrower's Sorcery Deck (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cute Fairy Kei Box (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cute Fairy Kei Box (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cute Fairy Kei Box (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cute Fairy Kei Box (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cute Fairy Kei Box (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Duelist's Devil-May-Care Deck (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Floramancer Deck of Cycles (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Floramancer Deck of Cycles (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Ghoulish Cerberus Master Deck (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Ghoulish Cerberus Master Deck (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Ghoulish Cerberus Master Deck (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Great Inventor's Balance Deck (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Great Inventor's Balance Deck (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Great Inventor's Balance Deck (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Great Inventor's Balance Deck (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Great Inventor's Balance Deck (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Malistaire's Forlorn Deck,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Novice Balance Deck,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
+Pharaoh's Deck,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
+Pinewood Deck,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
+Snowcrusher Scales Deck,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Stable Skyfarer's Deck (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Stable Skyfarer's Deck (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Stable Skyfarer's Deck (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Stable Skyfarer's Deck (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Stable Skyfarer's Deck (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Starter Deck,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Quest,False,None
+Wastelander's Dusty Cards (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Wastelander's Dusty Cards (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Wastelander's Dusty Cards (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Wastelander's Dusty Cards (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None

@@ -1,0 +1,81 @@
+Name,Shape,Level,Effect
+Unearthly Health Amethyst +525,Square,170,+525 Health
+Unearthly Damage Amethyst +11% (Storm),Circle,170,+11 Storm Damage
+Flawless Health Opal +155,Tear,155,+155 Health
+Flawless Defense Opal +34,Square,155,+34 Global Flat Resistance
+Flawless Damage Amethyst +34,Circle,155,+34 Storm Flat Damage
+Flawless Accurate Amethyst +16%,Triangle,155,+16 Storm Accuracy
+Amazing Health Opal +145,Tear,145,+145 Health
+Amazing Defense Opal +32,Square,145,+32 Global Flat Resistance
+Amazing Damage Amethyst +32,Circle,145,+32 Storm Flat Damage
+Amazing Accurate Amethyst +15%,Triangle,145,+15 Storm Accuracy
+Dazzling Health Opal +135,Tear,135,+135 Health
+Dazzling Defense Opal +30,Square,135,+30 Global Flat Resistance
+Dazzling Damage Amethyst +30,Circle,135,+30 Storm Flat Damage
+Dazzling Accurate Amethyst +14%,Triangle,135,+14 Storm Accuracy
+Sparkling Health Opal +125,Tear,125,+125 Health
+Sparkling Defense Opal +28,Square,125,+28 Global Flat Resistance
+Sparkling Damage Amethyst +28,Circle,125,+28 Storm Flat Damage
+Sparkling Accurate Amethyst +13%,Triangle,125,+13 Storm Accuracy
+Shiny Health Opal +115,Tear,115,+115 Health
+Shiny Defense Opal +26,Square,115,+26 Global Flat Resistance
+Shiny Damage Amethyst +26,Circle,115,+26 Storm Flat Damage
+Shiny Accurate Amethyst +12%,Triangle,115,+12 Storm Accuracy
+Epic Opal,Triangle,115,Gives 1 Epic Item Card
+Lustrous PIP Opal +10%,Triangle,105,+10 Power Pip Chance
+Lustrous Health Opal +105,Tear,105,+105 Health
+Lustrous Defense Opal +24,Square,105,+24 Global Flat Resistance
+Lustrous Damage Amethyst +24,Circle,105,+24 Storm Flat Damage
+Lustrous Accurate Amethyst +11%,Triangle,105,+11 Storm Accuracy
+Polished Piercing Amethyst +6%,Circle,95,+6 Storm Armor Piercing
+Polished PIP Opal +9%,Triangle,95,+9 Power Pip Chance
+Polished Health Opal +95,Tear,95,+95 Health
+Polished Defense Opal +22,Square,95,+22 Global Flat Resistance
+Polished Damage Amethyst +22,Circle,95,+22 Storm Flat Damage
+Polished Accurate Amethyst +10%,Triangle,95,+10 Storm Accuracy
+Colossal Opal,Triangle,95,Gives 1 Colossal Item Card
+Clear Piercing Amethyst +5%,Circle,85,+5 Storm Armor Piercing
+Clear PIP Opal +8%,Triangle,85,+8 Power Pip Chance
+Clear Health Opal +85,Tear,85,+85 Health
+Clear Defense Opal +20,Square,85,+20 Global Flat Resistance
+Clear Damage Amethyst +20,Circle,85,+20 Storm Flat Damage
+Clear Accurate Amethyst +9%,Triangle,85,+9 Storm Accuracy
+Opaque Piercing Amethyst +4%,Circle,75,+4 Storm Armor Piercing
+Opaque PIP Opal +7%,Triangle,75,+7 Power Pip Chance
+Opaque Health Opal +75,Tear,75,+75 Health
+Opaque Defense Opal +18,Square,75,+18 Global Flat Resistance
+Opaque Damage Amethyst +18,Circle,75,+18 Storm Flat Damage
+Opaque Accurate Amethyst +8%,Triangle,75,+8 Storm Accuracy
+Plain Piercing Amethyst +3%,Circle,65,+3 Storm Armor Piercing
+Plain PIP Opal +6%,Triangle,65,+6 Power Pip Chance
+Plain Health Opal +65,Tear,65,+65 Health
+Plain Defense Opal +16,Square,65,+16 Global Flat Resistance
+Plain Damage Amethyst +16,Circle,65,+16 Storm Flat Damage
+Plain Accurate Amethyst +7%,Triangle,65,+7 Storm Accuracy
+Dull Piercing Amethyst +2%,Circle,55,+2 Storm Armor Piercing
+Dull PIP Opal +5%,Triangle,55,+5 Power Pip Chance
+Dull Health Opal +55,Tear,55,+55 Health
+Dull Defense Opal +14,Square,55,+14 Global Flat Resistance
+Dull Damage Amethyst +14,Circle,55,+14 Storm Flat Damage
+Dull Accurate Amethyst +6%,Triangle,55,+6 Storm Accuracy
+Blemished PIP Opal +4%,Triangle,45,+4 Power Pip Chance
+Blemished Health Opal +45,Tear,45,+45 Health
+Blemished Defense Opal +12,Square,45,+12 Global Flat Resistance
+Blemished Damage Amethyst +12,Circle,45,+12 Storm Flat Damage
+Blemished Accurate Amethyst +5%,Triangle,45,+5 Storm Accuracy
+Flawed PIP Opal +3%,Triangle,35,+3 Power Pip Chance
+Flawed Health Opal +35,Tear,35,+35 Health
+Flawed Defense Opal +10,Square,35,+10 Global Flat Resistance
+Flawed Damage Amethyst +10,Circle,35,+10 Storm Flat Damage
+Flawed Accurate Amethyst +4%,Triangle,35,+4 Storm Accuracy
+Chipped PIP Opal +2%,Triangle,25,+2 Power Pip Chance
+Chipped Health Opal +25,Tear,25,+25 Health
+Chipped Defense Opal +8,Square,25,+8 Global Flat Resistance
+Chipped Damage Amethyst +8,Circle,25,+8 Storm Flat Damage
+Chipped Accurate Amethyst +3%,Triangle,25,+3 Storm Accuracy
+Cracked Health Opal +15,Tear,15,+15 Health
+Cracked Defense Opal +6,Square,15,+6 Global Flat Resistance
+Cracked Damage Amethyst +6,Circle,15,+6 Storm Flat Damage
+Cracked Accurate Amethyst +2%,Triangle,15,+2 Storm Accuracy
+Cracked Archmastery Opal +1 (Tear),Tear,1,+1 Archmastery Rating
+Cracked Archmastery Opal +1 (Square),Square,1,+1 Archmastery Rating
