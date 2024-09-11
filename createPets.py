@@ -180,6 +180,10 @@ def remove_normal_pets(df):
     # Combine conditions: keep rows if not all zero or if 'd' or 'e' is True
     df = df[~condition_all_zero | condition_d_or_e_true].reset_index(drop = True)
     
+    # sort by gear set
+    df = df.sort_values(by = "Gear Set", ascending = True).reset_index(drop=True)
+    
+    # add default pet (not a gear set pet)
     default_pet = pd.DataFrame([{"Name": "Other", "Level": 1, "Health": 0, "Damage": 0, "Resist": 0, "Accuracy": 0, "Power Pip": 0, "Critical": 0, "Critical Block": 0, "Pierce": 0, "Stun Resist": 0, "Incoming": 0, "Outgoing": 0, "Pip Conserve": 0, "Shadow Pip": 0, "Archmastery": 0, "Owned": False, "Gear Set": "None"}])
 
     df = df._append(default_pet, ignore_index = True)
@@ -219,8 +223,8 @@ def create_pet_variants(df):
     # Create a new DataFrame with the new rows
     new_df = pd.DataFrame(new_rows)
     
-    new_df = new_df.sort_values(by = ["Damage", "Resist", "Health", "Pierce", "Critical", "Accuracy", "Power Pip", "Critical Block", "Shadow Pip", "Archmastery", "Incoming", "Outgoing", "Pip Conserve", "Stun Resist", "Gear Set", "Owned", "Name"],
-                        ascending = [False, False, False, False, False, False, False, False, False, False, False, False, False, False, True, False, True]).reset_index(drop=True)
+    new_df = new_df.sort_values(by = ["Damage", "Resist", "Health", "Pierce", "Critical", "Accuracy", "Power Pip", "Critical Block", "Shadow Pip", "Archmastery", "Incoming", "Outgoing", "Pip Conserve", "Stun Resist", "Owned"],
+                        ascending = [False, False, False, False, False, False, False, False, False, False, False, False, False, False, False]).reset_index(drop=True)
     
     return new_df
 
