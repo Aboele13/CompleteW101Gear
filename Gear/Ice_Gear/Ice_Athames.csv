@@ -67,7 +67,7 @@ Great Inventor's Ice Dirk (Level 150+),150,1161,15,0,0,18,0,95,0,0,0,0,0,0,0,0,0
 Supreme Detective Athame,148,1040,15,0,0,0,0,149,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,"Drop, Bazaar",False,None
 Supreme Cold Steel Athame,148,1040,15,0,0,0,0,149,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
 Wunderbar Wonderneer Knife,140,1019,15,0,0,0,0,154,0,0,0,5,0,0,0,0,0,1,0,0,0,0,2,0,0,Drop,False,None
-Trooper Officer Knife,150,930,15,0,0,13,0,71,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Unavailable,False,None
+Trooper Officer Knife,150,930,15,0,0,13,0,71,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Drop,False,None
 Lemurian Freezer Athame,142,924,15,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,1,0,0,0,0,0,0,"Drop, Bazaar",False,None
 The Void's Frigid Athame (Level 150+),150,813,15,0,0,19,0,107,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Drop,False,None
 Executive Cryo Knife,138,751,15,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,1,0,0,0,1,0,1,"Drop, Bazaar",False,None
@@ -84,7 +84,7 @@ Lemurian Detective Athame,142,924,14,0,0,0,0,132,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
 Lemurian Cold Steel Athame,142,924,14,0,0,0,0,132,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Golden Ice Dagger,155,854,14,0,0,11,0,61,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,"Drop, Bazaar",False,None
 Chill Kalamar Knife,127,840,14,0,0,0,0,0,0,0,0,5,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Regulation Trooper Knife,150,813,14,0,0,11,0,59,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,Bazaar,False,None
+Regulation Trooper Knife,150,813,14,0,0,11,0,59,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,"Drop, Bazaar",False,None
 Ghastly Cerberus Master Dirk (Level 140+),140,802,14,0,0,11,0,108,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
 Director Cryo Knife,138,751,14,0,0,0,0,121,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,"Drop, Bazaar",False,None
 Producer's Cryo Knife,138,751,14,0,0,0,0,121,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
@@ -211,7 +211,7 @@ Claw of the Frozen Knight,90,362,5,0,0,10,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0,
 Cool Fairy Kei Knife (Level 70+),70,343,5,0,0,13,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,1,2,1,0,Crowns,False,None
 Ghastly Cerberus Master Dirk (Level 70+),70,305,5,0,0,13,0,40,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
 Wastelander's Chill Dirk (Level 70+),70,305,5,0,0,16,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
-Berserker's Blade,64,280,5,0,0,6,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,Bazaar,False,None
+Berserker's Blade,64,280,5,0,0,6,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
 Roaring Razor,64,280,5,0,0,6,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
 Emerald Bear Claw,56,117,5,0,0,6,0,8,0,0,25,8,0,0,0,0,0,0,0,0,0,1,1,0,1,Crafting,False,None
 Khanjar of Tetrus Prison,120,681,4,0,0,0,0,54,0,0,4,0,0,0,0,0,0,1,1,0,0,0,1,0,1,Drop,False,None
@@ -355,7 +355,7 @@ Striped Skewer,64,280,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaa
 Gurtok Chillblade (H277),50,277,0,0,0,15,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,1,Unavailable,False,None
 Firewinter's Ice Spark Blade,45,277,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,"Drop, Bazaar",False,None
 FateSailor's Exalted Steel,98,275,0,0,0,13,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,Drop,False,None
-Roze's Hunting Knife,94,275,0,0,0,10,0,0,0,0,12,0,0,0,0,0,0,1,0,0,0,0,2,0,0,Bazaar,False,None
+Roze's Hunting Knife,94,275,0,0,0,10,0,0,0,0,12,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
 Talon of the Flame Legs,94,275,0,0,0,10,0,0,0,0,12,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
 Horn Handled Knife,72,272,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,"Drop, Bazaar",False,None
 Dryad's Burning Nettle,72,271,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,"Drop, Bazaar",False,None
@@ -521,7 +521,7 @@ Shortblade of the Oasis,10,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Baz
 Dirk of the Wasteland,15,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
 Horn of the Unicorn,20,59,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,1,0,0,0,0,1,0,1,"Bazaar, Crafting",False,None
 Knife of Winter,10,59,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Blade of Frost,25,55,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Unavailable,False,None
+Blade of Frost,25,55,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Drop,False,None
 Old Smokey's Dagger,30,55,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,Drop,False,None
 Kepi's Dirk of the Adept,20,55,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,1,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Edge of Survival,25,55,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None

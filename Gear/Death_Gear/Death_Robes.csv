@@ -2625,7 +2625,7 @@ Jade Robe of Mystery (Level 20+),20,60,0,8,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,Crown
 Gorgonsbane Armor (Level 120+),120,1283,0,7,4,0,0,68,2,0,0,0,0,18,0,0,0,0,0,0,Crowns,False,None
 Gorgon Slayer's Armor (Level 110+),110,1211,0,7,3,6,0,86,0,0,0,0,0,17,0,0,0,0,0,0,Crowns,False,None
 Seal Team Demolitions Suit (Level 110+),110,912,0,7,0,10,0,0,0,0,7,0,0,0,0,0,0,0,0,0,"Stone Key, Crowns",False,None
-Majoris Plate of Umbrage,110,880,0,7,4,0,0,122,0,0,11,0,0,17,0,0,0,0,0,0,Unavailable,False,None
+Majoris Plate of Umbrage,110,880,0,7,4,0,0,122,0,0,11,0,0,17,0,0,0,0,0,0,Drop,False,None
 Shadoe's Costume of Justice (Level 110+),110,866,0,7,3,5,0,61,2,0,0,0,0,17,0,0,0,0,0,0,Crowns,False,None
 Shadoe's Costume of Vengeance (Level 80+),80,842,0,7,0,0,0,62,0,3,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Titan Warrior Gear of Torpor,110,831,0,7,4,0,0,120,0,0,19,0,0,0,0,0,0,0,0,0,Drop,False,None
@@ -2756,7 +2756,7 @@ Immersive Cloak,35,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",F
 Profound Robes,35,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Gorgonsbane Armor (Level 110+),110,1155,0,6,4,0,0,61,2,0,0,0,0,17,0,0,0,0,0,0,Crowns,False,None
 Gorgon Slayer's Armor (Level 100+),100,1090,0,6,3,6,0,77,0,0,0,0,0,16,0,0,0,0,0,0,Crowns,False,None
-Borealis Armor of Schisms,110,782,0,6,4,0,0,118,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Borealis Armor of Schisms,110,782,0,6,4,0,0,118,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
 Shadoe's Costume of Justice (Level 100+),100,779,0,6,3,5,0,55,1,0,0,0,0,16,0,0,0,0,0,0,Crowns,False,None
 Shadoe's Costume of Vengeance (Level 70+),70,758,0,6,0,0,0,56,0,2,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Arcanum Exile Scourge Cloak,105,636,0,6,0,0,0,108,0,0,0,0,0,15,0,0,0,0,0,0,Unavailable,False,None
@@ -3236,7 +3236,7 @@ Seal Team Recon Suit (Any Level),1,78,0,3,0,3,0,0,0,0,0,5,0,0,0,0,0,0,0,0,Crowns
 Bitter Cloak,15,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
 Runeweave Clothing,15,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Vestment of the Arctic,15,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Polarian Borealis Raiment,110,789,0,2,2,0,0,97,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Polarian Borealis Raiment,110,789,0,2,2,0,0,97,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
 Arcanum Exile Warlock Cloak,105,641,0,2,0,0,0,101,0,0,0,0,0,15,0,0,0,0,0,0,Drop,False,None
 Gorgonsbane Armor (Level 40+),40,553,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Gorgon Slayer's Armor (Level 30+),30,522,0,2,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3575,7 +3575,7 @@ Jerkin of Derring-Do,76,270,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,N
 Double Rainbow Robes,66,270,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Trader's Fire-Forged Mail,96,270,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Lizard House Warrior Armor,86,265,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Vestment of Loss,40,264,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bazaar,False,None
+Vestment of Loss,40,264,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Gloomhound's Wrap,40,264,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Raiment of Lamentation,35,264,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Robes of Struggling,35,264,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Gold Key",False,None

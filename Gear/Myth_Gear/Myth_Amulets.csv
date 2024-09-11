@@ -73,7 +73,7 @@ Nullity's Mysterious Totem,160,402,0,6,0,0,0,56,0,0,0,0,203,0,0,0,0,0,0,0,0,1,0,
 Nullity's Mystic Totem,160,402,0,6,0,0,0,56,0,0,0,0,203,0,0,0,0,0,0,0,0,1,0,1,0,Raid,False,None
 Nullity's Mythic Totem (Level 160+),160,402,0,6,0,0,0,56,0,0,0,0,203,0,0,0,0,0,0,0,0,1,0,1,0,Raid,False,None
 Nullity's Mythic Totem (Level 150+),150,369,0,6,0,0,0,54,0,0,0,0,188,0,0,0,0,0,0,0,0,1,0,1,0,Drop,False,None
-Yolok's Ampul of Observation,110,284,0,6,0,0,0,80,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,2,0,Unavailable,False,None
+Yolok's Ampul of Observation,110,284,0,6,0,0,0,80,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,2,0,Drop,False,None
 Relic of the Shadow Palace,100,235,0,6,0,0,0,24,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,"Drop, Crafting",False,None
 Iconic City Dweller Amulet,160,0,0,6,0,0,0,56,0,0,0,0,158,0,0,0,0,0,0,0,0,0,1,0,1,Drop,False,None
 Dreamscape Masterpiece Charm,160,0,0,6,0,0,0,56,0,0,0,0,158,0,0,0,0,0,0,0,0,1,0,1,0,Drop,False,None
@@ -92,11 +92,11 @@ Umbra Queen's Furious Totem (Level 100+),100,268,0,5,0,0,0,16,0,0,0,0,0,0,0,0,0,
 Wastelander's Furious Totem (Level 100+),100,268,0,5,0,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,Crowns,False,None
 Fabled Skyfarer's Amulet (Level 100+),100,268,0,5,0,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Crowns,False,None
 Malistaire's Infamous Charm (Level 100+),100,268,0,5,0,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Rematch,False,None
-Auroracle's Torc of Intent,110,252,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Auroracle's Torc of Intent,110,252,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
 Epic Archival Ampul (Level 90+),90,229,0,5,0,0,0,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,Crowns,False,None
 Gruesome Cerberus Master Ampul (Level 90+),90,229,0,5,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
-Glistening Myth Amulet,155,0,0,5,0,0,0,55,0,0,0,0,152,0,0,0,0,0,0,0,0,1,0,1,0,Unavailable,False,None
-Messenger Officer Medallion,150,0,0,5,0,0,0,54,0,0,0,0,146,0,0,0,0,0,0,0,0,1,0,1,0,Unavailable,False,None
+Glistening Myth Amulet,155,0,0,5,0,0,0,55,0,0,0,0,152,0,0,0,0,0,0,0,0,1,0,1,0,Drop,False,None
+Messenger Officer Medallion,150,0,0,5,0,0,0,54,0,0,0,0,146,0,0,0,0,0,0,0,0,1,0,1,0,Drop,False,None
 Iconic Townie Amulet,160,0,0,5,0,0,0,49,0,0,0,0,135,0,0,0,0,0,0,0,0,0,0,0,1,Drop,False,None
 Amulet of the Shadow Palace,100,0,0,5,0,0,0,21,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Unavailable,False,None
 Supreme Founder's Talisman,148,594,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
@@ -108,7 +108,7 @@ Nostalgic Cabal Amulet,125,417,0,4,0,0,0,0,0,0,0,0,162,0,0,0,0,1,0,0,0,0,0,1,0,"
 Director Hazmat Rope,138,379,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Lead's Hazmat Rope,135,339,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Specialist Hazmat Rope,132,319,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
-Warlord Minak's Medallion,110,296,0,4,0,0,0,67,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,2,0,Unavailable,False,None
+Warlord Minak's Medallion,110,296,0,4,0,0,0,67,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,2,0,Drop,False,None
 Amulet of the Arcanum Exile,110,280,0,4,0,0,0,65,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Drop,False,None
 Jeweled Slopes Ornament,110,263,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Drop,False,None
 Baba Yaga's Charm of Dreams,105,252,0,4,0,0,0,57,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,Drop,False,None
@@ -117,8 +117,8 @@ Burrower's Conjuration Amulet (Level 90+),90,229,0,4,0,0,0,24,0,0,0,0,0,0,0,0,0,
 Universal Memento,100,215,0,4,0,0,35,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Drop,False,None
 Gruesome Cerberus Master Ampul (Level 80+),80,190,0,4,0,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
 Mythic Night Mire Amulet (Level 80+),80,190,0,4,0,0,0,16,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
-Golden Myth Amulet,155,0,0,4,0,0,0,48,0,0,0,0,130,0,0,0,0,0,0,0,0,0,0,1,0,Bazaar,False,None
-Regulation Messenger Medallion,150,0,0,4,0,0,0,47,0,0,0,0,125,0,0,0,0,0,0,0,0,0,0,1,0,Bazaar,False,None
+Golden Myth Amulet,155,0,0,4,0,0,0,48,0,0,0,0,130,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Regulation Messenger Medallion,150,0,0,4,0,0,0,47,0,0,0,0,125,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Dragonspyre Dragoon's Charm,130,541,0,3,0,0,0,87,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Crafting,False,Dragonspyre Dragoon's Set
 Cabalist Schism Amulet,125,434,0,3,0,0,0,0,0,0,0,0,81,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Amulet of the Veiled Vale,105,263,0,3,0,0,0,55,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,1,0,Drop,False,None
@@ -247,8 +247,8 @@ ToeBiter's Cursed Relic,92,260,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,"Dr
 Amulet of the Mouse Scout,90,260,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,"Drop, Bazaar",False,None
 Collar of the Ice Hound,64,260,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Drop,False,None
 Locket of the QuietOne,90,260,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,"Drop, Bazaar",False,None
-Mirror Shard Charm,62,260,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Bazaar,False,None
-Olyphant's Power Pendant,64,260,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Unavailable,False,None
+Mirror Shard Charm,62,260,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,"Drop, Bazaar",False,None
+Olyphant's Power Pendant,64,260,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Drop,False,None
 Relic of Thriving Bastion,90,260,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,"Drop, Bazaar",False,None
 Sand Sea Wanderer's Charm,116,259,0,0,0,0,0,0,0,0,0,0,76,0,0,0,0,0,0,1,0,0,0,0,0,"Gold Vendor, Quest",False,None
 Speaking Water Ornament,82,259,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
@@ -513,7 +513,7 @@ Brilliant Night Mask Memento,86,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,
 Brood Mother's Lavalliere,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Drop,False,None
 Crisp Choker,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Bazaar, Crafting",False,None
 Death Oni's Necklace of Doom,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Divine Paradox Amulet,130,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Unavailable,False,None
+Divine Paradox Amulet,130,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Drop,False,None
 Forsaken Pendant,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Bazaar, Crafting",False,None
 Hopeful Zanadu Pendant,130,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Stone Key",False,None
 Meowiarty's Fyery Necklace,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
@@ -584,7 +584,7 @@ Lifetree Amulet,74,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crafting,Fals
 Meowiarty's Satyrical Choker,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 O'Leary's Briney Amulet,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Protective Pendant,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Gold Vendor, Drop, Bazaar",False,None
-Scratcher's Black Amulet,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Bazaar,False,None
+Scratcher's Black Amulet,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Silver Rose Pendant,74,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crafting,False,None
 Talisman of Disorder,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Bazaar, Quest",False,None
 Triskelion Torc,74,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crafting,False,None

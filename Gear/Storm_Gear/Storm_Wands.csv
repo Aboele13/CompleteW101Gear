@@ -261,7 +261,7 @@ Wysteria Warrior's Longsword (Level 110+),110,0,17,0,0,0,80,0,0,0,0,0,0,0,0,0,0,
 Fossil Avenger's Skullcrusher (Level 120+),120,0,17,0,0,0,75,0,0,0,0,0,210,12,0,0,0,2,0,0,1,0,0,0,0,0,Crowns,False,Fossil Avenger's Set
 Allfather's Gungnir (Level 120+),120,0,17,0,0,0,75,0,0,0,0,0,210,0,0,0,0,2,0,0,1,0,0,0,0,0,"Gold Key, Crowns",False,None
 Setesh's Javelin (Level 130+),130,0,17,0,0,0,69,0,0,0,0,0,245,0,0,0,0,2,0,0,1,0,0,0,0,0,Crowns,False,Setesh's Warrior Set
-Majoris Curio of Fortitude,110,0,17,0,0,0,68,57,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
+Majoris Curio of Fortitude,110,0,17,0,0,0,68,57,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
 Time Warden Downpour Kilij,120,0,17,0,0,0,68,0,0,0,0,0,100,0,0,0,0,2,0,0,0,0,0,0,1,0,Drop,False,None
 Contractor Insulated Meter,132,0,17,0,0,0,65,55,0,0,0,0,0,15,0,0,0,2,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Forgemaster's Sword (Level 130+),130,0,17,0,0,0,62,0,0,0,0,0,195,16,0,0,0,2,0,0,2,0,0,0,0,0,Gift Card,False,None
@@ -959,7 +959,7 @@ Fortune Teller's Eternal Gaze (Level 80+),80,0,7,0,0,5,85,85,0,0,0,0,0,0,0,0,0,2
 Dragonspyre Soldier Cleaver,130,0,7,0,0,0,75,0,0,0,0,0,127,0,0,0,0,2,0,0,0,0,0,0,1,0,Drop,False,None
 Poison Apple (Level 70+),70,0,7,0,0,0,72,72,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Gift Card,False,None
 Silent Knight's Cold Steel (Level 60+),60,0,7,0,0,0,60,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
-Borealis Majoris Artifact,110,0,7,0,0,0,50,50,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
+Borealis Majoris Artifact,110,0,7,0,0,0,50,50,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
 Relic of the Titan Warrior,110,0,7,0,0,0,46,45,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
 Allfather's Gungnir (Level 60+),60,0,7,0,0,0,45,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Cursed Captain's Steel (Level 60+),60,0,7,0,0,0,45,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -1077,7 +1077,7 @@ Fortune Teller's Eternal Gaze (Level 70+),70,0,6,0,0,4,70,70,0,0,0,0,0,0,0,0,0,2
 Poison Apple (Level 60+),60,0,6,0,0,0,58,58,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Gift Card,False,None
 Silent Knight's Cold Steel (Level 50+),50,0,6,0,0,0,56,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Wand of the Arcanum Exile,105,0,6,0,0,0,47,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
-Polarian Borealis Relic,110,0,6,0,0,0,42,42,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
+Polarian Borealis Relic,110,0,6,0,0,0,42,42,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
 Allfather's Gungnir (Level 50+),50,0,6,0,0,0,40,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
 Alphoi Reflector Relic (Level 50+),50,0,6,0,0,0,40,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Cursed Captain's Steel (Level 50+),50,0,6,0,0,0,40,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None

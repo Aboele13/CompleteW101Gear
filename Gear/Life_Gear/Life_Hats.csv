@@ -90,7 +90,7 @@ Lightkeeper's Dive Helmet (Level 160+),160,666,25,6,5,10,144,0,5,0,0,0,0,15,0,0,
 Delightful Sweetsmith Cap,140,800,25,0,4,15,99,0,2,0,0,0,0,18,0,0,0,0,0,0,Crafting,False,None
 Uber Sweetsmith Cap,140,800,25,0,4,15,99,0,2,0,0,0,0,18,0,0,0,0,0,0,Drop,False,None
 Alphoi Guerilla Helm,130,790,25,0,5,13,134,0,0,0,0,0,0,14,0,0,0,0,0,0,Crafting,False,None
-Lively Paradox Conical,130,790,25,0,5,13,134,0,0,0,0,0,0,14,0,0,0,0,0,0,Unavailable,False,None
+Lively Paradox Conical,130,790,25,0,5,13,134,0,0,0,0,0,0,14,0,0,0,0,0,0,Drop,False,None
 Monarch's Diadem (Level 130+),130,729,25,0,7,12,146,0,0,0,0,0,0,16,0,0,0,0,0,0,Gift Card,False,None
 Helm of the Briny Deep (Level 130+),130,729,25,0,0,13,140,0,0,9,0,7,0,16,0,0,0,0,0,0,Gift Card,False,None
 Dwarven Helmet,125,698,25,0,0,12,120,0,0,0,0,0,0,13,0,0,0,0,0,0,Crowns,False,None
@@ -858,7 +858,7 @@ Lovely Fairy Kei Conical (Level 40+),40,0,11,3,0,7,0,0,1,0,0,0,0,0,0,0,0,0,0,0,C
 Beekeeper's Veil Hat (Level 40+),40,0,11,2,0,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Dragonspyre Vanguard's Helm,130,793,11,0,4,12,133,0,2,0,0,0,0,14,0,0,0,0,0,0,"Drop, Crafting, Stone Key",False,None
 Alphoi Brigadier Helm,130,752,11,0,3,12,102,0,0,0,0,0,0,14,0,0,0,0,0,0,Crafting,False,None
-Divine Paradox Conical,130,752,11,0,3,12,102,0,0,0,0,0,0,14,0,0,0,0,0,0,Unavailable,False,None
+Divine Paradox Conical,130,752,11,0,3,12,102,0,0,0,0,0,0,14,0,0,0,0,0,0,Drop,False,None
 Hopeful Zanadu Helm,130,744,11,0,2,11,99,0,0,0,0,0,0,13,0,0,0,0,0,0,Drop,False,None
 Cabal Schism Hood,125,736,11,0,0,11,103,0,2,0,0,0,0,14,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Winter Solstice Cowl (Level 100+),100,537,11,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -1211,7 +1211,7 @@ Wildranger Cowl (Level 30+),30,200,8,0,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card
 Dawn Jaguar Hunting Garb (Level 40+),40,200,8,0,1,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Astromancer's Cowl (Level 60+),60,197,8,0,0,9,47,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Defiler's Helm of Anticipation,40,192,8,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-Mantle of Euphoria,40,192,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bazaar,False,None
+Mantle of Euphoria,40,192,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Royal Fusilier's Shako (Level 40+),40,185,8,0,2,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 All Souls Headwrap (Level 60+),60,183,8,0,4,0,66,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Dawn Jaguar's Helm (Level 70+),70,180,8,0,2,7,25,0,1,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -1778,7 +1778,7 @@ Black New Year's Top Hat (Level 20+),20,99,4,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 Cowl of the Vigilant,25,96,4,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Nails' Medical Hat,25,96,4,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Widow's Bewitching Hat,25,96,4,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Jacques' Helm of the Mender,25,96,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bazaar,False,None
+Jacques' Helm of the Mender,25,96,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Abyssal Warrior's Mask (Level 20+),20,94,4,0,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Charon's Countenance (Level 20+),20,93,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Mask of the Sun Eagle (Level 30+),30,90,4,0,2,3,0,0,0,0,0,3,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -2248,7 +2248,7 @@ Greenwarden's Energetic Mask (Level 100+),100,430,0,10,7,0,0,35,0,0,0,0,0,0,0,0,
 Kozane Helm (Level 100+),100,420,0,10,11,10,0,0,0,0,10,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Sultan's Turban (Level 80+),80,245,0,10,8,0,40,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Gift Card",False,None
 Polarian Explorer's Snowhood (Level 70+),70,239,0,10,0,8,0,0,4,3,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Dragonfly Keeper's Cap,92,220,0,10,0,8,42,0,0,0,6,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Dragonfly Keeper's Cap,92,220,0,10,0,8,42,0,0,0,6,0,0,0,0,0,0,0,0,0,Drop,False,None
 Summer Palace Helmet (Level 70+),70,150,0,10,0,4,0,0,0,0,13,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Wild Wing Headdress (Level 50+),50,118,0,10,0,5,0,12,0,0,10,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Casual Lederhosen (Level 70+),70,407,0,9,4,0,0,48,1,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3378,7 +3378,7 @@ Lydia's Frigid Hat (Level 10+),10,96,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,
 Stargazer's Cowl (Level 20+),20,96,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Flowering Canine Cowl,25,96,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Sprockets' Urbane Cowl,25,96,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Cap of Spring,25,96,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Cap of Spring,25,96,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
 Soothsayer's Helm,20,96,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Crimson Pandamonium Warhelm (Level 20+),20,96,0,0,0,2,0,0,0,0,2,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Ancient Purrzian Battle Helm (Level 20+),20,96,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -4120,7 +4120,7 @@ Pyromancer's Lambent Hat,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, 
 Pyromancer's Timeless Brim,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
 Racing Helmet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Rain Dance Mask,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Rattlebones' Cowl,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bazaar,False,None
+Rattlebones' Cowl,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Raven Helm of Unkindness (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Raven Hood,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Ravenwood Initiate Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None

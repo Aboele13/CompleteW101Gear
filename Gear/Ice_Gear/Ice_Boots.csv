@@ -103,7 +103,7 @@ Forgemaster's Boots (Level 120+),120,558,29,12,0,5,102,0,0,0,0,3,0,12,0,0,0,0,0,
 Lemurian Detective Shoes,142,898,29,11,0,0,83,0,0,0,0,0,0,13,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Gorgon Slayer's Sandals (Level 150+),150,1232,29,8,2,8,0,0,0,0,0,0,0,15,0,0,0,0,0,0,Crowns,False,None
 Stubborn Alphoi Boots,125,1167,29,8,4,0,94,0,0,0,0,0,0,11,0,0,0,0,0,0,Crafting,False,None
-Freezing Zanadu Boots,130,934,29,8,0,8,107,0,0,0,0,0,0,11,0,0,0,0,0,0,Unavailable,False,None
+Freezing Zanadu Boots,130,934,29,8,0,8,107,0,0,0,0,0,0,11,0,0,0,0,0,0,Drop,False,None
 Cabalist Stomps of Vengeance,125,927,29,8,4,0,102,0,0,0,0,0,0,12,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Crimson Pandamonium Boots (Level 130+),130,870,29,6,0,4,136,0,0,0,0,0,0,12,0,0,0,0,0,0,Crowns,False,None
 Shadoe's Boots of Justice (Level 130+),130,713,29,6,2,5,68,0,0,0,0,0,0,13,0,0,0,0,0,0,Crowns,False,None
@@ -331,7 +331,7 @@ Beekeeper's Protective Boots (Level 100+),100,241,22,9,4,0,81,0,3,0,0,0,0,0,0,0,
 Director Hazmat Boots,138,909,22,8,0,0,75,0,0,0,0,0,0,13,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Revolutionary's Boots (Level 140+),140,855,22,8,4,5,91,129,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Revolutionary's Boots (Level 130+),130,727,22,8,4,5,84,125,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Majoris Boots of Diligence,110,690,22,7,0,6,95,0,0,0,0,0,0,11,0,0,0,0,0,0,Unavailable,False,None
+Majoris Boots of Diligence,110,690,22,7,0,6,95,0,0,0,0,0,0,11,0,0,0,0,0,0,Drop,False,None
 Dashing Outlaw's Treaders (Level 100+),100,604,22,7,0,0,92,0,0,5,0,0,0,8,0,0,0,0,0,0,Gift Card,False,None
 Sacred Yarn Sandals (Level 110+),110,503,22,6,4,0,71,118,0,0,0,0,0,6,0,0,0,0,0,0,Gift Card,False,None
 Arcane Beach Slippers (Level 130+),130,582,22,5,7,0,63,63,3,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
@@ -456,7 +456,7 @@ Nimbari Centurion Greaves (Level 90+),90,424,19,9,0,0,69,0,0,0,5,0,0,0,0,0,0,0,0
 Cool Fairy Kei Slippers (Level 80+),80,230,19,9,4,0,57,0,2,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Specialist Hazmat Boots,132,796,19,7,0,0,67,0,0,0,0,0,0,12,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Beekeeper's Protective Boots (Level 80+),80,166,19,7,4,0,57,0,2,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Borealis Icecrystal Shoes,110,614,19,6,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Borealis Icecrystal Shoes,110,614,19,6,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
 Gorgon Hunter's Shoes (Level 110+),110,693,19,5,0,6,0,0,0,5,0,0,0,11,0,0,0,0,0,0,Crowns,False,None
 Crimson Pandamonium Boots (Level 90+),90,400,19,5,0,3,94,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Arcane Beach Slippers (Level 110+),110,377,19,5,6,0,53,53,3,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
@@ -731,7 +731,7 @@ Snowcrusher's Snowwalkers,50,136,14,4,3,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Drop,False
 Revolutionary's Boots (Level 60+),60,131,14,4,3,0,40,82,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Sacred Yarn Sandals (Level 60+),60,118,14,4,4,0,39,58,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Alphoi Brigadier Boots,130,848,14,3,0,9,85,0,0,0,0,0,0,12,0,0,0,0,0,0,Crafting,False,None
-Divine Paradox Boots,130,848,14,3,0,9,85,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Divine Paradox Boots,130,848,14,3,0,9,85,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
 Hopeful Zanadu Boots,130,827,14,3,0,8,82,0,0,0,0,0,0,11,0,0,0,0,0,0,Drop,False,None
 Cabal Schism Stompers,125,797,14,3,2,0,87,0,0,0,0,0,0,12,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Time Warden's Ornate Galesh,120,797,14,3,2,0,87,0,0,0,0,0,0,11,0,0,0,0,0,0,Drop,False,None
@@ -925,7 +925,7 @@ Unicorn Paladin Sabatons (Level 40+),40,188,11,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Witchcrafter's Shoes (Level 50+),50,92,11,6,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Unkind Winter Boots (Level 90+),90,380,11,5,0,8,35,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
 Darkwraith's Atonement Boots (Level 90+),90,0,11,5,0,13,0,10,0,0,5,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Borealis Majoris Sabatons,110,592,11,3,0,4,84,0,0,0,0,0,0,11,0,0,0,0,0,0,Unavailable,False,None
+Borealis Majoris Sabatons,110,592,11,3,0,4,84,0,0,0,0,0,0,11,0,0,0,0,0,0,Drop,False,None
 Crimson Pandamonium Boots (Level 50+),50,209,11,3,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Ghastly Cerberus Master Boots (Level 40+),40,170,11,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Whitehart Boots (Level 80+),80,115,11,3,6,3,38,58,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
@@ -1004,7 +1004,7 @@ Great Inventor's Ice Boots (Level 40+),40,136,10,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0
 Whitehart Boots (Level 70+),70,100,10,3,6,3,32,47,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Whitehart Boots (Level 50+),50,65,10,3,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Darkwraith's Atonement Boots (Level 80+),80,0,10,3,0,12,0,0,0,0,4,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Polarian Borealis Footgear,110,526,10,2,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Polarian Borealis Footgear,110,526,10,2,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
 Cool Fairy Kei Slippers (Level 30+),30,0,10,2,0,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Gorgonsbane Sandals (Level 30+),30,332,10,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Gorgon Hunter's Shoes (Level 20+),20,269,10,1,0,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -4009,7 +4009,7 @@ Footgear of the Indomitable,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,
 Footgear of the Undertow,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Footguards of the Hero,54,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Footwraps of Anguish,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
-Footwraps of Calamity,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
+Footwraps of Calamity,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
 Footwraps of Chants,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Gold Key",False,None
 Footwraps of Proportion,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
 Footwraps of the Efreet,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
@@ -4019,8 +4019,8 @@ Footwraps of the Temple,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest"
 Forsaken Footguards,54,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Fountain Waders,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Friendly Shoes,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Gold Key",False,None
-Frost Wolf Boots,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
-Frost-Touched Shoes,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
+Frost Wolf Boots,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
+Frost-Touched Shoes,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
 Gallant Rogue's Shoes,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Stone Key,False,None
 Genie Boots,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Ghastly Beastmoon Boots,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None

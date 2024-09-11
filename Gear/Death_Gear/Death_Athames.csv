@@ -81,7 +81,7 @@ Supreme Undead Athame,148,1006,16,0,0,0,0,127,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,
 Wunderbar Sentamentalist Knife,140,986,16,0,0,0,0,131,0,0,5,0,0,0,0,0,0,1,0,0,0,0,2,0,0,Drop,False,None
 Great Inventor's Death Dirk (Level 140+),140,961,16,0,0,17,0,80,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
 Lemurian Deadly Athame,142,894,16,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,1,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Infantry Officer Knife,150,877,16,0,0,12,0,65,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Unavailable,False,None
+Infantry Officer Knife,150,877,16,0,0,12,0,65,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Drop,False,None
 Floramancer Blade of Decay (Level 140+),140,673,16,0,0,18,0,90,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
 Executive Biohazard Knife,138,638,16,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,1,0,0,0,1,0,1,"Drop, Bazaar",False,None
 Lord of Death's Razor,100,372,16,0,2,16,0,18,0,0,15,0,0,0,0,0,0,1,1,0,0,0,1,0,1,Drop,False,None
@@ -106,7 +106,7 @@ Supreme Old Judge Athame,148,1013,14,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,1,0,0,0,1,0,1
 Vanguard's Deadly Dagger,130,946,14,0,0,0,0,133,0,0,4,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Crafting, Stone Key",False,None
 Lemurian Horror Athame,142,894,14,0,0,0,0,113,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,"Drop, Bazaar",False,None
 Lemurian Undead Athame,142,894,14,0,0,0,0,113,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Regulation Infantry Knife,150,767,14,0,0,10,0,55,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,Bazaar,False,None
+Regulation Infantry Knife,150,767,14,0,0,10,0,55,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,"Drop, Bazaar",False,None
 Heavy Kalamar Knife,127,739,14,0,0,0,0,0,0,0,0,4,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Director Biohazard Knife,138,638,14,0,0,0,0,110,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,"Drop, Bazaar",False,None
 Producer's Biohazard Knife,138,638,14,0,0,0,0,110,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
@@ -382,12 +382,12 @@ Sir Malory's Bloody Oath,78,290,0,0,0,14,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,0,0,0,1,D
 Sworn Knife to Artorius,78,290,0,0,0,14,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,0,0,0,1,Drop,False,None
 Fang of the Night Sky,84,290,0,0,0,9,0,0,0,0,11,0,0,0,0,0,0,1,0,0,0,0,1,0,1,"Drop, Bazaar",False,None
 Gorilla's Fang,64,290,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
-Berserker's Blade,64,280,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,Bazaar,False,None
+Berserker's Blade,64,280,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
 Herd's Stampede,64,280,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
 Roaring Razor,64,280,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
 Striped Skewer,64,280,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
 FateSailor's Exalted Steel,98,275,0,0,0,13,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,Drop,False,None
-Roze's Hunting Knife,94,275,0,0,0,10,0,0,0,0,12,0,0,0,0,0,0,1,0,0,0,0,2,0,0,Bazaar,False,None
+Roze's Hunting Knife,94,275,0,0,0,10,0,0,0,0,12,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
 Talon of the Flame Legs,94,275,0,0,0,10,0,0,0,0,12,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
 Horn Handled Knife,72,272,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,"Drop, Bazaar",False,None
 Dryad's Burning Nettle,72,271,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,"Drop, Bazaar",False,None
@@ -505,7 +505,7 @@ Barkingham Blade of Blight,40,139,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,
 Lifegiver's Edge,45,135,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0,0,0,0,0,1,1,0,0,"Drop, Bazaar",False,None
 Dagger of Soul-Searching,35,135,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,1,"Gold Vendor, Drop, Bazaar",False,None
 Point of the Pegasus,23,132,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,0,1,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
-Jacques's Polished Athame,30,132,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,1,Unavailable,False,None
+Jacques's Polished Athame,30,132,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,1,Drop,False,None
 Blade of Ashes,45,130,0,0,0,0,0,0,0,0,12,0,0,0,0,0,0,0,0,0,0,1,0,0,1,"Drop, Bazaar",False,None
 Needle of the Eye,45,130,0,0,0,0,0,0,0,0,0,13,0,0,0,0,0,0,0,0,0,1,1,0,0,"Drop, Bazaar",False,None
 Inspirational Blade,45,125,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None

@@ -128,7 +128,7 @@ Deck of the Dragon's Maw (Square),100,60,0,0,0,0,18,0,0,0,0,0,0,0,0,0,0,1,0,0,0,
 Deck of the Dragon's Maw (Tear),100,60,0,0,0,0,18,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Crafting,False,None
 Dragonbone Pasteboards,100,60,0,0,0,0,18,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crafting,False,None
 Array of Mighty Istanboa,118,59,0,0,0,0,36,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Gold Vendor, Stone Key",False,None
-Chief Advisor's Pack of Lies,110,59,0,0,0,0,34,34,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Unavailable,False,None
+Chief Advisor's Pack of Lies,110,59,0,0,0,0,34,34,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Drop,False,None
 Parcel of the Arcanum Exile,110,59,0,0,0,0,34,34,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Drop,False,None
 Ancient Deck of Horizon Hold,110,59,0,0,0,0,34,34,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Drop,False,None
 Regulation Cavalry Cards,150,58,0,0,0,0,50,52,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,"Drop, Bazaar",False,None
@@ -138,9 +138,9 @@ Array of the Daystar,100,58,0,0,0,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Dro
 Great Inventor's Fire Deck (Level 130+),130,58,0,0,0,0,0,66,0,0,0,0,83,0,47,0,0,1,0,0,0,0,0,0,1,0,Crowns,False,None
 Kobra Mercenary's Hand,116,56,0,0,0,0,35,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Gold Vendor,False,None
 Istanboa Heatwave Array,118,55,0,0,0,0,43,38,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
-Rasputin's Deck of Gall,110,55,0,0,0,0,41,39,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Unavailable,False,None
+Rasputin's Deck of Gall,110,55,0,0,0,0,41,39,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Drop,False,None
 Arcanum Exile Pack of Fever,110,55,0,0,0,0,41,39,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Drop,False,None
-Horizon Hold Deck of Furor,110,55,0,0,0,0,41,39,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Unavailable,False,None
+Horizon Hold Deck of Furor,110,55,0,0,0,0,41,39,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Drop,False,None
 The BlazingWind's Arcana,95,55,0,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Crafting,False,None
 Street Viper's Cards,114,53,0,0,0,0,35,33,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Gold Vendor,False,None
 Kobra Hand of Fury,116,52,0,0,0,0,42,37,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None

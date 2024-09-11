@@ -45,7 +45,7 @@ Eternal Fractured Athame,160,1129,20,0,0,19,0,82,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0
 Eternal Fragmented Athame,160,1129,20,0,0,19,0,82,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crafting,False,None
 Great Inventor's Storm Dirk (Level 160+),160,1129,20,0,0,19,0,82,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
 Burrower's Divination Athame (Level 140+),140,894,20,0,0,16,0,72,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
-Artillery Officer Knife,150,821,20,0,0,13,0,58,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Unavailable,False,None
+Artillery Officer Knife,150,821,20,0,0,13,0,58,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Drop,False,None
 Thunderous Protector's Athame,165,794,20,0,0,13,0,53,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,"Drop, Bazaar",False,None
 Floramancer Blade of Thorns (Level 160+),160,791,20,0,0,21,0,92,0,0,0,7,0,0,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
 The Void's Stormy Athame (Level 160+),160,791,20,0,0,21,0,92,0,0,0,7,0,0,0,0,0,0,0,0,0,1,2,0,1,Raid,False,None
@@ -73,7 +73,7 @@ Great Inventor's Storm Dirk (Level 140+),140,894,18,0,0,18,0,72,0,0,0,0,0,0,0,0,
 Burrower's Divination Athame (Level 130+),130,776,18,0,0,16,0,56,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
 Golden Storm Dagger,155,754,18,0,0,11,0,50,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,"Drop, Bazaar",False,None
 Gloomy Cerberus Master Dirk (Level 140+),140,749,18,0,0,11,0,89,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
-Regulation Artillery Knife,150,718,18,0,0,11,0,49,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,Bazaar,False,None
+Regulation Artillery Knife,150,718,18,0,0,11,0,49,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,"Drop, Bazaar",False,None
 Floramancer Blade of Thorns (Level 140+),140,626,18,0,0,19,0,81,0,0,0,7,0,0,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
 Fraught Archival Dirk (Level 130+),130,621,18,0,0,0,0,69,0,0,0,8,0,0,0,0,0,0,0,0,0,1,2,1,0,Crowns,False,None
 Wild Skyfarer's Athame (Level 130+),130,621,18,0,0,19,0,42,0,0,0,7,0,0,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
@@ -269,7 +269,7 @@ Hopeful Zanadu Dagger,130,763,5,0,0,0,0,69,0,0,4,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Dr
 Cabalist Schism Dagger,125,744,5,0,0,0,0,59,0,0,0,5,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
 Eerem Courtier's Razor,118,503,5,0,0,0,0,0,0,0,0,4,0,0,0,0,0,1,0,0,0,0,2,0,0,"Gold Vendor, Stone Key, Quest",False,None
 Sand Sea Wanderer's Dagger,116,467,5,0,0,0,0,0,0,0,0,4,0,0,0,0,0,1,1,0,0,0,1,0,0,Gold Vendor,False,None
-Berserker's Blade,64,280,5,0,0,6,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,Bazaar,False,None
+Berserker's Blade,64,280,5,0,0,6,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
 Striped Skewer,64,280,5,0,0,6,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
 Kris of Thunderous Resolve,60,135,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Drop, Stone Key, Wooden Key",False,None
 Emerald Bear Claw,56,117,5,0,0,6,0,8,0,0,25,8,0,0,0,0,0,0,0,0,0,1,1,0,1,Crafting,False,None
@@ -369,7 +369,7 @@ Herd's Stampede,64,280,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Baza
 Pride's Maul,64,280,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
 Roaring Razor,64,280,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
 FateSailor's Exalted Steel,98,275,0,0,0,13,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,Drop,False,None
-Roze's Hunting Knife,94,275,0,0,0,10,0,0,0,0,12,0,0,0,0,0,0,1,0,0,0,0,2,0,0,Bazaar,False,None
+Roze's Hunting Knife,94,275,0,0,0,10,0,0,0,0,12,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
 Talon of the Flame Legs,94,275,0,0,0,10,0,0,0,0,12,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
 Dryad's Burning Nettle,72,271,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,"Drop, Bazaar",False,None
 Owl's Talon,72,271,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,"Drop, Bazaar",False,None

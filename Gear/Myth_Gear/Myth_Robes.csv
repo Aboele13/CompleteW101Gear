@@ -2565,7 +2565,7 @@ Gorgonsbane Armor (Level 120+),120,1283,0,7,4,0,0,68,2,0,0,0,0,18,0,0,0,0,0,0,Cr
 Gorgon Slayer's Armor (Level 110+),110,1211,0,7,3,6,0,86,0,0,0,0,0,17,0,0,0,0,0,0,Crowns,False,None
 Seal Team Demolitions Suit (Level 110+),110,912,0,7,0,10,0,0,0,0,7,0,0,0,0,0,0,0,0,0,"Stone Key, Crowns",False,None
 Shadoe's Costume of Justice (Level 110+),110,866,0,7,3,5,0,61,2,0,0,0,0,17,0,0,0,0,0,0,Crowns,False,None
-Majoris Raiment of Insight,110,850,0,7,5,0,0,119,0,0,24,0,0,17,0,0,0,0,0,0,Unavailable,False,None
+Majoris Raiment of Insight,110,850,0,7,5,0,0,119,0,0,24,0,0,17,0,0,0,0,0,0,Drop,False,None
 Shadoe's Costume of Vengeance (Level 80+),80,842,0,7,0,0,0,62,0,3,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Titan Warrior Garb of Logic,110,802,0,7,5,0,0,117,0,0,23,0,0,0,0,0,0,0,0,0,Drop,False,None
 Witch Hunter's Vesture (Level 90+),90,642,0,7,0,8,0,0,3,4,0,0,0,12,0,0,0,0,0,0,Gift Card,False,None
@@ -2696,7 +2696,7 @@ Gorgonsbane Armor (Level 110+),110,1155,0,6,4,0,0,61,2,0,0,0,0,17,0,0,0,0,0,0,Cr
 Gorgon Slayer's Armor (Level 100+),100,1090,0,6,3,6,0,77,0,0,0,0,0,16,0,0,0,0,0,0,Crowns,False,None
 Shadoe's Costume of Justice (Level 100+),100,779,0,6,3,5,0,55,1,0,0,0,0,16,0,0,0,0,0,0,Crowns,False,None
 Shadoe's Costume of Vengeance (Level 70+),70,758,0,6,0,0,0,56,0,2,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Borealis Raiment of Vision,110,755,0,6,4,0,0,115,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Borealis Raiment of Vision,110,755,0,6,4,0,0,115,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
 Arcanum Exile Muse Cloak,105,614,0,6,0,0,0,105,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
 Witch Hunter's Vesture (Level 70+),70,464,0,6,0,7,0,0,2,3,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Aquilan Charioteer Hamata (Level 60+),60,443,0,6,0,9,0,66,0,2,6,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3178,7 +3178,7 @@ Seal Team Recon Suit (Any Level),1,78,0,3,0,3,0,0,0,0,0,5,0,0,0,0,0,0,0,0,Crowns
 Bitter Cloak,15,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
 Runeweave Clothing,15,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Vestment of the Arctic,15,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Polarian Borealis Raiment,110,789,0,2,2,0,0,97,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Polarian Borealis Raiment,110,789,0,2,2,0,0,97,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
 Arcanum Exile Warlock Cloak,105,641,0,2,0,0,0,101,0,0,0,0,0,15,0,0,0,0,0,0,Drop,False,None
 Gorgonsbane Armor (Level 40+),40,553,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Gorgon Slayer's Armor (Level 30+),30,522,0,2,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None

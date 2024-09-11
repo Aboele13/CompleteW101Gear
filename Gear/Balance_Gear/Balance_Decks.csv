@@ -124,7 +124,7 @@ Luphilim's Valiant Set,110,65,0,0,0,0,39,42,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,
 Elder's Hand of Unity,95,65,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Crafting,False,None
 Luphilim's Eternal Deck,110,63,0,0,0,0,34,35,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Stone Key,False,None
 Great Inventor's Balance Deck (Level 130+),130,63,0,0,0,0,0,67,0,0,0,0,83,0,47,0,0,1,0,0,0,0,0,0,1,0,Crowns,False,None
-Rasputin's Bevy of Answers,110,61,0,0,0,0,39,41,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Unavailable,False,None
+Rasputin's Bevy of Answers,110,61,0,0,0,0,39,41,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Drop,False,None
 Steady Arcanum Exile Hand,110,61,0,0,0,0,39,41,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Drop,False,None
 Gallant Hand of Horizon Hold,110,61,0,0,0,0,39,41,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Drop,False,None
 Istanboa Array of Scruples,118,60,0,0,0,0,41,39,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
@@ -133,7 +133,7 @@ Lovelorn Spirit's Set of Woe (Square),100,60,0,0,0,0,18,0,0,0,0,0,0,0,0,0,0,1,0,
 Lovelorn Spirit's Set of Woe (Tear),100,60,0,0,0,0,18,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Crafting,False,None
 Set of the Lovelorn Spirit,100,60,0,0,0,0,18,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crafting,False,None
 Array of Mighty Istanboa,118,59,0,0,0,0,36,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Gold Vendor, Stone Key",False,None
-Chief Advisor's Pack of Lies,110,59,0,0,0,0,34,34,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Unavailable,False,None
+Chief Advisor's Pack of Lies,110,59,0,0,0,0,34,34,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Drop,False,None
 Parcel of the Arcanum Exile,110,59,0,0,0,0,34,34,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Drop,False,None
 Ancient Deck of Horizon Hold,110,59,0,0,0,0,34,34,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Drop,False,None
 Arcana of the Outer Void,100,58,0,0,0,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None

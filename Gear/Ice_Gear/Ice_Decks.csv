@@ -118,9 +118,9 @@ Luphilim's Piercing Pack,110,73,0,0,0,0,38,46,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,
 Cabalist Schism Deck,125,72,0,0,0,0,32,35,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Unavailable,False,None
 Tetrus Prison Deck,120,72,0,0,0,0,0,35,0,0,0,0,45,0,0,0,0,1,0,0,0,0,0,0,0,1,Drop,False,None
 Golden Ice Box,155,70,0,0,0,0,42,62,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,"Drop, Bazaar",False,None
-Rasputin's Cards of Numbing,110,69,0,0,0,0,38,45,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Unavailable,False,None
+Rasputin's Cards of Numbing,110,69,0,0,0,0,38,45,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Drop,False,None
 Arcanum Exile Snowflake Set,110,69,0,0,0,0,38,45,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Drop,False,None
-Horizon Hold Set of Verglas,110,69,0,0,0,0,38,45,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Unavailable,False,None
+Horizon Hold Set of Verglas,110,69,0,0,0,0,38,45,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Drop,False,None
 Floramancer Deck of Bark (Level 130+),130,68,0,0,0,0,0,54,0,0,0,0,92,0,52,0,0,1,0,0,0,0,0,0,0,1,Crowns,False,None
 Regulation Trooper Cards,150,67,0,0,0,0,41,61,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Drop,False,None
 Istanboa Array of Icefall,118,67,0,0,0,0,40,42,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
@@ -133,7 +133,7 @@ Terror of Carpathes Cards (Tear),100,60,0,0,0,0,18,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
 Village of Carpathes Case,100,60,0,0,0,0,18,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crafting,False,None
 Great Inventor's Ice Deck (Level 130+),130,60,0,0,0,0,0,77,0,0,0,0,83,0,47,0,0,1,0,0,0,0,0,0,1,0,Crowns,False,None
 Array of Mighty Istanboa,118,59,0,0,0,0,36,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Gold Vendor, Stone Key",False,None
-Chief Advisor's Pack of Lies,110,59,0,0,0,0,34,34,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Unavailable,False,None
+Chief Advisor's Pack of Lies,110,59,0,0,0,0,34,34,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Drop,False,None
 Parcel of the Arcanum Exile,110,59,0,0,0,0,34,34,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Drop,False,None
 Ancient Deck of Horizon Hold,110,59,0,0,0,0,34,34,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Drop,False,None
 Fang Deck of Frostfall,112,58,0,0,0,0,37,39,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None

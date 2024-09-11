@@ -301,7 +301,7 @@ Karamelle Knight Sword (Level 120+),120,0,14,0,0,0,68,0,0,0,0,0,205,0,0,0,0,2,0,
 All Souls Cranium Wand (Level 80+),80,0,14,0,0,0,68,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Allfather's Gungnir (Level 100+),100,0,14,0,0,0,65,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Fossil Warrior's Skullcrusher (Level 100+),100,0,14,0,0,0,61,0,0,0,0,0,0,10,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,Fossil Warrior's Set
-Majoris Portion of Impulse,110,0,14,0,0,0,57,68,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
+Majoris Portion of Impulse,110,0,14,0,0,0,57,68,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
 Time Warden Kilij of Triumph,120,0,14,0,0,0,56,0,0,0,0,0,100,0,0,0,0,2,0,0,0,0,0,0,1,0,Drop,False,None
 Unicorn Knight's Rain-Bow (Level 110+),110,0,14,0,0,0,56,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0,Crowns,False,None
 Red Licorice Whip (Level 120+),120,0,14,0,0,0,55,0,0,0,0,0,210,15,0,0,0,2,0,0,1,0,0,0,0,0,Crowns,False,None
@@ -842,7 +842,7 @@ Dragonspyre Soldier Cleaver,130,0,7,0,0,0,75,0,0,0,0,0,127,0,0,0,0,2,0,0,0,0,0,0
 Poison Apple (Level 70+),70,0,7,0,0,0,72,72,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Gift Card,False,None
 Eye of the Soothsayer (Level 70+),70,0,7,0,0,4,65,65,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Silent Knight's Cold Steel (Level 60+),60,0,7,0,0,0,60,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
-Borealis Majoris Artifact,110,0,7,0,0,0,50,50,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
+Borealis Majoris Artifact,110,0,7,0,0,0,50,50,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
 Relic of the Titan Warrior,110,0,7,0,0,0,46,45,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
 Allfather's Gungnir (Level 60+),60,0,7,0,0,0,45,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Cursed Captain's Steel (Level 60+),60,0,7,0,0,0,45,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -954,7 +954,7 @@ Highlands Militia Staff (Level 60+),60,0,6,0,3,0,58,42,0,0,0,0,0,0,0,0,0,2,0,0,0
 Silent Knight's Cold Steel (Level 50+),50,0,6,0,0,0,56,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Eye of the Soothsayer (Level 60+),60,0,6,0,0,4,50,50,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Wand of the Arcanum Exile,105,0,6,0,0,0,47,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
-Polarian Borealis Relic,110,0,6,0,0,0,42,42,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
+Polarian Borealis Relic,110,0,6,0,0,0,42,42,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
 Allfather's Gungnir (Level 50+),50,0,6,0,0,0,40,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
 Alphoi Reflector Relic (Level 50+),50,0,6,0,0,0,40,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Cursed Captain's Steel (Level 50+),50,0,6,0,0,0,40,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None

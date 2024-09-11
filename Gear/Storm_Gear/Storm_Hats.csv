@@ -945,7 +945,7 @@ Zeus' Helm of Tumult,30,150,11,1,6,3,0,0,0,0,5,6,0,0,0,0,0,0,0,0,Drop,False,None
 Dragonspyre Vanguard's Helm,130,793,11,0,4,12,133,0,2,0,0,0,0,14,0,0,0,0,0,0,"Drop, Crafting, Stone Key",False,None
 Shroud of Icewind Glade (Level 130+),130,766,11,0,0,10,0,0,0,0,4,4,0,0,0,0,0,0,0,0,Crowns,False,None
 Alphoi Brigadier Helm,130,752,11,0,3,12,102,0,0,0,0,0,0,14,0,0,0,0,0,0,Crafting,False,None
-Divine Paradox Conical,130,752,11,0,3,12,102,0,0,0,0,0,0,14,0,0,0,0,0,0,Unavailable,False,None
+Divine Paradox Conical,130,752,11,0,3,12,102,0,0,0,0,0,0,14,0,0,0,0,0,0,Drop,False,None
 Hopeful Zanadu Helm,130,744,11,0,2,11,99,0,0,0,0,0,0,13,0,0,0,0,0,0,Drop,False,None
 Cabal Schism Hood,125,736,11,0,0,11,103,0,2,0,0,0,0,14,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Winter Solstice Cowl (Level 100+),100,537,11,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -1223,7 +1223,7 @@ Ancient Druidic Cowl (Level 30+),30,143,9,0,2,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crow
 Able Ranger's Hat (Level 50+),50,142,9,0,0,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Sky Sorcerer Kasa (Level 60+),60,142,9,0,4,7,60,0,0,0,2,2,0,0,0,0,0,0,0,0,Gift Card,False,Sky Sorcerer's Set
 Oyotomi's Cowl of Vacancy,40,128,9,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-Hood of the Flurry,40,128,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bazaar,False,None
+Hood of the Flurry,40,128,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Helm of the Briny Deep (Level 30+),30,127,9,0,0,8,0,0,0,4,0,4,0,0,0,0,0,0,0,0,Gift Card,False,None
 Woodland Hunter Tuke (Level 30+),30,127,9,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Celestian Photon Mask (Level 30+),30,123,9,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -2303,7 +2303,7 @@ Greenwarden's Energetic Mask (Level 100+),100,430,0,10,7,0,0,35,0,0,0,0,0,0,0,0,
 Kozane Helm (Level 100+),100,420,0,10,11,10,0,0,0,0,10,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Sultan's Turban (Level 80+),80,245,0,10,8,0,40,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Gift Card",False,None
 Polarian Explorer's Snowhood (Level 70+),70,239,0,10,0,8,0,0,4,3,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Dragonfly Keeper's Cap,92,220,0,10,0,8,42,0,0,0,6,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Dragonfly Keeper's Cap,92,220,0,10,0,8,42,0,0,0,6,0,0,0,0,0,0,0,0,0,Drop,False,None
 Summer Palace Helmet (Level 70+),70,150,0,10,0,4,0,0,0,0,13,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Wild Wing Headdress (Level 50+),50,118,0,10,0,5,0,12,0,0,10,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Casual Lederhosen (Level 70+),70,407,0,9,4,0,0,48,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3567,7 +3567,7 @@ Silent Knight Helmet (Any Level),1,65,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,Crowns
 Brown Werewolf Skullcap (Any Level),1,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Haros' Countenance (Any Level),1,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Animated Canine Cowl,25,64,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Scratcher's Invigorated Cowl,25,64,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bazaar,False,None
+Scratcher's Invigorated Cowl,25,64,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Hat of the Scirocco,25,64,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
 Pioneer's Helm,20,64,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Helm of the Silent Knight (Any Level),1,64,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -4127,7 +4127,7 @@ Pyromancer's Lambent Hat,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, 
 Pyromancer's Timeless Brim,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
 Racing Helmet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Rain Dance Mask,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Rattlebones' Cowl,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bazaar,False,None
+Rattlebones' Cowl,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Raven Helm of Unkindness (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Raven Hood,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Ravenwood Initiate Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None

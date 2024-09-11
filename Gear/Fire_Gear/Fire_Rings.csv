@@ -90,7 +90,7 @@ Seal of the Shadow Palace (Level 99+),99,364,10,0,0,13,0,28,0,0,21,0,0,0,0,0,0,0
 Scarlet Wampyr's Ringlet,100,360,10,0,0,14,0,0,0,0,15,0,0,0,0,0,0,1,0,0,0,0,1,0,0,Gold Key,False,None
 Regulation Cavalry Band,150,340,10,0,0,13,68,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,"Drop, Bazaar",False,None
 Alphoi Trooper Ring,130,211,10,0,0,0,96,0,0,0,10,10,0,0,0,0,0,0,0,1,0,0,1,0,0,Crafting,False,None
-Fiery Paradox Ring,130,211,10,0,0,0,96,0,0,0,10,10,0,0,0,0,0,0,0,1,0,0,1,0,0,Unavailable,False,None
+Fiery Paradox Ring,130,211,10,0,0,0,96,0,0,0,10,10,0,0,0,0,0,0,0,1,0,0,1,0,0,Drop,False,None
 Unreal Ring of Overheating,170,0,10,0,0,22,116,0,0,0,0,14,0,0,0,0,0,0,0,0,0,1,0,1,1,Raid,False,None
 Fervid Dream Stalker Ring,170,0,10,0,0,20,116,0,0,0,0,15,0,0,0,0,0,0,0,0,0,2,0,1,0,Crafting,False,None
 Eternal Primal Ring,160,549,9,0,0,20,99,0,0,0,0,9,0,0,0,0,0,0,0,0,0,1,1,1,0,Crafting,False,None
@@ -219,7 +219,7 @@ Rasik's Searing Ring,60,260,4,0,0,9,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Gold 
 Band of the War Ostrich,74,246,4,0,0,11,0,0,0,0,15,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar, Quest",False,None
 Ring of Wolf Lore,58,235,4,0,0,15,0,0,0,0,0,15,0,0,0,0,0,0,0,0,0,1,1,1,0,Drop,False,None
 Alphoi Brigadier Ring,130,224,4,0,0,0,68,0,0,0,10,10,0,0,0,0,0,0,0,1,0,0,1,0,0,Crafting,False,None
-Divine Paradox Ring,130,224,4,0,0,0,68,0,0,0,10,10,0,0,0,0,0,0,0,1,0,0,1,0,0,Unavailable,False,None
+Divine Paradox Ring,130,224,4,0,0,0,68,0,0,0,10,10,0,0,0,0,0,0,0,1,0,0,1,0,0,Drop,False,None
 Great Inventor's Fire Ring (Level 50+),50,214,4,0,0,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
 Stellar Protector's Ring,120,197,4,0,0,0,60,0,0,0,10,0,0,0,0,0,0,1,0,0,0,0,1,1,0,Stone Key,False,None
 Ring of the Wolf's Song,52,195,4,0,0,14,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,"Drop, Bazaar",False,None
@@ -512,7 +512,7 @@ Widow's Pilfered Ring,30,85,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,1,0,0,0,0,0,0,"Drop,
 Mage's Smoldering Loop,102,84,0,0,0,0,65,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Great Inventor's Fire Ring (Level 20+),20,84,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
 Ring of the Sun,20,84,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,"Gold Vendor, Bazaar",False,None
-Kindle Band,25,81,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,Bazaar,False,None
+Kindle Band,25,81,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Signet Stone of Fate,40,80,0,0,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
 Wavecrasher's Stone,30,80,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,0,1,1,0,0,"Drop, Bazaar",False,None
 Ring of the Hale,25,80,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,1,1,1,0,0,0,0,0,Crowns,False,None
@@ -608,7 +608,7 @@ Winged Circlet,25,0,0,0,0,6,0,0,0,0,5,6,0,0,0,0,0,1,0,0,0,0,1,1,0,"Drop, Bazaar"
 Meowiarty's Clever Ring,30,0,0,0,0,6,0,0,0,0,5,0,0,0,0,0,0,1,0,0,0,0,1,1,0,"Drop, Bazaar",False,None
 Frostward Seal,30,0,0,0,0,6,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,1,1,0,Drop,False,None
 Spiritist's Ring,25,0,0,0,0,6,0,0,0,0,0,8,0,0,0,0,0,1,0,0,0,0,1,1,0,"Bazaar, Quest",False,None
-Scratcher's Ring of Chivalry,25,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,Bazaar,False,None
+Scratcher's Ring of Chivalry,25,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,"Drop, Bazaar",False,None
 Old Smokey's Band,25,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
 Puzzling Band,20,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Seal of the Roaring Heart,25,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,Drop,False,None

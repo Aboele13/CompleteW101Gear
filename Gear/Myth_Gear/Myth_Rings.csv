@@ -134,7 +134,7 @@ Supreme Old Judge Ring,148,281,9,0,0,0,66,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,"D
 Hierarch's Old Judge Ring,145,266,9,0,0,0,62,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Soldier's Mythic Ring,130,248,9,0,0,0,100,0,0,0,11,0,0,0,0,0,0,0,0,1,0,0,1,0,0,Drop,False,None
 Alphoi Commander Ring,130,216,9,0,0,0,93,0,0,0,10,10,0,0,0,0,0,0,0,1,0,0,1,0,0,Crafting,False,None
-Mythic Paradox Ring,130,216,9,0,0,0,93,0,0,0,10,10,0,0,0,0,0,0,0,1,0,0,1,0,0,Unavailable,False,None
+Mythic Paradox Ring,130,216,9,0,0,0,93,0,0,0,10,10,0,0,0,0,0,0,0,1,0,0,1,0,0,Drop,False,None
 Great Inventor's Myth Ring (Level 120+),120,482,8,0,0,19,66,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
 Mythic Night Mire Ring (Level 110+),110,472,8,0,0,17,70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
 Great Inventor's Myth Ring (Level 100+),100,462,8,0,0,19,0,40,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
@@ -213,7 +213,7 @@ Tik-Tik's Ring of Mischief,60,260,4,0,0,9,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,
 Band of the War Ostrich,74,246,4,0,0,11,0,0,0,0,15,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar, Quest",False,None
 Ring of Wolf Lore,58,235,4,0,0,15,0,0,0,0,0,15,0,0,0,0,0,0,0,0,0,1,1,1,0,Drop,False,None
 Alphoi Brigadier Ring,130,224,4,0,0,0,68,0,0,0,10,10,0,0,0,0,0,0,0,1,0,0,1,0,0,Crafting,False,None
-Divine Paradox Ring,130,224,4,0,0,0,68,0,0,0,10,10,0,0,0,0,0,0,0,1,0,0,1,0,0,Unavailable,False,None
+Divine Paradox Ring,130,224,4,0,0,0,68,0,0,0,10,10,0,0,0,0,0,0,0,1,0,0,1,0,0,Drop,False,None
 Stellar Protector's Ring,120,197,4,0,0,0,60,0,0,0,10,0,0,0,0,0,0,1,0,0,0,0,1,1,0,Stone Key,False,None
 Ring of the Wolf's Song,52,195,4,0,0,14,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,"Drop, Bazaar",False,None
 Ring of Sister Wolf,52,185,4,0,0,0,0,0,0,0,23,0,0,0,0,0,0,1,0,0,0,0,1,1,0,"Drop, Bazaar",False,None
@@ -404,7 +404,7 @@ Ring of Apotheosis,45,160,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,"Bazaar,
 Jikiru's Band of Cognition,40,160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,Drop,False,None
 Contractor Hazmat Ring,132,159,0,0,0,0,55,0,0,0,0,11,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Ethereal Ring,54,159,0,0,0,9,0,0,0,0,14,12,0,0,0,0,0,0,0,0,0,1,1,1,0,"Bazaar, Crafting",False,None
-Storied Ring,40,157,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,Bazaar,False,None
+Storied Ring,40,157,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Echo Ring,58,155,0,0,0,16,0,0,0,0,20,0,0,0,0,0,0,1,0,0,0,0,1,1,0,"Drop, Bazaar",False,None
 Band of the Boundless,45,155,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0,"Drop, Bazaar",False,None
 Contractor Pressure Ring,132,152,0,0,0,0,75,0,0,0,11,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
@@ -448,7 +448,7 @@ Kataba Iceblock Band,108,122,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop
 Battletested Fang Loop,112,121,0,0,0,0,0,0,0,0,6,6,0,0,0,0,0,0,1,0,0,0,0,0,0,Gold Vendor,False,None
 Seal of the Valkyrie,40,121,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Arctic Circlet,40,120,0,0,0,0,0,0,0,0,0,11,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
-Jacques's Band of Tragedy,30,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,Unavailable,False,None
+Jacques's Band of Tragedy,30,120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,Drop,False,None
 Seal of the Rubal Wastes,114,119,0,0,0,0,71,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Gold Vendor,False,None
 Viper Ring of Reflection,114,118,0,0,0,0,0,0,0,0,9,7,0,0,0,0,0,0,1,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Djinn Loop of Invention,112,118,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
@@ -593,7 +593,7 @@ Winged Circlet,25,0,0,0,0,6,0,0,0,0,5,6,0,0,0,0,0,1,0,0,0,0,1,1,0,"Drop, Bazaar"
 Meowiarty's Clever Ring,30,0,0,0,0,6,0,0,0,0,5,0,0,0,0,0,0,1,0,0,0,0,1,1,0,"Drop, Bazaar",False,None
 Frostward Seal,30,0,0,0,0,6,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,1,1,0,Drop,False,None
 Spiritist's Ring,25,0,0,0,0,6,0,0,0,0,0,8,0,0,0,0,0,1,0,0,0,0,1,1,0,"Bazaar, Quest",False,None
-Scratcher's Ring of Chivalry,25,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,Bazaar,False,None
+Scratcher's Ring of Chivalry,25,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,"Drop, Bazaar",False,None
 Old Smokey's Band,25,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
 Puzzling Band,20,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Ring of Fabled Shangri-Baa,25,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,Unavailable,False,None

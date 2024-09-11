@@ -303,7 +303,7 @@ Rouge's Equalizing Striders,100,316,23,7,6,0,0,102,3,0,0,0,0,0,0,0,0,0,0,0,One S
 Sabatons of the Exalted One,100,300,23,7,5,10,0,105,3,0,0,0,0,9,0,0,0,0,0,0,Drop,False,None
 Gorgonsbane Sandals (Level 140+),140,1056,23,6,3,0,85,0,0,0,0,0,0,14,0,0,0,0,0,0,Crowns,False,None
 Sacred Yarn Sandals (Level 120+),120,624,23,6,4,0,74,121,0,0,0,0,0,7,0,0,0,0,0,0,Gift Card,False,None
-Majoris Runners of Cohesion,110,608,23,6,0,7,97,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Majoris Runners of Cohesion,110,608,23,6,0,7,97,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
 Lightkeeper's Dive Boots (Level 130+),130,582,23,6,3,7,96,0,4,0,0,0,0,9,0,0,0,0,0,0,Gift Card,False,None
 Gorgon Slayer's Sandals (Level 120+),120,898,23,5,2,7,0,0,0,0,0,0,0,12,0,0,0,0,0,0,Crowns,False,None
 Arcane Beach Slippers (Level 140+),140,684,23,5,7,0,68,68,4,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
@@ -748,7 +748,7 @@ Revolutionary's Boots (Level 60+),60,131,14,4,3,0,40,82,0,0,0,0,0,0,0,0,0,0,0,0,
 Boots of the Power Play,56,123,14,4,0,3,0,20,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Sacred Yarn Sandals (Level 60+),60,118,14,4,4,0,39,58,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Alphoi Brigadier Boots,130,848,14,3,0,9,85,0,0,0,0,0,0,12,0,0,0,0,0,0,Crafting,False,None
-Divine Paradox Boots,130,848,14,3,0,9,85,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Divine Paradox Boots,130,848,14,3,0,9,85,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
 Hopeful Zanadu Boots,130,827,14,3,0,8,82,0,0,0,0,0,0,11,0,0,0,0,0,0,Drop,False,None
 Cabal Schism Stompers,125,797,14,3,2,0,87,0,0,0,0,0,0,12,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Time Warden's Ornate Galesh,120,797,14,3,2,0,87,0,0,0,0,0,0,11,0,0,0,0,0,0,Drop,False,None
@@ -968,7 +968,7 @@ Witchcrafter's Shoes (Level 50+),50,92,11,6,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,Gift
 Unkind Winter Boots (Level 90+),90,380,11,5,0,8,35,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
 Darkwraith's Atonement Boots (Level 90+),90,0,11,5,0,13,0,10,0,0,5,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Tundra Hunter Boots (Level 50+),50,248,11,4,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Borealis Majoris Sabatons,110,592,11,3,0,4,84,0,0,0,0,0,0,11,0,0,0,0,0,0,Unavailable,False,None
+Borealis Majoris Sabatons,110,592,11,3,0,4,84,0,0,0,0,0,0,11,0,0,0,0,0,0,Drop,False,None
 Wysteria Warrior's Boots (Level 30+),30,157,11,3,5,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
 Great Inventor's Balance Boots (Level 40+),40,145,11,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Whitehart Boots (Level 80+),80,115,11,3,6,3,38,58,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
@@ -1065,7 +1065,7 @@ Whitehart Boots (Level 70+),70,100,10,3,6,3,32,47,0,0,0,0,0,0,0,0,0,0,0,0,Gift C
 Whitehart Boots (Level 50+),50,65,10,3,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Wastelander's Dusty Boots (Level 30+),30,0,10,3,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Darkwraith's Atonement Boots (Level 80+),80,0,10,3,0,12,0,0,0,0,4,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Polarian Borealis Footgear,110,526,10,2,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Polarian Borealis Footgear,110,526,10,2,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
 Gorgonsbane Sandals (Level 30+),30,332,10,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Gorgon Hunter's Shoes (Level 20+),20,269,10,1,0,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Shadoe's Boots of Justice (Level 20+),20,223,10,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -1727,7 +1727,7 @@ Festive Slippers (Level 10+),10,99,5,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Crowns,Fa
 Death Oni's Introverted Shoes,40,96,5,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
 Black New Year's Flats (Any Level),1,96,5,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Black New Year's Wingtips (Any Level),1,96,5,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
-Sandals of Retribution,40,96,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bazaar,False,None
+Sandals of Retribution,40,96,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Tiki Boots of Riptides (Level 80+),80,95,5,0,0,0,35,0,5,0,6,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Astral Boots of the Hydra,35,95,5,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Master's Boots of the Dryad,35,95,5,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
@@ -4039,7 +4039,7 @@ Footgear of the Indomitable,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,
 Footgear of the Undertow,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Footguards of the Hero,54,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Footwraps of Anguish,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
-Footwraps of Calamity,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
+Footwraps of Calamity,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
 Footwraps of Chants,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Gold Key",False,None
 Footwraps of Proportion,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
 Footwraps of the Efreet,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
@@ -4049,8 +4049,8 @@ Footwraps of the Temple,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest"
 Forsaken Footguards,54,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Fountain Waders,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Friendly Shoes,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Gold Key",False,None
-Frost Wolf Boots,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
-Frost-Touched Shoes,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
+Frost Wolf Boots,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
+Frost-Touched Shoes,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
 Frostwoven Footwraps,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Frozen Frostwalkers,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Gallant Rogue's Shoes,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Stone Key,False,None

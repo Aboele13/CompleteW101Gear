@@ -1,7 +1,16 @@
+import urllib.parse
+
 from bs4 import BeautifulSoup
 
 from webAccess import fetch_url_content, replace_img_with_filename
 
+
+def find_next_page_link(soup):
+    # Look for the "(next page)" link
+    next_page_link = soup.find('a', string='next page')
+    if next_page_link and 'href' in next_page_link.attrs:
+        return next_page_link['href']
+    return None
 
 # drop, bazaar, gold, crowns, crafting, fishing, raid, gift card, skeleton keys, one shot, housing gauntlet, rematch, unavailable (scroll of fortune / promotion / code)
 def get_item_source(item_name, formatted_info, is_mount):
@@ -56,12 +65,12 @@ def get_clothing_accessory_source(item_name, formatted_info):
             if wooden_key_source in formatted_info:
                 sources.append("Wooden Key")
                 break
-        for one_shot_source in one_shot_sources_list(): # dropped by one shot housing gauntlet source
+        for one_shot_source in one_shot_bosses: # dropped by one shot housing gauntlet source
             if one_shot_source in text:
                 sources.append("One Shot Housing Gauntlet")
                 break
-        # any thing else is a normal drop
-        if has_normal_drop(formatted_info, gold_key_bosses + stone_key_bosses + wooden_key_bosses + one_shot_sources_list()):
+        # anything else is a normal drop
+        if has_normal_drop(formatted_info, gold_key_bosses + stone_key_bosses + wooden_key_bosses + one_shot_bosses):
             sources.append("Drop")
             
     # can be bought at bazaar
@@ -141,15 +150,15 @@ def get_mount_source(formatted_info):
             if wooden_key_source in formatted_info:
                 sources.append("Wooden Key")
                 break
-        for one_shot_source in one_shot_sources_list(): # dropped by one shot housing gauntlet source
+        for one_shot_source in one_shot_bosses: # dropped by one shot housing gauntlet source
             if one_shot_source in text:
                 sources.append("One Shot Housing Gauntlet")
                 break
-        # any thing else is a normal drop
-        if has_normal_drop(formatted_info, gold_key_bosses + stone_key_bosses + wooden_key_bosses + one_shot_sources_list()):
+        # anything else is a normal drop
+        if has_normal_drop(formatted_info, gold_key_bosses + stone_key_bosses + wooden_key_bosses + one_shot_bosses):
             sources.append("Drop")
         # housing gauntlet gear using " (Tier "
-        if has_normal_drop(formatted_info, gold_key_bosses + stone_key_bosses + wooden_key_bosses + one_shot_sources_list(), actually_mount_from_housing=True):
+        if has_normal_drop(formatted_info, gold_key_bosses + stone_key_bosses + wooden_key_bosses + one_shot_bosses, actually_mount_from_housing=True):
             sources.append("Housing Gauntlet")
     
     # crafting
@@ -208,21 +217,57 @@ def has_normal_drop(formatted_info, arr, actually_mount_from_housing = False):
         i = formatted_info.index("Dropped By:") + 1 # clothing and accessories
     except:
         i = formatted_info.index("Dropped by") + 1 # mounts
-    
-    while i < len(formatted_info) and all(end not in formatted_info[i] for end in ending_phrases): # if none of the ending phrases are the next line
+        
+    while ((i < len(formatted_info)) and (all(end not in formatted_info[i] for end in ending_phrases))): # if none of the ending phrases are the next line
         if not actually_mount_from_housing:
-            if all(creature not in formatted_info[i] for creature in arr) and " (Tier " not in formatted_info[i]: # if the creature isn't anything special
+            if ((all(creature != formatted_info[i] for creature in arr)) and (" (Tier " not in formatted_info[i])): # if the creature isn't anything special
                 return True
         else:
-            if all(creature not in formatted_info[i] for creature in arr) and " (Tier " in formatted_info[i]: # if the creature has "Tier" (from housing gauntlet)
+            if ((all(creature != formatted_info[i] for creature in arr)) and (" (Tier " in formatted_info[i])): # if the creature has "Tier" (from housing gauntlet)
                 return True
         i += 1
         
     return False
 
-# one shot dungeons (exalted, baddle of the bands, etc.) needs to be updated if they add more one-shots
-def one_shot_sources_list():
-    return ["Krokopatra (Rank ", "Rattlebones (Rank ", "Meowiarty (Rank ", "Zeus Sky Father (Zeus ", "Patt Minotaur (Tier ", "Forest Grump (Tier "]
+# one shot dungeons (exalted, baddle of the bands, etc.), update if they add more one-shots
+def one_shot_bosses_list():
+    
+    # all one shot bosses start with this
+    look_for_names = ["Krokopatra (Rank ", "Rattlebones (Rank ", "Meowiarty (Rank ", "Zeus Sky Father (Zeus ", "Patt Minotaur (Tier ", "Forest Grump (Tier "]
+    
+    base_url = "https://wiki.wizard101central.com"
+    url = "https://wiki.wizard101central.com/wiki/index.php?title=Category:Housing_Instance_Creatures"
+    
+    all_one_shot_bosses = []
+    
+    while url:
+        # Fetch content from the URL
+        html_content = fetch_url_content(url)
+
+        if html_content:
+            # Parse HTML content and replace <img> tags with filenames
+            soup = BeautifulSoup(html_content, 'html.parser')
+            
+            # Extract all visible text from the modified HTML content
+            text_content = soup.get_text(separator='\n', strip=True)
+            
+            lines = text_content.splitlines()
+            
+            for i in range(len(lines)):
+                if ("Creature:" in lines[i]) and (any(creature in lines[i] for creature in look_for_names)):
+                    all_one_shot_bosses.append(lines[i].replace("Creature:", ""))
+        
+            # Find the "(next page)" link
+            next_page_link = find_next_page_link(soup)
+            if next_page_link:
+                url = urllib.parse.urljoin(base_url, next_page_link)
+            else:
+                url = None
+        else:
+            print("Failed to fetch content from the URL.")
+            break
+        
+    return all_one_shot_bosses
 
 # rematch duels
 def rematch_item_list():
@@ -391,3 +436,4 @@ wooden_key_bosses = wooden_key_bosses_list()
 stone_key_chests = stone_key_chests_list()
 wooden_key_chests = wooden_key_chests_list()
 housing_gauntlet_list = create_housing_gauntlet_list()
+one_shot_bosses = one_shot_bosses_list()

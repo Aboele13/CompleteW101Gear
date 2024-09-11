@@ -2841,7 +2841,7 @@ Choice Kalamar Tunic,127,1302,0,5,0,0,0,106,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor
 Gorgonsbane Armor (Level 90+),90,936,0,5,3,0,0,50,1,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Gorgon Slayer's Armor (Level 80+),80,883,0,5,2,5,0,62,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Gorgon Hunter's Armor (Level 90+),90,842,0,5,0,4,0,53,0,4,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Shimmering Majoris Armor,110,828,0,5,6,0,0,116,0,0,24,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Shimmering Majoris Armor,110,828,0,5,6,0,0,116,0,0,24,0,0,0,0,0,0,0,0,0,Drop,False,None
 Titan Warrior Skyfire Robe,110,782,0,5,5,0,0,114,0,0,15,0,0,0,0,0,0,0,0,0,Drop,False,None
 Gorgon Hunter's Armor (Level 80+),80,758,0,5,0,4,0,48,0,4,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Volatile Borealis Armor,110,736,0,5,5,0,0,112,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
@@ -3190,7 +3190,7 @@ Seal Team Recon Suit (Any Level),1,78,0,3,0,3,0,0,0,0,0,5,0,0,0,0,0,0,0,0,Crowns
 Bitter Cloak,15,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
 Runeweave Clothing,15,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Vestment of the Arctic,15,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Polarian Borealis Raiment,110,789,0,2,2,0,0,97,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Polarian Borealis Raiment,110,789,0,2,2,0,0,97,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
 Arcanum Exile Warlock Cloak,105,641,0,2,0,0,0,101,0,0,0,0,0,15,0,0,0,0,0,0,Drop,False,None
 Gorgonsbane Armor (Level 40+),40,553,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Gorgon Slayer's Armor (Level 30+),30,522,0,2,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3566,7 +3566,7 @@ Longcoat of the Ice Floes,35,242,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Baza
 Robe of Consideration,35,242,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Gold Key",False,None
 Blistering Jerkin,54,240,0,0,8,0,37,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
 Imperial Court Tunic (Level 40+),40,240,0,0,0,0,20,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Insulated Wrap,40,240,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bazaar,False,None
+Insulated Wrap,40,240,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Indulgent Vestment,40,240,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Irontrunk Cloak of Dreams,62,240,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Thermic Longcoat,35,240,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None

@@ -208,7 +208,7 @@ Celebration Staff (Level 120+),120,0,19,0,0,0,68,0,0,0,0,0,205,0,0,0,0,2,0,0,1,0
 Peppermintalist's Sword (Level 120+),120,0,19,0,0,0,68,0,0,0,0,0,205,0,0,0,0,2,0,0,1,0,0,0,0,0,Crowns,False,None
 Unicorn Paladin's Rain-Bow (Level 120+),120,0,19,0,0,0,67,0,0,0,0,0,205,0,0,0,0,2,0,0,1,0,0,0,0,0,Crowns,False,None
 Fossil Avenger's Skullcrusher (Level 100+),100,0,19,0,0,0,66,0,0,0,0,0,0,10,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,Fossil Avenger's Set
-Shimmering Majoris Artifact,110,0,19,0,0,0,61,58,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
+Shimmering Majoris Artifact,110,0,19,0,0,0,61,58,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
 Contractor Thermal Meter,132,0,19,0,0,0,59,58,0,0,0,0,0,15,0,0,0,2,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Sokar's Javelin (Level 100+),100,0,19,0,0,0,59,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,Sokar's Warrior Set
 Supreme Founder's Staff,148,0,19,0,0,0,56,0,0,0,0,0,175,18,0,0,0,2,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
@@ -992,7 +992,7 @@ Dragonspyre Soldier Cleaver,130,0,7,0,0,0,75,0,0,0,0,0,127,0,0,0,0,2,0,0,0,0,0,0
 Poison Apple (Level 70+),70,0,7,0,0,0,72,72,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Gift Card,False,None
 Seal Team Recon Hammer (Level 110+),110,0,7,0,0,0,70,70,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Stone Key, Crowns",False,None
 Silent Knight's Cold Steel (Level 60+),60,0,7,0,0,0,60,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
-Borealis Majoris Artifact,110,0,7,0,0,0,50,50,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
+Borealis Majoris Artifact,110,0,7,0,0,0,50,50,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
 Relic of the Titan Warrior,110,0,7,0,0,0,46,45,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
 Allfather's Gungnir (Level 60+),60,0,7,0,0,0,45,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Cursed Captain's Steel (Level 60+),60,0,7,0,0,0,45,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -1100,7 +1100,7 @@ Poison Apple (Level 60+),60,0,6,0,0,0,58,58,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,
 Silent Knight's Cold Steel (Level 50+),50,0,6,0,0,0,56,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Seal Team Recon Hammer (Level 80+),80,0,6,0,0,0,55,55,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Wand of the Arcanum Exile,105,0,6,0,0,0,47,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
-Polarian Borealis Relic,110,0,6,0,0,0,42,42,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
+Polarian Borealis Relic,110,0,6,0,0,0,42,42,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
 Allfather's Gungnir (Level 50+),50,0,6,0,0,0,40,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
 Alphoi Reflector Relic (Level 50+),50,0,6,0,0,0,40,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Cursed Captain's Steel (Level 50+),50,0,6,0,0,0,40,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None

@@ -66,7 +66,7 @@ Supreme Barbarian Athame,148,984,17,0,0,0,0,109,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,
 Supreme Undaunting Athame,148,984,17,0,0,0,0,109,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
 Wunderbar Artisan Knife,140,964,17,0,0,0,0,113,0,0,0,5,0,0,0,0,0,1,0,0,0,0,2,0,0,Drop,False,None
 Lemurian Ferocious Athame,142,874,17,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,1,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Messenger Officer Knife,150,869,17,0,0,13,0,61,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Unavailable,False,None
+Messenger Officer Knife,150,869,17,0,0,13,0,61,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Drop,False,None
 The Void's Mythic Athame (Level 150+),150,751,17,0,0,19,0,91,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Drop,False,None
 Executive Pressure Knife,138,616,17,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,1,0,0,0,1,0,1,"Drop, Bazaar",False,None
 Morganthe's Bite (Level 99+),99,364,17,0,0,14,0,17,0,0,0,21,0,0,0,0,0,0,0,0,0,1,2,0,1,Unavailable,False,None
@@ -83,7 +83,7 @@ Dirk of Dimwood Vale,100,378,16,0,2,16,0,18,0,0,15,0,0,0,0,0,0,1,1,0,0,0,1,0,1,D
 Vanguard's Mythic Dagger,130,925,15,0,0,0,0,129,0,0,5,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Crafting, Stone Key",False,None
 Lemurian Barbarian Athame,142,874,15,0,0,0,0,97,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,"Drop, Bazaar",False,None
 Lemurian Undaunting Athame,142,874,15,0,0,0,0,97,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Regulation Messenger Knife,150,760,15,0,0,11,0,51,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,Bazaar,False,None
+Regulation Messenger Knife,150,760,15,0,0,11,0,51,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,"Drop, Bazaar",False,None
 Mondo Kalamar Knife,127,714,15,0,0,0,0,0,0,0,0,5,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Trendy Fairy Kei Blade (Level 120+),120,633,15,0,0,16,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,1,2,1,0,Crowns,False,None
 Director Pressure Knife,138,616,15,0,0,0,0,107,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,"Drop, Bazaar",False,None
@@ -189,7 +189,7 @@ Red Razor's Blade of Guile,90,316,7,0,0,10,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,0
 Mage's Dirk of Guile,102,311,7,0,0,0,0,0,0,0,0,2,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Burrower's Conjuration Athame (Level 70+),70,310,7,0,0,13,0,27,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
 Aphrodite’s Stinging Nettle,100,284,7,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0,0,1,Stone Key,False,None
-Spearblade of Stories,66,275,7,0,0,12,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,Unavailable,False,None
+Spearblade of Stories,66,275,7,0,0,12,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,Drop,False,None
 River Captain's Scimitar,66,275,7,0,0,0,0,0,0,0,15,0,0,0,0,0,0,1,0,0,0,0,2,0,0,Drop,False,None
 Lexicon Blade,60,250,7,0,0,15,0,8,0,0,0,15,0,0,0,0,0,1,0,0,0,0,1,0,1,Drop,False,None
 Gruesome Cerberus Master Dirk (Level 70+),70,248,7,0,0,13,0,33,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
@@ -209,7 +209,7 @@ Snake Ink Fang,82,340,6,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,"Drop, Bazaa
 Great Inventor's Myth Dirk (Level 70+),70,310,6,0,0,15,0,27,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
 Blade of Kan Davasi,100,306,6,0,0,8,0,0,0,0,7,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Drop, Stone Key",False,None
 Zero Day Athame,80,300,6,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"Gold Vendor, Bazaar",False,None
-Roze's Hunting Knife,94,275,6,0,0,10,0,0,0,0,12,0,0,0,0,0,0,1,0,0,0,0,2,0,0,Bazaar,False,None
+Roze's Hunting Knife,94,275,6,0,0,10,0,0,0,0,12,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
 Golden Eagle's Razor Beak,86,265,6,0,0,14,0,14,0,0,25,0,0,0,0,0,0,1,0,0,0,0,2,0,1,Crafting,False,None
 Burrower's Conjuration Athame (Level 60+),60,263,6,0,0,13,0,21,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
 Iron Thorn,60,260,6,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,"Gold Vendor, Bazaar",False,None
@@ -355,7 +355,7 @@ Sir Malory's Bloody Oath,78,290,0,0,0,14,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,0,0,0,1,D
 Sworn Knife to Artorius,78,290,0,0,0,14,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,0,0,0,1,Drop,False,None
 Fang of the Night Sky,84,290,0,0,0,9,0,0,0,0,11,0,0,0,0,0,0,1,0,0,0,0,1,0,1,"Drop, Bazaar",False,None
 Gorilla's Fang,64,290,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
-Berserker's Blade,64,280,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,Bazaar,False,None
+Berserker's Blade,64,280,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
 Bull's Charge,64,280,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
 Roaring Razor,64,280,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
 Striped Skewer,64,280,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
@@ -458,7 +458,7 @@ Great Inventor's Myth Dirk (Level 40+),40,160,0,0,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0
 Claw of the Vicious Hound,40,160,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,1,"Drop, Wooden Key",False,None
 Zaneki's Knife of Cognition,40,160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,Drop,False,None
 Celestial Dagger,54,159,0,0,0,9,0,0,0,0,14,12,0,0,0,0,0,1,0,0,0,0,1,0,1,"Bazaar, Crafting",False,None
-Orichalcum Shortblade,40,153,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,Bazaar,False,None
+Orichalcum Shortblade,40,153,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,"Drop, Bazaar",False,None
 Immortal Blade,45,151,0,0,0,0,0,0,0,0,13,0,0,0,0,0,0,0,1,0,0,0,0,0,0,"Bazaar, Crafting",False,None
 Ethereal Athame,56,150,0,0,0,15,0,0,0,0,0,18,0,0,0,0,0,0,1,0,0,0,0,0,1,"Drop, Bazaar, Quest",False,None
 Adamant Kris,45,150,0,0,0,15,0,0,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Unavailable,False,None

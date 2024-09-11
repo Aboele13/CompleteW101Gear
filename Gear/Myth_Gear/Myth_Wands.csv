@@ -241,7 +241,7 @@ Fossil Avenger's Skullcrusher (Level 110+),110,0,16,0,0,0,67,0,0,0,0,0,0,11,0,0,
 Jubilation Staff (Level 120+),120,0,16,0,0,0,66,0,0,0,0,0,205,0,0,0,0,2,0,0,1,0,0,0,0,0,Crowns,False,None
 Fossil Hunter's Skullcrusher (Level 100+),100,0,16,0,0,0,64,0,0,0,0,0,0,10,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,Fossil Hunter's Set
 Setesh's Javelin (Level 120+),120,0,16,0,0,0,63,0,0,0,0,0,215,0,0,0,0,2,0,0,1,0,0,0,0,0,Crowns,False,Setesh's Warrior Set
-Majoris Fragment of Insight,110,0,16,0,0,0,60,60,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
+Majoris Fragment of Insight,110,0,16,0,0,0,60,60,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
 Crimson Pandamonium Jian (Level 100+),100,0,16,0,0,0,60,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Ebony Pandamonium Jian (Level 100+),100,0,16,0,0,0,60,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Time Warden Kilij of Reason,120,0,16,0,0,0,59,0,0,0,0,0,100,0,0,0,0,2,0,0,0,0,0,0,1,0,Drop,False,None
@@ -901,7 +901,7 @@ Poison Apple (Level 70+),70,0,7,0,0,0,72,72,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,
 Seal Team Recon Hammer (Level 110+),110,0,7,0,0,0,70,70,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Stone Key, Crowns",False,None
 Eye of the Soothsayer (Level 70+),70,0,7,0,0,4,65,65,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Silent Knight's Cold Steel (Level 60+),60,0,7,0,0,0,60,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
-Borealis Majoris Artifact,110,0,7,0,0,0,50,50,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
+Borealis Majoris Artifact,110,0,7,0,0,0,50,50,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
 Relic of the Titan Warrior,110,0,7,0,0,0,46,45,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
 Allfather's Gungnir (Level 60+),60,0,7,0,0,0,45,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Cursed Captain's Steel (Level 60+),60,0,7,0,0,0,45,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -1018,7 +1018,7 @@ Silent Knight's Cold Steel (Level 50+),50,0,6,0,0,0,56,0,0,0,0,0,0,0,0,0,0,2,0,0
 Seal Team Recon Hammer (Level 80+),80,0,6,0,0,0,55,55,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Eye of the Soothsayer (Level 60+),60,0,6,0,0,4,50,50,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Wand of the Arcanum Exile,105,0,6,0,0,0,47,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
-Polarian Borealis Relic,110,0,6,0,0,0,42,42,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
+Polarian Borealis Relic,110,0,6,0,0,0,42,42,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
 Allfather's Gungnir (Level 50+),50,0,6,0,0,0,40,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
 Alphoi Reflector Relic (Level 50+),50,0,6,0,0,0,40,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Cursed Captain's Steel (Level 50+),50,0,6,0,0,0,40,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -1674,7 +1674,7 @@ Darkfire Longbow (Level 90+),90,0,0,0,0,0,55,55,4,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,
 Thornblade (Level 70+),70,0,0,0,0,0,50,0,4,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Gift Card,False,None
 Thunder Chasing Spear (Level 90+),90,0,0,0,0,0,50,0,4,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Desert Lodestar Staff (Level 100+),100,0,0,0,0,0,49,39,4,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Gift Card,False,None
-Siege Captain's Staff,95,0,0,0,0,0,49,20,4,0,6,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
+Siege Captain's Staff,95,0,0,0,0,0,49,20,4,0,6,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
 Mercy's Trueflight Bow (Level 120+),120,0,0,0,0,0,48,75,4,0,0,0,220,14,0,0,0,2,0,0,1,0,0,0,0,0,Unavailable,False,None
 Storm Quetzal's Charged Mace,84,0,0,0,0,0,48,0,4,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Caiman's Storm Arrow Wand,85,0,0,0,0,0,46,20,4,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None

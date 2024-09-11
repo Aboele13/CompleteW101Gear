@@ -1073,7 +1073,7 @@ Armor of the Proud Jaguar (Level 20+),20,150,3,6,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Mail of Winterbane (Level 30+),30,260,3,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Mercenary's Jerkin,25,176,3,5,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Pops' Tunic of Severity,25,176,3,5,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Jacques' Robe of Numbness,25,176,3,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bazaar,False,None
+Jacques' Robe of Numbness,25,176,3,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Dragonrider's Vigilant Robe (Level 30+),30,170,3,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Boreal Tunic,30,88,3,5,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Darkwraith's Compelling Shroud (Level 30+),30,0,3,5,3,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -2306,7 +2306,7 @@ Specialist Hazmat Suit,132,1193,0,9,0,9,0,98,0,0,0,0,0,18,0,0,0,0,0,0,"Drop, Baz
 Witch Hunter's Vesture (Level 120+),120,1076,0,9,0,9,0,0,4,5,0,0,0,17,0,0,0,0,0,0,Gift Card,False,None
 Shadoe's Costume of Justice (Level 130+),130,1069,0,9,4,7,0,75,2,0,0,0,0,20,0,0,0,0,0,0,Crowns,False,None
 Shadoe's Costume of Vengeance (Level 100+),100,1040,0,9,0,0,0,77,0,3,0,0,0,16,0,0,0,0,0,0,Crowns,False,None
-Majoris Armor of Diligence,110,1036,0,9,5,0,0,136,0,0,22,0,0,17,0,0,0,0,0,0,Unavailable,False,None
+Majoris Armor of Diligence,110,1036,0,9,5,0,0,136,0,0,22,0,0,17,0,0,0,0,0,0,Drop,False,None
 Titan Warrior Plate of Bite,110,978,0,9,5,0,0,134,0,0,20,0,0,0,0,0,0,0,0,0,Drop,False,None
 Seal Team Assault Suit (Level 110+),110,976,0,9,0,8,0,0,0,0,7,0,0,14,0,0,0,0,0,0,"Stone Key, Crowns",False,None
 All Souls Finery (Level 110+),110,901,0,9,0,0,0,81,2,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -2448,7 +2448,7 @@ Consultant Hazmat Suit,132,1023,0,8,0,10,0,0,1,0,0,0,0,19,0,0,0,0,0,0,"Drop, Baz
 Shadoe's Costume of Justice (Level 120+),120,962,0,8,3,6,0,68,2,0,0,0,0,18,0,0,0,0,0,0,Crowns,False,None
 Seal Team Recon Suit (Level 110+),110,949,0,8,0,9,0,0,0,0,0,10,0,14,0,0,0,0,0,0,"Stone Key, Crowns",False,None
 Shadoe's Costume of Vengeance (Level 90+),90,936,0,8,0,0,0,69,0,3,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Borealis Icecrystal Plate,110,921,0,8,4,0,0,132,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Borealis Icecrystal Plate,110,921,0,8,4,0,0,132,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
 Witch Hunter's Vesture (Level 110+),110,888,0,8,0,9,0,0,3,4,0,0,0,15,0,0,0,0,0,0,Gift Card,False,None
 Witch Hunter's Vesture (Level 100+),100,755,0,8,0,8,0,0,3,4,0,0,0,14,0,0,0,0,0,0,Gift Card,False,None
 Arcanum Exile Frost Cloak,105,748,0,8,0,0,0,118,0,0,0,0,0,15,0,0,0,0,0,0,Unavailable,False,None
@@ -3204,7 +3204,7 @@ Frigid Vestment,15,59,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,N
 Bitter Cloak,15,0,0,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
 Runeweave Clothing,15,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Vestment of the Arctic,15,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Polarian Borealis Raiment,110,789,0,2,2,0,0,97,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Polarian Borealis Raiment,110,789,0,2,2,0,0,97,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
 Arcanum Exile Warlock Cloak,105,641,0,2,0,0,0,101,0,0,0,0,0,15,0,0,0,0,0,0,Drop,False,None
 Gorgonsbane Armor (Level 40+),40,553,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Gorgon Slayer's Armor (Level 30+),30,522,0,2,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None

@@ -59,7 +59,7 @@ Electric Fairy Kei Necklace (Level 120+),120,299,0,5,0,0,0,19,0,0,0,0,124,0,0,0,
 Fraught Archival Ampul (Level 110+),110,297,0,5,0,0,0,21,0,0,0,0,114,0,0,0,0,0,0,0,0,0,0,1,1,Crowns,False,None
 Stormy Night Mire Amulet (Level 110+),110,297,0,5,0,0,0,21,0,0,0,0,114,0,0,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
 Floramancer Amulet of Thorns (Level 110+),110,260,0,5,0,0,0,19,0,0,0,0,142,0,0,0,0,0,0,0,0,1,0,1,0,Crowns,False,None
-Chillvenom's Maelstrom Charm,110,259,0,5,0,0,0,76,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,2,0,Unavailable,False,None
+Chillvenom's Maelstrom Charm,110,259,0,5,0,0,0,76,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,2,0,Drop,False,None
 Arcanum Exile Relic of Gales,110,245,0,5,0,0,0,74,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Drop,False,None
 Gloomy Cerberus Master Ampul (Level 120+),120,210,0,5,0,0,0,22,0,0,0,0,124,0,0,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
 Fierce Dream Warper Amulet,170,0,0,5,0,0,0,59,0,0,0,0,171,0,0,0,0,0,0,0,0,0,1,0,1,Drop,False,None
@@ -89,17 +89,17 @@ Burrower's Divination Amulet (Level 120+),120,342,0,4,0,0,0,27,0,0,0,0,124,0,0,0
 Lead's Hazmat Rope,135,339,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Specialist Hazmat Rope,132,319,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Drop, Bazaar",False,None
 Burrower's Divination Amulet (Level 110+),110,297,0,4,0,0,0,26,0,0,0,0,114,0,0,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
-Warlord Minak's Medallion,110,296,0,4,0,0,0,67,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,2,0,Unavailable,False,None
+Warlord Minak's Medallion,110,296,0,4,0,0,0,67,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,2,0,Drop,False,None
 Amulet of the Arcanum Exile,110,280,0,4,0,0,0,65,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Drop,False,None
 Jeweled Slopes Ornament,110,263,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Drop,False,None
-Horizon Hold Choker of Fog,110,230,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Bazaar,False,None
+Horizon Hold Choker of Fog,110,230,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 FlyGob's Medallion,100,215,0,4,0,0,35,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Drop,False,None
 Gloomy Cerberus Master Ampul (Level 110+),110,196,0,4,0,0,0,21,0,0,0,0,113,0,0,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
 Thunderous Enforcer's Amulet,165,0,0,4,0,0,0,57,0,0,0,0,164,0,0,0,0,0,0,0,0,0,1,0,1,Drop,False,None
 Striking City Dweller Amulet,160,0,0,4,0,0,0,55,0,0,0,0,158,0,0,0,0,0,0,0,0,0,1,0,1,Drop,False,None
 Fractal Masterpiece Charm,160,0,0,4,0,0,0,54,0,0,0,0,158,0,0,0,0,0,0,0,0,1,0,1,0,Drop,False,None
-Glistening Storm Amulet,155,0,0,4,0,0,0,53,0,0,0,0,152,0,0,0,0,0,0,0,0,1,0,1,0,Unavailable,False,None
-Artillery Officer Medallion,150,0,0,4,0,0,0,52,0,0,0,0,146,0,0,0,0,0,0,0,0,1,0,1,0,Unavailable,False,None
+Glistening Storm Amulet,155,0,0,4,0,0,0,53,0,0,0,0,152,0,0,0,0,0,0,0,0,1,0,1,0,Drop,False,None
+Artillery Officer Medallion,150,0,0,4,0,0,0,52,0,0,0,0,146,0,0,0,0,0,0,0,0,1,0,1,0,Drop,False,None
 Thunderous Protector's Amulet,165,0,0,4,0,0,0,50,0,0,0,0,141,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
 Dragonspyre Dragoon's Charm,130,541,0,3,0,0,0,87,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Crafting,False,Dragonspyre Dragoon's Set
 Vanguard's Shocking Charm,130,496,0,3,0,0,0,78,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Crafting, Stone Key",False,None
@@ -132,8 +132,8 @@ Electric Fairy Kei Necklace (Level 80+),80,147,0,3,0,0,0,14,0,0,0,0,0,0,0,0,0,0,
 Floramancer Amulet of Thorns (Level 80+),80,147,0,3,0,0,0,14,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Crowns,False,None
 Gloomy Cerberus Master Ampul (Level 90+),90,120,0,3,0,0,0,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,Crowns,False,None
 Striking Townie Amulet,160,0,0,3,0,0,0,48,0,0,0,0,135,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
-Golden Storm Amulet,155,0,0,3,0,0,0,47,0,0,0,0,130,0,0,0,0,0,0,0,0,0,0,1,0,Bazaar,False,None
-Regulation Artillery Medallion,150,0,0,3,0,0,0,46,0,0,0,0,125,0,0,0,0,0,0,0,0,0,0,1,0,Bazaar,False,None
+Golden Storm Amulet,155,0,0,3,0,0,0,47,0,0,0,0,130,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
+Regulation Artillery Medallion,150,0,0,3,0,0,0,46,0,0,0,0,125,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Dragonspyre Vanguard's Charm,130,529,0,2,0,0,0,84,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Crafting, Stone Key",False,None
 Choice Kalamar Amulet,127,434,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Interstellar Officer's Charm,122,383,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar, Stone Key",False,None
@@ -262,8 +262,8 @@ ToeBiter's Cursed Relic,92,260,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,"Dr
 Amulet of the Mouse Scout,90,260,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,"Drop, Bazaar",False,None
 Collar of the Ice Hound,64,260,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Drop,False,None
 Locket of the QuietOne,90,260,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,"Drop, Bazaar",False,None
-Mirror Shard Charm,62,260,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Bazaar,False,None
-Olyphant's Power Pendant,64,260,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Unavailable,False,None
+Mirror Shard Charm,62,260,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,"Drop, Bazaar",False,None
+Olyphant's Power Pendant,64,260,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,Drop,False,None
 Relic of Thriving Bastion,90,260,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,"Drop, Bazaar",False,None
 Sand Sea Wanderer's Charm,116,259,0,0,0,0,0,0,0,0,0,0,76,0,0,0,0,0,0,1,0,0,0,0,0,"Gold Vendor, Quest",False,None
 Speaking Water Ornament,82,259,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
@@ -533,7 +533,7 @@ Brilliant Night Mask Memento,86,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,
 Brood Mother's Lavalliere,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Drop,False,None
 Crisp Choker,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Bazaar, Crafting",False,None
 Death Oni's Necklace of Doom,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
-Divine Paradox Amulet,130,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Unavailable,False,None
+Divine Paradox Amulet,130,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Drop,False,None
 Forsaken Pendant,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Bazaar, Crafting",False,None
 Hopeful Zanadu Pendant,130,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Stone Key",False,None
 Hound's Choker of Squalls,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,Drop,False,None
@@ -607,7 +607,7 @@ Lifetree Amulet,74,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crafting,Fals
 Meowiarty's Satyrical Choker,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 O'Leary's Briney Amulet,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Protective Pendant,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Gold Vendor, Drop, Bazaar",False,None
-Scratcher's Black Amulet,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Bazaar,False,None
+Scratcher's Black Amulet,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",False,None
 Silver Rose Pendant,74,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crafting,False,None
 Talisman of Disorder,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Bazaar, Quest",False,None
 Triskelion Torc,74,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Crafting,False,None

@@ -72,7 +72,7 @@ Supreme Preservation Athame,148,1118,15,0,0,0,0,141,0,0,0,0,0,0,0,0,0,1,0,0,0,0,
 Wunderbar Sweetsmith Knife,140,1095,15,0,0,0,0,146,0,0,9,0,0,0,0,0,0,1,0,0,0,0,2,0,0,Drop,False,None
 Burrower's Theurgy Athame (Level 130+),130,1022,15,0,0,14,0,69,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
 Lemurian Lifeforce Athame,142,994,15,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,1,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Medic Officer Knife,150,989,15,0,0,13,0,68,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Unavailable,False,None
+Medic Officer Knife,150,989,15,0,0,13,0,68,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Drop,False,None
 Golden Life Dagger,155,909,15,0,0,11,0,58,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,"Drop, Bazaar",False,None
 Vibrant Archival Dirk (Level 130+),130,818,15,0,0,0,0,86,0,0,0,10,0,0,0,0,0,0,0,0,0,1,2,1,0,Crowns,False,None
 Thrilling Skyfarer's Athame (Level 130+),130,818,15,0,0,17,0,52,0,0,0,10,0,0,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
@@ -87,7 +87,7 @@ Supreme Old Judge Athame,148,1013,14,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,1,0,0,0,1,0,1
 Dragoon's Vibrant Dagger,130,1000,14,0,0,0,0,147,0,0,0,11,0,0,0,0,0,1,0,0,0,0,2,0,1,"Crafting, Stone Key",False,Dragoon's Vibrant Set
 Lemurian Jungle Athame,142,994,14,0,0,0,0,126,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,"Drop, Bazaar",False,None
 Lemurian Preservation Athame,142,994,14,0,0,0,0,126,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Regulation Medic Knife,150,865,14,0,0,11,0,57,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,Bazaar,False,None
+Regulation Medic Knife,150,865,14,0,0,11,0,57,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,"Drop, Bazaar",False,None
 Grisly Cerberus Master Dirk (Level 140+),140,858,14,0,0,10,0,104,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
 Righteous Kalamar Knife,127,782,14,0,0,0,0,0,0,0,0,8,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Director Survival Knife,138,676,14,0,0,0,0,116,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,"Drop, Bazaar",False,None
@@ -183,7 +183,7 @@ Burrower's Theurgy Athame (Level 70+),70,401,8,0,0,12,0,31,0,0,0,0,0,0,0,0,0,0,0
 Mantis Slicer of Assurance,96,400,8,0,0,14,0,0,2,0,10,0,0,0,0,0,0,1,1,0,0,0,1,0,1,Crafting,False,None
 Evoker's Stalwart Edge,104,373,8,0,0,0,0,0,0,0,0,4,0,0,0,0,0,1,0,0,0,0,1,0,0,Gold Vendor,False,None
 Scimitar of Substance,66,335,8,0,0,8,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,1,Drop,False,None
-Peace of the Oasis,66,335,8,0,0,0,0,0,0,0,10,0,0,0,0,0,0,1,0,0,0,0,2,0,0,Unavailable,False,None
+Peace of the Oasis,66,335,8,0,0,0,0,0,0,0,10,0,0,0,0,0,0,1,0,0,0,0,2,0,0,Drop,False,None
 Floramancer Blade of Life (Level 80+),80,331,8,0,0,15,0,42,0,0,0,8,0,0,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
 Sky Terror's Ghastly Razor,92,325,8,0,0,11,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
 Grisly Cerberus Master Dirk (Level 70+),70,321,8,0,0,12,0,38,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
@@ -364,12 +364,12 @@ Sworn Knife to Artorius,78,290,0,0,0,14,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,0,0,0,1,Dr
 Fang of the Night Sky,84,290,0,0,0,9,0,0,0,0,11,0,0,0,0,0,0,1,0,0,0,0,1,0,1,"Drop, Bazaar",False,None
 Gorilla's Fang,64,290,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
 Razor of Rapture,56,288,0,0,0,0,0,0,0,0,0,15,0,0,0,0,0,1,1,0,0,0,0,0,1,"Drop, Bazaar",False,None
-Berserker's Blade,64,280,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,Bazaar,False,None
+Berserker's Blade,64,280,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
 Pride's Maul,64,280,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
 Roaring Razor,64,280,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
 Striped Skewer,64,280,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
 FateSailor's Exalted Steel,98,275,0,0,0,13,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,Drop,False,None
-Roze's Hunting Knife,94,275,0,0,0,10,0,0,0,0,12,0,0,0,0,0,0,1,0,0,0,0,2,0,0,Bazaar,False,None
+Roze's Hunting Knife,94,275,0,0,0,10,0,0,0,0,12,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
 Talon of the Flame Legs,94,275,0,0,0,10,0,0,0,0,12,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
 Horn Handled Knife,72,272,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,"Drop, Bazaar",False,None
 Owl's Talon,72,271,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,"Drop, Bazaar",False,None
@@ -507,7 +507,7 @@ Dirk of Nobles,25,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,"Drop, Bazaar
 Athame of Adaption,20,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,1,"Drop, Bazaar",False,None
 Athame of Infinity,35,92,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Bazaar, Crafting",False,None
 Spine of the Dragon,20,90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,"Bazaar, Crafting",False,None
-Fatespinner's Knife,25,89,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,Bazaar,False,None
+Fatespinner's Knife,25,89,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
 Nomoonaga's Kris of Hope,40,85,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,Drop,False,None
 Vigilant Steel,40,85,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Quest",False,None
 Mugsy's Stylish Athame,30,85,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None

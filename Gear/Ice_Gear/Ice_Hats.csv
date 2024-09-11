@@ -561,7 +561,7 @@ Celestian Photon Mask (Level 110+),110,453,15,0,0,10,115,0,0,0,0,0,0,14,0,0,0,0,
 Witch Hunter's Capotain (Level 110+),110,444,15,0,8,0,115,0,3,0,0,0,0,13,0,0,0,0,0,0,Gift Card,False,None
 Polaris Navigator Cap,105,444,15,0,0,11,81,0,0,4,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Unicorn Paladin Helmet (Level 110+),110,440,15,0,0,10,121,0,0,0,0,0,0,13,0,0,0,0,0,0,Crowns,False,None
-Wayfarer's Cold Snap Fez,114,417,15,0,0,0,113,0,0,0,0,0,0,0,0,0,0,0,0,0,Bazaar,False,None
+Wayfarer's Cold Snap Fez,114,417,15,0,0,0,113,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Cosmographer's Cowl (Level 100+),100,412,15,0,0,14,67,0,0,0,0,0,0,13,0,0,0,0,0,0,Crowns,False,None
 Nomad's Frostdune Torboosh,112,410,15,0,0,0,110,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Arcanum Thaumaturge's Spire,108,403,15,0,0,0,101,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
@@ -843,7 +843,7 @@ Beekeeper's Veil Hat (Level 40+),40,0,11,2,0,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Gift 
 Dragonspyre Vanguard's Helm,130,793,11,0,4,12,133,0,2,0,0,0,0,14,0,0,0,0,0,0,"Drop, Crafting, Stone Key",False,None
 Shroud of Icewind Glade (Level 130+),130,766,11,0,0,10,0,0,0,0,4,4,0,0,0,0,0,0,0,0,Crowns,False,None
 Alphoi Brigadier Helm,130,752,11,0,3,12,102,0,0,0,0,0,0,14,0,0,0,0,0,0,Crafting,False,None
-Divine Paradox Conical,130,752,11,0,3,12,102,0,0,0,0,0,0,14,0,0,0,0,0,0,Unavailable,False,None
+Divine Paradox Conical,130,752,11,0,3,12,102,0,0,0,0,0,0,14,0,0,0,0,0,0,Drop,False,None
 Hopeful Zanadu Helm,130,744,11,0,2,11,99,0,0,0,0,0,0,13,0,0,0,0,0,0,Drop,False,None
 Cabal Schism Hood,125,736,11,0,0,11,103,0,2,0,0,0,0,14,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Winter Solstice Cowl (Level 100+),100,537,11,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -1857,7 +1857,7 @@ Spiral Cup Cowl (Level 30+),30,96,3,5,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,
 Coif of the Hero,35,78,3,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 War Oni's Gripping Helm,35,78,3,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Cap of Preoccupation,35,0,3,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Jacques' Hat of Winter,30,177,3,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Jacques' Hat of Winter,30,177,3,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
 Winter Palace Guard Shako (Level 30+),30,150,3,4,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Spike's Icicle-Spiked Hat,25,118,3,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
 Darkwraith's Cowl of Penance (Level 30+),30,0,3,4,2,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -2302,7 +2302,7 @@ Kozane Helm (Level 100+),100,420,0,10,11,10,0,0,0,0,10,0,0,0,0,0,0,0,0,0,Crowns,
 Great Inventor's Ice Hat (Level 70+),70,304,0,10,6,5,0,48,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Sultan's Turban (Level 80+),80,245,0,10,8,0,40,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Gift Card",False,None
 Polarian Explorer's Snowhood (Level 70+),70,239,0,10,0,8,0,0,4,3,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Dragonfly Keeper's Cap,92,220,0,10,0,8,42,0,0,0,6,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Dragonfly Keeper's Cap,92,220,0,10,0,8,42,0,0,0,6,0,0,0,0,0,0,0,0,0,Drop,False,None
 Summer Palace Helmet (Level 70+),70,150,0,10,0,4,0,0,0,0,13,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Wild Wing Headdress (Level 50+),50,118,0,10,0,5,0,12,0,0,10,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Moolinda's Hardy Headwrap (Level 140+),140,969,0,9,0,9,0,85,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -4117,7 +4117,7 @@ Pyromancer's Lambent Hat,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, 
 Pyromancer's Timeless Brim,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
 Racing Helmet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Rain Dance Mask,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Rattlebones' Cowl,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bazaar,False,None
+Rattlebones' Cowl,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Raven Helm of Unkindness (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Raven Hood,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Ravenwood Initiate Cap,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None

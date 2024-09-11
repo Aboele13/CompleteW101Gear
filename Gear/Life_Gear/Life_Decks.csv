@@ -133,16 +133,16 @@ DuneFather's Set,95,65,0,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,Crafting,
 Luphilim's Eternal Deck,110,63,0,0,0,0,34,35,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Stone Key,False,None
 Burrower's Theurgy Deck (Level 120+),120,63,0,0,0,0,19,67,0,0,0,0,0,0,39,0,0,1,0,0,0,0,0,0,1,0,Crowns,False,None
 Great Inventor's Life Deck (Level 120+),120,63,0,0,0,0,0,67,0,0,0,0,81,0,44,0,0,1,0,0,0,0,0,0,1,0,Crowns,False,None
-Rasputin's Set of Fortitude,110,62,0,0,0,0,38,45,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Unavailable,False,None
+Rasputin's Set of Fortitude,110,62,0,0,0,0,38,45,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Drop,False,None
 Arcanum Exile Evergreen Set,110,62,0,0,0,0,38,45,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Drop,False,None
-Horizon Hold Set of Efficacy,110,62,0,0,0,0,38,45,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Unavailable,False,None
+Horizon Hold Set of Efficacy,110,62,0,0,0,0,38,45,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Drop,False,None
 Gallant Istanboa Array,118,60,0,0,0,0,40,42,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Drop, Bazaar",False,None
 Tatyana's Deck of Salvation (Triangle),100,60,0,0,0,0,18,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Crafting,False,None
 Tatyana's Deck of Salvation (Square),100,60,0,0,0,0,18,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Crafting,False,None
 Tatyana's Deck of Salvation (Tear),100,60,0,0,0,0,18,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Crafting,False,None
 Tatyana's Lost Tarot,100,60,0,0,0,0,18,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crafting,False,None
 Array of Mighty Istanboa,118,59,0,0,0,0,36,34,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,"Gold Vendor, Stone Key",False,None
-Chief Advisor's Pack of Lies,110,59,0,0,0,0,34,34,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Unavailable,False,None
+Chief Advisor's Pack of Lies,110,59,0,0,0,0,34,34,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,Drop,False,None
 Parcel of the Arcanum Exile,110,59,0,0,0,0,34,34,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,Drop,False,None
 Ancient Deck of Horizon Hold,110,59,0,0,0,0,34,34,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,Drop,False,None
 Spirit of Darkmoor's Hand,100,58,0,0,0,0,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,Drop,False,None

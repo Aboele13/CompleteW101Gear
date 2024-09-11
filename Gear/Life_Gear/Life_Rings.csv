@@ -231,7 +231,7 @@ Dragonspyre Vanguard's Ring,130,264,4,0,0,0,78,0,0,0,10,0,0,0,0,0,0,0,0,1,0,0,1,
 Band of the War Ostrich,74,246,4,0,0,11,0,0,0,0,15,0,0,0,0,0,0,1,0,0,0,0,0,1,0,"Drop, Bazaar, Quest",False,None
 Ring of Wolf Lore,58,235,4,0,0,15,0,0,0,0,0,15,0,0,0,0,0,0,0,0,0,1,1,1,0,Drop,False,None
 Alphoi Brigadier Ring,130,224,4,0,0,0,68,0,0,0,10,10,0,0,0,0,0,0,0,1,0,0,1,0,0,Crafting,False,None
-Divine Paradox Ring,130,224,4,0,0,0,68,0,0,0,10,10,0,0,0,0,0,0,0,1,0,0,1,0,0,Unavailable,False,None
+Divine Paradox Ring,130,224,4,0,0,0,68,0,0,0,10,10,0,0,0,0,0,0,0,1,0,0,1,0,0,Drop,False,None
 Great Inventor's Life Ring (Level 40+),40,220,4,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Crowns,False,None
 Catrin's Aria Stone,40,202,4,0,0,6,0,0,0,0,8,8,0,0,0,0,0,1,0,0,0,0,1,0,0,Wooden Key,False,None
 Stellar Protector's Ring,120,197,4,0,0,0,60,0,0,0,10,0,0,0,0,0,0,1,0,0,0,0,1,1,0,Stone Key,False,None
@@ -618,7 +618,7 @@ Winged Circlet,25,0,0,0,0,6,0,0,0,0,5,6,0,0,0,0,0,1,0,0,0,0,1,1,0,"Drop, Bazaar"
 Meowiarty's Clever Ring,30,0,0,0,0,6,0,0,0,0,5,0,0,0,0,0,0,1,0,0,0,0,1,1,0,"Drop, Bazaar",False,None
 Frostward Seal,30,0,0,0,0,6,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,1,1,0,Drop,False,None
 Spiritist's Ring,25,0,0,0,0,6,0,0,0,0,0,8,0,0,0,0,0,1,0,0,0,0,1,1,0,"Bazaar, Quest",False,None
-Scratcher's Ring of Chivalry,25,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,Bazaar,False,None
+Scratcher's Ring of Chivalry,25,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,1,0,0,"Drop, Bazaar",False,None
 Old Smokey's Band,25,0,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
 Puzzling Band,20,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Body Monk's Band of Vigor,25,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,1,0,Drop,False,None

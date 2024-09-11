@@ -59,7 +59,7 @@ Fiery Chrysanthemum Knife (Level 140+),140,750,20,0,0,18,0,57,0,0,0,0,0,0,0,0,0,
 Unreal Dirk of Overheating,170,0,20,0,0,21,0,114,0,0,0,7,0,0,0,0,0,0,0,0,0,1,1,1,1,Raid,False,None
 Great Inventor's Fire Dirk (Level 150+),150,1055,19,0,0,18,0,84,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
 Wunderbar Freshbaker Knife,140,964,19,0,0,0,0,120,0,0,0,5,0,0,0,0,0,1,0,0,0,0,2,0,0,Drop,False,None
-Cavalry Officer Knife,150,843,19,0,0,13,0,62,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Unavailable,False,None
+Cavalry Officer Knife,150,843,19,0,0,13,0,62,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Drop,False,None
 Floramancer Blade of Rashes (Level 150+),150,739,19,0,0,20,0,94,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
 The Void's Fiery Athame (Level 150+),150,739,19,0,0,20,0,94,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Drop,False,None
 Fire Fairy Kei Knife (Level 130+),130,738,19,0,0,16,0,0,0,0,0,7,0,0,0,0,0,0,0,0,0,1,2,1,0,Crowns,False,None
@@ -81,7 +81,7 @@ Hierarch's Volcanic Athame,145,929,17,0,0,0,0,109,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,
 Hierarch's Firewall Athame,145,929,17,0,0,0,0,109,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0,0,"Drop, Bazaar",False,None
 Vanguard's Fiery Dagger,130,925,17,0,0,0,0,127,0,0,5,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Crafting, Stone Key",False,None
 Burrower's Pyromancy Athame (Level 130+),130,819,17,0,0,16,0,60,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
-Regulation Cavalry Knife,150,738,17,0,0,11,0,52,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,Bazaar,False,None
+Regulation Cavalry Knife,150,738,17,0,0,11,0,52,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,"Drop, Bazaar",False,None
 Rad Kalamar Knife,127,698,17,0,0,0,0,0,0,0,0,5,0,0,0,0,0,1,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Illuminated Archival Dirk (Level 130+),130,656,17,0,0,0,0,75,0,0,0,8,0,0,0,0,0,0,0,0,0,1,2,1,0,Crowns,False,None
 Blazing Skyfarer's Athame (Level 130+),130,656,17,0,0,19,0,45,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2,0,1,Crowns,False,None
@@ -361,12 +361,12 @@ Sir Malory's Bloody Oath,78,290,0,0,0,14,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,0,0,0,1,D
 Sworn Knife to Artorius,78,290,0,0,0,14,0,0,0,0,0,0,0,0,0,0,0,1,2,0,0,0,0,0,1,Drop,False,None
 Fang of the Night Sky,84,290,0,0,0,9,0,0,0,0,11,0,0,0,0,0,0,1,0,0,0,0,1,0,1,"Drop, Bazaar",False,None
 Gorilla's Fang,64,290,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
-Berserker's Blade,64,280,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,Bazaar,False,None
+Berserker's Blade,64,280,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
 Bull's Charge,64,280,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
 Herd's Stampede,64,280,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
 Pride's Maul,64,280,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
 FateSailor's Exalted Steel,98,275,0,0,0,13,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,Drop,False,None
-Roze's Hunting Knife,94,275,0,0,0,10,0,0,0,0,12,0,0,0,0,0,0,1,0,0,0,0,2,0,0,Bazaar,False,None
+Roze's Hunting Knife,94,275,0,0,0,10,0,0,0,0,12,0,0,0,0,0,0,1,0,0,0,0,2,0,0,"Drop, Bazaar",False,None
 Horn Handled Knife,72,272,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,"Drop, Bazaar",False,None
 Dryad's Burning Nettle,72,271,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,"Drop, Bazaar",False,None
 Owl's Talon,72,271,0,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,0,1,"Drop, Bazaar",False,None
