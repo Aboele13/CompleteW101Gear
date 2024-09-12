@@ -8,9 +8,9 @@ import setBonuses
 
 schools = ["Death", "Fire", "Balance", "Myth", "Storm", "Ice", "Life"]
 update_gear = True
-update_jewels = True
-update_base_values = True
-update_set_bonuses = True
+update_jewels = False
+update_base_values = False
+update_set_bonuses = False
 
 def main():
 

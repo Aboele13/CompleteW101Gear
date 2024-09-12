@@ -1,9 +1,11 @@
 TODO:
 
 - python:
-    - create gear sets dataframes
+    - event source
+    - crowns vendor needs to count for crowns
     - create list of items with damage enchantment item cards (must be benfifical (check level))
-    - make everything run faster
+    - make everything run faster (use sets instead of lists, faster algorithms, multithread)
+    - camel case function names
 
 - function to acknowledge enchantment item cards (called on set)
 
@@ -13,3 +15,5 @@ TODO:
 
 - view gear "only objectively better" checkbox
 - view gear "jeweled" checkbox
+
+- epic/colossal IC only used in mob sets

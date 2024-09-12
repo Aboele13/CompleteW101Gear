@@ -1,7 +1,6 @@
 import re
 import urllib.parse
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from itertools import combinations_with_replacement
 
 import pandas as pd
 from bs4 import BeautifulSoup

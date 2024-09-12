@@ -1,4 +1,3 @@
-import os
 import urllib.parse
 from concurrent.futures import ThreadPoolExecutor, as_completed
 

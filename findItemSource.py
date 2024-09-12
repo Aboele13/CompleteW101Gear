@@ -1,3 +1,4 @@
+import re
 import urllib.parse
 
 from bs4 import BeautifulSoup
@@ -49,8 +50,11 @@ def get_clothing_accessory_source(item_name, formatted_info):
     sources = []
     
     # gold vendor
-    if "Buy Price:" in formatted_info and "Gold" in formatted_info[formatted_info.index("Buy Price:") + 1]:
-        sources.append("Gold Vendor")
+    if "Buy Price:" in formatted_info:
+        if ("Gold" in formatted_info[formatted_info.index("Buy Price:") + 1]) or ("Gold" in formatted_info[formatted_info.index("Buy Price:") + 3]):
+            sources.append("Gold Vendor")
+        elif ("Crowns" in formatted_info[formatted_info.index("Buy Price:") + 1]) or ("Crowns" in formatted_info[formatted_info.index("Buy Price:") + 3]):
+            sources.append("Crowns")
         
     if "No drop sources known" not in formatted_info:
         for gold_key_source in gold_key_bosses: # dropped by gold key boss
@@ -69,8 +73,10 @@ def get_clothing_accessory_source(item_name, formatted_info):
             if one_shot_source in text:
                 sources.append("One Shot Housing Gauntlet")
                 break
-        # anything else is a normal drop
-        if has_normal_drop(formatted_info, gold_key_bosses + stone_key_bosses + wooden_key_bosses + one_shot_bosses):
+        # anything else is an event drop or normal drop (can't be both)
+        if event_drop(formatted_info):
+            sources.append("Event Drop")
+        elif has_normal_drop(formatted_info, gold_key_bosses + stone_key_bosses + wooden_key_bosses + one_shot_bosses):
             sources.append("Drop")
             
     # can be bought at bazaar
@@ -154,8 +160,10 @@ def get_mount_source(formatted_info):
             if one_shot_source in text:
                 sources.append("One Shot Housing Gauntlet")
                 break
-        # anything else is a normal drop
-        if has_normal_drop(formatted_info, gold_key_bosses + stone_key_bosses + wooden_key_bosses + one_shot_bosses):
+        # anything else is an event drop or normal drop (can't be both)
+        if event_drop(formatted_info):
+            sources.append("Event Drop")
+        elif has_normal_drop(formatted_info, gold_key_bosses + stone_key_bosses + wooden_key_bosses + one_shot_bosses):
             sources.append("Drop")
         # housing gauntlet gear using " (Tier "
         if has_normal_drop(formatted_info, gold_key_bosses + stone_key_bosses + wooden_key_bosses + one_shot_bosses, actually_mount_from_housing=True):
@@ -199,7 +207,7 @@ def order_sources_list(sources_list):
         return "Unavailable"
     
     # ideal order
-    possible_sources = ["Gold Vendor", "Drop", "Bazaar", "Crafting", "Gold Key", "Stone Key", "Wooden Key", "Housing Gauntlet", "Rematch", "Quest", "One Shot Housing Gauntlet", "Fishing", "Raid", "Crowns", "Gift Card"]
+    possible_sources = ["Gold Vendor", "Drop", "Bazaar", "Crafting", "Gold Key", "Stone Key", "Wooden Key", "Housing Gauntlet", "Rematch", "Quest", "One Shot Housing Gauntlet", "Fishing", "Raid", "Crowns", "Gift Card", "Event Drop"]
     
     ordered_sources = [] # the reordering of sources_list
     
@@ -310,7 +318,7 @@ def raid_item_list():
         "https://wiki.wizard101central.com/wiki/NPC:Gwyn_Fellwarden_(Crying_Sky_Raid)",
         "https://wiki.wizard101central.com/wiki/NPC:Gwyn_Fellwarden_(Cabal%27s_Revenge_Raid)"
     ]
-        
+    
     for url in urls:
         html_content = fetch_url_content(url)
         if html_content:
@@ -426,6 +434,18 @@ def wooden_key_bosses_list():
 # wooden key chests
 def wooden_key_chests_list():
     return create_locked_chest_list("https://wiki.wizard101central.com/wiki/Category:Wooden_Skeleton_Key_Locked_Chests")
+
+# find if item is only available during event
+def event_drop(formatted_info):
+    for line in formatted_info:
+        if bool(re.search(r"This item is only available during the .* event\.", line)):
+            return True
+        elif "Wyvern's Hoard Pack" in line:
+            return True
+        elif "Dragon's Hoard Pack" in line:
+            return True
+        elif "Krampus (Tier " in line:
+            return True
 
 # call all these functions once and store return to save time
 rematch_gear = rematch_item_list()
