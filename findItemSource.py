@@ -440,11 +440,11 @@ def event_drop(formatted_info):
     for line in formatted_info:
         if bool(re.search(r"This item is only available during the .* event\.", line)):
             return True
-        elif "Wyvern's Hoard Pack" in line:
+        elif "Wyvern's Hoard Pack" in line: # five boxes
             return True
-        elif "Dragon's Hoard Pack" in line:
+        elif "Dragon's Hoard Pack" in line: # lost pages
             return True
-        elif "Krampus (Tier " in line:
+        elif "Krampus (Tier " in line: # update if they add more events
             return True
 
 # call all these functions once and store return to save time
