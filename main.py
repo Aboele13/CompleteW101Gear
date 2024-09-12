@@ -6,12 +6,11 @@ import createPets
 import jewels
 import setBonuses
 
-# school = "Fire" # use this for testing one school
 schools = ["Death", "Fire", "Balance", "Myth", "Storm", "Ice", "Life"]
 update_gear = True
 update_jewels = True
 update_base_values = True
-update_set_bonuses = False
+update_set_bonuses = True
 
 def main():
 

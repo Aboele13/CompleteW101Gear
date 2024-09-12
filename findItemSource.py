@@ -232,7 +232,7 @@ def has_normal_drop(formatted_info, arr, actually_mount_from_housing = False):
 # one shot dungeons (exalted, baddle of the bands, etc.), update if they add more one-shots
 def one_shot_bosses_list():
     
-    # all one shot bosses start with this
+    # all one shot bosses start with this, update if they add more one-shots
     look_for_names = ["Krokopatra (Rank ", "Rattlebones (Rank ", "Meowiarty (Rank ", "Zeus Sky Father (Zeus ", "Patt Minotaur (Tier ", "Forest Grump (Tier "]
     
     base_url = "https://wiki.wizard101central.com"

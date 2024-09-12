@@ -1,13 +1,12 @@
-import re
 import urllib.parse
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from itertools import combinations_with_replacement
 
 import pandas as pd
 from bs4 import BeautifulSoup
 
 from webAccess import fetch_url_content, replace_img_with_filename
 
+school = None
 
 def extract_bullet_points_from_html(html_content):
     if html_content is None:
@@ -41,13 +40,13 @@ def extract_information_from_url(url):
         
         lines = text_content.splitlines()
         
-        # Extract content between "Set:" and "Male Image"
+        # Extract content between "Set:" and "Items in this Set"
         start_index = None
         end_index = None
         for i, line in enumerate(lines):
             if line.startswith("Set:"):
                 start_index = i
-            if line.startswith("Male Image"):
+            if line.startswith("Items in this Set"):
                 end_index = i
                 break
         
@@ -67,7 +66,6 @@ def find_next_page_link(soup):
         return next_page_link['href']
     return None
 
-# fix
 def format_extracted_info(extracted_info):
     formatted_info = []
     skip_phrases = ["From Wizard101 Wiki", "Jump to:", "navigation", "search"]
@@ -75,13 +73,12 @@ def format_extracted_info(extracted_info):
         if any(phrase in line for phrase in skip_phrases):
             continue
         # Clean up extra commas and percentage signs
-        cleaned_line = line.replace(',', '').replace('%', '').replace('(25px-28Icon29_', '').replace('(18px-28Icon29_', '').replace('(50px-28Icon29', '').replace('(28Icon29_', '').replace('.png)', '').replace('_', ' ')
-        formatted_info.append(cleaned_line)
+        cleaned_line = line.replace(',', '').replace('%', '').replace('(25px-28Icon29_', '').replace('(18px-28Icon29_', '').replace('(50px-28Icon29', '').replace('(28Icon29_', '').replace('(89px-28General29_', '').replace('.png)', '').replace('_', ' ')
+        formatted_info.append(cleaned_line[1:] if (cleaned_line and cleaned_line[0] == " ") else cleaned_line)
     return formatted_info
 
-# fix
 def process_bullet_point(base_url, bullet_point, bad_urls):
-    item_name = bullet_point['text'].replace("Set:", "").strip()
+    set_name = bullet_point['text'].replace("Set:", "").strip()
     
     # Construct absolute URL for the hyperlink
     full_url = urllib.parse.urljoin(base_url, bullet_point['link'])
@@ -92,45 +89,114 @@ def process_bullet_point(base_url, bullet_point, bad_urls):
     
     if text_info:
         formatted_info = format_extracted_info(text_info)
-        print(formatted_info)
-    #     bonuses = find_bonus(formatted_info, item_name)
-    #     jewel_data = {
-    #         'Name': item_name
-    #     }
-    #     jewel_data.update(bonuses)
+        if set_name != "Fossil Avenger's Set": # fossil is exception, doesn't need to get checked
+            set_school = formatted_info[formatted_info.index("Set Bonuses") - 1]
+            if set_school != school and set_school != "Global": # remove set bonuses for other schools
+                return None
+        set_data = find_bonus(formatted_info, set_name)
         
-    #     return jewel_data
-    # else:
-    #     print(f"Failed to fetch content from {full_url}")
-    #     bad_urls.append(full_url)
-    #     return None
+        return set_data
+    else:
+        print(f"Failed to fetch content from {full_url}")
+        bad_urls.append(full_url)
+        return None
 
-# fix
-def find_bonus(formatted_info, item_name):
-    
-    bonus = {
-        "Level": 1,
-        "Effect": "None"
+def rename_good_bonuses(bonuses):
+    replacements = {
+        "Resistance": "Resist",
+        "Pip Chance": "Pip",
+        "Max Health": "Health",
+        "Armor Piercing": "Pierce",
+        "Pip Conversion": "Pip Conserve",
+        " Healing": "",
+        "ShadPip": "Shadow Pip"
     }
     
-    for i in range(len(formatted_info)):
-        if "(Level " in formatted_info[i]:
-            bonus["Level"] = int(formatted_info[i].split("(Level ")[1].split("+")[0])
-        elif formatted_info[i] == "Level":
-            bonus["Level"] = 1 if formatted_info[i + 1] == "Any" else int(formatted_info[i + 1].replace("+", ""))
-        elif formatted_info[i] == "Effect":
-            bonus["Effect"] = " ".join(formatted_info[i + 1:])
-            return bonus
+    for i in range(len(bonuses)):
+        for key in replacements:
+            bonuses[i] = bonuses[i].replace(key, replacements[key])
+            
+    return bonuses
 
-def sort_set_bonuses_df(df):
-    return df.sort_values(by = "Name", ascending = True).reset_index(drop=True)
+def clean_bonuses_str(bonuses_str):
+    bonuses_str = bonuses_str.replace("Gain 1 Power Pip when you defeat an enemy once per Round (no PvP)", "") # don't need this
+    bonuses_str = bonuses_str.replace(f"{school} ", "").replace("Global ", "") # remove good schools, then any school that appears should be removed
+    return bonuses_str.replace("Shadow Pip Rating", "ShadPip") # special occasion so not treated as Shadow school stat
 
-def get_set_bonuses():
+def remove_unwanted_bonuses(bonuses):
+    bonuses_str = clean_bonuses_str(" ".join(bonuses))
+    bonuses_in_tier = bonuses_str.replace(" +", "+").split("+") # each bonus starts with +, so separate each bonus
+    if bonuses_in_tier and not bonuses_in_tier[0]: # removes blank start to list
+        bonuses_in_tier = bonuses_in_tier[1:]
+    
+    all_schools = {"Death", "Fire", "Balance", "Myth", "Storm", "Ice", "Life", "Shadow"}
+    
+    j = 0
+    while j < len(bonuses_in_tier):
+        if ("Mana" in bonuses_in_tier[j]) or ("Item Card" in bonuses_in_tier[j]) or ("Movement Speed" in bonuses_in_tier[j]):
+            bonuses_in_tier.pop(j)
+            j -= 1
+        else:
+            words = bonuses_in_tier[j].split()
+            for word in words:
+                if word in all_schools:
+                    bonuses_in_tier.pop(j)
+                    j -= 1
+                    break
+        j += 1
+    
+    if not bonuses_in_tier:
+        return "None"
+    else:
+        bonuses_in_tier = rename_good_bonuses(bonuses_in_tier)
+    
+    return ", ".join(bonuses_in_tier)
+
+def find_bonus(formatted_info, set_name):
+    
+    set = {
+        'Name': set_name,
+        '2 Pieces': 'None',
+        '3 Pieces': 'None',
+        '4 Pieces': 'None',
+        '5 Pieces': 'None',
+        '6 Pieces': 'None',
+        '7 Pieces': 'None',
+        '8 Pieces': 'None',
+        '9 Pieces': 'None',
+        '10 Pieces': 'None'
+    }
+    
+    for i in range(2, 11):
+        try:
+            j = formatted_info.index(f"Tier {i} Stats:") + 1
+        except:
+            try:
+                j = formatted_info.index(f"Tier {i} Stats") + 1
+            except:
+                continue
+        
+        bonuses = []
+        
+        while (j < len(formatted_info)) and ("Tier " not in formatted_info[j]):
+            if formatted_info[j]:
+                bonuses.append(formatted_info[j])
+            j += 1
+        
+        # remove bonuses that don't help
+        set[f"{i} Pieces"] = remove_unwanted_bonuses(bonuses)
+    
+    return set
+
+def get_set_bonuses(main_school):
+    
+    global school
+    school = main_school
     
     base_url = "https://wiki.wizard101central.com"
     url = "https://wiki.wizard101central.com/wiki/Category:Sets"
     
-    items_data = []
+    sets_data = []
     
     bad_urls = []
 
@@ -148,7 +214,7 @@ def get_set_bonuses():
                 for future in as_completed(futures):
                     item_data = future.result()
                     if item_data:
-                        items_data.append(item_data)
+                        sets_data.append(item_data)
                 
             # Find the "(next page)" link
             next_page_link = find_next_page_link(soup)
@@ -161,9 +227,9 @@ def get_set_bonuses():
             break
 
     # move all items to dataframe
-    df = pd.DataFrame(items_data).fillna(0)  # fill all empty values with 0
-    df = sort_set_bonuses_df(df)
+    df = pd.DataFrame(sets_data).fillna(0)  # fill all empty values with 0
+    df = df.sort_values(by = "Name", ascending = True).reset_index(drop=True)
     print(df)
-    df.to_csv(f'Set_Bonuses.csv', index=False)
+    df.to_csv(f'Set_Bonuses\\{school}_Set_Bonuses.csv', index=False)
         
     return bad_urls

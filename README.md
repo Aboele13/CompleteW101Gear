@@ -3,6 +3,7 @@ TODO:
 - python:
     - create gear sets dataframes
     - create list of items with damage enchantment item cards (must be benfifical (check level))
+    - make everything run faster
 
 - function to acknowledge enchantment item cards (called on set)
 
