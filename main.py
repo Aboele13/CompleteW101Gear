@@ -3,16 +3,14 @@ import createAccessories
 import createClothing
 import createMounts
 import createPets
-import damageICs
 import jewels
 import setBonuses
 
 schools = ["Death", "Fire", "Balance", "Myth", "Storm", "Ice", "Life"]
 update_gear = True
-update_jewels = True
-update_base_values = True
-update_set_bonuses = True
-update_dmg_ics = True
+update_jewels = False
+update_base_values = False
+update_set_bonuses = False
 
 def main():
 
@@ -42,12 +40,7 @@ def main():
             bad_urls.extend(setBonuses.get_set_bonuses(school))
         
             print(f"\n\n\nAll {school} set bonuses have been successfully updated\n")
-            
-    if update_dmg_ics:
-        bad_urls.extend(damageICs.create_damage_item_cards())
-        
-        print("\n\n\nAll gear with damage item cards has been successfully updated\n")
-        
+    
     # print which links did not work and need to be rechecked
     if bad_urls:
         print("List of URLs that did not process properly:\n")

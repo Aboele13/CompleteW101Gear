@@ -11,6 +11,8 @@ school = None
 gear_types = ["Hat", "Robe", "Boot"]
 gear_type = None
 
+damage_ICs = ["Colossal", "Epic"] # beneficial damage item cards, update if new enchants
+
 def extract_bullet_points_from_html(html_content):
     if html_content is None:
         return []
@@ -100,7 +102,7 @@ def format_extracted_info(extracted_info):
         if any(phrase in line for phrase in skip_phrases):
             continue
         # Clean up extra commas and percentage signs
-        cleaned_line = line.replace(',', '').replace('%', '').replace('(25px-28Icon29_', '').replace('(18px-28Icon29_', '').replace('(50px-28Icon29', '').replace('(28Icon29_', '').replace('.png)', '').replace('_', ' ')
+        cleaned_line = line.replace(',', '').replace('%', '').replace('(25px-28Icon29_', '').replace('(18px-28Icon29_', '').replace('(50px-28Icon29', '').replace('(28Icon29_', '').replace('(100px-28Item_Card29', 'Item Card').replace('.png)', '').replace('_', ' ')
         formatted_info.append(cleaned_line)
     return formatted_info
 
@@ -249,6 +251,11 @@ def process_bullet_point(base_url, bullet_point, bad_urls):
         }
         item_data.update(bonuses)
         
+        for damage_IC in damage_ICs:
+            if f"Item Card {damage_IC}" in formatted_info:
+                with open(f'Gear\\{school}_Gear\\{school}_{damage_IC} _IC_Gear.txt', 'a') as file:
+                    file.write(f"{item_name}\n")
+        
         # set the item's source
         item_data['Source'] = findItemSource.get_item_source(item_name, formatted_info, False)
 
@@ -289,7 +296,11 @@ def create_clothing(main_school):
     school = main_school
     
     bad_urls = []
-
+    
+    for damage_IC in damage_ICs: # empty lists to start building them
+        with open(f'Gear\\{school}_Gear\\{school}_{damage_IC} _IC_Gear.txt', 'w') as file:
+            pass
+    
     for type in gear_types:
         
         global gear_type

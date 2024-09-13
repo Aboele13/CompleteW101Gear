@@ -49,12 +49,18 @@ def get_clothing_accessory_source(item_name, formatted_info):
     
     sources = []
     
-    # gold vendor
+    # gold/crowns vendor
     if "Buy Price:" in formatted_info:
-        if ("Gold" in formatted_info[formatted_info.index("Buy Price:") + 1]) or ("Gold" in formatted_info[formatted_info.index("Buy Price:") + 3]):
-            sources.append("Gold Vendor")
-        elif ("Crowns" in formatted_info[formatted_info.index("Buy Price:") + 1]) or ("Crowns" in formatted_info[formatted_info.index("Buy Price:") + 3]):
-            sources.append("Crowns")
+        i = formatted_info.index("Buy Price:")
+        while True:
+            if ("Gold" in formatted_info[i + 1]):
+                sources.append("Gold Vendor")
+            elif ("Crowns" in formatted_info[i + 1]):
+                sources.append("Crowns")
+            if "Buy Price:" in formatted_info[i + 1:]:
+                i += (formatted_info[i + 1:].index("Buy Price:") + 1)
+            else:
+                break
         
     if "No drop sources known" not in formatted_info:
         for gold_key_source in gold_key_bosses: # dropped by gold key boss
