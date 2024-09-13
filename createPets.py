@@ -144,7 +144,7 @@ def process_bullet_point(base_url, bullet_point, bad_urls):
         return item_data
     else:
         print(f"Failed to fetch content from {full_url}")
-        bad_urls.append(full_url)
+        bad_urls.append(f"{full_url}, {school}, Pets")
         return None
 
 def combine_school_and_global_stats(df):

@@ -8,9 +8,9 @@ import setBonuses
 
 schools = ["Death", "Fire", "Balance", "Myth", "Storm", "Ice", "Life"]
 update_gear = True
-update_jewels = False
-update_base_values = False
-update_set_bonuses = False
+update_jewels = True
+update_base_values = True
+update_set_bonuses = True
 
 def main():
 
@@ -31,7 +31,7 @@ def main():
         print(f"\n\n\nAll jewels have been successfully updated\n")
         
     if update_base_values:
-        baseValues.get_base_values(schools) # each school created in function
+        bad_urls.extend(baseValues.get_base_values(schools)) # each school created in function
         
         print(f"\n\n\nAll base values have been successfully updated\n")
         

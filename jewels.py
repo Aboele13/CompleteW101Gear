@@ -99,7 +99,7 @@ def process_bullet_point(base_url, bullet_point, bad_urls):
         return jewel_data
     else:
         print(f"Failed to fetch content from {full_url}")
-        bad_urls.append(full_url)
+        bad_urls.append(f"{full_url}, {shape}, Jewels")
         return None
 
 # need to get level and effect

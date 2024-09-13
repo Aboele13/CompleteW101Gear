@@ -1,7 +1,6 @@
 TODO:
 
 - python:
-    - add school and "Clothing" or "Jewel" to end of each bad_url appended
     - make everything run faster (use sets instead of lists, faster algorithms, multithread)
 
 - use wiki crit calculator for fun

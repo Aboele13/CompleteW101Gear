@@ -98,7 +98,7 @@ def process_bullet_point(base_url, bullet_point, bad_urls):
         return set_data
     else:
         print(f"Failed to fetch content from {full_url}")
-        bad_urls.append(full_url)
+        bad_urls.append(f"{full_url}, {school}, Set Bonuses")
         return None
 
 def rename_good_bonuses(bonuses):

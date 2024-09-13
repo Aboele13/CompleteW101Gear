@@ -5,9 +5,12 @@ from webAccess import fetch_url_content
 
 max_level = 170 # UPDATE WITH NEW WORLDS
 
+bad_url = []
+
 def get_all_lines():
     
-    html_content = fetch_url_content("https://wiki.wizard101central.com/wiki/Basic:Level_Chart")
+    url = "https://wiki.wizard101central.com/wiki/Basic:Level_Chart"
+    html_content = fetch_url_content(url)
     if html_content:
         # Parse HTML content and replace <img> tags with filenames
         soup = BeautifulSoup(html_content, 'html.parser')
@@ -21,6 +24,8 @@ def get_all_lines():
         lines = lines[:lines.index("Experience")]
         
         return lines
+    else:
+        bad_url.append(f"{url}, Base Values")
     
 def hp_pip_shad_arch_lines():
     return all_lines[:all_lines.index("Pip Conversion")]
@@ -203,6 +208,6 @@ def get_base_values(schools):
     # create dataframes for each school
     create_school_base_values(schools)
     
-    return df
+    return bad_url
 
 all_lines = get_all_lines() # call it once globally to save time
