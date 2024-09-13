@@ -5,6 +5,7 @@ from bs4 import BeautifulSoup
 
 from webAccess import fetch_url_content, replace_img_with_filename
 
+bad_urls = {}
 
 def find_next_page_link(soup):
     # Look for the "(next page)" link
@@ -254,7 +255,7 @@ def one_shot_bosses_list():
     
     all_one_shot_bosses = []
     
-    while url:
+    if url:
         # Fetch content from the URL
         html_content = fetch_url_content(url)
 
@@ -278,9 +279,8 @@ def one_shot_bosses_list():
             else:
                 url = None
         else:
-            print("Failed to fetch content from the URL.")
-            break
-        
+            bad_urls.add(f"{url}, Sourcing")
+    
     return all_one_shot_bosses
 
 # rematch duels
@@ -303,7 +303,9 @@ def rematch_item_list():
         for i in range(len(lines)):
             if lines[i] == "Link to Item":
                 rematch_items.append(lines[i - 2])
-                
+    else:
+        bad_urls.add(f"{url}, Sourcing")
+    
     # remove all the gauntlet recipes at the bottom, only keep gear
     i = len(rematch_items) - 1
     while i >= 0:
@@ -340,6 +342,8 @@ def raid_item_list():
             for i in range(len(lines)):
                 if lines[i] == "Link to Item":
                     raid_gear.append(lines[i - 2])
+        else:
+            bad_urls.add(f"{url}, Sourcing")
     
     return raid_gear
 
@@ -359,6 +363,9 @@ def create_creature_list(url):
         for i in range(len(lines)):
             if "Creature:" in lines[i]:
                 creature_list.append(lines[i].replace("Creature:", ""))
+    
+    else:
+        bad_urls.add(f"{url}, Sourcing")
 
     return creature_list
 
@@ -367,7 +374,8 @@ def create_housing_gauntlet_list():
         
     gauntlet_list = []
 
-    html_content = fetch_url_content("https://wiki.wizard101central.com/wiki/Category:Housing_Instances")
+    url = "https://wiki.wizard101central.com/wiki/Category:Housing_Instances"
+    html_content = fetch_url_content(url)
     if html_content:
         # Parse HTML content and replace <img> tags with filenames
         soup = BeautifulSoup(html_content, 'html.parser')
@@ -380,6 +388,9 @@ def create_housing_gauntlet_list():
         for i in range(len(lines)):
             if "Location:" in lines[i]:
                 gauntlet_list.append(lines[i].replace("Location:", ""))
+                
+    else:
+        bad_urls.add(f"{url}, Sourcing")
 
     return clean_housing_gauntlet_list(gauntlet_list)
 
@@ -400,6 +411,9 @@ def create_locked_chest_list(url):
         for i in range(len(lines)):
             if "LockedChest:" in lines[i]:
                 chest_list.append(lines[i].replace("LockedChest:", ""))
+    
+    else:
+        bad_urls.add(f"{url}, Sourcing")
 
     return clean_housing_gauntlet_list(chest_list)
 
@@ -452,6 +466,9 @@ def event_drop(formatted_info):
             return True
         elif "Krampus (Tier " in line: # update if they add more events
             return True
+        
+def get_bad_urls():
+    return bad_urls
 
 # call all these functions once and store return to save time
 rematch_gear = rematch_item_list()
