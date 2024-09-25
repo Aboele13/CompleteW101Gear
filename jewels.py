@@ -10,7 +10,7 @@ from webAccess import fetch_url_content, replace_img_with_filename
 shape = ""
 
 def extract_bullet_points_from_html(html_content):
-    if html_content is None:
+    if not html_content:
         return []
 
     soup = BeautifulSoup(html_content, 'html.parser')
@@ -47,13 +47,13 @@ def extract_information_from_url(url):
         for i, line in enumerate(lines):
             if line.startswith("Jewel:"):
                 start_index = i
-            if line.startswith("Acquisition Source") or line.startswith("Sell Price") or "(10px-%28Icon%29_Counter.png)" in line or line.startswith("Documentation on how"):
+            if line.startswith("Acquisition Source") or line.startswith("Sell Price") or line.startswith("Documentation on how") or "(10px-%28Icon%29_Counter.png)" in line:
                 end_index = i
                 break
         
-        if start_index is not None and end_index is not None:
+        if start_index and end_index:
             return lines[start_index:end_index], soup
-        elif start_index is not None:
+        elif start_index:
             return lines[start_index:], soup
         else:
             return [], soup
@@ -79,7 +79,7 @@ def format_extracted_info(extracted_info):
     return formatted_info
 
 def process_bullet_point(base_url, bullet_point, bad_urls):
-    item_name = bullet_point['text'].replace("Jewel:", "").strip()
+    jewel_name = bullet_point['text'].replace("Jewel:", "").strip()
     
     # Construct absolute URL for the hyperlink
     full_url = urllib.parse.urljoin(base_url, bullet_point['link'])
@@ -90,9 +90,9 @@ def process_bullet_point(base_url, bullet_point, bad_urls):
     
     if text_info:
         formatted_info = format_extracted_info(text_info)
-        bonuses = find_bonus(formatted_info, item_name)
+        bonuses = find_bonus(formatted_info)
         jewel_data = {
-            'Name': item_name
+            'Name': jewel_name
         }
         jewel_data.update(bonuses)
         
@@ -103,7 +103,7 @@ def process_bullet_point(base_url, bullet_point, bad_urls):
         return None
 
 # need to get level and effect
-def find_bonus(formatted_info, item_name):
+def find_bonus(formatted_info):
     
     bonus = {
         "Shape": shape,
@@ -224,7 +224,7 @@ def collect_jewels(schools):
     bad_urls = []
     
     # need to update if they add more jewel shapes
-    good_jewel_shapes = ["Tear", "Circle", "Square", "Triangle"]
+    good_jewel_shapes = {"Tear", "Circle", "Square", "Triangle"}
     for curr_shape in good_jewel_shapes:
         
         global shape

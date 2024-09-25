@@ -49,18 +49,18 @@ def filter_pareto_efficient(df, n_jobs=-1):
     efficient_mask = pareto_efficient_parallel(points, n_jobs)
     return df[efficient_mask].reset_index(drop=True)
 
-def main():
-    # Example dataframe
-    df = pd.DataFrame({
-        'Item': ['Item_1', 'Item_2', 'Item_3', 'Item_4', 'Item_5'],
-        'Stat_1': [15, 10, 12, 8, 11],
-        'Stat_2': [20, 18, 16, 22, 19],
-        'Stat_3': [18, 14, 17, 13, 15]
-    })
+# def main():
+#     # Example dataframe
+#     df = pd.DataFrame({
+#         'Item': ['Item_1', 'Item_2', 'Item_3', 'Item_4', 'Item_5'],
+#         'Stat_1': [15, 10, 12, 8, 11],
+#         'Stat_2': [20, 18, 16, 22, 19],
+#         'Stat_3': [18, 14, 17, 13, 15]
+#     })
 
-    # Apply the filter function
-    filtered_df = filter_pareto_efficient(df)
-    print(filtered_df)
+#     # Apply the filter function
+#     filtered_df = filter_pareto_efficient(df)
+#     print(filtered_df)
     
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()

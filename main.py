@@ -26,6 +26,9 @@ def main():
             bad_urls.extend(createPets.create_pets(school))
 
             print(f"\n\n\nAll {school} gear has been successfully updated\n")
+            
+        # check if any sourcing went wrong
+        bad_urls.extend(findItemSource.get_bad_urls())
     
     # update the jewel CSVs
     if update_jewels:
@@ -35,7 +38,7 @@ def main():
     
     # update the base values CSVs
     if update_base_values:
-        bad_urls.extend(baseValues.get_base_values(schools)) # each school created in function
+        bad_urls.append(baseValues.get_base_values(schools)) # each school created in function
         
         print(f"\n\n\nAll base values have been successfully updated\n")
         
@@ -45,10 +48,6 @@ def main():
             bad_urls.extend(setBonuses.get_set_bonuses(school))
         
             print(f"\n\n\nAll {school} set bonuses have been successfully updated\n")
-    
-    # check if any sourcing went wrong
-    for bad_url in findItemSource.get_bad_urls():
-        bad_urls.append(bad_url)
     
     # print which links did not work and need to be rechecked
     if bad_urls:

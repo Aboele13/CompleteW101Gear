@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 
 from webAccess import fetch_url_content, replace_img_with_filename
 
-bad_urls = {}
+bad_urls = []
 
 def find_next_page_link(soup):
     # Look for the "(next page)" link
@@ -17,7 +17,7 @@ def find_next_page_link(soup):
 # drop, bazaar, gold, crowns, crafting, fishing, raid, gift card, skeleton keys, one shot, housing gauntlet, rematch, unavailable (scroll of fortune / promotion / code)
 def get_item_source(item_name, formatted_info, is_mount):
     
-    sources_list = []
+    sources_list = set()
     
     # clothes and accessories
     if not is_mount:
@@ -33,31 +33,31 @@ def get_clothing_accessory_source(item_name, formatted_info):
     
     # should only return one source if raid, rematch
     if item_name in raid_gear or "The Nullity" in formatted_info: # all raid gear is craftable or dropped by nullity
-        return ["Raid"] # raid
+        return {"Raid"} # raid
     if item_name in rematch_gear: # all rematch gear is craftable
-        return ["Rematch"] # rematch
+        return {"Rematch"} # rematch
     
     text = " ".join(formatted_info)
     
     # retired items can still be auctionable
     if "This item has been retired" in text:
         if "Auctionable" in formatted_info:
-            return ["Bazaar"] # retired item at bazaar
+            return {"Bazaar"} # retired item at bazaar
         else:
-            return ["Unavailable"] # retired
+            return {"Unavailable"} # retired
         
     # multiple sources
     
-    sources = []
+    sources = set()
     
     # gold/crowns vendor
     if "Buy Price:" in formatted_info:
         i = formatted_info.index("Buy Price:")
         while True:
             if ("Gold" in formatted_info[i + 1]):
-                sources.append("Gold Vendor")
+                sources.add("Gold Vendor")
             elif ("Crowns" in formatted_info[i + 1]):
-                sources.append("Crowns")
+                sources.add("Crowns")
             if "Buy Price:" in formatted_info[i + 1:]:
                 i += (formatted_info[i + 1:].index("Buy Price:") + 1)
             else:
@@ -66,68 +66,67 @@ def get_clothing_accessory_source(item_name, formatted_info):
     if "No drop sources known" not in formatted_info:
         for gold_key_source in gold_key_bosses: # dropped by gold key boss
             if gold_key_source in formatted_info:
-                sources.append("Gold Key")
+                sources.add("Gold Key")
                 break
         for stone_key_source in stone_key_bosses: # dropped by stone key boss
             if stone_key_source in formatted_info:
-                sources.append("Stone Key")
+                sources.add("Stone Key")
                 break
         for wooden_key_source in wooden_key_bosses: # dropped by wooden key boss
             if wooden_key_source in formatted_info:
-                sources.append("Wooden Key")
+                sources.add("Wooden Key")
                 break
         for one_shot_source in one_shot_bosses: # dropped by one shot housing gauntlet source
             if one_shot_source in text:
-                sources.append("One Shot Housing Gauntlet")
+                sources.add("One Shot Housing Gauntlet")
                 break
         # anything else is an event drop or normal drop (can't be both)
         if event_drop(formatted_info):
-            sources.append("Event Drop")
+            sources.add("Event Drop")
         elif has_normal_drop(formatted_info, gold_key_bosses + stone_key_bosses + wooden_key_bosses + one_shot_bosses):
-            sources.append("Drop")
+            sources.add("Drop")
             
     # can be bought at bazaar
     if "Auctionable" in formatted_info:
-        sources.append("Bazaar")
+        sources.add("Bazaar")
         
     # housing gauntlet gear
     if formatted_info[-1] == "From Gauntlet":
-        sources.append("Housing Gauntlet")
-        if "Drop" in sources: # the drop is actually housing gauntlet, not normal
-            sources.remove("Drop")
+        sources.add("Housing Gauntlet")
+        sources.discard("Drop") # the drop is actually housing gauntlet, not normal
         
     # crafting
     if "Recipe:" in formatted_info or "Recipes:" in formatted_info:
-        sources.append("Crafting")
+        sources.add("Crafting")
         
     # locked chests (keys)
     if "Obtainable from Locked Chests in:" in text:
         idx = formatted_info.index("Obtainable from Locked Chests in:")
         if formatted_info[idx + 1] in wooden_key_chests: # wooden key chest
-            sources.append("Wooden Key")
+            sources.add("Wooden Key")
         elif formatted_info[idx + 1] in stone_key_chests: # stone key chest
-            sources.append("Stone Key")
+            sources.add("Stone Key")
     
     
     if "Fishing Chests" in text: # fishing
-        sources.append("Fishing")
+        sources.add("Fishing")
     if "Card Pack" in text and "Recipe:" in text: # gold key crafting
         if "World Pack (" not in text and "Housing Gauntlet" not in sources: # world pack gear and housing gear aren't gold key gear
-            sources.append("Gold Key")
+            sources.add("Gold Key")
     if "Card Pack" in text or "Crown Shop" in text: # card park or crown shop
-        sources.append("Crowns")
+        sources.add("Crowns")
     if "Gift Card" in text: # gift card
-        sources.append("Gift Card")
+        sources.add("Gift Card")
     if "Reward From:" in formatted_info: # quest
-        sources.append("Quest")
+        sources.add("Quest")
     
     # everything is added now, make final adjustments
     if len(sources) == 0: # unavailable if not found anywhere
-        return ["Unavailable"]
-    elif "Gold Key" in sources and "Crafting" in sources: # you can only craft with gold key reagents
-        sources.remove("Crafting")
-    elif "Housing Gauntlet" in sources and "Crafting" in sources: # you can only craft with gauntlet reagents
-        sources.remove("Crafting")
+        return {"Unavailable"}
+    elif "Gold Key" in sources: # you can only craft with gold key reagents
+        sources.discard("Crafting")
+    elif "Housing Gauntlet" in sources: # you can only craft with gauntlet reagents
+        sources.discard("Crafting")
         
     return sources
     
@@ -140,67 +139,67 @@ def get_mount_source(formatted_info):
     
     # retired items can still be auctionable
     if "This item has been retired" in text:
-        return ["Unavailable"] # retired
+        return {"Unavailable"} # retired
         
     # multiple sources
     
-    sources = []
+    sources = set()
     
     # gold vendor
     if formatted_info[formatted_info.index("Permanent") + 1] == "Gold" or formatted_info[formatted_info.index("Permanent") + 3] == "Gold":
-        sources.append("Gold Vendor")
+        sources.add("Gold Vendor")
         
     if "No drop sources known" not in formatted_info:
         for gold_key_source in gold_key_bosses: # dropped by gold key boss
             if gold_key_source in formatted_info:
-                sources.append("Gold Key")
+                sources.add("Gold Key")
                 break
         for stone_key_source in stone_key_bosses: # dropped by stone key boss
             if stone_key_source in formatted_info:
-                sources.append("Stone Key")
+                sources.add("Stone Key")
                 break
         for wooden_key_source in wooden_key_bosses: # dropped by wooden key boss
             if wooden_key_source in formatted_info:
-                sources.append("Wooden Key")
+                sources.add("Wooden Key")
                 break
         for one_shot_source in one_shot_bosses: # dropped by one shot housing gauntlet source
             if one_shot_source in text:
-                sources.append("One Shot Housing Gauntlet")
+                sources.add("One Shot Housing Gauntlet")
                 break
         # anything else is an event drop or normal drop (can't be both)
         if event_drop(formatted_info):
-            sources.append("Event Drop")
+            sources.add("Event Drop")
         elif has_normal_drop(formatted_info, gold_key_bosses + stone_key_bosses + wooden_key_bosses + one_shot_bosses):
-            sources.append("Drop")
+            sources.add("Drop")
         # housing gauntlet gear using " (Tier "
         if has_normal_drop(formatted_info, gold_key_bosses + stone_key_bosses + wooden_key_bosses + one_shot_bosses, actually_mount_from_housing=True):
-            sources.append("Housing Gauntlet")
+            sources.add("Housing Gauntlet")
     
     # crafting
     if "Crafting Recipes" in formatted_info:
-        sources.append("Crafting")
+        sources.add("Crafting")
         
     # locked chests (keys)
     if "Obtainable from Locked Chests in:" in text:
         idx = formatted_info.index("Obtainable from Locked Chests in:")
         if formatted_info[idx + 1] in wooden_key_chests: # wooden key chest
-            sources.append("Wooden Key")
+            sources.add("Wooden Key")
         elif formatted_info[idx + 1] in stone_key_chests: # stone key chest
-            sources.append("Stone Key")
+            sources.add("Stone Key")
     
     
     if "Fishing Chests" in text: # fishing
-        sources.append("Fishing")
+        sources.add("Fishing")
     # no gold key crafting mounts
     if "Card Packs and Bundles" in text or "Crown Shop" in text: # card park or crown shop
-        sources.append("Crowns")
+        sources.add("Crowns")
     if "Gift Card" in text: # gift card
-        sources.append("Gift Card")
+        sources.add("Gift Card")
     # no permanent mounts given through quests
     
     # everything is added now, make final adjustments
     if len(sources) == 0: # unavailable if not found anywhere
-        return ["Unavailable"]
+        return {"Unavailable"}
     # mounts maybe can be crafted even if from gold key or housing gauntlet
         
     return sources
@@ -210,7 +209,7 @@ def get_mount_source(formatted_info):
 # drop, bazaar, gold, crowns, crafting, fishing, raid, gift card, skeleton keys, one shot, housing gauntlet, rematch, unavailable
 def order_sources_list(sources_list):
     
-    if sources_list == ["Unavailable"]:
+    if sources_list == {"Unavailable"}:
         return "Unavailable"
     
     # ideal order
@@ -235,10 +234,10 @@ def has_normal_drop(formatted_info, arr, actually_mount_from_housing = False):
         
     while ((i < len(formatted_info)) and (all(end not in formatted_info[i] for end in ending_phrases))): # if none of the ending phrases are the next line
         if not actually_mount_from_housing:
-            if ((all(creature != formatted_info[i] for creature in arr)) and (" (Tier " not in formatted_info[i])): # if the creature isn't anything special
+            if ((formatted_info[i] not in arr) and (" (Tier " not in formatted_info[i])): # if the creature isn't anything special
                 return True
         else:
-            if ((all(creature != formatted_info[i] for creature in arr)) and (" (Tier " in formatted_info[i])): # if the creature has "Tier" (from housing gauntlet)
+            if ((formatted_info[i] not in arr) and (" (Tier " in formatted_info[i])): # if the creature has "Tier" (from housing gauntlet)
                 return True
         i += 1
         
@@ -248,14 +247,14 @@ def has_normal_drop(formatted_info, arr, actually_mount_from_housing = False):
 def one_shot_bosses_list():
     
     # all one shot bosses start with this, update if they add more one-shots
-    look_for_names = ["Krokopatra (Rank ", "Rattlebones (Rank ", "Meowiarty (Rank ", "Zeus Sky Father (Zeus ", "Patt Minotaur (Tier ", "Forest Grump (Tier "]
+    look_for_names = {"Krokopatra (Rank ", "Rattlebones (Rank ", "Meowiarty (Rank ", "Zeus Sky Father (Zeus ", "Patt Minotaur (Tier ", "Forest Grump (Tier "}
     
     base_url = "https://wiki.wizard101central.com"
     url = "https://wiki.wizard101central.com/wiki/index.php?title=Category:Housing_Instance_Creatures"
     
-    all_one_shot_bosses = []
+    all_one_shot_bosses = set()
     
-    if url:
+    while url:
         # Fetch content from the URL
         html_content = fetch_url_content(url)
 
@@ -270,7 +269,7 @@ def one_shot_bosses_list():
             
             for i in range(len(lines)):
                 if ("Creature:" in lines[i]) and (any(creature in lines[i] for creature in look_for_names)):
-                    all_one_shot_bosses.append(lines[i].replace("Creature:", ""))
+                    all_one_shot_bosses.add(lines[i].replace("Creature:", ""))
         
             # Find the "(next page)" link
             next_page_link = find_next_page_link(soup)
@@ -279,7 +278,7 @@ def one_shot_bosses_list():
             else:
                 url = None
         else:
-            bad_urls.add(f"{url}, Sourcing")
+            bad_urls.append(f"{url}, Sourcing")
     
     return all_one_shot_bosses
 
@@ -304,7 +303,7 @@ def rematch_item_list():
             if lines[i] == "Link to Item":
                 rematch_items.append(lines[i - 2])
     else:
-        bad_urls.add(f"{url}, Sourcing")
+        bad_urls.append(f"{url}, Sourcing")
     
     # remove all the gauntlet recipes at the bottom, only keep gear
     i = len(rematch_items) - 1
@@ -315,11 +314,11 @@ def rematch_item_list():
         else:
             break
     
-    return rematch_items
+    return set(rematch_items)
 
 # raid gear that can be crafted or dropped by nullity
 def raid_item_list():
-    raid_gear = []
+    raid_gear = set()
     
     urls = [
         "https://wiki.wizard101central.com/wiki/NPC:Gwyn_Fellwarden",
@@ -341,14 +340,14 @@ def raid_item_list():
             
             for i in range(len(lines)):
                 if lines[i] == "Link to Item":
-                    raid_gear.append(lines[i - 2])
+                    raid_gear.add(lines[i - 2])
         else:
-            bad_urls.add(f"{url}, Sourcing")
+            bad_urls.append(f"{url}, Sourcing")
     
     return raid_gear
 
 def create_creature_list(url):
-    creature_list = []
+    creature_list = set()
 
     html_content = fetch_url_content(url)
     if html_content:
@@ -362,10 +361,10 @@ def create_creature_list(url):
         
         for i in range(len(lines)):
             if "Creature:" in lines[i]:
-                creature_list.append(lines[i].replace("Creature:", ""))
+                creature_list.add(lines[i].replace("Creature:", ""))
     
     else:
-        bad_urls.add(f"{url}, Sourcing")
+        bad_urls.append(f"{url}, Sourcing")
 
     return creature_list
 
@@ -390,7 +389,7 @@ def create_housing_gauntlet_list():
                 gauntlet_list.append(lines[i].replace("Location:", ""))
                 
     else:
-        bad_urls.add(f"{url}, Sourcing")
+        bad_urls.append(f"{url}, Sourcing")
 
     return clean_housing_gauntlet_list(gauntlet_list)
 
@@ -413,7 +412,7 @@ def create_locked_chest_list(url):
                 chest_list.append(lines[i].replace("LockedChest:", ""))
     
     else:
-        bad_urls.add(f"{url}, Sourcing")
+        bad_urls.append(f"{url}, Sourcing")
 
     return clean_housing_gauntlet_list(chest_list)
 
@@ -433,7 +432,7 @@ def clean_housing_gauntlet_list(gauntlet_list):
             i -= 1
         i += 1
             
-    return gauntlet_list
+    return set(gauntlet_list)
 
 # gold key bosses
 def gold_key_bosses_list():
@@ -468,6 +467,7 @@ def event_drop(formatted_info):
             return True
         
 def get_bad_urls():
+    global bad_urls
     return bad_urls
 
 # call all these functions once and store return to save time

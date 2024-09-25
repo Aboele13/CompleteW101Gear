@@ -9,7 +9,7 @@ from webAccess import fetch_url_content, replace_img_with_filename
 school = None
 
 def extract_bullet_points_from_html(html_content):
-    if html_content is None:
+    if not html_content:
         return []
 
     soup = BeautifulSoup(html_content, 'html.parser')
@@ -50,9 +50,9 @@ def extract_information_from_url(url):
                 end_index = i
                 break
         
-        if start_index is not None and end_index is not None:
+        if start_index and end_index:
             return lines[start_index:end_index], soup
-        elif start_index is not None:
+        elif start_index:
             return lines[start_index:], soup
         else:
             return [], soup

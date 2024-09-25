@@ -9,7 +9,7 @@ from webAccess import fetch_url_content, replace_img_with_filename
 school = None
 
 def extract_bullet_points_from_html(html_content):
-    if html_content is None:
+    if not html_content:
         return []
 
     soup = BeautifulSoup(html_content, 'html.parser')
@@ -40,7 +40,7 @@ def extract_information_from_url(url):
         
         # Check if "-100% Max" is in the text content, if so, skip processing
         if "-100% Max" in text_content:
-            return ["-100% Max"], None, soup
+            return ["-100% Max"], None
         
         lines = text_content.splitlines()
         
@@ -54,9 +54,9 @@ def extract_information_from_url(url):
                 end_index = i
                 break
         
-        if start_index is not None and end_index is not None:
+        if start_index and end_index:
             return lines[start_index:end_index], soup
-        elif start_index is not None:
+        elif start_index:
             return lines[start_index:], soup
         else:
             return [], soup
@@ -92,7 +92,7 @@ def parse_wiki_error_gear(item_name, bonuses, parts):
         value = int(parts[0][1:]) # should throw an error and end execution
         return value
 
-def parse_bonuses(info_lines, item_name):
+def parse_bonuses():
     bonuses = {
         'Max Health': 0,
         f'{school} Damage': 0,
@@ -129,17 +129,23 @@ def process_bullet_point(base_url, bullet_point, bad_urls):
     # Fetch and extract all information from the hyperlink
     text_info, soup = extract_information_from_url(full_url)
     
-    if "-100% Max" in text_info:
+    if ["-100% Max"] == text_info:
         return None
     elif text_info:
         formatted_info = format_extracted_info(text_info)
-        bonuses = parse_bonuses(formatted_info, item_name)
+        bonuses = parse_bonuses()
         item_data = {
             'Name': item_name,
         }
         item_data.update(bonuses)
         
-        item_data['Gear Set'] = formatted_info[formatted_info.index("Set") + 1] if "Set" in formatted_info else "None"
+        for i in range(len(formatted_info) - 1):
+            if formatted_info[i] == "Set":
+                item_data['Gear Set'] = formatted_info[i + 1]
+                break
+            
+        if "Gear Set" not in item_data:
+            item_data['Gear Set'] = "None"
         
         return item_data
     else:

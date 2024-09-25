@@ -5,7 +5,7 @@ from webAccess import fetch_url_content
 
 max_level = 170 # UPDATE WITH NEW WORLDS
 
-bad_url = []
+bad_url = None
 
 def get_all_lines():
     
@@ -25,20 +25,18 @@ def get_all_lines():
         
         return lines
     else:
-        bad_url.append(f"{url}, Base Values")
-    
-def hp_pip_shad_arch_lines():
-    return all_lines[:all_lines.index("Pip Conversion")]
+        global bad_url
+        bad_url = f"{url}, Base Values"
 
 def remove_mana_and_energy():
     
-    lines = hp_pip_shad_arch_lines()
+    lines = all_lines[:all_lines.index("Pip Conversion")]
     
     # remove [Go to Top]
-    lines_to_remove = ["[", "]", "Go to Top", "Level"]
+    lines_to_remove = {"[", "]", "Go to Top", "Level"}
     i = 0
     while i < len(lines):
-        if any(line == lines[i] for line in lines_to_remove):
+        if lines[i] in lines_to_remove:
             lines.pop(i)
             i -= 1
         i += 1
@@ -142,7 +140,7 @@ def clean_list(list):
                         break
                     j -= 1
             
-            # both must be found by now
+            # both must be found by now, right >= left always
             dist = right - left
             diff = list[right] - list[left]
             avg = diff / dist

@@ -1,9 +1,15 @@
 TODO:
 
-- python:
-    - make everything run faster (use sets instead of lists, faster algorithms, multithread)
+- run everything and update github csvs
 
-- use wiki crit calculator for fun
+
+
+
+
+
+
+
+- use wiki crit calculator for fun (create csv with enemy crit stats by world?)
 
 - function to acknowledge enchantment item cards (called on set) (must be beneficial (level check))
 

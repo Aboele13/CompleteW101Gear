@@ -14,7 +14,7 @@ gear_type = None
 damage_ICs = ["Colossal", "Epic"] # beneficial damage item cards, update if new enchants
 
 def extract_bullet_points_from_html(html_content):
-    if html_content is None:
+    if not html_content:
         return []
 
     soup = BeautifulSoup(html_content, 'html.parser')
@@ -45,7 +45,7 @@ def extract_information_from_url(url):
         
         # Check if "-100% Max" is in the text content, if so, skip processing
         if "-100% Max" in text_content:
-            return ["-100% Max"], None, soup
+            return ["-100% Max"], None
         
         lines = text_content.splitlines()
         
@@ -66,17 +66,17 @@ def extract_information_from_url(url):
             if line.startswith("Male Image"):
                 end_index = i
                 continue
-            if end_index != None and end_index < i and any(gauntlet in line for gauntlet in findItemSource.housing_gauntlet_list):
+            if end_index and end_index < i and any(gauntlet in line for gauntlet in findItemSource.housing_gauntlet_list):
                 gauntlet = True
         
-        if start_index is not None and end_index is not None:
+        if start_index and end_index:
             if not gauntlet:
                 return lines[start_index:end_index], level_required, soup
             else:
                 list = lines[start_index:end_index]
                 list.append("From Gauntlet")
                 return list, level_required, soup
-        elif start_index is not None:
+        elif start_index:
             if not gauntlet:
                 return lines[start_index:], level_required, soup
             else:
@@ -103,7 +103,9 @@ def format_extracted_info(extracted_info):
             continue
         # Clean up extra commas and percentage signs
         cleaned_line = line.replace(',', '').replace('%', '').replace('(25px-28Icon29_', '').replace('(18px-28Icon29_', '').replace('(50px-28Icon29', '').replace('(28Icon29_', '').replace('(100px-28Item_Card29', 'Item Card').replace('.png)', '').replace('_', ' ')
-        formatted_info.append(cleaned_line)
+        if len(cleaned_line) > 0:
+            cleaned_line = cleaned_line[1:] if cleaned_line[0] == " " else cleaned_line
+            formatted_info.append(cleaned_line)
     return formatted_info
 
 def parse_wiki_error_gear(item_name, bonuses, parts):
@@ -240,7 +242,7 @@ def process_bullet_point(base_url, bullet_point, bad_urls):
     # Fetch and extract all information from the hyperlink
     text_info, level_required, soup = extract_information_from_url(full_url)
     
-    if "-100% Max" in text_info:
+    if ["-100% Max"] == text_info:
         return None
     elif text_info:
         formatted_info = format_extracted_info(text_info)
@@ -260,7 +262,13 @@ def process_bullet_point(base_url, bullet_point, bad_urls):
         item_data['Source'] = findItemSource.get_item_source(item_name, formatted_info, False)
 
         # set the item's gear set (or None if none)
-        item_data['Gear Set'] = formatted_info[formatted_info.index("From Set:") + 1] if "From Set:" in formatted_info else "None"
+        for i in range(len(formatted_info) - 1):
+            if formatted_info[i] == "From Set:":
+                item_data['Gear Set'] = formatted_info[i + 1]
+                break
+            
+        if "Gear Set" not in item_data:
+            item_data['Gear Set'] = "None"
         
         return item_data
     else:
