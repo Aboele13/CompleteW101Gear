@@ -45,7 +45,7 @@ def extract_information_from_url(url):
         
         # Check if "-100% Max" is in the text content, if so, skip processing
         if "-100% Max" in text_content:
-            return ["-100% Max"], None
+            return ["-100% Max"], None, None
         
         lines = text_content.splitlines()
         

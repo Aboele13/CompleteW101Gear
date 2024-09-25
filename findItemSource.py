@@ -83,7 +83,7 @@ def get_clothing_accessory_source(item_name, formatted_info):
         # anything else is an event drop or normal drop (can't be both)
         if event_drop(formatted_info):
             sources.add("Event Drop")
-        elif has_normal_drop(formatted_info, gold_key_bosses + stone_key_bosses + wooden_key_bosses + one_shot_bosses):
+        elif has_normal_drop(formatted_info, gold_key_bosses | stone_key_bosses | wooden_key_bosses | one_shot_bosses):
             sources.add("Drop")
             
     # can be bought at bazaar
@@ -169,10 +169,10 @@ def get_mount_source(formatted_info):
         # anything else is an event drop or normal drop (can't be both)
         if event_drop(formatted_info):
             sources.add("Event Drop")
-        elif has_normal_drop(formatted_info, gold_key_bosses + stone_key_bosses + wooden_key_bosses + one_shot_bosses):
+        elif has_normal_drop(formatted_info, gold_key_bosses | stone_key_bosses | wooden_key_bosses | one_shot_bosses):
             sources.add("Drop")
         # housing gauntlet gear using " (Tier "
-        if has_normal_drop(formatted_info, gold_key_bosses + stone_key_bosses + wooden_key_bosses + one_shot_bosses, actually_mount_from_housing=True):
+        if has_normal_drop(formatted_info, gold_key_bosses | stone_key_bosses | wooden_key_bosses | one_shot_bosses, actually_mount_from_housing=True):
             sources.add("Housing Gauntlet")
     
     # crafting
