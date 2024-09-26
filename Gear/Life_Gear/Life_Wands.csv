@@ -1564,7 +1564,7 @@ Darkfire Longbow (Level 120+),120,0,0,0,0,0,60,60,5,0,0,0,220,14,0,0,0,2,0,0,1,0
 Darkfire Longbow (Level 110+),110,0,0,0,0,0,60,60,5,0,0,0,0,13,0,0,0,2,0,0,1,0,0,0,0,0,Unavailable,False,None
 Aquilan Charioteer Lance (Level 70+),70,0,0,0,0,0,60,60,5,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Aquilan Secutor Lance (Level 70+),70,0,0,0,0,0,60,60,5,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
-Darkfire Longbow (Level 100+),100,0,0,0,0,0,60,60,5,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
+Darkfire Longbow (Level 100+),100,0,0,0,0,0,60,60,5,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
 Mercy's Trueflight Bow (Level 140+),140,0,0,0,0,0,58,75,5,0,0,0,260,17,0,0,0,2,0,0,1,0,0,0,0,0,Unavailable,False,None
 Mercy's Trueflight Bow (Level 130+),130,0,0,0,0,0,55,75,5,0,0,0,240,15,0,0,0,2,0,0,1,0,0,0,0,0,Unavailable,False,None
 Desert Lodestar Staff (Level 110+),110,0,0,0,0,0,55,43,5,0,0,0,0,0,0,0,0,2,0,0,1,0,0,0,0,0,Gift Card,False,None
@@ -2089,7 +2089,7 @@ Raven's Claw of Unkindness (Level 90+),90,0,0,0,0,0,50,95,0,0,0,0,0,0,0,0,0,2,0,
 Raven's Storied Razor (Level 90+),90,0,0,0,0,0,50,95,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Hawk Rider's Claymore (Level 90+),90,0,0,0,0,0,50,90,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Gift Card",False,None
 Darkwraith's Compelling Scythe (Level 100+),100,0,0,0,0,0,50,70,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
-Dragonrider's Balance Blade (Level 100+),100,0,0,0,0,0,50,70,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Dragonrider's Balance Blade (Level 100+),100,0,0,0,0,0,50,70,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns, Event Drop",False,None
 Greenwarden's Energetic Staff (Level 100+),100,0,0,0,0,0,50,70,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Mandar's Sword of Legend (Level 140+),140,0,0,0,0,0,50,59,0,0,0,0,0,18,0,0,0,2,0,0,1,0,0,0,0,0,Crowns,False,None
 Walrusk Saber of Intensity,108,0,0,0,0,0,50,57,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
@@ -2100,7 +2100,7 @@ Dark Wing Bow (Level 80+),80,0,0,0,0,0,50,50,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0
 Primordial Axe (Level 70+),70,0,0,0,0,0,50,50,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Gift Card,False,None
 Raven's Bow of Unkind Winter (Level 80+),80,0,0,0,0,0,50,50,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Darkwraith's Scythe of Penance (Level 80+),80,0,0,0,0,0,50,45,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
-Krampus' Tolltaker,120,0,0,0,0,0,50,24,0,0,0,0,55,0,0,0,0,2,0,0,0,0,0,0,1,0,Gold Key,False,None
+Krampus' Tolltaker,120,0,0,0,0,0,50,24,0,0,0,0,55,0,0,0,0,2,0,0,0,0,0,0,1,0,"Gold Key, Event Drop",False,None
 Mystic Grimoire (Level 100+),100,0,0,0,0,0,50,0,0,0,13,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Gift Card,False,None
 Ancient Purrzian Scimitar (Level 90+),90,0,0,0,0,0,50,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Blighted Captain's Steel (Level 80+),80,0,0,0,0,0,50,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -2130,7 +2130,7 @@ Nevermore Talon (Level 100+),100,0,0,0,0,0,45,80,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0
 Lunar Scepter of Anubis (Level 70+),70,0,0,0,0,0,45,70,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Darkwraith's Compelling Scythe (Level 90+),90,0,0,0,0,0,45,65,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Dragonrider's Balance Blade (Level 90+),90,0,0,0,0,0,45,65,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
-Greenwarden's Energetic Staff (Level 90+),90,0,0,0,0,0,45,65,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Greenwarden's Energetic Staff (Level 90+),90,0,0,0,0,0,45,65,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns, Event Drop",False,None
 Mandar's Sword of Legend (Level 130+),130,0,0,0,0,0,45,53,0,0,0,0,0,16,0,0,0,2,0,0,1,0,0,0,0,0,Crowns,False,None
 Light Elf Sword and Shield (Level 70+),70,0,0,0,0,0,45,45,0,2,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Hungry Caiman's Staff (Level 70+),70,0,0,0,0,0,45,45,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -2171,7 +2171,7 @@ Greenwarden's Peaceful Staff (Level 90+),90,0,0,0,0,0,40,75,0,0,0,0,0,0,0,0,0,2,
 Nevermore Talon (Level 90+),90,0,0,0,0,0,40,75,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Darkwraith's Compelling Scythe (Level 80+),80,0,0,0,0,0,40,60,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Dragonrider's Balance Blade (Level 80+),80,0,0,0,0,0,40,60,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
-Greenwarden's Energetic Staff (Level 80+),80,0,0,0,0,0,40,60,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Greenwarden's Energetic Staff (Level 80+),80,0,0,0,0,0,40,60,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Fortune Teller's Eternal Gaze (Level 50+),50,0,0,0,0,3,40,40,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Emerald Caiman's Scepter (Level 70+),70,0,0,0,0,0,40,40,0,0,0,15,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Dancing Blade (Level 60+),60,0,0,0,0,0,40,40,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Gift Card,False,None
@@ -2203,7 +2203,7 @@ Darkwraith's Umbral Scythe (Level 90+),90,0,0,0,0,0,35,110,0,0,0,0,0,0,0,0,0,2,0
 Great Axe of the Storyteller (Level 100+),100,0,0,0,0,0,35,100,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Unkind Axe of Winter (Level 100+),100,0,0,0,0,0,35,100,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Charmer's Mystical Flute (Level 80+),80,0,0,0,0,0,35,70,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Gift Card",False,None
-Greenwarden's Peaceful Staff (Level 80+),80,0,0,0,0,0,35,70,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Greenwarden's Peaceful Staff (Level 80+),80,0,0,0,0,0,35,70,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Hawk Rider's Claymore (Level 70+),70,0,0,0,0,0,35,70,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Gift Card",False,None
 Nevermore Talon (Level 80+),80,0,0,0,0,0,35,70,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Lunar Scepter of Anubis (Level 60+),60,0,0,0,0,0,35,50,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -2244,7 +2244,7 @@ Raven's Storied Razor (Level 70+),70,0,0,0,0,0,30,60,0,0,0,0,0,0,0,0,0,2,0,0,0,0
 Tears of Night Lance,82,0,0,0,0,0,30,46,0,0,0,3,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Darkwraith's Compelling Scythe (Level 70+),70,0,0,0,0,0,30,45,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Dragonrider's Balance Blade (Level 70+),70,0,0,0,0,0,30,45,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
-Greenwarden's Energetic Staff (Level 70+),70,0,0,0,0,0,30,45,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Greenwarden's Energetic Staff (Level 70+),70,0,0,0,0,0,30,45,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Mandar's Sword of Legend (Level 90+),90,0,0,0,0,0,30,35,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Dancing Blade (Level 50+),50,0,0,0,0,0,30,30,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Gift Card,False,None
 Dark Wing Bow (Level 60+),60,0,0,0,0,0,30,30,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -2291,12 +2291,12 @@ Winter's Whispering Axe (Level 90+),90,0,0,0,0,0,25,85,0,0,0,0,0,0,0,0,0,2,0,0,0
 Green Venom of Mother Snake,85,0,0,0,0,0,25,61,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crafting,False,None
 Dawnfrost Blade,74,0,0,0,0,0,25,52,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Charmer's Mystical Flute (Level 60+),60,0,0,0,0,0,25,50,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Gift Card",False,None
-Greenwarden's Peaceful Staff (Level 70+),70,0,0,0,0,0,25,50,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Greenwarden's Peaceful Staff (Level 70+),70,0,0,0,0,0,25,50,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Lunar Scepter of Anubis (Level 50+),50,0,0,0,0,0,25,30,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Savannah Spear and Shield (Level 50+),50,0,0,0,0,0,25,28,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Zamunda Spear and Shield (Level 50+),50,0,0,0,0,0,25,28,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Emerald Caiman's Scepter (Level 60+),60,0,0,0,0,0,25,25,0,0,0,10,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
-Krampus' Hitstick,50,0,0,0,0,0,25,12,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Gold Key,False,None
+Krampus' Hitstick,50,0,0,0,0,0,25,12,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Gold Key, Event Drop",False,None
 Mystic Grimoire (Level 50+),50,0,0,0,0,0,25,0,0,0,8,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Gift Card,False,None
 Dragonbite Bow (Level 50+),50,0,0,0,0,0,25,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Gift Card,False,None
 Poseidon's Wavemaker Staff,70,0,0,0,0,0,25,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
@@ -2330,7 +2330,7 @@ Nevermore Talon (Level 60+),60,0,0,0,0,0,20,40,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0
 Raven's Claw of Unkindness (Level 60+),60,0,0,0,0,0,20,40,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Darkwraith's Compelling Scythe (Level 60+),60,0,0,0,0,0,20,30,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Dragonrider's Balance Blade (Level 60+),60,0,0,0,0,0,20,25,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
-Greenwarden's Energetic Staff (Level 60+),60,0,0,0,0,0,20,25,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Greenwarden's Energetic Staff (Level 60+),60,0,0,0,0,0,20,25,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Staff of Shadow and Light,66,0,0,0,0,0,20,25,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Mandar's Sword of Legend (Level 50+),50,0,0,0,0,0,20,23,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Everlasting Staff,55,0,0,0,0,0,20,20,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
@@ -2354,7 +2354,7 @@ Staff of Shining Mountain,62,0,0,0,0,0,16,28,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0
 Teeth of the Lords of Night (Level 70+),70,0,0,0,0,0,15,115,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Bow of the Wildgrave,72,0,0,0,0,0,15,49,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Drop, Bazaar, Fishing",False,None
 Chivalric Mallet,70,0,0,0,0,0,15,31,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Drop, Bazaar, Fishing",False,None
-Greenwarden's Peaceful Staff (Level 60+),60,0,0,0,0,0,15,30,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Greenwarden's Peaceful Staff (Level 60+),60,0,0,0,0,0,15,30,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Raven's Storied Razor (Level 50+),50,0,0,0,0,0,15,30,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
 Sun's Light Spear,66,0,0,0,0,0,15,30,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Emerald Caiman's Scepter (Level 50+),50,0,0,0,0,0,15,15,0,0,0,10,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -2386,7 +2386,7 @@ Nevermore Talon (Level 50+),50,0,0,0,0,0,10,20,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0
 Raven's Claw of Unkindness (Level 50+),50,0,0,0,0,0,10,20,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
 Darkwraith's Umbral Scythe (Level 50+),50,0,0,0,0,0,10,15,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Dragonrider's Death Blade,50,0,0,0,0,0,10,15,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
-Greenwarden's Energetic Staff (Level 50+),50,0,0,0,0,0,10,15,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Greenwarden's Energetic Staff (Level 50+),50,0,0,0,0,0,10,15,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Gar of the Northern Lights,52,0,0,0,0,0,10,7,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Blazing Naginata (Level 40+),40,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Chiming Blade (Level 40+),40,0,0,0,0,0,10,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -2400,7 +2400,7 @@ Staff of the Boreal Bear,54,0,0,0,0,0,6,36,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"
 Staff of the New Sun,60,0,0,0,0,0,6,17,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Bazaar, Fishing",False,None
 Gar of Raven's Anguish,52,0,0,0,0,0,6,13,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Teeth of the Lords of Night (Level 50+),50,0,0,0,0,0,5,50,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
-Greenwarden's Peaceful Staff (Level 50+),50,0,0,0,0,0,5,20,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Greenwarden's Peaceful Staff (Level 50+),50,0,0,0,0,0,5,20,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Gar of the Green,52,0,0,0,0,0,5,14,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Blazing Naginata (Level 30+),30,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Chiming Blade (Level 30+),30,0,0,0,0,0,5,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Fishing, Crowns",False,None
@@ -2419,7 +2419,7 @@ Wild Wing Axe & Shield (Level 110+),110,0,0,0,4,0,0,123,0,3,0,0,0,0,0,0,0,2,0,0,
 Misty Mountain Mandolin (Level 80+),80,0,0,0,0,0,0,123,0,0,5,5,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Yuletide Morning Mandolin (Level 80+),80,0,0,0,0,0,0,123,0,0,5,5,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Wild Wing Axe & Shield (Level 100+),100,0,0,0,4,0,0,120,0,3,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Gift Card,False,None
-Greenwarden's Brilliant Staff (Level 80+),80,0,0,0,0,0,0,120,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Greenwarden's Brilliant Staff (Level 80+),80,0,0,0,0,0,0,120,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Beacon of the Arund Vale (Level 100+),100,0,0,0,0,6,0,115,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Wild Wing Axe & Shield (Level 90+),90,0,0,0,4,0,0,110,0,3,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Gift Card,False,None
 Silver Order of the Spiral (Level 110+),110,0,0,0,0,0,0,103,0,0,0,24,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
@@ -2431,7 +2431,7 @@ Staff of Aphrodite's Song,100,0,0,0,0,0,0,95,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0
 Wild Wing Axe & Shield (Level 80+),80,0,0,0,4,0,0,90,0,3,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Gift Card,False,None
 Mandolin of Evermore (Level 100+),100,0,0,0,0,0,0,90,0,0,10,14,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
 Silver Order of the Spiral (Level 80+),80,0,0,0,0,0,0,90,0,0,0,20,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
-Greenwarden's Brilliant Staff (Level 70+),70,0,0,0,0,0,0,90,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Greenwarden's Brilliant Staff (Level 70+),70,0,0,0,0,0,0,90,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Phantom Chaser Geistbox (Level 130+),130,0,0,0,0,0,0,89,0,0,0,0,245,13,0,0,0,2,0,0,1,0,0,0,0,0,Crowns,False,None
 Ghost Hunter Geistbox (Level 130+),130,0,0,0,0,0,0,86,0,0,0,0,245,13,0,0,0,2,0,0,1,0,0,0,0,0,Crowns,False,None
 Beacon of the Arund Vale (Level 80+),80,0,0,0,0,5,0,85,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -2517,7 +2517,7 @@ Golden Dragon Fear Banner (Level 60+),60,0,0,0,0,0,0,30,0,0,3,0,0,0,0,0,0,2,0,0,
 Ancient Ceremonial Yuleaxe (Level 50+),50,0,0,0,0,0,0,30,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Darkwraith's Scythe of Penance (Level 50+),50,0,0,0,0,0,0,30,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Great Axe of the Storyteller (Level 50+),50,0,0,0,0,0,0,30,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
-Greenwarden's Brilliant Staff (Level 50+),50,0,0,0,0,0,0,30,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Greenwarden's Brilliant Staff (Level 50+),50,0,0,0,0,0,0,30,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns, Event Drop",False,None
 Ice-Forged Burrower Steel,96,0,0,0,0,0,0,30,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Mandar's Sword of Heroes (Level 70+),70,0,0,0,0,0,0,30,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Unkind Axe of Winter (Level 50+),50,0,0,0,0,0,0,30,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -2681,10 +2681,10 @@ Beacon of the Arund Vale (Any Level),1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Beacon of the Arund Vale (Level 10+),10,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Fortune Teller's Eternal Gaze (Any Level),1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Fortune Teller's Eternal Gaze (Level 10+),10,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
-Fusilier's Fireberry Saber (Any Level),1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
-Fusilier's Fireberry Saber (Level 10+),10,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
-Winter Palace Spikeleaf Sword (Any Level),1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
-Winter Palace Spikeleaf Sword (Level 10+),10,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
+Fusilier's Fireberry Saber (Any Level),1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns, Event Drop",False,None
+Fusilier's Fireberry Saber (Level 10+),10,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Gold Key, Crowns, Event Drop",False,None
+Winter Palace Spikeleaf Sword (Any Level),1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns, Event Drop",False,None
+Winter Palace Spikeleaf Sword (Level 10+),10,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Gold Key, Crowns, Event Drop",False,None
 Winter Solstice Augury (Any Level),1,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Winter Solstice Augury (Level 10+),10,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Dying Embers Tiki Torch (Level 40+),40,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -2725,7 +2725,7 @@ Stingshot (Level 40+),40,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Gift 
 Swordfish Sword (Level 30+),30,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Gift Card,False,None
 Tormentor's Bonerattler (Level 80+),80,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Tormentor's Shredder (Level 80+),80,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
-Color Guard Wintergreen Blade (Any Level),1,0,0,0,0,0,0,0,0,0,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
+Color Guard Wintergreen Blade (Any Level),1,0,0,0,0,0,0,0,0,0,5,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns, Event Drop",False,None
 Color Guard Wintergreen Blade (Level 10+),10,0,0,0,0,0,0,0,0,0,5,5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Color Guard Wintergreen Blade (Level 20+),20,0,0,0,0,0,0,0,0,0,5,5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Color Guard Wintergreen Blade (Level 30+),30,0,0,0,0,0,0,0,0,0,5,5,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -2801,7 +2801,7 @@ Jack Hallow's Guitar (Level 20+),20,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,0,0,0,0,
 Jack Hallow's Wailer (Level 10+),10,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Jack Hallow's Wailer (Level 20+),20,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Order of High Glory Banner (Level 20+),20,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
-Staff of the Long Winter (Any Level),1,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
+Staff of the Long Winter (Any Level),1,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns, Event Drop",False,None
 Tormentor's Bonerattler (Level 10+),10,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Tormentor's Bonerattler (Level 20+),20,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Tormentor's Shredder (Level 10+),10,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -2841,7 +2841,7 @@ Arcane Smith's Hammer (Level 10+),10,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,1,0,0,0,0,0
 Silver Order of the Spiral (Level 30+),30,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Arcane Smith's Hammer (Any Level),1,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Fishing, Crowns, Gift Card",False,None
 Silver Order of the Spiral (Level 20+),20,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
-Winter's Radiant Staff (Any Level),1,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
+Winter's Radiant Staff (Any Level),1,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns, Event Drop",False,None
 Winter's Radiant Staff (Level 10+),10,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Ares' Spear of Fortitude,30,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Drop, Fishing",False,None
 Silver Order of the Spiral (Level 10+),10,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -2975,10 +2975,10 @@ Able Ranger's Wayfinder (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0
 Able Ranger's Wayfinder (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Able Ranger's Wayfinder (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Abominable Knife,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Accursed Broomstick,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
+Accursed Broomstick,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Advanced Life Wand,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Advanced Power Claw,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Adventurer's Shillelagh,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
+Adventurer's Shillelagh,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Adventurous Ranger's Wayfinder (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Adventurous Ranger's Wayfinder (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Adventurous Ranger's Wayfinder (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3005,7 +3005,7 @@ All Souls Skull Scepter (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0
 All Souls Skull Scepter (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 All Souls Skull Scepter (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 All Souls Skull Scepter (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
-Allegiance Staff,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Drop,False,None
+Allegiance Staff,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Alpine Hunter Axe (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Alpine Hunter Axe (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Alpine Hunter Axe (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3013,8 +3013,8 @@ Alpine Hunter Axe (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0
 Alpine Hunter Axe (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Amaranthine Staff,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Fishing,False,None
 Amethyst Shard Hammer,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Amoretto's Staff,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Drop,False,None
-Ancient Ceremonial Yuleaxe (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
+Amoretto's Staff,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Ancient Ceremonial Yuleaxe (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Gold Key, Crowns, Event Drop",False,None
 Ancient Purrzian Scimitar (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Ancient Purrzian Scimitar (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Ancient Purrzian Scimitar (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3061,10 +3061,10 @@ Autoist's Wrench (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,
 Autoist's Wrench (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Autoist's Wrench (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Autoist's Wrench (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
-Autumn Wand,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Autumn Wand,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Avalanche's Legendary Cutlass (Level 45+),45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
 Axe of Winter's Discontent (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
-Baby Bird Wand,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
+Baby Bird Wand,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Balanced Hands of Fate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Balanced Jester Scepter,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Balanced Wolfen Spear,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
@@ -3072,15 +3072,15 @@ Bamboo Wand,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,Fals
 Baron's Staff of Command,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Baron's Staff of Tension,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Bastilla's Dread Staff,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Baton of Appreciation,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-Baton of Entanglements,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
-Baton of Friendship,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Baton of Instigation,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
-Baton of New Beginings,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
-Baton of Persuasion,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
+Baton of Appreciation,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Baton of Entanglements,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
+Baton of Friendship,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Baton of Instigation,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Baton of New Beginings,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Baton of Persuasion,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Baton of the Clouds,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Baton of the Cottontail,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
-Baton of the Spring Hare,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
+Baton of the Cottontail,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Baton of the Spring Hare,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Battlemage Balance Armaments,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Battlemage Death Armaments,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Battlemage Fire Armaments,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
@@ -3088,8 +3088,8 @@ Battlemage Ice Armaments,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gif
 Battlemage Life Armaments,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Battlemage Myth Armaments,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Battlemage Storm Armaments,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Bewitched Broomstick,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Unavailable,False,None
-Bird of the Yuletide Bow (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
+Bewitched Broomstick,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
+Bird of the Yuletide Bow (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns, Event Drop",False,None
 Bird of the Yuletide Bow (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Bird of the Yuletide Bow (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Birthday Staff,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3130,7 +3130,7 @@ Blood Moon Staff (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,
 Blood Moon Staff (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Blood Moon Staff (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Blood Moon Staff (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
-Blubbering Pumpkin Scepter,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Blubbering Pumpkin Scepter,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Blue Diamond Scimitar,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Blue Moon Staff (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Blue Moon Staff (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3138,29 +3138,29 @@ Blue Moon Staff (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
 Blue Moon Staff (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Blue Moon Staff (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Blue Raptor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Fishing,False,None
-Blushing Leaf Wand,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Drop,False,None
+Blushing Leaf Wand,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Bolt Blade,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Boo-Hooing Pumpkin Staff,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
-Bountiful Wand,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-Bounty of the Rainbow,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Bowstaff of the Cherubim,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
+Boo-Hooing Pumpkin Staff,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Bountiful Wand,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Bounty of the Rainbow,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Bowstaff of the Cherubim,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Brady's Staff of Intensity,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Branch of the World Tree,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
 Branded Wand,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Bristleback's Thunderblade,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Drop, Bazaar, Fishing",False,None
 Brooding Wand,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Fishing",False,None
-Broom o' Doom,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
-Broom of Toil and Trouble,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
-Bunny Wand,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-Burning Heart Stave,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
-Cackling Pumpkin Scepter,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Broom o' Doom,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
+Broom of Toil and Trouble,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
+Bunny Wand,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Burning Heart Stave,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
+Cackling Pumpkin Scepter,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Candle Staff,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Candle Wand,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Candlelight Scepter,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Candy Cane Staff,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Candy Wand,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Candystriped Staff,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
-Cane of the Holidays,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
+Candle Wand,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Candlelight Scepter,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Candy Cane Staff,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crafting, Crowns",False,None
+Candy Wand,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Candystriped Staff,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
+Cane of the Holidays,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Carnival Flag,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Carnival Party Mask,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Celebration Staff,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3196,8 +3196,8 @@ Celestian Trident,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Fishing,
 Ceremonial Javelin,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Housing Gauntlet",False,None
 Cerulean Edge,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
 Charged Wand,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Charmed Clover Wand,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-Charmed Shamrock Staff,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
+Charmed Clover Wand,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Charmed Shamrock Staff,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Charmer's Mystical Flute (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Fishing, Crowns, Gift Card",False,None
 Charmer's Mystical Flute (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Crowns, Gift Card",False,None
 Charmer's Mystical Flute (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Crowns, Gift Card",False,None
@@ -3207,14 +3207,15 @@ Chiming Blade (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Cr
 Chiming Blade (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
 Chiming Blade (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Chimney Sweeper,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Chirping Staff,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Drop,False,None
-Chuckling Pumpkin Scepter,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Chirping Staff,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Choco-Boppo,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Chuckling Pumpkin Scepter,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Cinderminder's Sabre,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Citrine Shard Hammer,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Clanker's Enigmatic Staff,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Clover Wand,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-Clover of Prosperity,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
-Cloverbranch of Momentum,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
+Clover Wand,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Clover of Prosperity,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Cloverbranch of Momentum,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Cobbler Elf Hammer (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Cobbler Elf Hammer (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Cobbler Elf Hammer (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3224,11 +3225,11 @@ Cobbler Elf Hammer (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,
 Cobbler Elf Hammer (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Cobbler Elf Hammer (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Cold Sand Scepter,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
-Cold Snap Scepter,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
-Confectioner's Staff,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
-Corncob Scepter,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Cornstalk Stave,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
-Corny Wand,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Cold Snap Scepter,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Confectioner's Staff,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Corncob Scepter,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Cornstalk Stave,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
+Corny Wand,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Corporal's Cards,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Cosmographer's Orrery Staff (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Cosmographer's Orrery Staff (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3241,7 +3242,7 @@ Cosmographer's Orrery Staff (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0
 Cosmographer's Orrery Staff (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Cranberry Sauce Standard,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Creepy Clown Standard,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Curmudgeon's Cudgel,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
+Curmudgeon's Cudgel,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Cutlass of Catastrophe,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Dancing Blade (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Fishing, Gift Card",False,None
 Dancing Blade (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Gift Card,False,None
@@ -3252,7 +3253,7 @@ Dark Wing Bow (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Cr
 Dark Wing Bow (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Dark Wing Bow (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Dark Wing Bow (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
-Dark Witch's Broomstaff,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
+Dark Witch's Broomstaff,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Darkfire Longbow (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Darkfire Longbow (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Darkfire Longbow (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3285,14 +3286,14 @@ Deathspitter Bow (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,
 Deathspitter Bow (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Gift Card,False,None
 Deathspitter Bow (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Gift Card,False,None
 Decorative Javelin,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Housing Gauntlet",False,None
-Decorative Nutcracker Wand,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Decorative Nutcracker Wand,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Delusionary Scepter,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
 Desert Lodestar Staff (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Desert Lodestar Staff (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Gift Card,False,None
 Desert Lodestar Staff (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Gift Card,False,None
 Desolation Wand,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Diamond Dustblade,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Diviner's Shillelagh,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
+Diviner's Shillelagh,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Do-Daga's Staff of Cognition,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Doomwand,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Fishing",False,None
 Dragon Rider Staff,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Quest,False,None
@@ -3302,36 +3303,36 @@ Dragonbite Bow (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,
 Dragonbite Bow (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Gift Card,False,None
 Dragonbite Bow (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Gift Card,False,None
 Dragonclaw Blade,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Fishing,False,None
-Dragonrider's Fire Blade,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Dragonrider's Ice Blade,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Drop, Fishing, Crowns",False,None
+Dragonrider's Fire Blade,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Dragonrider's Ice Blade,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Fishing, Crowns, Event Drop",False,None
 Dragonrider's Life Blade,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Dragonrider's Myth Blade,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
-Dragonrider's Storm Blade,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Dread Lantern Staff,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
+Dragonrider's Storm Blade,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Dread Lantern Staff,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Dromel Banner (Wand),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Edo's Glittering Staff,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Egg Basket Wand,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-Egg Hunter's Staff,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
+Egg Basket Wand,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Egg Hunter's Staff,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Electrifyin' Needle & Shield,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Electro Sabre,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Elemental Hands of Fate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Elemental Needle & Shield,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Elemental Wolfen Spear,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Enchanted Nutcracker Wand,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
-End o' the Rainbow Wand,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
+Enchanted Nutcracker Wand,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+End o' the Rainbow Wand,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Enhanced Hands of Fate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Epic Sword,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Equilateral Sword,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Eyes of Judgement,56,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crafting,False,None
 Fairy's Wand,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Fall Wand,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Fall Wand,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Fenix Ashen Staff,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Wooden Key,False,None
 Fenix Bleak Staff,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Wooden Key,False,None
 Fenix Blight Staff,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Wooden Key,False,None
 Fenix Dream Staff,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Wooden Key,False,None
 Fenix Honor Staff,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Wooden Key,False,None
 Fenix Sky Staff,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Wooden Key,False,None
-Festival of Lights Scepter,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
+Festival of Lights Scepter,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Festive Wrapping Paper (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Festive Wrapping Paper (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Festive Wrapping Paper (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3342,7 +3343,7 @@ Fire Serpent's Obsidian Fang (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Fire Serpent's Obsidian Fang (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Fire Serpent's Obsidian Fang (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Fire Serpent's Obsidian Fang (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
-First Bird of Spring Wand,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
+First Bird of Spring Wand,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Flame-Forged Falchion,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Flaming Hands of Fate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Flashing Dragon Spear (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3350,21 +3351,21 @@ Flashing Dragon Spear (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 Flashing Dragon Spear (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Flashing Dragon Spear (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Flashing Dragon Spear (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
-Floppy-Eared Wand,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Floppy-Eared Wand,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Fog Staff,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Fishing,False,None
-Fond Wand,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Fond Wand,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Forest Warden's Sabre,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Forlorn Lantern Staff,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
+Forlorn Lantern Staff,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Fossil Hunter's Skullcrusher (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Fossil Hunter's Skullcrusher (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Four Bells Ringing (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Four Bells Ringing (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
 Four Bells Ringing (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
-Four Leaf Scepter,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
+Four Leaf Scepter,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Fragment of a Dream,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crafting,False,None
 Freezing Hands of Fate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Friendship Flag,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Frightening Pumpkin Baton,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Frightening Pumpkin Baton,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Frost-Wrought Wand,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Frosted Wand,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Frostwood Sword,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
@@ -3377,24 +3378,24 @@ Fulminating Wand,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vend
 Galvanic Blade,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Galvanic Hammer,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Fishing,False,None
 Garnet Katana,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Ghastly Gourd Wand,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
+Ghastly Gourd Wand,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Ghost Hunter Geistbox (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Ghost Hunter Geistbox (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Ghost Hunter Geistbox (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
-Gift Wrap Staff,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
-Giggling Gourd Wand,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
-Gingerbread Army Baton,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Unavailable,False,None
+Gift Wrap Staff,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
+Giggling Gourd Wand,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Gingerbread Army Baton,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Gingerbread Man's Staff,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Gingerbread Runner's Wand,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
-Gingerbread Scepter,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Gingerbread Wand,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Gingerbread Runner's Wand,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
+Gingerbread Scepter,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Gingerbread Wand,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Glinting Dragon Lance (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
 Glinting Dragon Lance (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Glinting Dragon Lance (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Glinting Dragon Lance (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Glinting Dragon Lance (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Glorious Morn Banner,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Glowering Pumpkin Staff,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
+Glowering Pumpkin Staff,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Glowing Amethyst Wand,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Glowing Citrine Wand,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Glowing Jade Wand,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
@@ -3411,9 +3412,9 @@ Gold New Year's Noisemaker (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,
 Gold New Year's Noisemaker (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Gold New Year's Noisemaker (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Gold New Year's Noisemaker (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
-Gold-Stringed Harp,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Gold-Stringed Harp,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Golden Dragon Fear Banner (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Golden Windfall Staff,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
+Golden Windfall Staff,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Goldenbeak,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Fishing,False,None
 Gothic Needle & Shield,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Gravedigger's Spade,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
@@ -3437,33 +3438,33 @@ Green Licorice Whip (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0
 Green Licorice Whip (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Green Licorice Whip (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Greenwarden's Brilliant Staff (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Fishing, Crowns",False,None
-Greenwarden's Brilliant Staff (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Greenwarden's Brilliant Staff (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Greenwarden's Brilliant Staff (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
-Greenwarden's Brilliant Staff (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
-Greenwarden's Brilliant Staff (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Greenwarden's Brilliant Staff (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns, Event Drop",False,None
+Greenwarden's Brilliant Staff (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Greenwarden's Energetic Staff (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Fishing, Crowns",False,None
-Greenwarden's Energetic Staff (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Greenwarden's Energetic Staff (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Greenwarden's Energetic Staff (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Greenwarden's Energetic Staff (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
-Greenwarden's Energetic Staff (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Greenwarden's Energetic Staff (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Greenwarden's Peaceful Staff (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Fishing, Crowns",False,None
-Greenwarden's Peaceful Staff (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Greenwarden's Peaceful Staff (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Greenwarden's Peaceful Staff (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Greenwarden's Peaceful Staff (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
-Greenwarden's Peaceful Staff (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Grieving Gourd Wand,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
+Greenwarden's Peaceful Staff (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Grieving Gourd Wand,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Grimcaster's Blade of Severity,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Drop, Bazaar, Fishing",False,None
-Grinning Pumpkin Staff,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Grinning Pumpkin Staff,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Groostak's Prudent Staff,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Grum's Staff of the Muse,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Grumpy Pumpkin Wand,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Unavailable,False,None
-Guardian's Wand,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
-Guffawing Pumpkin Staff,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
-Half-Shell Wand,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Grumpy Pumpkin Wand,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
+Guardian's Wand,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Guffawing Pumpkin Staff,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Half-Shell Wand,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Hands of Fate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Happy Confetti Standard,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Happy Snowman Standard,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Hard Candy Spellcaster,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
+Hard Candy Spellcaster,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Harmonious Hands of Fate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Harmonious Needle & Shield,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Haros' Scythe (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3471,15 +3472,15 @@ Haros' Scythe (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,C
 Haros' Scythe (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Haros' Scythe (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Haros' Scythe (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
-Harp o' the Emerald Isle,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Drop,False,None
-Harp of the Lucky,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Harp o' the Emerald Isle,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Harp of the Lucky,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Harpoon of the Darksome Depths (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Harpoon of the Darksome Depths (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Gift Card,False,None
 Harpoon of the Darksome Depths (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Gift Card,False,None
 Harpoon of the Darksome Depths (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Gift Card,False,None
 Harpoon of the Darksome Depths (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Gift Card,False,None
-Hatchling Scepter,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-Hatchling Wand,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Hatchling Scepter,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Hatchling Wand,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Hawk Rider's Claymore (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Gift Card",False,None
 Hawk Rider's Claymore (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Crowns, Gift Card",False,None
 Hawk Rider's Claymore (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Crowns, Gift Card",False,None
@@ -3560,17 +3561,17 @@ Headmaster's Sky Staff (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,
 Headmaster's Sky Staff (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Heart of Darkness,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crafting,False,None
 Heart of Ember and Ash,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crafting,False,None
-Heartbow Scepter,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Heartbow Scepter,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Hero of MooShu Edict,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
 Highlands Militia Staff (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Highlands Militia Staff (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Highlands Militia Staff (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Himoolayan Dranyen,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Hingen's Staff of Egoism,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Holiday Cookie Wand,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
-Holiday Hook Wand,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-Holiday Treat Wand,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-Hollypop Wand,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Holiday Cookie Wand,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Holiday Hook Wand,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Holiday Treat Wand,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Hollypop Wand,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Honed Purrzian Scimitar (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Honed Purrzian Scimitar (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Honed Purrzian Scimitar (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3582,8 +3583,8 @@ Honed Purrzian Scimitar (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0
 Honed Purrzian Scimitar (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Honed Purrzian Scimitar (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Hood Banner,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Hop-Hopping Wand,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Drop,False,None
-Hopper Topper Wand,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
+Hop-Hopping Wand,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Hopper Topper Wand,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 House Calixco Banner,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 House Sayameez Banner,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 House Tabbi Banner,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
@@ -3596,11 +3597,11 @@ Icy Jester Scepter,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,
 Imperial Crustacean Sword,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Fishing,False,None
 Improved Power Claw,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Insulated Wand,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Intimidating Pumpkin Stave,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
+Intimidating Pumpkin Stave,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Jack Hallow's Gourdtar (Level 120+),120,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
-Jack o' Laughter Staff,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
-Jack o' Mourning Staff,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
-Jack o' Terror Staff,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
+Jack o' Laughter Staff,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
+Jack o' Mourning Staff,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
+Jack o' Terror Staff,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Jack-O'-Lantern Standard,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Jade Oni's Amethyst Blade,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
 Jade Shard Hammer,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
@@ -3617,7 +3618,7 @@ Kagemoosha's Citrine Blade,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,
 Kapudan's Grappling Hook (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Kapudan's Grappling Hook (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
 Kapudan's Grappling Hook (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
-Kernels of Truth Staff,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Unavailable,False,None
+Kernels of Truth Staff,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Kiwu's Magnetic Wand,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Knight's Balance Cards,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Knight's Death Cards,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
@@ -3626,12 +3627,12 @@ Knight's Ice Cards,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,
 Knight's Life Cards,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Knight's Myth Cards,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Knight's Storm Cards,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Knotwork Wand,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Knotwork Wand,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Lambent Blade,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Laughing Lantern Staff,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
+Laughing Lantern Staff,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Leprechaun Standard,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Leprechaun's Bounty,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Leprechaun's Walkingstick,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
+Leprechaun's Bounty,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Leprechaun's Walkingstick,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Levee Breaking Lute (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
 Levee Breaking Lute (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Levee Breaking Lute (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3639,34 +3640,34 @@ Levee Breaking Lute (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0
 Levee Breaking Lute (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
 Lifestyle Needle & Shield,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Lightning Rod,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
-Little Clover Staff,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
+Little Clover Staff,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Lively Hands of Fate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Lively Jester Scepter,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Loch and Key Blade,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Housing Gauntlet,False,None
 Lollipop Wand,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Crowns",False,None
-Long-Eared Bunny Scepter,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
-Long-Eared Bunny Wand,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
+Long-Eared Bunny Scepter,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Long-Eared Bunny Wand,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Longblade of the Homunculus (Level 45+),45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
 Longbow of Grave Justice (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Longbow of Grave Justice (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Longbow of Grave Justice (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Longbow of Grave Justice (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Longbow of Grave Justice (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
-Longshot Wand,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
+Longshot Wand,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Lost Horizon,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crafting,False,None
-Lovestruck Stave,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
-Loyalty's Length,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Lovestruck Stave,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Loyalty's Length,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Lucent Staff,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
-Lucky Coin Cauldron Staff,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
-Lucky Shamrock Wand,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-Lucky Shillelagh,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Lucky Coin Cauldron Staff,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
+Lucky Shamrock Wand,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Lucky Shillelagh,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Lunar Scepter of Anubis (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Lunar Scepter of Anubis (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Lunar Scepter of Anubis (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Wooden Key, Crowns",False,None
 Lunar Scepter of Anubis (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Lunar Scepter of Anubis (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Maelstrom's Wand,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Maize Wand,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
+Maize Wand,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Mako's Pure Blade,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Malistaire's Forlorn Staff,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Mandar's Sword of Heroes (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3685,7 +3686,7 @@ Mandolin of Evermore (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,
 Mandolin of Evermore (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
 Mandolin of Evermore (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Masterpiece Sword,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
-Mean Pumpkin Staff,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Mean Pumpkin Staff,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Meditative Wand,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Fishing",False,None
 Mercy's Trueflight Bow (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Mercy's Trueflight Bow (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3694,7 +3695,7 @@ Mercy's Trueflight Bow (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,
 Mercy's Trueflight Bow (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Meti's Staff of Talent,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Minotaur Labrys,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Mint Staff,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Mint Staff,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Mirrorsphere Relic (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Mirrorsphere Relic (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Mirrorsphere Relic (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3716,7 +3717,7 @@ Mugsy's Staff of Extinction,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0
 Mystifying Wand,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Mythic Hands of Fate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Mythic Jester Scepter,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Nature's Last Dance Wand,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Unavailable,False,None
+Nature's Last Dance Wand,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Needle & Shield,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Nekhbet's Arctic Wand,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Neophyte's Wolfen Spear,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
@@ -3751,9 +3752,9 @@ Nimbari Justicar Scimitar (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0
 Nimbari Justicar Scimitar (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Nirini Champion's Staff,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Notorious Needle & Shield,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Nutcracker Knight Baton,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
-Nutcracker Prince's Baton,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
-Nutcracker Wand,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Nutcracker Knight Baton,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Nutcracker Prince's Baton,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Nutcracker Wand,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 O'Leary Jinxed Staff,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Obsidian Scimitar,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Odin's Gungnir (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3765,14 +3766,14 @@ Odji's Staff of Downpour,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"D
 Onyx Katana,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Onyx Shard Hammer,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Ornamental Javelin,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Housing Gauntlet",False,None
-Ornamental Paper Staff,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Ornamental Paper Staff,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Otomo's Staff of Dreaming,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Drop,False,None
 Overlord's Cards,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Overseer's Adaptive Wand,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Oyotomi's Jade Blade,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
-Painted Egg Wand,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
-Peppermint Stick Staff,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Peppermint Swirl Staff,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Painted Egg Wand,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
+Peppermint Stick Staff,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Peppermint Swirl Staff,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Peppermintalist's Sword (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Peppermintalist's Sword (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Peppermintalist's Sword (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3792,7 +3793,7 @@ Pillar of Ice,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Drop, Bazaar
 Plague Oni's Sapphire Blade,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
 Plant Punisher's Spike (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,One Shot Housing Gauntlet,False,None
 Poised Needle & Shield,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Pot o' Gold Wand,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Pot o' Gold Wand,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Power Claw,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Power Claw of Blizzards,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Power Claw of Embers,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
@@ -3802,7 +3803,7 @@ Power Claw of Lore,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,
 Power Claw of Mortality,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Power Claw of Omnipotence,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Power Claw of Stasis,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Prankster Pumpkin Wand,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Unavailable,False,None
+Prankster Pumpkin Wand,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Primordial Axe (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Primordial Axe (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Gift Card,False,None
 Primordial Axe (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Gift Card,False,None
@@ -3817,18 +3818,18 @@ Prismatic Volcanic Axe (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,
 Pumpkin Pie Standard,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Pumpkin Spice Wand,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Pure Fire Needle & Shield,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Putto's Wand,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Unavailable,False,None
+Putto's Wand,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Quartermaster's Wand,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Queen Calypso's Trident,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Fishing,False,None
-Radiant Star Wand,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
+Radiant Star Wand,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Rainbow Standard,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Rainbow's Reward,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Drop,False,None
+Rainbow's Reward,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Rancher's Frontier Knife (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Rancher's Frontier Knife (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
 Rancher's Frontier Knife (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Rancher's Frontier Knife (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Range Pole,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bazaar,False,None
-Rascally Rabbit Wand,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
+Rascally Rabbit Wand,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Raven's Bow of Unkind Winter (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Raven's Bow of Unkind Winter (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
 Raven's Bow of Unkind Winter (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Fishing, Crowns",False,None
@@ -3866,12 +3867,12 @@ Rockstar Thump Kit (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,
 Rockstar Thump Kit (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
 Rockstar Thump Kit (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,One Shot Housing Gauntlet,False,None
 Rockstar Thump Kit (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,One Shot Housing Gauntlet,False,None
-Rod of Regard,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-Rod of Unity,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Rod of Regard,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Rod of Unity,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Rose Bouquet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Roseate Wand,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Roseate Wand,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Ruby Blade of the Forest,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
-Ruby Heartwand,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Ruby Heartwand,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Ruby Shard Hammer,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Runed Amethyst Wand,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Fishing",False,None
 Runed Citrine Wand,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Fishing",False,None
@@ -3881,12 +3882,12 @@ Runed Peridot Wand,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Ve
 Runed Ruby Wand,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Fishing",False,None
 Runed Sapphire Wand,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Fishing",False,None
 Runed Wand,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Fishing",False,None
-Rustling Leaves Wand,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
+Rustling Leaves Wand,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Saber of the Gallium Paladin,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Drop, Bazaar, Fishing",False,None
-Sacred Heart Staff,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
-Sacred Shillelagh,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Drop,False,None
-Sad Pumpkin Staff,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-Sanguine Scepter,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Sacred Heart Staff,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Sacred Shillelagh,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Sad Pumpkin Staff,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Sanguine Scepter,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Sapphire Shard Hammer,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Savannah Spear and Shield (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Savannah Spear and Shield (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3896,40 +3897,40 @@ Scales of Time,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crafting,Fal
 Scalesword,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Scary Spider Standard,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Scavenger's Staff of Sagas,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Scepter of Chill Wind,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Scepter of Devotion,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Scepter of Chill Wind,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Scepter of Devotion,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Scepter of Ignition,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Scepter of Lost Lore,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Scepter of Perpituity,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
-Scepter of Spring's Bounty,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-Scepter of Springtime,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
+Scepter of Perpituity,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Scepter of Spring's Bounty,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Scepter of Springtime,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Scepter of Tribute,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
 Scepter of the Ages,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
-Scepter of the Ardent Vow,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
-Scepter of the Cherub,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-Scepter of the Gloaming,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
-Scepter of the North Star,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Scepter of the Red Hart,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Drop,False,None
+Scepter of the Ardent Vow,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Scepter of the Cherub,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Scepter of the Gloaming,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
+Scepter of the North Star,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Scepter of the Red Hart,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Scepter of the Sands,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
-Scepter of the Shield,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-Scepter of the Spring,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-Scowling Pumpkin Staff,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Scepter of the Shield,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Scepter of the Spring,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Scowling Pumpkin Staff,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Screaming Skull Standard,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Serpentine Banner,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Shadow Magic Standard,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Shadowcrown's Icy Blade,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Drop, Bazaar, Fishing",False,None
-Shamrock Harp,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Shamrock Scepter,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-Shamrock of Spring,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
+Shamrock Harp,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Shamrock Scepter,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Shamrock of Spring,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Shard Warrior's Hammer (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Shard Warrior's Hammer (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Gift Card,False,None
 Shard Warrior's Hammer (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Gift Card,False,None
 Sharkfin Sword,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Shepherd's Candy Wand,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
-Shield of the Blessed,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Shillelagh of Reformation,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
+Shepherd's Candy Wand,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
+Shield of the Blessed,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Shillelagh of Reformation,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Shockblade of the Hoarder (Level 45+),45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
-Silly Pumpkin Staff,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Silly Pumpkin Staff,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Silver Lance of Daybreak (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Fishing, Gift Card",False,None
 Silver Lance of Daybreak (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Gift Card,False,None
 Silver Lance of Daybreak (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Gift Card,False,None
@@ -3945,10 +3946,10 @@ Sky Captain's Boarding Hook (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 Sky Captain's Boarding Hook (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Sky Captain's Boarding Hook (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
 Sleepy Agent Banner,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Sleigh Bells Ringing (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
+Sleigh Bells Ringing (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns, Event Drop",False,None
 Sleigh Bells Ringing (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
-Smiling Pumpkin Baton,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Smirking Pumpkin Stave,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
+Smiling Pumpkin Baton,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Smirking Pumpkin Stave,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Smokey's Staff of the Sun,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Snow Hoppers Standard,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Snowdrifter's Stave (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3958,7 +3959,7 @@ Snowdrifter's Stave (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0
 Snowdrifter's Stave (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Snowflake Relic,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Snowflake Standard,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Sobbing Pumpkin Baton,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Sobbing Pumpkin Baton,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Sokar's Javelin (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
 Sokar's Javelin (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
 Sokkwi Keymaster's Wand,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
@@ -3976,67 +3977,67 @@ Soul of Winter,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crafting,Fal
 Soulbrand,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
 Soulsinger's Soulsword (Level 45+),45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
 Sparkler,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bazaar,False,None
-Spellbinder's Scepter,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
+Spellbinder's Scepter,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Spiritual Hands of Fate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Spiritual Needle & Shield,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Spiritual Wolfen Spear,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Sprig of Change,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
+Sprig of Change,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Sprig of Spring,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Spring Bunny Scepter,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-Spring Chicken Scepter,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Spring Bunny Scepter,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Spring Chicken Scepter,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Spring Egg Standard,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Spring Egg Wand,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-Spring Fledgling Baton,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
-Spring Scepter,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Spring Egg Wand,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Spring Fledgling Baton,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Spring Scepter,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Staff of Antiquities,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
 Staff of Barbs,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Quest,False,None
-Staff of Commitment,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-Staff of Corn Utopia,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
+Staff of Commitment,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Staff of Corn Utopia,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Staff of Deep Thought,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Fishing",False,None
-Staff of Enchantment,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
-Staff of Entwinement,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
+Staff of Enchantment,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Staff of Entwinement,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Staff of First Dawn,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Quest,False,None
 Staff of Flashing Blades,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Staff of Gracious Fortune,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
-Staff of Heartbeats,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
-Staff of Heraldry,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
+Staff of Gracious Fortune,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Staff of Heartbeats,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Staff of Heraldry,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Staff of Icy Doom,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
 Staff of Rejuvenation,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Staff of Runes,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
-Staff of Sentiment,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Unavailable,False,None
-Staff of Wintertime (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
+Staff of Sentiment,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
+Staff of Wintertime (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns, Event Drop",False,None
 Staff of Wintertime (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Staff of Wintertime (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Staff of Wintertime (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Staff of Wintertime (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Staff of the Ancients,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
 Staff of the Antithesis,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
-Staff of the Cheeper,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Staff of the Cherub Archer,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
-Staff of the Crimson Hart,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Staff of the Cheeper,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Staff of the Cherub Archer,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Staff of the Crimson Hart,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Staff of the Cryptid,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
-Staff of the Defender,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
-Staff of the Equinox,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Drop,False,None
+Staff of the Defender,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
+Staff of the Equinox,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Staff of the Graveyard,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
-Staff of the Harvest,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-Staff of the Hopper,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
+Staff of the Harvest,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Staff of the Hopper,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Staff of the Ice Wyvern,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Staff of the Imperator,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Fishing,False,None
 Staff of the Justicar,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
-Staff of the Krampus,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Gold Key,False,None
+Staff of the Krampus,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Gold Key, Event Drop",False,None
 Staff of the Night-Gaunt,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
 Staff of the Querent,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Fishing,False,None
-Staff of the Spring Song,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
+Staff of the Spring Song,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Staff of the Storm Caiman (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Staff of the Storm Caiman (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Staff of the Storm Caiman (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
-Staff of the Sureshot,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
-Staff of the White Rabbit,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-Staff of the Year's Dusk,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
+Staff of the Sureshot,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
+Staff of the White Rabbit,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Staff of the Year's Dusk,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Standard O' Luck,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Star School Standard,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Star Staff,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Gold Key, Crowns",False,None
-Star of Wonder Staff,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
+Star Staff,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns, Event Drop",False,None
+Star of Wonder Staff,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Stargazer's Orrery Staff (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Stargazer's Orrery Staff (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Stargazer's Orrery Staff (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -4053,13 +4054,13 @@ Starter Ice Wand,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,Fals
 Starter Myth Wand,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Starter Storm Wand,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Stave of Ashes,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Stave of Captivation,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
-Stave of Fidelity,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
-Stave of Polaris,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
-Stave of Tweets,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
-Stave of the Holiday Flame,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Drop,False,None
-Stave of the Protector,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
-Stave of the Ripening,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
+Stave of Captivation,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
+Stave of Fidelity,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
+Stave of Polaris,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
+Stave of Tweets,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Stave of the Holiday Flame,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Stave of the Protector,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Stave of the Ripening,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Steelwielder's Mineblade,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Drop, Bazaar, Fishing",False,None
 Stonebreaker's Staff,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Stormriven Greatsword,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Fishing,False,None
@@ -4070,13 +4071,13 @@ Stygian Scythe (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,
 Stygian Scythe (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Stygian Scythe (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Stygian Scythe (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
-Sugar Cane Wand,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Drop,False,None
+Sugar Cane Wand,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Sun School Standard,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Sun Standard,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Sweeping Longspear (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Sweeping Longspear (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Sweeping Longspear (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
-Sweet Staff,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Gold Key, Crowns",False,None
+Sweet Staff,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns, Event Drop",False,None
 Swiftarrow's Staff,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Sword of Minty Freshness (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Sword of Minty Freshness (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -4118,7 +4119,7 @@ Thunder Chasing Spear (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
 Thundering Hands of Fate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Tomugawa's Onyx Blade,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
 Torch and Shield of Valor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Torch of Noel Wand,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
+Torch of Noel Wand,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Toymaker Elf Hammer (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Toymaker Elf Hammer (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Toymaker Elf Hammer (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -4129,7 +4130,7 @@ Toymaker Elf Hammer (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0
 Toymaker Elf Hammer (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Toymaker Elf Hammer (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Toymaker Elf Hammer (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
-Traveler's Star Scepter,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
+Traveler's Star Scepter,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Traveler's Wrench (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Traveler's Wrench (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Traveler's Wrench (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -4139,7 +4140,7 @@ Traveler's Wrench (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0
 Traveler's Wrench (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Traveler's Wrench (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Traveler's Wrench (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
-Trickster Pumpkin Wand,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Unavailable,False,None
+Trickster Pumpkin Wand,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Trickster's Lying Bow (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Trickster's Lying Bow (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
 Trickster's Lying Bow (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Fishing, Crowns",False,None
@@ -4147,10 +4148,10 @@ Trickster's Lying Bow (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0
 Trident of the Chancel,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Fishing,False,None
 Trident of the Spheres,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Fishing,False,None
 Triumphant Needle & Shield,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Tumbling Leaf Scepter,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
+Tumbling Leaf Scepter,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Turkey Day Standard,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Turning Leaf Scepter,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
-Twilight of the Year Wand,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
+Turning Leaf Scepter,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
+Twilight of the Year Wand,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Ultimate Hands of Fate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Umbra Blade,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Fishing,False,None
 Unicorn Paladin's Rain-Bow (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -4163,7 +4164,7 @@ Unkind Axe of Winter (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,
 Unkind Axe of Winter (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Fishing, Crowns",False,None
 Unkind Axe of Winter (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Unkind Axe of Winter (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
-Unpopped Corn Wand,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
+Unpopped Corn Wand,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Valiant Jouster's Lance (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Valiant Jouster's Lance (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Gift Card,False,None
 Valiant Jouster's Lance (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Gift Card,False,None
@@ -4173,46 +4174,46 @@ Valor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Vampire Bat Standard,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Very Cool Needle & Shield,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Viridian Scepter,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Fishing,False,None
-Waltzing Nutcracker Stave,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
-Wand of Amity,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-Wand of Compassion,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Waltzing Nutcracker Stave,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Wand of Amity,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Wand of Compassion,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Wand of Contemplation,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Fishing",False,None
 Wand of Effervescence,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Wand of Equivalence,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Wand of Fascination,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
-Wand of Fruition,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
+Wand of Fascination,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Wand of Fruition,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Wand of Haleness,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Wand of Introspection,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Fishing",False,None
-Wand of Nature's Ebb,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-Wand of Rapt Joy,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
-Wand of Recompense,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
+Wand of Nature's Ebb,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Wand of Rapt Joy,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Wand of Recompense,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Wand of Reflection,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Fishing",False,None
 Wand of Regulation,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Wand of Repose,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Wand of Sincerity,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
-Wand of Veneration,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-Wand of Wealth,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
-Wand of the Beguiler,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
+Wand of Sincerity,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
+Wand of Veneration,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Wand of Wealth,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Wand of the Beguiler,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Wand of the Dawn,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Fishing",False,None
-Wand of the Egg Hunter,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
-Wand of the Fallen Leaves,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Wand of the Egg Hunter,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Wand of the Fallen Leaves,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Wand of the Firewind,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
-Wand of the Gift Giver,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
-Wand of the Gingersnapper,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
-Wand of the Golden Ward,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Wand of the Gift Giver,95,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
+Wand of the Gingersnapper,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Wand of the Golden Ward,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Wand of the Initiate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Wand of the March Hare,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
-Wand of the Nestling,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
+Wand of the March Hare,85,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Wand of the Nestling,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Wand of the Novice,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Wand of the Oasis,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
 Wand of the Scarab,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
 Wand of the Sirocco,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
-Wand of the Spring Coney,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
-Wand of the Thankful,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Wand of the Third Season,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
+Wand of the Spring Coney,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
+Wand of the Thankful,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Wand of the Third Season,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Wand of the Universe,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Fishing",False,None
-Wand of the Withering Day,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Wand on the Cob,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Wand of the Withering Day,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Wand on the Cob,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Warlord's Balance Cards,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Warlord's Death Cards,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Warlord's Fire Cards,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
@@ -4222,7 +4223,7 @@ Warlord's Myth Cards,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Craftin
 Warlord's Storm Cards,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Warpwood Wand,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Fishing,False,None
 Weekend Warrior Banner,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Weeping Pumpkin Staff,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Weeping Pumpkin Staff,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 White New Year's Noisemaker (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 White New Year's Noisemaker (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 White New Year's Noisemaker (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -4248,12 +4249,12 @@ Whitehart's Icy Blade,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift C
 Whitehart's Lively Blade,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Whitehart's Mythic Blade,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Whitehart's Stormy Blade,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Wicked Broomstaff,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
-Wild Hare Scepter,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
+Wicked Broomstaff,55,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
+Wild Hare Scepter,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Wildbranch Sword,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Willow Staff,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
-Wimpering Pumpking Stave,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
-Wings of the Cherubim,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
+Wimpering Pumpking Stave,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Wings of the Cherubim,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Winter Elf Hammer (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Winter Elf Hammer (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Winter Elf Hammer (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -4276,10 +4277,10 @@ Winter's Whispering Axe (Level 30+),30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0
 Winter's Whispering Axe (Level 40+),40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Wintercrystal Wand,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Wishing Staff,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Witch's Broom,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Witch's Dirty Tricks Stick,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Drop,False,None
-Witch's Scary Sweeper,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Unavailable,False,None
-Wizard of the Corn's Wand,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Unavailable,False,None
+Witch's Broom,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Witch's Dirty Tricks Stick,65,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Witch's Scary Sweeper,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
+Wizard of the Corn's Wand,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Wolfen Spear of Eternity,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Wolfen Spear of Inevitability,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Wolfen Spear of Lore,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
@@ -4305,8 +4306,8 @@ Wrangler's Frontier Knife (Level 50+),50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0
 Wrangler's Frontier Knife (Level 60+),60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Wrangler's Frontier Knife (Level 70+),70,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Wrangler's Frontier Knife (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
-Wrapper Tapper,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Wrapping Paper Staff,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Unavailable,False,None
+Wrapper Tapper,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Wrapping Paper Staff,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Wysteria Warrior's Broadsword (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Wysteria Warrior's Broadsword (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Wysteria Warrior's Broadsword (Level 100+),100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -4331,7 +4332,7 @@ Wysteria Warrior's Claymore (Level 80+),80,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0
 Wysteria Warrior's Claymore (Level 90+),90,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Year's End Standard,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Yearly Countdown,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Yuletide Morning Mandolin (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
+Yuletide Morning Mandolin (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns, Event Drop",False,None
 Yuletide Morning Mandolin (Level 20+),20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Zamunda Spear and Shield (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Zamunda Spear and Shield (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None

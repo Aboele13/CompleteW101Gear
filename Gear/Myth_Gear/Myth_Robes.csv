@@ -238,7 +238,7 @@ Whitehart Armor (Level 100+),100,401,17,6,8,5,61,50,0,0,0,0,0,0,0,0,0,0,0,0,Gift
 Revolutionary's Uniform (Level 70+),70,242,17,6,5,0,28,41,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Outback Adventurer's Attire (Level 60+),60,302,17,5,0,6,0,41,1,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Bright Wing Robes,86,690,17,0,6,0,63,0,1,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Dragonrider's Assailing Robe (Level 100+),100,615,17,0,7,9,50,0,2,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Dragonrider's Assailing Robe (Level 100+),100,615,17,0,7,9,50,0,2,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns, Event Drop",False,None
 Burrower's Rainstorm Gear,92,530,17,0,6,8,0,27,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Outfit of Mantis Folklore,96,465,17,0,11,0,56,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Robe of the Grim Calacas,86,435,17,0,6,0,64,0,2,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
@@ -353,7 +353,7 @@ Robes of the Frozen Sun (Level 90+),90,575,15,0,0,18,35,0,4,0,0,0,0,0,0,0,0,0,0,
 Arund Vale Winter Raiment (Level 100+),100,537,15,0,5,10,60,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Mantis Uniform of Cunning,90,525,15,0,6,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Stalwart Chac's Armor,80,482,15,0,5,0,59,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Dragonrider's Assailing Robe (Level 80+),80,475,15,0,6,7,45,0,2,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Dragonrider's Assailing Robe (Level 80+),80,475,15,0,6,7,45,0,2,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Charred Nirini Robe (Level 100+),100,475,15,0,6,4,120,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Digger Lieutenant's Garb,90,475,15,0,3,7,26,0,0,0,0,0,0,0,0,0,0,0,0,0,Quest,False,None
 Great Lionfriend's Jacket,66,460,15,0,6,0,51,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
@@ -413,7 +413,7 @@ Charred Nirini Robe (Level 90+),90,450,14,0,5,3,95,0,0,0,0,0,0,0,0,0,0,0,0,0,Cro
 Wild Hunt Jerkin,70,450,14,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Dawn Jaguar Hunting Garb (Level 100+),100,440,14,0,3,10,30,30,3,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Vestment of the Sun Eagle (Level 100+),100,440,14,0,4,10,27,0,3,0,0,5,0,0,0,0,0,0,0,0,Crowns,False,None
-Dragonrider's Assailing Robe (Level 70+),70,425,14,0,6,7,35,0,2,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Dragonrider's Assailing Robe (Level 70+),70,425,14,0,6,7,35,0,2,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Night Jaguar's Cloak (Level 100+),100,410,14,0,3,10,27,20,4,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Artisan's Scholarly Toga,70,400,14,0,5,7,0,0,4,0,7,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Senator's Scholarly Toga,70,400,14,0,5,7,0,0,3,0,6,0,0,0,0,0,0,0,0,0,Drop,False,None
@@ -577,7 +577,7 @@ Adept's Poetic Toga,30,210,11,0,4,4,0,0,0,0,5,3,0,0,0,0,0,0,0,0,Crafting,False,N
 Fabled Skyfarer's Garb (Level 30+),30,192,11,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Grandfather Spider's Mythic Raiment (Level 30+),30,192,11,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Cloak of the Black Star Eagle (Level 50+),50,190,11,0,2,6,7,0,1,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Royal Fusilier's Dress Coat (Level 10+),10,90,11,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
+Royal Fusilier's Dress Coat (Level 10+),10,90,11,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns, Event Drop",False,None
 Arcane Angler's Slicker (Level 90+),90,0,11,0,8,0,50,0,8,0,8,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Dragonbone Raiment (Level 80+),80,0,11,0,6,5,25,0,7,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Armor of the Proud Jaguar (Level 90+),90,500,10,17,2,9,0,23,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -762,7 +762,7 @@ Robe of Music,35,160,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",F
 Speculator's Outfit,50,144,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Cloak of the Black Star Eagle (Level 30+),30,120,8,0,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Vestment of Notion,35,60,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
-Royal Fusilier's Dress Coat (Any Level),1,50,8,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
+Royal Fusilier's Dress Coat (Any Level),1,50,8,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns, Event Drop",False,None
 Arcane Angler's Slicker (Level 60+),60,0,8,0,5,0,35,0,5,0,5,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Ideyoshi's Resonant Cloak,40,0,8,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Philosopher's Tunic,35,0,8,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Quest,False,None
@@ -880,7 +880,7 @@ Faerie Court Steel Leaf (Level 40+),40,280,6,0,3,4,0,0,0,0,4,4,0,0,0,0,0,0,0,0,C
 Vestment of Ominous Skies (Level 50+),50,270,6,0,5,0,20,0,2,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Charred Nirini Robe (Level 30+),30,250,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Wildranger Coat (Level 40+),40,240,6,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Dragonrider's Assailing Robe (Level 30+),30,230,6,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Dragonrider's Assailing Robe (Level 30+),30,230,6,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Kozane Armor (Level 40+),40,225,6,0,3,5,0,7,0,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Evergreen Raiment (Level 40+),40,225,6,0,1,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Polarian Explorer's Snowsuit (Level 30+),30,195,6,0,3,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,Gift Card,False,None
@@ -901,7 +901,7 @@ Night Jaguar's Cloak (Level 30+),30,170,6,0,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crow
 Wildranger Coat (Level 20+),20,170,6,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Polarian Explorer's Snowsuit (Level 20+),20,166,6,0,2,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,Gift Card,False,None
 Dawn Jaguar Hunting Garb (Level 30+),30,160,6,0,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Queen's Color Guard Jacket (Level 10+),10,150,6,0,0,2,0,0,0,0,4,4,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
+Queen's Color Guard Jacket (Level 10+),10,150,6,0,0,2,0,0,0,0,4,4,0,0,0,0,0,0,0,0,"Gold Key, Crowns, Event Drop",False,None
 Arund Vale Winter Raiment (Level 40+),40,144,6,0,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Soothsayer's Finery (Level 30+),30,135,6,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Spike's Vestment of History,25,120,6,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
@@ -957,7 +957,7 @@ Icewind Glade Winterwraps (Level 50+),50,245,5,0,0,6,6,0,0,0,5,12,0,0,0,0,0,0,0,
 Vestment of Ominous Skies (Level 40+),40,225,5,0,4,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Wild Wing Battle Tunic (Level 30+),30,224,5,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Faerie Court Steel Leaf (Level 30+),30,220,5,0,2,4,0,0,0,0,3,3,0,0,0,0,0,0,0,0,Crowns,False,None
-Dragonrider's Assailing Robe (Level 20+),20,180,5,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Dragonrider's Assailing Robe (Level 20+),20,180,5,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Evergreen Raiment (Level 30+),30,180,5,0,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Wild Wing Battle Tunic (Level 20+),20,172,5,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Kozane Armor (Level 30+),30,143,5,0,2,3,0,5,0,0,2,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -971,7 +971,7 @@ Vestment of the Sun Eagle (Level 20+),20,120,5,0,1,3,0,0,0,0,0,3,0,0,0,0,0,0,0,0
 Sprockets' Vestment,25,120,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Arund Vale Winter Raiment (Level 30+),30,107,5,0,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Rokugo Armor (Level 20+),20,95,5,0,1,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Queen's Color Guard Jacket (Any Level),1,95,5,0,0,1,0,0,0,0,3,3,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
+Queen's Color Guard Jacket (Any Level),1,95,5,0,0,1,0,0,0,0,3,3,0,0,0,0,0,0,0,0,"Gold Key, Crowns, Event Drop",False,None
 Oracular Coat,30,82,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Jerkin of the Bygone Age,30,60,5,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Feline's Whimsical Robe,25,60,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
@@ -999,7 +999,7 @@ Darkwraith's Umbral Shroud (Level 40+),40,0,4,5,4,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0
 Darkwraith's Shroud of Penance (Level 40+),40,0,4,5,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Atlantean Trident Armor (Level 30+),30,175,4,4,2,3,0,0,0,0,0,5,0,0,0,0,0,0,0,0,Gift Card,False,None
 Hawkrider Uniform (Level 30+),30,168,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Dragonrider's Vigilant Robe (Level 20+),20,158,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Dragonrider's Vigilant Robe (Level 20+),20,158,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Prestigious Robe (Level 20+),20,120,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Gift Card",False,None
 Stinger Armor (Level 10+),10,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Wayfinder Uniform,50,390,4,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
@@ -1027,7 +1027,7 @@ Glorious Chivalric Plate (Level 20+),20,185,4,0,0,1,8,0,0,0,0,0,0,0,0,0,0,0,0,0,
 World's Fool Armor (Level 20+),20,185,4,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Wildranger Coat (Level 30+),30,175,4,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Rockstar Threads (Level 30+),30,167,4,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,One Shot Housing Gauntlet,False,None
-Robes of the Frozen Sun (Level 10+),10,160,4,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
+Robes of the Frozen Sun (Level 10+),10,160,4,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns, Event Drop",False,None
 Robe of the Furious Winter (Level 10+),10,150,4,0,1,5,0,0,0,0,0,4,0,0,0,0,0,0,0,0,Crowns,False,None
 Armor of Many Winters (Level 20+),20,145,4,0,0,0,0,15,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Wild Wing Battle Tunic (Level 10+),10,131,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
@@ -1038,7 +1038,7 @@ Chimerical Flux Garment,22,130,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Craf
 Frozen Opus Tunic,22,130,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
 Lost Harmony Jacket,22,130,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
 Soul Legend Coat,22,130,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",False,None
-Dragonrider's Assailing Robe (Level 10+),10,125,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Dragonrider's Assailing Robe (Level 10+),10,125,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Dawn Jaguar Hunting Garb (Level 20+),20,120,4,0,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Evergreen Raiment (Level 20+),20,120,4,0,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Armor of the Mind Monk,25,108,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Wooden Key, Fishing",False,None
@@ -1067,7 +1067,7 @@ Dragonrider's Vigilant Robe (Level 30+),30,170,3,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Darkwraith's Compelling Shroud (Level 30+),30,0,3,5,3,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Darkwraith's Umbral Shroud (Level 30+),30,0,3,5,3,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Nighttide Torment Guise (Level 40+),40,160,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Winter Palace Full Dress Coat (Level 10+),10,150,3,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
+Winter Palace Full Dress Coat (Level 10+),10,150,3,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns, Event Drop",False,None
 Astral Coat of the Frog,15,125,3,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Coat of Stomping,15,125,3,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Cold Coat of the Blizzard,15,125,3,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
@@ -1097,7 +1097,7 @@ Great Inventor's Myth Coat (Level 10+),10,60,3,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Highlands Soldier's Kit (Level 10+),10,60,3,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Gruesome Cerberus Master Armor (Level 10+),10,48,3,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Mythic Night Mire Coat (Level 10+),10,48,3,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Raiment of Winter's Reign (Any Level),1,0,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key,False,None
+Raiment of Winter's Reign (Any Level),1,0,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Event Drop",False,None
 Raiment of Winter’s Reign (Any Level),1,0,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Dragon's Eye Plate (Level 10+),10,0,3,2,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Stinger Armor (Any Level),1,0,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
@@ -1123,7 +1123,7 @@ Kozane Armor (Level 20+),20,103,3,0,1,2,0,3,0,0,1,0,0,0,0,0,0,0,0,0,"Housing Gau
 Icewind Glade Winterwraps (Level 20+),20,102,3,0,0,3,0,0,0,0,2,6,0,0,0,0,0,0,0,0,Crowns,False,None
 Wild Wing Battle Tunic (Any Level),1,98,3,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Fishing, Gift Card",False,None
 Vestment of the Sun Eagle (Level 10+),10,80,3,0,1,2,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
-Dragonrider's Assailing Robe (Any Level),1,70,3,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Dragonrider's Assailing Robe (Any Level),1,70,3,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns, Event Drop",False,None
 Evergreen Raiment (Level 10+),10,70,3,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Swindler Coat,15,66,3,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
 Fortune Teller's Ensemble (Level 10+),10,64,3,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -1153,7 +1153,7 @@ Darkwraith's Umbral Shroud (Level 20+),20,0,2,4,2,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,
 Nighttide Torment Guise (Level 30+),30,130,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Armor of the Proud Jaguar (Level 10+),10,100,2,3,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Tanglewood Terror Robes (Level 10+),10,94,2,3,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,One Shot Housing Gauntlet,False,None
-Winter Palace Full Dress Coat (Any Level),1,90,2,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
+Winter Palace Full Dress Coat (Any Level),1,90,2,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns, Event Drop",False,None
 Tanglewood Terror Robes (Any Level),1,70,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,One Shot Housing Gauntlet,False,None
 Howling Raiment,5,25,2,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
 Darkwraith's Umbral Shroud (Level 10+),10,0,2,3,2,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -1181,8 +1181,8 @@ Tiki Armor of Riptides (Level 30+),30,205,2,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,Cr
 August Sage Coat (Level 40+),40,200,2,0,3,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Tiki Armor of Sacred Songs (Level 20+),20,175,2,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Vestment of Ominous Skies (Level 10+),10,130,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Robe of the Furious Winter (Any Level),1,125,2,0,1,4,0,0,0,0,0,3,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
-Robes of the Frozen Sun (Any Level),1,125,2,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
+Robe of the Furious Winter (Any Level),1,125,2,0,1,4,0,0,0,0,0,3,0,0,0,0,0,0,0,0,"Gold Key, Crowns, Event Drop",False,None
+Robes of the Frozen Sun (Any Level),1,125,2,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns, Event Drop",False,None
 Charred Nirini Robe (Level 10+),10,125,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Faerie Court Steel Leaf (Level 10+),10,110,2,0,0,2,0,0,0,0,2,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Rockstar Threads (Level 10+),10,100,2,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,One Shot Housing Gauntlet,False,None
@@ -1443,7 +1443,7 @@ Sinister Harlequin Tunic (Level 90+),90,562,0,16,0,7,0,58,4,0,16,0,0,12,0,0,0,0,
 Dragonrider's Vigilant Robe (Level 90+),90,500,0,16,0,0,0,35,0,0,8,7,0,0,0,0,0,0,0,0,Crowns,False,None
 Abyssal Warrior's Suit (Level 80+),80,496,0,16,0,6,0,40,0,4,7,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Summer Palace Plate (Level 100+),100,470,0,16,0,10,0,60,0,0,14,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Dragonrider's Vigilant Robe (Level 80+),80,440,0,16,0,0,0,32,0,0,7,6,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Dragonrider's Vigilant Robe (Level 80+),80,440,0,16,0,0,0,32,0,0,7,6,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Spooky Carnival Suit (Level 70+),70,437,0,16,5,5,0,29,0,0,0,14,0,0,0,0,0,0,0,0,Gift Card,False,None
 Shard Warrior's Armor (Level 80+),80,421,0,16,0,7,76,0,0,0,20,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Golden Robes of Serenity (Level 110+),110,377,0,16,7,11,0,38,0,0,7,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -1810,7 +1810,7 @@ Monarch's Regalia (Level 80+),80,589,0,13,0,7,0,59,0,0,0,9,0,0,0,0,0,0,0,0,Gift 
 Forgemaster's Smock (Level 100+),100,587,0,13,0,6,0,62,1,0,0,9,0,15,0,0,0,0,0,0,Gift Card,False,None
 Cool Rancher's Duster (Level 90+),90,587,0,13,4,9,0,89,0,0,0,0,0,14,0,0,0,0,0,0,Crowns,False,None
 Pet Trainer Attire (Level 100+),100,587,0,13,5,7,0,0,0,0,0,0,0,15,0,0,0,0,0,0,Gift Card,False,None
-Dragonrider's Utility Robe (Level 100+),100,585,0,13,8,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Dragonrider's Utility Robe (Level 100+),100,585,0,13,8,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns, Event Drop",False,None
 Thunder Road Leathers (Level 80+),80,583,0,13,0,7,0,100,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,Thunder Road Set
 Fossil Hunter's Raiment (Level 70+),70,573,0,13,0,5,0,68,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,Fossil Hunter's Set
 Unicorn Champion Plate (Level 80+),80,560,0,13,0,0,0,0,0,0,9,9,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -2091,7 +2091,7 @@ Thunder Road Leathers (Level 60+),60,422,0,11,0,6,0,72,0,0,0,0,0,0,0,0,0,0,0,0,C
 Odin's Raiment (Level 70+),70,421,0,11,3,5,0,33,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Drake's Reflection Robe (Level 70+),70,417,0,11,4,8,0,50,1,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Allfather's Raiment (Level 70+),70,417,0,11,3,5,0,55,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Greenwarden's Brilliant Shroud (Level 80+),80,410,0,11,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Greenwarden's Brilliant Shroud (Level 80+),80,410,0,11,10,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Unicorn Champion Plate (Level 60+),60,405,0,11,0,0,0,0,0,0,8,8,0,0,0,0,0,0,0,0,Crowns,False,None
 Cool Rider's Gear (Level 50+),50,395,0,11,0,5,0,61,1,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,Cold Rider Set
 Celestian Xenon Cape (Level 60+),60,395,0,11,0,0,0,0,0,0,5,5,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
@@ -2190,7 +2190,7 @@ Fossil Avenger's Raiment (Level 70+),70,519,0,10,0,7,0,61,0,0,0,0,0,0,0,0,0,0,0,
 Armor of Minty Freshness (Level 80+),80,517,0,10,0,0,0,52,2,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Crimson Pandamonium Lamellar (Level 80+),80,510,0,10,0,4,0,41,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Stargazer's Tunic (Level 80+),80,510,0,10,0,9,0,38,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Greenwarden's Peaceful Shroud (Level 80+),80,505,0,10,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Greenwarden's Peaceful Shroud (Level 80+),80,505,0,10,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Apophis' Raiment (Level 70+),70,503,0,10,0,5,0,77,0,0,6,0,0,0,0,0,0,0,0,0,Crowns,False,Apophis' Warrior Set
 Grand Admiral's Armor (Level 70+),70,502,0,10,0,0,0,60,0,6,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Sky Captain's Armor (Level 70+),70,501,0,10,0,0,0,51,0,6,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
@@ -2245,7 +2245,7 @@ Celestian Xenon Cape (Level 50+),50,336,0,10,0,0,0,0,0,0,0,5,0,0,0,0,0,0,0,0,"Go
 Merry Jammies (Level 60+),60,321,0,10,0,6,0,43,0,3,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Setesh's Raiment (Level 30+),30,320,0,10,0,4,0,0,0,0,4,4,0,0,0,0,0,0,0,0,Crowns,False,Setesh's Warrior Set
 Ghost Hunter Vestment (Level 60+),60,315,0,10,3,6,0,53,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Greenwarden's Brilliant Shroud (Level 70+),70,315,0,10,12,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Greenwarden's Brilliant Shroud (Level 70+),70,315,0,10,12,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Cosmographer's Tunic (Level 40+),40,313,0,10,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Ancient Purrzian Plate (Level 60+),60,309,0,10,6,7,0,29,1,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Black Werewolf Fur Sleeves (Level 60+),60,309,0,10,2,0,0,39,0,4,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -2296,7 +2296,7 @@ All Souls Finery (Level 100+),100,766,0,9,0,0,0,73,0,0,0,0,0,14,0,0,0,0,0,0,Crow
 Light Elf Raiment (Level 120+),120,718,0,9,0,0,0,94,0,0,11,11,0,17,0,0,0,0,0,0,Crowns,False,None
 Shinobi Armor (Level 110+),110,711,0,9,0,8,0,75,3,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Dalia's Blazing Suit (Level 100+),100,665,0,9,0,9,0,66,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Greenwarden's Energetic Shroud (Level 90+),90,600,0,9,0,7,0,70,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Greenwarden's Energetic Shroud (Level 90+),90,600,0,9,0,7,0,70,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns, Event Drop",False,None
 Sokar's Raiment (Level 80+),80,593,0,9,0,6,0,84,0,0,6,0,0,0,0,0,0,0,0,0,Crowns,False,Sokar's Warrior Set
 Light Elf Raiment (Level 110+),110,592,0,9,0,0,0,76,0,0,11,11,0,15,0,0,0,0,0,0,Crowns,False,None
 Karamelle Knight Armor (Level 80+),80,575,0,9,0,0,0,62,1,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -2304,7 +2304,7 @@ Jumpsuit of Tomorrow (Level 90+),90,570,0,9,3,6,0,44,0,0,9,0,0,12,0,0,0,0,0,0,Gi
 Hauberk of the Briny Deep (Level 80+),80,570,0,9,3,7,0,40,0,0,0,15,0,0,0,0,0,0,0,0,Gift Card,False,None
 Dalia's Blazing Suit (Level 90+),90,565,0,9,0,9,0,59,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Dragoon's Tabbard (Level 80+),80,547,0,9,6,0,0,80,2,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Greenwarden's Energetic Shroud (Level 80+),80,535,0,9,0,7,0,70,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Greenwarden's Energetic Shroud (Level 80+),80,535,0,9,0,7,0,70,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Aquilan Velite Hamata (Level 70+),70,521,0,9,0,9,0,87,0,2,8,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Sokar's Raiment (Level 70+),70,510,0,9,0,5,0,76,0,0,6,0,0,0,0,0,0,0,0,0,Crowns,False,Sokar's Warrior Set
 Light Elf Raiment (Level 100+),100,503,0,9,0,0,0,68,0,0,10,10,0,14,0,0,0,0,0,0,Crowns,False,None
@@ -2349,7 +2349,7 @@ Ancient Purrzian Armour (Level 60+),60,364,0,9,5,9,0,27,1,0,0,0,0,0,0,0,0,0,0,0,
 Snowdrifter's Vestment (Level 70+),70,364,0,9,0,8,0,54,0,0,7,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Haunted Captain's Coat (Level 60+),60,360,0,9,0,8,0,54,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Desert Wrangler's Duster (Level 70+),70,360,0,9,3,7,0,50,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Greenwarden's Peaceful Shroud (Level 70+),70,355,0,9,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Greenwarden's Peaceful Shroud (Level 70+),70,355,0,9,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Raider Scrap Armor (Level 50+),50,354,0,9,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Armor of the Silent Knight (Level 60+),60,340,0,9,0,0,0,0,0,0,7,7,0,0,0,0,0,0,0,0,Crowns,False,None
 Sweetish Chef Smock (Level 70+),70,335,0,9,3,7,0,37,1,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Sweetish Chef Set
@@ -2442,7 +2442,7 @@ Jumpsuit of Tomorrow (Level 80+),80,485,0,8,3,6,0,37,0,0,8,0,0,0,0,0,0,0,0,0,Gif
 Hauberk of the Briny Deep (Level 70+),70,485,0,8,3,6,0,28,0,0,0,14,0,0,0,0,0,0,0,0,Gift Card,False,None
 Dalia's Blazing Suit (Level 80+),80,480,0,8,0,9,0,53,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Dragoon's Tabbard (Level 70+),70,465,0,8,6,0,0,75,1,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Greenwarden's Energetic Shroud (Level 70+),70,450,0,8,0,6,0,55,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Greenwarden's Energetic Shroud (Level 70+),70,450,0,8,0,6,0,55,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Aquilan Velite Hamata (Level 60+),60,443,0,8,0,8,74,0,0,1,8,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Sokar's Raiment (Level 60+),60,439,0,8,0,5,0,68,0,0,6,0,0,0,0,0,0,0,0,0,Crowns,False,Sokar's Warrior Set
 Light Elf Raiment (Level 90+),90,428,0,8,0,0,0,61,0,0,10,10,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -2492,7 +2492,7 @@ Snowdrifter's Vestment (Level 60+),60,309,0,8,0,7,0,46,0,0,7,0,0,0,0,0,0,0,0,0,C
 Dunerunner's Tunic (Level 50+),50,306,0,8,0,0,0,0,0,0,4,4,0,0,0,0,0,0,0,0,Gift Card,False,None
 Haunted Captain's Coat (Level 50+),50,302,0,8,0,8,0,49,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Raider Scrap Armor (Level 40+),40,301,0,8,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Greenwarden's Peaceful Shroud (Level 60+),60,300,0,8,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Greenwarden's Peaceful Shroud (Level 60+),60,300,0,8,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns, Event Drop",False,None
 Casual Lederhosen (Level 50+),50,294,0,8,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Silent Knight Vestment (Level 50+),50,294,0,8,0,0,0,0,0,0,11,11,0,0,0,0,0,0,0,0,Crowns,False,None
 Everwinter Plate (Level 70+),70,291,0,8,0,4,0,30,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -2631,7 +2631,7 @@ Raider Scrap Armor (Level 30+),30,256,0,7,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift C
 Greenwarden's Peaceful Shroud (Level 50+),50,255,0,7,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Haunted Captain's Coat (Level 40+),40,254,0,7,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Greenwarden's Brilliant Shroud (Level 50+),50,250,0,7,8,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Greenwarden's Brilliant Shroud (Level 60+),60,250,0,7,8,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Greenwarden's Brilliant Shroud (Level 60+),60,250,0,7,8,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns, Event Drop",False,None
 Silent Knight Vestment (Level 40+),40,250,0,7,0,0,0,0,0,0,10,10,0,0,0,0,0,0,0,0,Crowns,False,None
 Valiant Jouster's Cuirass (Level 30+),30,249,0,7,0,4,0,0,0,2,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Brown Werewolf Fur Sleeves (Level 40+),40,247,0,7,3,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -2707,7 +2707,7 @@ Dragoon's Tabbard (Level 50+),50,336,0,6,5,0,0,50,1,0,0,0,0,0,0,0,0,0,0,0,Gift C
 Aquilan Velite Hamata (Level 40+),40,320,0,6,0,7,0,0,0,1,7,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Tundra Hunter Flannel (Level 40+),40,319,0,6,0,8,0,0,0,0,0,9,0,0,0,0,0,0,0,0,Crowns,False,None
 Shinobi Armor (Level 60+),60,315,0,6,0,5,0,25,1,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Greenwarden's Energetic Shroud (Level 60+),60,315,0,6,0,5,0,40,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Greenwarden's Energetic Shroud (Level 60+),60,315,0,6,0,5,0,40,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns, Event Drop",False,None
 Dragonrider's Utility Robe (Level 60+),60,315,0,6,5,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 All Souls Splendor (Level 50+),50,311,0,6,0,0,0,43,3,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Grey Werewolf Fur Sleeves (Level 50+),50,309,0,6,4,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -2718,7 +2718,7 @@ Nosferatu's Cloak,35,295,0,6,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",Fals
 Haros' Mantle (Level 50+),50,292,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,Haros' Set
 Dashing Outlaw's Tunic (Level 30+),30,291,0,6,3,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Chieftain's Dashiki (Level 40+),40,280,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Greenwarden's Energetic Shroud (Level 50+),50,275,0,6,0,5,0,20,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Greenwarden's Energetic Shroud (Level 50+),50,275,0,6,0,5,0,20,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Grand Admiral's Armor (Level 30+),30,275,0,6,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Sky Captain's Armor (Level 30+),30,274,0,6,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
 Splendid Tunic,70,271,0,6,0,0,0,20,1,10,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
@@ -2752,19 +2752,19 @@ Leisure Dome Costume (Level 30+),30,239,0,6,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,Crow
 Apophis' Raiment (Level 20+),20,237,0,6,0,4,0,0,0,0,4,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,Apophis' Warrior Set
 Setesh's Raiment (Level 10+),10,237,0,6,0,0,0,0,0,0,4,4,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
 Wotan's Raiment (Level 40+),40,235,0,6,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Greenwarden's Energetic Shroud (Level 40+),40,235,0,6,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Greenwarden's Energetic Shroud (Level 40+),40,235,0,6,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 White Pandamonium Lamellar (Level 30+),30,235,0,6,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Blighted Captain's Coat (Level 40+),40,228,0,6,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Stargazer's Tunic (Level 30+),30,227,0,6,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Ancient Purrzian Armour (Level 30+),30,224,0,6,4,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Snowdrifter's Vestment (Level 40+),40,224,0,6,0,6,0,0,0,0,6,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Takanobu's Garb of Wisdom,35,224,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Key,False,None
-Greenwarden's Brilliant Shroud (Level 40+),40,220,0,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Greenwarden's Brilliant Shroud (Level 40+),40,220,0,6,6,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Raider Scrap Armor (Level 20+),20,218,0,6,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Hauberk of the Briny Deep (Level 20+),20,215,0,6,1,5,0,0,0,0,0,9,0,0,0,0,0,0,0,0,Gift Card,False,None
 Casual Lederhosen (Level 30+),30,213,0,6,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Silent Knight Vestment (Level 30+),30,213,0,6,0,0,0,0,0,0,10,10,0,0,0,0,0,0,0,0,Crowns,False,None
-Greenwarden's Peaceful Shroud (Level 40+),40,210,0,6,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Greenwarden's Peaceful Shroud (Level 40+),40,210,0,6,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Fossil Warrior's Raiment (Level 10+),10,210,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Sweetish Chef Smock (Level 40+),40,206,0,6,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,Sweetish Chef Set
 Monarch's Regalia (Level 10+),10,206,0,6,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,Gift Card,False,None
@@ -2924,7 +2924,7 @@ Unicorn Paladin Plate (Level 10+),10,173,0,5,0,0,0,0,0,0,9,0,0,0,0,0,0,0,0,0,Cro
 Fancy Lederhosen (Level 20+),20,170,0,5,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Ancient Purrzian Raiment (Level 10+),10,170,0,5,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Balestrom's Blast Jacket (Level 20+),20,170,0,5,0,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Greenwarden's Peaceful Shroud (Level 30+),30,170,0,5,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Greenwarden's Peaceful Shroud (Level 30+),30,170,0,5,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Autoist's Overcoat (Any Level),1,169,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Nimbari Praetor Armor (Level 10+),10,169,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Comfort Zone Leisure Suit (Level 10+),10,167,0,5,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3044,7 +3044,7 @@ Snowdrifter's Vestment (Level 20+),20,162,0,4,0,5,0,0,0,0,5,0,0,0,0,0,0,0,0,0,Cr
 All Souls Splendor (Level 10+),10,162,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Blighted Captain's Coat (Level 20+),20,161,0,4,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Abyssal Warrior's Suit (Level 10+),10,159,0,4,0,0,0,0,0,3,4,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Greenwarden's Peaceful Shroud (Level 20+),20,158,0,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Greenwarden's Peaceful Shroud (Level 20+),20,158,0,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Dramaturgist's Costume (Any Level),1,157,0,4,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Raider Scrap Armor (Any Level),1,157,0,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Seal Team Recon Suit (Level 20+),20,156,0,4,0,5,0,0,0,0,0,6,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3063,7 +3063,7 @@ Balestrom's Blast Jacket (Level 10+),10,145,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
 Nimbari Praetor Armor (Any Level),1,144,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Comfort Zone Leisure Suit (Any Level),1,142,0,4,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Ebony Pandamonium Lamellar (Any Level),1,140,0,4,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Greenwarden's Energetic Shroud (Level 20+),20,140,0,4,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Greenwarden's Energetic Shroud (Level 20+),20,140,0,4,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns, Event Drop",False,None
 Shinobi Armor (Level 10+),10,140,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Formal Lederhosen (Any Level),1,139,0,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Grey Werewolf Fur Sleeves (Any Level),1,138,0,4,3,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3144,7 +3144,7 @@ Leisure Dome Costume (Any Level),1,147,0,3,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,Crown
 Nimbari Centurion Armor (Any Level),1,147,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 White Pandamonium Lamellar (Any Level),1,145,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Spooky Carnival Suit (Any Level),1,140,0,3,2,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,Gift Card,False,None
-Dragonrider's Utility Robe (Level 20+),20,140,0,3,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Dragonrider's Utility Robe (Level 20+),20,140,0,3,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Chrysanthemum Coat (Level 40+),40,140,0,3,0,2,0,0,0,0,0,3,0,0,0,0,0,0,0,0,Crowns,False,None
 Wotan's Raiment (Level 10+),10,139,0,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Stargazer's Tunic (Any Level),1,139,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3162,8 +3162,8 @@ Sweetish Chef Smock (Level 10+),10,127,0,3,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift 
 Haunted Captain's Coat (Any Level),1,126,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Fancy Lederhosen (Any Level),1,123,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Balestrom's Blast Jacket (Any Level),1,123,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Greenwarden's Peaceful Shroud (Level 10+),10,120,0,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Dragonrider's Vigilant Robe (Level 10+),10,120,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Greenwarden's Peaceful Shroud (Level 10+),10,120,0,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Dragonrider's Vigilant Robe (Level 10+),10,120,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Shinobi Armor (Any Level),1,119,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Pet Trainer Attire (Any Level),1,116,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Desert Wrangler's Duster (Any Level),1,116,0,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3171,8 +3171,8 @@ Forgemaster's Smock (Any Level),1,116,0,3,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,Gift C
 Seal Team Recon Suit (Level 10+),10,112,0,3,0,4,0,0,0,0,0,5,0,0,0,0,0,0,0,0,Crowns,False,None
 Sky Sorcerer Hakama (Any Level),1,108,0,3,3,0,0,0,0,0,6,6,0,0,0,0,0,0,0,0,Gift Card,False,None
 Sweetish Chef Smock (Any Level),1,108,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Greenwarden's Brilliant Shroud (Level 10+),10,100,0,3,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Greenwarden's Energetic Shroud (Level 10+),10,100,0,3,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Greenwarden's Brilliant Shroud (Level 10+),10,100,0,3,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Greenwarden's Energetic Shroud (Level 10+),10,100,0,3,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns, Event Drop",False,None
 Everwinter Plate (Level 20+),20,84,0,3,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Seal Team Recon Suit (Any Level),1,78,0,3,0,3,0,0,0,0,0,5,0,0,0,0,0,0,0,0,Crowns,False,None
 Bitter Cloak,15,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
@@ -3224,13 +3224,13 @@ Royal Armor of Retribution (Level 10+),10,95,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Sokkwi Frostbitten Armor (Level 10+),10,90,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Seal Team Demolitions Suit (Any Level),1,76,0,2,0,4,0,0,0,0,2,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Greenwarden's Energetic Shroud (Any Level),1,70,0,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Dragonrider's Utility Robe (Any Level),1,70,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Dragonrider's Utility Robe (Any Level),1,70,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Chrysanthemum Coat (Level 30+),30,65,0,2,0,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Astral Tunic of the Cyclops,5,60,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Master's Tunic of the Shark,5,60,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Royal Tunic of the Blade,5,60,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Summer Palace Plate (Level 10+),10,50,0,2,0,1,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Dragonrider's Vigilant Robe (Any Level),1,50,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Dragonrider's Vigilant Robe (Any Level),1,50,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns, Event Drop",False,None
 Greenwarden's Brilliant Shroud (Any Level),1,50,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Greenwarden's Peaceful Shroud (Any Level),1,50,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Violet Robes of Bitter Truth (Any Level),1,35,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3805,7 +3805,7 @@ Brigadier Uniform,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",
 Brimstone Tunic,52,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Brisk Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Brisk Wolfen Mail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Bunny Suit,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Bunny Suit,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Canvas Cloak,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Cape of Fire Light,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Stone Key,False,None
 Cape of Refraction,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Stone Key,False,None
@@ -3980,9 +3980,9 @@ Gravedigger's Suit,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,Non
 Guardian's Battle Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Guardian's Vestment,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
 Halcyon's Robe,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Hallowe'en Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Hallowe'en Skeleton Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Hallowe'en Witch Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Hallowe'en Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Hallowe'en Skeleton Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Hallowe'en Witch Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Hallowed Robes,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
 Harmonious Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Harmonious Tailormail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
@@ -4052,13 +4052,13 @@ Monk's Vestment,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Morbid Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Morbid Wolfen Mail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Morpheus' Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Mummy Costume Bodywraps,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Mummy Costume Bodywraps,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Mythic Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Mythic Wolfen Mail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Necromancer's Timeless Tunic,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Gold Key",False,None
 Night-Knight Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Ninja PAX T-Shirt,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Ninja Pig Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crafting",False,None
+Ninja Pig Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crafting, Crowns, Event Drop",False,None
 Noble Garb,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Crafting",False,None
 Notorious Tailormail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Novitiate Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Gold Key",False,None
@@ -4076,7 +4076,7 @@ Pharaoh's Raiment,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, 
 Pharaoh's Vestment,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
 Pharoah's Robe of Judgement,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Pigswick Academy Uniform,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
-Pilgrim Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Pilgrim Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Pilgrim's Clothing,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Crafting",False,None
 Pirate Garb,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Pluto's Beastmoon Plate,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
@@ -4132,7 +4132,7 @@ Sable Tunic,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False
 Safari Bush Jacket,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Salamander's Wrap,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Samurai Armor,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Santa Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Gold Key, Crowns",False,None
+Santa Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns, Event Drop",False,None
 Sapphyra's Vestment,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Savannah Cloak,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Scholarly Robes,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
@@ -4214,7 +4214,7 @@ Tiki Armor of Purity (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housin
 Tiki Armor of Sacred Songs (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
 Timeless Arboreal Tunic,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Gold Key",False,None
 Timeless Astral Tunic,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Gold Key",False,None
-Timeless Yuletide Armor (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
+Timeless Yuletide Armor (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns, Event Drop",False,None
 Torrid Cloak,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Toymaker Elf Suit (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Toymaker Elf Suit (Level 10+),10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -4250,7 +4250,7 @@ Twice Stitched Robe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False
 Twilight Cape,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Stone Key,False,None
 Ultimate Wolfen Mail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Undead Vestment,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
-Vampire Costume Coat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Vampire Costume Coat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Velo City Legends Jersey,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gold Vendor,False,None
 Versatile Armor,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Very Cool Tailormail,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None

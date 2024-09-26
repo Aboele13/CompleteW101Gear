@@ -38,7 +38,7 @@ def main():
     
     # update the base values CSVs
     if update_base_values:
-        bad_urls.append(baseValues.get_base_values(schools)) # each school created in function
+        bad_urls.extend(baseValues.get_base_values(schools)) # each school created in function
         
         print(f"\n\n\nAll base values have been successfully updated\n")
         

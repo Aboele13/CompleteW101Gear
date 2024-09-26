@@ -5,7 +5,7 @@ from webAccess import fetch_url_content
 
 max_level = 170 # UPDATE WITH NEW WORLDS
 
-bad_url = None
+bad_url = []
 
 def get_all_lines():
     
@@ -25,8 +25,7 @@ def get_all_lines():
         
         return lines
     else:
-        global bad_url
-        bad_url = f"{url}, Base Values"
+        bad_url.append(f"{url}, Base Values")
 
 def remove_mana_and_energy():
     

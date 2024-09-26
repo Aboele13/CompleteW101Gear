@@ -57,12 +57,12 @@ Birthday Box,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Black Stallion,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Crowns",False,None
 Blitzing Tricycle,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Blood Raven,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Blue Candy-Cane,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
-Blue Dragon,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Gold Key, Housing Gauntlet, Crowns",False,None
-Blue Fairy Wings,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Blue Candy-Cane,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns, Event Drop",False,None
+Blue Dragon,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Gold Key, Housing Gauntlet, Crowns, Event Drop",False,None
+Blue Fairy Wings,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Blue Kirin,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Wooden Key, Crowns",False,None
 Blue Ox,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Bone Dragon,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Bone Dragon,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Bone Dragon (Retired),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Bookmobile,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Bookwyrm,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -123,7 +123,7 @@ Crumbles Gingerhorse,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Cutesy Moon,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Cyber Scooter,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Dappled Mustang,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Dark Redwing,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Housing Gauntlet, Crowns",False,None
+Dark Redwing,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns, Event Drop",False,None
 Death Brume,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Death Decade Vortex,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Death Whirlwind,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crafting, One Shot Housing Gauntlet",False,None
@@ -134,7 +134,7 @@ Digmoore Pogo Stick,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crafting",False,None
 Dire Loch Monster,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
 Dolphin Chariot,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Don't Fall Board,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Dragon Wings,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Dragon Wings,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns, Event Drop",False,None
 Drake Hatchling,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Dread Loch Monster,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
 Dream Filly,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -147,7 +147,7 @@ Escargo-getter,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Evil Carnival Wagon,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Evil Snowman Board,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Explorer's Rover,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Faithful Dragoness,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Gold Key, Stone Key, Housing Gauntlet, Crowns",False,None
+Faithful Dragoness,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Gold Key, Stone Key, Housing Gauntlet, Crowns, Event Drop",False,None
 False Dawn Harrowings,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Fancy Gummy Bunny,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
 Fancy Moon,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -187,7 +187,7 @@ Gold-Wrought Eagle,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
 Grand Panda,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Great Hornocerous,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Gift Card",False,None
 Great Panda,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Green Candy-Cane,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
+Green Candy-Cane,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns, Event Drop",False,None
 Grey Warg,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Stone Key, Crowns",False,None
 Grim Cerberus,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Grim Loch Monster,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
@@ -266,7 +266,7 @@ Nightflame Pegasus,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
 Nightrunner,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Nightshade's Board,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Nimbari Chariot,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Orange Fairy Wings,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Orange Fairy Wings,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Ostrich,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
 Outback Rover,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Outrigger Canoe,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
@@ -288,7 +288,7 @@ Prismaticat,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Proud Lion,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Crowns",False,None
 Pumpkin Carriage,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Gift Card",False,None
 Punk Flamingo,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Purple Fairy Wings,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Gold Key, Crowns",False,None
+Purple Fairy Wings,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns, Event Drop",False,None
 Purple Glider,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Stone Key, Wooden Key, Crowns",False,None
 Pygmy Grey Whale,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Racing Tricycle,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -298,7 +298,7 @@ Raven,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
 Raven Wings,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Ravenwood Pogo Stick,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crafting",False,None
 Ravenwood Rider,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Red Candy-Cane,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
+Red Candy-Cane,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns, Event Drop",False,None
 Reindeer Sleigh,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Renaissance Wings,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
 Revolutionary's Cannon,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None

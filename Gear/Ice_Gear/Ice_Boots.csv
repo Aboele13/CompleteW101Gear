@@ -600,8 +600,8 @@ Unicorn Champion Sabatons (Level 70+),70,317,16,9,0,0,63,0,0,0,0,0,0,0,0,0,0,0,0
 Great Inventor's Ice Boots (Level 80+),80,263,16,9,4,5,0,116,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Highlands Champion's Boots (Level 80+),80,263,16,9,4,5,0,116,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Ancient Purrzian Givehs (Level 60+),60,247,16,9,0,2,24,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Greenwarden's Energetic Boots (Level 90+),90,240,16,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
-Greenwarden's Energetic Boots (Level 80+),80,210,16,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Greenwarden's Energetic Boots (Level 90+),90,240,16,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns, Event Drop",False,None
+Greenwarden's Energetic Boots (Level 80+),80,210,16,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Able Ranger's Boots (Level 100+),100,424,16,8,5,0,63,0,0,3,0,0,0,7,0,0,0,0,0,0,Crowns,False,None
 Floramancer Greaves of Bark (Level 90+),90,350,16,8,4,5,0,121,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Unkind Winter Boots (Level 130+),130,700,16,7,0,9,52,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -691,9 +691,9 @@ Queen's Color Guard Boots (Level 100+),100,270,15,0,0,9,0,51,0,0,16,16,0,0,0,0,0
 Spooky Carnival Boots (Level 60+),60,248,15,0,2,4,55,0,0,0,0,5,0,0,0,0,0,0,0,0,Gift Card,False,None
 Black Werewolf Leggings (Level 60+),60,243,15,0,2,0,32,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Chieftain's Stalkers (Level 80+),80,230,15,0,6,0,0,65,2,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Greenwarden's Peaceful Boots (Level 90+),90,230,15,0,0,0,0,0,0,0,0,27,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Greenwarden's Peaceful Boots (Level 90+),90,230,15,0,0,0,0,0,0,0,0,27,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns, Event Drop",False,None
 Wildranger Boots (Level 100+),100,210,15,0,5,9,0,0,6,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Greenwarden's Peaceful Boots (Level 80+),80,205,15,0,0,0,0,0,0,0,0,27,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Greenwarden's Peaceful Boots (Level 80+),80,205,15,0,0,0,0,0,0,0,0,27,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Wastelander's Chill Boots (Level 60+),60,167,15,0,4,6,40,0,2,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Morganthe's Icy Heels (Level 60+),60,167,15,0,4,6,40,0,0,0,0,5,0,0,0,0,0,0,0,0,Crowns,False,None
 Royal Fusilier's Boots (Level 70+),70,160,15,0,2,6,0,35,2,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -847,7 +847,7 @@ Greaves of the Briny Deep (Level 70+),70,322,12,8,0,6,61,0,0,0,0,5,0,0,0,0,0,0,0
 Monarch's Footwear (Level 60+),60,291,12,8,0,4,51,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Darkwraith's Atonement Boots (Level 120+),120,0,12,8,0,14,0,30,0,0,8,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Sky Sorcerer Sandals (Level 70+),70,224,12,7,2,0,56,0,0,0,2,2,0,0,0,0,0,0,0,0,Gift Card,False,Sky Sorcerer's Set
-Greenwarden's Energetic Boots (Level 70+),70,180,12,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Greenwarden's Energetic Boots (Level 70+),70,180,12,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Ancient Purrzian Givehs (Level 40+),40,179,12,7,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Darkwraith's Atonement Boots (Level 110+),110,0,12,7,0,14,0,25,0,0,7,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Darkwraith's Atonement Boots (Level 100+),100,0,12,7,0,14,0,20,0,0,6,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -899,8 +899,8 @@ Drum Jungle Tribal Boots (Level 40+),40,178,12,0,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Wildranger Boots (Level 80+),80,170,12,0,4,8,0,0,4,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Chieftain's Stalkers (Level 60+),60,160,12,0,5,0,0,45,2,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Sultan's Shoes (Level 60+),60,160,12,0,6,0,0,45,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Gift Card",False,None
-Greenwarden's Peaceful Boots (Level 70+),70,160,12,0,0,0,0,0,0,0,0,25,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
-Greenwarden's Peaceful Boots (Level 60+),60,140,12,0,0,0,0,0,0,0,0,24,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Greenwarden's Peaceful Boots (Level 70+),70,160,12,0,0,0,0,0,0,0,0,25,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns, Event Drop",False,None
+Greenwarden's Peaceful Boots (Level 60+),60,140,12,0,0,0,0,0,0,0,0,24,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns, Event Drop",False,None
 Arund Vale Snowshoes (Level 50+),50,122,12,0,2,3,5,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Shard Warrior's Sabatons (Level 60+),60,116,12,0,0,4,18,55,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Smoldering Vengeance Boots (Level 80+),80,115,12,0,6,8,0,0,4,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -993,9 +993,9 @@ Winter Solstice Snowboots (Level 80+),80,234,10,6,0,5,0,28,0,0,0,0,0,0,0,0,0,0,0
 Monarch's Footwear (Level 40+),40,215,10,6,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Sky Sorcerer Sandals (Level 60+),60,190,10,6,2,0,50,0,0,0,2,2,0,0,0,0,0,0,0,0,Gift Card,False,Sky Sorcerer's Set
 Ancient Purrzian Givehs (Level 30+),30,152,10,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Greenwarden's Energetic Boots (Level 60+),60,150,10,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
-Greenwarden's Energetic Boots (Level 50+),50,120,10,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
-Greenwarden's Energetic Boots (Level 40+),40,95,10,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Greenwarden's Energetic Boots (Level 60+),60,150,10,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns, Event Drop",False,None
+Greenwarden's Energetic Boots (Level 50+),50,120,10,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns, Event Drop",False,None
+Greenwarden's Energetic Boots (Level 40+),40,95,10,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Dashing Outlaw's Treaders (Level 40+),40,228,10,5,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Wysteria Warrior's Sabatons (Level 30+),30,170,10,5,5,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
 Unicorn Champion Sabatons (Level 30+),30,166,10,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -1175,9 +1175,9 @@ Morganthe's Icy Heels (Level 30+),30,136,9,0,3,4,0,0,0,0,0,4,0,0,0,0,0,0,0,0,Cro
 Arctic Skyfarer's Boots (Level 30+),30,136,9,0,3,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Queen's Color Guard Boots (Level 60+),60,135,9,0,0,6,0,18,0,0,11,11,0,0,0,0,0,0,0,0,Crowns,False,None
 Dragonrider's Assailing Shoes (Level 50+),50,130,9,0,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Greenwarden's Peaceful Boots (Level 50+),50,120,9,0,0,0,0,0,0,0,0,18,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Greenwarden's Peaceful Boots (Level 50+),50,120,9,0,0,0,0,0,0,0,0,18,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Sherlock's Gumshoes (Level 30+),30,117,9,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Greenwarden's Peaceful Boots (Level 40+),40,100,9,0,0,0,0,0,0,0,0,18,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Greenwarden's Peaceful Boots (Level 40+),40,100,9,0,0,0,0,0,0,0,0,18,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Smoldering Vengeance Boots (Level 70+),70,90,9,0,5,7,0,0,3,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Fortune Teller's Striders (Level 40+),40,85,9,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Sinister Harlequin Shoes (Level 20+),20,78,9,0,0,4,0,0,0,1,3,0,0,0,0,0,0,0,0,0,Gift Card,False,None
@@ -1230,7 +1230,7 @@ Woodland Hunter Boots (Level 30+),30,170,8,5,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Cro
 White Frost Boots,58,152,8,5,4,0,0,26,0,0,3,0,0,0,0,0,0,0,0,0,Drop,False,None
 Wysteria Warrior's Sabatons (Level 20+),20,145,8,5,5,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
 Ancient Purrzian Givehs (Level 20+),20,129,8,5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Greenwarden's Energetic Boots (Level 30+),30,72,8,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Greenwarden's Energetic Boots (Level 30+),30,72,8,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns, Event Drop",False,None
 Spiral Cup Boots (Level 100+),100,604,8,4,0,10,0,0,6,0,12,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Seal Team Assault Fins (Level 40+),40,190,8,4,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Boots of Balefrost,56,160,8,4,4,0,0,25,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
@@ -1604,12 +1604,12 @@ Chieftain's Stalkers (Level 30+),30,84,6,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift 
 Sultan's Shoes (Level 30+),30,84,6,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Gift Card",False,None
 Acampi's Tyrannical Boots,86,80,6,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Quest,False,None
 Greenwarden's Peaceful Boots (Level 30+),30,75,6,0,0,0,0,0,0,0,0,12,0,0,0,0,0,0,0,0,Crowns,False,None
-Dragonrider's Assailing Shoes (Level 30+),30,72,6,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Dragonrider's Assailing Shoes (Level 30+),30,72,6,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Sherlock's Gumshoes (Any Level),1,71,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Wild Wing Warboots (Level 30+),30,70,6,0,0,4,0,0,0,2,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Rocker's Stompers (Level 50+),50,65,6,0,0,4,0,0,0,0,0,12,0,0,0,0,0,0,0,0,One Shot Housing Gauntlet,False,None
 Shard Warrior's Sabatons (Level 20+),20,60,6,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Greenwarden's Peaceful Boots (Level 20+),20,55,6,0,0,0,0,0,0,0,0,12,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Greenwarden's Peaceful Boots (Level 20+),20,55,6,0,0,0,0,0,0,0,0,12,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Arund Vale Snowshoes (Level 20+),20,51,6,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Smoldering Vengeance Boots (Level 40+),40,40,6,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Royal Fusilier's Boots (Level 10+),10,40,6,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -1811,7 +1811,7 @@ Forgemaster's Boots (Any Level),1,77,4,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Gift Ca
 Sky Sorcerer Sandals (Any Level),1,71,4,3,1,0,0,0,0,0,1,1,0,0,0,0,0,0,0,0,Gift Card,False,None
 Winter Solstice Snowboots (Level 30+),30,67,4,3,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Seal Team Assault Fins (Any Level),1,54,4,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Greenwarden's Energetic Boots (Level 10+),10,36,4,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Greenwarden's Energetic Boots (Level 10+),10,36,4,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Boots of Nighttide Torment (Level 30+),30,200,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Boots of Nighttide Torment (Level 20+),20,190,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Unicorn Champion Sabatons (Any Level),1,102,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -1877,12 +1877,12 @@ Furious Winter Mukluks (Level 20+),20,70,4,0,1,5,0,0,0,0,0,3,0,0,0,0,0,0,0,0,Cro
 Mukluks of the Frozen Sun (Level 20+),20,70,4,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Chieftain's Stalkers (Level 20+),20,65,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Sultan's Shoes (Level 20+),20,65,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Gift Card",False,None
-Queen's Color Guard Boots (Level 10+),10,55,4,0,0,1,0,0,0,0,3,3,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
+Queen's Color Guard Boots (Level 10+),10,55,4,0,0,1,0,0,0,0,3,3,0,0,0,0,0,0,0,0,"Gold Key, Crowns, Event Drop",False,None
 Headbanger's Spiked Boots (Level 40+),40,52,4,0,0,3,0,0,4,0,0,0,0,0,0,0,0,0,0,0,One Shot Housing Gauntlet,False,None
 Shard Warrior's Sabatons (Any Level),1,43,4,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Wild Wing Warboots (Level 10+),10,41,4,0,0,3,0,0,0,1,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Arund Vale Snowshoes (Level 10+),10,36,4,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Royal Fusilier's Boots (Any Level),1,20,4,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
+Royal Fusilier's Boots (Any Level),1,20,4,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns, Event Drop",False,None
 Smoldering Vengeance Boots (Level 20+),20,15,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Marvelous Avenging Boots (Level 20+),20,15,4,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Arcane Angler's Galoshes (Level 60+),60,0,4,0,5,0,0,30,1,0,5,0,0,0,0,0,0,0,0,0,Gift Card,False,None
@@ -2010,7 +2010,7 @@ Shoes of the Fortuneteller (Level 30+),30,61,3,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Furious Winter Mukluks (Level 10+),10,60,3,0,1,4,0,0,0,0,0,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Black Star Eagle's Claws (Level 30+),30,60,3,0,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Night Jaguar's Stalkers (Level 30+),30,60,3,0,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Mukluks of the Frozen Sun (Level 10+),10,60,3,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
+Mukluks of the Frozen Sun (Level 10+),10,60,3,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns, Event Drop",False,None
 World's Fool Boots (Level 20+),20,55,3,0,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Dragonrider's Assailing Shoes (Level 20+),20,55,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Icewind Glade Trekkers (Level 20+),20,53,3,0,0,4,0,0,0,0,2,6,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -2020,7 +2020,7 @@ Chieftain's Stalkers (Level 10+),10,50,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift 
 Sultan's Shoes (Level 10+),10,50,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Gift Card",False,None
 Shoes of the Sasquatch,45,49,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
 Shoes of the Fortuneteller (Level 20+),20,43,3,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Greenwarden's Peaceful Boots (Level 10+),10,40,3,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Greenwarden's Peaceful Boots (Level 10+),10,40,3,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Wild Wing Warboots (Any Level),1,31,3,0,0,3,0,0,0,1,0,0,0,0,0,0,0,0,0,0,"Fishing, Gift Card",False,None
 Arund Vale Snowshoes (Any Level),1,26,3,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Greenwarden's Peaceful Boots (Any Level),1,25,3,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -2126,13 +2126,13 @@ Royal Shoes of Pirates,20,56,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,Fal
 Tiki Boots of Riptides (Level 40+),40,55,2,0,0,0,0,0,1,0,4,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Night King's Sabatons (Level 20+),20,55,2,0,0,1,0,5,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Hawkrider Boots (Level 10+),10,50,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
-Furious Winter Mukluks (Any Level),1,50,2,0,1,3,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
+Furious Winter Mukluks (Any Level),1,50,2,0,1,3,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Gold Key, Crowns, Event Drop",False,None
 Mukluks of the Frozen Sun (Any Level),1,50,2,0,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Black Star Eagle's Claws (Level 20+),20,45,2,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Night Jaguar's Stalkers (Level 20+),20,45,2,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Tiki Boots of Riptides (Level 30+),30,45,2,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Unkind Winter Boots (Level 10+),10,43,2,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
-Yuletide Ceremonial Boots (Level 10+),10,43,2,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
+Yuletide Ceremonial Boots (Level 10+),10,43,2,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns, Event Drop",False,None
 Swindler Shoes,15,42,2,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
 Rokugo Footwear (Level 20+),20,42,2,0,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Evergreen Striders (Level 20+),20,40,2,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
@@ -2141,12 +2141,12 @@ Icewind Glade Trekkers (Level 10+),10,38,2,0,0,3,0,0,0,0,2,4,0,0,0,0,0,0,0,0,Cro
 Chieftain's Stalkers (Any Level),1,36,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Tiki Boots of Sacred Songs (Level 20+),20,35,2,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 World's Fool Boots (Level 10+),10,35,2,0,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Queen's Color Guard Boots (Any Level),1,35,2,0,0,1,0,0,0,0,2,2,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
+Queen's Color Guard Boots (Any Level),1,35,2,0,0,1,0,0,0,0,2,2,0,0,0,0,0,0,0,0,"Gold Key, Crowns, Event Drop",False,None
 Shoes of the Fortuneteller (Level 10+),10,29,2,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Icewind Glade Trekkers (Any Level),1,27,2,0,0,3,0,0,0,0,2,2,0,0,0,0,0,0,0,0,Crowns,False,None
 Oyoroi Sandals (Level 20+),20,25,2,0,0,1,0,2,0,0,0,1,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
 Sultan's Shoes (Any Level),1,22,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Gift Card",False,None
-Dragonrider's Assailing Shoes (Any Level),1,20,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Dragonrider's Assailing Shoes (Any Level),1,20,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Defender's Boots,20,12,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
 Marvelous Avenging Boots (Level 10+),10,5,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Arcane Angler's Galoshes (Level 30+),30,0,2,0,3,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,Gift Card,False,None
@@ -2199,8 +2199,8 @@ Pads of the Proud Jaguar (Any Level),1,20,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Cr
 Darkwraith's Compelling Boots (Level 10+),10,0,1,1,1,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Darkwraith's Umbral Boots (Level 10+),10,0,1,1,1,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Dragontooth Boots (Any Level),1,0,1,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Mukluks of Winter's Reign (Any Level),1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
-Mukluks of Winter's Reign (Level 10+),10,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
+Mukluks of Winter's Reign (Any Level),1,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns, Event Drop",False,None
+Mukluks of Winter's Reign (Level 10+),10,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns, Event Drop",False,None
 Mukluks of Winter's Reign (Level 20+),20,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Cold Fury Kickers (Any Level),1,117,1,0,1,0,0,0,0,0,4,0,0,0,0,0,0,0,0,0,Crowns,False,None
 All Souls Walkers (Any Level),1,99,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -2231,7 +2231,7 @@ Sandals of Exertion,30,39,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",Fal
 Tiki Boots of Riptides (Level 20+),20,35,1,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Black Star Eagle's Claws (Level 10+),10,30,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Dawn Jaguar's Silent Boots (Any Level),1,30,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Dragonrider's Assailing Shoes (Level 10+),10,30,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Dragonrider's Assailing Shoes (Level 10+),10,30,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Night King's Sabatons (Level 10+),10,30,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Bellows' Boots of Accuracy,25,29,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Winter-Soled Shoes,30,29,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
@@ -2341,7 +2341,7 @@ Unicorn Knight Sabatons (Level 90+),90,427,0,11,0,0,76,0,0,0,0,0,0,0,0,0,0,0,0,0
 Celestian Neon Striders (Level 90+),90,417,0,11,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0,0,Crowns,False,None
 Unicorn Knight Sabatons (Level 80+),80,363,0,11,0,0,68,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Celestian Neon Striders (Level 80+),80,354,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Dragonrider's Vigilant Boots (Level 100+),100,270,0,11,0,0,0,60,0,0,8,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Dragonrider's Vigilant Boots (Level 100+),100,270,0,11,0,0,0,60,0,0,8,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns, Event Drop",False,None
 Boots of Steel Wings (Level 90+),90,230,0,11,0,8,0,40,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
 Mysterious Jade Boots (Level 60+),60,150,0,11,0,2,0,45,0,0,0,3,0,0,0,0,0,0,0,0,Crowns,False,None
 Prestigious Shoes (Level 60+),60,140,0,11,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Gift Card",False,None
@@ -2393,7 +2393,7 @@ Chrysanthemum Boots (Level 90+),90,230,0,10,0,8,0,0,0,0,0,12,0,0,0,0,0,0,0,0,Cro
 Mantis Hunter's Footwraps,94,215,0,10,0,4,0,41,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Mouse Knight's Footguards,94,213,0,10,0,5,0,41,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Summer Palace Sabatons (Level 100+),100,210,0,10,0,9,0,80,0,0,12,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Dragonrider's Vigilant Boots (Level 80+),80,210,0,10,0,0,0,55,0,0,6,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Dragonrider's Vigilant Boots (Level 80+),80,210,0,10,0,0,0,55,0,0,6,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Kermes Fire Miner's Clogs,94,200,0,10,0,5,0,41,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Mantis Stalkers of Secrecy,94,185,0,10,0,5,0,41,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Mantis Warrior's Footwraps,94,185,0,10,0,5,0,41,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
@@ -2764,7 +2764,7 @@ Raven's Tricksy Boots,56,76,0,4,0,0,0,18,0,0,5,3,0,0,0,0,0,0,0,0,"Drop, Bazaar",
 Violet Boots of Bitter Truth (Level 40+),40,75,0,4,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Summer Palace Sabatons (Level 40+),40,65,0,4,0,2,0,20,0,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Prestigious Shoes (Level 20+),20,60,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Gift Card",False,None
-Dragonrider's Vigilant Boots (Level 20+),20,55,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Dragonrider's Vigilant Boots (Level 20+),20,55,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Polarian Explorer's Snowboots (Level 10+),10,54,0,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Mysterious Jade Boots (Level 10+),10,50,0,4,0,2,0,0,0,0,0,3,0,0,0,0,0,0,0,0,Crowns,False,None
 Polarian Explorer's Snowboots (Any Level),1,45,0,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Fishing, Gift Card",False,None
@@ -2895,7 +2895,7 @@ Krokotopian Ice Striders,15,53,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,Kr
 Boots of Steel Wings (Level 30+),30,45,0,2,0,0,0,10,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
 Violet Boots of Bitter Truth (Level 30+),30,45,0,2,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Boots of Walking Retribution (Level 10+),10,40,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Dragonrider's Vigilant Boots (Level 10+),10,40,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Dragonrider's Vigilant Boots (Level 10+),10,40,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Prestigious Shoes (Level 10+),10,40,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Gift Card",False,None
 Durable Boots,15,39,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Summer Palace Sabatons (Level 20+),20,35,0,2,0,0,0,10,0,0,1,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -2942,7 +2942,7 @@ Summer Palace Sabatons (Level 10+),10,20,0,1,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Cro
 Boots of Walking Retribution (Any Level),1,20,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Prestigious Shoes (Any Level),1,20,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Gift Card",False,None
 Boots of Obstruction,10,19,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Dragonrider's Vigilant Boots (Any Level),1,18,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Dragonrider's Vigilant Boots (Any Level),1,18,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns, Event Drop",False,None
 Violet Boots of Bitter Truth (Level 10+),10,15,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Great Inventor's Ice Boots (Any Level),1,12,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Boots of Havoc,20,10,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",False,None
@@ -3417,7 +3417,7 @@ Boots of the BurrowBuilder,98,170,0,0,0,8,0,0,3,0,10,0,0,0,0,0,0,0,0,0,Drop,Fals
 Mantis Chitin Runners,96,170,0,0,0,8,0,0,3,0,10,0,0,0,0,0,0,0,0,0,Drop,False,None
 Eagle Lord's Cloud Dancers,86,170,0,0,0,7,0,0,2,0,10,0,0,0,0,0,0,0,0,0,Drop,False,None
 Grinning Death Stompers,86,170,0,0,0,7,0,0,2,0,10,0,0,0,0,0,0,0,0,0,Drop,False,None
-Greenwarden's Brilliant Boots (Level 80+),80,170,0,0,0,11,58,50,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Greenwarden's Brilliant Boots (Level 80+),80,170,0,0,0,11,58,50,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Charon's Waders (Level 40+),40,170,0,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Fleet Kapudan's Boots (Level 30+),30,170,0,0,0,3,0,0,0,3,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Abiding Spirits Fabled Boots,66,168,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
@@ -3448,7 +3448,7 @@ Apophis' Boots (Level 20+),20,160,0,0,3,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Crowns,Fal
 Sokar's Boots (Level 20+),20,160,0,0,2,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
 Wotan's Boots (Level 40+),40,157,0,0,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
 Grand Admiral's Boots (Level 20+),20,157,0,0,0,3,0,0,0,2,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
-Greenwarden's Brilliant Boots (Level 70+),70,155,0,0,0,11,50,40,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Greenwarden's Brilliant Boots (Level 70+),70,155,0,0,0,11,50,40,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Valiant Jouster's Sabatons (Level 60+),60,155,0,0,4,6,35,0,0,0,0,12,0,0,0,0,0,0,0,0,Gift Card,False,None
 Prairie Rambler's Boots (Level 40+),40,155,0,0,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Treeminder's Druidic Boots (Level 20+),20,155,0,0,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3504,7 +3504,7 @@ Black New Year's Flats (Level 20+),20,133,0,0,0,5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Cr
 Black New Year's Wingtips (Level 20+),20,133,0,0,0,5,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Prairie Rambler's Boots (Level 30+),30,132,0,0,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Wotan's Boots (Level 30+),30,132,0,0,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Greenwarden's Brilliant Boots (Level 60+),60,130,0,0,0,10,40,30,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
+Greenwarden's Brilliant Boots (Level 60+),60,130,0,0,0,10,40,30,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns, Event Drop",False,None
 Throne-Treading Sandals,45,130,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Stargazer's Boots (Level 20+),20,129,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Blighted Captain's Boots (Level 30+),30,128,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3572,7 +3572,7 @@ Ragerider's Boots (Any Level),1,106,0,0,1,0,0,0,0,0,3,0,0,0,0,0,0,0,0,0,Crowns,F
 Survivor's Stompers (Any Level),1,106,0,0,1,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,Crowns,False,None
 Wrath Walkers,54,106,0,0,0,8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Imperial Court Slippers (Level 60+),60,105,0,0,0,0,20,0,1,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Greenwarden's Brilliant Boots (Level 50+),50,105,0,0,0,8,30,15,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Greenwarden's Brilliant Boots (Level 50+),50,105,0,0,0,8,30,15,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Charon's Waders (Level 10+),10,105,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 All Souls Boots (Level 10+),10,104,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Haros' Waders (Level 10+),10,102,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3603,7 +3603,7 @@ Thundercracked Clogs,50,96,0,0,0,0,0,15,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",F
 Black New Year's Flats (Any Level),1,96,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Black New Year's Wingtips (Any Level),1,96,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Blistering Greaves,54,96,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Dragonrider's Utility Boots (Level 40+),40,95,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Dragonrider's Utility Boots (Level 40+),40,95,0,0,4,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Prairie Rambler's Boots (Level 10+),10,95,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Kozane Boots (Level 40+),40,94,0,0,3,3,0,9,0,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Ghost Hunter Boots (Level 10+),10,94,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3639,7 +3639,7 @@ Fighting Bear Boots,52,83,0,0,0,0,0,25,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",Fa
 Allfather's Boots (Any Level),1,82,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Shoes of Deliberation,35,82,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Prairie Rambler's Boots (Any Level),1,81,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
-Greenwarden's Brilliant Boots (Level 40+),40,80,0,0,0,8,20,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Greenwarden's Brilliant Boots (Level 40+),40,80,0,0,0,8,20,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Valiant Jouster's Sabatons (Level 30+),30,80,0,0,3,3,0,0,0,0,0,8,0,0,0,0,0,0,0,0,Gift Card,False,None
 Faerie Court Boots (Level 30+),30,80,0,0,2,1,0,0,0,0,2,1,0,0,0,0,0,0,0,0,Crowns,False,None
 Boots of Intent,35,78,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
@@ -3654,7 +3654,7 @@ Lightning Riders,52,76,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,
 Lightning Striders,52,76,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Bazaar,False,None
 Kozane Boots (Level 30+),30,75,0,0,2,2,0,0,0,0,2,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
 Seal Team Recon Fins (Level 10+),10,75,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Dragonrider's Utility Boots (Level 30+),30,72,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Dragonrider's Utility Boots (Level 30+),30,72,0,0,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Imperial Court Slippers (Level 50+),50,70,0,0,0,0,12,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Pixie's Enchanted Boots (Level 30+),30,70,0,0,0,2,0,8,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 August Sage Shoes (Level 40+),40,70,0,0,1,5,0,0,0,0,1,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3685,7 +3685,7 @@ Sandals of the Sentinel (Level 20+),20,45,0,0,1,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,Gi
 Soothsayer's Boots (Level 20+),20,43,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Hibernal Footwraps,15,41,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Faerie Court Boots (Level 10+),10,40,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Greenwarden's Brilliant Boots (Level 20+),20,40,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Greenwarden's Brilliant Boots (Level 20+),20,40,0,0,0,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 True Silver Boots (Any Level),1,40,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,"Fishing, Gift Card",False,None
 Boots of Winterbane (Any Level),1,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Cat Burglar's Shoes,25,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
@@ -3694,7 +3694,7 @@ Turquoise Eagle's Sky Tracks (Level 10+),10,40,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 Shoes of the Whim,35,39,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Abstract Footwraps,30,39,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Footwraps of the Arctic,15,39,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Dragonrider's Utility Boots (Level 10+),10,36,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Dragonrider's Utility Boots (Level 10+),10,36,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Imperial Court Slippers (Level 30+),30,35,0,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Valiant Jouster's Sabatons (Any Level),1,35,0,0,1,2,0,0,0,0,0,5,0,0,0,0,0,0,0,0,Gift Card,False,None
 August Sage Shoes (Level 30+),30,35,0,0,0,2,0,0,0,0,3,0,0,0,0,0,0,0,0,0,Crowns,False,None
@@ -3715,7 +3715,7 @@ Shoes of the Breakneck,20,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",
 Hardened Boots,10,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Headbanger's Spiked Boots (Level 10+),10,25,0,0,0,2,0,0,1,0,0,0,0,0,0,0,0,0,0,0,One Shot Housing Gauntlet,False,None
 Imperial Court Slippers (Level 20+),20,25,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
-Greenwarden's Brilliant Boots (Level 10+),10,25,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Greenwarden's Brilliant Boots (Level 10+),10,25,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Rocker's Stompers (Level 10+),10,25,0,0,0,2,0,0,0,0,0,4,0,0,0,0,0,0,0,0,One Shot Housing Gauntlet,False,None
 Pixie's Enchanted Boots (Level 10+),10,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
 Gobblestone's Boots,10,24,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
@@ -3870,7 +3870,7 @@ Boots of the Adverse,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",Fals
 Boots of the Astute,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Boots of the Bountiful,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Boots of the Brief Candle,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Stone Key,False,None
-Boots of the Comet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Boots of the Comet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Crowns",False,None
 Boots of the Cosmic Balance,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Boots of the Cyclone,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Boots of the Dawn,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
@@ -3878,7 +3878,7 @@ Boots of the Hurricane,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",F
 Boots of the Night,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Boots of the Nucleus,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Boots of the Peerless,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Boots of the Slipstream,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Boots of the Slipstream,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Crowns",False,None
 Boots of the Vortex,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Boreas' Beastmoon Boots,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Boxplane Captain Boots,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
@@ -3886,7 +3886,7 @@ Brigadier Boots,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",Fa
 Brimstone Boots,54,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Brisk Beastmoon Boots,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Brisk Wolfen Boots,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Bunny Feet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Bunny Feet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Canvas Wraps,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
 Captain's Boots,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Cardinal's Shoes,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
@@ -4029,6 +4029,7 @@ Gleeman's Shoes,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Stone Key",Fa
 Glorious Hero's Boots,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Gift Card,False,None
 Glowing Canine Shoes,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Glowing Slippers,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
+Gobbler Feet,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Goldleaf Shoes,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Gothic Thread Treads,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Graduation Walkers,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Quest,False,None
@@ -4040,9 +4041,9 @@ Grounded Boots,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,Non
 Guardian's Shoes,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
 Guardian's Sollerets,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Halcyon's Shoes,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",False,None
-Hallowe'en Shoes,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
-Hallowe'en Skeleton Shoes,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Hallowe'en Witch Shoes,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
+Hallowe'en Shoes,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
+Hallowe'en Skeleton Shoes,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
+Hallowe'en Witch Shoes,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Harmonious Beastmoon Boots,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Harmonious Thread Treads,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Harmonious Wolfen Boots,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
@@ -4110,12 +4111,12 @@ Monk's Boots,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crowns,False,None
 Morbid Beastmoon Boots,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Morbid Wolfen Boots,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Morpheus' Beastmoon Boots,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
-Mummy Costume Footwraps,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Mummy Costume Footwraps,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Mythic Beastmoon Boots,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Mythic Wolfen Boots,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Necromancer's Timeless Shoes,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Gold Key",False,None
 Night-Knight Slippers,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
-Ninja Pig Shoes,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crafting",False,None
+Ninja Pig Shoes,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crafting, Crowns, Event Drop",False,None
 Noble Footwear,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Crafting",False,None
 Notorious Thread Treads,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Novitiate Boots,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Gold Key",False,None
@@ -4130,7 +4131,7 @@ Pharaoh's Footwear,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar,
 Pharaoh's Slippers,15,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
 Pharoah's Boots of Judgement,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Unavailable,False,None
 Pigswick Academy Shoes,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
-Pilgrim Boots,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Drop,False,None
+Pilgrim Boots,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Pilgrim's Footgear,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Crafting",False,None
 Pirate Boots,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Pluto's Beastmoon Boots,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
@@ -4172,7 +4173,7 @@ Sandals of Sympathy,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Gold
 Sandals of the Shibboleth,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Sandals of the Sun,45,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",False,None
 Sandals of the Universe,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
-Santa Boots,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Gold Key, Crowns",False,None
+Santa Boots,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns, Event Drop",False,None
 Sapient Walkers,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
 Savannah Footwraps (Eloise),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Scorched Footwraps,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",False,None
@@ -4296,7 +4297,7 @@ Twice Stitched Boots,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Ques
 Twilight Boots,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Stone Key,False,None
 Ultimate Wolfen Boots,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Unkind Winter Boots (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Housing Gauntlet, Crowns",False,None
-Vampire Costume Boots,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",False,None
+Vampire Costume Boots,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Crowns, Event Drop",False,None
 Very Cool Thread Treads,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Vindicator's Boots,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Vivacious Beastmoon Boots,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
@@ -4339,4 +4340,4 @@ Wintry Wolfen Boots,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Crafting,False,None
 Witch Doctor's Shoes,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
 Wizard's Timeless Shoes,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Gold Key",False,None
 Wolf Mocassins,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",False,None
-Yuletide Ceremonial Boots (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns",False,None
+Yuletide Ceremonial Boots (Any Level),1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Key, Crowns, Event Drop",False,None
