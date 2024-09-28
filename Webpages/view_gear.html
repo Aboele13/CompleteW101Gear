@@ -153,6 +153,10 @@
         <div style="display: flex; align-items: center;">
             <label><input type="checkbox" id="ownedGear" onchange="filterTable()"> Owned Gear</label>
         </div>
+        <div style="display: flex; align-items: center;">
+            <label><input type="checkbox" id="filterWorseItems" onchange="filterTable()"> Filter Worse Items</label>
+        </div>
+
     </div>
 
     <div class="checkbox-group">
@@ -227,13 +231,37 @@
             const searchValue = document.getElementById('search').value.toLowerCase();
             const levelValue = parseInt(document.getElementById('level').value, 10);
             const ownedGearChecked = document.getElementById('ownedGear').checked;
+            const filterWorseItemsChecked = document.getElementById('filterWorseItems').checked;
+            const itemType = document.getElementById('itemType').value;
             const table = document.getElementById('gearTable');
-            const rows = table.querySelectorAll('tr:not(:first-child)');
+            const rows = Array.from(table.querySelectorAll('tr:not(:first-child)'));
             const headers = Array.from(table.querySelectorAll('tr:first-child th'));
-            const sourceIndex = headers.findIndex(th => th.textContent === 'Source');
-            const ownedIndex = headers.findIndex(th => th.textContent === 'Owned');
         
-            // Get checked sources
+            // Column indices for common attributes
+            const healthIndex = headers.findIndex(th => th.textContent === 'Health');
+            const damageIndex = headers.findIndex(th => th.textContent === 'Damage');
+            const resistIndex = headers.findIndex(th => th.textContent === 'Resist');
+            const accuracyIndex = headers.findIndex(th => th.textContent === 'Accuracy');
+            const powerPipIndex = headers.findIndex(th => th.textContent === 'Power Pip');
+            const criticalIndex = headers.findIndex(th => th.textContent === 'Critical');
+            const criticalBlockIndex = headers.findIndex(th => th.textContent === 'Critical Block');
+            const pierceIndex = headers.findIndex(th => th.textContent === 'Pierce');
+            const stunResistIndex = headers.findIndex(th => th.textContent === 'Stun Resist');
+            const incomingIndex = headers.findIndex(th => th.textContent === 'Incoming');
+            const outgoingIndex = headers.findIndex(th => th.textContent === 'Outgoing');
+            const pipConserveIndex = headers.findIndex(th => th.textContent === 'Pip Conserve');
+            const shadowPipIndex = headers.findIndex(th => th.textContent === 'Shadow Pip');
+            const archmasteryIndex = headers.findIndex(th => th.textContent === 'Archmastery');
+            const gearSetIndex = headers.findIndex(th => th.textContent === 'Gear Set');
+            
+            // Additional columns based on gear type
+            const startingPipsIndex = headers.findIndex(th => th.textContent === 'Starting Pips');
+            const lockedCircleIndex = headers.findIndex(th => th.textContent === 'Locked Circle');
+            const shieldPinsIndex = headers.findIndex(th => th.textContent === 'Shield Pins');
+        
+            const ownedIndex = headers.findIndex(th => th.textContent === 'Owned');
+            const sourceIndex = headers.findIndex(th => th.textContent === 'Source');
+        
             const checkedSources = Array.from(document.querySelectorAll('.checkbox-group input[type="checkbox"]:checked'))
                 .map(checkbox => checkbox.nextSibling.textContent.trim());
         
@@ -241,8 +269,8 @@
                 const cells = Array.from(row.children);
                 const nameCell = cells[0]; // Assuming "Name" column is the first column
                 const levelCell = cells[1]; // Assuming "Level" column is the second column
-                const sourceCell = sourceIndex >= 0 ? cells[sourceIndex] : null; // Check if "Source" column exists
-                const ownedCell = ownedIndex >= 0 ? cells[ownedIndex] : null; // Check if "Owned" column exists
+                const sourceCell = sourceIndex >= 0 ? cells[sourceIndex] : null;
+                const ownedCell = ownedIndex >= 0 ? cells[ownedIndex] : null;
         
                 const nameMatch = nameCell && nameCell.textContent.toLowerCase().includes(searchValue);
                 const levelMatch = levelCell && parseInt(levelCell.textContent, 10) <= levelValue;
@@ -255,18 +283,56 @@
                         return regex.test(sourceCell.textContent);
                     });
                 } else if (sourceCell) {
-                    sourceMatch = false; // If no sources are checked, there are no matches
+                    sourceMatch = false;
                 } else {
-                    sourceMatch = true // If the "Source" column doesn't exist, treat as such (keep everything)
+                    sourceMatch = true;
                 }
         
-                if (nameMatch && levelMatch && sourceMatch && ownedMatch) {
-                    row.style.display = '';
-                } else {
-                    row.style.display = 'none';
-                }
+                row.style.display = nameMatch && levelMatch && sourceMatch && ownedMatch ? '' : 'none';
             });
+        
+            // Define relevant columns for comparison based on gear type
+            let relevantColumns = [healthIndex, damageIndex, resistIndex, accuracyIndex, powerPipIndex, criticalIndex, criticalBlockIndex, pierceIndex, stunResistIndex, incomingIndex, outgoingIndex, pipConserveIndex, shadowPipIndex, archmasteryIndex];
+        
+            if (["Wands", "Decks"].includes(itemType)) {
+                relevantColumns.push(startingPipsIndex);
+            } else if (["Athames", "Amulets", "Rings"].includes(itemType)) {
+                relevantColumns.push(lockedCircleIndex);
+            } else if (["Hats", "Robes", "Boots"].includes(itemType)) {
+                relevantColumns.push(shieldPinsIndex);
+            }
+        
+            // Filtering out items that are objectively worse
+            if (filterWorseItemsChecked) {
+                rows.forEach((row, i) => {
+                    const cells = Array.from(row.children);
+                    const gearSet = cells[gearSetIndex]?.textContent.trim();
+        
+                    rows.forEach((otherRow, j) => {
+                        if (i !== j && otherRow.style.display !== 'none') {
+                            const otherCells = Array.from(otherRow.children);
+                            const otherGearSet = otherCells[gearSetIndex]?.textContent.trim();
+        
+                            let isWorse = true;
+                            for (let colIndex of relevantColumns) {
+                                const stat = parseInt(cells[colIndex]?.textContent || 0, 10);
+                                const otherStat = parseInt(otherCells[colIndex]?.textContent || 0, 10);
+                                if (stat > otherStat) {
+                                    isWorse = false;  // If the item has any stat better than another item, it's not worse
+                                    break;
+                                }
+                            }
+        
+                            // Check Gear Set rule: if gearSet != "None", item should not be filtered out even if it's worse
+                            if (isWorse && otherGearSet === "None") {
+                                row.style.display = 'none';
+                            }
+                        }
+                    });
+                });
+            }
         }
+        
     
         function sortTable(columnIndex, columnName) {
             const table = document.getElementById('gearTable');
