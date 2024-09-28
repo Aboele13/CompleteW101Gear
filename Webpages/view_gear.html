@@ -228,6 +228,28 @@
             });
         }
     
+        // New function to process data in smaller chunks
+        function processInChunks(dataRows, rowsPerChunk = 100) {
+            let i = 0;
+
+            function processNextChunk() {
+                const chunk = dataRows.slice(i, i + rowsPerChunk);
+                chunk.forEach(row => {
+                    row.element.style.display = '';
+                });
+
+                i += rowsPerChunk;
+                if (i < dataRows.length) {
+                    requestAnimationFrame(processNextChunk);  // Smooth updates using requestAnimationFrame
+                } else {
+                    table.style.visibility = 'visible';  // Make table visible after all rows are updated
+                }
+            }
+
+            requestAnimationFrame(processNextChunk);  // Start the chunked processing
+        }
+
+        // Optimized filterTable function
         function filterTable() {
             const searchValue = document.getElementById('search').value.toLowerCase();
             const levelValue = parseInt(document.getElementById('level').value, 10);
@@ -235,10 +257,9 @@
             const filterWorseItemsChecked = document.getElementById('filterWorseItems').checked;
             const itemType = document.getElementById('itemType').value;
             const table = document.getElementById('gearTable');
-            const rows = Array.from(table.querySelectorAll('tr:not(:first-child)'));
             const headers = Array.from(table.querySelectorAll('tr:first-child th'));
-        
-            // Cache column indices to minimize repeated DOM queries
+
+            // Cache column indices to avoid repeated DOM access
             const columnIndices = {
                 healthIndex: headers.findIndex(th => th.textContent === 'Health'),
                 damageIndex: headers.findIndex(th => th.textContent === 'Damage'),
@@ -255,86 +276,69 @@
                 shadowPipIndex: headers.findIndex(th => th.textContent === 'Shadow Pip'),
                 archmasteryIndex: headers.findIndex(th => th.textContent === 'Archmastery'),
                 gearSetIndex: headers.findIndex(th => th.textContent === 'Gear Set'),
-                startingPipsIndex: headers.findIndex(th => th.textContent === 'Starting Pips'),
-                lockedCircleIndex: headers.findIndex(th => th.textContent === 'Locked Circle'),
-                shieldPinsIndex: headers.findIndex(th => th.textContent === 'Shield Pins'),
                 ownedIndex: headers.findIndex(th => th.textContent === 'Owned'),
-                sourceIndex: headers.findIndex(th => th.textContent === 'Source')
             };
-        
-            // Cache the comparison columns based on item type
-            let relevantColumns = [
-                columnIndices.healthIndex, columnIndices.damageIndex, columnIndices.resistIndex,
-                columnIndices.accuracyIndex, columnIndices.powerPipIndex, columnIndices.criticalIndex,
-                columnIndices.criticalBlockIndex, columnIndices.pierceIndex, columnIndices.stunResistIndex,
-                columnIndices.incomingIndex, columnIndices.outgoingIndex, columnIndices.pipConserveIndex,
-                columnIndices.shadowPipIndex, columnIndices.archmasteryIndex
-            ];
-        
-            // Add specific columns for certain gear types
-            if (["Wands", "Decks"].includes(itemType)) {
-                relevantColumns.push(columnIndices.startingPipsIndex);
-            } else if (["Athames", "Amulets", "Rings"].includes(itemType)) {
-                relevantColumns.push(columnIndices.lockedCircleIndex);
-            } else if (["Hats", "Robes", "Boots"].includes(itemType)) {
-                relevantColumns.push(columnIndices.shieldPinsIndex);
-            }
-        
-            // Batch DOM manipulations by hiding rows first and showing them in a batch.
-            table.style.visibility = 'hidden'; // Hide the table during processing
-        
-            // Apply search, level, source, and owned filters
+
+            let dataRows = [];
+            const rows = Array.from(table.querySelectorAll('tr:not(:first-child)'));
+            
+            // Pre-process table data
             rows.forEach(row => {
                 const cells = Array.from(row.children);
-                const nameMatch = cells[0]?.textContent.toLowerCase().includes(searchValue);
-                const levelMatch = parseInt(cells[1]?.textContent, 10) <= levelValue;
-                const ownedMatch = !ownedGearChecked || cells[columnIndices.ownedIndex]?.textContent.trim() === "True";
-                const sourceMatch = cells[columnIndices.sourceIndex]?.textContent.toLowerCase().includes(searchValue);
-                
-                if (nameMatch && levelMatch && ownedMatch && sourceMatch) {
-                    row.style.display = ''; // Show row
-                } else {
-                    row.style.display = 'none'; // Hide row
-                }
+                const rowData = {
+                    element: row,  // Keep reference to the DOM element for final update
+                    name: cells[0]?.textContent.toLowerCase(),
+                    level: parseInt(cells[1]?.textContent || 0, 10),
+                    owned: cells[columnIndices.ownedIndex]?.textContent.trim() === "True",
+                    gearSet: cells[columnIndices.gearSetIndex]?.textContent.trim(),
+                    stats: [
+                        parseInt(cells[columnIndices.healthIndex]?.textContent || 0, 10),
+                        parseInt(cells[columnIndices.damageIndex]?.textContent || 0, 10),
+                        // Add other relevant stats here...
+                    ]
+                };
+                dataRows.push(rowData);
             });
-        
-            // Filter out worse items if the checkbox is checked
+
+            // Apply search, level, and owned filters
+            dataRows = dataRows.filter(row => {
+                const nameMatch = row.name.includes(searchValue);
+                const levelMatch = row.level <= levelValue;
+                const ownedMatch = !ownedGearChecked || row.owned;
+                return nameMatch && levelMatch && ownedMatch;
+            });
+
+            // Filter "worse" items logic
             if (filterWorseItemsChecked) {
-                let cache = [];
-        
-                rows.forEach((row, i) => {
-                    const cells = Array.from(row.children);
-                    const gearSet = cells[columnIndices.gearSetIndex]?.textContent.trim();
-                    
-                    // Cache relevant stats
-                    const stats = relevantColumns.map(index => parseInt(cells[index]?.textContent || 0, 10));
-        
-                    rows.forEach((otherRow, j) => {
-                        if (i !== j && otherRow.style.display !== 'none') {
-                            const otherCells = Array.from(otherRow.children);
-                            const otherGearSet = otherCells[columnIndices.gearSetIndex]?.textContent.trim();
-        
-                            // Cache other stats
-                            const otherStats = relevantColumns.map(index => parseInt(otherCells[index]?.textContent || 0, 10));
-        
+                let toRemove = new Set();
+                for (let i = 0; i < dataRows.length; i++) {
+                    for (let j = 0; j < dataRows.length; j++) {
+                        if (i !== j && !toRemove.has(dataRows[i])) {
+                            const row1 = dataRows[i];
+                            const row2 = dataRows[j];
+
                             let isWorse = true;
-                            for (let k = 0; k < stats.length; k++) {
-                                if (stats[k] > otherStats[k]) {
+                            for (let k = 0; k < row1.stats.length; k++) {
+                                if (row1.stats[k] > row2.stats[k]) {
                                     isWorse = false;
                                     break;
                                 }
                             }
-        
-                            // Only hide the row if gearSet is "None" and is worse in all stats
-                            if (isWorse && gearSet === "None") {
-                                row.style.display = 'none';
+
+                            if (isWorse && row2.gearSet === "None") {
+                                toRemove.add(row1);
                             }
                         }
-                    });
-                });
+                    }
+                }
+
+                dataRows = dataRows.filter(row => !toRemove.has(row));
             }
-        
-            table.style.visibility = 'visible'; // Make the table visible again after processing
+
+            // Clear and re-populate the table
+            table.style.visibility = 'hidden';
+            rows.forEach(row => (row.style.display = 'none'));  // Hide all rows
+            processInChunks(dataRows);  // Show filtered rows in chunks
         }
         
         
