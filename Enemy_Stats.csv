@@ -1,0 +1,18 @@
+﻿Low Level,High Level,World,Mob Name,Mob Resist,Mob Block,Boss Name,Boss Resist,Boss Block
+1,9,Wizard City,Field Guard,0,0,Lord Nightshade,0,0
+10,19,Krokotopia,Sokkwi Gouger,0,0,Krokopatra,0,0
+20,29,Marleybone,Potbelly,0,0,Meowiarty,0,0
+30,39,Mooshu,Walking Dead,0,0,Jade Oni,0,0
+40,49,Dragonspyre,Decayed Blackguard,0,0,Malistaire Drake,0,0
+50,59,Celestia,Stellar Protector,0,0,Mithraya,0,18
+60,69,Zafaria,Shadow-Web Haunt,0,0,Starburst Spider,0,38
+70,79,Avalon,Great Horned Knight,0,18,White Dragon,0,57
+80,89,Azteca,Grim Calaca,0,18,Youala Night Drinker,0,89
+90,99,Khrysalis,Albino Lasher,0,19,Morganthe,0,89
+100,109,Polaris,Watch Lion,0,37,The Rat,15,97
+110,119,Mirage,Cabal Chronomancer,0,78,Grandfather Spider,20,97
+120,129,Empyrea,Arachna Soldier,0,140,Titan's Trident,20,158
+130,139,Karamelle,Aberration,0,165,Aberrant Paradox,20,208
+140,149,Lemuria,Manavore Zero,0,175,Stallion Quartermane,20,244
+150,159,Novus,Aberrant Manticore,36,180,Maxine Rockhoppierre,40,250
+160,170,Wallaru,Major Marado,36,187,Malus,40,450
