@@ -263,10 +263,11 @@
             const ownedIndex = headers.findIndex(th => th.textContent === 'Owned');
             const sourceIndex = headers.findIndex(th => th.textContent === 'Source');
         
+            // Get checked sources
             const checkedSources = Array.from(document.querySelectorAll('.checkbox-group input[type="checkbox"]:checked'))
                 .map(checkbox => checkbox.nextSibling.textContent.trim());
         
-            const validRows = []; // Define the validRows array to keep valid rows
+            const validRows = []; // Initialize validRows
         
             // Step 1: First pass - apply filters and determine valid rows
             rows.forEach(row => {
@@ -375,6 +376,7 @@
         }
         
         
+        
         function sortTable(columnIndex, columnName) {
             const table = document.getElementById('gearTable');
             const rows = Array.from(table.querySelectorAll('tr:not(:first-child)')); // Exclude header row
@@ -399,11 +401,9 @@
         }
     
         document.querySelectorAll('.checkbox-group input[type="checkbox"]').forEach(checkbox => {
-            checkbox.addEventListener('change', () => {
-                filterTable();
-            });
+            checkbox.addEventListener('change', filterTable);
         });
-    
+        
         document.getElementById('search').addEventListener('input', filterTable);
         document.getElementById('level').addEventListener('change', filterTable);
     
