@@ -143,7 +143,7 @@
             <label for="level">Level:</label>
             <select id="level" onchange="filterTable()">
                 <script>
-                    // UPDATE WITH NEW WORLDS
+                    <!-- UPDATE WITH NEW WORLDS -->
                     for (let i = 170; i >= 1; i--) {
                         document.write('<option value="' + i + '">' + i + '</option>');
                     }
@@ -158,6 +158,7 @@
         <div style="display: flex; align-items: center; margin-left: 20px;">
             <label><input type="checkbox" id="filterWorseItems" onchange="filterTable()"> Filter Worse Items</label>
         </div>
+
     </div>
 
     <div class="checkbox-group">
@@ -198,8 +199,8 @@
                 header: true,
                 complete: function(results) {
                     const table = document.getElementById('gearTable');
-                    table.innerHTML = ''; // Clear existing rows
-
+                    table.innerHTML = '';
+    
                     // Create table headers
                     const headers = results.meta.fields;
                     const headerRow = document.createElement('tr');
@@ -210,7 +211,7 @@
                         headerRow.appendChild(th);
                     });
                     table.appendChild(headerRow);
-
+    
                     // Create table rows
                     results.data.forEach(row => {
                         const tr = document.createElement('tr');
@@ -221,45 +222,24 @@
                         });
                         table.appendChild(tr);
                     });
-
-                    // Apply filters after CSV is loaded
-                    filterTable(); // Ensure we call filterTable after rows are populated
+    
+                    // Apply filters
+                    filterTable();
                 }
             });
         }
-
-        // Function to process data in smaller chunks
-        function processInChunks(dataRows, rowsPerChunk = 100) {
-            let i = 0;
-
-            function processNextChunk() {
-                const chunk = dataRows.slice(i, i + rowsPerChunk);
-                chunk.forEach(row => {
-                    row.element.style.display = ''; // Show each element in the chunk
-                });
-
-                i += rowsPerChunk;
-                if (i < dataRows.length) {
-                    requestAnimationFrame(processNextChunk); // Smooth updates
-                } else {
-                    // Once all rows are processed, we can reveal the table
-                    table.style.visibility = 'visible';
-                }
-            }
-
-            requestAnimationFrame(processNextChunk); // Start chunked processing
-        }
-
-        // Optimized filterTable function
+    
         function filterTable() {
             const searchValue = document.getElementById('search').value.toLowerCase();
             const levelValue = parseInt(document.getElementById('level').value, 10);
             const ownedGearChecked = document.getElementById('ownedGear').checked;
             const filterWorseItemsChecked = document.getElementById('filterWorseItems').checked;
+            const itemType = document.getElementById('itemType').value;
             const table = document.getElementById('gearTable');
+            const rows = Array.from(table.querySelectorAll('tr:not(:first-child)'));
             const headers = Array.from(table.querySelectorAll('tr:first-child th'));
-
-            // Cache column indices to avoid repeated DOM access
+        
+            // Cache column indices
             const columnIndices = {
                 healthIndex: headers.findIndex(th => th.textContent === 'Health'),
                 damageIndex: headers.findIndex(th => th.textContent === 'Damage'),
@@ -276,72 +256,95 @@
                 shadowPipIndex: headers.findIndex(th => th.textContent === 'Shadow Pip'),
                 archmasteryIndex: headers.findIndex(th => th.textContent === 'Archmastery'),
                 gearSetIndex: headers.findIndex(th => th.textContent === 'Gear Set'),
+                startingPipsIndex: headers.findIndex(th => th.textContent === 'Starting Pips'),
+                lockedCircleIndex: headers.findIndex(th => th.textContent === 'Locked Circle'),
+                shieldPinsIndex: headers.findIndex(th => th.textContent === 'Shield Pins'),
                 ownedIndex: headers.findIndex(th => th.textContent === 'Owned'),
+                sourceIndex: headers.findIndex(th => th.textContent === 'Source')
             };
-
-            let dataRows = [];
-            const rows = Array.from(table.querySelectorAll('tr:not(:first-child)')); // Get all rows excluding header
-            
-            // Pre-process table data
+        
+            // Define relevant columns based on item type
+            let relevantColumns = [
+                columnIndices.healthIndex, columnIndices.damageIndex, columnIndices.resistIndex,
+                columnIndices.accuracyIndex, columnIndices.powerPipIndex, columnIndices.criticalIndex,
+                columnIndices.criticalBlockIndex, columnIndices.pierceIndex, columnIndices.stunResistIndex,
+                columnIndices.incomingIndex, columnIndices.outgoingIndex, columnIndices.pipConserveIndex,
+                columnIndices.shadowPipIndex, columnIndices.archmasteryIndex
+            ];
+        
+            // Add specific columns for certain gear types
+            if (["Wands", "Decks"].includes(itemType)) {
+                relevantColumns.push(columnIndices.startingPipsIndex);
+            } else if (["Athames", "Amulets", "Rings"].includes(itemType)) {
+                relevantColumns.push(columnIndices.lockedCircleIndex);
+            } else if (["Hats", "Robes", "Boots"].includes(itemType)) {
+                relevantColumns.push(columnIndices.shieldPinsIndex);
+            }
+        
+            // Create an array to track valid rows
+            let validRows = [];
+        
+            // First pass: apply search, level, owned filters and determine valid rows
             rows.forEach(row => {
                 const cells = Array.from(row.children);
-                const rowData = {
-                    element: row,  // Keep reference to the DOM element for final update
-                    name: cells[0]?.textContent.toLowerCase(),
-                    level: parseInt(cells[1]?.textContent || 0, 10),
-                    owned: cells[columnIndices.ownedIndex]?.textContent.trim() === "True",
-                    gearSet: cells[columnIndices.gearSetIndex]?.textContent.trim(),
-                    stats: [
-                        parseInt(cells[columnIndices.healthIndex]?.textContent || 0, 10),
-                        parseInt(cells[columnIndices.damageIndex]?.textContent || 0, 10),
-                        // Add other relevant stats here...
-                    ]
-                };
-                dataRows.push(rowData);
+                const nameMatch = cells[0]?.textContent.toLowerCase().includes(searchValue);
+                const levelMatch = parseInt(cells[1]?.textContent, 10) <= levelValue;
+                const ownedMatch = !ownedGearChecked || cells[columnIndices.ownedIndex]?.textContent.trim() === "True";
+        
+                if (nameMatch && levelMatch && ownedMatch) {
+                    validRows.push(row);
+                    row.style.display = ''; // Initially show valid rows
+                } else {
+                    row.style.display = 'none'; // Hide non-matching rows
+                }
             });
-
-            // Apply search, level, and owned filters
-            dataRows = dataRows.filter(row => {
-                const nameMatch = row.name.includes(searchValue);
-                const levelMatch = row.level <= levelValue;
-                const ownedMatch = !ownedGearChecked || row.owned;
-                return nameMatch && levelMatch && ownedMatch;
-            });
-
-            // Filter "worse" items logic
+        
+            // Second pass: filter out worse items
             if (filterWorseItemsChecked) {
-                let toRemove = new Set();
-                for (let i = 0; i < dataRows.length; i++) {
-                    for (let j = 0; j < dataRows.length; j++) {
-                        if (i !== j && !toRemove.has(dataRows[i])) {
-                            const row1 = dataRows[i];
-                            const row2 = dataRows[j];
-
-                            let isWorse = true;
-                            for (let k = 0; k < row1.stats.length; k++) {
-                                if (row1.stats[k] > row2.stats[k]) {
-                                    isWorse = false;
-                                    break;
-                                }
-                            }
-
-                            if (isWorse && row2.gearSet === "None") {
-                                toRemove.add(row1);
+                // Now check each valid row against each other
+                for (let i = 0; i < validRows.length; i++) {
+                    const currentRow = validRows[i];
+                    const currentCells = Array.from(currentRow.children);
+                    const currentGearSet = currentCells[columnIndices.gearSetIndex]?.textContent.trim();
+                    const currentStats = relevantColumns.map(index => parseInt(currentCells[index]?.textContent || 0, 10));
+                    let isWorse = false;
+        
+                    for (let j = 0; j < validRows.length; j++) {
+                        if (i === j) continue; // Skip self-comparison
+        
+                        const otherRow = validRows[j];
+                        const otherCells = Array.from(otherRow.children);
+                        const otherGearSet = otherCells[columnIndices.gearSetIndex]?.textContent.trim();
+                        const otherStats = relevantColumns.map(index => parseInt(otherCells[index]?.textContent || 0, 10));
+        
+                        // Check if the current row is worse than the other row
+                        let worseCount = 0;
+                        for (let k = 0; k < currentStats.length; k++) {
+                            if (currentStats[k] < otherStats[k]) {
+                                worseCount++;
+                            } else if (currentStats[k] > otherStats[k]) {
+                                // If current is better, break out early
+                                worseCount = 0;
+                                break;
                             }
                         }
+        
+                        // If it's worse in all relevant columns
+                        if (worseCount === currentStats.length && otherGearSet === "None") {
+                            currentRow.style.display = 'none'; // Remove the current row from display
+                            isWorse = true;
+                            break; // No need to check other rows
+                        }
+                    }
+                    // If two items are identical, keep them both
+                    if (!isWorse) {
+                        validRows.push(currentRow); // Maintain this valid row
                     }
                 }
-
-                dataRows = dataRows.filter(row => !toRemove.has(row));
             }
-
-            // Clear and re-populate the table
-            table.style.visibility = 'hidden'; // Hide the table during updates
-            rows.forEach(row => (row.style.display = 'none')); // Hide all rows
-            processInChunks(dataRows); // Show filtered rows in chunks
         }
         
-        
+    
         function sortTable(columnIndex, columnName) {
             const table = document.getElementById('gearTable');
             const rows = Array.from(table.querySelectorAll('tr:not(:first-child)')); // Exclude header row
