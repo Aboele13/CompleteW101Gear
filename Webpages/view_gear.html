@@ -238,111 +238,108 @@
             const rows = Array.from(table.querySelectorAll('tr:not(:first-child)'));
             const headers = Array.from(table.querySelectorAll('tr:first-child th'));
         
-            // Cache column indices
-            const columnIndices = {
-                healthIndex: headers.findIndex(th => th.textContent === 'Health'),
-                damageIndex: headers.findIndex(th => th.textContent === 'Damage'),
-                resistIndex: headers.findIndex(th => th.textContent === 'Resist'),
-                accuracyIndex: headers.findIndex(th => th.textContent === 'Accuracy'),
-                powerPipIndex: headers.findIndex(th => th.textContent === 'Power Pip'),
-                criticalIndex: headers.findIndex(th => th.textContent === 'Critical'),
-                criticalBlockIndex: headers.findIndex(th => th.textContent === 'Critical Block'),
-                pierceIndex: headers.findIndex(th => th.textContent === 'Pierce'),
-                stunResistIndex: headers.findIndex(th => th.textContent === 'Stun Resist'),
-                incomingIndex: headers.findIndex(th => th.textContent === 'Incoming'),
-                outgoingIndex: headers.findIndex(th => th.textContent === 'Outgoing'),
-                pipConserveIndex: headers.findIndex(th => th.textContent === 'Pip Conserve'),
-                shadowPipIndex: headers.findIndex(th => th.textContent === 'Shadow Pip'),
-                archmasteryIndex: headers.findIndex(th => th.textContent === 'Archmastery'),
-                gearSetIndex: headers.findIndex(th => th.textContent === 'Gear Set'),
-                startingPipsIndex: headers.findIndex(th => th.textContent === 'Starting Pips'),
-                lockedCircleIndex: headers.findIndex(th => th.textContent === 'Locked Circle'),
-                shieldPinsIndex: headers.findIndex(th => th.textContent === 'Shield Pins'),
-                ownedIndex: headers.findIndex(th => th.textContent === 'Owned'),
-                sourceIndex: headers.findIndex(th => th.textContent === 'Source')
-            };
+            // Column indices for common attributes
+            const healthIndex = headers.findIndex(th => th.textContent === 'Health');
+            const damageIndex = headers.findIndex(th => th.textContent === 'Damage');
+            const resistIndex = headers.findIndex(th => th.textContent === 'Resist');
+            const accuracyIndex = headers.findIndex(th => th.textContent === 'Accuracy');
+            const powerPipIndex = headers.findIndex(th => th.textContent === 'Power Pip');
+            const criticalIndex = headers.findIndex(th => th.textContent === 'Critical');
+            const criticalBlockIndex = headers.findIndex(th => th.textContent === 'Critical Block');
+            const pierceIndex = headers.findIndex(th => th.textContent === 'Pierce');
+            const stunResistIndex = headers.findIndex(th => th.textContent === 'Stun Resist');
+            const incomingIndex = headers.findIndex(th => th.textContent === 'Incoming');
+            const outgoingIndex = headers.findIndex(th => th.textContent === 'Outgoing');
+            const pipConserveIndex = headers.findIndex(th => th.textContent === 'Pip Conserve');
+            const shadowPipIndex = headers.findIndex(th => th.textContent === 'Shadow Pip');
+            const archmasteryIndex = headers.findIndex(th => th.textContent === 'Archmastery');
+            const gearSetIndex = headers.findIndex(th => th.textContent === 'Gear Set');
+            
+            // Additional columns based on gear type
+            const startingPipsIndex = headers.findIndex(th => th.textContent === 'Starting Pips');
+            const lockedCircleIndex = headers.findIndex(th => th.textContent === 'Locked Circle');
+            const shieldPinsIndex = headers.findIndex(th => th.textContent === 'Shield Pins');
         
-            // Define relevant columns based on item type
-            let relevantColumns = [
-                columnIndices.healthIndex, columnIndices.damageIndex, columnIndices.resistIndex,
-                columnIndices.accuracyIndex, columnIndices.powerPipIndex, columnIndices.criticalIndex,
-                columnIndices.criticalBlockIndex, columnIndices.pierceIndex, columnIndices.stunResistIndex,
-                columnIndices.incomingIndex, columnIndices.outgoingIndex, columnIndices.pipConserveIndex,
-                columnIndices.shadowPipIndex, columnIndices.archmasteryIndex
-            ];
+            const ownedIndex = headers.findIndex(th => th.textContent === 'Owned');
+            const sourceIndex = headers.findIndex(th => th.textContent === 'Source');
         
-            // Add specific columns for certain gear types
-            if (["Wands", "Decks"].includes(itemType)) {
-                relevantColumns.push(columnIndices.startingPipsIndex);
-            } else if (["Athames", "Amulets", "Rings"].includes(itemType)) {
-                relevantColumns.push(columnIndices.lockedCircleIndex);
-            } else if (["Hats", "Robes", "Boots"].includes(itemType)) {
-                relevantColumns.push(columnIndices.shieldPinsIndex);
-            }
+            const checkedSources = Array.from(document.querySelectorAll('.checkbox-group input[type="checkbox"]:checked'))
+                .map(checkbox => checkbox.nextSibling.textContent.trim());
         
-            // Create an array to track valid rows
-            let validRows = [];
-        
-            // First pass: apply search, level, owned filters and determine valid rows
             rows.forEach(row => {
                 const cells = Array.from(row.children);
-                const nameMatch = cells[0]?.textContent.toLowerCase().includes(searchValue);
-                const levelMatch = parseInt(cells[1]?.textContent, 10) <= levelValue;
-                const ownedMatch = !ownedGearChecked || cells[columnIndices.ownedIndex]?.textContent.trim() === "True";
+                const nameCell = cells[0]; // Assuming "Name" column is the first column
+                const levelCell = cells[1]; // Assuming "Level" column is the second column
+                const sourceCell = sourceIndex >= 0 ? cells[sourceIndex] : null;
+                const ownedCell = ownedIndex >= 0 ? cells[ownedIndex] : null;
         
-                if (nameMatch && levelMatch && ownedMatch) {
-                    validRows.push(row);
-                    row.style.display = ''; // Initially show valid rows
+                const nameMatch = nameCell && nameCell.textContent.toLowerCase().includes(searchValue);
+                const levelMatch = levelCell && parseInt(levelCell.textContent, 10) <= levelValue;
+                const ownedMatch = !ownedGearChecked || (ownedCell && ownedCell.textContent.trim() === "True");
+        
+                let sourceMatch = false;
+                if (sourceCell && checkedSources.length > 0) {
+                    sourceMatch = checkedSources.some(source => {
+                        const regex = new RegExp(`(^|, )${source}($|,)`, 'i');
+                        return regex.test(sourceCell.textContent);
+                    });
+                } else if (sourceCell) {
+                    sourceMatch = false;
                 } else {
-                    row.style.display = 'none'; // Hide non-matching rows
+                    sourceMatch = true;
                 }
+        
+                row.style.display = nameMatch && levelMatch && sourceMatch && ownedMatch ? '' : 'none';
             });
         
-            // Second pass: filter out worse items
+            // Step 2: Second pass - filter out worse items
             if (filterWorseItemsChecked) {
-                // Now check each valid row against each other
+                const rowsToHide = new Set(); // Track rows to hide
+
                 for (let i = 0; i < validRows.length; i++) {
                     const currentRow = validRows[i];
                     const currentCells = Array.from(currentRow.children);
                     const currentGearSet = currentCells[columnIndices.gearSetIndex]?.textContent.trim();
                     const currentStats = relevantColumns.map(index => parseInt(currentCells[index]?.textContent || 0, 10));
                     let isWorse = false;
-        
+
                     for (let j = 0; j < validRows.length; j++) {
                         if (i === j) continue; // Skip self-comparison
-        
+
                         const otherRow = validRows[j];
                         const otherCells = Array.from(otherRow.children);
                         const otherGearSet = otherCells[columnIndices.gearSetIndex]?.textContent.trim();
                         const otherStats = relevantColumns.map(index => parseInt(otherCells[index]?.textContent || 0, 10));
-        
-                        // Check if the current row is worse than the other row
-                        let worseCount = 0;
-                        for (let k = 0; k < currentStats.length; k++) {
-                            if (currentStats[k] < otherStats[k]) {
-                                worseCount++;
-                            } else if (currentStats[k] > otherStats[k]) {
-                                // If current is better, break out early
-                                worseCount = 0;
-                                break;
-                            }
-                        }
-        
-                        // If it's worse in all relevant columns
-                        if (worseCount === currentStats.length && otherGearSet === "None") {
-                            currentRow.style.display = 'none'; // Remove the current row from display
+
+                        // Check if current row is worse than the other row
+                        const isIdentical = currentStats.every((stat, index) => stat === otherStats[index]);
+                        const isWorseInAll = currentStats.every((stat, index) => stat < otherStats[index]);
+
+                        // Hide current row if it's worse and the other has no gear set
+                        if (isWorseInAll && otherGearSet === "None") {
+                            rowsToHide.add(currentRow); // Mark for hiding
                             isWorse = true;
-                            break; // No need to check other rows
+                            break; // Stop checking further if found worse
+                        }
+
+                        // If they are identical, we keep both
+                        if (isIdentical) {
+                            isWorse = false;
                         }
                     }
-                    // If two items are identical, keep them both
-                    if (!isWorse) {
-                        validRows.push(currentRow); // Maintain this valid row
+
+                    // Only apply hiding if marked
+                    if (isWorse) {
+                        currentRow.style.display = 'none'; // Remove current row from display
                     }
                 }
+
+                // Step 3: Hide rows marked for hiding
+                rowsToHide.forEach(row => {
+                    row.style.display = 'none';
+                });
             }
         }
-        
         
     
         function sortTable(columnIndex, columnName) {
