@@ -214,37 +214,40 @@
                     const table = document.getElementById('gearTable');
                     table.innerHTML = '';
 
-                    // Create table headers with checkboxes
+                    // Create table headers
                     const headers = results.meta.fields;
                     const headerRow = document.createElement('tr');
-                    const checkboxTh = document.createElement('th');
-                    checkboxTh.textContent = "Select";
-                    headerRow.appendChild(checkboxTh); // Checkbox column header
 
                     headers.forEach((header, index) => {
                         const th = document.createElement('th');
                         th.textContent = header;
-                        th.onclick = () => sortTable(index + 1, header); // +1 to account for checkbox column
+                        th.onclick = () => sortTable(index, header); // Adjusted to account for no extra checkbox column
                         headerRow.appendChild(th);
                     });
+
+                    // Adding checkbox to the "Owned" column
+                    const ownedTh = document.createElement('th');
+                    ownedTh.textContent = "Owned";
+                    headerRow.appendChild(ownedTh); // Adding "Owned" column header
                     table.appendChild(headerRow);
 
-                    // Create table rows with checkboxes
+                    // Create table rows with checkboxes in the "Owned" column
                     results.data.forEach((row) => {
                         const tr = document.createElement('tr');
-                        const checkboxTd = document.createElement('td');
-                        const checkbox = document.createElement('input');
-                        checkbox.type = 'checkbox';
-                        checkbox.checked = row.Owned === 'True';
-                        checkbox.onchange = () => updateOwnedGear(row, checkbox.checked, tr);
-                        checkboxTd.appendChild(checkbox);
-                        tr.appendChild(checkboxTd);
 
                         headers.forEach(header => {
                             const td = document.createElement('td');
                             td.textContent = row[header] || ''; // Handle empty values
                             tr.appendChild(td);
                         });
+
+                        const ownedTd = document.createElement('td');
+                        const checkbox = document.createElement('input');
+                        checkbox.type = 'checkbox';
+                        checkbox.checked = row.Owned === 'True';
+                        checkbox.onchange = () => updateOwnedGear(row, checkbox.checked);
+                        ownedTd.appendChild(checkbox);
+                        tr.appendChild(ownedTd);
 
                         table.appendChild(tr);
                     });
@@ -255,15 +258,13 @@
             });
         }
 
-        // Add or remove gear from owned list and update the "Owned" column
-        function updateOwnedGear(row, isChecked, tr) {
+        // Add or remove gear from owned list when checkbox is toggled
+        function updateOwnedGear(row, isChecked) {
             const itemName = row['Name'];
             if (isChecked) {
                 ownedGearSet.add(itemName);
-                tr.children[tr.children.length - 1].textContent = "True"; // Update the "Owned" column
             } else {
                 ownedGearSet.delete(itemName);
-                tr.children[tr.children.length - 1].textContent = "False"; // Update the "Owned" column
             }
             updatePreview();
         }
