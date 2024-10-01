@@ -221,17 +221,13 @@
                     headers.forEach((header, index) => {
                         const th = document.createElement('th');
                         th.textContent = header;
-                        th.onclick = () => sortTable(index, header); // Adjusted to account for no extra checkbox column
+                        th.onclick = () => sortTable(index, header); // Sort function bound to header click
                         headerRow.appendChild(th);
                     });
 
-                    // Adding checkbox to the "Owned" column
-                    const ownedTh = document.createElement('th');
-                    ownedTh.textContent = "Owned";
-                    headerRow.appendChild(ownedTh); // Adding "Owned" column header
-                    table.appendChild(headerRow);
+                    table.appendChild(headerRow); // Append header row
 
-                    // Create table rows with checkboxes in the "Owned" column
+                    // Create table rows
                     results.data.forEach((row) => {
                         const tr = document.createElement('tr');
 
@@ -241,15 +237,16 @@
                             tr.appendChild(td);
                         });
 
-                        const ownedTd = document.createElement('td');
+                        // "Owned" column checkbox
+                        const ownedTd = tr.querySelector('td:last-child'); // Get the "Owned" column
                         const checkbox = document.createElement('input');
                         checkbox.type = 'checkbox';
-                        checkbox.checked = row.Owned === 'True';
+                        checkbox.checked = (row.Owned && row.Owned.trim().toLowerCase() === 'true');
                         checkbox.onchange = () => updateOwnedGear(row, checkbox.checked);
-                        ownedTd.appendChild(checkbox);
-                        tr.appendChild(ownedTd);
+                        ownedTd.innerHTML = ''; // Clear existing "True"/"False" value
+                        ownedTd.appendChild(checkbox); // Add checkbox
 
-                        table.appendChild(tr);
+                        table.appendChild(tr); // Append row to table
                     });
 
                     // Apply filters
