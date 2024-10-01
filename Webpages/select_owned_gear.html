@@ -138,7 +138,7 @@
 
     <div class="tabs">
         <a href="select_owned_gear.html" class="disabled">Select Owned Gear</a>
-        <a href="view_gear.html">View Gear</a>
+        <a href="view_ear.html">View Gear</a>
         <a href="view_sets.html">View Sets</a>
         <a href="create_sets.html">Create Sets</a>
     </div>
@@ -190,7 +190,6 @@
     <div class="action-buttons">
         <input type="file" id="uploadOwnedGear" accept=".txt" style="display:none" />
         <button onclick="document.getElementById('uploadOwnedGear').click()">Upload Owned Gear</button>
-        <button onclick="previewOwnedGear()">Preview Owned Gear</button>
         <button onclick="downloadOwnedGear()">Download Owned Gear</button>
     </div>
 
@@ -201,7 +200,6 @@
     <table id="gearTable"></table>
 
     <script>
-        let ownedGearList = []; // List to track owned gear names
         let ownedGearSet = new Set(); // Set to prevent duplicates
 
         function loadCSV() {
@@ -232,13 +230,13 @@
                     table.appendChild(headerRow);
 
                     // Create table rows with checkboxes
-                    results.data.forEach((row, rowIndex) => {
+                    results.data.forEach((row) => {
                         const tr = document.createElement('tr');
                         const checkboxTd = document.createElement('td');
                         const checkbox = document.createElement('input');
                         checkbox.type = 'checkbox';
                         checkbox.checked = row.Owned === 'True';
-                        checkbox.onchange = () => updateOwnedGear(row, checkbox.checked);
+                        checkbox.onchange = () => updateOwnedGear(row, checkbox.checked, tr);
                         checkboxTd.appendChild(checkbox);
                         tr.appendChild(checkboxTd);
 
@@ -257,29 +255,23 @@
             });
         }
 
-        // Add or remove gear from owned list
-        function updateOwnedGear(row, isChecked) {
+        // Add or remove gear from owned list and update the "Owned" column
+        function updateOwnedGear(row, isChecked, tr) {
             const itemName = row['Name'];
             if (isChecked) {
                 ownedGearSet.add(itemName);
-                row['Owned'] = 'True'; // Update the Owned field to True
+                tr.children[tr.children.length - 1].textContent = "True"; // Update the "Owned" column
             } else {
                 ownedGearSet.delete(itemName);
-                row['Owned'] = 'False'; // Update the Owned field to False
+                tr.children[tr.children.length - 1].textContent = "False"; // Update the "Owned" column
             }
-            updatePreview(); // Update preview on each change
+            updatePreview();
         }
 
-        // Update preview content with owned gear
+        // Update preview of owned gear
         function updatePreview() {
             const previewContent = Array.from(ownedGearSet).join("\n");
             document.getElementById('previewContent').textContent = previewContent || "No owned gear selected.";
-        }
-
-        // Preview the owned gear list
-        function previewOwnedGear() {
-            const previewContent = Array.from(ownedGearSet).join("\n");
-            alert(previewContent || "No owned gear selected.");
         }
 
         // Download owned gear as txt file
@@ -306,8 +298,6 @@
                 reader.readAsText(file);
             }
         });
-
-        // Existing functions: filterTable, sortTable...
 
         // Filtering function
         function filterTable() {
