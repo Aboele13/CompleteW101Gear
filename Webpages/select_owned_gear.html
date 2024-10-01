@@ -96,6 +96,38 @@
             padding: 10px;
             text-align: left;
         }
+
+        .action-buttons {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .action-buttons button {
+            font-size: 16px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+            background-color: #28a745;
+            color: white;
+            cursor: pointer;
+        }
+        .action-buttons button:hover {
+            background-color: #218838;
+        }
+
+        .preview-container {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .preview-container pre {
+            background-color: #f8f9fa;
+            border: 1px solid #ccc;
+            padding: 10px;
+            display: inline-block;
+            width: 80%;
+            text-align: left;
+        }
     </style>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
@@ -143,7 +175,6 @@
             <label for="level">Level:</label>
             <select id="level" onchange="filterTable()">
                 <script>
-                    <!-- UPDATE WITH NEW WORLDS -->
                     for (let i = 170; i >= 1; i--) {
                         document.write('<option value="' + i + '">' + i + '</option>');
                     }
@@ -156,74 +187,142 @@
         <input type="text" id="search" oninput="filterTable()" placeholder="Search for item names...">
     </div>
 
+    <div class="action-buttons">
+        <input type="file" id="uploadOwnedGear" accept=".txt" style="display:none" />
+        <button onclick="document.getElementById('uploadOwnedGear').click()">Upload Owned Gear</button>
+        <button onclick="previewOwnedGear()">Preview Owned Gear</button>
+        <button onclick="downloadOwnedGear()">Download Owned Gear</button>
+    </div>
+
+    <div class="preview-container" id="previewContainer">
+        <pre id="previewContent">No owned gear selected.</pre>
+    </div>
+
     <table id="gearTable"></table>
 
     <script>
+        let ownedGearList = []; // List to track owned gear names
+        let ownedGearSet = new Set(); // Set to prevent duplicates
+
         function loadCSV() {
             const school = document.getElementById('school').value;
             const itemType = document.getElementById('itemType').value;
             const csvUrl = `https://aboele13.github.io/CompleteW101Gear/Gear/${school}_Gear/${school}_${itemType}.csv`;
-    
+
             Papa.parse(csvUrl, {
                 download: true,
                 header: true,
                 complete: function(results) {
                     const table = document.getElementById('gearTable');
                     table.innerHTML = '';
-    
-                    // Create table headers
+
+                    // Create table headers with checkboxes
                     const headers = results.meta.fields;
                     const headerRow = document.createElement('tr');
+                    const checkboxTh = document.createElement('th');
+                    checkboxTh.textContent = "Select";
+                    headerRow.appendChild(checkboxTh); // Checkbox column header
+
                     headers.forEach((header, index) => {
                         const th = document.createElement('th');
                         th.textContent = header;
-                        th.onclick = () => sortTable(index, header);
+                        th.onclick = () => sortTable(index + 1, header); // +1 to account for checkbox column
                         headerRow.appendChild(th);
                     });
                     table.appendChild(headerRow);
-    
-                    // Create table rows
-                    results.data.forEach(row => {
+
+                    // Create table rows with checkboxes
+                    results.data.forEach((row, rowIndex) => {
                         const tr = document.createElement('tr');
+                        const checkboxTd = document.createElement('td');
+                        const checkbox = document.createElement('input');
+                        checkbox.type = 'checkbox';
+                        checkbox.checked = row.Owned === 'True';
+                        checkbox.onchange = () => updateOwnedGear(row, checkbox.checked);
+                        checkboxTd.appendChild(checkbox);
+                        tr.appendChild(checkboxTd);
+
                         headers.forEach(header => {
                             const td = document.createElement('td');
                             td.textContent = row[header] || ''; // Handle empty values
                             tr.appendChild(td);
                         });
+
                         table.appendChild(tr);
                     });
-    
+
                     // Apply filters
                     filterTable();
                 }
             });
         }
-    
-        function filterTable() {
-            const searchValue = document.getElementById('search').value.toLowerCase();
-            const levelValue = parseInt(document.getElementById('level').value, 10);
-            const table = document.getElementById('gearTable');
-            const rows = table.querySelectorAll('tr:not(:first-child)');
-            const headers = Array.from(table.querySelectorAll('tr:first-child th'));
-            const ownedIndex = headers.findIndex(th => th.textContent === 'Owned');
-        
-            rows.forEach(row => {
-                const cells = Array.from(row.children);
-                const nameCell = cells[0]; // Assuming "Name" column is the first column
-                const levelCell = cells[1]; // Assuming "Level" column is the second column
-                const ownedCell = ownedIndex >= 0 ? cells[ownedIndex] : null; // Check if "Owned" column exists
-        
-                const nameMatch = nameCell && nameCell.textContent.toLowerCase().includes(searchValue);
-                const levelMatch = levelCell && parseInt(levelCell.textContent, 10) <= levelValue;
-        
-                if (nameMatch && levelMatch) {
-                    row.style.display = '';
-                } else {
-                    row.style.display = 'none';
-                }
-            });
+
+        // Add or remove gear from owned list
+        function updateOwnedGear(row, isChecked) {
+            const itemName = row['Name'];
+            if (isChecked) {
+                ownedGearSet.add(itemName);
+                row['Owned'] = 'True'; // Update the Owned field to True
+            } else {
+                ownedGearSet.delete(itemName);
+                row['Owned'] = 'False'; // Update the Owned field to False
+            }
+            updatePreview(); // Update preview on each change
         }
-    
+
+        // Update preview content with owned gear
+        function updatePreview() {
+            const previewContent = Array.from(ownedGearSet).join("\n");
+            document.getElementById('previewContent').textContent = previewContent || "No owned gear selected.";
+        }
+
+        // Preview the owned gear list
+        function previewOwnedGear() {
+            const previewContent = Array.from(ownedGearSet).join("\n");
+            alert(previewContent || "No owned gear selected.");
+        }
+
+        // Download owned gear as txt file
+        function downloadOwnedGear() {
+            const ownedGearContent = Array.from(ownedGearSet).join("\n");
+            const blob = new Blob([ownedGearContent], { type: "text/plain" });
+            const link = document.createElement("a");
+            link.href = URL.createObjectURL(blob);
+            link.download = "owned_gear.txt";
+            link.click();
+        }
+
+        // Handle file upload to restore owned gear
+        document.getElementById('uploadOwnedGear').addEventListener('change', function(event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    const content = e.target.result.split("\n");
+                    ownedGearSet = new Set(content.map(item => item.trim())); // Update owned gear set
+                    updatePreview(); // Update the preview based on uploaded file
+                    loadCSV(); // Reload CSV to reflect owned state
+                };
+                reader.readAsText(file);
+            }
+        });
+
+        // Existing functions: filterTable, sortTable...
+
+        // Filtering function
+        function filterTable() {
+            const searchTerm = document.getElementById('search').value.toLowerCase();
+            const levelFilter = document.getElementById('level').value;
+            const table = document.getElementById('gearTable');
+            const rows = table.getElementsByTagName('tr');
+            for (let i = 1; i < rows.length; i++) {
+                const name = rows[i].getElementsByTagName('td')[1].textContent.toLowerCase(); // Assuming 2nd column is Name
+                const level = rows[i].getElementsByTagName('td')[3].textContent; // Assuming 4th column is Level
+                rows[i].style.display = (name.includes(searchTerm) && (!levelFilter || level === levelFilter)) ? '' : 'none';
+            }
+        }
+
+        // Sorting function
         function sortTable(columnIndex, columnName) {
             const table = document.getElementById('gearTable');
             const rows = Array.from(table.querySelectorAll('tr:not(:first-child)')); // Exclude header row
@@ -246,19 +345,9 @@
             // Append sorted rows back to table
             rows.forEach(row => table.appendChild(row));
         }
-    
-        document.querySelectorAll('.checkbox-group input[type="checkbox"]').forEach(checkbox => {
-            checkbox.addEventListener('change', () => {
-                filterTable();
-            });
-        });
-    
-        document.getElementById('search').addEventListener('input', filterTable);
-        document.getElementById('level').addEventListener('change', filterTable);
-    
+
         // Initial load
         loadCSV();
     </script>
-    
 </body>
 </html>
