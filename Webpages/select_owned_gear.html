@@ -238,12 +238,12 @@
                         });
 
                         // "Owned" column checkbox
-                        const ownedTd = tr.querySelector('td:last-child'); // Get the "Owned" column
+                        const ownedTd = tr.cells[headers.indexOf('Owned')]; // Get the "Owned" column index
                         const checkbox = document.createElement('input');
                         checkbox.type = 'checkbox';
                         checkbox.checked = (row.Owned && row.Owned.trim().toLowerCase() === 'true');
                         checkbox.onchange = () => updateOwnedGear(row, checkbox.checked);
-                        ownedTd.innerHTML = ''; // Clear existing "True"/"False" value
+                        ownedTd.innerHTML = ''; // Clear existing content in the "Owned" cell
                         ownedTd.appendChild(checkbox); // Add checkbox
 
                         table.appendChild(tr); // Append row to table
