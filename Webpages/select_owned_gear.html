@@ -36,12 +36,69 @@
             background-color: #a9a9a9;
             cursor: default;
         }
-        .message {
+        .dropdowns {
             margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .dropdowns select {
+            font-size: 18px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .dropdowns label {
             font-size: 20px;
-            line-height: 1.6;
+            margin-right: 10px;
+        }
+        .checkbox-group {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .checkbox-group label {
+            font-size: 18px;
+            margin-bottom: 5px;
+            display: flex;
+            align-items: center;
+        }
+        .checkbox-group input[type="checkbox"] {
+            margin-right: 10px;
+        }
+        .search-container {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        .search-container input[type="text"] {
+            font-size: 18px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            width: 200px;
+        }
+        table {
+            margin-top: 30px;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
         }
     </style>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
 </head>
 <body>
 
@@ -54,9 +111,154 @@
         <a href="create_sets.html">Create Sets</a>
     </div>
 
-    <div class="message">
-        This tab's functionality is still in progress.
+    <div class="dropdowns">
+        <div>
+            <label for="school">School:</label>
+            <select id="school" onchange="loadCSV()">
+                <option value="Balance">Balance</option>
+                <option value="Death">Death</option>
+                <option value="Fire">Fire</option>
+                <option value="Ice">Ice</option>
+                <option value="Life">Life</option>
+                <option value="Myth">Myth</option>
+                <option value="Storm">Storm</option>
+            </select>
+        </div>
+        <div>
+            <label for="itemType">Item Type:</label>
+            <select id="itemType" onchange="loadCSV()">
+                <option value="Hats">Hat</option>
+                <option value="Robes">Robe</option>
+                <option value="Boots">Boots</option>
+                <option value="Wands">Wand</option>
+                <option value="Athames">Athame</option>
+                <option value="Amulets">Amulet</option>
+                <option value="Rings">Ring</option>
+                <option value="Pets">Pet</option>
+                <option value="Mounts">Mount</option>
+                <option value="Decks">Deck</option>
+            </select>
+        </div>
+        <div>
+            <label for="level">Level:</label>
+            <select id="level" onchange="filterTable()">
+                <script>
+                    <!-- UPDATE WITH NEW WORLDS -->
+                    for (let i = 170; i >= 1; i--) {
+                        document.write('<option value="' + i + '">' + i + '</option>');
+                    }
+                </script>
+            </select>
+        </div>
     </div>
 
+    <div class="search-container">
+        <input type="text" id="search" oninput="filterTable()" placeholder="Search for item names...">
+    </div>
+
+    <table id="gearTable"></table>
+
+    <script>
+        function loadCSV() {
+            const school = document.getElementById('school').value;
+            const itemType = document.getElementById('itemType').value;
+            const csvUrl = `https://aboele13.github.io/CompleteW101Gear/Gear/${school}_Gear/${school}_${itemType}.csv`;
+    
+            Papa.parse(csvUrl, {
+                download: true,
+                header: true,
+                complete: function(results) {
+                    const table = document.getElementById('gearTable');
+                    table.innerHTML = '';
+    
+                    // Create table headers
+                    const headers = results.meta.fields;
+                    const headerRow = document.createElement('tr');
+                    headers.forEach((header, index) => {
+                        const th = document.createElement('th');
+                        th.textContent = header;
+                        th.onclick = () => sortTable(index, header);
+                        headerRow.appendChild(th);
+                    });
+                    table.appendChild(headerRow);
+    
+                    // Create table rows
+                    results.data.forEach(row => {
+                        const tr = document.createElement('tr');
+                        headers.forEach(header => {
+                            const td = document.createElement('td');
+                            td.textContent = row[header] || ''; // Handle empty values
+                            tr.appendChild(td);
+                        });
+                        table.appendChild(tr);
+                    });
+    
+                    // Apply filters
+                    filterTable();
+                }
+            });
+        }
+    
+        function filterTable() {
+            const searchValue = document.getElementById('search').value.toLowerCase();
+            const levelValue = parseInt(document.getElementById('level').value, 10);
+            const table = document.getElementById('gearTable');
+            const rows = table.querySelectorAll('tr:not(:first-child)');
+            const headers = Array.from(table.querySelectorAll('tr:first-child th'));
+            const ownedIndex = headers.findIndex(th => th.textContent === 'Owned');
+        
+            rows.forEach(row => {
+                const cells = Array.from(row.children);
+                const nameCell = cells[0]; // Assuming "Name" column is the first column
+                const levelCell = cells[1]; // Assuming "Level" column is the second column
+                const ownedCell = ownedIndex >= 0 ? cells[ownedIndex] : null; // Check if "Owned" column exists
+        
+                const nameMatch = nameCell && nameCell.textContent.toLowerCase().includes(searchValue);
+                const levelMatch = levelCell && parseInt(levelCell.textContent, 10) <= levelValue;
+        
+                if (nameMatch && levelMatch) {
+                    row.style.display = '';
+                } else {
+                    row.style.display = 'none';
+                }
+            });
+        }
+    
+        function sortTable(columnIndex, columnName) {
+            const table = document.getElementById('gearTable');
+            const rows = Array.from(table.querySelectorAll('tr:not(:first-child)')); // Exclude header row
+            const isNumericColumn = columnName !== 'Name' && columnName !== 'Source' && columnName !== 'Owned' && columnName !== 'Gear Set';
+            
+            // Sorting logic
+            rows.sort((a, b) => {
+                const aText = a.children[columnIndex].textContent.trim();
+                const bText = b.children[columnIndex].textContent.trim();
+                
+                if (isNumericColumn) {
+                    const aValue = parseFloat(aText) || 0;
+                    const bValue = parseFloat(bText) || 0;
+                    return bValue - aValue; // Descending for numeric columns
+                } else {
+                    return aText.localeCompare(bText); // Ascending for non-numeric columns
+                }
+            });
+    
+            // Append sorted rows back to table
+            rows.forEach(row => table.appendChild(row));
+        }
+    
+        document.querySelectorAll('.checkbox-group input[type="checkbox"]').forEach(checkbox => {
+            checkbox.addEventListener('change', () => {
+                filterTable();
+            });
+        });
+    
+        document.getElementById('search').addEventListener('input', filterTable);
+        document.getElementById('level').addEventListener('change', filterTable);
+    
+        // Initial load
+        loadCSV();
+    </script>
+    
 </body>
 </html>
