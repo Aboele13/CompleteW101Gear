@@ -206,23 +206,14 @@
             const school = document.getElementById('school').value;
             const itemType = document.getElementById('itemType').value;
             const csvUrl = `https://aboele13.github.io/CompleteW101Gear/Gear/${school}_Gear/${school}_${itemType}.csv`;
-        
-            console.log(`Loading CSV from: ${csvUrl}`); // Log the CSV URL being fetched
-        
+    
             Papa.parse(csvUrl, {
                 download: true,
                 header: true,
                 complete: function(results) {
-                    console.log("CSV Load Complete:", results); // Log the results of the CSV parsing
-        
                     const table = document.getElementById('gearTable');
-                    table.innerHTML = ''; // Clear existing table content
-        
-                    if (!results.data || results.data.length === 0) {
-                        console.error("No data found in CSV."); // Log if no data is present
-                        return; // Exit the function if no data
-                    }
-        
+                    table.innerHTML = '';
+    
                     // Create table headers
                     const headers = results.meta.fields;
                     const headerRow = document.createElement('tr');
@@ -232,13 +223,8 @@
                         th.onclick = () => sortTable(index, header);
                         headerRow.appendChild(th);
                     });
-        
-                    // Add a new "Owned" header for the checkboxes
-                    const ownedHeader = document.createElement('th');
-                    ownedHeader.textContent = 'Owned'; // This refers to the checkbox column
-                    headerRow.appendChild(ownedHeader);
                     table.appendChild(headerRow);
-        
+    
                     // Create table rows
                     results.data.forEach(row => {
                         const tr = document.createElement('tr');
@@ -247,31 +233,15 @@
                             td.textContent = row[header] || ''; // Handle empty values
                             tr.appendChild(td);
                         });
-        
-                        // Add checkbox for the "Owned" column
-                        const ownedTd = document.createElement('td'); // Create a new cell for the checkbox
-                        const checkbox = document.createElement('input');
-                        checkbox.type = 'checkbox';
-                        checkbox.checked = (row.Owned && row.Owned.trim().toLowerCase() === 'true'); // Use existing "Owned" value for checkbox
-                        checkbox.onchange = () => {
-                            row.Owned = checkbox.checked ? 'true' : 'false'; // Update the Owned value in the row
-                            updateOwnedGear(row, checkbox.checked);
-                        };
-                        ownedTd.appendChild(checkbox); // Add checkbox to the cell
-                        tr.appendChild(ownedTd); // Add the cell to the row
-        
-                        table.appendChild(tr); // Append the completed row to the table
+                        table.appendChild(tr);
                     });
-        
+    
                     // Apply filters
                     filterTable();
-                },
-                error: function(error) {
-                    console.error("Error loading CSV:", error); // Log any errors that occur during parsing
                 }
             });
         }
-        
+
         // Add or remove gear from owned list when checkbox is toggled
         function updateOwnedGear(row, isChecked) {
             const itemName = row['Name'];
