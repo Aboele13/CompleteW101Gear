@@ -206,49 +206,51 @@
             const school = document.getElementById('school').value;
             const itemType = document.getElementById('itemType').value;
             const csvUrl = `https://aboele13.github.io/CompleteW101Gear/Gear/${school}_Gear/${school}_${itemType}.csv`;
-
+        
             Papa.parse(csvUrl, {
                 download: true,
                 header: true,
                 complete: function(results) {
                     const table = document.getElementById('gearTable');
-                    table.innerHTML = '';
-
+                    table.innerHTML = ''; // Clear existing table content
+        
                     // Create table headers
-                    const headers = results.meta.fields;
+                    const headers = results.meta.fields.filter(header => header !== 'Owned'); // Exclude existing "Owned" header
                     const headerRow = document.createElement('tr');
-
                     headers.forEach((header, index) => {
                         const th = document.createElement('th');
                         th.textContent = header;
-                        th.onclick = () => sortTable(index, header); // Sort function bound to header click
+                        th.onclick = () => sortTable(index, header);
                         headerRow.appendChild(th);
                     });
-
-                    table.appendChild(headerRow); // Append header row
-
+        
+                    // Add a new "Owned" header for the checkboxes
+                    const ownedHeader = document.createElement('th');
+                    ownedHeader.textContent = 'Owned'; // This will now refer to the checkbox column
+                    headerRow.appendChild(ownedHeader);
+                    table.appendChild(headerRow);
+        
                     // Create table rows
-                    results.data.forEach((row) => {
+                    results.data.forEach(row => {
                         const tr = document.createElement('tr');
-
                         headers.forEach(header => {
                             const td = document.createElement('td');
                             td.textContent = row[header] || ''; // Handle empty values
                             tr.appendChild(td);
                         });
-
-                        // "Owned" column checkbox
-                        const ownedTd = tr.cells[headers.indexOf('Owned')]; // Get the "Owned" column index
+        
+                        // Add checkbox for the "Owned" column
+                        const ownedTd = document.createElement('td'); // Create a new cell for the checkbox
                         const checkbox = document.createElement('input');
                         checkbox.type = 'checkbox';
-                        checkbox.checked = (row.Owned && row.Owned.trim().toLowerCase() === 'true');
+                        checkbox.checked = (row.Owned && row.Owned.trim().toLowerCase() === 'true'); // Use existing "Owned" value for checkbox
                         checkbox.onchange = () => updateOwnedGear(row, checkbox.checked);
-                        ownedTd.innerHTML = ''; // Clear existing content in the "Owned" cell
-                        ownedTd.appendChild(checkbox); // Add checkbox
-
-                        table.appendChild(tr); // Append row to table
+                        ownedTd.appendChild(checkbox); // Add checkbox to the cell
+                        tr.appendChild(ownedTd); // Add the cell to the row
+        
+                        table.appendChild(tr);
                     });
-
+        
                     // Apply filters
                     filterTable();
                 }
