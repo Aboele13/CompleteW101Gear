@@ -53,22 +53,6 @@
             font-size: 20px;
             margin-right: 10px;
         }
-        .checkbox-group {
-            margin-top: 20px;
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
-        .checkbox-group label {
-            font-size: 18px;
-            margin-bottom: 5px;
-            display: flex;
-            align-items: center;
-        }
-        .checkbox-group input[type="checkbox"] {
-            margin-right: 10px;
-        }
         .search-container {
             margin-top: 20px;
             display: flex;
@@ -96,38 +80,6 @@
             padding: 10px;
             text-align: left;
         }
-
-        .action-buttons {
-            margin-top: 30px;
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-        }
-        .action-buttons button {
-            font-size: 16px;
-            padding: 10px 20px;
-            border-radius: 5px;
-            border: none;
-            background-color: #28a745;
-            color: white;
-            cursor: pointer;
-        }
-        .action-buttons button:hover {
-            background-color: #218838;
-        }
-
-        .preview-container {
-            margin-top: 20px;
-            text-align: center;
-        }
-        .preview-container pre {
-            background-color: #f8f9fa;
-            border: 1px solid #ccc;
-            padding: 10px;
-            display: inline-block;
-            width: 80%;
-            text-align: left;
-        }
     </style>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
@@ -138,7 +90,7 @@
 
     <div class="tabs">
         <a href="select_owned_gear.html" class="disabled">Select Owned Gear</a>
-        <a href="view_ear.html">View Gear</a>
+        <a href="view_gear.html">View Gear</a>
         <a href="view_sets.html">View Sets</a>
         <a href="create_sets.html">Create Sets</a>
     </div>
@@ -187,33 +139,37 @@
         <input type="text" id="search" oninput="filterTable()" placeholder="Search for item names...">
     </div>
 
-    <div class="action-buttons">
-        <input type="file" id="uploadOwnedGear" accept=".txt" style="display:none" />
-        <button onclick="document.getElementById('uploadOwnedGear').click()">Upload Owned Gear</button>
-        <button onclick="downloadOwnedGear()">Download Owned Gear</button>
-    </div>
-
-    <div class="preview-container" id="previewContainer">
-        <pre id="previewContent">No owned gear selected.</pre>
-    </div>
-
     <table id="gearTable"></table>
 
     <script>
-        let ownedGearSet = new Set(); // Set to prevent duplicates
-
         function loadCSV() {
             const school = document.getElementById('school').value;
             const itemType = document.getElementById('itemType').value;
             const csvUrl = `https://aboele13.github.io/CompleteW101Gear/Gear/${school}_Gear/${school}_${itemType}.csv`;
-    
+
+            console.log(`Loading CSV from: ${csvUrl}`); // Log the CSV URL being fetched
+
             Papa.parse(csvUrl, {
                 download: true,
                 header: true,
                 complete: function(results) {
+                    console.log("CSV Load Complete:", results); // Log the results of the CSV parsing
+
                     const table = document.getElementById('gearTable');
-                    table.innerHTML = '';
-    
+                    table.innerHTML = ''; // Clear existing table content
+
+                    // Check if results.data is empty
+                    if (!results.data || results.data.length === 0) {
+                        console.error("No data found in CSV."); // Log if no data is present
+                        const tr = document.createElement('tr');
+                        const td = document.createElement('td');
+                        td.colSpan = 100; // Span across all columns
+                        td.textContent = "No records found.";
+                        tr.appendChild(td);
+                        table.appendChild(tr);
+                        return; // Exit the function if no data
+                    }
+
                     // Create table headers
                     const headers = results.meta.fields;
                     const headerRow = document.createElement('tr');
@@ -224,7 +180,7 @@
                         headerRow.appendChild(th);
                     });
                     table.appendChild(headerRow);
-    
+
                     // Create table rows
                     results.data.forEach(row => {
                         const tr = document.createElement('tr');
@@ -235,79 +191,50 @@
                         });
                         table.appendChild(tr);
                     });
-    
+
                     // Apply filters
                     filterTable();
+                },
+                error: function(error) {
+                    console.error("Error loading CSV:", error); // Log any errors that occur during parsing
                 }
             });
         }
 
-        // Add or remove gear from owned list when checkbox is toggled
-        function updateOwnedGear(row, isChecked) {
-            const itemName = row['Name'];
-            if (isChecked) {
-                ownedGearSet.add(itemName);
-            } else {
-                ownedGearSet.delete(itemName);
-            }
-            updatePreview();
-        }
-
-        // Update preview of owned gear
-        function updatePreview() {
-            const previewContent = Array.from(ownedGearSet).join("\n");
-            document.getElementById('previewContent').textContent = previewContent || "No owned gear selected.";
-        }
-
-        // Download owned gear as txt file
-        function downloadOwnedGear() {
-            const ownedGearContent = Array.from(ownedGearSet).join("\n");
-            const blob = new Blob([ownedGearContent], { type: "text/plain" });
-            const link = document.createElement("a");
-            link.href = URL.createObjectURL(blob);
-            link.download = "owned_gear.txt";
-            link.click();
-        }
-
-        // Handle file upload to restore owned gear
-        document.getElementById('uploadOwnedGear').addEventListener('change', function(event) {
-            const file = event.target.files[0];
-            if (file) {
-                const reader = new FileReader();
-                reader.onload = function(e) {
-                    const content = e.target.result.split("\n");
-                    ownedGearSet = new Set(content.map(item => item.trim())); // Update owned gear set
-                    updatePreview(); // Update the preview based on uploaded file
-                    loadCSV(); // Reload CSV to reflect owned state
-                };
-                reader.readAsText(file);
-            }
-        });
-
-        // Filtering function
         function filterTable() {
-            const searchTerm = document.getElementById('search').value.toLowerCase();
-            const levelFilter = document.getElementById('level').value;
+            const searchValue = document.getElementById('search').value.toLowerCase();
+            const levelValue = parseInt(document.getElementById('level').value, 10);
             const table = document.getElementById('gearTable');
-            const rows = table.getElementsByTagName('tr');
-            for (let i = 1; i < rows.length; i++) {
-                const name = rows[i].getElementsByTagName('td')[1].textContent.toLowerCase(); // Assuming 2nd column is Name
-                const level = rows[i].getElementsByTagName('td')[3].textContent; // Assuming 4th column is Level
-                rows[i].style.display = (name.includes(searchTerm) && (!levelFilter || level === levelFilter)) ? '' : 'none';
-            }
+            const rows = table.querySelectorAll('tr:not(:first-child)');
+            const headers = Array.from(table.querySelectorAll('tr:first-child th'));
+            const ownedIndex = headers.findIndex(th => th.textContent === 'Owned');
+
+            rows.forEach(row => {
+                const cells = Array.from(row.children);
+                const nameCell = cells[0]; // Assuming "Name" column is the first column
+                const levelCell = cells[1]; // Assuming "Level" column is the second column
+
+                const nameMatch = nameCell && nameCell.textContent.toLowerCase().includes(searchValue);
+                const levelMatch = levelCell && parseInt(levelCell.textContent, 10) <= levelValue;
+
+                if (nameMatch && levelMatch) {
+                    row.style.display = '';
+                } else {
+                    row.style.display = 'none';
+                }
+            });
         }
 
-        // Sorting function
         function sortTable(columnIndex, columnName) {
             const table = document.getElementById('gearTable');
             const rows = Array.from(table.querySelectorAll('tr:not(:first-child)')); // Exclude header row
             const isNumericColumn = columnName !== 'Name' && columnName !== 'Source' && columnName !== 'Owned' && columnName !== 'Gear Set';
-            
+
             // Sorting logic
             rows.sort((a, b) => {
                 const aText = a.children[columnIndex].textContent.trim();
                 const bText = b.children[columnIndex].textContent.trim();
-                
+
                 if (isNumericColumn) {
                     const aValue = parseFloat(aText) || 0;
                     const bValue = parseFloat(bText) || 0;
@@ -316,13 +243,15 @@
                     return aText.localeCompare(bText); // Ascending for non-numeric columns
                 }
             });
-    
+
             // Append sorted rows back to table
             rows.forEach(row => table.appendChild(row));
         }
 
-        // Initial load
-        loadCSV();
+        // Call loadCSV when the document is fully loaded
+        document.addEventListener('DOMContentLoaded', () => {
+            loadCSV(); // Call loadCSV on page load
+        });
     </script>
 </body>
 </html>
