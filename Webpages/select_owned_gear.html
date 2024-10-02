@@ -53,6 +53,22 @@
             font-size: 20px;
             margin-right: 10px;
         }
+        .checkbox-group {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .checkbox-group label {
+            font-size: 18px;
+            margin-bottom: 5px;
+            display: flex;
+            align-items: center;
+        }
+        .checkbox-group input[type="checkbox"] {
+            margin-right: 10px;
+        }
         .search-container {
             margin-top: 20px;
             display: flex;
@@ -80,6 +96,38 @@
             padding: 10px;
             text-align: left;
         }
+
+        .action-buttons {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .action-buttons button {
+            font-size: 16px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            border: none;
+            background-color: #28a745;
+            color: white;
+            cursor: pointer;
+        }
+        .action-buttons button:hover {
+            background-color: #218838;
+        }
+
+        .preview-container {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .preview-container pre {
+            background-color: #f8f9fa;
+            border: 1px solid #ccc;
+            padding: 10px;
+            display: inline-block;
+            width: 80%;
+            text-align: left;
+        }
     </style>
     
     <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
@@ -90,7 +138,7 @@
 
     <div class="tabs">
         <a href="select_owned_gear.html" class="disabled">Select Owned Gear</a>
-        <a href="view_gear.html">View Gear</a>
+        <a href="view_ear.html">View Gear</a>
         <a href="view_sets.html">View Sets</a>
         <a href="create_sets.html">Create Sets</a>
     </div>
@@ -137,6 +185,16 @@
 
     <div class="search-container">
         <input type="text" id="search" oninput="filterTable()" placeholder="Search for item names...">
+    </div>
+
+    <div class="action-buttons">
+        <input type="file" id="uploadOwnedGear" accept=".txt" style="display:none" />
+        <button onclick="document.getElementById('uploadOwnedGear').click()">Upload Owned Gear</button>
+        <button onclick="downloadOwnedGear()">Download Owned Gear</button>
+    </div>
+
+    <div class="preview-container" id="previewContainer">
+        <pre id="previewContent">No owned gear selected.</pre>
     </div>
 
     <table id="gearTable"></table>
