@@ -224,7 +224,7 @@
                     }
         
                     // Create table headers
-                    const headers = results.meta.fields.filter(header => header !== 'Owned'); // Exclude original "Owned" header
+                    const headers = results.meta.fields;
                     const headerRow = document.createElement('tr');
                     headers.forEach((header, index) => {
                         const th = document.createElement('th');
@@ -253,7 +253,10 @@
                         const checkbox = document.createElement('input');
                         checkbox.type = 'checkbox';
                         checkbox.checked = (row.Owned && row.Owned.trim().toLowerCase() === 'true'); // Use existing "Owned" value for checkbox
-                        checkbox.onchange = () => updateOwnedGear(row, checkbox.checked);
+                        checkbox.onchange = () => {
+                            row.Owned = checkbox.checked ? 'true' : 'false'; // Update the Owned value in the row
+                            updateOwnedGear(row, checkbox.checked);
+                        };
                         ownedTd.appendChild(checkbox); // Add checkbox to the cell
                         tr.appendChild(ownedTd); // Add the cell to the row
         
