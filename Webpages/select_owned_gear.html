@@ -53,22 +53,6 @@
             font-size: 20px;
             margin-right: 10px;
         }
-        .checkbox-group {
-            margin-top: 20px;
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
-        .checkbox-group label {
-            font-size: 18px;
-            margin-bottom: 5px;
-            display: flex;
-            align-items: center;
-        }
-        .checkbox-group input[type="checkbox"] {
-            margin-right: 10px;
-        }
         .search-container {
             margin-top: 20px;
             display: flex;
@@ -138,7 +122,7 @@
 
     <div class="tabs">
         <a href="select_owned_gear.html" class="disabled">Select Owned Gear</a>
-        <a href="view_ear.html">View Gear</a>
+        <a href="view_gear.html">View Gear</a>
         <a href="view_sets.html">View Sets</a>
         <a href="create_sets.html">Create Sets</a>
     </div>
@@ -205,20 +189,15 @@
             const itemType = document.getElementById('itemType').value;
             const csvUrl = `https://aboele13.github.io/CompleteW101Gear/Gear/${school}_Gear/${school}_${itemType}.csv`;
 
-            console.log(`Loading CSV from: ${csvUrl}`); // Log the CSV URL being fetched
-
             Papa.parse(csvUrl, {
                 download: true,
                 header: true,
                 complete: function(results) {
-                    console.log("CSV Load Complete:", results); // Log the results of the CSV parsing
-
                     const table = document.getElementById('gearTable');
                     table.innerHTML = ''; // Clear existing table content
 
                     // Check if results.data is empty
                     if (!results.data || results.data.length === 0) {
-                        console.error("No data found in CSV."); // Log if no data is present
                         const tr = document.createElement('tr');
                         const td = document.createElement('td');
                         td.colSpan = 100; // Span across all columns
@@ -242,6 +221,7 @@
                     // Create table rows
                     results.data.forEach(row => {
                         const tr = document.createElement('tr');
+                        tr.onclick = function() { handleRowClick(row, tr); }; // Add click event for the row
                         headers.forEach(header => {
                             const td = document.createElement('td');
                             td.textContent = row[header] || ''; // Handle empty values
@@ -250,11 +230,7 @@
                         table.appendChild(tr);
                     });
 
-                    // Apply filters
-                    filterTable();
-                },
-                error: function(error) {
-                    console.error("Error loading CSV:", error); // Log any errors that occur during parsing
+                    filterTable(); // Apply filters
                 }
             });
         }
@@ -264,13 +240,10 @@
             const levelValue = parseInt(document.getElementById('level').value, 10);
             const table = document.getElementById('gearTable');
             const rows = table.querySelectorAll('tr:not(:first-child)');
-            const headers = Array.from(table.querySelectorAll('tr:first-child th'));
-            const ownedIndex = headers.findIndex(th => th.textContent === 'Owned');
-
+            
             rows.forEach(row => {
-                const cells = Array.from(row.children);
-                const nameCell = cells[0]; // Assuming "Name" column is the first column
-                const levelCell = cells[1]; // Assuming "Level" column is the second column
+                const nameCell = row.children[0]; // Assuming "Name" is the first column
+                const levelCell = row.children[1]; // Assuming "Level" is the second column
 
                 const nameMatch = nameCell && nameCell.textContent.toLowerCase().includes(searchValue);
                 const levelMatch = levelCell && parseInt(levelCell.textContent, 10) <= levelValue;
@@ -288,22 +261,38 @@
             const rows = Array.from(table.querySelectorAll('tr:not(:first-child)')); // Exclude header row
             const isNumericColumn = columnName !== 'Name' && columnName !== 'Source' && columnName !== 'Owned' && columnName !== 'Gear Set';
 
-            // Sorting logic
             rows.sort((a, b) => {
                 const aText = a.children[columnIndex].textContent.trim();
                 const bText = b.children[columnIndex].textContent.trim();
 
                 if (isNumericColumn) {
-                    const aValue = parseFloat(aText) || 0;
-                    const bValue = parseFloat(bText) || 0;
-                    return bValue - aValue; // Descending for numeric columns
+                    return parseFloat(bText) - parseFloat(aText); // Descending for numeric columns
                 } else {
                     return aText.localeCompare(bText); // Ascending for non-numeric columns
                 }
             });
 
-            // Append sorted rows back to table
-            rows.forEach(row => table.appendChild(row));
+            rows.forEach(row => table.appendChild(row)); // Append sorted rows back to table
+        }
+
+        function handleRowClick(rowData, tableRow) {
+            // Find the "Owned" and "Name" columns
+            const ownedIndex = Array.from(tableRow.children).findIndex(td => td.textContent === rowData.Owned);
+            const name = rowData.Name;
+            const ownedCell = tableRow.children[ownedIndex];
+
+            // Update "Owned" value to True
+            if (ownedCell && ownedCell.textContent !== 'True') {
+                ownedCell.textContent = 'True';
+            }
+
+            // Add the item's name to the preview container
+            const previewContent = document.getElementById('previewContent');
+            if (previewContent.textContent === 'No owned gear selected.') {
+                previewContent.textContent = name; // Replace placeholder text
+            } else {
+                previewContent.textContent += `, ${name}`; // Append to the existing list
+            }
         }
 
         // Call loadCSV when the document is fully loaded
