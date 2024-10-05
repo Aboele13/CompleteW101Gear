@@ -173,7 +173,7 @@
 
     <div class="action-buttons">
         <input type="file" id="uploadOwnedGear" accept=".txt" style="display:none" />
-        <button onclick="document.getElementById('uploadOwnedGear').click()">Upload Owned Gear</button>
+        <button onclick="uploadOwnedGear()">Upload Owned Gear</button>
         <button onclick="downloadOwnedGear()">Download Owned Gear</button>
     </div>
 
@@ -330,6 +330,11 @@
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
+        }
+
+        function uploadOwnedGear() {
+            const previewContent = document.getElementById('previewContent');
+            previewContent.textContent = "Balls"
         }
 
         document.getElementById('uploadOwnedGear').addEventListener('change', function(event) {
