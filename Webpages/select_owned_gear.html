@@ -122,7 +122,7 @@
 
     <div class="tabs">
         <a href="select_owned_gear.html" class="disabled">Select Owned Gear</a>
-        <a href="view_ear.html">View Gear</a>
+        <a href="view_gear.html">View Gear</a>
         <a href="view_sets.html">View Sets</a>
         <a href="create_sets.html">Create Sets</a>
     </div>
@@ -256,7 +256,7 @@
         function sortTable(columnIndex, columnName) {
             const table = document.getElementById('gearTable');
             const rows = Array.from(table.querySelectorAll('tr:not(:first-child)'));
-            const isNumericColumn = columnName !== 'Name' && columnName !== 'Source' && columnName !== 'Owned' && columnName !== 'Gear Set';
+            const isNumericColumn = columnName === 'Level' || columnName === 'Gear Set';
 
             rows.sort((a, b) => {
                 const aText = a.children[columnIndex].textContent.trim();
@@ -278,23 +278,21 @@
             const ownedCell = tableRow.children[ownedIndex];
             const previewContent = document.getElementById('previewContent');
 
-            // Check the current "Owned" status
+            // Convert "Owned" to a boolean value
             const currentlyOwned = ownedCell && ownedCell.textContent === 'True';
 
             if (currentlyOwned) {
                 // Set "Owned" to False and remove the name from the preview
                 ownedCell.textContent = 'False';
-                previewContent.textContent = previewContent.textContent.replace(new RegExp(`\\b${name}\\b,?\\s?`, 'g'), '');
-                if (previewContent.textContent.trim() === '') {
-                    previewContent.textContent = 'No owned gear selected.';
-                }
+                const currentPreview = previewContent.textContent.split('\n').filter(item => item !== name);
+                previewContent.textContent = currentPreview.length > 0 ? currentPreview.join('\n') : 'No owned gear selected.';
             } else {
                 // Set "Owned" to True and add the name to the preview
                 ownedCell.textContent = 'True';
                 if (previewContent.textContent === 'No owned gear selected.') {
                     previewContent.textContent = name;
                 } else {
-                    previewContent.textContent += `, ${name}`;
+                    previewContent.textContent += `\n${name}`;
                 }
             }
         }
