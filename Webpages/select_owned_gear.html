@@ -279,16 +279,16 @@
             const previewContent = document.getElementById('previewContent');
 
             // Convert "Owned" to a boolean value
-            const currentlyOwned = ownedCell && ownedCell.textContent === True;
+            const currentlyOwned = ownedCell && ownedCell.textContent === 'True';
 
             if (currentlyOwned) {
                 // Set "Owned" to False and remove the name from the preview
-                ownedCell.textContent = False;
+                ownedCell.textContent = 'False';
                 const currentPreview = previewContent.textContent.split('\n').filter(item => item !== name);
                 previewContent.textContent = currentPreview.length > 0 ? currentPreview.join('\n') : 'No owned gear selected.';
             } else {
                 // Set "Owned" to True and add the name to the preview
-                ownedCell.textContent = True;
+                ownedCell.textContent = 'True';
                 if (previewContent.textContent === 'No owned gear selected.') {
                     previewContent.textContent = name;
                 } else {
