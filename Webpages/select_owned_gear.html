@@ -279,7 +279,7 @@
             const previewContent = document.getElementById('previewContent');
 
             // Convert "Owned" to a boolean value
-            const currentlyOwned = ownedCell && ownedCell.textContent === 'True';
+            const currentlyOwned = ownedCell && ownedCell.textContent.trim() === 'True';
 
             if (currentlyOwned) {
                 // Set "Owned" to False and remove the name from the preview
