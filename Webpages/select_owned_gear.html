@@ -315,13 +315,17 @@
         }
 
         function downloadOwnedGear() {
-            const ownedGear = gearData.filter(item => item.Owned === 'True');
-            const csvContent = Papa.unparse(ownedGear);
-            const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+            const previewContent = document.getElementById('previewContent').textContent;
+            const ownedItems = previewContent.split('\n').filter(item => item.trim() !== 'No owned gear selected.' && item.trim() !== '');
+        
+            // Convert owned gear names to a text format
+            let txtContent = ownedItems.join('\n'); // Join names with newline
+        
+            const blob = new Blob([txtContent], { type: 'text/plain;charset=utf-8;' });
             const link = document.createElement('a');
             const url = URL.createObjectURL(blob);
             link.setAttribute('href', url);
-            link.setAttribute('download', 'owned_gear.csv');
+            link.setAttribute('download', 'owned_gear.txt'); // Change file extension to .txt
             link.style.visibility = 'hidden';
             document.body.appendChild(link);
             link.click();
