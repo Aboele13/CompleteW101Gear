@@ -276,30 +276,40 @@
         }
 
         function handleRowClick(rowData, tableRow) {
-            const ownedIndex = Array.from(tableRow.children).findIndex(td => td.textContent === rowData.Owned);
-            const name = rowData.Name;
-            const ownedCell = tableRow.children[ownedIndex];
             const previewContent = document.getElementById('previewContent');
-
-            // Convert "Owned" to a boolean value
-            const currentlyOwned = ownedCell && ownedCell.textContent === 'True';
-
-            if (currentlyOwned) {
-                previewContent.textContent += `${name} is owned`
-                // Set "Owned" to False and remove the name from the preview
-                ownedCell.textContent = 'False';
-                const currentPreview = previewContent.textContent.split('\n').filter(item => item !== name);
-                previewContent.textContent = currentPreview.length > 0 ? currentPreview.join('\n') : 'No owned gear selected.';
-            } else {
-                // Set "Owned" to True and add the name to the preview
-                ownedCell.textContent = 'True';
+            const name = rowData.Name;
+        
+            // Toggle the 'Owned' value
+            const currentlyOwned = rowData.Owned === 'True'; // Correctly compare the boolean string
+            rowData.Owned = currentlyOwned ? 'False' : 'True'; // Toggle Owned status
+        
+            // Update the table cell visually
+            const ownedCell = Array.from(tableRow.children).find(td => td.textContent === (currentlyOwned ? 'True' : 'False'));
+            if (ownedCell) {
+                ownedCell.textContent = rowData.Owned;
+            }
+        
+            // Update the preview container based on the new 'Owned' status
+            let currentPreview = previewContent.textContent.split('\n').filter(item => item.trim() !== ''); // Ensure no empty lines
+        
+            if (!currentlyOwned) {
+                // Add the item to the preview
                 if (previewContent.textContent === 'No owned gear selected.') {
                     previewContent.textContent = name;
                 } else {
                     previewContent.textContent += `\n${name}`;
                 }
+            } else {
+                // Remove the item from the preview
+                currentPreview = currentPreview.filter(item => item !== name);
+                if (currentPreview.length > 0) {
+                    previewContent.textContent = currentPreview.join('\n');
+                } else {
+                    previewContent.textContent = 'No owned gear selected.';
+                }
             }
         }
+        
 
         document.addEventListener('DOMContentLoaded', () => {
             loadCSV();
