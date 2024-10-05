@@ -333,9 +333,52 @@
         }
 
         function uploadOwnedGear() {
-            const previewContent = document.getElementById('previewContent');
-            previewContent.textContent = "Balls"
+            const fileInput = document.getElementById('uploadOwnedGear');
+            fileInput.click(); // Simulate a click on the hidden file input to open the file picker
+        
+            fileInput.addEventListener('change', function (event) {
+                const file = event.target.files[0]; // Get the selected file
+                if (file) {
+                    const reader = new FileReader();
+                    reader.onload = function (e) {
+                        const contents = e.target.result.trim().split('\n'); // Split the file content by lines
+        
+                        // Update the preview container with the new gear names
+                        const previewContent = document.getElementById('previewContent');
+                        previewContent.textContent = contents.length ? contents.join('\n') : 'No owned gear selected.';
+        
+                        // Reset all gear in the table to "Owned" = False
+                        gearData.forEach(item => {
+                            item.Owned = 'False'; // Mark all as not owned initially
+                        });
+        
+                        // Set "Owned" = True for the items listed in the uploaded file
+                        contents.forEach(ownedItemName => {
+                            const gearItem = gearData.find(item => item.Name.trim() === ownedItemName.trim());
+                            if (gearItem) {
+                                gearItem.Owned = 'True'; // Mark as owned
+                            }
+                        });
+        
+                        // Refresh the table to reflect changes in "Owned" status
+                        const tableRows = document.getElementById('gearTable').querySelectorAll('tr:not(:first-child)');
+                        tableRows.forEach(row => {
+                            const itemName = row.children[0].textContent.trim(); // Assuming "Name" is in the first column
+                            const gearItem = gearData.find(item => item.Name.trim() === itemName);
+                            if (gearItem) {
+                                const ownedCell = row.children.find(td => td.textContent === gearItem.Owned); // Find the "Owned" column
+                                if (ownedCell) {
+                                    ownedCell.textContent = gearItem.Owned; // Update the "Owned" cell in the table
+                                }
+                            }
+                        });
+                    };
+        
+                    reader.readAsText(file); // Read the content of the file
+                }
+            });
         }
+        
 
         document.getElementById('uploadOwnedGear').addEventListener('change', function(event) {
             const file = event.target.files[0];
