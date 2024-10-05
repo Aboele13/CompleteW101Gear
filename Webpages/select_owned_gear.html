@@ -122,7 +122,7 @@
 
     <div class="tabs">
         <a href="select_owned_gear.html" class="disabled">Select Owned Gear</a>
-        <a href="view_gear.html">View Gear</a>
+        <a href="view_ear.html">View Gear</a>
         <a href="view_sets.html">View Sets</a>
         <a href="create_sets.html">Create Sets</a>
     </div>
@@ -184,6 +184,8 @@
     <table id="gearTable"></table>
 
     <script>
+        let gearData = [];
+
         function loadCSV() {
             const school = document.getElementById('school').value;
             const itemType = document.getElementById('itemType').value;
@@ -195,6 +197,7 @@
                 complete: function(results) {
                     const table = document.getElementById('gearTable');
                     table.innerHTML = ''; // Clear existing table content
+                    gearData = results.data; // Store the gear data globally for manipulation
 
                     if (!results.data || results.data.length === 0) {
                         const tr = document.createElement('tr');
@@ -255,7 +258,7 @@
 
         function sortTable(columnIndex, columnName) {
             const table = document.getElementById('gearTable');
-            const rows = Array.from(table.querySelectorAll('tr:not(:first-child)'));
+            const rows = Array.from(table.querySelectorAll('tr:nth-child(n+2)'));
             const isNumericColumn = columnName === 'Level' || columnName === 'Gear Set';
 
             rows.sort((a, b) => {
@@ -279,7 +282,7 @@
             const previewContent = document.getElementById('previewContent');
 
             // Convert "Owned" to a boolean value
-            const currentlyOwned = ownedCell && ownedCell.textContent.trim() === 'True';
+            const currentlyOwned = ownedCell && ownedCell.textContent === 'True';
 
             if (currentlyOwned) {
                 // Set "Owned" to False and remove the name from the preview
