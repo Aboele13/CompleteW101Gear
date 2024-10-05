@@ -355,6 +355,11 @@
             // Append sorted rows back to table
             rows.forEach(row => table.appendChild(row));
         }
+
+        window.onload = function() {
+            // Call loadCSV with default selections
+            loadCSV();
+        };
     </script>
 </body>
 </html>
