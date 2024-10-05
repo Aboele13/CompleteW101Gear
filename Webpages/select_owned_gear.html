@@ -285,6 +285,7 @@
             const currentlyOwned = ownedCell && ownedCell.textContent === 'True';
 
             if (currentlyOwned) {
+                previewContent.textContent += `${name} is owned`
                 // Set "Owned" to False and remove the name from the preview
                 ownedCell.textContent = 'False';
                 const currentPreview = previewContent.textContent.split('\n').filter(item => item !== name);
