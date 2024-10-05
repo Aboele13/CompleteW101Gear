@@ -258,20 +258,24 @@
 
         function sortTable(columnIndex, columnName) {
             const table = document.getElementById('gearTable');
-            const rows = Array.from(table.querySelectorAll('tr:nth-child(n+2)'));
-            const isNumericColumn = columnName === 'Level' || columnName === 'Gear Set';
-
+            const rows = Array.from(table.querySelectorAll('tr:not(:first-child)')); // Exclude header row
+            const isNumericColumn = columnName !== 'Name' && columnName !== 'Source' && columnName !== 'Owned' && columnName !== 'Gear Set';
+            
+            // Sorting logic
             rows.sort((a, b) => {
                 const aText = a.children[columnIndex].textContent.trim();
                 const bText = b.children[columnIndex].textContent.trim();
-
+                
                 if (isNumericColumn) {
-                    return parseFloat(bText) - parseFloat(aText);
+                    const aValue = parseFloat(aText) || 0;
+                    const bValue = parseFloat(bText) || 0;
+                    return bValue - aValue; // Descending for numeric columns
                 } else {
-                    return aText.localeCompare(bText);
+                    return aText.localeCompare(bText); // Ascending for non-numeric columns
                 }
             });
-
+    
+            // Append sorted rows back to table
             rows.forEach(row => table.appendChild(row));
         }
 
@@ -309,7 +313,42 @@
                 }
             }
         }
-        
+
+        function downloadOwnedGear() {
+            const ownedGear = gearData.filter(item => item.Owned === 'True');
+            const csvContent = Papa.unparse(ownedGear);
+            const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+            const link = document.createElement('a');
+            const url = URL.createObjectURL(blob);
+            link.setAttribute('href', url);
+            link.setAttribute('download', 'owned_gear.csv');
+            link.style.visibility = 'hidden';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+
+        document.getElementById('uploadOwnedGear').addEventListener('change', function(event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    const contents = e.target.result;
+                    const parsedData = Papa.parse(contents, { header: true });
+                    if (parsedData.data && parsedData.data.length > 0) {
+                        parsedData.data.forEach(item => {
+                            const gearItem = gearData.find(gear => gear.Name === item.Name);
+                            if (gearItem) {
+                                gearItem.Owned = item.Owned; // Update Owned status
+                            }
+                        });
+                        // Refresh the table and preview
+                        loadCSV();
+                    }
+                };
+                reader.readAsText(file);
+            }
+        });
 
         document.addEventListener('DOMContentLoaded', () => {
             loadCSV();
