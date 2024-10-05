@@ -333,74 +333,52 @@
         }
 
         function uploadOwnedGear() {
-            const fileInput = document.getElementById('uploadOwnedGear');
-            fileInput.click(); // Simulate a click on the hidden file input to open the file picker
-        
-            fileInput.addEventListener('change', function (event) {
-                const file = event.target.files[0]; // Get the selected file
-                if (file) {
-                    const reader = new FileReader();
-                    reader.onload = function (e) {
-                        const contents = e.target.result.trim().split('\n'); // Split the file content by lines
-        
-                        // Update the preview container with the new gear names
-                        const previewContent = document.getElementById('previewContent');
-                        previewContent.textContent = contents.length ? contents.join('\n') : 'No owned gear selected.';
-        
-                        // Reset all gear in the table to "Owned" = False
-                        gearData.forEach(item => {
-                            item.Owned = 'False'; // Mark all as not owned initially
-                        });
-        
-                        // Set "Owned" = True for the items listed in the uploaded file
-                        contents.forEach(ownedItemName => {
-                            const gearItem = gearData.find(item => item.Name.trim() === ownedItemName.trim());
-                            if (gearItem) {
-                                gearItem.Owned = 'True'; // Mark as owned
-                            }
-                        });
-        
-                        // Refresh the table to reflect changes in "Owned" status
-                        const tableRows = document.getElementById('gearTable').querySelectorAll('tr:not(:first-child)');
-                        tableRows.forEach(row => {
-                            const itemName = row.children[0].textContent.trim(); // Assuming "Name" is in the first column
-                            const gearItem = gearData.find(item => item.Name.trim() === itemName);
-                            if (gearItem) {
-                                const ownedCell = row.children.find(td => td.textContent === gearItem.Owned); // Find the "Owned" column
-                                if (ownedCell) {
-                                    ownedCell.textContent = gearItem.Owned; // Update the "Owned" cell in the table
-                                }
-                            }
-                        });
-                    };
-        
-                    reader.readAsText(file); // Read the content of the file
-                }
-            });
+            // Trigger the file input to allow the user to select a file
+            document.getElementById('uploadOwnedGear').click();
         }
         
-
-        document.getElementById('uploadOwnedGear').addEventListener('change', function(event) {
-            const file = event.target.files[0];
+        // Set the event listener for the file input ONCE after the DOM loads
+        document.getElementById('uploadOwnedGear').addEventListener('change', function (event) {
+            const file = event.target.files[0]; // Get the selected file
             if (file) {
                 const reader = new FileReader();
-                reader.onload = function(e) {
-                    const contents = e.target.result;
-                    const parsedData = Papa.parse(contents, { header: true });
-                    if (parsedData.data && parsedData.data.length > 0) {
-                        parsedData.data.forEach(item => {
-                            const gearItem = gearData.find(gear => gear.Name === item.Name);
-                            if (gearItem) {
-                                gearItem.Owned = item.Owned; // Update Owned status
-                            }
-                        });
-                        // Refresh the table and preview
-                        loadCSV();
-                    }
+                reader.onload = function (e) {
+                    const contents = e.target.result.trim().split('\n'); // Split file content by lines (gear names)
+        
+                    // Update the preview container with the new gear names
+                    const previewContent = document.getElementById('previewContent');
+                    previewContent.textContent = contents.length ? contents.join('\n') : 'No owned gear selected.';
+        
+                    // Reset all gear in the table to "Owned" = False
+                    gearData.forEach(item => {
+                        item.Owned = 'False'; // Mark all as not owned initially
+                    });
+        
+                    // Set "Owned" = True for the items listed in the uploaded file
+                    contents.forEach(ownedItemName => {
+                        const gearItem = gearData.find(item => item.Name.trim() === ownedItemName.trim());
+                        if (gearItem) {
+                            gearItem.Owned = 'True'; // Mark as owned
+                        }
+                    });
+        
+                    // Re-render the table to reflect the changes
+                    const table = document.getElementById('gearTable');
+                    const rows = table.querySelectorAll('tr:not(:first-child)'); // All table rows except the header
+                    rows.forEach(row => {
+                        const nameCell = row.children[0].textContent.trim(); // Assuming the first column is the "Name"
+                        const gearItem = gearData.find(item => item.Name.trim() === nameCell);
+                        if (gearItem) {
+                            const ownedCell = row.children[row.children.length - 1]; // Assuming "Owned" is the last column
+                            ownedCell.textContent = gearItem.Owned; // Update the "Owned" cell to reflect the current status
+                        }
+                    });
                 };
-                reader.readAsText(file);
+        
+                reader.readAsText(file); // Read the content of the file
             }
         });
+        
 
         document.addEventListener('DOMContentLoaded', () => {
             loadCSV();
