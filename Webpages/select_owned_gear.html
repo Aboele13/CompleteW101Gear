@@ -332,69 +332,75 @@
             document.body.removeChild(link);
         }
 
+        // Set up the event listener only once when the page is loaded
+        document.getElementById('uploadOwnedGear').addEventListener('change', function(event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    const contents = e.target.result;
+                    const uploadedNames = contents.split('\n').map(name => name.trim()).filter(name => name !== '');
+                    
+                    // Reset all gear "Owned" status to False
+                    gearData.forEach(gearItem => {
+                        gearItem.Owned = 'False';  // Ensure we're updating the correct field
+                    });
+
+                    // Set "Owned" = True for the items listed in the uploaded file
+                    uploadedNames.forEach(uploadedName => {
+                        const gearItem = gearData.find(item => item.Name.trim() === uploadedName);
+                        if (gearItem) {
+                            gearItem.Owned = 'True';
+                        }
+                    });
+
+                    // Update the preview container
+                    const previewContent = document.getElementById('previewContent');
+                    if (uploadedNames.length > 0) {
+                        previewContent.textContent = uploadedNames.join('\n');
+                    } else {
+                        previewContent.textContent = 'No owned gear selected.';
+                    }
+
+                    // Get the table and its headers
+                    const table = document.getElementById('gearTable');
+                    const headerRow = table.querySelector('tr'); // Assume the first row is the header
+                    const headers = Array.from(headerRow.children); // Array of header cells
+
+                    // Find the index of the "Owned" column
+                    const ownedColumnIndex = headers.findIndex(header => header.textContent.trim() === 'Owned');
+
+                    // If we found the "Owned" column, proceed to update the table
+                    if (ownedColumnIndex !== -1) {
+                        const rows = table.querySelectorAll('tr:not(:first-child)'); // Skip header row
+
+                        rows.forEach(row => {
+                            const nameCell = row.children[0]; // Assuming Name is the first column
+                            const ownedCell = row.children[ownedColumnIndex]; // Get the correct "Owned" cell
+                            const name = nameCell.textContent.trim();
+
+                            if (uploadedNames.includes(name)) {
+                                ownedCell.textContent = 'True'; // Set "Owned" = True
+                            } else {
+                                ownedCell.textContent = 'False'; // Reset to "False"
+                            }
+                        });
+                    } else {
+                        console.error("Could not find 'Owned' column in the table.");
+                    }
+                };
+
+                // Read the file content as text
+                reader.readAsText(file);
+            }
+
+            // Reset the file input so it can be used again
+            event.target.value = '';
+        });
+
         function uploadOwnedGear() {
             const fileInput = document.getElementById('uploadOwnedGear');
             fileInput.click(); // Trigger file selection dialog
-        
-            fileInput.addEventListener('change', function(event) {
-                const file = event.target.files[0];
-                if (file) {
-                    const reader = new FileReader();
-                    reader.onload = function(e) {
-                        const contents = e.target.result;
-                        const uploadedNames = contents.split('\n').map(name => name.trim()).filter(name => name !== '');
-                        
-                        // Reset all gear "Owned" status to False
-                        gearData.forEach(gearItem => {
-                            gearItem.Owned = 'False';  // Ensure we're updating the correct field
-                        });
-        
-                        // Set "Owned" = True for the items listed in the uploaded file
-                        uploadedNames.forEach(uploadedName => {
-                            const gearItem = gearData.find(item => item.Name.trim() === uploadedName);
-                            if (gearItem) {
-                                gearItem.Owned = 'True';
-                            }
-                        });
-        
-                        // Update the preview container
-                        const previewContent = document.getElementById('previewContent');
-                        if (uploadedNames.length > 0) {
-                            previewContent.textContent = uploadedNames.join('\n');
-                        } else {
-                            previewContent.textContent = 'No owned gear selected.';
-                        }
-        
-                        // Get the table and its headers
-                        const table = document.getElementById('gearTable');
-                        const headerRow = table.querySelector('tr'); // Assume the first row is the header
-                        const headers = Array.from(headerRow.children); // Array of header cells
-        
-                        // Find the index of the "Owned" column
-                        const ownedColumnIndex = headers.findIndex(header => header.textContent.trim() === 'Owned');
-        
-                        // If we found the "Owned" column, proceed to update the table
-                        if (ownedColumnIndex !== -1) {
-                            const rows = table.querySelectorAll('tr:not(:first-child)'); // Skip header row
-        
-                            rows.forEach(row => {
-                                const nameCell = row.children[0]; // Assuming Name is the first column
-                                const ownedCell = row.children[ownedColumnIndex]; // Get the correct "Owned" cell
-                                const name = nameCell.textContent.trim();
-        
-                                if (uploadedNames.includes(name)) {
-                                    ownedCell.textContent = 'True'; // Set "Owned" = True
-                                } else {
-                                    ownedCell.textContent = 'False'; // Reset to "False"
-                                }
-                            });
-                        } else {
-                            console.error("Could not find 'Owned' column in the table.");
-                        }
-                    };
-                    reader.readAsText(file);
-                }
-            });
         }
 
         document.addEventListener('DOMContentLoaded', () => {
