@@ -348,48 +348,21 @@
                         gearItem.Owned = 'False';  // Ensure we're updating the correct field
                     });
 
-                    // Assuming uploadedNames is an array of lines from the txt file like:
-                    // ["Balance: Good Robe", "Storm: Electric Hat", ...]
-                    // And gearData is an array of objects representing the gear items with a 'Name' and 'Owned' field
+                    // Set "Owned" = True for the items listed in the uploaded file
                     uploadedNames.forEach(uploadedName => {
-                        // Split the string by the colon
                         let parts = uploadedName.split(":");
-
-                        // Ensure the line contains exactly two parts (before and after the colon)
-                        if (parts.length !== 2) {
-                            console.error(`Line format incorrect: ${uploadedName}`);
-                            return; // Skip this iteration if the format is wrong
-                        }
-
-                        // Trim whitespace and extract school and item name
-                        let lineSchool = parts[0].trim(); // Part before the colon (school)
-                        let lineName = parts[1].trim();   // Part after the colon (item name)
-
-                        // Debugging: Log the school and name to check if they're parsed correctly
-                        console.log(`Parsed School: ${lineSchool}, Parsed Name: ${lineName}`);
-
-                        // Check if the current school matches the variable 'school'
+    
+                        // Trim whitespace and return the two parts
+                        let lineSchool = parts[0].trim(); // First part before the colon
+                        let lineName = parts[1].trim(); // Second part after the colon
                         if (lineSchool === school) {
-                            // Debugging: Log if the school matches
-                            console.log(`School match found: ${lineSchool}`);
-
-                            // Find the corresponding gear item in the gearData array by matching the name
                             const gearItem = gearData.find(item => item.Name.trim() === lineName);
-
                             if (gearItem) {
-                                // If the gear item is found, set its 'Owned' property to 'True'
                                 gearItem.Owned = 'True';
-                                console.log(`Updated gear item: ${gearItem.Name}, set Owned to True.`);
-                            } else {
-                                // Debugging: Log if the item is not found in the gear data
-                                console.warn(`Item not found: ${lineName}`);
                             }
-                        } else {
-                            // Debugging: Log if the school doesn't match
-                            console.log(`School mismatch: ${lineSchool} !== ${school}`);
                         }
                     });
-                    
+
                     // Update the preview container
                     const previewContent = document.getElementById('previewContent');
                     if (uploadedNames.length > 0) {
@@ -415,7 +388,7 @@
                             const ownedCell = row.children[ownedColumnIndex]; // Get the correct "Owned" cell
                             const name = nameCell.textContent.trim();
 
-                            if (uploadedNames.includes(name)) {
+                            if (uploadedNames.includes(`${school}: ${name}`)) {
                                 ownedCell.textContent = 'True'; // Set "Owned" = True
                             } else {
                                 ownedCell.textContent = 'False'; // Reset to "False"
