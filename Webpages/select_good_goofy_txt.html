@@ -185,20 +185,6 @@
 
     <script>
         let gearData = [];
-        let fullGearData = initializeFullGearData();
-
-        // Function to initialize fullGearData with empty lines for each school and gear type
-        function initializeFullGearData() {
-            const schools = ["Balance", "Death", "Fire", "Ice", "Life", "Myth", "Storm"];
-            const gearTypes = ["Hats", "Robes", "Boots", "Wands", "Athames", "Amulets", "Rings", "Pets", "Mounts", "Decks"];
-            let data = "";
-            schools.forEach(school => {
-                gearTypes.forEach(gearType => {
-                    data += `${school} ${gearType}:\n`;
-                });
-            });
-            return data;
-        }
 
         function loadCSV() {
             const school = document.getElementById('school').value;
@@ -245,128 +231,181 @@
                     });
 
                     filterTable();
-
-                    // Update the preview based on current school and itemType
-                    updatePreview(school, itemType);
                 }
             });
-        }
-
-        function updatePreview(school, itemType) {
-            const sectionHeader = `${school} ${itemType}:`;
-            const ownedItems = gearData.filter(item => item.Owned === 'True').map(item => item.Name);
-            let previewContent = ownedItems.length > 0 ? `${sectionHeader}\n${ownedItems.join('\n')}` : `${sectionHeader}\nNo items owned.`;
-            document.getElementById('previewContent').textContent = previewContent;
-            updateFullGearData(sectionHeader, ownedItems);
-        }
-
-        function updateFullGearData(sectionHeader, ownedItems) {
-            const lines = fullGearData.split('\n');
-            const sectionIndex = lines.findIndex(line => line.startsWith(sectionHeader));
-            if (sectionIndex !== -1) {
-                lines.splice(sectionIndex + 1, 0, ...ownedItems); // Insert owned items after the section header
-            }
-            fullGearData = lines.join('\n'); // Update fullGearData with the new items
         }
 
         function filterTable() {
             const searchValue = document.getElementById('search').value.toLowerCase();
-            const levelValue = document.getElementById('level').value;
-
-            const filteredData = gearData.filter(item => {
-                const isNameMatch = item.Name && item.Name.toLowerCase().includes(searchValue);
-                const isLevelMatch = item.Level == levelValue;
-                return isNameMatch && (levelValue === "0" || isLevelMatch); // Match level only if it's not "0"
-            });
-
+            const levelValue = parseInt(document.getElementById('level').value, 10);
             const table = document.getElementById('gearTable');
-            table.innerHTML = '';
+            const rows = table.querySelectorAll('tr:not(:first-child)');
+            
+            rows.forEach(row => {
+                const nameCell = row.children[0]; // Assuming "Name" is the first column
+                const levelCell = row.children[1]; // Assuming "Level" is the second column
 
-            if (filteredData.length === 0) {
-                const tr = document.createElement('tr');
-                const td = document.createElement('td');
-                td.colSpan = 100;
-                td.textContent = "No records found.";
-                tr.appendChild(td);
-                table.appendChild(tr);
-                return;
-            }
+                const nameMatch = nameCell && nameCell.textContent.toLowerCase().includes(searchValue);
+                const levelMatch = levelCell && parseInt(levelCell.textContent, 10) <= levelValue;
 
-            const headers = Object.keys(filteredData[0]);
-            const headerRow = document.createElement('tr');
-            headers.forEach((header, index) => {
-                const th = document.createElement('th');
-                th.textContent = header;
-                th.onclick = () => sortTable(index, header);
-                headerRow.appendChild(th);
+                if (nameMatch && levelMatch) {
+                    row.style.display = '';
+                } else {
+                    row.style.display = 'none';
+                }
             });
-            table.appendChild(headerRow);
-
-            filteredData.forEach(row => {
-                const tr = document.createElement('tr');
-                tr.onclick = function() { handleRowClick(row, tr); };
-                headers.forEach(header => {
-                    const td = document.createElement('td');
-                    td.textContent = row[header] || '';
-                    tr.appendChild(td);
-                });
-                table.appendChild(tr);
-            });
-
-            // Update the preview based on current school and itemType
-            updatePreview(document.getElementById('school').value, document.getElementById('itemType').value);
         }
 
-        function handleRowClick(row, rowElement) {
-            const previouslySelectedRow = document.querySelector('.selected-row');
-            if (previouslySelectedRow) {
-                previouslySelectedRow.classList.remove('selected-row');
-            }
-            rowElement.classList.add('selected-row');
+        function sortTable(columnIndex, columnName) {
+            const table = document.getElementById('gearTable');
+            const rows = Array.from(table.querySelectorAll('tr:not(:first-child)')); // Exclude header row
+            const isNumericColumn = columnName !== 'Name' && columnName !== 'Source' && columnName !== 'Owned' && columnName !== 'Gear Set';
+            
+            // Sorting logic
+            rows.sort((a, b) => {
+                const aText = a.children[columnIndex].textContent.trim();
+                const bText = b.children[columnIndex].textContent.trim();
+                
+                if (isNumericColumn) {
+                    const aValue = parseFloat(aText) || 0;
+                    const bValue = parseFloat(bText) || 0;
+                    return bValue - aValue; // Descending for numeric columns
+                } else {
+                    return aText.localeCompare(bText); // Ascending for non-numeric columns
+                }
+            });
+    
+            // Append sorted rows back to table
+            rows.forEach(row => table.appendChild(row));
         }
 
-        function sortTable(index, header) {
-            gearData.sort((a, b) => {
-                const aValue = a[header] || '';
-                const bValue = b[header] || '';
-                return aValue > bValue ? 1 : -1;
-            });
-            filterTable();
+        function handleRowClick(rowData, tableRow) {
+            const previewContent = document.getElementById('previewContent');
+            const name = rowData.Name;
+        
+            // Toggle the 'Owned' value
+            const currentlyOwned = rowData.Owned === 'True'; // Correctly compare the boolean string
+            rowData.Owned = currentlyOwned ? 'False' : 'True'; // Toggle Owned status
+        
+            // Update the table cell visually
+            const ownedCell = Array.from(tableRow.children).find(td => td.textContent === (currentlyOwned ? 'True' : 'False'));
+            if (ownedCell) {
+                ownedCell.textContent = rowData.Owned;
+            }
+        
+            // Update the preview container based on the new 'Owned' status
+            let currentPreview = previewContent.textContent.split('\n').filter(item => item.trim() !== ''); // Ensure no empty lines
+        
+            if (!currentlyOwned) {
+                // Add the item to the preview
+                if (previewContent.textContent === 'No owned gear selected.') {
+                    previewContent.textContent = name;
+                } else {
+                    previewContent.textContent += `\n${name}`;
+                }
+            } else {
+                // Remove the item from the preview
+                currentPreview = currentPreview.filter(item => item !== name);
+                if (currentPreview.length > 0) {
+                    previewContent.textContent = currentPreview.join('\n');
+                } else {
+                    previewContent.textContent = 'No owned gear selected.';
+                }
+            }
         }
 
         function downloadOwnedGear() {
-            const blob = new Blob([fullGearData], { type: 'text/plain' });
+            const previewContent = document.getElementById('previewContent').textContent;
+            const ownedItems = previewContent.split('\n').filter(item => item.trim() !== 'No owned gear selected.' && item.trim() !== '');
+        
+            // Convert owned gear names to a text format
+            let txtContent = ownedItems.join('\n'); // Join names with newline
+        
+            const blob = new Blob([txtContent], { type: 'text/plain;charset=utf-8;' });
             const link = document.createElement('a');
-            link.href = URL.createObjectURL(blob);
-            link.download = 'owned_gear.txt';
+            const url = URL.createObjectURL(blob);
+            link.setAttribute('href', url);
+            link.setAttribute('download', 'owned_gear.txt'); // Change file extension to .txt
+            link.style.visibility = 'hidden';
+            document.body.appendChild(link);
             link.click();
+            document.body.removeChild(link);
         }
+
+        // Set up the event listener only once when the page is loaded
+        document.getElementById('uploadOwnedGear').addEventListener('change', function(event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    const contents = e.target.result;
+                    const uploadedNames = contents.split('\n').map(name => name.trim()).filter(name => name !== '');
+                    
+                    // Reset all gear "Owned" status to False
+                    gearData.forEach(gearItem => {
+                        gearItem.Owned = 'False';  // Ensure we're updating the correct field
+                    });
+
+                    // Set "Owned" = True for the items listed in the uploaded file
+                    uploadedNames.forEach(uploadedName => {
+                        const gearItem = gearData.find(item => item.Name.trim() === uploadedName);
+                        if (gearItem) {
+                            gearItem.Owned = 'True';
+                        }
+                    });
+
+                    // Update the preview container
+                    const previewContent = document.getElementById('previewContent');
+                    if (uploadedNames.length > 0) {
+                        previewContent.textContent = uploadedNames.join('\n');
+                    } else {
+                        previewContent.textContent = 'No owned gear selected.';
+                    }
+
+                    // Get the table and its headers
+                    const table = document.getElementById('gearTable');
+                    const headerRow = table.querySelector('tr'); // Assume the first row is the header
+                    const headers = Array.from(headerRow.children); // Array of header cells
+
+                    // Find the index of the "Owned" column
+                    const ownedColumnIndex = headers.findIndex(header => header.textContent.trim() === 'Owned');
+
+                    // If we found the "Owned" column, proceed to update the table
+                    if (ownedColumnIndex !== -1) {
+                        const rows = table.querySelectorAll('tr:not(:first-child)'); // Skip header row
+
+                        rows.forEach(row => {
+                            const nameCell = row.children[0]; // Assuming Name is the first column
+                            const ownedCell = row.children[ownedColumnIndex]; // Get the correct "Owned" cell
+                            const name = nameCell.textContent.trim();
+
+                            if (uploadedNames.includes(name)) {
+                                ownedCell.textContent = 'True'; // Set "Owned" = True
+                            } else {
+                                ownedCell.textContent = 'False'; // Reset to "False"
+                            }
+                        });
+                    } else {
+                        console.error("Could not find 'Owned' column in the table.");
+                    }
+                };
+
+                // Read the file content as text
+                reader.readAsText(file);
+            }
+
+            // Reset the file input so it can be used again
+            event.target.value = '';
+        });
 
         function uploadOwnedGear() {
             const fileInput = document.getElementById('uploadOwnedGear');
-            fileInput.click();
-            fileInput.onchange = () => {
-                const file = fileInput.files[0];
-                if (file) {
-                    const reader = new FileReader();
-                    reader.onload = function(event) {
-                        const contents = event.target.result;
-                        const lines = contents.split('\n');
-                        gearData = lines.map(line => {
-                            const parts = line.split(','); // Adjust based on the actual format
-                            return {
-                                Name: parts[0],
-                                Owned: parts[1],
-                                // Add more fields as needed based on the file structure
-                            };
-                        });
-                        filterTable(); // Refresh the table with new data
-                    };
-                    reader.readAsText(file);
-                }
-            };
+            fileInput.click(); // Trigger file selection dialog
         }
 
+        document.addEventListener('DOMContentLoaded', () => {
+            loadCSV();
+        });
     </script>
 </body>
 </html>
