@@ -167,10 +167,6 @@
         </div>
     </div>
 
-    <div class="search-container">
-        <input type="text" id="search" oninput="filterTable()" placeholder="Search for item names...">
-    </div>
-
     <div class="action-buttons">
         <input type="file" id="uploadOwnedGear" accept=".txt" style="display:none" />
         <button onclick="uploadOwnedGear()">Upload Owned Gear</button>
@@ -179,6 +175,10 @@
 
     <div class="preview-container" id="previewContainer">
         <pre id="previewContent">No owned gear selected.</pre>
+    </div>
+
+    <div class="search-container">
+        <input type="text" id="search" oninput="filterTable()" placeholder="Search for item name...">
     </div>
 
     <table id="gearTable"></table>
