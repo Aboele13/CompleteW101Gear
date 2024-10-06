@@ -190,15 +190,15 @@
             const school = document.getElementById('school').value;
             const itemType = document.getElementById('itemType').value;
             const csvUrl = `https://aboele13.github.io/CompleteW101Gear/Gear/${school}_Gear/${school}_${itemType}.csv`;
-        
+
             Papa.parse(csvUrl, {
                 download: true,
                 header: true,
-                complete: function (results) {
+                complete: function(results) {
                     const table = document.getElementById('gearTable');
                     table.innerHTML = ''; // Clear existing table content
                     gearData = results.data; // Store the gear data globally for manipulation
-        
+
                     if (!results.data || results.data.length === 0) {
                         const tr = document.createElement('tr');
                         const td = document.createElement('td');
@@ -208,8 +208,7 @@
                         table.appendChild(tr);
                         return;
                     }
-        
-                    // Create and append table headers
+
                     const headers = results.meta.fields;
                     const headerRow = document.createElement('tr');
                     headers.forEach((header, index) => {
@@ -219,11 +218,10 @@
                         headerRow.appendChild(th);
                     });
                     table.appendChild(headerRow);
-        
-                    // Create and append table rows
+
                     results.data.forEach(row => {
                         const tr = document.createElement('tr');
-                        tr.onclick = function () { handleRowClick(row, tr); };
+                        tr.onclick = function() { handleRowClick(row, tr); };
                         headers.forEach(header => {
                             const td = document.createElement('td');
                             td.textContent = row[header] || ''; // Handle empty values
@@ -231,56 +229,8 @@
                         });
                         table.appendChild(tr);
                     });
-        
-                    // Now we add the new functionality:
-                    // Get the list of uploaded gear from the preview content
-                    const previewContent = document.getElementById('previewContent').textContent;
-                    const uploadedNames = previewContent.split('\n').map(name => name.trim()).filter(name => name !== '' && name !== 'No owned gear selected.');
-        
-                    // Reset all gear "Owned" status to False first
-                    gearData.forEach(gearItem => {
-                        gearItem.Owned = 'False';  // Ensure we're updating the correct field
-                    });
-        
-                    // Set "Owned" = True for the items listed in the preview container
-                    uploadedNames.forEach(uploadedName => {
-                        let parts = uploadedName.split(":");
-            
-                        // Trim whitespace and return the two parts
-                        let lineSchool = parts[0].trim(); // First part before the colon
-                        let lineName = parts[1].trim(); // Second part after the colon
-        
-                        if (lineSchool === school) {
-                            const gearItem = gearData.find(item => item.Name.trim() === lineName);
-                            if (gearItem) {
-                                gearItem.Owned = 'True'; // Mark it as owned
-                            }
-                        }
-                    });
-        
-                    // Update the table to visually reflect the "Owned" status
-                    const headerRowCells = Array.from(headerRow.children);
-                    const ownedColumnIndex = headerRowCells.findIndex(header => header.textContent.trim() === 'Owned');
-        
-                    if (ownedColumnIndex !== -1) {
-                        const rows = table.querySelectorAll('tr:not(:first-child)'); // Skip header row
-        
-                        rows.forEach(row => {
-                            const nameCell = row.children[0]; // Assuming "Name" is the first column
-                            const ownedCell = row.children[ownedColumnIndex]; // Get the correct "Owned" cell
-                            const name = nameCell.textContent.trim();
-        
-                            if (uploadedNames.includes(`${school}: ${name}`)) {
-                                ownedCell.textContent = 'True'; // Set "Owned" = True in the table
-                            } else {
-                                ownedCell.textContent = 'False'; // Set "Owned" = False in the table
-                            }
-                        });
-                    } else {
-                        console.error("Could not find 'Owned' column in the table.");
-                    }
-        
-                    filterTable(); // Apply any current filters
+
+                    filterTable();
                 }
             });
         }
@@ -332,7 +282,6 @@
         function handleRowClick(rowData, tableRow) {
             const previewContent = document.getElementById('previewContent');
             const name = rowData.Name;
-            const school = document.getElementById('school').value;
         
             // Toggle the 'Owned' value
             const currentlyOwned = rowData.Owned === 'True'; // Correctly compare the boolean string
@@ -350,13 +299,13 @@
             if (!currentlyOwned) {
                 // Add the item to the preview
                 if (previewContent.textContent === 'No owned gear selected.') {
-                    previewContent.textContent = `${school}: ${name}`;
+                    previewContent.textContent = name;
                 } else {
-                    previewContent.textContent += `\n${school}: ${name}`;
+                    previewContent.textContent += `\n${name}`;
                 }
             } else {
                 // Remove the item from the preview
-                currentPreview = currentPreview.filter(item => item !== `${school}: ${name}`);
+                currentPreview = currentPreview.filter(item => item !== name);
                 if (currentPreview.length > 0) {
                     previewContent.textContent = currentPreview.join('\n');
                 } else {
@@ -385,7 +334,6 @@
 
         // Set up the event listener only once when the page is loaded
         document.getElementById('uploadOwnedGear').addEventListener('change', function(event) {
-            const school = document.getElementById('school').value;
             const file = event.target.files[0];
             if (file) {
                 const reader = new FileReader();
@@ -400,16 +348,9 @@
 
                     // Set "Owned" = True for the items listed in the uploaded file
                     uploadedNames.forEach(uploadedName => {
-                        let parts = uploadedName.split(":");
-    
-                        // Trim whitespace and return the two parts
-                        let lineSchool = parts[0].trim(); // First part before the colon
-                        let lineName = parts[1].trim(); // Second part after the colon
-                        if (lineSchool === school) {
-                            const gearItem = gearData.find(item => item.Name.trim() === lineName);
-                            if (gearItem) {
-                                gearItem.Owned = 'True';
-                            }
+                        const gearItem = gearData.find(item => item.Name.trim() === uploadedName);
+                        if (gearItem) {
+                            gearItem.Owned = 'True';
                         }
                     });
 
@@ -438,7 +379,7 @@
                             const ownedCell = row.children[ownedColumnIndex]; // Get the correct "Owned" cell
                             const name = nameCell.textContent.trim();
 
-                            if (uploadedNames.includes(`${school}: ${name}`)) {
+                            if (uploadedNames.includes(name)) {
                                 ownedCell.textContent = 'True'; // Set "Owned" = True
                             } else {
                                 ownedCell.textContent = 'False'; // Reset to "False"
