@@ -1,21 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Redirecting...</title>
-    <script type="text/javascript">
-        if (window.location.pathname === "/CompleteW101Gear/") {
-            window.location.href = "/CompleteW101Gear/Webpages/";
-        }
-    </script>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin-top: 50px;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gear Filter</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p>If you are not redirected automatically, follow this <a href="Webpages/">link</a>.</p>
+    <header>
+        <h1>Gear Filter</h1>
+    </header>
+    <main>
+        <form id="filter-form">
+            <label for="school">School:</label>
+            <select id="school" name="school">
+                <option value="Fire">Fire</option>
+                <option value="Ice">Ice</option>
+                <option value="Storm">Storm</option>
+            </select>
+            <br>
+            <label for="owned">Owned Only:</label>
+            <input type="checkbox" id="owned" name="owned">
+            <br>
+            <button type="submit">Filter Gear</button>
+        </form>
+        <div id="table-container"></div>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
