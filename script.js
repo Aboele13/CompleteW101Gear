@@ -1,91 +1,69 @@
-const schoolSelect = document.getElementById('school');
-const itemTypeSelect = document.getElementById('itemType');
-const ownedCheckbox = document.getElementById('owned');
-const tableContainer = document.getElementById('table-container');
+document.getElementById('fetchButton').addEventListener('click', fetchCSV);
 
-let sortColumn = null;
-let sortOrder = 'asc'; // Initial sort order
+function fetchCSV() {
+    const school = document.getElementById('school').value;
+    const itemType = document.getElementById('itemType').value;
+    const url = `https://aboele13.github.io/CompleteW101Gear/Gear/${school}_Gear/${school}_${itemType}.csv`;
 
-const filterForm = document.getElementById('filter-form');
-filterForm.addEventListener('submit', (event) => {
-    event.preventDefault();
-
-    const school = schoolSelect.value;
-    const itemType = itemTypeSelect.value;
-    const owned = ownedCheckbox.checked;
-
-    const csvUrl = `https://aboele13.github.io/CompleteW101Gear/Gear/${school}_Gear/${school}_${itemType}.csv`;
-
-    fetch(csvUrl)
+    fetch(url)
         .then(response => response.text())
         .then(data => {
-            const parsedData = Papa.parse(data, { header: true }).data;
-            const filteredData = filterCSVData(parsedData, owned);
-
-            displayTable(filteredData);
+            const table = createTable(data);
+            document.getElementById('tableContainer').innerHTML = table;
+            addSortingListeners();
         })
         .catch(error => {
-            console.error('Error fetching or parsing data:', error);
-            tableContainer.innerHTML = '<p>Error fetching data. Please try again later.</p>';
+            console.error('Error fetching the CSV file:', error);
+            document.getElementById('tableContainer').innerHTML = '<p>Error fetching the CSV file.</p>';
         });
-});
-
-function filterCSVData(data, owned) {
-    return owned ? data.filter(row => row.Owned === 'True') : data;
 }
 
-function displayTable(data) {
-    tableContainer.innerHTML = '';
+function createTable(csvData) {
+    const rows = csvData.split('\n');
+    const headers = rows[0].split(',');
+    let tableHTML = '<table><thead><tr>';
 
-    const table = document.createElement('table');
-    table.classList.add('sortable-table');
+    headers.forEach(header => {
+        tableHTML += `<th>${header}</th>`;
+    });
 
-    const headerRow = document.createElement('tr');
-    for (const key in data[0]) {
-        const headerCell = document.createElement('th');
-        headerCell.textContent = key;
-        headerCell.addEventListener('click', () => {
-            if (sortColumn === key) {
-                sortOrder = sortOrder === 'asc' ? 'desc' : 'asc';
-            } else {
-                sortColumn = key;
-                sortOrder = 'desc';
-            }
-            displayTable(data);
+    tableHTML += '</tr></thead><tbody>';
+
+    for (let i = 1; i < rows.length; i++) {
+        const cells = rows[i].split(',');
+        tableHTML += '<tr>';
+        cells.forEach(cell => {
+            tableHTML += `<td>${cell}</td>`;
         });
-        headerRow.appendChild(headerCell);
+        tableHTML += '</tr>';
     }
-    table.appendChild(headerRow);
 
-    const sortedData = data.sort((a, b) => {
-        const aValue = a[sortColumn].trim().toLowerCase();
-        const bValue = b[sortColumn].trim().toLowerCase();
+    tableHTML += '</tbody></table>';
+    return tableHTML;
+}
 
-        // Handle undefined values
-        if (aValue === undefined || bValue === undefined) {
-            return 0;
-        }
+function addSortingListeners() {
+    const table = document.querySelector('table');
+    const headers = table.querySelectorAll('th');
 
-        // Convert values to numbers if possible
-        const aNum = Number(aValue);
-        const bNum = Number(bValue);
+    headers.forEach((header, index) => {
+        header.addEventListener('click', () => {
+            sortTable(table, index);
+        });
+    });
+}
 
-        if (!isNaN(aNum) && !isNaN(bNum)) {
-            return sortOrder === 'asc' ? aNum - bNum : bNum - aNum;
-        } else {
-            return sortOrder === 'asc' ? aValue.localeCompare(bValue) : bValue.localeCompare(aValue);
-        }
+function sortTable(table, columnIndex) {
+    const tbody = table.querySelector('tbody');
+    const rows = Array.from(tbody.querySelectorAll('tr'));
+
+    rows.sort((a, b) => {
+        const aCell = a.querySelectorAll('td')[columnIndex].textContent;
+        const bCell = b.querySelectorAll('td')[columnIndex].textContent;
+
+        return aCell.localeCompare(bCell, undefined, { numeric: true });
     });
 
-    sortedData.forEach(row => {
-        const dataRow = document.createElement('tr');
-        for (const value of Object.values(row)) {
-            const dataCell = document.createElement('td');
-            dataCell.textContent = value;
-            dataRow.appendChild(dataCell);
-        }
-        table.appendChild(dataRow);
-    });
-
-    tableContainer.appendChild(table);
+    tbody.innerHTML = '';
+    rows.forEach(row => tbody.appendChild(row));
 }

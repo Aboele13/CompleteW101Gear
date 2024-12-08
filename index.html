@@ -3,47 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gear Filter</title>
-    <link rel="stylesheet" href="style.css">
+    <title>CSV Viewer</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Gear Filter</h1>
-    </header>
-    <main>
-        <form id="filter-form">
+    <div class="container">
+        <h1>CSV Viewer</h1>
+        <div class="input-group">
             <label for="school">School:</label>
-            <select id="school" name="school">
-                <option value="Balance">Balance</option>
-                <option value="Death">Death</option>
-                <option value="Fire">Fire</option>
-                <option value="Ice">Ice</option>
-                <option value="Life">Life</option>
-                <option value="Myth">Myth</option>
-                <option value="Storm">Storm</option>
-            </select>
+            <input type="text" id="school" placeholder="Enter school name">
+        </div>
+        <div class="input-group">
             <label for="itemType">Item Type:</label>
-            <select id="itemType" name="itemType">
-                <option value="Hats">Hats</option>
-                <option value="Robes">Robes</option>
-                <option value="Boots">Boots</option>
-                <option value="Wands">Wands</option>
-                <option value="Athames">Athames</option>
-                <option value="Amulets">Amulets</option>
-                <option value="Rings">Rings</option>
-                <option value="Pets">Pets</option>
-                <option value="Mounts">Mounts</option>
-                <option value="Decks">Decks</option>
-            </select>
-            <br>
-            <label for="owned">Owned Only:</label>
-            <input type="checkbox" id="owned" name="owned">
-            <br>
-            <button type="submit">Filter Gear</button>
-        </form>
-        <div id="table-container"></div>
-    </main>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.1/papaparse.min.js"></script>
+            <input type="text" id="itemType" placeholder="Enter item type">
+        </div>
+        <button id="fetchButton">Fetch CSV</button>
+        <div id="tableContainer"></div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
