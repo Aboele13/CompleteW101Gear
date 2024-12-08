@@ -1,4 +1,5 @@
 const schoolSelect = document.getElementById('school');
+const itemTypeSelect = document.getElementById('itemType');
 const ownedCheckbox = document.getElementById('owned');
 const tableContainer = document.getElementById('table-container');
 
@@ -10,9 +11,10 @@ filterForm.addEventListener('submit', (event) => {
     event.preventDefault();
 
     const school = schoolSelect.value;
+    const itemType = itemTypeSelect
     const owned = ownedCheckbox.checked;
 
-    const csvUrl = `https://aboele13.github.io/CompleteW101Gear/Gear/${school}_Gear/${school}_Hats.csv`;
+    const csvUrl = `https://aboele13.github.io/CompleteW101Gear/Gear/${school}_Gear/${school}_${itemType}.csv`;
 
     fetch(csvUrl)
         .then(response => response.text())
@@ -53,10 +55,18 @@ function displayTable(data) {
     table.appendChild(headerRow);
 
     const sortedData = data.sort((a, b) => {
-        if (typeof a[sortColumn] === 'number' && typeof b[sortColumn] === 'number') {
-            return sortOrder === 'asc' ? a[sortColumn] - b[sortColumn] : b[sortColumn] - a[sortColumn];
+        const aValue = a[sortColumn];
+        const bValue = b[sortColumn];
+    
+        // Handle undefined values
+        if (aValue === undefined || bValue === undefined) {
+            return 0; // Or handle undefined values differently as needed
+        }
+    
+        if (typeof aValue === 'number' && typeof bValue === 'number') {
+            return sortOrder === 'asc' ? aValue - bValue : bValue - aValue;
         } else {
-            return sortOrder === 'asc' ? a[sortColumn].localeCompare(b[sortColumn]) : b[sortColumn].localeCompare(a[sortColumn]);
+            return sortOrder === 'asc' ? aValue.localeCompare(bValue) : bValue.localeCompare(aValue);
         }
     });
 
