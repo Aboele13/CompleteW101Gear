@@ -34,3 +34,7 @@ th, td {
     padding: 5px;
     border: 1px solid #ddd;
 }
+
+.sortable-table {
+    transition: height 0.3s ease-in-out;
+}

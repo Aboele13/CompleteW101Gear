@@ -4,7 +4,7 @@ const ownedCheckbox = document.getElementById('owned');
 const tableContainer = document.getElementById('table-container');
 
 let sortColumn = null;
-let sortOrder = 'asc'; // 'asc' for ascending, 'desc' for descending
+let sortOrder = 'asc'; // Initial sort order
 
 const filterForm = document.getElementById('filter-form');
 filterForm.addEventListener('submit', (event) => {
@@ -40,14 +40,19 @@ function displayTable(data) {
     tableContainer.innerHTML = '';
 
     const table = document.createElement('table');
+    table.classList.add('sortable-table');
 
     const headerRow = document.createElement('tr');
     for (const key in data[0]) {
         const headerCell = document.createElement('th');
         headerCell.textContent = key;
         headerCell.addEventListener('click', () => {
-            sortColumn = key;
-            sortOrder = sortOrder === 'asc' ? 'desc' : 'asc';
+            if (sortColumn === key) {
+                sortOrder = sortOrder === 'asc' ? 'desc' : 'asc';
+            } else {
+                sortColumn = key;
+                sortOrder = 'desc'; // Initial sort order for a new column
+            }
             displayTable(data);
         });
         headerRow.appendChild(headerCell);
@@ -57,21 +62,19 @@ function displayTable(data) {
     const sortedData = data.sort((a, b) => {
         const aValue = a[sortColumn];
         const bValue = b[sortColumn];
-    
+
         // Handle undefined values
         if (aValue === undefined || bValue === undefined) {
             return 0;
         }
-    
+
         // Convert values to numbers if possible
         const aNum = Number(aValue);
         const bNum = Number(bValue);
-    
+
         if (!isNaN(aNum) && !isNaN(bNum)) {
-            // Both values are numbers, so compare them numerically
             return sortOrder === 'asc' ? aNum - bNum : bNum - aNum;
         } else {
-            // At least one value is not a number, so compare them as strings
             return sortOrder === 'asc' ? aValue.localeCompare(bValue) : bValue.localeCompare(aValue);
         }
     });
