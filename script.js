@@ -58,8 +58,8 @@ function displayTable(data) {
     table.appendChild(headerRow);
 
     const sortedData = data.sort((a, b) => {
-        const aValue = a[sortColumn].trim.toLowerCase();
-        const bValue = b[sortColumn].trim.toLowerCase();
+        const aValue = a[sortColumn].trim().toLowerCase();
+        const bValue = b[sortColumn].trim().toLowerCase();
 
         // Handle undefined values
         if (aValue === undefined || bValue === undefined) {
