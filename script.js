@@ -11,7 +11,7 @@ filterForm.addEventListener('submit', (event) => {
     event.preventDefault();
 
     const school = schoolSelect.value;
-    const itemType = itemTypeSelect
+    const itemType = itemTypeSelect.value;
     const owned = ownedCheckbox.checked;
 
     const csvUrl = `https://aboele13.github.io/CompleteW101Gear/Gear/${school}_Gear/${school}_${itemType}.csv`;
