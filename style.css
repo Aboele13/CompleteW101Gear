@@ -25,16 +25,7 @@ label {
     margin-top: 20px;
 }
 
-.sortable-table {
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
-    border-collapse: collapse;
-    width: 100%;
-    transition: height 0.3s ease-in-out;
-}
-
-th,
-td {
+th, td {
     border: 1px solid #ddd;
     padding: 8px;
     text-align: center;
