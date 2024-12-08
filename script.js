@@ -22,8 +22,6 @@ filterForm.addEventListener('submit', (event) => {
             const parsedData = Papa.parse(data, { header: true }).data;
             const filteredData = filterCSVData(parsedData, owned);
 
-            console.log('Filtered data:', filteredData);
-
             displayTable(filteredData);
         })
         .catch(error => {
@@ -51,7 +49,7 @@ function displayTable(data) {
                 sortOrder = sortOrder === 'asc' ? 'desc' : 'asc';
             } else {
                 sortColumn = key;
-                sortOrder = 'desc'; // Initial sort order for a new column
+                sortOrder = 'desc';
             }
             displayTable(data);
         });
