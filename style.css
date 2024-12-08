@@ -25,16 +25,22 @@ label {
     margin-top: 20px;
 }
 
-table {
+.sortable-table {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
     border-collapse: collapse;
     width: 100%;
-}
-
-th, td {
-    padding: 5px;
-    border: 1px solid #ddd;
-}
-
-.sortable-table {
     transition: height 0.3s ease-in-out;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
 }
