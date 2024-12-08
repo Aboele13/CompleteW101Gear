@@ -16,6 +16,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 80%;
     max-width: 800px;
+    overflow: hidden;
 }
 
 h1 {
@@ -54,12 +55,19 @@ button:hover {
 
 #tableContainer {
     margin-top: 20px;
+    overflow-x: auto;
+    max-height: 600px; /* Adjust this value as needed */
+    overflow-y: auto;
+    display: block;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
 }
 
 table, th, td {
@@ -74,4 +82,7 @@ th, td {
 th {
     background-color: #f2f2f2;
     cursor: pointer;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
