@@ -60,12 +60,18 @@ function displayTable(data) {
     
         // Handle undefined values
         if (aValue === undefined || bValue === undefined) {
-            return 0; // Or handle undefined values differently as needed
+            return 0;
         }
     
-        if (typeof aValue === 'number' && typeof bValue === 'number') {
-            return sortOrder === 'asc' ? aValue - bValue : bValue - aValue;
+        // Convert values to numbers if possible
+        const aNum = Number(aValue);
+        const bNum = Number(bValue);
+    
+        if (!isNaN(aNum) && !isNaN(bNum)) {
+            // Both values are numbers, so compare them numerically
+            return sortOrder === 'asc' ? aNum - bNum : bNum - aNum;
         } else {
+            // At least one value is not a number, so compare them as strings
             return sortOrder === 'asc' ? aValue.localeCompare(bValue) : bValue.localeCompare(aValue);
         }
     });
