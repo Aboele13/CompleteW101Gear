@@ -2,6 +2,9 @@ const schoolSelect = document.getElementById('school');
 const ownedCheckbox = document.getElementById('owned');
 const tableContainer = document.getElementById('table-container');
 
+let sortColumn = null;
+let sortOrder = 'asc'; // 'asc' for ascending, 'desc' for descending
+
 const filterForm = document.getElementById('filter-form');
 filterForm.addEventListener('submit', (event) => {
     event.preventDefault();
@@ -40,11 +43,24 @@ function displayTable(data) {
     for (const key in data[0]) {
         const headerCell = document.createElement('th');
         headerCell.textContent = key;
+        headerCell.addEventListener('click', () => {
+            sortColumn = key;
+            sortOrder = sortOrder === 'asc' ? 'desc' : 'asc';
+            displayTable(data);
+        });
         headerRow.appendChild(headerCell);
     }
     table.appendChild(headerRow);
 
-    for (const row of data) {
+    const sortedData = data.sort((a, b) => {
+        if (typeof a[sortColumn] === 'number' && typeof b[sortColumn] === 'number') {
+            return sortOrder === 'asc' ? a[sortColumn] - b[sortColumn] : b[sortColumn] - a[sortColumn];
+        } else {
+            return sortOrder === 'asc' ? a[sortColumn].localeCompare(b[sortColumn]) : b[sortColumn].localeCompare(a[sortColumn]);
+        }
+    });
+
+    sortedData.forEach(row => {
         const dataRow = document.createElement('tr');
         for (const value of Object.values(row)) {
             const dataCell = document.createElement('td');
@@ -52,7 +68,7 @@ function displayTable(data) {
             dataRow.appendChild(dataCell);
         }
         table.appendChild(dataRow);
-    }
+    });
 
     tableContainer.appendChild(table);
 }
