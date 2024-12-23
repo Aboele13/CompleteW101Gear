@@ -1,7 +1,6 @@
 import os
 import urllib.parse
-
-import requests
+from urllib.request import Request, urlopen
 
 
 def fetch_url_content(url):
@@ -12,19 +11,15 @@ def fetch_url_content(url):
 
     try:
         if url.startswith('http'):
-            response = requests.get(url, headers=headers)
+            response = Request(url, headers=headers)
         else:
             full_url = urllib.parse.urljoin('https://wiki.wizard101central.com', url)
-            response = requests.get(full_url, headers=headers)
+            response = Request(full_url, headers=headers)
             
-        response.raise_for_status()  # Raise an exception for HTTP errors (4xx or 5xx)
-        return response.text
-    except requests.exceptions.HTTPError as http_err:
-        print(f"HTTP error occurred: {http_err}")
-    except requests.exceptions.RequestException as req_err:
-        print(f"Request error occurred: {req_err}")
+        return urlopen(response).read()
     except Exception as err:
-        print(f"Other error occurred: {err}")
+        print(f"Error occurred: {err}\nRetrying {url}")
+        return fetch_url_content(url)
     
     return None
 

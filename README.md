@@ -1,5 +1,15 @@
 TODO:
 
+- HECK FRONTEND, I'M DOING EVERYTHING IN CONSOLE, NO WEBSITE
+
+- base values cleanup and implement
+    - can all be one csv?
+
+- update set bonuses with every stat bonus (massive csv like gear)
+    - col for how many pieces
+
+- csv for which aoe/hit based on level
+
 - select gear
     - jeweled checkbox (jewel the accessories)
 

@@ -15,12 +15,12 @@ def find_next_page_link(soup):
     return None
 
 # drop, bazaar, gold, crowns, crafting, fishing, raid, gift card, skeleton keys, one shot, housing gauntlet, rematch, unavailable (scroll of fortune / promotion / code)
-def get_item_source(item_name, formatted_info, is_mount):
+def get_item_source(item_name, formatted_info, gear_type):
     
     sources_list = set()
     
     # clothes and accessories
-    if not is_mount:
+    if gear_type != "Mounts":
         sources_list = get_clothing_accessory_source(item_name, formatted_info)
     # mounts
     else:
