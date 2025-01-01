@@ -8,6 +8,8 @@ from bs4 import BeautifulSoup
 import utils
 from webAccess import fetch_url_content, replace_img_with_filename
 
+all_jewel_shapes = {'Tear', 'Circle', 'Square', 'Triangle'}
+all_pin_shapes = {'Sword', 'Shield', 'Power'}
 
 def extract_bullet_points_from_html(html_content):
     if not html_content:
@@ -47,7 +49,7 @@ def extract_information_from_url(url):
         for i, line in enumerate(lines):
             if line.startswith("Jewel:"):
                 start_index = i
-            if line.startswith("Acquisition Source") or line.startswith("Sell Price") or line.startswith("Documentation on how") or "(10px-%28Icon%29_Counter.png)" in line:
+            if line.startswith("Acquisition Source") or line.startswith("Sell Price") or line.startswith("Documentation on how") or "(10px-%28Icon%29_Counter.png)" in line or line == "Shatter":
                 end_index = i
                 break
         
@@ -114,7 +116,7 @@ def process_bullet_point(base_url, bullet_point):
         }
         jewel_data.update(bonuses)
         
-        # if jewel_name == "Elemental Blade Citrine": # testing
+        # if jewel_name == "Storm Crushing Pin (170, Balance)": # testing
         #     print(formatted_info)
         
         for damage_IC in utils.damage_ICs:
@@ -227,7 +229,7 @@ def update_jewels(jewel_shapes):
     for curr_jewel_shape in jewel_shapes:
         
         base_url = "https://wiki.wizard101central.com"
-        url = f"https://wiki.wizard101central.com/wiki/Category:{curr_jewel_shape}-Shaped_Jewels"
+        url = f"https://wiki.wizard101central.com/wiki/Category:{curr_jewel_shape}-Shaped_Jewels" if curr_jewel_shape in all_jewel_shapes else f"https://wiki.wizard101central.com/wiki/Category:{curr_jewel_shape}_Pins"
         
         jewels_data = []
         
@@ -272,9 +274,9 @@ def update_jewels(jewel_shapes):
         for school in utils.schools_of_items: # change this if i want to test one school
             if school != "Global":
                 file_path = f'Jewels\\{school}_Jewels\\{school}_{curr_jewel_shape}_Jewels.csv'
-                df = df[(df['School'].str.startswith('Not') & ~df['School'].str.endswith(school)) | df['School'].isin([school, 'Global'])]
+                school_df = df[(df['School'].str.startswith('Not') & ~df['School'].str.endswith(school)) | df['School'].isin([school, 'Global'])]
                 try:
-                    df.to_csv(file_path, index=False)
+                    school_df.to_csv(file_path, index=False)
                 except:
                     input(f"\n{file_path} needs to be closed before it can be written to.\nClose the file and hit enter\n")
-                    df.to_csv(file_path, index=False)
+                    school_df.to_csv(file_path, index=False)

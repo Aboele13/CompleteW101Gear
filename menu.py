@@ -1,5 +1,5 @@
 all_gear_types = ['Hats', 'Robes', 'Boots', 'Wands', 'Athames', 'Amulets', 'Rings', 'Pets', 'Mounts', 'Decks']
-all_jewel_shapes = ['Tear', 'Circle', 'Square', 'Triangle']
+all_jewel_shapes = ['Tear', 'Circle', 'Square', 'Triangle', 'Sword', 'Shield', 'Power']
 
 def success_return_menu():
     action = input("\nThe process is complete. Would you like to do anything else?\n\n[1] Yes\n[2] No\n\n")
@@ -113,7 +113,7 @@ def print_jewel_shapes_options():
 
 def nums_to_jewel_shapes(nums):
     jewel_shapes = []
-    if min(nums) < 1 or max(nums) > 4:
+    if min(nums) < 1 or max(nums) > 7:
         return jewel_shapes
     for i in range(len(all_jewel_shapes)):
         if (i + 1) in nums:
@@ -162,37 +162,49 @@ def update_jewels_menu():
         invalid_input_message()
         update_jewels_menu()
 
-def update_base_values_menu():
-    not_added_yet_message()
-    update_info_menu()
-
-def update_set_bonuses_menu():
-    not_added_yet_message()
-    update_info_menu()
-
 def update_info_menu():
     
-    action = input("\nWhat would you like to update?\n\n[1] Update Gear\n[2] Update Jewels\n[3] Update Base Values\n[4] Update Set Bonuses\n[b] Back\n[q] Quit\n\n")
+    action = input("\nWhat would you like to update?\n\n[1] Update Everything\n[2] Update Gear\n[3] Update Jewels\n[4] Update Base Values\n[5] Update Set Bonuses\n[b] Back\n[q] Quit\n\n")
     
     if action.lower() == 'q':
         return
     elif action.lower() == 'b':
         start_menu()
     elif action == '1' or not action:
-        update_gear_menu()
+        # update gear
+        print("\nBeginning to update gear...\n")
+        from updateGear import update_gear
+        update_gear(all_gear_types)
+        # update jewels
+        print("\nBeginning to update jewels...\n")
+        from updateJewels import update_jewels
+        update_jewels(all_jewel_shapes)
+        # update base values
+        print("\nBeginning to update base values...\n")
+        from updateBaseValues import update_base_values
+        update_base_values()
+        # update set bonuses
+        print("\nBeginning to update set bonuses...\n")
+        from updateSetBonuses import update_set_bonuses
+        update_set_bonuses()
+        success_return_menu()
     elif action == '2':
-        update_jewels_menu()
+        update_gear_menu()
     elif action == '3':
-        update_base_values_menu()
+        update_jewels_menu()
     elif action == '4':
-        update_set_bonuses_menu()
+        print("\nBeginning to update base values...\n")
+        from updateBaseValues import update_base_values
+        update_base_values()
+        success_return_menu()
+    elif action == '5':
+        print("\nBeginning to update set bonuses...\n")
+        from updateSetBonuses import update_set_bonuses
+        update_set_bonuses()
+        success_return_menu()
     else:
         invalid_input_message()
         update_info_menu()
-
-def view_gear_menu():
-    not_added_yet_message()
-    start_menu()
 
 def owned_gear_menu():
     not_added_yet_message()
@@ -215,7 +227,9 @@ def start_menu():
     elif action == '1' or not action:
         update_info_menu()
     elif action == '2':
-        view_gear_menu()
+        from viewGear import view_gear
+        if view_gear():
+            start_menu()
     elif action == '3':
         owned_gear_menu()
     elif action == '4':
@@ -225,49 +239,3 @@ def start_menu():
     else:
         invalid_input_message()
         start_menu()
-    
-    # bad_urls = []
-    
-    # # update all the gear CSVs
-    # if update_gear:
-    #     for school in schools: # run it for each school
-    #         bad_urls.extend(updateGear.create_clothing(school))
-    #         bad_urls.extend(createAccessories.create_accessories(school))
-    #         bad_urls.extend(createMounts.create_mounts(school))
-    #         bad_urls.extend(createPets.create_pets(school))
-
-    #         print(f"\n\n\nAll {school} gear has been successfully updated\n")
-    
-    #     # check if any sourcing went wrong
-    #     bad_urls.extend(findItemSource.get_bad_urls())
-    
-    # # update the jewel CSVs
-    # if update_jewels:
-    #     bad_urls.extend(jewels.collect_jewels(schools)) # each school created in function
-        
-    #     print(f"\n\n\nAll jewels have been successfully updated\n")
-    
-    # # update the base values CSVs
-    # if update_base_values:
-    #     bad_urls.extend(baseValues.get_base_values(schools)) # each school created in function
-        
-    #     print(f"\n\n\nAll base values have been successfully updated\n")
-        
-    # # update the set bonuses CSVs
-    # if update_set_bonuses:
-    #     for school in schools: # run it for each school
-    #         bad_urls.extend(setBonuses.get_set_bonuses(school))
-        
-    #         print(f"\n\n\nAll {school} set bonuses have been successfully updated\n")
-    
-    # # print which links did not work and need to be rechecked
-    # if bad_urls:
-    #     print("List of URLs that did not process properly:\n")
-        
-    #     for bad_url in bad_urls:
-    #         print(bad_url)
-        
-    #     print("\n")
-        
-    # else:
-    #     print("Every link worked correctly and all the desired updates were made successfully\n")

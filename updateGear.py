@@ -9,9 +9,6 @@ import findItemSource
 import utils
 from webAccess import fetch_url_content, replace_img_with_filename
 
-clothing_gear_types = {"Hats", "Robes", "Boots"}
-accessory_gear_types = {"Wands", "Athames", "Amulets", "Rings", "Decks"}
-starting_pip_gear_types = {"Wands", "Decks"}
 
 def extract_bullet_points_from_html(html_content):
     if not html_content:
@@ -104,7 +101,7 @@ def extract_information_from_url(url, gear_type):
         lines = text_content.splitlines()
         
         # retrieve proper lines/levels based on gear type
-        if gear_type in clothing_gear_types or gear_type in accessory_gear_types:
+        if gear_type in utils.clothing_gear_types or gear_type in utils.accessory_gear_types:
             return extract_clothing_accessory_info_from_url(lines, soup)
         elif gear_type == "Mounts" or gear_type == "Pets":
             return extract_pet_mount_info_from_url(lines, soup)
@@ -146,7 +143,7 @@ def format_extracted_info(extracted_info, curr_gear_type):
     
     # school should come second for clothing and accessories,
     # so remove anything from formatted_info[1] that isn't a school
-    if curr_gear_type in clothing_gear_types or curr_gear_type in accessory_gear_types:
+    if curr_gear_type in utils.clothing_gear_types or curr_gear_type in utils.accessory_gear_types:
         try:
             while formatted_info[1] not in utils.schools_of_items:
                 formatted_info.pop(1)
@@ -286,7 +283,7 @@ def parse_bonuses(formatted_info, item_name, curr_gear_type):
             bonuses[category] += int(value)
     
     # Check for Sockets and count occurrences of specific types
-    if curr_gear_type in clothing_gear_types: # pins for clothing
+    if curr_gear_type in utils.clothing_gear_types: # pins for clothing
         if "Sockets" in formatted_info:
             sword_pins = formatted_info.count("Sword Socket")
             shield_pins = formatted_info.count("Shield Socket")
@@ -299,7 +296,7 @@ def parse_bonuses(formatted_info, item_name, curr_gear_type):
             bonuses['Shield Pins'] = 0
             bonuses['Power Pins'] = 0
     
-    elif curr_gear_type in accessory_gear_types: # jewels for accessories
+    elif curr_gear_type in utils.accessory_gear_types: # jewels for accessories
         if "Sockets" in formatted_info:
             combined_text = " ".join(formatted_info)
             unlocked_tears = combined_text.count("Tear Socket Tear")
@@ -329,7 +326,7 @@ def parse_bonuses(formatted_info, item_name, curr_gear_type):
             bonuses['Locked Triangle'] = 0
     
     # set the starting pips to only wands and decks
-    if curr_gear_type in starting_pip_gear_types:
+    if curr_gear_type in utils.starting_pip_gear_types:
         total_pips = 0
         i = 2
         while i < len(formatted_info):
@@ -362,12 +359,11 @@ def process_bullet_point(base_url, bullet_point, curr_gear_type):
     
     if text_info:
         formatted_info = format_extracted_info(text_info, curr_gear_type)
-        bonuses = parse_bonuses(formatted_info, item_name, curr_gear_type)
         item_data = {
             'Name': item_name,
             'Level': int(level_required)
         }
-        item_data.update(bonuses)
+        item_data.update(parse_bonuses(formatted_info, item_name, curr_gear_type))
         
         # set the item's source (pets don't have sources)
         if curr_gear_type != "Pets":
@@ -382,7 +378,7 @@ def process_bullet_point(base_url, bullet_point, curr_gear_type):
             if "Enchant Damage" not in item_data:
                 item_data["Enchant Damage"] = 0
 
-        # set the item's gear set (or None if none)
+        # set the item's gear set (or No Gear Set if none)
         # mounts and pets look for "Set"
         if curr_gear_type == "Mounts" or curr_gear_type == "Pets":
             for i in range(len(formatted_info) - 1):
@@ -400,7 +396,7 @@ def process_bullet_point(base_url, bullet_point, curr_gear_type):
         #     print(formatted_info)
         
         if "Gear Set" not in item_data:
-            item_data['Gear Set'] = "None"
+            item_data['Gear Set'] = "No Gear Set"
         
         if "-100 Max" in formatted_info:
             item_data['Usable In'] = "PVP"
@@ -410,7 +406,7 @@ def process_bullet_point(base_url, bullet_point, curr_gear_type):
             item_data['Usable In'] = "Everything"
         
         # find what school the item is
-        if curr_gear_type in clothing_gear_types or curr_gear_type in accessory_gear_types:
+        if curr_gear_type in utils.clothing_gear_types or curr_gear_type in utils.accessory_gear_types:
             school = formatted_info[1] # school is always the second spot (clothing and accessories)
             pot_mastery_school = formatted_info[2] # if mastery item, the school is in third spot
             if school == "Global" and pot_mastery_school.startswith("Not "): # if it's a mastery item
@@ -470,7 +466,7 @@ def create_default_pet():
             bonuses[f"{stat_school} {stat}"] = 0
             
     bonuses['Enchant Damage'] = 0
-    bonuses['Gear Set'] = 'None'
+    bonuses['Gear Set'] = 'No Gear Set'
     bonuses['Usable In'] = 'Everything'
     bonuses['School'] = 'Global'
     
@@ -481,8 +477,8 @@ def remove_normal_pets(df):
     # Identify numerical columns, excluding 'Level'
     numeric_cols = df.select_dtypes(include=['number']).drop('Level', axis=1).columns
 
-    # Filter out rows where all numerical columns (excluding 'Level') are zero AND 'Gear Set' is 'None'
-    df = df[~((df[numeric_cols] == 0).all(axis=1) & (df['Gear Set'] == 'None'))]
+    # Filter out rows where all numerical columns (excluding 'Level') are zero AND 'Gear Set' is 'No Gear Set'
+    df = df[~((df[numeric_cols] == 0).all(axis=1) & (df['Gear Set'] == 'No Gear Set'))]
     
     # Append the default pet to the original DataFrame
     return pd.concat([df, create_default_pet()], ignore_index=True)
@@ -579,9 +575,9 @@ def update_gear(gear_types):
             if school != "Global":
                 file_path = f'Gear\\{school}_Gear\\{school}_{curr_gear_type}.csv'
                 if curr_gear_type != "Mounts":
-                    df = df[(df['School'].str.startswith('Not') & ~df['School'].str.endswith(school)) | df['School'].isin([school, 'Global'])]
+                    school_df = df[(df['School'].str.startswith('Not') & ~df['School'].str.endswith(school)) | df['School'].isin([school, 'Global'])]
                 try:
-                    df.to_csv(file_path, index=False)
+                    school_df.to_csv(file_path, index=False)
                 except:
                     input(f"\n{file_path} needs to be closed before it can be written to.\nClose the file and hit enter\n")
-                    df.to_csv(file_path, index=False)
+                    school_df.to_csv(file_path, index=False)

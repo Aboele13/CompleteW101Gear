@@ -2,6 +2,10 @@ from bs4 import BeautifulSoup
 
 from webAccess import fetch_url_content, replace_img_with_filename
 
+clothing_gear_types = {"Hats", "Robes", "Boots"}
+accessory_gear_types = {"Wands", "Athames", "Amulets", "Rings", "Decks"}
+starting_pip_gear_types = {"Wands", "Decks"}
+
 schools_of_items = {"Global", "Balance", "Death", "Fire", "Ice", "Life", "Myth", "Storm"}
 all_stat_schools = schools_of_items | {"Shadow"}
 damage_ICs = ["Epic", "Colossal", "Gargantuan", "Monstrous", "Giant", "Strong"] # UPDATE WITH NEW DAMAGE ITEM CARDS

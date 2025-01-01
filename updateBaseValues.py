@@ -1,11 +1,10 @@
 import pandas as pd
 from bs4 import BeautifulSoup
 
+import utils
 from webAccess import fetch_url_content
 
 max_level = 170 # UPDATE WITH NEW WORLDS
-
-bad_url = []
 
 def get_all_lines():
     
@@ -24,10 +23,11 @@ def get_all_lines():
         lines = lines[:lines.index("Experience")]
         
         return lines
-    else:
-        bad_url.append(f"{url}, Base Values")
+    else: # failed to collect info from page, just retry
+        return get_all_lines()
+        # if this is actually broken, the page url will just be printed over and over so i know what page needs attention
 
-def remove_mana_and_energy():
+def remove_mana_and_energy(all_lines):
     
     lines = all_lines[:all_lines.index("Pip Conversion")]
     
@@ -48,9 +48,9 @@ def remove_mana_and_energy():
     
     return good_lines
 
-def create_hp_lists():
+def create_hp_lists(all_lines):
     
-    lines = remove_mana_and_energy()
+    lines = remove_mana_and_energy(all_lines)
     
     # lists (Level, Fire, Ice, Storm, Myth, Life, Death, Balance, Pip, Shad, Arch)
     lists = [[] for _ in range(11)] # would need to get updated if new stats added
@@ -62,7 +62,7 @@ def create_hp_lists():
     
     return lists
     
-def pip_conversion_lines():
+def pip_conversion_lines(all_lines):
     pip_conv_section = all_lines[all_lines.index("Pip Conversion"):]
     return pip_conv_section[pip_conv_section.index("110"):] # would need to get updated if pip conserve given to lower wizards
 
@@ -74,9 +74,9 @@ def fill_zeroes(lists):
     
     return lists
 
-def create_pip_conv_lists():
+def create_pip_conv_lists(all_lines):
     
-    lines = pip_conversion_lines()
+    lines = pip_conversion_lines(all_lines)
     
     # lists (Level, Fire, Ice, Storm, Myth, Life, Death, Balance)
     lists = [[] for _ in range(8)]
@@ -160,51 +160,55 @@ def clean_lists(lists):
     
     return lists
 
-def create_school_base_values(schools):
+def update_base_values():
     
-    for school in schools:
-        df = pd.read_csv("Base_Values\\All_Base_Values.csv")
-        df = df[["Level", f"{school} HP", "Power Pip", "Shadow Pip", "Archmastery", f"{school} Pip Conserve"]]
-        df.rename(columns={f'{school} HP': 'Health', f'{school} Pip Conserve': 'Pip Conserve'}, inplace=True)
-        df.to_csv(f'Base_Values\\{school}_Base_Values.csv', index=False)
-
-def get_base_values(schools):
+    all_lines = get_all_lines()
     
-    lists = create_hp_lists()
-    lists.extend(create_pip_conv_lists())
+    lists = create_hp_lists(all_lines)
+    lists.extend(create_pip_conv_lists(all_lines))
     
     [level, fire, ice, storm, myth, life, death, balance, pip, shad, arch, fire_pc, ice_pc, storm_pc, myth_pc, life_pc, death_pc, balance_pc] = clean_lists(lists)
 
     # columns in the base values dataframe
     data = {
         "Level": level,
-        "Fire HP": fire,
-        "Ice HP": ice,
-        "Storm HP": storm,
-        "Myth HP": myth,
-        "Life HP": life,
-        "Death HP": death,
-        "Balance HP": balance,
+        "Fire Max Health": fire,
+        "Ice Max Health": ice,
+        "Storm Max Health": storm,
+        "Myth Max Health": myth,
+        "Life Max Health": life,
+        "Death Max Health": death,
+        "Balance Max Health": balance,
         "Power Pip": pip,
         "Shadow Pip": shad,
         "Archmastery": arch,
-        "Fire Pip Conserve": fire_pc,
-        "Ice Pip Conserve": ice_pc,
-        "Storm Pip Conserve": storm_pc,
-        "Myth Pip Conserve": myth_pc,
-        "Life Pip Conserve": life_pc,
-        "Death Pip Conserve": death_pc,
-        "Balance Pip Conserve": balance_pc
+        "Fire Pip Conversion Rating": fire_pc,
+        "Ice Pip Conversion Rating": ice_pc,
+        "Storm Pip Conversion Rating": storm_pc,
+        "Myth Pip Conversion Rating": myth_pc,
+        "Life Pip Conversion Rating": life_pc,
+        "Death Pip Conversion Rating": death_pc,
+        "Balance Pip Conversion Rating": balance_pc
     }
 
     # move all items to dataframe
     df = pd.DataFrame(data).fillna(0)  # fill all empty values with 0
     print(df)
-    df.to_csv(f'Base_Values\\All_Base_Values.csv', index=False)
+    file_path = f'Base_Values\\All_Base_Values.csv'
+    try:
+        df.to_csv(file_path, index=False)
+    except:
+        input(f"\n{file_path} needs to be closed before it can be written to.\nClose the file and hit enter\n")
+        df.to_csv(file_path, index=False)
     
     # create dataframes for each school
-    create_school_base_values(schools)
-    
-    return bad_url
-
-all_lines = get_all_lines() # call it once globally to save time
+    for school in utils.schools_of_items:
+        if school != "Global":
+            school_df = df[["Level", f"{school} Max Health", "Power Pip", "Shadow Pip", "Archmastery", f"{school} Pip Conversion Rating"]]
+            school_df = school_df.rename(columns={f"{school} Max Health": 'Max Health'})
+            file_path = f'Base_Values\\{school}_Base_Values.csv'
+            try:
+                school_df.to_csv(file_path, index=False)
+            except:
+                input(f"\n{file_path} needs to be closed before it can be written to.\nClose the file and hit enter\n")
+                school_df.to_csv(file_path, index=False)

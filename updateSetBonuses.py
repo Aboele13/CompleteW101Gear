@@ -1,12 +1,13 @@
+import re
 import urllib.parse
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import pandas as pd
 from bs4 import BeautifulSoup
 
+import utils
 from webAccess import fetch_url_content, replace_img_with_filename
 
-school = None
 
 def extract_bullet_points_from_html(html_content):
     if not html_content:
@@ -73,11 +74,11 @@ def format_extracted_info(extracted_info):
         if any(phrase in line for phrase in skip_phrases):
             continue
         # Clean up extra commas and percentage signs
-        cleaned_line = line.replace(',', '').replace('%', '').replace('(25px-28Icon29_', '').replace('(18px-28Icon29_', '').replace('(50px-28Icon29', '').replace('(28Icon29_', '').replace('(89px-28General29_', '').replace('.png)', '').replace('_', ' ')
+        cleaned_line = re.sub(r'\((\d+px-)?\d+(Icon|Item|General)\d+ *', '', line.replace(',', '').replace('%', '').replace('.png)', '').replace('_', ' ')) # handle most file gross stuff
         formatted_info.append(cleaned_line[1:] if (cleaned_line and cleaned_line[0] == " ") else cleaned_line)
     return formatted_info
 
-def process_bullet_point(base_url, bullet_point, bad_urls):
+def process_bullet_point(base_url, bullet_point):
     set_name = bullet_point['text'].replace("Set:", "").strip()
     
     # Construct absolute URL for the hyperlink
@@ -89,117 +90,107 @@ def process_bullet_point(base_url, bullet_point, bad_urls):
     
     if text_info:
         formatted_info = format_extracted_info(text_info)
-        if set_name != "Fossil Avenger's Set": # fossil is exception, doesn't need to get checked
-            set_school = formatted_info[formatted_info.index("Set Bonuses") - 1]
-            if set_school != school and set_school != "Global": # remove set bonuses for other schools
-                return None
-        set_data = find_bonus(formatted_info, set_name)
+        school = 'Global'
         
-        return set_data
-    else:
-        print(f"Failed to fetch content from {full_url}")
-        bad_urls.append(f"{full_url}, {school}, Set Bonuses")
-        return None
+        # set the set's school
+        if set_name != "Fossil Avenger's Set": # fossil is exception, doesn't need to get checked
+            school = formatted_info[formatted_info.index("Set Bonuses") - 1]
+            if school == 'Any':
+                school = 'Global'
+        
+        sets_data = []
+        for pieces in range(2, 11):
+            find_bonus(formatted_info, set_name, school, pieces)
+            sets_data.append(find_bonus(formatted_info, set_name, school, pieces))
+        
+        return sets_data
+    else: # failed to collect info from page, just retry
+        return process_bullet_point(base_url, bullet_point)
+        # if this is actually broken, the page url will just be printed over and over so i know what page needs attention
 
-def rename_good_bonuses(bonuses):
-    replacements = {
-        "Resistance": "Resist",
-        "Pip Chance": "Pip",
-        "Max Health": "Health",
-        "Armor Piercing": "Pierce",
-        "Pip Conversion": "Pip Conserve",
-        " Healing": "",
-        "ShadPip": "Shadow Pip"
+def find_bonus(formatted_info, set_name, school, pieces):
+    
+    bonuses = {
+        'Name': set_name,
+        'School': school,
+        'Pieces': pieces,
+        'Max Health': 0,
+        'Power Pip Chance': 0,
+        'Stun Resistance': 0,
+        'Incoming Healing': 0,
+        'Outgoing Healing': 0,
+        'Shadow Pip': 0,
+        'Archmastery': 0,
     }
     
-    for i in range(len(bonuses)):
-        for key in replacements:
-            bonuses[i] = bonuses[i].replace(key, replacements[key])
-            
+    poss_school_spec_cate = ["Damage", "Resistance", "Accuracy", "Critical", "Critical Block", "Armor Piercing", "Pip Conversion", "Flat Damage", "Flat Resistance"]
+    
+    for stat_school in utils.all_stat_schools:
+        for stat in poss_school_spec_cate:
+            bonuses[f"{stat_school} {stat}"] = 0
+    
+    capture = False
+    category_parts = []
+    value = 0
+    
+    for i in range(len(formatted_info)):
+        if formatted_info[i].startswith(f'Tier {pieces} Stats'): # start reading here
+            capture = True
+        # stop reading once you find one of these
+        elif capture and (formatted_info[i].startswith("Tier ") or formatted_info[i].startswith("Items in this Set")):
+            break
+        elif capture: # in the range you should be reading
+            if (formatted_info[i].startswith("+") and not formatted_info[i].startswith("+No")) or formatted_info[i].startswith("-"): # starts with +number
+                if category_parts: # already some part of a stat
+                    category = " ".join(category_parts).strip()
+                    if category in bonuses:
+                        bonuses[category] += int(value)
+                    elif category in utils.all_stat_schools:
+                        # look forward for nearest category and concatenate
+                            curr_school = category
+                            poss_cate = []
+                            j = i + 2
+                            while j < len(formatted_info):
+                                if formatted_info[j].startswith("+"):
+                                    j += 1
+                                elif formatted_info[j] in utils.all_stat_schools:
+                                    j += 1
+                                else:
+                                    poss_cate.append(formatted_info[j])
+                                    poss_cate_str = " ".join(poss_cate)
+                                    if poss_cate_str in poss_school_spec_cate:
+                                        bonuses[curr_school + " " + poss_cate_str] += int(value)
+                                        break
+                                    else:
+                                        j += 1
+                    category_parts = []
+                parts = formatted_info[i].split()
+                value = int(parts[0][1:])
+                category_parts = parts[1:]
+            else:
+                category_parts.append(formatted_info[i])
+    
+    # final check, not included in loop
+    if category_parts:
+        category = " ".join(category_parts).strip()
+        if category in bonuses:
+            bonuses[category] += int(value)
+    
     return bonuses
 
-def clean_bonuses_str(bonuses_str):
-    bonuses_str = bonuses_str.replace("Gain 1 Power Pip when you defeat an enemy once per Round (no PvP)", "") # don't need this
-    bonuses_str = bonuses_str.replace(f"{school} ", "").replace("Global ", "") # remove good schools, then any school that appears should be removed
-    return bonuses_str.replace("Shadow Pip Rating", "ShadPip") # special occasion so not treated as Shadow school stat
+def accumulate_stats(df):
+    for i in range(1, len(df)):
+        if df.iloc[i]['Name'] == df.iloc[i - 1]['Name']:
+            df.iloc[i, 3:] += df.iloc[i - 1, 3:]  # Add values from column 3 onwards
+    return df
 
-def remove_unwanted_bonuses(bonuses):
-    bonuses_str = clean_bonuses_str(" ".join(bonuses))
-    bonuses_in_tier = bonuses_str.replace(" +", "+").split("+") # each bonus starts with +, so separate each bonus
-    if bonuses_in_tier and not bonuses_in_tier[0]: # removes blank start to list
-        bonuses_in_tier = bonuses_in_tier[1:]
-    
-    all_schools = {"Death", "Fire", "Balance", "Myth", "Storm", "Ice", "Life", "Shadow"}
-    
-    j = 0
-    while j < len(bonuses_in_tier):
-        if ("Mana" in bonuses_in_tier[j]) or ("Item Card" in bonuses_in_tier[j]) or ("Movement Speed" in bonuses_in_tier[j]):
-            bonuses_in_tier.pop(j)
-            j -= 1
-        else:
-            words = bonuses_in_tier[j].split()
-            for word in words:
-                if word in all_schools:
-                    bonuses_in_tier.pop(j)
-                    j -= 1
-                    break
-        j += 1
-    
-    if not bonuses_in_tier:
-        return "None"
-    else:
-        bonuses_in_tier = rename_good_bonuses(bonuses_in_tier)
-    
-    return ", ".join(bonuses_in_tier)
-
-def find_bonus(formatted_info, set_name):
-    
-    set = {
-        'Name': set_name,
-        '2 Pieces': 'None',
-        '3 Pieces': 'None',
-        '4 Pieces': 'None',
-        '5 Pieces': 'None',
-        '6 Pieces': 'None',
-        '7 Pieces': 'None',
-        '8 Pieces': 'None',
-        '9 Pieces': 'None',
-        '10 Pieces': 'None'
-    }
-    
-    for i in range(2, 11):
-        try:
-            j = formatted_info.index(f"Tier {i} Stats:") + 1
-        except:
-            try:
-                j = formatted_info.index(f"Tier {i} Stats") + 1
-            except:
-                continue
-        
-        bonuses = []
-        
-        while (j < len(formatted_info)) and ("Tier " not in formatted_info[j]):
-            if formatted_info[j]:
-                bonuses.append(formatted_info[j])
-            j += 1
-        
-        # remove bonuses that don't help
-        set[f"{i} Pieces"] = remove_unwanted_bonuses(bonuses)
-    
-    return set
-
-def get_set_bonuses(main_school):
-    
-    global school
-    school = main_school
+def update_set_bonuses():
     
     base_url = "https://wiki.wizard101central.com"
     url = "https://wiki.wizard101central.com/wiki/Category:Sets"
     
     sets_data = []
     
-    bad_urls = []
-
     while url:
         # Fetch content from the URL
         html_content = fetch_url_content(url)
@@ -210,11 +201,11 @@ def get_set_bonuses(main_school):
             bullet_points = extract_bullet_points_from_html(html_content)
 
             with ThreadPoolExecutor(max_workers=85) as executor:
-                futures = [executor.submit(process_bullet_point, base_url, bp, bad_urls) for bp in bullet_points]
+                futures = [executor.submit(process_bullet_point, base_url, bp) for bp in bullet_points]
                 for future in as_completed(futures):
                     item_data = future.result()
                     if item_data:
-                        sets_data.append(item_data)
+                        sets_data.extend(item_data)
                 
             # Find the "(next page)" link
             next_page_link = find_next_page_link(soup)
@@ -222,14 +213,32 @@ def get_set_bonuses(main_school):
                 url = urllib.parse.urljoin(base_url, next_page_link)
             else:
                 url = None
-        else:
-            print("Failed to fetch content from the URL.")
-            break
+        else: # failed to collect info from page, just retry
+            return update_set_bonuses()
+            # if this is actually broken, the page url will just be printed over and over so i know what page needs attention
 
     # move all items to dataframe
     df = pd.DataFrame(sets_data).fillna(0)  # fill all empty values with 0
-    df = df.sort_values(by = "Name", ascending = True).reset_index(drop=True)
+    df = utils.distribute_global_stats(df)
+    # rename columns due to wiki inconsistencies
+    df = df.rename(columns = {col: col + " Rating" for col in df.columns if (col.endswith("Critical") or col.endswith("Critical Block") or col.endswith("Shadow Pip") or col.endswith("Archmastery"))}) # must come before block
+    df = df.sort_values(by = ["Name", 'Pieces'], ascending = [True, True]).reset_index(drop=True)
+    df = accumulate_stats(df)
     print(df)
-    df.to_csv(f'Set_Bonuses\\{school}_Set_Bonuses.csv', index=False)
-        
-    return bad_urls
+    file_path = f'Set_Bonuses\\All_Set_Bonuses.csv'
+    try:
+        df.to_csv(file_path, index=False)
+    except:
+        input(f"\n{file_path} needs to be closed before it can be written to.\nClose the file and hit enter\n")
+        df.to_csv(file_path, index=False)
+
+    # update all schools
+    for school in utils.schools_of_items: # change this if i want to test one school
+        if school != "Global":
+            file_path = f'Set_Bonuses\\{school}_Set_Bonuses.csv'
+            school_df = df[df['School'].isin([school, 'Global'])]
+            try:
+                school_df.to_csv(file_path, index=False)
+            except:
+                input(f"\n{file_path} needs to be closed before it can be written to.\nClose the file and hit enter\n")
+                school_df.to_csv(file_path, index=False)
