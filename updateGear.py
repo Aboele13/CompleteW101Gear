@@ -503,19 +503,22 @@ def create_pet_variants(df):
             # variations.append({"Name": f"{school} 3 Damage, Resist, Accuracy", "Global Damage": 7, f"{school} Damage": 18, "Global Resistance": 11, f"{school} Accuracy": 10})
             # variations.append({"Name": f"{school} 3 Damage, Pierce, Accuracy", "Global Damage": 7, f"{school} Damage": 18, f"{school} Accuracy": 10, "Global Armor Piercing": 4})
     
-    # Create new rows for each item with each variation
-    new_rows = []
-    for i, row in df.iterrows():
-        for variation in variations:
-            new_row = row.copy()
-            new_row['Name'] = f"{row['Name']} ({variation['Name']})"  # Rename item to indicate variation
-            for stat in variation:
-                if stat != "Name":
-                    new_row[stat] += variation[stat]
-            new_rows.append(new_row)
+    # Prepare a DataFrame for variations
+    variations_df = pd.DataFrame(variations)
+    # Explode the DataFrame by repeating each row for each variation
+    exploded_df = df.loc[df.index.repeat(len(variations))].reset_index(drop=True)
+    # Repeat the variations DataFrame to match exploded rows
+    repeated_variations = pd.concat([variations_df] * len(df), ignore_index=True)
 
-    # Create a new DataFrame with the new rows
-    return pd.DataFrame(new_rows)
+    # Add variation names to the 'Name' column
+    exploded_df['Name'] += " (" + repeated_variations['Name'] + ")"
+
+    # Add other stats from variations to the DataFrame
+    for stat in variations_df.columns:
+        if stat != "Name":
+            exploded_df[stat] = exploded_df[stat].add(repeated_variations[stat], fill_value=0)
+
+    return exploded_df
 
 def clean_gear_df(df, curr_gear_type):
     if curr_gear_type == "Pets":
@@ -559,9 +562,13 @@ def update_gear(gear_types):
         with ThreadPoolExecutor(max_workers=85) as executor:
             futures = [executor.submit(process_bullet_point, base_url, bp, curr_gear_type) for bp in bullet_points]
             for future in as_completed(futures):
-                item_data = future.result()
-                if item_data:
-                    items_data.append(item_data)
+                try:
+                    # Add a timeout (e.g., 120 seconds)
+                    item_data = future.result(timeout=120)  # Adjust timeout as necessary
+                    if item_data:
+                        items_data.append(item_data)
+                except Exception as e:
+                    print(f"An error occurred while processing {item_data['Name']}: {e}")
 
         # move all items to dataframe
         df = pd.DataFrame(items_data).fillna(0)  # fill all empty values with 0

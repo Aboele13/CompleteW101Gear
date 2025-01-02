@@ -2,6 +2,8 @@ TODO:
 
 - HECK FRONTEND, I'M DOING EVERYTHING IN CONSOLE, NO WEBSITE
 
+- deadlock in updateGear multithreading
+
 - view gear
     - "jeweled" boolean
     - owned col should be included and correct

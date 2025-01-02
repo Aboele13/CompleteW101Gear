@@ -262,9 +262,13 @@ def update_jewels(jewel_shapes):
         with ThreadPoolExecutor(max_workers=85) as executor:
             futures = [executor.submit(process_bullet_point, base_url, bp) for bp in bullet_points]
             for future in as_completed(futures):
-                jewel_data = future.result()
-                if jewel_data:
-                    jewels_data.append(jewel_data)
+                try:
+                    # Add a timeout (e.g., 120 seconds)
+                    jewel_data = future.result(timeout=120)  # Adjust timeout as necessary
+                    if jewel_data:
+                        jewels_data.append(jewel_data)
+                except Exception as e:
+                    print(f"An error occurred while processing {jewel_data['Name']}: {e}")
         
         # move all items to dataframe
         df = pd.DataFrame(jewels_data).fillna(0)  # fill all empty values with 0

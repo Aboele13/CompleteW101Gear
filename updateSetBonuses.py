@@ -220,9 +220,13 @@ def update_set_bonuses():
     with ThreadPoolExecutor(max_workers=85) as executor:
         futures = [executor.submit(process_bullet_point, base_url, bp) for bp in bullet_points]
         for future in as_completed(futures):
-            item_data = future.result()
-            if item_data:
-                sets_data.extend(item_data)
+            try:
+                # Add a timeout (e.g., 120 seconds)
+                set_data = future.result(timeout=120)  # Adjust timeout as necessary
+                if set_data:
+                    sets_data.append(set_data)
+            except Exception as e:
+                print(f"An error occurred while processing {set_data['Name']}: {e}")
 
     # move all items to dataframe
     df = pd.DataFrame(sets_data).fillna(0)  # fill all empty values with 0
