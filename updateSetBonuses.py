@@ -100,7 +100,6 @@ def process_bullet_point(base_url, bullet_point):
         
         sets_data = []
         for pieces in range(2, 11):
-            find_bonus(formatted_info, set_name, school, pieces)
             sets_data.append(find_bonus(formatted_info, set_name, school, pieces))
         
         return sets_data
@@ -112,7 +111,6 @@ def find_bonus(formatted_info, set_name, school, pieces):
     
     bonuses = {
         'Name': set_name,
-        'School': school,
         'Pieces': pieces,
         'Max Health': 0,
         'Power Pip Chance': 0,
@@ -128,6 +126,8 @@ def find_bonus(formatted_info, set_name, school, pieces):
     for stat_school in utils.all_stat_schools:
         for stat in poss_school_spec_cate:
             bonuses[f"{stat_school} {stat}"] = 0
+    
+    bonuses['School'] = school
     
     capture = False
     category_parts = []
@@ -179,9 +179,15 @@ def find_bonus(formatted_info, set_name, school, pieces):
     return bonuses
 
 def accumulate_stats(df):
+    
+    # Get column names to exclude
+    exclude_cols = ['Name', 'Pieces', 'School']
+    # Get column names to include in the calculation
+    include_cols = [col for col in df.columns if col not in exclude_cols]
+    
     for i in range(1, len(df)):
         if df.iloc[i]['Name'] == df.iloc[i - 1]['Name']:
-            df.iloc[i, 3:] += df.iloc[i - 1, 3:]  # Add values from column 3 onwards
+            df.loc[i, include_cols] += df.loc[i - 1, include_cols]
     return df
 
 def update_set_bonuses():
@@ -190,6 +196,7 @@ def update_set_bonuses():
     url = "https://wiki.wizard101central.com/wiki/Category:Sets"
     
     sets_data = []
+    bullet_points = []
     
     while url:
         # Fetch content from the URL
@@ -198,32 +205,33 @@ def update_set_bonuses():
         if html_content:
             soup = BeautifulSoup(html_content, 'html.parser')
             # Extract bullet points with links from the HTML content
-            bullet_points = extract_bullet_points_from_html(html_content)
-
-            with ThreadPoolExecutor(max_workers=85) as executor:
-                futures = [executor.submit(process_bullet_point, base_url, bp) for bp in bullet_points]
-                for future in as_completed(futures):
-                    item_data = future.result()
-                    if item_data:
-                        sets_data.extend(item_data)
-                
+            bullet_points.extend(extract_bullet_points_from_html(html_content))
+            
             # Find the "(next page)" link
             next_page_link = find_next_page_link(soup)
             if next_page_link:
                 url = urllib.parse.urljoin(base_url, next_page_link)
             else:
                 url = None
-        else: # failed to collect info from page, just retry
-            return update_set_bonuses()
-            # if this is actually broken, the page url will just be printed over and over so i know what page needs attention
+        else:
+            print("Failed to fetch content from the URL.")
+            continue
+    
+    with ThreadPoolExecutor(max_workers=85) as executor:
+        futures = [executor.submit(process_bullet_point, base_url, bp) for bp in bullet_points]
+        for future in as_completed(futures):
+            item_data = future.result()
+            if item_data:
+                sets_data.extend(item_data)
 
     # move all items to dataframe
     df = pd.DataFrame(sets_data).fillna(0)  # fill all empty values with 0
     df = utils.distribute_global_stats(df)
     # rename columns due to wiki inconsistencies
-    df = df.rename(columns = {col: col + " Rating" for col in df.columns if (col.endswith("Critical") or col.endswith("Critical Block") or col.endswith("Shadow Pip") or col.endswith("Archmastery"))}) # must come before block
+    df = df.rename(columns = {col: col + " Rating" for col in df.columns if (col.endswith("Critical") or col.endswith("Critical Block") or col.endswith("Shadow Pip") or col.endswith("Archmastery") or col.endswith("Pip Conversion"))}) # must come before block
     df = df.sort_values(by = ["Name", 'Pieces'], ascending = [True, True]).reset_index(drop=True)
     df = accumulate_stats(df)
+    df = utils.reorder_df_cols(df)
     print(df)
     file_path = f'Set_Bonuses\\All_Set_Bonuses.csv'
     try:

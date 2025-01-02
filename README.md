@@ -2,12 +2,9 @@ TODO:
 
 - HECK FRONTEND, I'M DOING EVERYTHING IN CONSOLE, NO WEBSITE
 
-- ordering the columns should be moved to update gear and jewels and set bonuses
-
 - view gear
-    - school stats only should show global resist
     - "jeweled" boolean
-    - "only objectively better" boolean
+    - owned col should be included and correct
 
 - csv for which aoe/hit based on level
     - i give it the spell names, it looks them up, including all tiers, and creates the csv

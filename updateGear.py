@@ -478,7 +478,7 @@ def remove_normal_pets(df):
     numeric_cols = df.select_dtypes(include=['number']).drop('Level', axis=1).columns
 
     # Filter out rows where all numerical columns (excluding 'Level') are zero AND 'Gear Set' is 'No Gear Set'
-    df = df[~((df[numeric_cols] == 0).all(axis=1) & (df['Gear Set'] == 'No Gear Set'))]
+    df = df[~((df[numeric_cols] == 0).all(axis=1) & (df['Gear Set'] == 'No Gear Set'))].reset_index(drop=True)
     
     # Append the default pet to the original DataFrame
     return pd.concat([df, create_default_pet()], ignore_index=True)
@@ -519,8 +519,9 @@ def create_pet_variants(df):
 
 def clean_gear_df(df, curr_gear_type):
     if curr_gear_type == "Pets":
-        df = create_pet_variants(remove_normal_pets(df))
+        df = create_pet_variants(remove_normal_pets(df)).reset_index(drop=True)
     df = utils.distribute_global_stats(df)
+    df = utils.reorder_df_cols(df)
     df = df.sort_values(by = "Name", ascending = True).reset_index(drop=True)
     return df
 
@@ -532,6 +533,9 @@ def update_gear(gear_types):
         url = f"https://wiki.wizard101central.com/wiki/Category:{curr_gear_type}"
 
         items_data = []
+        bullet_points = []
+        
+        print(f'\nCollecting {curr_gear_type}...\n')
 
         while url:
             # Fetch content from the URL
@@ -540,15 +544,8 @@ def update_gear(gear_types):
             if html_content:
                 soup = BeautifulSoup(html_content, 'html.parser')
                 # Extract bullet points with links from the HTML content
-                bullet_points = extract_bullet_points_from_html(html_content)
+                bullet_points.extend(extract_bullet_points_from_html(html_content))
 
-                with ThreadPoolExecutor(max_workers=85) as executor:
-                    futures = [executor.submit(process_bullet_point, base_url, bp, curr_gear_type) for bp in bullet_points]
-                    for future in as_completed(futures):
-                        item_data = future.result()
-                        if item_data:
-                            items_data.append(item_data)
-            
                 # Find the "(next page)" link
                 next_page_link = utils.find_next_page_link(soup)
                 if next_page_link:
@@ -557,7 +554,14 @@ def update_gear(gear_types):
                     url = None
             else:
                 print("Failed to fetch content from the URL.")
-                break
+                continue
+        
+        with ThreadPoolExecutor(max_workers=85) as executor:
+            futures = [executor.submit(process_bullet_point, base_url, bp, curr_gear_type) for bp in bullet_points]
+            for future in as_completed(futures):
+                item_data = future.result()
+                if item_data:
+                    items_data.append(item_data)
 
         # move all items to dataframe
         df = pd.DataFrame(items_data).fillna(0)  # fill all empty values with 0
@@ -575,7 +579,7 @@ def update_gear(gear_types):
             if school != "Global":
                 file_path = f'Gear\\{school}_Gear\\{school}_{curr_gear_type}.csv'
                 if curr_gear_type != "Mounts":
-                    school_df = df[(df['School'].str.startswith('Not') & ~df['School'].str.endswith(school)) | df['School'].isin([school, 'Global'])]
+                    school_df = df[(df['School'].str.startswith('Not') & ~df['School'].str.endswith(school)) | df['School'].isin([school, 'Global'])].reset_index(drop=True)
                 try:
                     school_df.to_csv(file_path, index=False)
                 except:

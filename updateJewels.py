@@ -126,6 +126,9 @@ def process_bullet_point(base_url, bullet_point):
         if "Enchant Damage" not in jewel_data:
             jewel_data["Enchant Damage"] = 0
         
+        # set the school last
+        jewel_data["School"] = formatted_info[formatted_info.index('School') + 1] if 'School' in formatted_info else 'Global'
+        
         return jewel_data
     else:
         # failed to collect info from page, just retry
@@ -137,7 +140,6 @@ def find_bonus(formatted_info, jewel_name):
     
     bonuses = {
         "Level": 1,
-        "School": "Global",
         'Health': 0,
         'Power Pip Chance': 0,
         'Stun Resistance': 0,
@@ -162,8 +164,6 @@ def find_bonus(formatted_info, jewel_name):
             bonuses["Level"] = int(formatted_info[i].split("(Level ")[1].split("+")[0])
         elif formatted_info[i] == "Level":
             bonuses["Level"] = 1 if formatted_info[i + 1] == "Any" else int(formatted_info[i + 1].replace("+", ""))
-        elif formatted_info[i] == "School":
-            bonuses["School"] = formatted_info[i + 1]
         elif formatted_info[i] == "Effect":
             capture = True
         elif capture: # in the range you should be reading
@@ -221,6 +221,7 @@ def parse_wiki_error_jewels(jewel_name, bonuses, parts):
 def clean_jewels_df(df):
     df = utils.distribute_global_stats(df)
     df = df.rename(columns={'Health': 'Max Health'})
+    df = utils.reorder_df_cols(df)
     df = df.sort_values(by = ['Level', 'School', 'Name'], ascending = [False, True, True]).reset_index(drop=True)
     return df
 
@@ -232,6 +233,12 @@ def update_jewels(jewel_shapes):
         url = f"https://wiki.wizard101central.com/wiki/Category:{curr_jewel_shape}-Shaped_Jewels" if curr_jewel_shape in all_jewel_shapes else f"https://wiki.wizard101central.com/wiki/Category:{curr_jewel_shape}_Pins"
         
         jewels_data = []
+        bullet_points = []
+        
+        if curr_jewel_shape in all_jewel_shapes:
+            print(f'\nCollecting {curr_jewel_shape} Jewels...\n')
+        elif curr_jewel_shape in all_pin_shapes:
+            print(f'\nCollecting {curr_jewel_shape} Pins...\n')
         
         while url:
             # Fetch content from the URL
@@ -240,14 +247,7 @@ def update_jewels(jewel_shapes):
             if html_content:
                 soup = BeautifulSoup(html_content, 'html.parser')
                 # Extract bullet points with links from the HTML content
-                bullet_points = extract_bullet_points_from_html(html_content)
-
-                with ThreadPoolExecutor(max_workers=85) as executor:
-                    futures = [executor.submit(process_bullet_point, base_url, bp) for bp in bullet_points]
-                    for future in as_completed(futures):
-                        jewel_data = future.result()
-                        if jewel_data:
-                            jewels_data.append(jewel_data)
+                bullet_points.extend(extract_bullet_points_from_html(html_content))
     
                 # Find the "(next page)" link
                 next_page_link = utils.find_next_page_link(soup)
@@ -257,7 +257,14 @@ def update_jewels(jewel_shapes):
                     url = None
             else:
                 print("Failed to fetch content from the URL.")
-                break
+                continue
+        
+        with ThreadPoolExecutor(max_workers=85) as executor:
+            futures = [executor.submit(process_bullet_point, base_url, bp) for bp in bullet_points]
+            for future in as_completed(futures):
+                jewel_data = future.result()
+                if jewel_data:
+                    jewels_data.append(jewel_data)
         
         # move all items to dataframe
         df = pd.DataFrame(jewels_data).fillna(0)  # fill all empty values with 0
@@ -274,7 +281,7 @@ def update_jewels(jewel_shapes):
         for school in utils.schools_of_items: # change this if i want to test one school
             if school != "Global":
                 file_path = f'Jewels\\{school}_Jewels\\{school}_{curr_jewel_shape}_Jewels.csv'
-                school_df = df[(df['School'].str.startswith('Not') & ~df['School'].str.endswith(school)) | df['School'].isin([school, 'Global'])]
+                school_df = df[(df['School'].str.startswith('Not') & ~df['School'].str.endswith(school)) | df['School'].isin([school, 'Global'])].reset_index(drop=True)
                 try:
                     school_df.to_csv(file_path, index=False)
                 except:

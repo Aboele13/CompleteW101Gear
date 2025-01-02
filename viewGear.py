@@ -4,29 +4,56 @@ import utils
 
 all_gear_types = {'Hats', 'Robes', 'Boots', 'Wands', 'Athames', 'Amulets', 'Rings', 'Pets', 'Mounts', 'Decks'}
 
-def reorder_df_cols(df): # health, damage, flat damage, resist, flat resist, accuracy, critical, critical block, pierce, stun resist, incoming, outgoing, pip conserve, power pip, shadow pip, archmastery
-    
-    ordered_stats = ['Max Health']
-    schools = ['Global', 'Fire', 'Ice', 'Storm', 'Myth', 'Life', 'Death', 'Balance', 'Shadow']
-    
-    for stat in ['Damage', 'Flat Damage', 'Resistance', 'Flat Resistance', 'Accuracy', 'Critical Rating', 'Critical Block Rating', 'Armor Piercing']:
-        for school in schools:
-            ordered_stats.append(school + " " + stat)
-    
-    for stat in ['Stun Resistance', 'Incoming Healing', 'Outgoing Healing']:
-        ordered_stats.append(stat)
-    
-    for school in schools:
-        ordered_stats.append(school + " Pip Conversion Rating")
-    
-    for stat in ['Power Pip Chance', 'Shadow Pip Rating', 'Archmastery Rating']:
-        ordered_stats.append(stat)
-    
-    for i in reversed(range(len(ordered_stats))):
-        stat_col = df.pop(ordered_stats[i])
-        df.insert(2, ordered_stats[i], stat_col)
-    
-    return df
+def objectively_best(df):
+    # Identify the columns to compare
+    cols_to_compare = [col for col in df.columns if col not in {"Name", "Level", "Source", "Gear Set", "Usable In", "School"}]
+    remove_records = set()
+
+    # Convert DataFrame to numpy for faster row-wise operations
+    data = df.to_dict('records')
+
+    for i, row1 in enumerate(data):
+        if i in remove_records:
+            continue  # Skip rows that are already marked for removal
+        for j, row2 in enumerate(data[i + 1:], start=i + 1):
+            if j in remove_records:
+                continue
+
+            # Initial flags
+            i_stays, j_stays = False, False
+
+            # Compare gear sets
+            if row1['Gear Set'] != 'No Gear Set' and row1['Gear Set'] != row2['Gear Set']:
+                i_stays = True
+            if row2['Gear Set'] != 'No Gear Set' and row1['Gear Set'] != row2['Gear Set']:
+                j_stays = True
+
+            # Compare usability
+            if row1['Usable In'] == 'Everything' and row2['Usable In'] != 'Everything':
+                i_stays = True
+            if row2['Usable In'] == 'Everything' and row1['Usable In'] != 'Everything':
+                j_stays = True
+
+            # Compare numeric stats
+            for col in cols_to_compare:
+                if not i_stays and row1[col] > row2[col]:
+                    i_stays = True
+                if not j_stays and row1[col] < row2[col]:
+                    j_stays = True
+                if i_stays and j_stays:
+                    break
+
+            # Mark rows for removal based on comparisons
+            if not i_stays and not j_stays:
+                continue  # Both stay for now
+            elif not i_stays:
+                remove_records.add(i)
+                break
+            elif not j_stays:
+                remove_records.add(j)
+
+    # Return the filtered DataFrame
+    return df.drop(remove_records).reset_index(drop=True)
 
 def filter_by_sources(df, good_sources):
     
@@ -39,7 +66,7 @@ def filter_by_sources(df, good_sources):
 
     df['match'] = df['Source'].apply(check_sources)
     df = df[df['match']]
-    return df.drop('match', axis=1)
+    return df.drop('match', axis=1).reset_index(drop=True)
 
 def is_int(input):
     try:
@@ -58,6 +85,7 @@ def view_gear():
     filters = {
         'Level': 170,
         'Usable In': 'Everything',
+        'Objectively Best': False,
         'School Stats Only': True,
         'Good Sources': {"Gold Vendor", "Drop", "Bazaar", "Crafting", "Gold Key", "Stone Key", "Wooden Key", "Housing Gauntlet", "Rematch", "Quest", "Fishing"},
         'Bad Sources': {"One Shot Housing Gauntlet", "Raid", "Crowns", "Gift Card", "Event Drop"},
@@ -73,41 +101,49 @@ def view_gear():
         # filters
         for filter in filters:
             if filter == 'Level':
-                df = df[df[filter] <= filters[filter]]
+                df = df[df[filter] <= filters[filter]].reset_index(drop=True)
             elif filter == 'Name':
-                df = df[df[filter].str.contains(filters[filter], case=False)]
+                df = df[df[filter].str.contains(filters[filter], case=False)].reset_index(drop=True)
             elif filter == 'Gear Set':
-                df = df[df[filter] != 'No Gear Set']
+                df = df[df[filter] != 'No Gear Set'].reset_index(drop=True)
             elif filter == 'Usable In':
                 battle = filters[filter]
                 if battle == 'Everything':
-                    df = df[df[filter] == 'Everything']
+                    df = df[df[filter] == 'Everything'].reset_index(drop=True)
                 elif battle == 'PVP':
-                    df = df[df[filter].isin({'Everything', 'PVP'})]
+                    df = df[df[filter].isin({'Everything', 'PVP'})].reset_index(drop=True)
                 elif battle == 'Deckathalon':
-                    df = df[df[filter].isin({"Everything", 'Deckathalon'})]
+                    df = df[df[filter].isin({"Everything", 'Deckathalon'})].reset_index(drop=True)
             elif filter == 'Good Sources':
                 if gear_type != 'Pets':
-                    df = filter_by_sources(df, filters[filter])
-            elif filter == 'Bad Sources' or filter == 'School Stats Only':
+                    df = filter_by_sources(df, filters[filter]).reset_index(drop=True)
+            elif filter == 'Bad Sources' or filter == 'School Stats Only' or filter == 'Objectively Best':
                 pass
             else:
-                df = df[df[filter] >= filters[filter]]
+                df = df[df[filter] >= filters[filter]].reset_index(drop=True)
         
         # show wanted columns
-        df = reorder_df_cols(df)
         if filters['School Stats Only']:
             curr_school = 'Global' if school == 'All' else school
             cols_to_drop = []
             for col in df.columns:
                 pot_school = col.split()[0]
                 if pot_school in utils.all_stat_schools and pot_school != curr_school and col != "Shadow Pip Rating":
-                    cols_to_drop.append(col)
+                    if col == 'Global Resistance':
+                        cols_to_drop.append(f'{curr_school} Resistance')
+                    elif col == 'Global Flat Resistance':
+                        cols_to_drop.append(f'{curr_school} Flat Resistance')
+                    elif col == 'Global Critical Block Rating':
+                        cols_to_drop.append(f'{curr_school} Critical Block Rating')
+                    else:
+                        cols_to_drop.append(col)
             df = df.drop(cols_to_drop, axis=1)
-            df.columns = [col.replace(curr_school + " ", "") for col in df.columns]
-            df = df.sort_values(by=['Damage', 'Resistance', 'Max Health', 'Critical Rating', 'Armor Piercing'], ascending=[False, False, False, False, False])
+            df.columns = [col.replace(curr_school + " ", "").replace('Global' + ' ', '') for col in df.columns]
+            df = df.sort_values(by=['Damage', 'Resistance', 'Max Health', 'Critical Rating', 'Armor Piercing'], ascending=[False, False, False, False, False]).reset_index(drop=True)
         
         # only objectively best
+        if filters['Objectively Best']:
+            df = objectively_best(df)
         
         # output
         file_path = 'CompleteW101Gear_Output.csv'
@@ -130,6 +166,15 @@ def view_gear():
             return True
         elif action.lower() == 'q':
             return False
+        elif action.lower() == 'all':
+            filters = {
+                'Level': 170,
+                'Usable In': 'All',
+                'Objectively Best': False,
+                'School Stats Only': False,
+                'Good Sources': filters['Good Sources'] | filters['Bad Sources'],
+                'Bad Sources': set(),
+            }
         elif action.lower() == 'school':
             new_school = 'Nothing'
             while new_school not in utils.schools_of_items:
@@ -168,6 +213,8 @@ def view_gear():
                 filters['Bad Sources'].remove(source)
         elif action == 'School Stats Only':
             filters['School Stats Only'] = not filters['School Stats Only']
+        elif action == 'Objectively Best':
+            filters['Objectively Best'] = not filters['Objectively Best']
         elif action in df.columns:
             num = -1
             while num == -1:

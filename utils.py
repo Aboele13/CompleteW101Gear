@@ -23,6 +23,30 @@ def distribute_global_stats(df):
     
     return df
 
+def reorder_df_cols(df): # health, damage, flat damage, resist, flat resist, accuracy, critical, critical block, pierce, stun resist, incoming, outgoing, pip conserve, power pip, shadow pip, archmastery
+    
+    ordered_stats = ['Max Health']
+    schools = ['Global', 'Fire', 'Ice', 'Storm', 'Myth', 'Life', 'Death', 'Balance', 'Shadow']
+    
+    for stat in ['Damage', 'Flat Damage', 'Resistance', 'Flat Resistance', 'Accuracy', 'Critical Rating', 'Critical Block Rating', 'Armor Piercing']:
+        for school in schools:
+            ordered_stats.append(school + " " + stat)
+    
+    for stat in ['Stun Resistance', 'Incoming Healing', 'Outgoing Healing']:
+        ordered_stats.append(stat)
+    
+    for school in schools:
+        ordered_stats.append(school + " Pip Conversion Rating")
+    
+    for stat in ['Power Pip Chance', 'Shadow Pip Rating', 'Archmastery Rating']:
+        ordered_stats.append(stat)
+    
+    for i in reversed(range(len(ordered_stats))):
+        stat_col = df.pop(ordered_stats[i])
+        df.insert(2, ordered_stats[i], stat_col)
+    
+    return df
+
 def extract_item_card_info_from_url(url):
     html_content = fetch_url_content(url)
     if html_content:
