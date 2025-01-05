@@ -36,13 +36,14 @@ def confirm_selected_gear_types(select_gear_types):
     print(f"\nYou chose:\n{select_gear_types}")
     
     action = input("Is this correct?\n\n[1] Yes\n[2] No\n[b] Back\n[q] Quit\n\n")
+    action_lower = action.lower()
     
-    if action.lower() == 'q':
+    if action_lower == 'q':
         return
-    elif action.lower() == 'b' or action == '2':
+    elif action_lower == 'b' or action == '2':
         update_gear_select_types_menu()
     elif action == '1' or not action:
-        print("\nBeginning to update gear...\n")
+        print("\nBeginning to update gear...")
         from updateGear import update_gear
         update_gear(select_gear_types)
         success_return_menu()
@@ -52,13 +53,14 @@ def confirm_selected_jewel_shapes(select_jewel_shapes):
     print(f"\nYou chose:\n{select_jewel_shapes}")
     
     action = input("Is this correct?\n\n[1] Yes\n[2] No\n[b] Back\n[q] Quit\n\n")
+    action_lower = action.lower()
     
-    if action.lower() == 'q':
+    if action_lower == 'q':
         return
-    elif action.lower() == 'b' or action == '2':
+    elif action_lower == 'b' or action == '2':
         update_jewels_select_shapes_menu()
     elif action == '1' or not action:
-        print("\nBeginning to update jewels...\n")
+        print("\nBeginning to update jewels...")
         from updateJewels import update_jewels
         update_jewels(select_jewel_shapes)
         success_return_menu()
@@ -69,10 +71,11 @@ def update_gear_select_types_menu():
     print_gear_type_options()
     
     action = input("")
+    action_lower = action.lower()
     
-    if action.lower() == 'q':
+    if action_lower == 'q':
         return
-    elif action.lower() == 'b':
+    elif action_lower == 'b':
         return update_gear_menu()
     else:
         select_gear_types = []
@@ -90,13 +93,14 @@ def update_gear_select_types_menu():
 def update_gear_menu():
     
     action = input("\nWhat gear types would you like to update?\n\n[1] All Gear Types\n[2] Select Gear Types\n[b] Back\n[q] Quit\n\n")
+    action_lower = action.lower()
     
-    if action.lower() == 'q':
+    if action_lower == 'q':
         return
-    elif action.lower() == 'b':
+    elif action_lower == 'b':
         update_info_menu()
     elif action == '1' or not action:
-        print("\nBeginning to update gear...\n")
+        print("\nBeginning to update gear...")
         from updateGear import update_gear
         update_gear(all_gear_types)
         success_return_menu()
@@ -125,10 +129,11 @@ def update_jewels_select_shapes_menu():
     print_jewel_shapes_options()
     
     action = input("")
+    action_lower = action.lower()
     
-    if action.lower() == 'q':
+    if action_lower == 'q':
         return
-    elif action.lower() == 'b':
+    elif action_lower == 'b':
         return update_jewels_menu()
     else:
         select_jewel_shapes = []
@@ -146,13 +151,14 @@ def update_jewels_select_shapes_menu():
 def update_jewels_menu():
     
     action = input("\nWhat jewel shapes would you like to update?\n\n[1] All Jewel Shapes\n[2] Select Jewel Shapes\n[b] Back\n[q] Quit\n\n")
+    action_lower = action.lower()
     
-    if action.lower() == 'q':
+    if action_lower == 'q':
         return
-    if action.lower() == 'b':
+    if action_lower == 'b':
         update_info_menu()
     elif action == '1' or not action:
-        print("\nBeginning to update jewels...\n")
+        print("\nBeginning to update jewels...")
         from updateJewels import update_jewels
         update_jewels(all_jewel_shapes)
         success_return_menu()
@@ -165,26 +171,27 @@ def update_jewels_menu():
 def update_info_menu():
     
     action = input("\nWhat would you like to update?\n\n[1] Update Everything\n[2] Update Gear\n[3] Update Jewels\n[4] Update Base Values\n[5] Update Set Bonuses\n[b] Back\n[q] Quit\n\n")
+    action_lower = action.lower()
     
-    if action.lower() == 'q':
+    if action_lower == 'q':
         return
-    elif action.lower() == 'b':
+    elif action_lower == 'b':
         start_menu()
     elif action == '1' or not action:
         # update gear
-        print("\nBeginning to update gear...\n")
+        print("\nBeginning to update gear...")
         from updateGear import update_gear
         update_gear(all_gear_types)
         # update jewels
-        print("\nBeginning to update jewels...\n")
+        print("\nBeginning to update jewels...")
         from updateJewels import update_jewels
         update_jewels(all_jewel_shapes)
         # update base values
-        print("\nBeginning to update base values...\n")
+        print("\nBeginning to update base values...")
         from updateBaseValues import update_base_values
         update_base_values()
         # update set bonuses
-        print("\nBeginning to update set bonuses...\n")
+        print("\nBeginning to update set bonuses...")
         from updateSetBonuses import update_set_bonuses
         update_set_bonuses()
         success_return_menu()
@@ -193,12 +200,12 @@ def update_info_menu():
     elif action == '3':
         update_jewels_menu()
     elif action == '4':
-        print("\nBeginning to update base values...\n")
+        print("\nBeginning to update base values...")
         from updateBaseValues import update_base_values
         update_base_values()
         success_return_menu()
     elif action == '5':
-        print("\nBeginning to update set bonuses...\n")
+        print("\nBeginning to update set bonuses...")
         from updateSetBonuses import update_set_bonuses
         update_set_bonuses()
         success_return_menu()

@@ -1,6 +1,7 @@
+import itertools
 import re
 import urllib.parse
-from concurrent.futures import ThreadPoolExecutor, as_completed
+from concurrent.futures import ThreadPoolExecutor
 
 import pandas as pd
 from bs4 import BeautifulSoup
@@ -59,13 +60,6 @@ def extract_information_from_url(url):
             return [], soup
     else:
         return [], None, None
-
-def find_next_page_link(soup):
-    # Look for the "(next page)" link
-    next_page_link = soup.find('a', string='next page')
-    if next_page_link and 'href' in next_page_link.attrs:
-        return next_page_link['href']
-    return None
 
 def format_extracted_info(extracted_info):
     formatted_info = []
@@ -195,7 +189,6 @@ def update_set_bonuses():
     base_url = "https://wiki.wizard101central.com"
     url = "https://wiki.wizard101central.com/wiki/Category:Sets"
     
-    sets_data = []
     bullet_points = []
     
     while url:
@@ -208,7 +201,7 @@ def update_set_bonuses():
             bullet_points.extend(extract_bullet_points_from_html(html_content))
             
             # Find the "(next page)" link
-            next_page_link = find_next_page_link(soup)
+            next_page_link = utils.find_next_page_link(soup)
             if next_page_link:
                 url = urllib.parse.urljoin(base_url, next_page_link)
             else:
@@ -217,17 +210,19 @@ def update_set_bonuses():
             print("Failed to fetch content from the URL.")
             continue
     
-    with ThreadPoolExecutor(max_workers=85) as executor:
-        futures = [executor.submit(process_bullet_point, base_url, bp) for bp in bullet_points]
-        for future in as_completed(futures):
-            try:
-                # Add a timeout (e.g., 120 seconds)
-                set_data = future.result(timeout=120)  # Adjust timeout as necessary
-                if set_data:
-                    sets_data.append(set_data)
-            except Exception as e:
-                print(f"An error occurred while processing {set_data['Name']}: {e}")
+    # multithread webscraping
+    def process_bullets_multithreaded(base_url, bullet_points):
+        sets_data = []
+        def process_and_collect(bp):
+            return process_bullet_point(base_url, bp)
+        with ThreadPoolExecutor() as executor:
+            results = list(executor.map(process_and_collect, bullet_points))
+            sets_data.extend(itertools.chain.from_iterable(results))
+        return sets_data
 
+    # call function to multithread webscrape
+    sets_data = process_bullets_multithreaded(base_url, bullet_points)
+    
     # move all items to dataframe
     df = pd.DataFrame(sets_data).fillna(0)  # fill all empty values with 0
     df = utils.distribute_global_stats(df)

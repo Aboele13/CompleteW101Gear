@@ -1,6 +1,6 @@
 import re
 import urllib.parse
-from concurrent.futures import ThreadPoolExecutor, as_completed
+from concurrent.futures import ThreadPoolExecutor
 
 import pandas as pd
 from bs4 import BeautifulSoup
@@ -232,7 +232,6 @@ def update_jewels(jewel_shapes):
         base_url = "https://wiki.wizard101central.com"
         url = f"https://wiki.wizard101central.com/wiki/Category:{curr_jewel_shape}-Shaped_Jewels" if curr_jewel_shape in all_jewel_shapes else f"https://wiki.wizard101central.com/wiki/Category:{curr_jewel_shape}_Pins"
         
-        jewels_data = []
         bullet_points = []
         
         if curr_jewel_shape in all_jewel_shapes:
@@ -259,16 +258,18 @@ def update_jewels(jewel_shapes):
                 print("Failed to fetch content from the URL.")
                 continue
         
-        with ThreadPoolExecutor(max_workers=85) as executor:
-            futures = [executor.submit(process_bullet_point, base_url, bp) for bp in bullet_points]
-            for future in as_completed(futures):
-                try:
-                    # Add a timeout (e.g., 120 seconds)
-                    jewel_data = future.result(timeout=120)  # Adjust timeout as necessary
-                    if jewel_data:
-                        jewels_data.append(jewel_data)
-                except Exception as e:
-                    print(f"An error occurred while processing {jewel_data['Name']}: {e}")
+        # multithread webscraping
+        def process_bullets_multithreaded(base_url, bullet_points):
+            jewels_data = []
+            def process_and_collect(bp):
+                return process_bullet_point(base_url, bp)
+            with ThreadPoolExecutor() as executor:
+                results = list(executor.map(process_and_collect, bullet_points))
+                jewels_data.extend(results)
+            return jewels_data
+
+        # call function to multithread webscrape
+        jewels_data = process_bullets_multithreaded(base_url, bullet_points)
         
         # move all items to dataframe
         df = pd.DataFrame(jewels_data).fillna(0)  # fill all empty values with 0

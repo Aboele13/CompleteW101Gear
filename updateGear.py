@@ -1,6 +1,6 @@
 import re
 import urllib.parse
-from concurrent.futures import ThreadPoolExecutor, as_completed
+from concurrent.futures import ThreadPoolExecutor
 
 import pandas as pd
 from bs4 import BeautifulSoup
@@ -535,7 +535,6 @@ def update_gear(gear_types):
         base_url = "https://wiki.wizard101central.com"
         url = f"https://wiki.wizard101central.com/wiki/Category:{curr_gear_type}"
 
-        items_data = []
         bullet_points = []
         
         print(f'\nCollecting {curr_gear_type}...\n')
@@ -559,17 +558,21 @@ def update_gear(gear_types):
                 print("Failed to fetch content from the URL.")
                 continue
         
-        with ThreadPoolExecutor(max_workers=85) as executor:
-            futures = [executor.submit(process_bullet_point, base_url, bp, curr_gear_type) for bp in bullet_points]
-            for future in as_completed(futures):
-                try:
-                    # Add a timeout (e.g., 120 seconds)
-                    item_data = future.result(timeout=120)  # Adjust timeout as necessary
-                    if item_data:
-                        items_data.append(item_data)
-                except Exception as e:
-                    print(f"An error occurred while processing {item_data['Name']}: {e}")
+        # multithread webscraping
+        def process_bullets_multithreaded(base_url, bullet_points, curr_gear_type):
+            items_data = []
+            def process_and_collect(bp):
+                return process_bullet_point(base_url, bp, curr_gear_type)
+            with ThreadPoolExecutor() as executor:
+                results = list(executor.map(process_and_collect, bullet_points))
+                items_data.extend(results)
+            return items_data
 
+        # call function to multithread webscrape
+        items_data = process_bullets_multithreaded(base_url, bullet_points, curr_gear_type)
+        if curr_gear_type == 'Mounts': # check for mounts being None (happens when they're not permanent)
+            items_data = [item for item in items_data if item is not None]
+        
         # move all items to dataframe
         df = pd.DataFrame(items_data).fillna(0)  # fill all empty values with 0
         df = clean_gear_df(df, curr_gear_type)
@@ -585,8 +588,7 @@ def update_gear(gear_types):
         for school in utils.schools_of_items: # change this if i want to test one school
             if school != "Global":
                 file_path = f'Gear\\{school}_Gear\\{school}_{curr_gear_type}.csv'
-                if curr_gear_type != "Mounts":
-                    school_df = df[(df['School'].str.startswith('Not') & ~df['School'].str.endswith(school)) | df['School'].isin([school, 'Global'])].reset_index(drop=True)
+                school_df = df if curr_gear_type == "Mounts" else df[(df['School'].str.startswith('Not') & ~df['School'].str.endswith(school)) | df['School'].isin([school, 'Global'])].reset_index(drop=True)
                 try:
                     school_df.to_csv(file_path, index=False)
                 except:
