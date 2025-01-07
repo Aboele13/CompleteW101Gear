@@ -292,9 +292,9 @@ def parse_bonuses(formatted_info, item_name, curr_gear_type):
             bonuses['Shield Pins'] = int(shield_pins)
             bonuses['Power Pins'] = int(power_pins)
         else:
-            bonuses['Sword Pins'] = 0
-            bonuses['Shield Pins'] = 0
-            bonuses['Power Pins'] = 0
+            bonuses['Sword Pins'] = int(0)
+            bonuses['Shield Pins'] = int(0)
+            bonuses['Power Pins'] = int(0)
     
     elif curr_gear_type in utils.accessory_gear_types: # jewels for accessories
         if "Sockets" in formatted_info:

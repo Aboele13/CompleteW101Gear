@@ -1,8 +1,12 @@
+from itertools import combinations_with_replacement
+
 import pandas as pd
 
 import utils
 
 all_gear_types = {'Hats', 'Robes', 'Boots', 'Wands', 'Athames', 'Amulets', 'Rings', 'Pets', 'Mounts', 'Decks'}
+all_pin_shapes = ['Sword', 'Shield', 'Power']
+all_jewel_shapes = ['Tear', 'Circle', 'Square', 'Triangle']
 
 def unlock_sockets(df):
     if 'Locked Tear' in df.columns: # then all jewel columns are there
@@ -50,11 +54,87 @@ def objectively_best_jewels(df):
     # Return the filtered DataFrame
     return df.drop(remove_records).reset_index(drop=True)
 
-def create_jeweled_variations(df, tear_jewels_df, circle_jewels_df, square_jewels_df, triangle_jewels_df):
-    return df
+def create_jeweled_variations(df, jewels_dfs_list, jewel_index):
+    if jewel_index >= len(all_jewel_shapes):
+        return df
+    
+    combo_data = []
+    items_records = df.to_dict('records')  # Convert items_df to list of dicts
+    jewels_records = jewels_dfs_list[jewel_index].to_dict('records')  # Convert jewels_df to list of dicts
+    curr_jewel_shape = f'Unlocked {all_jewel_shapes[jewel_index]}'
+    
+    # Determine the columns to sum
+    exclude_columns = {'Name', 'Level', 'School', 'Enchant Damage'}
+    columns_to_sum = [col for col in jewels_dfs_list[jewel_index].columns if col not in exclude_columns]
+    
+    for item in items_records:
+        # Extract item attributes
+        jewels_count = int(item[curr_jewel_shape])
+        
+        # Generate all combinations of jewels
+        jewel_combinations = combinations_with_replacement(jewels_records, jewels_count)
+        
+        for combination in jewel_combinations:
+            # Initialize totals with item's base values
+            total_values = {col: item[col] for col in columns_to_sum}
+            
+            enchant_damage = item['Enchant Damage']
+            
+            result = item.copy()
+            
+            for jewel in combination:
+                for col in columns_to_sum:
+                    total_values[col] += jewel[col] # all stats get added together
+                enchant_damage = max(enchant_damage, jewel['Enchant Damage']) # except enchant damage is the maximum
+            
+            # Update the result entry with the computed totals for summable columns
+            result.update(total_values)
+            result['Enchant Damage'] = enchant_damage
+            combo_data.append(result)
+            
+    combo_df = pd.DataFrame(combo_data)
+    return create_jeweled_variations(combo_df, jewels_dfs_list, jewel_index + 1)
 
-def create_pinned_variations(df, sword_pins_df, shield_pins_df, power_pins_df):
-    return df
+def create_pinned_variations(df, pins_dfs_list, pin_index):
+    if pin_index >= len(all_pin_shapes):
+        return df
+    
+    combo_data = []
+    items_records = df.to_dict('records')  # Convert items_df to list of dicts
+    pins_records = pins_dfs_list[pin_index].to_dict('records')  # Convert jewels_df to list of dicts
+    curr_jewel_shape = f'{all_pin_shapes[pin_index]} Pins'
+    
+    # Determine the columns to sum
+    exclude_columns = {'Name', 'Level', 'School', 'Enchant Damage'}
+    columns_to_sum = [col for col in pins_dfs_list[pin_index].columns if col not in exclude_columns]
+    
+    for item in items_records:
+        # Extract item attributes
+        pins_count = int(item[curr_jewel_shape])
+        
+        # Generate all combinations of pins
+        pin_combinations = combinations_with_replacement(pins_records, pins_count)
+        
+        for combination in pin_combinations:
+            # Initialize totals with item's base values
+            total_values = {col: item[col] for col in columns_to_sum}
+            
+            enchant_damage = item['Enchant Damage']
+            
+            result = item.copy()
+            
+            for pin in combination:
+                for col in columns_to_sum:
+                    total_values[col] += pin[col] # all stats get added together
+                enchant_damage = max(enchant_damage, pin['Enchant Damage']) # except enchant damage
+            
+            # Update the result entry with the computed totals for summable columns
+            result.update(total_values)
+            result['Enchant Damage'] = enchant_damage
+            combo_data.append(result)
+            
+    combo_df = pd.DataFrame(combo_data)
+    return create_pinned_variations(combo_df, pins_dfs_list, pin_index + 1)
 
 def get_jewel_shape_df(filters, jewel_shape):
     
@@ -66,7 +146,7 @@ def get_jewel_shape_df(filters, jewel_shape):
     if jewel_shape in {'Sword', 'Power'}:
         # Check if any string in the set is a substring of the column value
         mask = df['Name'].apply( # sword and power should have the secondary school in there
-            lambda x: any(s in x.lower() for s in jewels_to_keep) and f"{filters['Jeweled']['Secondary School']}".lower() in x.lower()
+            lambda x: any(s in x.lower() for s in jewels_to_keep) and x.lower().startswith(f"{filters['Jeweled']['Secondary School']}".lower())
         )
         df = objectively_best_jewels(df[mask].reset_index(drop=True))
     elif jewel_shape == 'Shield':
@@ -91,7 +171,7 @@ def get_jewel_shape_df(filters, jewel_shape):
         mask = df['Name'].apply(
             lambda x: any(s in x.lower() for s in jewels_to_keep)
         )
-        df = objectively_best_jewels(df[mask].reset_index(drop=True))
+        df = df[mask].reset_index(drop=True)
     else:
         # Check if any string in the set is a substring of the column value
         mask = df['Name'].apply(
@@ -100,7 +180,6 @@ def get_jewel_shape_df(filters, jewel_shape):
         df = objectively_best_jewels(df[mask].reset_index(drop=True))
     
     return df
-
 
 def jewel_the_items(df, filters):
     
@@ -115,7 +194,7 @@ def jewel_the_items(df, filters):
         print(shield_pins_df) # testing
         power_pins_df = get_jewel_shape_df(filters, 'Power')
         print(power_pins_df) # testing
-        df = create_pinned_variations(df, sword_pins_df, shield_pins_df, power_pins_df)
+        df = create_pinned_variations(df, [sword_pins_df, shield_pins_df, power_pins_df], 0)
     elif filters['Gear Type'] in utils.accessory_gear_types:
         if filters['Jeweled']['Unlock']: # unlock the sockets if specified
             df = unlock_sockets(df)
@@ -127,7 +206,7 @@ def jewel_the_items(df, filters):
         print(square_jewels_df) # testing
         triangle_jewels_df = get_jewel_shape_df(filters, 'Triangle')
         print(triangle_jewels_df) # testing
-        df = create_jeweled_variations(df, tear_jewels_df, circle_jewels_df, square_jewels_df, triangle_jewels_df)
+        df = create_jeweled_variations(df, [tear_jewels_df, circle_jewels_df, square_jewels_df, triangle_jewels_df], 0)
     
     return df
 
@@ -335,6 +414,61 @@ def set_power_pins(jeweled_dict):
             jeweled_dict['Powers'] = powers
             return False
 
+def match_default_jewel_school(filters): # get school specific circle and triangle jewels
+    school_to_jewel = {
+        'Death': 'Onyx',
+        'Fire': 'Ruby',
+        'Balance': 'Citrine',
+        'Myth': 'Peridot',
+        'Storm': 'Amethyst',
+        'Ice': 'Sapphire',
+        'Life': 'Jade',
+        'All': 'Opal'
+    }
+    
+    # circle jewels
+    df = pd.read_csv(f"Jewels\\{filters['School']}_Jewels\\{filters['School']}_Circle_Jewels.csv")
+    # damage uses primary school and level
+    if 'damage' in filters['Jeweled']['Circles']:
+        filters['Jeweled']['Circles'].remove('damage')
+        damage_percent_jewels_df = df[(df['Name'].str.contains(f"Damage {school_to_jewel[filters['School']]}")) & (df['Name'].str.extract(f"({filters['School']})").notnull().any(axis=1))].reset_index(drop=True)
+        if len(damage_percent_jewels_df) > 0 and filters['Level'] >= 170:
+            filters['Jeweled']['Circles'].add(objectively_best_jewels(damage_percent_jewels_df).iloc[0]['Name'].lower())
+        else:
+            filters['Jeweled']['Circles'].add(f"damage {school_to_jewel[filters['School']].lower()}")
+    
+    # pierce needs secondary school
+    if 'piercing' in filters['Jeweled']['Circles']:
+        sec_school_pierce_df = df[(df[f"{filters['Jeweled']['Secondary School']} Armor Piercing"] > 0) & (df[f"{filters['School']} Armor Piercing"] > 0) & (df['Global Armor Piercing'] == 0)].reset_index(drop=True)
+        if len(sec_school_pierce_df) > 0:
+            name = sec_school_pierce_df.iloc[0]['Name'].split()[0]
+            filters['Jeweled']['Circles'].remove('piercing')
+            filters['Jeweled']['Circles'].add(f'{name.lower()} piercing')
+        else:
+            filters['Jeweled']['Circles'].remove('piercing')
+            filters['Jeweled']['Circles'].add(f"piercing {school_to_jewel[filters['School']].lower()}")
+    
+    # triangle jewels
+    # accuracy just uses primary school
+    if 'accurate' in filters['Jeweled']['Triangles']:
+        filters['Jeweled']['Triangles'].remove('accurate')
+        filters['Jeweled']['Triangles'].add(f"accurate {school_to_jewel[filters['School']].lower()}")
+
+def set_default_jeweled(filters):
+    def_sec_school = 'Life' if filters['School'] != 'Life' else 'Storm'
+    filters['Jeweled'] = {
+        'Unlock': True,
+        'Secondary School': def_sec_school,
+        'Tears': {'health'},
+        'Circles': {'damage', 'piercing'},
+        'Squares': {'health'} if filters['Level'] >= 170 else {'defense opal'},
+        'Triangles': {'accurate', 'pip opal'} | set([item_card.lower() for item_card in utils.damage_ICs]),
+        'Swords': {'disabling'},
+        'Shields': {'resist'},
+        'Powers': {'accurate'}
+    }
+    match_default_jewel_school(filters)
+
 def modify_jeweled(filters):
     
     default = 'Nothing'
@@ -342,18 +476,7 @@ def modify_jeweled(filters):
     while True:
         default = input().lower()
         if default == 'y':
-            def_sec_school = 'Life' if filters['School'] != 'Life' else 'Storm'
-            filters['Jeweled'] = {
-                'Unlock': True,
-                'Secondary School': def_sec_school,
-                'Tears': {'health'},
-                'Circles': {'damage', 'piercing'},
-                'Squares': {'health'} if filters['Level'] >= 170 else {'defense'},
-                'Triangles': {'accurate', 'pip opal'} | set([ic.lower() for ic in utils.damage_ICs]),
-                'Swords': {'disabling'},
-                'Shields': {'resist'},
-                'Powers': {'accurate'}
-            }
+            set_default_jeweled(filters)
             return
         elif default == 'n':
             jeweled_dict = filters['Jeweled'] if 'Jeweled' in filters else {}
@@ -530,7 +653,7 @@ def view_gear():
                 else:
                     filters['School'] = 'All' if new_school == 'Global' else new_school
                     if 'Jeweled' in filters:
-                        set_jeweled(filters)
+                        set_default_jeweled(filters)
                     break
         elif action_lower == 'gear type':
             new_gear_type = 'Nothing'
@@ -599,6 +722,8 @@ def view_gear():
                     max_level = 170 # UPDATE WITH NEW WORLD
                     if int_num > 0 and int_num <= max_level:
                         filters['Level'] = int_num
+                        if 'Jeweled' in filters:
+                            set_default_jeweled(filters)
                         break
                     else:
                         print(f'\nInvalid value, enter a number between 1 and {max_level}, or b to go back\n')

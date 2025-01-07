@@ -2,9 +2,7 @@ TODO:
 
 - HECK FRONTEND, I'M DOING EVERYTHING IN CONSOLE, NO WEBSITE
 
-- accessory logic in get_jewel_shape_df()
-- create_pinned_Variations()
-- create_jeweled_Variations()
+- jeweling the items should note what jewel was used
 
 - select gear
     - when i select an accessory, i select it first, then it asks "how did you fill this jewel slot?"
