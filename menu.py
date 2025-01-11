@@ -1,5 +1,5 @@
-all_gear_types = ['Hats', 'Robes', 'Boots', 'Wands', 'Athames', 'Amulets', 'Rings', 'Pets', 'Mounts', 'Decks']
-all_jewel_shapes = ['Tear', 'Circle', 'Square', 'Triangle', 'Sword', 'Shield', 'Power']
+import utils
+
 
 def success_return_menu():
     action = input("\nThe process is complete. Would you like to do anything else?\n\n[1] Yes\n[2] No\n\n")
@@ -17,18 +17,13 @@ def not_added_yet_message():
 def invalid_input_message():
     print("\nInvalid input. Please try again")
 
-def print_gear_type_options():
-    for i in range(len(all_gear_types)):
-        print(f"[{(i + 1) % 10}] {all_gear_types[i]}")
-    print("")
-
 def nums_to_gear_types(nums):
     gear_types = []
     if min(nums) < 0 or max(nums) > 9:
         return gear_types
-    for i in range(len(all_gear_types)):
+    for i in range(len(utils.all_gear_types_list)):
         if ((i + 1) % 10) in nums:
-            gear_types.append(all_gear_types[i])
+            gear_types.append(utils.all_gear_types_list[i])
     return gear_types
 
 def confirm_selected_gear_types(select_gear_types):
@@ -47,6 +42,8 @@ def confirm_selected_gear_types(select_gear_types):
         from updateGear import update_gear
         update_gear(select_gear_types)
         success_return_menu()
+    else:
+        print('\nInvalid input, please confirm or try again\n')
 
 def confirm_selected_jewel_shapes(select_jewel_shapes):
     
@@ -64,11 +61,13 @@ def confirm_selected_jewel_shapes(select_jewel_shapes):
         from updateJewels import update_jewels
         update_jewels(select_jewel_shapes)
         success_return_menu()
+    else:
+        print('\nInvalid input, please confirm or try again\n')
 
 def update_gear_select_types_menu():
     
     print("\nSelect the gear types as a comma separated list (ex. 1,4,5), or b to go Back, or q to Quit\n")
-    print_gear_type_options()
+    utils.print_gear_type_options()
     
     action = input("")
     action_lower = action.lower()
@@ -102,7 +101,7 @@ def update_gear_menu():
     elif action == '1' or not action:
         print("\nBeginning to update gear...")
         from updateGear import update_gear
-        update_gear(all_gear_types)
+        update_gear(utils.all_gear_types_list)
         success_return_menu()
     elif action == '2':
         update_gear_select_types_menu()
@@ -111,17 +110,17 @@ def update_gear_menu():
         update_gear_menu()
 
 def print_jewel_shapes_options():
-    for i in range(len(all_jewel_shapes)):
-        print(f"[{i + 1}] {all_jewel_shapes[i]}")
+    for i in range(len(utils.all_jewel_shapes_list)):
+        print(f"[{i + 1}] {utils.all_jewel_shapes_list[i]}")
     print("")
 
 def nums_to_jewel_shapes(nums):
     jewel_shapes = []
     if min(nums) < 1 or max(nums) > 7:
         return jewel_shapes
-    for i in range(len(all_jewel_shapes)):
+    for i in range(len(utils.all_jewel_shapes_list)):
         if (i + 1) in nums:
-            jewel_shapes.append(all_jewel_shapes[i])
+            jewel_shapes.append(utils.all_jewel_shapes_list[i])
     return jewel_shapes
 
 def update_jewels_select_shapes_menu():
@@ -160,7 +159,7 @@ def update_jewels_menu():
     elif action == '1' or not action:
         print("\nBeginning to update jewels...")
         from updateJewels import update_jewels
-        update_jewels(all_jewel_shapes)
+        update_jewels(utils.all_jewel_shapes_list)
         success_return_menu()
     elif action == '2':
         update_jewels_select_shapes_menu()
@@ -181,11 +180,11 @@ def update_info_menu():
         # update gear
         print("\nBeginning to update gear...")
         from updateGear import update_gear
-        update_gear(all_gear_types)
+        update_gear(utils.all_gear_types_list)
         # update jewels
         print("\nBeginning to update jewels...")
         from updateJewels import update_jewels
-        update_jewels(all_jewel_shapes)
+        update_jewels(utils.all_jewel_shapes_list)
         # update base values
         print("\nBeginning to update base values...")
         from updateBaseValues import update_base_values
@@ -213,10 +212,6 @@ def update_info_menu():
         invalid_input_message()
         update_info_menu()
 
-def owned_gear_menu():
-    not_added_yet_message()
-    start_menu()
-
 def view_sets_menu():
     not_added_yet_message()
     start_menu()
@@ -238,7 +233,9 @@ def start_menu():
         if view_gear():
             start_menu()
     elif action == '3':
-        owned_gear_menu()
+        from ownedGear import owned_gear
+        if owned_gear():
+            start_menu()
     elif action == '4':
         view_sets_menu()
     elif action == '5':

@@ -6,9 +6,25 @@ clothing_gear_types = {"Hats", "Robes", "Boots"}
 accessory_gear_types = {"Wands", "Athames", "Amulets", "Rings", "Decks"}
 starting_pip_gear_types = {"Wands", "Decks"}
 
+all_gear_types_list = ['Hats', 'Robes', 'Boots', 'Wands', 'Athames', 'Amulets', 'Rings', 'Pets', 'Mounts', 'Decks']
+all_jewel_shapes_list = ['Tear', 'Circle', 'Square', 'Triangle', 'Sword', 'Shield', 'Power']
+
+
 schools_of_items = {"Global", "Balance", "Death", "Fire", "Ice", "Life", "Myth", "Storm"}
 all_stat_schools = schools_of_items | {"Shadow"}
 damage_ICs = ["Epic", "Colossal", "Gargantuan", "Monstrous", "Giant", "Strong"] # UPDATE WITH NEW DAMAGE ITEM CARDS
+
+def is_int(input):
+    try:
+        int(input)
+        return True
+    except:
+        return False
+
+def print_gear_type_options():
+    for i in range(len(all_gear_types_list)):
+        print(f"[{(i + 1) % 10}] {all_gear_types_list[i]}")
+    print("")
 
 def distribute_global_stats(df):
     schools = {"Balance", "Death", "Fire", "Ice", "Life", "Myth", "Storm", "Shadow"}

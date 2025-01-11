@@ -54,6 +54,71 @@ def objectively_best_jewels(df):
     # Return the filtered DataFrame
     return df.drop(remove_records).reset_index(drop=True)
 
+# [Ter, Cir, Sqr, Tri], [Hlt, Res, Dmg, Prc, Acc, Pip, DIC, Blk, Cnv, Stn, OIC, Arc]
+def abbreviate_jewel(shape, jewel_name):
+    shape_to_abbr = {
+        'Tear': 'Ter',
+        'Circle': 'Cir',
+        'Square': 'Sqr',
+        'Triangle': 'Tri',
+    }
+    
+    jewel_name = jewel_name.lower()
+    
+    if "health" in jewel_name and shape != 'Triangle':
+        return f"{shape_to_abbr[shape]}Hlt"
+    elif "defense" in jewel_name:
+        return f"{shape_to_abbr[shape]}Res"
+    elif "damage" in jewel_name and shape == 'Circle':
+        return f"{shape_to_abbr[shape]}Dmg"
+    elif "piercing" in jewel_name:
+        return f"{shape_to_abbr[shape]}Prc"
+    elif "accurate" in jewel_name:
+        return f"{shape_to_abbr[shape]}Acc"
+    elif "conversion" in jewel_name:
+        return f"{shape_to_abbr[shape]}Cnv"
+    elif "resilient" in jewel_name:
+        return f"{shape_to_abbr[shape]}Stn"
+    elif "archmastery" in jewel_name:
+        return f"{shape_to_abbr[shape]}Arc"
+    elif "blocking" in jewel_name:
+        return f"{shape_to_abbr[shape]}Blk"
+    elif any(damage_IC.lower() in jewel_name for damage_IC in utils.damage_ICs):
+        return f"{shape_to_abbr[shape]}DIC"
+    elif "pip" in jewel_name:
+        return f"{shape_to_abbr[shape]}Pip"
+    else:
+        return f"{shape_to_abbr[shape]}OIC"
+
+# [Swd, Shd, Pow], [Dis, Csh, Pun, Blk, Res, Mnd, Acc, Cnv]
+def abbreviate_pin(shape, pin_name):
+    shape_to_abbr = {
+        'Sword': 'Swd',
+        'Shield': 'Shd',
+        'Power': 'Pwr',
+    }
+    
+    pin_name = pin_name.lower()
+    
+    if "disabling" in pin_name:
+        return f"{shape_to_abbr[shape]}Dis"
+    elif "crushing" in pin_name:
+        return f"{shape_to_abbr[shape]}Csh"
+    elif "punishing" in pin_name:
+        return f"{shape_to_abbr[shape]}Pun"
+    elif "blocking" in pin_name:
+        return f"{shape_to_abbr[shape]}Blk"
+    elif "resist" in pin_name:
+        return f"{shape_to_abbr[shape]}Res"
+    elif "mending" in pin_name:
+        return f"{shape_to_abbr[shape]}Mnd"
+    elif "accurate" in pin_name:
+        return f"{shape_to_abbr[shape]}Acc"
+    elif "conversion" in pin_name:
+        return f"{shape_to_abbr[shape]}Cnv"
+    else:
+        return f"{shape_to_abbr[shape]}Oth"
+
 def create_jeweled_variations(df, jewels_dfs_list, jewel_index):
     if jewel_index >= len(all_jewel_shapes):
         return df
@@ -61,7 +126,7 @@ def create_jeweled_variations(df, jewels_dfs_list, jewel_index):
     combo_data = []
     items_records = df.to_dict('records')  # Convert items_df to list of dicts
     jewels_records = jewels_dfs_list[jewel_index].to_dict('records')  # Convert jewels_df to list of dicts
-    curr_jewel_shape = f'Unlocked {all_jewel_shapes[jewel_index]}'
+    curr_jewel_shape = all_jewel_shapes[jewel_index]
     
     # Determine the columns to sum
     exclude_columns = {'Name', 'Level', 'School', 'Enchant Damage'}
@@ -69,7 +134,7 @@ def create_jeweled_variations(df, jewels_dfs_list, jewel_index):
     
     for item in items_records:
         # Extract item attributes
-        jewels_count = int(item[curr_jewel_shape])
+        jewels_count = int(item[f'Unlocked {curr_jewel_shape}'])
         
         # Generate all combinations of jewels
         jewel_combinations = combinations_with_replacement(jewels_records, jewels_count)
@@ -82,7 +147,10 @@ def create_jeweled_variations(df, jewels_dfs_list, jewel_index):
             
             result = item.copy()
             
+            jewels_used = result['Jewels Used'] if 'Jewels Used' in result else ''
+            
             for jewel in combination:
+                jewels_used += f"({abbreviate_jewel(curr_jewel_shape, jewel['Name'])})"
                 for col in columns_to_sum:
                     total_values[col] += jewel[col] # all stats get added together
                 enchant_damage = max(enchant_damage, jewel['Enchant Damage']) # except enchant damage is the maximum
@@ -90,6 +158,7 @@ def create_jeweled_variations(df, jewels_dfs_list, jewel_index):
             # Update the result entry with the computed totals for summable columns
             result.update(total_values)
             result['Enchant Damage'] = enchant_damage
+            result['Jewels Used'] = jewels_used if (jewels_used or (jewel_index < len(all_jewel_shapes) - 1)) else '(No Jewels)'
             combo_data.append(result)
             
     combo_df = pd.DataFrame(combo_data)
@@ -102,7 +171,7 @@ def create_pinned_variations(df, pins_dfs_list, pin_index):
     combo_data = []
     items_records = df.to_dict('records')  # Convert items_df to list of dicts
     pins_records = pins_dfs_list[pin_index].to_dict('records')  # Convert jewels_df to list of dicts
-    curr_jewel_shape = f'{all_pin_shapes[pin_index]} Pins'
+    curr_jewel_shape = all_pin_shapes[pin_index]
     
     # Determine the columns to sum
     exclude_columns = {'Name', 'Level', 'School', 'Enchant Damage'}
@@ -110,7 +179,7 @@ def create_pinned_variations(df, pins_dfs_list, pin_index):
     
     for item in items_records:
         # Extract item attributes
-        pins_count = int(item[curr_jewel_shape])
+        pins_count = int(item[f"{curr_jewel_shape} Pins"])
         
         # Generate all combinations of pins
         pin_combinations = combinations_with_replacement(pins_records, pins_count)
@@ -123,7 +192,10 @@ def create_pinned_variations(df, pins_dfs_list, pin_index):
             
             result = item.copy()
             
+            pins_used = result['Pins Used'] if 'Pins Used' in result else ''
+            
             for pin in combination:
+                pins_used += f"({abbreviate_pin(curr_jewel_shape, pin['Name'])})"
                 for col in columns_to_sum:
                     total_values[col] += pin[col] # all stats get added together
                 enchant_damage = max(enchant_damage, pin['Enchant Damage']) # except enchant damage
@@ -131,6 +203,7 @@ def create_pinned_variations(df, pins_dfs_list, pin_index):
             # Update the result entry with the computed totals for summable columns
             result.update(total_values)
             result['Enchant Damage'] = enchant_damage
+            result['Pins Used'] = pins_used if (pins_used or (pin_index < len(all_pin_shapes) - 1)) else '(No Pins)'
             combo_data.append(result)
             
     combo_df = pd.DataFrame(combo_data)
@@ -273,13 +346,6 @@ def filter_by_sources(df, good_sources):
     df['match'] = df['Source'].apply(check_sources)
     df = df[df['match']]
     return df.drop('match', axis=1).reset_index(drop=True)
-
-def is_int(input):
-    try:
-        int(input)
-        return True
-    except:
-        return False
 
 def set_unlock(jeweled_dict):
     unlock = 'Nothing'
@@ -668,7 +734,7 @@ def view_gear():
                     filters['Gear Type'] = new_gear_type
                     break
         elif action_lower == 'name':
-            filters[action] = input(f"\nSearch by name:\n\n")
+            filters['Name'] = input(f"\nSearch by name:\n\n")
         elif action_lower == 'gear set':
             if 'Gear Set' in filters:
                 filters.pop('Gear Set')
@@ -689,10 +755,18 @@ def view_gear():
                     break
         elif action_lower == 'source' or action_lower == 'good sources' or action_lower == 'bad sources':
             source = 'Nothing'
-            print('\nWhich source would you like to add or remove? Or b to go back\n')
+            print('\nWhich source would you like to add or remove? Enter All to add all, None to remove all, or b to go back\n')
             while True:
                 source = input()
                 if source.lower() == 'b':
+                    break
+                elif source.lower() == 'all':
+                    filters['Good Sources'] = filters['Good Sources'] | filters['Bad Sources']
+                    filters['Bad Sources'] = set()
+                    break
+                elif source.lower() == 'none':
+                    filters['Bad Sources'] = filters['Good Sources'] | filters['Bad Sources']
+                    filters['Good Sources'] = set()
                     break
                 elif source in filters['Good Sources']:
                     filters['Good Sources'].remove(source)
@@ -717,7 +791,7 @@ def view_gear():
                 num = input()
                 if num.lower() == 'b':
                     break
-                elif is_int(num):
+                elif utils.is_int(num):
                     int_num = int(num)
                     max_level = 170 # UPDATE WITH NEW WORLD
                     if int_num > 0 and int_num <= max_level:
@@ -736,7 +810,7 @@ def view_gear():
                 num = input()
                 if num.lower() == 'b':
                     break
-                elif is_int(num) and int(num) >= 0:
+                elif utils.is_int(num) and int(num) >= 0:
                     if int(num) == 0 and action in filters:
                         filters.pop(action)
                     elif int(num) != 0:

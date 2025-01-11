@@ -2,14 +2,13 @@ TODO:
 
 - HECK FRONTEND, I'M DOING EVERYTHING IN CONSOLE, NO WEBSITE
 
-- jeweling the items should note what jewel was used
-
-- select gear
+- owned gear
     - when i select an accessory, i select it first, then it asks "how did you fill this jewel slot?"
         - leaving empty can be an option
 
 - view gear
     - owned col should be included and correct
+        - requires knowing what account you are
 
 
 

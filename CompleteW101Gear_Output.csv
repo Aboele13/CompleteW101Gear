@@ -1,431 +1,936 @@
-Name,Level,Max Health,Damage,Flat Damage,Resistance,Flat Resistance,Accuracy,Critical Rating,Critical Block Rating,Armor Piercing,Stun Resistance,Incoming Healing,Outgoing Healing,Pip Conversion Rating,Power Pip Chance,Shadow Pip Rating,Archmastery Rating,Unlocked Tear,Unlocked Circle,Unlocked Square,Unlocked Triangle,Source,Enchant Damage,Gear Set,Usable In,School
-Avatar's Blade of Payback,170,1905,47,0,0,0,0,0,94,0,0,0,0,0,16,0,0,1,2,1,0,Crafting,0,No Gear Set,Everything,Death
-Fell Dream Reaver Knife,170,1905,47,0,0,0,0,0,94,0,0,0,0,0,16,0,0,1,2,1,0,"Drop, Crafting, Crowns",0,No Gear Set,Everything,Death
-Deadly August Sage Knife (Level 170+),170,1133,47,0,0,0,16,0,81,0,0,0,0,0,18,0,0,1,2,0,1,"Gold Key, Crowns",0,No Gear Set,Everything,Death
-Deadly August Sage Knife (Level 170+),170,1133,47,0,0,0,0,0,81,0,0,0,0,0,18,0,0,1,2,0,1,"Gold Key, Crowns",315,No Gear Set,Everything,Death
-Deadly August Sage Knife (Level 170+),170,1133,47,0,0,0,0,0,81,0,0,0,0,0,28,0,0,1,2,0,1,"Gold Key, Crowns",0,No Gear Set,Everything,Death
-Night King's Athame (Level 170+),170,1133,47,0,0,0,16,0,81,0,0,0,0,0,18,0,0,1,2,0,1,"Gold Key, Crowns",0,No Gear Set,Everything,Death
-Night King's Athame (Level 170+),170,1133,47,0,0,0,0,0,81,0,0,0,0,0,18,0,0,1,2,0,1,"Gold Key, Crowns",315,No Gear Set,Everything,Death
-Night King's Athame (Level 170+),170,1133,47,0,0,0,0,0,81,0,0,0,0,0,28,0,0,1,2,0,1,"Gold Key, Crowns",0,No Gear Set,Everything,Death
-Baleful Archival Dirk (Level 170+),170,1783,45,0,0,0,0,0,134,0,0,0,8,0,0,0,0,1,2,1,0,"Housing Gauntlet, Crowns",0,No Gear Set,Everything,Death
-Macabre Aeon Athame,160,1253,45,0,0,0,16,0,82,0,0,0,0,0,16,0,0,1,2,0,1,"Drop, Crafting, Crowns",0,No Gear Set,Everything,Death
-Macabre Aeon Athame,160,1253,45,0,0,0,0,0,82,0,0,0,0,0,16,0,0,1,2,0,1,"Drop, Crafting, Crowns",315,No Gear Set,Everything,Death
-Macabre Aeon Athame,160,1253,45,0,0,0,0,0,82,0,0,0,0,0,26,0,0,1,2,0,1,"Drop, Crafting, Crowns",0,No Gear Set,Everything,Death
-Malignant Aeon Athame,160,1253,45,0,0,0,16,0,82,0,0,0,0,0,16,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Death
-Malignant Aeon Athame,160,1253,45,0,0,0,0,0,82,0,0,0,0,0,16,0,0,1,2,0,1,Crafting,315,No Gear Set,Everything,Death
-Malignant Aeon Athame,160,1253,45,0,0,0,0,0,82,0,0,0,0,0,26,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Death
-Morbid Aeon Athame,160,1253,45,0,0,0,16,0,82,0,0,0,0,0,16,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Death
-Morbid Aeon Athame,160,1253,45,0,0,0,0,0,82,0,0,0,0,0,16,0,0,1,2,0,1,Crafting,315,No Gear Set,Everything,Death
-Morbid Aeon Athame,160,1253,45,0,0,0,0,0,82,0,0,0,0,0,26,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Death
-Umbra Queen's Grim Dirk (Level 170+),170,1133,45,0,0,0,16,0,0,0,0,0,6,0,19,0,0,1,2,0,1,Rematch,0,No Gear Set,Everything,Death
-Umbra Queen's Grim Dirk (Level 170+),170,1133,45,0,0,0,0,0,0,0,0,0,6,0,19,0,0,1,2,0,1,Rematch,315,No Gear Set,Everything,Death
-Umbra Queen's Grim Dirk (Level 170+),170,1133,45,0,0,0,0,0,0,0,0,0,6,0,29,0,0,1,2,0,1,Rematch,0,No Gear Set,Everything,Death
-Nullity's Deadly Athame (Level 150+),150,810,44,0,0,0,16,0,88,0,0,0,0,0,17,0,0,1,2,0,1,Drop,0,No Gear Set,Everything,Death
-Nullity's Deadly Athame (Level 150+),150,810,44,0,0,0,0,0,88,0,0,0,0,0,17,0,0,1,2,0,1,Drop,315,No Gear Set,Everything,Death
-Nullity's Deadly Athame (Level 150+),150,810,44,0,0,0,0,0,88,0,0,0,0,0,27,0,0,1,2,0,1,Drop,0,No Gear Set,Everything,Death
-Burrower's Necromancy Athame (Level 160+),160,1375,43,0,0,0,16,0,93,0,0,0,0,0,16,0,0,1,2,0,1,"Gold Key, Crowns",0,No Gear Set,Everything,Death
-Burrower's Necromancy Athame (Level 160+),160,1375,43,0,0,0,0,0,93,0,0,0,0,0,16,0,0,1,2,0,1,"Gold Key, Crowns",315,No Gear Set,Everything,Death
-Burrower's Necromancy Athame (Level 160+),160,1375,43,0,0,0,0,0,93,0,0,0,0,0,26,0,0,1,2,0,1,"Gold Key, Crowns",0,No Gear Set,Everything,Death
-Deadly Night Mire Athame (Level 160+),160,1131,43,0,0,0,16,0,116,0,0,0,0,0,16,0,0,1,2,0,1,"Housing Gauntlet, Crowns",0,No Gear Set,Everything,Death
-Deadly Night Mire Athame (Level 160+),160,1131,43,0,0,0,0,0,116,0,0,0,0,0,16,0,0,1,2,0,1,"Housing Gauntlet, Crowns",315,No Gear Set,Everything,Death
-Deadly Night Mire Athame (Level 160+),160,1131,43,0,0,0,0,0,116,0,0,0,0,0,26,0,0,1,2,0,1,"Housing Gauntlet, Crowns",0,No Gear Set,Everything,Death
-Gloomy Night Mire Athame,160,1131,43,0,0,0,16,0,116,0,0,0,0,0,16,0,0,1,2,0,1,Housing Gauntlet,0,No Gear Set,Everything,Death
-Gloomy Night Mire Athame,160,1131,43,0,0,0,0,0,116,0,0,0,0,0,16,0,0,1,2,0,1,Housing Gauntlet,315,No Gear Set,Everything,Death
-Gloomy Night Mire Athame,160,1131,43,0,0,0,0,0,116,0,0,0,0,0,26,0,0,1,2,0,1,Housing Gauntlet,0,No Gear Set,Everything,Death
-Malistaire's Ghostly Blade (Level 160+),160,1131,43,0,0,0,16,0,70,0,0,0,0,0,19,0,0,1,2,0,1,Rematch,0,No Gear Set,Everything,Death
-Malistaire's Ghostly Blade (Level 160+),160,1131,43,0,0,0,0,0,70,0,0,0,0,0,19,0,0,1,2,0,1,Rematch,315,No Gear Set,Everything,Death
-Malistaire's Ghostly Blade (Level 160+),160,1131,43,0,0,0,0,0,70,0,0,0,0,0,29,0,0,1,2,0,1,Rematch,0,No Gear Set,Everything,Death
-Murky Night Mire Athame,160,1131,43,0,0,0,16,0,116,0,0,0,0,0,16,0,0,1,2,0,1,Housing Gauntlet,0,No Gear Set,Everything,Death
-Murky Night Mire Athame,160,1131,43,0,0,0,0,0,116,0,0,0,0,0,16,0,0,1,2,0,1,Housing Gauntlet,315,No Gear Set,Everything,Death
-Murky Night Mire Athame,160,1131,43,0,0,0,0,0,116,0,0,0,0,0,26,0,0,1,2,0,1,Housing Gauntlet,0,No Gear Set,Everything,Death
-Eternal Macabre Athame,160,1375,41,0,0,0,16,0,93,0,0,0,0,0,18,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Death
-Eternal Macabre Athame,160,1375,41,0,0,0,0,0,93,0,0,0,0,0,18,0,0,1,2,0,1,Crafting,315,No Gear Set,Everything,Death
-Eternal Macabre Athame,160,1375,41,0,0,0,0,0,93,0,0,0,0,0,28,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Death
-Eternal Malignant Athame,160,1375,41,0,0,0,16,0,93,0,0,0,0,0,18,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Death
-Eternal Malignant Athame,160,1375,41,0,0,0,0,0,93,0,0,0,0,0,18,0,0,1,2,0,1,Crafting,315,No Gear Set,Everything,Death
-Eternal Malignant Athame,160,1375,41,0,0,0,0,0,93,0,0,0,0,0,28,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Death
-Eternal Morbid Athame,160,1375,41,0,0,0,16,0,93,0,0,0,0,0,18,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Death
-Eternal Morbid Athame,160,1375,41,0,0,0,0,0,93,0,0,0,0,0,18,0,0,1,2,0,1,Crafting,315,No Gear Set,Everything,Death
-Eternal Morbid Athame,160,1375,41,0,0,0,0,0,93,0,0,0,0,0,28,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Death
-Malevolent Death Athame,150,1239,40,0,0,0,0,0,141,0,0,4,0,0,0,0,0,1,2,0,0,Drop,0,No Gear Set,Everything,Death
-The Void's Deadly Athame (Level 150+),150,919,40,0,0,0,16,0,99,0,0,0,0,0,18,0,0,1,2,0,1,Drop,0,No Gear Set,Everything,Death
-The Void's Deadly Athame (Level 150+),150,919,40,0,0,0,0,0,99,0,0,0,0,0,18,0,0,1,2,0,1,Drop,315,No Gear Set,Everything,Death
-The Void's Deadly Athame (Level 150+),150,919,40,0,0,0,0,0,99,0,0,0,0,0,28,0,0,1,2,0,1,Drop,0,No Gear Set,Everything,Death
-Magician's Death Athame,150,1217,39,0,0,0,0,0,137,0,0,0,4,0,0,0,0,1,2,0,0,Drop,0,No Gear Set,Everything,Death
-Delightful Sentamental Knife,140,1171,39,0,0,0,16,0,134,0,0,5,0,0,0,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Death
-Delightful Sentamental Knife,140,1171,39,0,0,0,0,0,134,0,0,5,0,0,0,0,0,1,2,0,1,Crafting,315,No Gear Set,Everything,Death
-Delightful Sentamental Knife,140,1171,39,0,0,0,0,0,134,0,0,5,0,0,10,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Death
-Uber Sentamentalist Knife,140,1171,39,0,0,0,16,0,134,0,0,5,0,0,0,0,0,1,2,0,1,Drop,0,No Gear Set,Everything,Death
-Uber Sentamentalist Knife,140,1171,39,0,0,0,0,0,134,0,0,5,0,0,0,0,0,1,2,0,1,Drop,315,No Gear Set,Everything,Death
-Uber Sentamentalist Knife,140,1171,39,0,0,0,0,0,134,0,0,5,0,0,10,0,0,1,2,0,1,Drop,0,No Gear Set,Everything,Death
-Lord of Death's Razor,100,527,38,0,0,0,18,0,18,0,0,15,0,0,16,0,0,1,2,0,1,Drop,0,No Gear Set,Everything,Death
-Lord of Death's Razor,100,527,38,0,0,0,2,0,18,0,0,15,0,0,16,0,0,1,2,0,1,Drop,315,No Gear Set,Everything,Death
-Lord of Death's Razor,100,527,38,0,0,0,2,0,18,0,0,15,0,0,26,0,0,1,2,0,1,Drop,0,No Gear Set,Everything,Death
-Dragoon's Deadly Dagger,130,1123,37,0,0,0,16,0,135,0,0,5,0,0,0,0,0,1,2,0,1,"Crafting, Stone Key",0,Dragoon's Deadly Set,Everything,Death
-Dragoon's Deadly Dagger,130,1123,37,0,0,0,0,0,135,0,0,5,0,0,0,0,0,1,2,0,1,"Crafting, Stone Key",315,Dragoon's Deadly Set,Everything,Death
-Dragoon's Deadly Dagger,130,1123,37,0,0,0,0,0,135,0,0,5,0,0,10,0,0,1,2,0,1,"Crafting, Stone Key",0,Dragoon's Deadly Set,Everything,Death
-Avatar's Blade of Payback,170,1905,36,0,0,0,0,0,94,6,0,0,0,0,16,0,0,1,2,1,0,Crafting,0,No Gear Set,Everything,Death
-Fell Dream Reaver Knife,170,1905,36,0,0,0,0,0,94,6,0,0,0,0,16,0,0,1,2,1,0,"Drop, Crafting, Crowns",0,No Gear Set,Everything,Death
-Deadly August Sage Knife (Level 170+),170,1133,36,0,0,0,16,0,81,6,0,0,0,0,18,0,0,1,2,0,1,"Gold Key, Crowns",0,No Gear Set,Everything,Death
-Deadly August Sage Knife (Level 170+),170,1133,36,0,0,0,0,0,81,6,0,0,0,0,18,0,0,1,2,0,1,"Gold Key, Crowns",315,No Gear Set,Everything,Death
-Deadly August Sage Knife (Level 170+),170,1133,36,0,0,0,0,0,81,6,0,0,0,0,28,0,0,1,2,0,1,"Gold Key, Crowns",0,No Gear Set,Everything,Death
-Night King's Athame (Level 170+),170,1133,36,0,0,0,16,0,81,6,0,0,0,0,18,0,0,1,2,0,1,"Gold Key, Crowns",0,No Gear Set,Everything,Death
-Night King's Athame (Level 170+),170,1133,36,0,0,0,0,0,81,6,0,0,0,0,18,0,0,1,2,0,1,"Gold Key, Crowns",315,No Gear Set,Everything,Death
-Night King's Athame (Level 170+),170,1133,36,0,0,0,0,0,81,6,0,0,0,0,28,0,0,1,2,0,1,"Gold Key, Crowns",0,No Gear Set,Everything,Death
-Uber Candymancer Knife,140,1178,35,0,0,0,16,0,130,0,0,5,0,0,0,0,0,1,2,0,1,Drop,0,No Gear Set,Everything,Global
-Uber Candymancer Knife,140,1178,35,0,0,0,0,0,130,0,0,5,0,0,0,0,0,1,2,0,1,Drop,315,No Gear Set,Everything,Global
-Uber Candymancer Knife,140,1178,35,0,0,0,0,0,130,0,0,5,0,0,10,0,0,1,2,0,1,Drop,0,No Gear Set,Everything,Global
-Baleful Archival Dirk (Level 170+),170,1783,34,0,0,0,0,0,134,6,0,0,8,0,0,0,0,1,2,1,0,"Housing Gauntlet, Crowns",0,No Gear Set,Everything,Death
-Macabre Aeon Athame,160,1253,34,0,0,0,16,0,82,6,0,0,0,0,16,0,0,1,2,0,1,"Drop, Crafting, Crowns",0,No Gear Set,Everything,Death
-Macabre Aeon Athame,160,1253,34,0,0,0,0,0,82,6,0,0,0,0,16,0,0,1,2,0,1,"Drop, Crafting, Crowns",315,No Gear Set,Everything,Death
-Macabre Aeon Athame,160,1253,34,0,0,0,0,0,82,6,0,0,0,0,26,0,0,1,2,0,1,"Drop, Crafting, Crowns",0,No Gear Set,Everything,Death
-Malignant Aeon Athame,160,1253,34,0,0,0,16,0,82,6,0,0,0,0,16,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Death
-Malignant Aeon Athame,160,1253,34,0,0,0,0,0,82,6,0,0,0,0,16,0,0,1,2,0,1,Crafting,315,No Gear Set,Everything,Death
-Malignant Aeon Athame,160,1253,34,0,0,0,0,0,82,6,0,0,0,0,26,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Death
-Morbid Aeon Athame,160,1253,34,0,0,0,16,0,82,6,0,0,0,0,16,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Death
-Morbid Aeon Athame,160,1253,34,0,0,0,0,0,82,6,0,0,0,0,16,0,0,1,2,0,1,Crafting,315,No Gear Set,Everything,Death
-Morbid Aeon Athame,160,1253,34,0,0,0,0,0,82,6,0,0,0,0,26,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Death
-Umbra Queen's Grim Dirk (Level 170+),170,1133,34,0,0,0,16,0,0,6,0,0,6,0,19,0,0,1,2,0,1,Rematch,0,No Gear Set,Everything,Death
-Umbra Queen's Grim Dirk (Level 170+),170,1133,34,0,0,0,0,0,0,6,0,0,6,0,19,0,0,1,2,0,1,Rematch,315,No Gear Set,Everything,Death
-Umbra Queen's Grim Dirk (Level 170+),170,1133,34,0,0,0,0,0,0,6,0,0,6,0,29,0,0,1,2,0,1,Rematch,0,No Gear Set,Everything,Death
-Nullity's Deadly Athame (Level 150+),150,810,33,0,0,0,16,0,88,6,0,0,0,0,17,0,0,1,2,0,1,Drop,0,No Gear Set,Everything,Death
-Nullity's Deadly Athame (Level 150+),150,810,33,0,0,0,0,0,88,6,0,0,0,0,17,0,0,1,2,0,1,Drop,315,No Gear Set,Everything,Death
-Nullity's Deadly Athame (Level 150+),150,810,33,0,0,0,0,0,88,6,0,0,0,0,27,0,0,1,2,0,1,Drop,0,No Gear Set,Everything,Death
-Burrower's Necromancy Athame (Level 160+),160,1375,32,0,0,0,16,0,93,6,0,0,0,0,16,0,0,1,2,0,1,"Gold Key, Crowns",0,No Gear Set,Everything,Death
-Burrower's Necromancy Athame (Level 160+),160,1375,32,0,0,0,0,0,93,6,0,0,0,0,16,0,0,1,2,0,1,"Gold Key, Crowns",315,No Gear Set,Everything,Death
-Burrower's Necromancy Athame (Level 160+),160,1375,32,0,0,0,0,0,93,6,0,0,0,0,26,0,0,1,2,0,1,"Gold Key, Crowns",0,No Gear Set,Everything,Death
-Deadly Night Mire Athame (Level 160+),160,1131,32,0,0,0,16,0,116,6,0,0,0,0,16,0,0,1,2,0,1,"Housing Gauntlet, Crowns",0,No Gear Set,Everything,Death
-Deadly Night Mire Athame (Level 160+),160,1131,32,0,0,0,0,0,116,6,0,0,0,0,16,0,0,1,2,0,1,"Housing Gauntlet, Crowns",315,No Gear Set,Everything,Death
-Deadly Night Mire Athame (Level 160+),160,1131,32,0,0,0,0,0,116,6,0,0,0,0,26,0,0,1,2,0,1,"Housing Gauntlet, Crowns",0,No Gear Set,Everything,Death
-Gloomy Night Mire Athame,160,1131,32,0,0,0,16,0,116,6,0,0,0,0,16,0,0,1,2,0,1,Housing Gauntlet,0,No Gear Set,Everything,Death
-Gloomy Night Mire Athame,160,1131,32,0,0,0,0,0,116,6,0,0,0,0,16,0,0,1,2,0,1,Housing Gauntlet,315,No Gear Set,Everything,Death
-Gloomy Night Mire Athame,160,1131,32,0,0,0,0,0,116,6,0,0,0,0,26,0,0,1,2,0,1,Housing Gauntlet,0,No Gear Set,Everything,Death
-Malistaire's Ghostly Blade (Level 160+),160,1131,32,0,0,0,16,0,70,6,0,0,0,0,19,0,0,1,2,0,1,Rematch,0,No Gear Set,Everything,Death
-Malistaire's Ghostly Blade (Level 160+),160,1131,32,0,0,0,0,0,70,6,0,0,0,0,19,0,0,1,2,0,1,Rematch,315,No Gear Set,Everything,Death
-Malistaire's Ghostly Blade (Level 160+),160,1131,32,0,0,0,0,0,70,6,0,0,0,0,29,0,0,1,2,0,1,Rematch,0,No Gear Set,Everything,Death
-Murky Night Mire Athame,160,1131,32,0,0,0,16,0,116,6,0,0,0,0,16,0,0,1,2,0,1,Housing Gauntlet,0,No Gear Set,Everything,Death
-Murky Night Mire Athame,160,1131,32,0,0,0,0,0,116,6,0,0,0,0,16,0,0,1,2,0,1,Housing Gauntlet,315,No Gear Set,Everything,Death
-Murky Night Mire Athame,160,1131,32,0,0,0,0,0,116,6,0,0,0,0,26,0,0,1,2,0,1,Housing Gauntlet,0,No Gear Set,Everything,Death
-Khonsu's Ecliptical Athame,170,2027,31,0,0,0,16,0,0,0,0,0,8,0,18,0,0,1,1,1,1,Crafting,0,No Gear Set,Everything,Death
-Khonsu's Ecliptical Athame,170,2027,31,0,0,0,0,0,0,0,0,0,8,0,18,0,0,1,1,1,1,Crafting,315,No Gear Set,Everything,Death
-Khonsu's Ecliptical Athame,170,2027,31,0,0,0,0,0,0,0,0,0,8,0,28,0,0,1,1,1,1,Crafting,0,No Gear Set,Everything,Death
-Fell Dream Stalker Knife,170,1783,31,0,0,0,16,0,0,0,0,0,9,0,18,0,0,1,1,1,1,Crafting,0,No Gear Set,Everything,Death
-Fell Dream Stalker Knife,170,1783,31,0,0,0,0,0,0,0,0,0,9,0,18,0,0,1,1,1,1,Crafting,315,No Gear Set,Everything,Death
-Fell Dream Stalker Knife,170,1783,31,0,0,0,0,0,0,0,0,0,9,0,28,0,0,1,1,1,1,Crafting,0,No Gear Set,Everything,Death
-Hopper's Edge of Extinction,98,553,31,0,0,0,16,0,0,3,0,10,0,0,15,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Global
-Hopper's Edge of Extinction,98,553,31,0,0,0,0,0,0,3,0,10,0,0,15,0,0,1,2,0,1,Crafting,315,No Gear Set,Everything,Global
-Hopper's Edge of Extinction,98,553,31,0,0,0,0,0,0,3,0,10,0,0,25,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Global
-Eternal Macabre Athame,160,1375,30,0,0,0,16,0,93,6,0,0,0,0,18,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Death
-Eternal Macabre Athame,160,1375,30,0,0,0,0,0,93,6,0,0,0,0,18,0,0,1,2,0,1,Crafting,315,No Gear Set,Everything,Death
-Eternal Macabre Athame,160,1375,30,0,0,0,0,0,93,6,0,0,0,0,28,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Death
-Eternal Malignant Athame,160,1375,30,0,0,0,16,0,93,6,0,0,0,0,18,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Death
-Eternal Malignant Athame,160,1375,30,0,0,0,0,0,93,6,0,0,0,0,18,0,0,1,2,0,1,Crafting,315,No Gear Set,Everything,Death
-Eternal Malignant Athame,160,1375,30,0,0,0,0,0,93,6,0,0,0,0,28,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Death
-Eternal Morbid Athame,160,1375,30,0,0,0,16,0,93,6,0,0,0,0,18,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Death
-Eternal Morbid Athame,160,1375,30,0,0,0,0,0,93,6,0,0,0,0,18,0,0,1,2,0,1,Crafting,315,No Gear Set,Everything,Death
-Eternal Morbid Athame,160,1375,30,0,0,0,0,0,93,6,0,0,0,0,28,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Death
-Malevolent Death Athame,150,1239,29,0,0,0,0,0,141,6,0,4,0,0,0,0,0,1,2,0,0,Drop,0,No Gear Set,Everything,Death
-Dragonspyre Dragoon's Dagger,130,1129,29,0,0,0,16,0,109,0,0,5,0,0,0,0,0,1,2,0,1,Crafting,0,Dragonspyre Dragoon's Set,Everything,Global
-Dragonspyre Dragoon's Dagger,130,1129,29,0,0,0,0,0,109,0,0,5,0,0,0,0,0,1,2,0,1,Crafting,315,Dragonspyre Dragoon's Set,Everything,Global
-Dragonspyre Dragoon's Dagger,130,1129,29,0,0,0,0,0,109,0,0,5,0,0,10,0,0,1,2,0,1,Crafting,0,Dragonspyre Dragoon's Set,Everything,Global
-The Void's Deadly Athame (Level 150+),150,919,29,0,0,0,16,0,99,6,0,0,0,0,18,0,0,1,2,0,1,Drop,0,No Gear Set,Everything,Death
-The Void's Deadly Athame (Level 150+),150,919,29,0,0,0,0,0,99,6,0,0,0,0,18,0,0,1,2,0,1,Drop,315,No Gear Set,Everything,Death
-The Void's Deadly Athame (Level 150+),150,919,29,0,0,0,0,0,99,6,0,0,0,0,28,0,0,1,2,0,1,Drop,0,No Gear Set,Everything,Death
-Magician's Death Athame,150,1217,28,0,0,0,0,0,137,6,0,0,4,0,0,0,0,1,2,0,0,Drop,0,No Gear Set,Everything,Death
-Delightful Sentamental Knife,140,1171,28,0,0,0,16,0,134,6,0,5,0,0,0,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Death
-Delightful Sentamental Knife,140,1171,28,0,0,0,0,0,134,6,0,5,0,0,0,0,0,1,2,0,1,Crafting,315,No Gear Set,Everything,Death
-Delightful Sentamental Knife,140,1171,28,0,0,0,0,0,134,6,0,5,0,0,10,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Death
-Uber Sentamentalist Knife,140,1171,28,0,0,0,16,0,134,6,0,5,0,0,0,0,0,1,2,0,1,Drop,0,No Gear Set,Everything,Death
-Uber Sentamentalist Knife,140,1171,28,0,0,0,0,0,134,6,0,5,0,0,0,0,0,1,2,0,1,Drop,315,No Gear Set,Everything,Death
-Uber Sentamentalist Knife,140,1171,28,0,0,0,0,0,134,6,0,5,0,0,10,0,0,1,2,0,1,Drop,0,No Gear Set,Everything,Death
-Golden Eagle's Razor Beak,86,420,28,0,0,0,16,0,14,0,0,25,0,0,14,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Global
-Golden Eagle's Razor Beak,86,420,28,0,0,0,0,0,14,0,0,25,0,0,14,0,0,1,2,0,1,Crafting,315,No Gear Set,Everything,Global
-Golden Eagle's Razor Beak,86,420,28,0,0,0,0,0,14,0,0,25,0,0,24,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Global
-Lord of Death's Razor,100,527,27,0,0,0,18,0,18,6,0,15,0,0,16,0,0,1,2,0,1,Drop,0,No Gear Set,Everything,Death
-Lord of Death's Razor,100,527,27,0,0,0,2,0,18,6,0,15,0,0,16,0,0,1,2,0,1,Drop,315,No Gear Set,Everything,Death
-Lord of Death's Razor,100,527,27,0,0,0,2,0,18,6,0,15,0,0,26,0,0,1,2,0,1,Drop,0,No Gear Set,Everything,Death
-Dragoon's Deadly Dagger,130,1123,26,0,0,0,16,0,135,6,0,5,0,0,0,0,0,1,2,0,1,"Crafting, Stone Key",0,Dragoon's Deadly Set,Everything,Death
-Dragoon's Deadly Dagger,130,1123,26,0,0,0,0,0,135,6,0,5,0,0,0,0,0,1,2,0,1,"Crafting, Stone Key",315,Dragoon's Deadly Set,Everything,Death
-Dragoon's Deadly Dagger,130,1123,26,0,0,0,0,0,135,6,0,5,0,0,10,0,0,1,2,0,1,"Crafting, Stone Key",0,Dragoon's Deadly Set,Everything,Death
-Blade of the Felled Titan,90,475,26,0,0,0,16,0,15,0,0,0,17,0,17,0,0,1,1,0,1,Drop,0,No Gear Set,Everything,Global
-Blade of the Felled Titan,90,475,26,0,0,0,0,0,15,0,0,0,17,0,17,0,0,1,1,0,1,Drop,315,No Gear Set,Everything,Global
-Blade of the Felled Titan,90,475,26,0,0,0,0,0,15,0,0,0,17,0,27,0,0,1,1,0,1,Drop,0,No Gear Set,Everything,Global
-Claw of the Spirit Wolf,58,367,26,0,0,0,16,0,0,0,0,0,12,0,15,0,0,1,2,0,1,Drop,0,No Gear Set,Everything,Global
-Claw of the Spirit Wolf,58,367,26,0,0,0,0,0,0,0,0,0,12,0,15,0,0,1,2,0,1,Drop,315,No Gear Set,Everything,Global
-Claw of the Spirit Wolf,58,367,26,0,0,0,0,0,0,0,0,0,12,0,25,0,0,1,2,0,1,Drop,0,No Gear Set,Everything,Global
-Avatar's Blade of Payback,170,1905,25,0,0,0,0,0,94,12,0,0,0,0,16,0,0,1,2,1,0,Crafting,0,No Gear Set,Everything,Death
-Fell Dream Reaver Knife,170,1905,25,0,0,0,0,0,94,12,0,0,0,0,16,0,0,1,2,1,0,"Drop, Crafting, Crowns",0,No Gear Set,Everything,Death
-Malevolent Power Athame,150,1896,25,0,0,0,0,0,137,0,0,5,0,0,0,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Global
-Deadly August Sage Knife (Level 170+),170,1133,25,0,0,0,16,0,81,12,0,0,0,0,18,0,0,1,2,0,1,"Gold Key, Crowns",0,No Gear Set,Everything,Death
-Deadly August Sage Knife (Level 170+),170,1133,25,0,0,0,0,0,81,12,0,0,0,0,18,0,0,1,2,0,1,"Gold Key, Crowns",315,No Gear Set,Everything,Death
-Deadly August Sage Knife (Level 170+),170,1133,25,0,0,0,0,0,81,12,0,0,0,0,28,0,0,1,2,0,1,"Gold Key, Crowns",0,No Gear Set,Everything,Death
-Night King's Athame (Level 170+),170,1133,25,0,0,0,16,0,81,12,0,0,0,0,18,0,0,1,2,0,1,"Gold Key, Crowns",0,No Gear Set,Everything,Death
-Night King's Athame (Level 170+),170,1133,25,0,0,0,0,0,81,12,0,0,0,0,18,0,0,1,2,0,1,"Gold Key, Crowns",315,No Gear Set,Everything,Death
-Night King's Athame (Level 170+),170,1133,25,0,0,0,0,0,81,12,0,0,0,0,28,0,0,1,2,0,1,"Gold Key, Crowns",0,No Gear Set,Everything,Death
-Wolf's Ruby Claw,54,155,25,0,0,0,0,0,0,0,0,15,11,0,13,0,0,1,2,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global
-Uber Candymancer Knife,140,1178,24,0,0,0,16,0,130,6,0,5,0,0,0,0,0,1,2,0,1,Drop,0,No Gear Set,Everything,Global
-Uber Candymancer Knife,140,1178,24,0,0,0,0,0,130,6,0,5,0,0,0,0,0,1,2,0,1,Drop,315,No Gear Set,Everything,Global
-Uber Candymancer Knife,140,1178,24,0,0,0,0,0,130,6,0,5,0,0,10,0,0,1,2,0,1,Drop,0,No Gear Set,Everything,Global
-Baleful Archival Dirk (Level 170+),170,1783,23,0,0,0,0,0,134,12,0,0,8,0,0,0,0,1,2,1,0,"Housing Gauntlet, Crowns",0,No Gear Set,Everything,Death
-Macabre Aeon Athame,160,1253,23,0,0,0,16,0,82,12,0,0,0,0,16,0,0,1,2,0,1,"Drop, Crafting, Crowns",0,No Gear Set,Everything,Death
-Macabre Aeon Athame,160,1253,23,0,0,0,0,0,82,12,0,0,0,0,16,0,0,1,2,0,1,"Drop, Crafting, Crowns",315,No Gear Set,Everything,Death
-Macabre Aeon Athame,160,1253,23,0,0,0,0,0,82,12,0,0,0,0,26,0,0,1,2,0,1,"Drop, Crafting, Crowns",0,No Gear Set,Everything,Death
-Malignant Aeon Athame,160,1253,23,0,0,0,16,0,82,12,0,0,0,0,16,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Death
-Malignant Aeon Athame,160,1253,23,0,0,0,0,0,82,12,0,0,0,0,16,0,0,1,2,0,1,Crafting,315,No Gear Set,Everything,Death
-Malignant Aeon Athame,160,1253,23,0,0,0,0,0,82,12,0,0,0,0,26,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Death
-Morbid Aeon Athame,160,1253,23,0,0,0,16,0,82,12,0,0,0,0,16,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Death
-Morbid Aeon Athame,160,1253,23,0,0,0,0,0,82,12,0,0,0,0,16,0,0,1,2,0,1,Crafting,315,No Gear Set,Everything,Death
-Morbid Aeon Athame,160,1253,23,0,0,0,0,0,82,12,0,0,0,0,26,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Death
-Umbra Queen's Grim Dirk (Level 170+),170,1133,23,0,0,0,16,0,0,12,0,0,6,0,19,0,0,1,2,0,1,Rematch,0,No Gear Set,Everything,Death
-Umbra Queen's Grim Dirk (Level 170+),170,1133,23,0,0,0,0,0,0,12,0,0,6,0,19,0,0,1,2,0,1,Rematch,315,No Gear Set,Everything,Death
-Umbra Queen's Grim Dirk (Level 170+),170,1133,23,0,0,0,0,0,0,12,0,0,6,0,29,0,0,1,2,0,1,Rematch,0,No Gear Set,Everything,Death
-Nullity's Deadly Athame (Level 150+),150,810,22,0,0,0,16,0,88,12,0,0,0,0,17,0,0,1,2,0,1,Drop,0,No Gear Set,Everything,Death
-Nullity's Deadly Athame (Level 150+),150,810,22,0,0,0,0,0,88,12,0,0,0,0,17,0,0,1,2,0,1,Drop,315,No Gear Set,Everything,Death
-Nullity's Deadly Athame (Level 150+),150,810,22,0,0,0,0,0,88,12,0,0,0,0,27,0,0,1,2,0,1,Drop,0,No Gear Set,Everything,Death
-Hopper's Claw of Verglas,98,675,22,0,0,0,16,0,0,2,0,10,0,0,15,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Global
-Hopper's Claw of Verglas,98,675,22,0,0,0,0,0,0,2,0,10,0,0,15,0,0,1,2,0,1,Crafting,315,No Gear Set,Everything,Global
-Hopper's Claw of Verglas,98,675,22,0,0,0,0,0,0,2,0,10,0,0,25,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Global
-Elder's Razor of Caution,98,587,22,0,0,0,16,0,0,3,0,10,0,0,15,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Global
-Elder's Razor of Caution,98,587,22,0,0,0,0,0,0,3,0,10,0,0,15,0,0,1,2,0,1,Crafting,315,No Gear Set,Everything,Global
-Elder's Razor of Caution,98,587,22,0,0,0,0,0,0,3,0,10,0,0,25,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Global
-Sandstone Claw of Vitality,98,587,22,0,0,0,16,0,0,3,0,10,0,0,15,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Global
-Sandstone Claw of Vitality,98,587,22,0,0,0,0,0,0,3,0,10,0,0,15,0,0,1,2,0,1,Crafting,315,No Gear Set,Everything,Global
-Sandstone Claw of Vitality,98,587,22,0,0,0,0,0,0,3,0,10,0,0,25,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Global
-Zanga's Blade,68,410,22,0,0,0,16,0,0,0,0,6,5,0,16,0,0,1,2,0,1,Drop,0,No Gear Set,Everything,Global
-Zanga's Blade,68,410,22,0,0,0,0,0,0,0,0,6,5,0,16,0,0,1,2,0,1,Drop,315,No Gear Set,Everything,Global
-Zanga's Blade,68,410,22,0,0,0,0,0,0,0,0,6,5,0,26,0,0,1,2,0,1,Drop,0,No Gear Set,Everything,Global
-Diplomatic Dagger,52,391,22,0,0,0,0,0,0,0,0,26,0,0,0,0,0,1,2,0,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global
-Dirk of Unknown Origin,52,370,22,0,0,0,0,0,0,0,0,0,21,0,0,0,0,1,2,0,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global
-Wolf's Amethyst Claw,52,350,22,0,0,0,16,0,8,0,0,16,15,0,0,0,0,1,2,0,1,"Drop, Bazaar",0,No Gear Set,Everything,Global
-Wolf's Amethyst Claw,52,350,22,0,0,0,0,0,8,0,0,16,15,0,0,0,0,1,2,0,1,"Drop, Bazaar",315,No Gear Set,Everything,Global
-Wolf's Amethyst Claw,52,350,22,0,0,0,0,0,8,0,0,16,15,0,10,0,0,1,2,0,1,"Drop, Bazaar",0,No Gear Set,Everything,Global
-Wolf's Garnet Claw,52,342,22,0,0,0,16,0,6,0,0,0,8,0,13,0,0,1,2,0,1,"Drop, Bazaar",0,No Gear Set,Everything,Global
-Wolf's Garnet Claw,52,342,22,0,0,0,0,0,6,0,0,0,8,0,13,0,0,1,2,0,1,"Drop, Bazaar",315,No Gear Set,Everything,Global
-Wolf's Garnet Claw,52,342,22,0,0,0,0,0,6,0,0,0,8,0,23,0,0,1,2,0,1,"Drop, Bazaar",0,No Gear Set,Everything,Global
-Great Ape's Tooth,68,260,22,0,0,0,0,0,0,0,0,16,20,0,0,0,0,0,2,0,0,"Drop, Stone Key",0,No Gear Set,Everything,Global
-Wolf's Emerald Talon,54,0,22,0,0,0,0,0,8,0,0,25,25,0,0,0,0,0,2,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global
-Burrower's Necromancy Athame (Level 160+),160,1375,21,0,0,0,16,0,93,12,0,0,0,0,16,0,0,1,2,0,1,"Gold Key, Crowns",0,No Gear Set,Everything,Death
-Burrower's Necromancy Athame (Level 160+),160,1375,21,0,0,0,0,0,93,12,0,0,0,0,16,0,0,1,2,0,1,"Gold Key, Crowns",315,No Gear Set,Everything,Death
-Burrower's Necromancy Athame (Level 160+),160,1375,21,0,0,0,0,0,93,12,0,0,0,0,26,0,0,1,2,0,1,"Gold Key, Crowns",0,No Gear Set,Everything,Death
-Deadly Night Mire Athame (Level 160+),160,1131,21,0,0,0,16,0,116,12,0,0,0,0,16,0,0,1,2,0,1,"Housing Gauntlet, Crowns",0,No Gear Set,Everything,Death
-Deadly Night Mire Athame (Level 160+),160,1131,21,0,0,0,0,0,116,12,0,0,0,0,16,0,0,1,2,0,1,"Housing Gauntlet, Crowns",315,No Gear Set,Everything,Death
-Deadly Night Mire Athame (Level 160+),160,1131,21,0,0,0,0,0,116,12,0,0,0,0,26,0,0,1,2,0,1,"Housing Gauntlet, Crowns",0,No Gear Set,Everything,Death
-Gloomy Night Mire Athame,160,1131,21,0,0,0,16,0,116,12,0,0,0,0,16,0,0,1,2,0,1,Housing Gauntlet,0,No Gear Set,Everything,Death
-Gloomy Night Mire Athame,160,1131,21,0,0,0,0,0,116,12,0,0,0,0,16,0,0,1,2,0,1,Housing Gauntlet,315,No Gear Set,Everything,Death
-Gloomy Night Mire Athame,160,1131,21,0,0,0,0,0,116,12,0,0,0,0,26,0,0,1,2,0,1,Housing Gauntlet,0,No Gear Set,Everything,Death
-Malistaire's Ghostly Blade (Level 160+),160,1131,21,0,0,0,16,0,70,12,0,0,0,0,19,0,0,1,2,0,1,Rematch,0,No Gear Set,Everything,Death
-Malistaire's Ghostly Blade (Level 160+),160,1131,21,0,0,0,0,0,70,12,0,0,0,0,19,0,0,1,2,0,1,Rematch,315,No Gear Set,Everything,Death
-Malistaire's Ghostly Blade (Level 160+),160,1131,21,0,0,0,0,0,70,12,0,0,0,0,29,0,0,1,2,0,1,Rematch,0,No Gear Set,Everything,Death
-Murky Night Mire Athame,160,1131,21,0,0,0,16,0,116,12,0,0,0,0,16,0,0,1,2,0,1,Housing Gauntlet,0,No Gear Set,Everything,Death
-Murky Night Mire Athame,160,1131,21,0,0,0,0,0,116,12,0,0,0,0,16,0,0,1,2,0,1,Housing Gauntlet,315,No Gear Set,Everything,Death
-Murky Night Mire Athame,160,1131,21,0,0,0,0,0,116,12,0,0,0,0,26,0,0,1,2,0,1,Housing Gauntlet,0,No Gear Set,Everything,Death
-Khonsu's Ecliptical Athame,170,2027,20,0,0,0,16,0,0,6,0,0,8,0,18,0,0,1,1,1,1,Crafting,0,No Gear Set,Everything,Death
-Khonsu's Ecliptical Athame,170,2027,20,0,0,0,0,0,0,6,0,0,8,0,18,0,0,1,1,1,1,Crafting,315,No Gear Set,Everything,Death
-Khonsu's Ecliptical Athame,170,2027,20,0,0,0,0,0,0,6,0,0,8,0,28,0,0,1,1,1,1,Crafting,0,No Gear Set,Everything,Death
-Fell Dream Stalker Knife,170,1783,20,0,0,0,16,0,0,6,0,0,9,0,18,0,0,1,1,1,1,Crafting,0,No Gear Set,Everything,Death
-Fell Dream Stalker Knife,170,1783,20,0,0,0,0,0,0,6,0,0,9,0,18,0,0,1,1,1,1,Crafting,315,No Gear Set,Everything,Death
-Fell Dream Stalker Knife,170,1783,20,0,0,0,0,0,0,6,0,0,9,0,28,0,0,1,1,1,1,Crafting,0,No Gear Set,Everything,Death
-Hopper's Edge of Extinction,98,553,20,0,0,0,16,0,0,9,0,10,0,0,15,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Global
-Hopper's Edge of Extinction,98,553,20,0,0,0,0,0,0,9,0,10,0,0,15,0,0,1,2,0,1,Crafting,315,No Gear Set,Everything,Global
-Hopper's Edge of Extinction,98,553,20,0,0,0,0,0,0,9,0,10,0,0,25,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Global
-Eternal Macabre Athame,160,1375,19,0,0,0,16,0,93,12,0,0,0,0,18,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Death
-Eternal Macabre Athame,160,1375,19,0,0,0,0,0,93,12,0,0,0,0,18,0,0,1,2,0,1,Crafting,315,No Gear Set,Everything,Death
-Eternal Macabre Athame,160,1375,19,0,0,0,0,0,93,12,0,0,0,0,28,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Death
-Eternal Malignant Athame,160,1375,19,0,0,0,16,0,93,12,0,0,0,0,18,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Death
-Eternal Malignant Athame,160,1375,19,0,0,0,0,0,93,12,0,0,0,0,18,0,0,1,2,0,1,Crafting,315,No Gear Set,Everything,Death
-Eternal Malignant Athame,160,1375,19,0,0,0,0,0,93,12,0,0,0,0,28,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Death
-Eternal Morbid Athame,160,1375,19,0,0,0,16,0,93,12,0,0,0,0,18,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Death
-Eternal Morbid Athame,160,1375,19,0,0,0,0,0,93,12,0,0,0,0,18,0,0,1,2,0,1,Crafting,315,No Gear Set,Everything,Death
-Eternal Morbid Athame,160,1375,19,0,0,0,0,0,93,12,0,0,0,0,28,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Death
-Malevolent Death Athame,150,1239,18,0,0,0,0,0,141,12,0,4,0,0,0,0,0,1,2,0,0,Drop,0,No Gear Set,Everything,Death
-Dragonspyre Dragoon's Dagger,130,1129,18,0,0,0,16,0,109,6,0,5,0,0,0,0,0,1,2,0,1,Crafting,0,Dragonspyre Dragoon's Set,Everything,Global
-Dragonspyre Dragoon's Dagger,130,1129,18,0,0,0,0,0,109,6,0,5,0,0,0,0,0,1,2,0,1,Crafting,315,Dragonspyre Dragoon's Set,Everything,Global
-Dragonspyre Dragoon's Dagger,130,1129,18,0,0,0,0,0,109,6,0,5,0,0,10,0,0,1,2,0,1,Crafting,0,Dragonspyre Dragoon's Set,Everything,Global
-The Void's Deadly Athame (Level 150+),150,919,18,0,0,0,16,0,99,12,0,0,0,0,18,0,0,1,2,0,1,Drop,0,No Gear Set,Everything,Death
-The Void's Deadly Athame (Level 150+),150,919,18,0,0,0,0,0,99,12,0,0,0,0,18,0,0,1,2,0,1,Drop,315,No Gear Set,Everything,Death
-The Void's Deadly Athame (Level 150+),150,919,18,0,0,0,0,0,99,12,0,0,0,0,28,0,0,1,2,0,1,Drop,0,No Gear Set,Everything,Death
-Magician's Death Athame,150,1217,17,0,0,0,0,0,137,12,0,0,4,0,0,0,0,1,2,0,0,Drop,0,No Gear Set,Everything,Death
-Delightful Sentamental Knife,140,1171,17,0,0,0,16,0,134,12,0,5,0,0,0,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Death
-Delightful Sentamental Knife,140,1171,17,0,0,0,0,0,134,12,0,5,0,0,0,0,0,1,2,0,1,Crafting,315,No Gear Set,Everything,Death
-Delightful Sentamental Knife,140,1171,17,0,0,0,0,0,134,12,0,5,0,0,10,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Death
-Uber Sentamentalist Knife,140,1171,17,0,0,0,16,0,134,12,0,5,0,0,0,0,0,1,2,0,1,Drop,0,No Gear Set,Everything,Death
-Uber Sentamentalist Knife,140,1171,17,0,0,0,0,0,134,12,0,5,0,0,0,0,0,1,2,0,1,Drop,315,No Gear Set,Everything,Death
-Uber Sentamentalist Knife,140,1171,17,0,0,0,0,0,134,12,0,5,0,0,10,0,0,1,2,0,1,Drop,0,No Gear Set,Everything,Death
-Golden Eagle's Razor Beak,86,420,17,0,0,0,16,0,14,6,0,25,0,0,14,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Global
-Golden Eagle's Razor Beak,86,420,17,0,0,0,0,0,14,6,0,25,0,0,14,0,0,1,2,0,1,Crafting,315,No Gear Set,Everything,Global
-Golden Eagle's Razor Beak,86,420,17,0,0,0,0,0,14,6,0,25,0,0,24,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Global
-Garnet Bear Claw,56,355,17,0,0,0,16,0,8,0,0,8,8,0,15,0,0,1,1,0,1,Crafting,0,No Gear Set,Everything,Global
-Garnet Bear Claw,56,355,17,0,0,0,0,0,8,0,0,8,8,0,15,0,0,1,1,0,1,Crafting,315,No Gear Set,Everything,Global
-Garnet Bear Claw,56,355,17,0,0,0,0,0,8,0,0,8,8,0,25,0,0,1,1,0,1,Crafting,0,No Gear Set,Everything,Global
-Topaz Bear Claw,56,353,17,0,0,0,16,0,8,0,0,11,15,0,10,0,0,1,1,0,1,Crafting,0,No Gear Set,Everything,Global
-Topaz Bear Claw,56,353,17,0,0,0,0,0,8,0,0,11,15,0,10,0,0,1,1,0,1,Crafting,315,No Gear Set,Everything,Global
-Topaz Bear Claw,56,353,17,0,0,0,0,0,8,0,0,11,15,0,20,0,0,1,1,0,1,Crafting,0,No Gear Set,Everything,Global
-Lord of Death's Razor,100,527,16,0,0,0,18,0,18,12,0,15,0,0,16,0,0,1,2,0,1,Drop,0,No Gear Set,Everything,Death
-Lord of Death's Razor,100,527,16,0,0,0,2,0,18,12,0,15,0,0,16,0,0,1,2,0,1,Drop,315,No Gear Set,Everything,Death
-Lord of Death's Razor,100,527,16,0,0,0,2,0,18,12,0,15,0,0,26,0,0,1,2,0,1,Drop,0,No Gear Set,Everything,Death
-Emerald Bear Claw,56,272,16,0,0,0,16,0,8,0,0,25,8,0,6,0,0,1,1,0,1,Crafting,0,No Gear Set,Everything,Global
-Emerald Bear Claw,56,272,16,0,0,0,0,0,8,0,0,25,8,0,6,0,0,1,1,0,1,Crafting,315,No Gear Set,Everything,Global
-Emerald Bear Claw,56,272,16,0,0,0,0,0,8,0,0,25,8,0,16,0,0,1,1,0,1,Crafting,0,No Gear Set,Everything,Global
-Dragoon's Deadly Dagger,130,1123,15,0,0,0,16,0,135,12,0,5,0,0,0,0,0,1,2,0,1,"Crafting, Stone Key",0,Dragoon's Deadly Set,Everything,Death
-Dragoon's Deadly Dagger,130,1123,15,0,0,0,0,0,135,12,0,5,0,0,0,0,0,1,2,0,1,"Crafting, Stone Key",315,Dragoon's Deadly Set,Everything,Death
-Dragoon's Deadly Dagger,130,1123,15,0,0,0,0,0,135,12,0,5,0,0,10,0,0,1,2,0,1,"Crafting, Stone Key",0,Dragoon's Deadly Set,Everything,Death
-Blade of the Felled Titan,90,475,15,0,0,0,16,0,15,6,0,0,17,0,17,0,0,1,1,0,1,Drop,0,No Gear Set,Everything,Global
-Blade of the Felled Titan,90,475,15,0,0,0,0,0,15,6,0,0,17,0,17,0,0,1,1,0,1,Drop,315,No Gear Set,Everything,Global
-Blade of the Felled Titan,90,475,15,0,0,0,0,0,15,6,0,0,17,0,27,0,0,1,1,0,1,Drop,0,No Gear Set,Everything,Global
-Claw of the Spirit Wolf,58,367,15,0,0,0,16,0,0,6,0,0,12,0,15,0,0,1,2,0,1,Drop,0,No Gear Set,Everything,Global
-Claw of the Spirit Wolf,58,367,15,0,0,0,0,0,0,6,0,0,12,0,15,0,0,1,2,0,1,Drop,315,No Gear Set,Everything,Global
-Claw of the Spirit Wolf,58,367,15,0,0,0,0,0,0,6,0,0,12,0,25,0,0,1,2,0,1,Drop,0,No Gear Set,Everything,Global
-Malevolent Power Athame,150,1896,14,0,0,0,0,0,137,6,0,5,0,0,0,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Global
-Wolf's Ruby Claw,54,155,14,0,0,0,0,0,0,6,0,15,11,0,13,0,0,1,2,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global
-Uber Candymancer Knife,140,1178,13,0,0,0,16,0,130,12,0,5,0,0,0,0,0,1,2,0,1,Drop,0,No Gear Set,Everything,Global
-Uber Candymancer Knife,140,1178,13,0,0,0,0,0,130,12,0,5,0,0,0,0,0,1,2,0,1,Drop,315,No Gear Set,Everything,Global
-Uber Candymancer Knife,140,1178,13,0,0,0,0,0,130,12,0,5,0,0,10,0,0,1,2,0,1,Drop,0,No Gear Set,Everything,Global
-Wunderbar Candymancer Knife,140,2447,12,0,0,0,0,0,128,0,0,5,0,0,0,0,0,1,0,2,0,Drop,0,No Gear Set,Everything,Global
-Razor of Eerem Palace,118,686,11,0,0,0,16,0,77,0,0,0,3,0,0,0,0,1,1,0,1,"Gold Vendor, Stone Key",0,No Gear Set,Everything,Global
-Razor of Eerem Palace,118,686,11,0,0,0,0,0,77,0,0,0,3,0,0,0,0,1,1,0,1,"Gold Vendor, Stone Key",315,No Gear Set,Everything,Global
-Razor of Eerem Palace,118,686,11,0,0,0,0,0,77,0,0,0,3,0,10,0,0,1,1,0,1,"Gold Vendor, Stone Key",0,No Gear Set,Everything,Global
-Eerem Razor of Agony,118,680,11,0,0,0,16,0,91,0,0,0,3,0,0,0,0,1,1,0,1,"Drop, Bazaar",0,No Gear Set,Everything,Death
-Eerem Razor of Agony,118,680,11,0,0,0,0,0,91,0,0,0,3,0,0,0,0,1,1,0,1,"Drop, Bazaar",315,No Gear Set,Everything,Death
-Eerem Razor of Agony,118,680,11,0,0,0,0,0,91,0,0,0,3,0,10,0,0,1,1,0,1,"Drop, Bazaar",0,No Gear Set,Everything,Death
-Hopper's Claw of Verglas,98,675,11,0,0,0,16,0,0,8,0,10,0,0,15,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Global
-Hopper's Claw of Verglas,98,675,11,0,0,0,0,0,0,8,0,10,0,0,15,0,0,1,2,0,1,Crafting,315,No Gear Set,Everything,Global
-Hopper's Claw of Verglas,98,675,11,0,0,0,0,0,0,8,0,10,0,0,25,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Global
-Elder's Razor of Caution,98,587,11,0,0,0,16,0,0,9,0,10,0,0,15,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Global
-Elder's Razor of Caution,98,587,11,0,0,0,0,0,0,9,0,10,0,0,15,0,0,1,2,0,1,Crafting,315,No Gear Set,Everything,Global
-Elder's Razor of Caution,98,587,11,0,0,0,0,0,0,9,0,10,0,0,25,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Global
-Sandstone Claw of Vitality,98,587,11,0,0,0,16,0,0,9,0,10,0,0,15,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Global
-Sandstone Claw of Vitality,98,587,11,0,0,0,0,0,0,9,0,10,0,0,15,0,0,1,2,0,1,Crafting,315,No Gear Set,Everything,Global
-Sandstone Claw of Vitality,98,587,11,0,0,0,0,0,0,9,0,10,0,0,25,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Global
-The Old Tusk-Tusk-Trunk,68,475,11,0,0,0,0,0,0,0,0,24,0,0,0,0,0,1,1,0,0,"Drop, Stone Key",0,No Gear Set,Everything,Global
-Kimba's Fang,68,465,11,0,0,0,16,0,0,0,0,0,0,0,20,0,0,1,1,0,1,"Drop, Stone Key",0,No Gear Set,Everything,Global
-Kimba's Fang,68,465,11,0,0,0,0,0,0,0,0,0,0,0,20,0,0,1,1,0,1,"Drop, Stone Key",315,No Gear Set,Everything,Global
-Kimba's Fang,68,465,11,0,0,0,0,0,0,0,0,0,0,0,30,0,0,1,1,0,1,"Drop, Stone Key",0,No Gear Set,Everything,Global
-Zanga's Blade,68,410,11,0,0,0,16,0,0,6,0,6,5,0,16,0,0,1,2,0,1,Drop,0,No Gear Set,Everything,Global
-Zanga's Blade,68,410,11,0,0,0,0,0,0,6,0,6,5,0,16,0,0,1,2,0,1,Drop,315,No Gear Set,Everything,Global
-Zanga's Blade,68,410,11,0,0,0,0,0,0,6,0,6,5,0,26,0,0,1,2,0,1,Drop,0,No Gear Set,Everything,Global
-Diplomatic Dagger,52,391,11,0,0,0,0,0,0,6,0,26,0,0,0,0,0,1,2,0,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global
-Dirk of Unknown Origin,52,370,11,0,0,0,0,0,0,6,0,0,21,0,0,0,0,1,2,0,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global
-Cosmic Kris,58,363,11,0,0,0,0,0,0,0,0,21,20,0,16,0,0,1,1,0,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global
-Sun Kris,58,355,11,0,0,0,16,0,0,0,0,21,0,0,15,0,0,1,1,0,1,"Drop, Bazaar",0,No Gear Set,Everything,Global
-Sun Kris,58,355,11,0,0,0,0,0,0,0,0,21,0,0,15,0,0,1,1,0,1,"Drop, Bazaar",315,No Gear Set,Everything,Global
-Sun Kris,58,355,11,0,0,0,0,0,0,0,0,21,0,0,25,0,0,1,1,0,1,"Drop, Bazaar",0,No Gear Set,Everything,Global
-Wolf's Amethyst Claw,52,350,11,0,0,0,16,0,8,6,0,16,15,0,0,0,0,1,2,0,1,"Drop, Bazaar",0,No Gear Set,Everything,Global
-Wolf's Amethyst Claw,52,350,11,0,0,0,0,0,8,6,0,16,15,0,0,0,0,1,2,0,1,"Drop, Bazaar",315,No Gear Set,Everything,Global
-Wolf's Amethyst Claw,52,350,11,0,0,0,0,0,8,6,0,16,15,0,10,0,0,1,2,0,1,"Drop, Bazaar",0,No Gear Set,Everything,Global
-Edge of Echoes,54,349,11,0,0,0,16,0,0,0,0,0,18,0,14,0,0,1,1,0,1,"Bazaar, Crafting",0,No Gear Set,Everything,Global
-Edge of Echoes,54,349,11,0,0,0,0,0,0,0,0,0,18,0,14,0,0,1,1,0,1,"Bazaar, Crafting",315,No Gear Set,Everything,Global
-Edge of Echoes,54,349,11,0,0,0,0,0,0,0,0,0,18,0,24,0,0,1,1,0,1,"Bazaar, Crafting",0,No Gear Set,Everything,Global
-Wolf's Garnet Claw,52,342,11,0,0,0,16,0,6,6,0,0,8,0,13,0,0,1,2,0,1,"Drop, Bazaar",0,No Gear Set,Everything,Global
-Wolf's Garnet Claw,52,342,11,0,0,0,0,0,6,6,0,0,8,0,13,0,0,1,2,0,1,"Drop, Bazaar",315,No Gear Set,Everything,Global
-Wolf's Garnet Claw,52,342,11,0,0,0,0,0,6,6,0,0,8,0,23,0,0,1,2,0,1,"Drop, Bazaar",0,No Gear Set,Everything,Global
-Survivor's Shortblade,54,321,11,0,0,0,16,0,0,0,0,14,14,0,10,0,0,1,1,0,1,"Bazaar, Crafting",0,No Gear Set,Everything,Global
-Survivor's Shortblade,54,321,11,0,0,0,0,0,0,0,0,14,14,0,10,0,0,1,1,0,1,"Bazaar, Crafting",315,No Gear Set,Everything,Global
-Survivor's Shortblade,54,321,11,0,0,0,0,0,0,0,0,14,14,0,20,0,0,1,1,0,1,"Bazaar, Crafting",0,No Gear Set,Everything,Global
-Great Ape's Tooth,68,260,11,0,0,0,0,0,0,6,0,16,20,0,0,0,0,0,2,0,0,"Drop, Stone Key",0,No Gear Set,Everything,Global
-Supreme Stiletto,56,190,11,0,0,0,16,0,0,0,0,0,0,0,21,0,0,0,1,0,1,"Gold Vendor, Drop, Bazaar",0,No Gear Set,Everything,Global
-Supreme Stiletto,56,190,11,0,0,0,0,0,0,0,0,0,0,0,21,0,0,0,1,0,1,"Gold Vendor, Drop, Bazaar",315,No Gear Set,Everything,Global
-Supreme Stiletto,56,190,11,0,0,0,0,0,0,0,0,0,0,0,31,0,0,0,1,0,1,"Gold Vendor, Drop, Bazaar",0,No Gear Set,Everything,Global
-Curing Claw,50,155,11,0,0,0,0,0,0,0,0,0,23,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global
-Ethereal Athame,56,150,11,0,0,0,16,0,0,0,0,0,18,0,15,0,0,0,1,0,1,"Drop, Bazaar, Quest",0,No Gear Set,Everything,Global
-Ethereal Athame,56,150,11,0,0,0,0,0,0,0,0,0,18,0,15,0,0,0,1,0,1,"Drop, Bazaar, Quest",315,No Gear Set,Everything,Global
-Ethereal Athame,56,150,11,0,0,0,0,0,0,0,0,0,18,0,25,0,0,0,1,0,1,"Drop, Bazaar, Quest",0,No Gear Set,Everything,Global
-Wolf's Emerald Talon,54,0,11,0,0,0,0,0,8,6,0,25,25,0,0,0,0,0,2,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global
-Wolf's Tanzanite Talon,54,0,11,0,0,0,16,0,0,0,0,18,12,0,14,0,0,0,1,0,1,"Drop, Bazaar",0,No Gear Set,Everything,Global
-Wolf's Tanzanite Talon,54,0,11,0,0,0,0,0,0,0,0,18,12,0,14,0,0,0,1,0,1,"Drop, Bazaar",315,No Gear Set,Everything,Global
-Wolf's Tanzanite Talon,54,0,11,0,0,0,0,0,0,0,0,18,12,0,24,0,0,0,1,0,1,"Drop, Bazaar",0,No Gear Set,Everything,Global
-Hopper's Edge of Extinction,98,553,9,0,0,0,16,0,0,15,0,10,0,0,15,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Global
-Hopper's Edge of Extinction,98,553,9,0,0,0,0,0,0,15,0,10,0,0,15,0,0,1,2,0,1,Crafting,315,No Gear Set,Everything,Global
-Hopper's Edge of Extinction,98,553,9,0,0,0,0,0,0,15,0,10,0,0,25,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Global
-Dragonspyre Dragoon's Dagger,130,1129,7,0,0,0,16,0,109,12,0,5,0,0,0,0,0,1,2,0,1,Crafting,0,Dragonspyre Dragoon's Set,Everything,Global
-Dragonspyre Dragoon's Dagger,130,1129,7,0,0,0,0,0,109,12,0,5,0,0,0,0,0,1,2,0,1,Crafting,315,Dragonspyre Dragoon's Set,Everything,Global
-Dragonspyre Dragoon's Dagger,130,1129,7,0,0,0,0,0,109,12,0,5,0,0,10,0,0,1,2,0,1,Crafting,0,Dragonspyre Dragoon's Set,Everything,Global
-Golden Eagle's Razor Beak,86,420,6,0,0,0,16,0,14,12,0,25,0,0,14,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Global
-Golden Eagle's Razor Beak,86,420,6,0,0,0,0,0,14,12,0,25,0,0,14,0,0,1,2,0,1,Crafting,315,No Gear Set,Everything,Global
-Golden Eagle's Razor Beak,86,420,6,0,0,0,0,0,14,12,0,25,0,0,24,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Global
-Garnet Bear Claw,56,355,6,0,0,0,16,0,8,6,0,8,8,0,15,0,0,1,1,0,1,Crafting,0,No Gear Set,Everything,Global
-Garnet Bear Claw,56,355,6,0,0,0,0,0,8,6,0,8,8,0,15,0,0,1,1,0,1,Crafting,315,No Gear Set,Everything,Global
-Garnet Bear Claw,56,355,6,0,0,0,0,0,8,6,0,8,8,0,25,0,0,1,1,0,1,Crafting,0,No Gear Set,Everything,Global
-Topaz Bear Claw,56,353,6,0,0,0,16,0,8,6,0,11,15,0,10,0,0,1,1,0,1,Crafting,0,No Gear Set,Everything,Global
-Topaz Bear Claw,56,353,6,0,0,0,0,0,8,6,0,11,15,0,10,0,0,1,1,0,1,Crafting,315,No Gear Set,Everything,Global
-Topaz Bear Claw,56,353,6,0,0,0,0,0,8,6,0,11,15,0,20,0,0,1,1,0,1,Crafting,0,No Gear Set,Everything,Global
-Emerald Bear Claw,56,272,5,0,0,0,16,0,8,6,0,25,8,0,6,0,0,1,1,0,1,Crafting,0,No Gear Set,Everything,Global
-Emerald Bear Claw,56,272,5,0,0,0,0,0,8,6,0,25,8,0,6,0,0,1,1,0,1,Crafting,315,No Gear Set,Everything,Global
-Emerald Bear Claw,56,272,5,0,0,0,0,0,8,6,0,25,8,0,16,0,0,1,1,0,1,Crafting,0,No Gear Set,Everything,Global
-Claw of the Spirit Wolf,58,367,4,0,0,0,16,0,0,12,0,0,12,0,15,0,0,1,2,0,1,Drop,0,No Gear Set,Everything,Global
-Claw of the Spirit Wolf,58,367,4,0,0,0,0,0,0,12,0,0,12,0,15,0,0,1,2,0,1,Drop,315,No Gear Set,Everything,Global
-Claw of the Spirit Wolf,58,367,4,0,0,0,0,0,0,12,0,0,12,0,25,0,0,1,2,0,1,Drop,0,No Gear Set,Everything,Global
-Wolf's Ruby Claw,54,155,3,0,0,0,0,0,0,12,0,15,11,0,13,0,0,1,2,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global
-Heartsteel,5,45,0,0,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",0,No Gear Set,Everything,Global
-Razor of Eerem Palace,118,686,0,0,0,0,16,0,77,6,0,0,3,0,0,0,0,1,1,0,1,"Gold Vendor, Stone Key",0,No Gear Set,Everything,Global
-Razor of Eerem Palace,118,686,0,0,0,0,0,0,77,6,0,0,3,0,0,0,0,1,1,0,1,"Gold Vendor, Stone Key",315,No Gear Set,Everything,Global
-Razor of Eerem Palace,118,686,0,0,0,0,0,0,77,6,0,0,3,0,10,0,0,1,1,0,1,"Gold Vendor, Stone Key",0,No Gear Set,Everything,Global
-Eerem Razor of Agony,118,680,0,0,0,0,16,0,91,6,0,0,3,0,0,0,0,1,1,0,1,"Drop, Bazaar",0,No Gear Set,Everything,Death
-Eerem Razor of Agony,118,680,0,0,0,0,0,0,91,6,0,0,3,0,0,0,0,1,1,0,1,"Drop, Bazaar",315,No Gear Set,Everything,Death
-Eerem Razor of Agony,118,680,0,0,0,0,0,0,91,6,0,0,3,0,10,0,0,1,1,0,1,"Drop, Bazaar",0,No Gear Set,Everything,Death
-Hopper's Claw of Verglas,98,675,0,0,0,0,16,0,0,14,0,10,0,0,15,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Global
-Hopper's Claw of Verglas,98,675,0,0,0,0,0,0,0,14,0,10,0,0,15,0,0,1,2,0,1,Crafting,315,No Gear Set,Everything,Global
-Hopper's Claw of Verglas,98,675,0,0,0,0,0,0,0,14,0,10,0,0,25,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Global
-Elder's Razor of Caution,98,587,0,0,0,0,16,0,0,15,0,10,0,0,15,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Global
-Elder's Razor of Caution,98,587,0,0,0,0,0,0,0,15,0,10,0,0,15,0,0,1,2,0,1,Crafting,315,No Gear Set,Everything,Global
-Elder's Razor of Caution,98,587,0,0,0,0,0,0,0,15,0,10,0,0,25,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Global
-Sandstone Claw of Vitality,98,587,0,0,0,0,16,0,0,15,0,10,0,0,15,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Global
-Sandstone Claw of Vitality,98,587,0,0,0,0,0,0,0,15,0,10,0,0,15,0,0,1,2,0,1,Crafting,315,No Gear Set,Everything,Global
-Sandstone Claw of Vitality,98,587,0,0,0,0,0,0,0,15,0,10,0,0,25,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Global
-Athame of the BlazingWind,98,519,0,0,0,0,16,0,0,16,0,10,0,0,15,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Global
-Athame of the BlazingWind,98,519,0,0,0,0,0,0,0,16,0,10,0,0,15,0,0,1,2,0,1,Crafting,315,No Gear Set,Everything,Global
-Athame of the BlazingWind,98,519,0,0,0,0,0,0,0,16,0,10,0,0,25,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Global
-Elder's Deep-Desert Athame,98,519,0,0,0,0,16,0,0,16,0,10,0,0,15,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Global
-Elder's Deep-Desert Athame,98,519,0,0,0,0,0,0,0,16,0,10,0,0,15,0,0,1,2,0,1,Crafting,315,No Gear Set,Everything,Global
-Elder's Deep-Desert Athame,98,519,0,0,0,0,0,0,0,16,0,10,0,0,25,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Global
-The Old Tusk-Tusk-Trunk,68,475,0,0,0,0,0,0,0,6,0,24,0,0,0,0,0,1,1,0,0,"Drop, Stone Key",0,No Gear Set,Everything,Global
-Kimba's Fang,68,465,0,0,0,0,16,0,0,6,0,0,0,0,20,0,0,1,1,0,1,"Drop, Stone Key",0,No Gear Set,Everything,Global
-Kimba's Fang,68,465,0,0,0,0,0,0,0,6,0,0,0,0,20,0,0,1,1,0,1,"Drop, Stone Key",315,No Gear Set,Everything,Global
-Kimba's Fang,68,465,0,0,0,0,0,0,0,6,0,0,0,0,30,0,0,1,1,0,1,"Drop, Stone Key",0,No Gear Set,Everything,Global
-Hopper Blade of Sandstorms,98,448,0,0,0,0,16,0,0,17,0,10,0,0,15,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Global
-Hopper Blade of Sandstorms,98,448,0,0,0,0,0,0,0,17,0,10,0,0,15,0,0,1,2,0,1,Crafting,315,No Gear Set,Everything,Global
-Hopper Blade of Sandstorms,98,448,0,0,0,0,0,0,0,17,0,10,0,0,25,0,0,1,2,0,1,Crafting,0,No Gear Set,Everything,Global
-Zanga's Blade,68,410,0,0,0,0,16,0,0,12,0,6,5,0,16,0,0,1,2,0,1,Drop,0,No Gear Set,Everything,Global
-Zanga's Blade,68,410,0,0,0,0,0,0,0,12,0,6,5,0,16,0,0,1,2,0,1,Drop,315,No Gear Set,Everything,Global
-Zanga's Blade,68,410,0,0,0,0,0,0,0,12,0,6,5,0,26,0,0,1,2,0,1,Drop,0,No Gear Set,Everything,Global
-Celestian Edge,50,398,0,0,0,0,0,0,0,0,0,0,26,0,0,0,0,1,0,0,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global
-Diplomatic Dagger,52,391,0,0,0,0,0,0,0,12,0,26,0,0,0,0,0,1,2,0,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global
-Dirk of Unknown Origin,52,370,0,0,0,0,0,0,0,12,0,0,21,0,0,0,0,1,2,0,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global
-Cosmic Kris,58,363,0,0,0,0,0,0,0,6,0,21,20,0,16,0,0,1,1,0,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global
-Sun Kris,58,355,0,0,0,0,16,0,0,6,0,21,0,0,15,0,0,1,1,0,1,"Drop, Bazaar",0,No Gear Set,Everything,Global
-Sun Kris,58,355,0,0,0,0,0,0,0,6,0,21,0,0,15,0,0,1,1,0,1,"Drop, Bazaar",315,No Gear Set,Everything,Global
-Sun Kris,58,355,0,0,0,0,0,0,0,6,0,21,0,0,25,0,0,1,1,0,1,"Drop, Bazaar",0,No Gear Set,Everything,Global
-Wolf's Amethyst Claw,52,350,0,0,0,0,16,0,8,12,0,16,15,0,0,0,0,1,2,0,1,"Drop, Bazaar",0,No Gear Set,Everything,Global
-Wolf's Amethyst Claw,52,350,0,0,0,0,0,0,8,12,0,16,15,0,0,0,0,1,2,0,1,"Drop, Bazaar",315,No Gear Set,Everything,Global
-Wolf's Amethyst Claw,52,350,0,0,0,0,0,0,8,12,0,16,15,0,10,0,0,1,2,0,1,"Drop, Bazaar",0,No Gear Set,Everything,Global
-Edge of Echoes,54,349,0,0,0,0,16,0,0,6,0,0,18,0,14,0,0,1,1,0,1,"Bazaar, Crafting",0,No Gear Set,Everything,Global
-Edge of Echoes,54,349,0,0,0,0,0,0,0,6,0,0,18,0,14,0,0,1,1,0,1,"Bazaar, Crafting",315,No Gear Set,Everything,Global
-Edge of Echoes,54,349,0,0,0,0,0,0,0,6,0,0,18,0,24,0,0,1,1,0,1,"Bazaar, Crafting",0,No Gear Set,Everything,Global
-Wolf's Garnet Claw,52,342,0,0,0,0,16,0,6,12,0,0,8,0,13,0,0,1,2,0,1,"Drop, Bazaar",0,No Gear Set,Everything,Global
-Wolf's Garnet Claw,52,342,0,0,0,0,0,0,6,12,0,0,8,0,13,0,0,1,2,0,1,"Drop, Bazaar",315,No Gear Set,Everything,Global
-Wolf's Garnet Claw,52,342,0,0,0,0,0,0,6,12,0,0,8,0,23,0,0,1,2,0,1,"Drop, Bazaar",0,No Gear Set,Everything,Global
-Morgantine Twin Blade,56,335,0,0,0,0,16,0,0,0,0,17,15,0,13,0,0,1,0,0,1,"Bazaar, Crafting",0,No Gear Set,Everything,Global
-Morgantine Twin Blade,56,335,0,0,0,0,0,0,0,0,0,17,15,0,13,0,0,1,0,0,1,"Bazaar, Crafting",315,No Gear Set,Everything,Global
-Morgantine Twin Blade,56,335,0,0,0,0,0,0,0,0,0,17,15,0,23,0,0,1,0,0,1,"Bazaar, Crafting",0,No Gear Set,Everything,Global
-Celestian Sliver of Power,56,327,0,0,0,0,16,0,0,0,0,0,21,0,15,0,0,1,0,0,1,"Drop, Bazaar",0,No Gear Set,Everything,Global
-Celestian Sliver of Power,56,327,0,0,0,0,0,0,0,0,0,0,21,0,15,0,0,1,0,0,1,"Drop, Bazaar",315,No Gear Set,Everything,Global
-Celestian Sliver of Power,56,327,0,0,0,0,0,0,0,0,0,0,21,0,25,0,0,1,0,0,1,"Drop, Bazaar",0,No Gear Set,Everything,Global
-Survivor's Shortblade,54,321,0,0,0,0,16,0,0,6,0,14,14,0,10,0,0,1,1,0,1,"Bazaar, Crafting",0,No Gear Set,Everything,Global
-Survivor's Shortblade,54,321,0,0,0,0,0,0,0,6,0,14,14,0,10,0,0,1,1,0,1,"Bazaar, Crafting",315,No Gear Set,Everything,Global
-Survivor's Shortblade,54,321,0,0,0,0,0,0,0,6,0,14,14,0,20,0,0,1,1,0,1,"Bazaar, Crafting",0,No Gear Set,Everything,Global
-Great Ape's Tooth,68,260,0,0,0,0,0,0,0,12,0,16,20,0,0,0,0,0,2,0,0,"Drop, Stone Key",0,No Gear Set,Everything,Global
-Supreme Stiletto,56,190,0,0,0,0,16,0,0,6,0,0,0,0,21,0,0,0,1,0,1,"Gold Vendor, Drop, Bazaar",0,No Gear Set,Everything,Global
-Supreme Stiletto,56,190,0,0,0,0,0,0,0,6,0,0,0,0,21,0,0,0,1,0,1,"Gold Vendor, Drop, Bazaar",315,No Gear Set,Everything,Global
-Supreme Stiletto,56,190,0,0,0,0,0,0,0,6,0,0,0,0,31,0,0,0,1,0,1,"Gold Vendor, Drop, Bazaar",0,No Gear Set,Everything,Global
-Curing Claw,50,155,0,0,0,0,0,0,0,6,0,0,23,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global
-Ethereal Athame,56,150,0,0,0,0,16,0,0,6,0,0,18,0,15,0,0,0,1,0,1,"Drop, Bazaar, Quest",0,No Gear Set,Everything,Global
-Ethereal Athame,56,150,0,0,0,0,0,0,0,6,0,0,18,0,15,0,0,0,1,0,1,"Drop, Bazaar, Quest",315,No Gear Set,Everything,Global
-Ethereal Athame,56,150,0,0,0,0,0,0,0,6,0,0,18,0,25,0,0,0,1,0,1,"Drop, Bazaar, Quest",0,No Gear Set,Everything,Global
-Wolf's Emerald Talon,54,0,0,0,0,0,0,0,8,12,0,25,25,0,0,0,0,0,2,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global
-Wolf's Tanzanite Talon,54,0,0,0,0,0,16,0,0,6,0,18,12,0,14,0,0,0,1,0,1,"Drop, Bazaar",0,No Gear Set,Everything,Global
-Wolf's Tanzanite Talon,54,0,0,0,0,0,0,0,0,6,0,18,12,0,14,0,0,0,1,0,1,"Drop, Bazaar",315,No Gear Set,Everything,Global
-Wolf's Tanzanite Talon,54,0,0,0,0,0,0,0,0,6,0,18,12,0,24,0,0,0,1,0,1,"Drop, Bazaar",0,No Gear Set,Everything,Global
-Tamauji's Discerning Dagger,35,0,0,0,0,0,32,0,0,0,0,0,0,0,8,0,0,0,0,0,2,"Drop, Bazaar",0,No Gear Set,Everything,Global
-Tamauji's Discerning Dagger,35,0,0,0,0,0,16,0,0,0,0,0,0,0,8,0,0,0,0,0,2,"Drop, Bazaar",315,No Gear Set,Everything,Global
-Tamauji's Discerning Dagger,35,0,0,0,0,0,16,0,0,0,0,0,0,0,18,0,0,0,0,0,2,"Drop, Bazaar",0,No Gear Set,Everything,Global
-Tamauji's Discerning Dagger,35,0,0,0,0,0,0,0,0,0,0,0,0,0,18,0,0,0,0,0,2,"Drop, Bazaar",315,No Gear Set,Everything,Global
-Tamauji's Discerning Dagger,35,0,0,0,0,0,0,0,0,0,0,0,0,0,28,0,0,0,0,0,2,"Drop, Bazaar",0,No Gear Set,Everything,Global
+Name,Level,Max Health,Damage,Flat Damage,Resistance,Flat Resistance,Accuracy,Critical Rating,Critical Block Rating,Armor Piercing,Stun Resistance,Incoming Healing,Outgoing Healing,Pip Conversion Rating,Power Pip Chance,Shadow Pip Rating,Archmastery Rating,Unlocked Tear,Unlocked Circle,Unlocked Square,Unlocked Triangle,Source,Enchant Damage,Gear Set,Usable In,School,Jewels Used
+Avatar's Seal of Vengeance,170,1142,31,0,0,0,0,123,0,0,0,0,0,0,18,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Fierce Dream Reaver Ring,170,1142,31,0,0,0,0,123,0,0,0,0,0,0,18,0,0,1,1,1,0,"Drop, Crafting, Crowns",0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Fractal Aeon Ring,160,1088,30,0,0,0,0,102,0,0,0,0,0,0,18,0,0,1,1,1,0,"Drop, Crafting, Crowns",0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Fractured Aeon Ring,160,1088,30,0,0,0,0,102,0,0,0,0,0,0,18,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Fragmented Aeon Ring,160,1088,30,0,0,0,0,102,0,0,0,0,0,0,18,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Burrower's Divination Ring (Level 160+),160,1133,29,0,0,0,0,89,0,0,0,0,0,0,18,0,0,1,1,1,0,"Gold Key, Crowns",0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Fierce Dream Warper Ring,170,1091,29,0,0,0,0,108,0,0,0,0,0,0,16,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Manifest Seal of Vengeance,170,1091,29,0,0,0,0,108,0,0,0,0,0,0,16,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Demiurge's Temper Ring,150,1084,29,0,0,0,0,97,0,0,0,0,0,0,18,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Merciless Storm Ring,150,1084,29,0,0,0,0,97,0,0,0,0,0,0,18,0,0,1,1,1,0,"Drop, Crowns",0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Thunderous Enforcer's Ring,165,1067,29,0,0,0,0,98,0,0,0,0,0,0,16,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Malistaire's Squall Band (Level 160+),160,1043,29,0,0,0,0,89,0,0,0,0,11,0,22,0,0,1,1,1,0,Rematch,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Striking City Dweller Ring,160,1043,29,0,0,0,0,89,0,0,0,0,0,0,16,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Nullity's Stormy Ring (Level 150+),150,1039,29,0,0,0,0,97,0,0,0,0,0,0,20,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Fractal Masterpiece Ring,160,1042,28,0,0,0,0,89,0,0,0,0,0,0,15,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Director Insulated Ring,138,315,28,0,0,0,0,99,0,0,0,0,0,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)
+Shocking August Sage Band (Level 170+),170,1091,27,0,0,0,0,154,0,0,0,0,0,0,20,0,0,1,1,1,0,"Gold Key, Crowns",0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Squall King's Ring (Level 170+),170,1091,27,0,0,0,0,154,0,0,0,0,0,0,20,0,0,1,1,1,0,"Gold Key, Crowns",0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Glistening Storm Ring,155,1026,27,0,0,0,0,87,0,0,0,0,0,0,15,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Lead's Insulated Ring,135,306,27,0,0,0,0,90,0,0,0,0,0,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)
+Crackling Night Mire Ring,160,1133,25,0,0,0,0,115,0,0,0,0,0,0,18,0,0,1,1,1,0,Housing Gauntlet,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Stormy Night Mire Ring (Level 160+),160,1133,25,0,0,0,0,115,0,0,0,0,0,0,18,0,0,1,1,1,0,"Housing Gauntlet, Crowns",0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Tormented Night Mire Ring,160,1133,25,0,0,0,0,115,0,0,0,0,0,0,18,0,0,1,1,1,0,Housing Gauntlet,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Artillery Officer Band,150,1010,25,0,0,0,0,85,0,0,0,0,0,0,15,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Golden Storm Ring,155,828,25,0,0,0,0,74,0,0,0,0,0,0,13,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(CirDmg)(SqrHlt)
+Band of the Shadow Web,100,1061,24,0,0,0,0,58,34,0,0,0,0,0,16,0,0,1,1,1,0,"Drop, Crafting, Crowns",0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Regulation Artillery Band,150,813,24,0,0,0,0,73,0,0,0,0,0,0,13,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(CirDmg)(SqrHlt)
+Malevolent Storm Ring,150,809,24,0,0,0,0,116,0,0,0,0,13,0,0,0,0,0,1,1,0,Drop,0,No Gear Set,Everything,Storm,(CirDmg)(SqrHlt)
+Eternal Fractal Ring,160,1133,23,0,0,0,0,102,0,0,0,0,9,0,20,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Eternal Fractured Ring,160,1133,23,0,0,0,0,102,0,0,0,0,0,0,20,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Eternal Fragmented Ring,160,1133,23,0,0,0,0,102,0,0,0,0,0,0,20,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Burrower's Divination Ring (Level 100+),100,1103,23,0,0,0,0,0,39,0,0,0,0,0,16,0,0,1,1,1,0,"Gold Key, Crowns",0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Malistaire's Squall Band (Level 100+),100,1019,23,0,0,0,0,0,29,0,0,0,8,0,20,0,0,1,1,1,0,Rematch,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Sigil of the Shadow Web,100,1019,23,0,0,0,0,0,29,0,0,0,0,0,14,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Stormy Night Mire Ring (Level 100+),100,1019,23,0,0,0,0,0,48,0,0,0,0,0,16,0,0,1,1,1,0,"Housing Gauntlet, Crowns",0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Ring of the Chaotic Heart,100,1000,23,0,0,0,0,0,0,0,0,20,0,0,17,0,0,1,1,1,0,Stone Key,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Storm Owl's Terror Ring,86,970,23,0,0,0,0,0,0,0,0,5,0,0,13,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Delightful Sciencer Ring,140,947,23,0,0,0,0,125,0,0,0,0,11,0,0,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Uber Sciencer Ring,140,947,23,0,0,0,0,125,0,0,0,0,11,0,0,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Magician's Storm Ring,150,804,23,0,0,0,0,113,0,0,0,13,0,0,0,0,0,0,1,1,0,Drop,0,No Gear Set,Everything,Storm,(CirDmg)(SqrHlt)
+Supreme Science Ring,148,419,23,0,0,0,0,112,0,0,0,0,0,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)
+Director Hazmat Ring,138,334,23,0,0,0,0,64,0,0,0,0,0,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+The Void's Stormy Ring (Level 150+),150,1084,22,0,0,0,0,97,0,0,0,0,10,0,22,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Dragoon's Shocking Ring,130,934,22,0,0,0,0,118,0,0,0,13,0,0,0,0,0,1,1,1,0,Crafting,0,Dragoon's Shocking Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Wunderbar Sciencer Ring,140,784,22,0,0,0,0,123,0,0,0,0,11,0,0,0,0,0,1,1,0,Drop,0,No Gear Set,Everything,Storm,(CirDmg)(SqrHlt)
+Guten Sciencer Ring,140,779,22,0,0,0,0,119,0,0,0,0,11,0,0,0,0,0,1,1,0,Drop,0,No Gear Set,Everything,Storm,(CirDmg)(SqrHlt)
+Hierarch's Science Ring,145,404,22,0,0,0,0,106,0,0,0,0,0,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)
+Deep Water Rising Ring,76,397,22,0,0,0,0,0,0,0,0,0,0,0,12,0,0,1,1,0,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)
+Lead's Hazmat Ring,135,324,22,0,0,0,0,58,0,0,0,0,0,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Hagakure's Monsoon Ring,120,856,21,0,0,0,0,97,0,0,0,12,0,0,0,0,0,1,1,1,0,Stone Key,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Vanguard's Shocking Ring,130,773,21,0,0,0,0,116,0,0,0,12,0,0,0,0,0,0,1,1,0,Crafting,0,No Gear Set,Everything,Storm,(CirDmg)(SqrHlt)
+Alpha and Omega Ring,90,525,21,0,0,0,0,0,30,0,0,17,0,0,14,0,0,1,1,0,0,Drop,0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Ring of the Seeker,100,443,21,0,0,0,0,0,0,0,0,15,0,0,14,0,0,1,1,0,0,Gold Key,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)
+Avatar's Seal of Vengeance,170,1142,20,0,0,0,0,123,0,6,0,0,0,0,18,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Fierce Dream Reaver Ring,170,1142,20,0,0,0,0,123,0,6,0,0,0,0,18,0,0,1,1,1,0,"Drop, Crafting, Crowns",0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Umbra Torrential Seal,95,975,20,0,0,0,0,0,0,0,0,11,0,0,13,0,0,1,1,1,0,"Gold Vendor, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Uber Candymancer Ring,140,964,20,0,0,0,0,79,0,0,0,13,0,0,0,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Amethyst Ring of Battle,56,814,20,0,0,0,0,0,5,0,0,0,0,0,17,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Alphoi Charger Ring,130,728,20,0,0,0,0,106,0,0,0,10,10,0,0,0,0,0,1,1,0,Crafting,0,No Gear Set,Everything,Storm,(CirDmg)(SqrHlt)
+Stormy Paradox Ring,130,728,20,0,0,0,0,106,0,0,0,10,10,0,0,0,0,0,1,1,0,Drop,0,No Gear Set,Everything,Storm,(CirDmg)(SqrHlt)
+Tyrian Gorge Stone,92,550,20,0,0,0,0,0,0,0,0,0,0,0,13,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Supreme Founder's Ring,148,436,20,0,0,0,0,70,0,0,0,0,0,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Fractal Aeon Ring,160,1088,19,0,0,0,0,102,0,6,0,0,0,0,18,0,0,1,1,1,0,"Drop, Crafting, Crowns",0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Fractured Aeon Ring,160,1088,19,0,0,0,0,102,0,6,0,0,0,0,18,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Fragmented Aeon Ring,160,1088,19,0,0,0,0,102,0,6,0,0,0,0,18,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Burrower's Divination Ring (Level 50+),50,865,19,0,0,0,0,0,0,0,0,0,0,0,15,0,0,1,1,1,0,"Gold Key, Crowns",0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Stormy Night Mire Ring (Level 50+),50,865,19,0,0,0,0,0,0,0,0,0,0,0,15,0,0,1,1,1,0,"Housing Gauntlet, Crowns",0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Gurtok Fulgis Circlet,50,847,19,0,0,0,0,0,0,0,0,0,0,0,15,0,0,1,1,1,0,"Drop, Crafting, Crowns",0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Raven's Ring of Storms,50,832,19,0,0,0,0,0,8,0,0,0,0,0,11,0,0,1,1,1,0,"Gold Vendor, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Gurtok Fulgis Coil,50,828,19,0,0,0,0,0,0,0,0,0,0,0,13,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Malistaire's Squall Band (Level 50+),50,828,19,0,0,0,0,0,0,0,0,0,4,0,0,0,0,1,1,1,0,Rematch,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Loop of the Duat Gate,60,803,19,0,0,0,0,0,12,0,0,6,6,0,10,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Wunderbar Candymancer Ring,140,800,19,0,0,0,0,106,0,0,0,13,0,0,0,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Guten Candymancer Ring,140,795,19,0,0,0,0,75,0,0,0,13,0,0,0,0,0,0,1,1,0,Drop,0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Painted Spider Stone,90,795,19,0,0,0,0,0,0,0,0,11,0,0,12,0,0,0,1,1,0,"Gold Vendor, Bazaar",0,No Gear Set,Everything,Storm,(CirDmg)(SqrHlt)
+Crackling Zanadu Band,130,723,19,0,0,0,0,101,0,0,0,9,9,0,0,0,0,0,1,1,0,Drop,0,No Gear Set,Everything,Storm,(CirDmg)(SqrHlt)
+Hierarch's Founder's Ring,145,421,19,0,0,0,0,66,0,0,0,0,0,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Executive Insulated Ring,138,1210,18,0,0,0,0,93,0,0,0,0,0,0,0,0,0,0,0,2,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(SqrHlt)(SqrHlt)
+Burrower's Divination Ring (Level 160+),160,1133,18,0,0,0,0,89,0,6,0,0,0,0,18,0,0,1,1,1,0,"Gold Key, Crowns",0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Fierce Dream Warper Ring,170,1091,18,0,0,0,0,108,0,6,0,0,0,0,16,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Manifest Seal of Vengeance,170,1091,18,0,0,0,0,108,0,6,0,0,0,0,16,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Umbra Queen's Shocked Loop (Level 170+),170,1091,18,0,0,0,16,108,0,0,0,0,0,0,22,0,0,1,0,1,1,Rematch,0,No Gear Set,Everything,Storm,(TerHlt)(SqrHlt)(TriAcc)
+Umbra Queen's Shocked Loop (Level 170+),170,1091,18,0,0,0,0,108,0,0,0,0,0,0,22,0,0,1,0,1,1,Rematch,315,No Gear Set,Everything,Storm,(TerHlt)(SqrHlt)(TriDIC)
+Umbra Queen's Shocked Loop (Level 170+),170,1091,18,0,0,0,0,108,0,0,0,0,0,0,32,0,0,1,0,1,1,Rematch,0,No Gear Set,Everything,Storm,(TerHlt)(SqrHlt)(TriPip)
+Demiurge's Temper Ring,150,1084,18,0,0,0,0,97,0,6,0,0,0,0,18,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Merciless Storm Ring,150,1084,18,0,0,0,0,97,0,6,0,0,0,0,18,0,0,1,1,1,0,"Drop, Crowns",0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Thunderous Enforcer's Ring,165,1067,18,0,0,0,0,98,0,6,0,0,0,0,16,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Malistaire's Squall Band (Level 160+),160,1043,18,0,0,0,0,89,0,6,0,0,11,0,22,0,0,1,1,1,0,Rematch,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Striking City Dweller Ring,160,1043,18,0,0,0,0,89,0,6,0,0,0,0,16,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Nullity's Stormy Ring (Level 150+),150,1039,18,0,0,0,0,97,0,6,0,0,0,0,20,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Cabalist Chaotic Ring,125,716,18,0,0,0,0,97,0,0,0,8,8,0,0,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(CirDmg)(SqrHlt)
+Green Thunder Loop,80,245,18,0,0,0,0,0,0,0,0,10,0,0,11,0,0,0,1,0,0,"Gold Vendor, Bazaar",0,No Gear Set,Everything,Storm,(CirDmg)
+Fractal Masterpiece Ring,160,1042,17,0,0,0,0,89,0,6,0,0,0,0,15,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Band of the Lost Abbey,72,982,17,0,0,0,0,0,0,0,0,0,0,0,10,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Belle Regard Ring,70,905,17,0,0,0,0,0,0,0,0,9,0,0,10,0,0,1,1,1,0,"Gold Vendor, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Tetrus Ringlet of Tempests,120,849,17,0,0,0,0,92,0,0,0,0,9,0,0,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Chief's Insulated Ring,135,831,17,0,0,0,0,85,0,0,0,0,0,0,0,0,0,1,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)(SqrHlt)
+Mr. Hound's Ferocious Loop,40,827,17,0,0,0,0,0,0,0,0,12,0,0,8,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Lord Groff's Band of Havoc,110,810,17,0,0,0,0,90,0,0,0,0,0,0,0,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Ring of Aztlan,88,485,17,0,0,0,0,0,0,0,0,11,0,0,13,0,0,1,1,0,0,Drop,0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Gloom Dancer's Band,94,430,17,0,0,0,0,0,0,0,0,0,24,0,13,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Moon's Tear Band,94,400,17,0,0,0,0,0,0,0,0,17,0,0,13,0,0,1,1,0,0,Drop,0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Director Insulated Ring,138,315,17,0,0,0,0,99,0,6,0,0,0,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)
+Shocking August Sage Band (Level 170+),170,1091,16,0,0,0,0,154,0,6,0,0,0,0,20,0,0,1,1,1,0,"Gold Key, Crowns",0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Squall King's Ring (Level 170+),170,1091,16,0,0,0,0,154,0,6,0,0,0,0,20,0,0,1,1,1,0,"Gold Key, Crowns",0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Glistening Storm Ring,155,1026,16,0,0,0,0,87,0,6,0,0,0,0,15,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Thunderous Protector's Ring,165,1019,16,0,0,0,0,0,0,0,0,0,0,0,14,0,0,1,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)(SqrHlt)
+Striking Townie Ring,160,998,16,0,0,0,0,0,0,0,0,0,0,0,14,0,0,1,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)(SqrHlt)
+Aureate Band,60,960,16,0,0,0,0,0,15,0,0,15,0,0,12,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Dragonspyre Dragoon's Ring,130,950,16,0,0,0,0,80,0,0,0,11,0,0,0,0,0,1,1,1,0,"Crafting, Stone Key",0,Dragonspyre Dragoon's Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Shaka's Lightning Loop,66,935,16,0,0,0,0,0,0,0,0,7,0,0,13,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Khonsu's Tidal Ring,170,835,16,0,0,0,0,92,0,0,0,0,15,0,20,0,0,2,0,1,0,Crafting,0,No Gear Set,Everything,Storm,(TerHlt)(TerHlt)(SqrHlt)
+Stormtossed Band,50,830,16,0,0,0,0,0,0,0,0,0,0,0,10,0,0,1,1,1,0,Drop,0,Celestian Tempest Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Luphilim's Howling Hoop,110,817,16,0,0,0,0,92,0,0,0,0,0,0,0,0,0,1,1,1,0,Stone Key,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Baba Yaga's Hailstone Seal,105,795,16,0,0,0,0,59,0,0,0,6,0,0,0,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Ring of the Wolf Warrior,54,680,16,0,0,0,0,0,0,0,0,17,11,0,10,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Consultant Insulated Ring,132,667,16,0,0,0,0,79,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(SqrHlt)
+Acampi Reedfist's Lost Seal,84,405,16,0,0,0,0,0,0,0,0,0,23,0,12,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Bleeding Sun Warrior's Loop,84,380,16,0,0,0,0,0,0,0,0,16,0,0,12,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Tim-Tim's Ring of Thunder,60,363,16,0,0,0,0,0,0,0,0,0,0,0,11,0,0,1,1,0,0,"Gold Vendor, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)
+Crystal Cave Rose,78,352,16,0,0,0,0,0,0,0,0,10,0,0,12,0,0,0,1,0,0,Drop,0,No Gear Set,Everything,Global,(CirDmg)
+Lead's Insulated Ring,135,306,16,0,0,0,0,90,0,6,0,0,0,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)
+Jackall's Ring of Duality,40,290,16,0,0,0,0,0,0,0,0,10,0,0,6,0,0,1,1,0,0,"Drop, Wooden Key",0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)
+Arcanum Exile Galeforce Ring,110,277,16,0,0,0,0,88,0,0,0,0,0,0,0,0,0,1,1,0,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)
+Gusting Ring of the Peaks,110,115,16,0,0,0,0,86,0,0,0,0,0,0,0,0,0,0,1,0,0,Drop,0,No Gear Set,Everything,Storm,(CirDmg)
+Ring of Wolf Lore,58,915,15,0,0,0,0,0,0,0,0,0,15,0,15,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Stellar Protector's Ring,120,877,15,0,0,0,0,60,0,0,0,10,0,0,0,0,0,1,1,1,0,Stone Key,0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Ring of the Wolf's Song,52,875,15,0,0,0,0,0,0,0,0,0,0,0,14,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Ring of Sister Wolf,52,865,15,0,0,0,0,0,0,0,0,23,0,0,0,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Dragonspyre Vanguard's Ring,130,789,15,0,0,0,0,78,0,0,0,10,0,0,0,0,0,0,1,1,0,"Drop, Crafting",0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Alphoi Brigadier Ring,130,749,15,0,0,0,0,68,0,0,0,10,10,0,0,0,0,0,1,1,0,Crafting,0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Divine Paradox Ring,130,749,15,0,0,0,0,68,0,0,0,10,10,0,0,0,0,0,1,1,0,Drop,0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Knight of the Wyrd's Band,74,420,15,0,0,0,0,0,0,0,0,0,22,0,11,0,0,1,1,0,0,"Drop, Bazaar, Gold Key",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Specialist Insulated Ring,132,297,15,0,0,0,0,81,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)
+Storm Liaison's Ring,130,297,15,0,0,0,0,74,0,0,0,0,0,0,0,0,0,1,0,0,0,Quest,0,No Gear Set,Everything,Storm,(TerHlt)
+Fraught Archival Band (Level 170+),170,1348,14,0,0,0,0,139,0,0,0,0,12,0,0,0,0,2,0,1,0,"Housing Gauntlet, Crowns",0,No Gear Set,Everything,Storm,(TerHlt)(TerHlt)(SqrHlt)
+Crackling Night Mire Ring,160,1133,14,0,0,0,0,115,0,6,0,0,0,0,18,0,0,1,1,1,0,Housing Gauntlet,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Stormy Night Mire Ring (Level 160+),160,1133,14,0,0,0,0,115,0,6,0,0,0,0,18,0,0,1,1,1,0,"Housing Gauntlet, Crowns",0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Tormented Night Mire Ring,160,1133,14,0,0,0,0,115,0,6,0,0,0,0,18,0,0,1,1,1,0,Housing Gauntlet,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Artillery Officer Band,150,1010,14,0,0,0,0,85,0,6,0,0,0,0,15,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Bannerman's Honorbound Ring,72,973,14,0,0,0,0,0,14,0,0,0,0,0,11,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Wintertusk Ring of Valor,56,879,14,0,0,0,0,0,12,0,0,9,8,0,15,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Wintertusk Ring of Courage,56,877,14,0,0,0,0,0,12,0,0,11,15,0,10,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Nightglider's Band,50,838,14,0,0,0,0,0,0,0,0,0,0,0,10,0,0,1,1,1,0,Drop,0,Celestian Totality Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Golden Storm Ring,155,828,14,0,0,0,0,74,0,6,0,0,0,0,13,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(CirPrc)(SqrHlt)
+Arbiter Proctis' Signet,110,828,14,0,0,0,0,67,0,0,0,0,0,0,0,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Hopeful Zanadu Band,130,744,14,0,0,0,0,65,0,0,0,9,9,0,0,0,0,0,1,1,0,Drop,0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Cabalist Schism Ring,125,737,14,0,0,0,0,61,0,0,0,8,8,0,0,0,0,0,1,1,0,Bazaar,0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Ring of the Ravenous Wolf,54,680,14,0,0,0,0,0,7,0,0,18,0,0,15,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Supreme Electric Ring,148,1314,13,0,0,0,0,106,0,0,0,0,0,0,0,0,0,0,0,2,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(SqrHlt)(SqrHlt)
+Band of the Shadow Web,100,1061,13,0,0,0,0,58,34,6,0,0,0,0,16,0,0,1,1,1,0,"Drop, Crafting, Crowns",0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Umbra Queen's Shocked Loop (Level 100+),100,1019,13,0,0,0,16,51,0,0,0,0,0,0,20,0,0,1,0,1,1,Rematch,0,No Gear Set,Everything,Storm,(TerHlt)(SqrHlt)(TriAcc)
+Umbra Queen's Shocked Loop (Level 100+),100,1019,13,0,0,0,0,51,0,0,0,0,0,0,20,0,0,1,0,1,1,Rematch,315,No Gear Set,Everything,Storm,(TerHlt)(SqrHlt)(TriDIC)
+Umbra Queen's Shocked Loop (Level 100+),100,1019,13,0,0,0,0,51,0,0,0,0,0,0,30,0,0,1,0,1,1,Rematch,0,No Gear Set,Everything,Storm,(TerHlt)(SqrHlt)(TriPip)
+Ringlet of Tetrus Prison,120,869,13,0,0,0,0,57,0,0,0,0,9,0,0,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Wintertusk Ring of Bravery,56,861,13,0,0,0,0,0,12,0,0,25,8,0,6,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+NightOrb's Ring of Havoc,96,840,13,0,0,0,0,0,0,0,0,6,0,0,14,0,0,0,0,1,0,Drop,0,No Gear Set,Everything,Storm,(SqrHlt)
+Luphilim's Eternal Ring,110,836,13,0,0,0,0,69,0,0,0,0,0,0,0,0,0,1,1,1,0,Stone Key,0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Regulation Artillery Band,150,813,13,0,0,0,0,73,0,6,0,0,0,0,13,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(CirPrc)(SqrHlt)
+Ring of the Veiled Vale,105,811,13,0,0,0,0,55,0,0,0,5,0,0,0,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Malevolent Storm Ring,150,809,13,0,0,0,0,116,0,6,0,0,13,0,0,0,0,0,1,1,0,Drop,0,No Gear Set,Everything,Storm,(CirPrc)(SqrHlt)
+Arcanum Exile Signet Ring,110,295,13,0,0,0,0,65,0,0,0,0,0,0,0,0,0,1,1,0,0,Drop,0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Ring of the Northern Sea,110,131,13,0,0,0,0,63,0,0,0,0,0,0,0,0,0,0,1,0,0,Drop,0,No Gear Set,Everything,Global,(CirDmg)
+Executive Hazmat Ring,138,1229,12,0,0,0,0,60,0,0,0,0,0,0,0,0,0,0,0,2,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(SqrHlt)(SqrHlt)
+Eternal Fractal Ring,160,1133,12,0,0,0,0,102,0,6,0,0,9,0,20,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Eternal Fractured Ring,160,1133,12,0,0,0,0,102,0,6,0,0,0,0,20,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Eternal Fragmented Ring,160,1133,12,0,0,0,0,102,0,6,0,0,0,0,20,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Burrower's Divination Ring (Level 100+),100,1103,12,0,0,0,0,0,39,6,0,0,0,0,16,0,0,1,1,1,0,"Gold Key, Crowns",0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Malistaire's Squall Band (Level 100+),100,1019,12,0,0,0,0,0,29,6,0,0,8,0,20,0,0,1,1,1,0,Rematch,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Sigil of the Shadow Web,100,1019,12,0,0,0,0,0,29,6,0,0,0,0,14,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Stormy Night Mire Ring (Level 100+),100,1019,12,0,0,0,0,0,48,6,0,0,0,0,16,0,0,1,1,1,0,"Housing Gauntlet, Crowns",0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Ring of the Chaotic Heart,100,1000,12,0,0,0,0,0,0,6,0,20,0,0,17,0,0,1,1,1,0,Stone Key,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Storm Owl's Terror Ring,86,970,12,0,0,0,0,0,0,6,0,5,0,0,13,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Delightful Sciencer Ring,140,947,12,0,0,0,0,125,0,6,0,0,11,0,0,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Uber Sciencer Ring,140,947,12,0,0,0,0,125,0,6,0,0,11,0,0,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Hierarch's Electric Ring,145,929,12,0,0,0,0,99,0,0,0,0,0,0,0,0,0,1,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)(SqrHlt)
+Chief's Hazmat Ring,135,849,12,0,0,0,0,57,0,0,0,0,0,0,0,0,0,1,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+Fierce Dream Stalker Ring,170,835,12,0,0,0,0,124,0,0,0,0,15,0,20,0,0,2,0,1,0,Crafting,0,No Gear Set,Everything,Storm,(TerHlt)(TerHlt)(SqrHlt)
+Magician's Storm Ring,150,804,12,0,0,0,0,113,0,6,0,13,0,0,0,0,0,0,1,1,0,Drop,0,No Gear Set,Everything,Storm,(CirPrc)(SqrHlt)
+Supreme Science Ring,148,419,12,0,0,0,0,112,0,6,0,0,0,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)
+Director Hazmat Ring,138,334,12,0,0,0,0,64,0,6,0,0,0,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Aphrodite's Greenbrier Band,100,1088,11,0,0,0,0,55,0,0,0,12,0,0,12,0,0,1,1,1,0,Stone Key,0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+The Void's Stormy Ring (Level 150+),150,1084,11,0,0,0,0,97,0,6,0,0,10,0,22,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Circle of Caliburn,72,1046,11,0,0,0,0,0,0,0,0,0,0,0,10,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Cinnabar Calendar Ring,86,1025,11,0,0,0,0,0,0,0,0,25,0,0,15,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Long Count Ring,86,1025,11,0,0,0,0,0,0,0,0,25,0,0,15,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Ring of Xibalba,86,1025,11,0,0,0,0,0,0,0,0,25,0,0,15,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Silver and Jade Serpent Seal,86,1025,11,0,0,0,0,0,0,0,0,25,0,0,15,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Circle of the Lords of Night,86,1020,11,0,0,0,0,0,0,0,0,25,0,0,15,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Sky Knight's Challenge Ring,86,1020,11,0,0,0,0,0,0,0,0,25,0,0,15,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Lake Spiral Ring,72,1016,11,0,0,0,0,0,0,0,0,0,0,0,10,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Dun Dara's Triskelion,72,1013,11,0,0,0,0,0,0,0,0,0,0,0,10,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Ganelon's Lost Ring,72,1011,11,0,0,0,0,0,0,0,0,0,0,0,10,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Knight Errant's Seal,72,994,11,0,0,0,0,0,0,0,0,0,0,0,11,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Coatl Earth Mother's Ring,86,990,11,0,0,0,0,0,23,0,0,25,0,0,15,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Band of Desert Mirages,96,980,11,0,0,0,0,0,0,0,0,15,0,0,18,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Dzorak's Ring of Shivers,96,980,11,0,0,0,0,0,15,0,0,15,0,0,18,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Raptorial Sentry's Loop,96,980,11,0,0,0,0,0,0,0,0,15,0,0,18,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Ring of the Diabolica,96,980,11,0,0,0,0,0,0,0,0,15,0,0,18,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Stone of the Wave Tamer,96,980,11,0,0,0,0,0,0,0,0,15,0,0,18,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Zed's Ring of the Dead,96,980,11,0,0,0,0,0,0,0,0,15,0,0,18,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Zelda's Signet of Guidance,96,980,11,0,0,0,0,0,0,0,0,15,0,0,18,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Bad Host Band,72,976,11,0,0,0,0,0,0,0,0,0,0,0,11,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Aphrodite's Bedlam Band,100,952,11,0,0,0,0,60,0,0,0,12,0,0,12,0,0,1,1,1,0,Stone Key,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Dragoon's Shocking Ring,130,934,11,0,0,0,0,118,0,6,0,13,0,0,0,0,0,1,1,1,0,Crafting,0,Dragoon's Shocking Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Stone of the Other Side,78,922,11,0,0,0,0,0,15,0,0,0,33,0,12,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Invigorating Signet,35,905,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,"Drop, Crowns",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Ring of Wolf Blood,58,897,11,0,0,0,0,0,7,0,0,15,0,0,16,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Ring of Fang,52,892,11,0,0,0,0,0,10,0,0,16,12,0,0,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Stellar Signet,58,888,11,0,0,0,0,0,0,0,0,21,20,0,16,0,0,1,1,1,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Ring of Claw,52,883,11,0,0,0,0,0,12,0,0,23,0,0,0,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Amahle's Striped Band,64,880,11,0,0,0,0,0,0,0,0,18,0,0,9,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Aryanah's Golden Loop,64,880,11,0,0,0,0,0,0,0,0,12,0,0,13,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Band of Aid,45,880,11,0,0,0,0,0,0,0,0,9,9,0,0,0,0,1,1,1,0,"Drop, Crowns",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Mandisa's Star Stone,64,880,11,0,0,0,0,0,0,0,0,6,11,0,13,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Ring of Rare Origins,58,880,11,0,0,0,0,0,0,0,0,21,0,0,15,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Tanei's Ghost Ring,64,880,11,0,0,0,0,0,0,0,0,24,0,0,4,0,0,1,1,1,0,"Drop, Bazaar, Stone Key",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Celestian Ring,54,874,11,0,0,0,0,0,0,0,0,0,18,0,14,0,0,1,1,1,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Wysteria Stone,27,870,11,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Malistaire Drake's Ruby Signet,45,868,11,0,0,0,0,0,0,0,0,0,15,0,10,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Morgantine Signet,58,867,11,0,0,0,0,0,0,0,0,18,17,0,15,0,0,1,1,1,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Ring of the Wolf's Howl,52,860,11,0,0,0,0,0,8,0,0,0,8,0,13,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Ring of Brother Wolf,52,853,11,0,0,0,0,0,12,0,0,0,0,0,15,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Typhoon Band,54,853,11,0,0,0,0,0,0,0,0,15,0,0,0,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Ring of Ancient Powers,54,846,11,0,0,0,0,0,0,0,0,14,14,0,10,0,0,1,1,1,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Redwind's Shocking Ring,45,840,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Sublime Band,58,840,11,0,0,0,0,0,0,0,0,18,0,0,15,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Ethereal Ring,54,839,11,0,0,0,0,0,0,0,0,14,12,0,9,0,0,1,1,1,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Band of the Boundless,45,835,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Echo Ring,58,835,11,0,0,0,0,0,0,0,0,20,0,0,16,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Ring of the Rose,45,830,11,0,0,0,0,0,0,0,0,0,0,0,7,0,0,1,1,1,0,"Drop, Crowns",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Verdurous Band,25,830,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,"Drop, Crowns",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Desert Stone of Gall,98,825,11,0,0,0,0,0,0,0,0,20,0,0,18,0,0,0,1,1,0,Crafting,0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Die Another Day Ring,98,825,11,0,0,0,0,0,0,0,0,20,0,0,18,0,0,0,1,1,0,Crafting,0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Gripping Ring,76,825,11,0,0,0,0,0,0,0,0,25,0,0,14,0,0,0,1,1,0,Crafting,0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Hopper Ring of Spine-Chills,98,825,11,0,0,0,0,0,22,0,0,20,0,0,18,0,0,0,1,1,0,Crafting,0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Hopper Ring of Visions,98,825,11,0,0,0,0,0,0,0,0,20,0,0,18,0,0,0,1,1,0,Crafting,0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Ring of Desert Blazes,98,825,11,0,0,0,0,0,0,0,0,20,0,0,18,0,0,0,1,1,0,Crafting,0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Ring of the Day's Death,98,825,11,0,0,0,0,0,0,0,0,20,0,0,18,0,0,0,1,1,0,Crafting,0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Signet of the Sand Devil,98,825,11,0,0,0,0,0,0,0,0,20,0,0,18,0,0,0,1,1,0,Crafting,0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Silver Petal Band,76,825,11,0,0,0,0,0,15,0,0,25,0,0,14,0,0,0,1,1,0,Crafting,0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Tournament Ring,26,825,11,0,0,0,0,0,0,0,0,6,3,0,0,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Bedazzled Band,45,820,11,0,0,0,0,0,0,0,0,0,15,0,0,0,0,1,1,1,0,"Gold Vendor, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Kraysys' Quisling Signet,45,820,11,0,0,0,0,0,0,0,0,0,0,0,15,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Tiny Bauble,45,820,11,0,0,0,0,0,0,0,0,14,0,0,0,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Haru's Speculative Ring,40,808,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Supreme Ancient One Ring,148,806,11,0,0,0,0,70,0,0,0,0,15,0,0,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Band of the Great Apes,66,800,11,0,0,0,0,0,0,0,0,24,0,0,13,0,0,0,1,1,0,Crafting,0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Circle of Lion's Honor,66,800,11,0,0,0,0,0,0,0,0,24,0,0,13,0,0,0,1,1,0,Crafting,0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Drum Jungle Shelter Ring,66,800,11,0,0,0,0,0,0,0,0,24,0,0,13,0,0,0,1,1,0,Crafting,0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Elephant's Tusked Loop,66,800,11,0,0,0,0,0,0,0,0,24,0,0,13,0,0,0,1,1,0,Crafting,0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Lion's Seal of Pride,66,800,11,0,0,0,0,0,0,0,0,24,0,0,13,0,0,0,1,1,0,Crafting,0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Olyphant's War Ring,66,800,11,0,0,0,0,0,0,0,0,24,0,0,13,0,0,0,1,1,0,Crafting,0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Shield Circle of Zamunda,66,800,11,0,0,0,0,0,10,0,0,24,0,0,13,0,0,0,1,1,0,Crafting,0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Windtossed Band,40,800,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Akuji's Meditative Band,35,798,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Usegi Ring of Domain,40,795,11,0,0,0,0,0,0,0,0,10,0,0,0,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Ring of the Muse,35,793,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,"Gold Vendor, Bazaar, Fishing",0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Loop of Refreshment,35,790,11,0,0,0,0,0,0,0,0,0,0,0,6,0,0,1,1,1,0,"Drop, Crowns",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Oroboros Band,45,790,11,0,0,0,0,0,0,0,0,0,0,0,10,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Supreme Deflector Ring,148,789,11,0,0,0,0,112,0,0,0,13,0,0,0,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(CirDmg)(SqrHlt)
+Seal of the Vigilant,45,785,11,0,0,0,0,0,0,0,0,0,0,0,10,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Wunderbar Sciencer Ring,140,784,11,0,0,0,0,123,0,6,0,0,11,0,0,0,0,0,1,1,0,Drop,0,No Gear Set,Everything,Storm,(CirPrc)(SqrHlt)
+Youthful Seal,15,780,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,"Drop, Crowns",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Guten Sciencer Ring,140,779,11,0,0,0,0,119,0,6,0,0,11,0,0,0,0,0,1,1,0,Drop,0,No Gear Set,Everything,Storm,(CirPrc)(SqrHlt)
+Smokey's Intense Band,30,776,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Mechanical Ring,30,768,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Electrified Band of Mayhem,40,765,11,0,0,0,0,0,0,0,0,0,0,0,12,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Dazzling Celestian Ring,52,761,11,0,0,0,0,0,0,0,0,26,0,0,0,0,0,0,1,1,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Lemurian Electric Ring,142,760,11,0,0,0,0,92,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(SqrHlt)
+Sorcerer's Signet,50,754,11,0,0,0,0,0,0,0,0,0,0,0,19,0,0,0,1,1,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Band of Invention,20,746,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,"Gold Vendor, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Kebi's Blustery Seal,20,744,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,"Drop, Bazaar, Wooden Key",0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Maelstrom's Loop,20,740,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Charged Band,15,736,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,0,Quest,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Ring of Awakening,56,726,11,0,0,0,0,0,0,0,0,20,0,0,15,0,0,0,1,1,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Commoner's Ring,25,725,11,0,0,0,0,0,0,0,0,0,0,0,6,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Signet of Perfection,45,713,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Ring of Dominance,45,707,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Astonishing Ring,56,705,11,0,0,0,0,0,0,0,0,17,15,0,13,0,0,0,1,1,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Producer's Hazmat Ring,138,704,11,0,0,0,0,64,0,0,0,0,13,0,0,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Dragonscale Ring,45,701,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Producer's Insulated Ring,138,685,11,0,0,0,0,99,0,0,0,13,0,0,0,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(CirDmg)(SqrHlt)
+Consultant Hazmat Ring,132,684,11,0,0,0,0,51,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(SqrHlt)
+Band of Brotherhood,45,680,11,0,0,0,0,0,0,0,0,14,15,0,0,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Band of the Last Bulwark,45,680,11,0,0,0,0,0,0,0,0,0,8,0,10,0,0,1,1,1,0,"Bazaar, Quest",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Clanker's Ring of Symmetry,30,680,11,0,0,0,0,0,0,0,0,0,0,0,7,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Exquisite Band,30,680,11,0,0,0,0,0,0,0,0,0,0,0,7,0,0,1,1,1,0,"Drop, Bazaar, Quest",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Eye of the Ancients,40,680,11,0,0,0,0,0,0,0,0,8,0,0,7,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Flamesoul's Ring of the Cycle,45,680,11,0,0,0,0,0,0,0,0,0,0,0,10,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Maito's Band of the Wild,35,680,11,0,0,0,0,0,0,0,0,9,0,0,0,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Meowiarty's Clever Ring,30,680,11,0,0,0,0,0,0,0,0,5,0,0,6,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Pops' Band of Stability,30,680,11,0,0,0,0,0,0,0,0,0,9,0,7,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Ring of Truthiness,45,680,11,0,0,0,0,0,0,0,0,0,9,0,10,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Ring of Wyrmkind,45,680,11,0,0,0,0,0,0,0,0,0,15,0,0,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Ring of the Carbuncle,45,680,11,0,0,0,0,0,0,0,0,12,0,0,0,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Ring of the Hungry Wolf,54,680,11,0,0,0,0,0,0,0,0,12,22,0,14,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Ring of the Hunting Wolf,54,680,11,0,0,0,0,0,10,0,0,25,25,0,0,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Scratcher's Ring of Chivalry,25,680,11,0,0,0,0,0,0,0,0,0,0,0,6,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Seal of the Gallium Paladin,45,680,11,0,0,0,0,0,0,0,0,13,14,0,0,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Seal of the Watchful,45,680,11,0,0,0,0,0,0,0,0,0,14,0,0,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Signet of the Chimera,45,680,11,0,0,0,0,0,0,0,0,13,0,0,10,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Spiritist's Ring,25,680,11,0,0,0,0,0,0,0,0,0,8,0,6,0,0,1,1,1,0,"Bazaar, Quest",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Tarnished Noble's Ring,25,680,11,0,0,0,0,0,0,0,0,4,5,0,0,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Tonkatsu's Ring of Havoc,25,680,11,0,0,0,0,0,0,0,0,0,0,0,5,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)(SqrHlt)
+Winged Circlet,25,680,11,0,0,0,0,0,0,0,0,5,6,0,6,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)(SqrHlt)
+Istanboa Signet of Might,118,668,11,0,0,0,0,0,0,0,0,8,8,0,0,0,0,0,1,1,0,Gold Vendor,0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Circle of Squalls,50,659,11,0,0,0,0,0,0,0,0,9,0,0,0,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(CirDmg)(SqrHlt)
+Istanboa Sandspouts Signet,118,653,11,0,0,0,0,0,0,0,0,10,8,0,0,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(CirDmg)(SqrHlt)
+Polished Viper Ring,114,649,11,0,0,0,0,0,0,0,0,7,7,0,0,0,0,0,1,1,0,Gold Vendor,0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Imperial Walrusk Seal,108,643,11,0,0,0,0,0,0,0,0,6,6,0,0,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Seal of the Seraphim,35,640,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Swirling Signet,50,640,11,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(CirDmg)(SqrHlt)
+Seal of the WoodWard,92,635,11,0,0,0,0,0,0,0,0,0,0,0,12,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Viper Ring of Dunestorms,114,635,11,0,0,0,0,0,0,0,0,9,7,0,0,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(CirDmg)(SqrHlt)
+Walrusk Seal of Graupel,108,629,11,0,0,0,0,0,0,0,0,8,6,0,0,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(CirDmg)(SqrHlt)
+Polarian Kossack Signet,104,627,11,0,0,0,0,0,0,0,0,5,5,0,0,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Kossack Loop of Tempests,104,614,11,0,0,0,0,0,0,0,0,7,5,0,0,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(CirDmg)(SqrHlt)
+Mouse Knight's Loop,92,610,11,0,0,0,0,0,0,0,0,0,0,0,12,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Tamauji's Pensive Band,40,610,11,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Constellation Jewel,20,590,11,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,1,1,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Digger Captain's Ring,92,590,11,0,0,0,0,0,0,0,0,0,0,0,13,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Stone of the Huntress,92,590,11,0,0,0,0,0,0,0,0,0,0,0,13,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Royal Guard's Signet,92,585,11,0,0,0,0,0,0,0,0,0,0,0,13,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Seal of the Icicle,20,555,11,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Prince Karanahn's Loop,15,550,11,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+First Scythe's Ringlet,92,545,11,0,0,0,0,0,0,0,0,0,0,0,13,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Coiled Ring of the Serpent,45,525,11,0,0,0,0,0,0,0,0,0,0,0,9,0,0,0,1,1,0,"Gold Vendor, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Do-Daga's Band,35,525,11,0,0,0,0,0,0,0,0,8,9,0,0,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Frostward Seal,30,525,11,0,0,0,0,0,0,0,0,4,0,0,6,0,0,0,1,1,0,Drop,0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Loop of Talent,15,525,11,0,0,0,0,0,0,0,0,0,1,0,2,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Nomoonaga's Analytical Ring,40,525,11,0,0,0,0,0,0,0,0,10,11,0,0,0,0,0,1,1,0,Drop,0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Partisan's Ring,15,525,11,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Pharaoh's Seal,20,525,11,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Ring of the Fount,24,525,11,0,0,0,0,0,0,0,0,5,0,0,7,0,0,0,1,1,0,"Gold Vendor, Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Seal of the Conqueror,20,525,11,0,0,0,0,0,0,0,0,3,3,0,0,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Signet of Ancients,20,525,11,0,0,0,0,0,0,0,0,0,3,0,3,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Wavebringer's Ring,40,525,11,0,0,0,0,0,0,0,0,0,9,0,8,0,0,0,1,1,0,Drop,0,No Gear Set,Everything,Global,(CirDmg)(SqrHlt)
+Spider Shadow's Stone,68,455,11,0,0,0,0,0,0,0,0,13,0,0,13,0,0,1,1,0,0,Drop,0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Black Annie's Band,74,447,11,0,0,0,0,0,15,0,0,0,22,0,11,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Hierarch's Science Ring,145,404,11,0,0,0,0,106,0,6,0,0,0,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)
+Ring of Discovery,50,398,11,0,0,0,0,0,0,0,0,0,26,0,0,0,0,1,1,0,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Deep Water Rising Ring,76,397,11,0,0,0,0,0,0,6,0,0,0,0,12,0,0,1,1,0,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)
+Lemurian Science Ring,142,390,11,0,0,0,0,99,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)
+Diplomatic Ring,52,377,11,0,0,0,0,0,0,0,0,0,0,0,18,0,0,1,1,0,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Surging Sea Ring,56,347,11,0,0,0,0,0,0,0,0,0,0,0,15,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)
+Ring of Memories,54,335,11,0,0,0,0,0,0,0,0,0,18,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Stunning Celestian Signet,56,328,11,0,0,0,0,0,0,0,0,15,17,0,11,0,0,1,1,0,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Council of Light's Band,68,325,11,0,0,0,0,0,0,0,0,24,0,0,13,0,0,1,1,0,0,Drop,0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Lead's Hazmat Ring,135,324,11,0,0,0,0,58,0,6,0,0,0,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Specialist Hazmat Ring,132,314,11,0,0,0,0,53,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)
+Ring of the Naturewalker,40,305,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,"Drop, Bazaar, Gold Key",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Signet of the Sylph,45,300,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,"Gold Vendor, Bazaar, Fishing",0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)
+Eerem Courtier's Band,118,294,11,0,0,0,0,74,0,0,0,0,0,0,0,0,0,1,1,0,0,Gold Vendor,0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Signet Ring of the Ages,45,285,11,0,0,0,0,0,0,0,0,0,13,0,0,0,0,1,1,0,0,"Bazaar, Quest",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Burnished Rubal Band,114,283,11,0,0,0,0,0,0,0,0,7,0,0,0,0,0,1,1,0,0,Gold Vendor,0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Eerem Band of Clangor,118,280,11,0,0,0,0,96,0,0,0,0,0,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)
+Signet of the Arcanum,108,270,11,0,0,0,0,61,0,0,0,0,0,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Rubal Band of Lightning,114,269,11,0,0,0,0,0,0,0,0,9,0,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)
+Katsumori's Pensive Ring,35,265,11,0,0,0,0,0,0,0,0,0,9,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Charmed Ring of the Bleaks,104,260,11,0,0,0,0,0,0,0,0,5,0,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Researcher's Ring,50,260,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)
+Arcanum Diviner's Ring,108,256,11,0,0,0,0,76,0,0,0,0,0,0,0,0,0,1,1,0,0,Bazaar,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)
+Chronius' Sovereign Signet,45,255,11,0,0,0,0,0,0,0,0,0,0,0,9,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Seal of Might,20,250,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Bleaks Band of Snowstorms,104,247,11,0,0,0,0,0,0,0,0,7,0,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)
+Theraputic Band,20,245,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,"Gold Vendor, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Clanker's Soothing Ring,30,240,11,0,0,0,0,0,0,0,0,0,7,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Wavecrasher's Stone,30,235,11,0,0,0,0,0,0,0,0,0,6,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Experimental Band,25,231,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,"Bazaar, Quest",0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)
+Brambled Band,23,230,11,0,0,0,0,0,0,0,0,0,0,0,5,0,0,1,1,0,0,"Gold Vendor, Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Crustacean Band,50,230,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)
+Nails' Band of Stasis,25,230,11,0,0,0,0,0,0,0,0,0,5,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Choice Kalamar Ring,127,212,11,0,0,0,0,0,0,0,0,9,8,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)
+Djeserit's Signet,20,210,11,0,0,0,0,0,0,0,0,0,3,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Survivor's Signet,54,210,11,0,0,0,0,0,0,0,0,15,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)
+Ring of Originality,15,207,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,"Gold Vendor, Bazaar, Fishing",0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)
+Band of Energy,15,202,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Piscean Ring,52,200,11,0,0,0,0,0,0,0,0,0,0,0,16,0,0,0,1,0,0,"Drop, Bazaar, Quest",0,No Gear Set,Everything,Global,(CirDmg)
+Gnarly Kalamar Ring,127,191,11,0,0,0,0,0,0,0,0,11,10,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(CirDmg)
+Ring of Exploration,52,190,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)
+Interstellar Officer's Band,122,186,11,0,0,0,0,0,0,0,0,9,8,0,0,0,0,0,1,0,0,"Drop, Bazaar, Stone Key",0,No Gear Set,Everything,Global,(CirDmg)
+Imbued Ring,52,185,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)
+Sun Circle,59,173,11,0,0,0,0,0,0,0,0,0,0,0,21,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(CirDmg)
+Interstellar Navigator's Band,122,168,11,0,0,0,0,0,0,0,0,10,10,0,0,0,0,0,1,0,0,"Drop, Bazaar, Stone Key, Fishing",0,No Gear Set,Everything,Storm,(CirDmg)
+Band of the Basilisk,45,164,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)
+Band of Paradise,35,155,11,0,0,0,0,0,0,0,0,0,0,0,8,0,0,1,1,0,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Band of the Contender,20,155,11,0,0,0,0,0,0,0,0,0,0,0,5,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Crazed Preoccupied Ring,35,155,11,0,0,0,0,0,0,0,0,0,0,0,7,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Initiate's Ring,15,155,11,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,1,0,0,"Gold Vendor, Bazaar, Fishing",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Kanago's Ring of the Lotus,35,155,11,0,0,0,0,0,0,0,0,0,0,0,8,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Mysterious Band,30,155,11,0,0,0,0,0,0,0,0,0,7,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Ring of Kembaalung Thunder,25,155,11,0,0,0,0,0,0,0,0,0,0,0,4,0,0,1,1,0,0,Wooden Key,0,No Gear Set,Everything,Storm,(TerHlt)(CirDmg)
+Seal of the Exemplar,45,155,11,0,0,0,0,0,0,0,0,0,0,0,10,0,0,1,1,0,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Signet of Authority,45,155,11,0,0,0,0,0,0,0,0,0,0,0,10,0,0,1,1,0,0,"Bazaar, Quest",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Student's Band,40,155,11,0,0,0,0,0,0,0,0,0,0,0,9,0,0,1,1,0,0,"Bazaar, Quest",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Watchman's Decoder Ring,25,155,11,0,0,0,0,0,0,0,0,0,5,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Zaneki's Entranced Band,40,155,11,0,0,0,0,0,0,0,0,0,11,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirDmg)
+Band of the Primitives,35,140,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)
+Ring of the Maelstrom,58,134,11,0,0,0,0,0,0,0,0,18,0,0,18,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(CirDmg)
+Tornado Wring,45,130,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(CirDmg)
+Sand Sea Wanderer's Ring,116,129,11,0,0,0,0,72,0,0,0,0,0,0,0,0,0,0,1,0,0,Gold Vendor,0,No Gear Set,Everything,Global,(CirDmg)
+Shadowstorm Jewel,40,125,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(CirDmg)
+Battletested Fang Loop,112,121,11,0,0,0,0,0,0,0,0,6,6,0,0,0,0,0,1,0,0,Gold Vendor,0,No Gear Set,Everything,Global,(CirDmg)
+Seal of the Valkyrie,40,121,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)
+Sand Sea Ring of Havoc,116,116,11,0,0,0,0,94,0,0,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(CirDmg)
+Fang Loop of Tantrums,112,109,11,0,0,0,0,0,0,0,0,8,6,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(CirDmg)
+Enchanter's Ring of Potential,106,107,11,0,0,0,0,59,0,0,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)
+Band of the Whirlpool,40,103,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"Bazaar, Quest",0,No Gear Set,Everything,Storm,(CirDmg)
+Enchanter's Ring of Lightning,106,94,11,0,0,0,0,74,0,0,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(CirDmg)
+Chief Inspector's Signet,102,94,11,0,0,0,0,0,0,0,0,5,5,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)
+Widow's Pilfered Ring,30,85,11,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)
+Iron Paw's Band of Clangor,102,82,11,0,0,0,0,0,0,0,0,6,5,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(CirDmg)
+Cat Burglar's Ring,25,75,11,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,1,0,0,"Drop, Bazaar, Quest",0,No Gear Set,Everything,Global,(CirDmg)
+Band of the Skies,20,70,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)
+Stone of Confidence,20,70,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"Gold Vendor, Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)
+Band of the Bastion,20,50,11,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)
+Band of Equilibrium,15,45,11,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)
+Thane's Circlet,15,40,11,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)
+Aiuchi's Soul-Searching Ring,35,0,11,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)
+Band of Sandcastles,40,0,11,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)
+Band of the Hearth,45,0,11,0,0,0,0,0,0,0,0,12,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)
+Band of the Winterhawk,25,0,11,0,0,0,0,0,0,0,0,2,0,0,2,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)
+Brady's Provincial Ring,25,0,11,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)
+Burnished Band,25,0,11,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)
+Golden Ring of Valor,20,0,11,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)
+Old Smokey's Band,25,0,11,0,0,0,0,0,0,0,0,0,0,0,6,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)
+Pops's Band of the Mender,30,0,11,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)
+Ring of Detachment,35,0,11,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)
+Ring of Rejuvenation,25,0,11,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,1,0,0,"Gold Vendor, Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)
+Ring of the Forefathers,45,0,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)
+Shimmerstone,20,0,11,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirDmg)
+Signet of Intellect,15,0,11,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,1,0,0,"Bazaar, Quest",0,No Gear Set,Everything,Global,(CirDmg)
+Thinker's Ring,15,0,11,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,1,0,0,"Drop, Bazaar, Quest",0,No Gear Set,Everything,Global,(CirDmg)
+Fraught Archival Band (Level 100+),100,1258,10,0,0,0,0,65,0,0,0,0,9,0,0,0,0,2,0,1,0,"Housing Gauntlet, Crowns",0,No Gear Set,Everything,Storm,(TerHlt)(TerHlt)(SqrHlt)
+Hagakure's Monsoon Ring,120,856,10,0,0,0,0,97,0,6,0,12,0,0,0,0,0,1,1,1,0,Stone Key,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Vanguard's Shocking Ring,130,773,10,0,0,0,0,116,0,6,0,12,0,0,0,0,0,0,1,1,0,Crafting,0,No Gear Set,Everything,Storm,(CirPrc)(SqrHlt)
+Alpha and Omega Ring,90,525,10,0,0,0,0,0,30,6,0,17,0,0,14,0,0,1,1,0,0,Drop,0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Ring of the Seeker,100,443,10,0,0,0,0,0,0,6,0,15,0,0,14,0,0,1,1,0,0,Gold Key,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)
+Flashy Skull Ring,140,368,10,0,0,0,0,86,0,0,0,0,0,0,0,0,0,1,0,0,0,Quest,0,No Gear Set,Everything,Storm,(TerHlt)
+Supreme Old Judge Ring,148,1331,9,0,0,0,0,66,0,0,0,0,0,0,0,0,0,0,0,2,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(SqrHlt)(SqrHlt)
+Umbra Torrential Seal,95,975,9,0,0,0,0,0,0,6,0,11,0,0,13,0,0,1,1,1,0,"Gold Vendor, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Uber Candymancer Ring,140,964,9,0,0,0,0,79,0,6,0,13,0,0,0,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Hierarch's Old Judge Ring,145,946,9,0,0,0,0,62,0,0,0,0,0,0,0,0,0,1,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+Amethyst Ring of Battle,56,814,9,0,0,0,0,0,5,6,0,0,0,0,17,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Alphoi Charger Ring,130,728,9,0,0,0,0,106,0,6,0,10,10,0,0,0,0,0,1,1,0,Crafting,0,No Gear Set,Everything,Storm,(CirPrc)(SqrHlt)
+Stormy Paradox Ring,130,728,9,0,0,0,0,106,0,6,0,10,10,0,0,0,0,0,1,1,0,Drop,0,No Gear Set,Everything,Storm,(CirPrc)(SqrHlt)
+Tyrian Gorge Stone,92,550,9,0,0,0,0,0,0,6,0,0,0,0,13,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Supreme Founder's Ring,148,436,9,0,0,0,0,70,0,6,0,0,0,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Fraught Archival Band (Level 50+),50,1020,8,0,0,0,0,0,0,0,0,0,4,0,0,0,0,2,0,1,0,"Housing Gauntlet, Crowns",0,No Gear Set,Everything,Storm,(TerHlt)(TerHlt)(SqrHlt)
+Storm Quetzal's Signet,82,885,8,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,1,0,"Drop, Bazaar, Fishing",0,No Gear Set,Everything,Global,(SqrHlt)
+Burrower's Divination Ring (Level 50+),50,865,8,0,0,0,0,0,0,6,0,0,0,0,15,0,0,1,1,1,0,"Gold Key, Crowns",0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Stormy Night Mire Ring (Level 50+),50,865,8,0,0,0,0,0,0,6,0,0,0,0,15,0,0,1,1,1,0,"Housing Gauntlet, Crowns",0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Gurtok Fulgis Circlet,50,847,8,0,0,0,0,0,0,6,0,0,0,0,15,0,0,1,1,1,0,"Drop, Crafting, Crowns",0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Raven's Ring of Storms,50,832,8,0,0,0,0,0,8,6,0,0,0,0,11,0,0,1,1,1,0,"Gold Vendor, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Gurtok Fulgis Coil,50,828,8,0,0,0,0,0,0,6,0,0,0,0,13,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Malistaire's Squall Band (Level 50+),50,828,8,0,0,0,0,0,0,6,0,0,4,0,0,0,0,1,1,1,0,Rematch,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Loop of the Duat Gate,60,803,8,0,0,0,0,0,12,6,0,6,6,0,10,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Wunderbar Candymancer Ring,140,800,8,0,0,0,0,106,0,6,0,13,0,0,0,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Guten Candymancer Ring,140,795,8,0,0,0,0,75,0,6,0,13,0,0,0,0,0,0,1,1,0,Drop,0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Painted Spider Stone,90,795,8,0,0,0,0,0,0,6,0,11,0,0,12,0,0,0,1,1,0,"Gold Vendor, Bazaar",0,No Gear Set,Everything,Storm,(CirPrc)(SqrHlt)
+Lemurian Old Judge Ring,142,775,8,0,0,0,0,58,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(SqrHlt)
+Crackling Zanadu Band,130,723,8,0,0,0,0,101,0,6,0,9,9,0,0,0,0,0,1,1,0,Drop,0,No Gear Set,Everything,Storm,(CirPrc)(SqrHlt)
+Hierarch's Founder's Ring,145,421,8,0,0,0,0,66,0,6,0,0,0,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Lemurian Founder's Ring,142,405,8,0,0,0,0,62,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)
+FateSailor's Signet,98,880,7,0,0,0,0,0,0,0,0,12,0,0,14,0,0,0,0,1,0,"Drop, Quest",0,No Gear Set,Everything,Global,(SqrHlt)
+Cabalist Chaotic Ring,125,716,7,0,0,0,0,97,0,6,0,8,8,0,0,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(CirPrc)(SqrHlt)
+Blackwater's Band,100,414,7,0,0,0,0,0,0,0,0,10,0,0,10,0,0,1,0,0,0,"Drop, Gold Key, Stone Key",0,No Gear Set,Everything,Storm,(TerHlt)
+Green Thunder Loop,80,245,7,0,0,0,0,0,0,6,0,10,0,0,11,0,0,0,1,0,0,"Gold Vendor, Bazaar",0,No Gear Set,Everything,Storm,(CirPrc)
+Band of Upper Zigazag,60,112,7,0,0,0,0,0,8,0,0,5,0,0,8,0,0,0,0,0,0,Drop,0,No Gear Set,Everything,Storm,No Jewels
+Band of the Lost Abbey,72,982,6,0,0,0,0,0,0,6,0,0,0,0,10,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Belle Regard Ring,70,905,6,0,0,0,0,0,0,6,0,9,0,0,10,0,0,1,1,1,0,"Gold Vendor, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Tetrus Ringlet of Tempests,120,849,6,0,0,0,0,92,0,6,0,0,9,0,0,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Mr. Hound's Ferocious Loop,40,827,6,0,0,0,0,0,0,6,0,12,0,0,8,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Lord Groff's Band of Havoc,110,810,6,0,0,0,0,90,0,6,0,0,0,0,0,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Ring of Aztlan,88,485,6,0,0,0,0,0,0,6,0,11,0,0,13,0,0,1,1,0,0,Drop,0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Gloom Dancer's Band,94,430,6,0,0,0,0,0,0,6,0,0,24,0,13,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Moon's Tear Band,94,400,6,0,0,0,0,0,0,6,0,17,0,0,13,0,0,1,1,0,0,Drop,0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Ring of the Ravenous Teeth,60,255,6,0,0,0,0,0,0,0,0,0,0,0,6,0,0,1,0,0,0,"Drop, Stone Key, Wooden Key",0,No Gear Set,Everything,Storm,(TerHlt)
+Aureate Band,60,960,5,0,0,0,0,0,15,6,0,15,0,0,12,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Dragonspyre Dragoon's Ring,130,950,5,0,0,0,0,80,0,6,0,11,0,0,0,0,0,1,1,1,0,"Crafting, Stone Key",0,Dragonspyre Dragoon's Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Shaka's Lightning Loop,66,935,5,0,0,0,0,0,0,6,0,7,0,0,13,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Hannibal's Bronze Ring,62,880,5,0,0,0,0,0,0,0,0,0,0,0,12,0,0,1,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+Vicious Sky's Jade Seal,82,875,5,0,0,0,0,0,19,0,0,0,0,0,12,0,0,0,0,1,0,"Bazaar, Quest",0,No Gear Set,Everything,Global,(SqrHlt)
+Stormtossed Band,50,830,5,0,0,0,0,0,0,6,0,0,0,0,10,0,0,1,1,1,0,Drop,0,Celestian Tempest Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Luphilim's Howling Hoop,110,817,5,0,0,0,0,92,0,6,0,0,0,0,0,0,0,1,1,1,0,Stone Key,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Baba Yaga's Hailstone Seal,105,795,5,0,0,0,0,59,0,6,0,6,0,0,0,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Ring of the Wolf Warrior,54,680,5,0,0,0,0,0,0,6,0,17,11,0,10,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Acampi Reedfist's Lost Seal,84,405,5,0,0,0,0,0,0,6,0,0,23,0,12,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Bleeding Sun Warrior's Loop,84,380,5,0,0,0,0,0,0,6,0,16,0,0,12,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Tim-Tim's Ring of Thunder,60,363,5,0,0,0,0,0,0,6,0,0,0,0,11,0,0,1,1,0,0,"Gold Vendor, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)
+Crystal Cave Rose,78,352,5,0,0,0,0,0,0,6,0,10,0,0,12,0,0,0,1,0,0,Drop,0,No Gear Set,Everything,Global,(CirPrc)
+Jackall's Ring of Duality,40,290,5,0,0,0,0,0,0,6,0,10,0,0,6,0,0,1,1,0,0,"Drop, Wooden Key",0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)
+Arcanum Exile Galeforce Ring,110,277,5,0,0,0,0,88,0,6,0,0,0,0,0,0,0,1,1,0,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)
+Gusting Ring of the Peaks,110,115,5,0,0,0,0,86,0,6,0,0,0,0,0,0,0,0,1,0,0,Drop,0,No Gear Set,Everything,Storm,(CirPrc)
+Band of the War Ostrich,74,926,4,0,0,0,0,0,0,0,0,15,0,0,11,0,0,1,0,1,0,"Drop, Bazaar, Quest",0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+Ring of Wolf Lore,58,915,4,0,0,0,0,0,0,6,0,0,15,0,15,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Stellar Protector's Ring,120,877,4,0,0,0,0,60,0,6,0,10,0,0,0,0,0,1,1,1,0,Stone Key,0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Ring of the Wolf's Song,52,875,4,0,0,0,0,0,0,6,0,0,0,0,14,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Ring of Sister Wolf,52,865,4,0,0,0,0,0,0,6,0,23,0,0,0,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Dragonspyre Vanguard's Ring,130,789,4,0,0,0,0,78,0,6,0,10,0,0,0,0,0,0,1,1,0,"Drop, Crafting",0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Alphoi Brigadier Ring,130,749,4,0,0,0,0,68,0,6,0,10,10,0,0,0,0,0,1,1,0,Crafting,0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Divine Paradox Ring,130,749,4,0,0,0,0,68,0,6,0,10,10,0,0,0,0,0,1,1,0,Drop,0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Knight of the Wyrd's Band,74,420,4,0,0,0,0,0,0,6,0,0,22,0,11,0,0,1,1,0,0,"Drop, Bazaar, Gold Key",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Ring of Marleybone Fog,40,279,4,0,0,0,0,0,0,0,0,8,0,0,4,0,0,1,0,0,0,"Drop, Wooden Key",0,No Gear Set,Everything,Storm,(TerHlt)
+Bannerman's Honorbound Ring,72,973,3,0,0,0,0,0,14,6,0,0,0,0,11,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Wintertusk Ring of Valor,56,879,3,0,0,0,0,0,12,6,0,9,8,0,15,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Wintertusk Ring of Courage,56,877,3,0,0,0,0,0,12,6,0,11,15,0,10,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Nightglider's Band,50,838,3,0,0,0,0,0,0,6,0,0,0,0,10,0,0,1,1,1,0,Drop,0,Celestian Totality Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Arbiter Proctis' Signet,110,828,3,0,0,0,0,67,0,6,0,0,0,0,0,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Hopeful Zanadu Band,130,744,3,0,0,0,0,65,0,6,0,9,9,0,0,0,0,0,1,1,0,Drop,0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Cabalist Schism Ring,125,737,3,0,0,0,0,61,0,6,0,8,8,0,0,0,0,0,1,1,0,Bazaar,0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Ring of the Ravenous Wolf,54,680,3,0,0,0,0,0,7,6,0,18,0,0,15,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Ringlet of Tetrus Prison,120,869,2,0,0,0,0,57,0,6,0,0,9,0,0,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Wintertusk Ring of Bravery,56,861,2,0,0,0,0,0,12,6,0,25,8,0,6,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Luphilim's Eternal Ring,110,836,2,0,0,0,0,69,0,6,0,0,0,0,0,0,0,1,1,1,0,Stone Key,0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Ring of the Veiled Vale,105,811,2,0,0,0,0,55,0,6,0,5,0,0,0,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Arcanum Exile Signet Ring,110,295,2,0,0,0,0,65,0,6,0,0,0,0,0,0,0,1,1,0,0,Drop,0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Ring of the Northern Sea,110,131,2,0,0,0,0,63,0,6,0,0,0,0,0,0,0,0,1,0,0,Drop,0,No Gear Set,Everything,Global,(CirPrc)
+Hathi's Victory Band,62,880,0,0,1,0,0,0,0,0,0,0,0,0,13,0,0,1,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+Hierarch's Ancient One Ring,145,1316,0,0,0,0,0,66,0,0,0,0,14,0,0,0,0,0,0,2,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(SqrHlt)(SqrHlt)
+Hierarch's Deflector Ring,145,1299,0,0,0,0,0,106,0,0,0,12,0,0,0,0,0,0,0,2,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(SqrHlt)(SqrHlt)
+Supervisor Hazmat Ring,135,1219,0,0,0,0,0,59,0,0,0,0,12,0,0,0,0,0,0,2,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(SqrHlt)(SqrHlt)
+Supervisor Insulated Ring,135,1201,0,0,0,0,0,88,0,0,0,12,0,0,0,0,0,0,0,2,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(SqrHlt)(SqrHlt)
+Aphrodite's Greenbrier Band,100,1088,0,0,0,0,0,55,0,6,0,12,0,0,12,0,0,1,1,1,0,Stone Key,0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Circle of Caliburn,72,1046,0,0,0,0,0,0,0,6,0,0,0,0,10,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Cinnabar Calendar Ring,86,1025,0,0,0,0,0,0,0,6,0,25,0,0,15,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Long Count Ring,86,1025,0,0,0,0,0,0,0,6,0,25,0,0,15,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Ring of Xibalba,86,1025,0,0,0,0,0,0,0,6,0,25,0,0,15,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Silver and Jade Serpent Seal,86,1025,0,0,0,0,0,0,0,6,0,25,0,0,15,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Circle of the Lords of Night,86,1020,0,0,0,0,0,0,0,6,0,25,0,0,15,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Sky Knight's Challenge Ring,86,1020,0,0,0,0,0,0,0,6,0,25,0,0,15,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Lake Spiral Ring,72,1016,0,0,0,0,0,0,0,6,0,0,0,0,10,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Dun Dara's Triskelion,72,1013,0,0,0,0,0,0,0,6,0,0,0,0,10,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Ganelon's Lost Ring,72,1011,0,0,0,0,0,0,0,6,0,0,0,0,10,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Seal of the Lost King,94,1000,0,0,0,0,0,0,22,0,0,0,24,0,13,0,0,1,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+Knight Errant's Seal,72,994,0,0,0,0,0,0,0,6,0,0,0,0,11,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Coatl Earth Mother's Ring,86,990,0,0,0,0,0,0,23,6,0,25,0,0,15,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Band of Desert Mirages,96,980,0,0,0,0,0,0,0,6,0,15,0,0,18,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Dzorak's Ring of Shivers,96,980,0,0,0,0,0,0,15,6,0,15,0,0,18,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Raptorial Sentry's Loop,96,980,0,0,0,0,0,0,0,6,0,15,0,0,18,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Ring of the Diabolica,96,980,0,0,0,0,0,0,0,6,0,15,0,0,18,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Stone of the Wave Tamer,96,980,0,0,0,0,0,0,0,6,0,15,0,0,18,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Zed's Ring of the Dead,96,980,0,0,0,0,0,0,0,6,0,15,0,0,18,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Zelda's Signet of Guidance,96,980,0,0,0,0,0,0,0,6,0,15,0,0,18,0,0,1,1,1,0,Crafting,0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Argent Rose Ring,76,980,0,0,0,0,0,0,0,0,0,25,0,0,14,0,0,1,0,1,0,Crafting,0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+Horned Ring,76,980,0,0,0,0,0,0,0,0,0,25,0,0,14,0,0,1,0,1,0,Crafting,0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+Kinsman's Bond,76,980,0,0,0,0,0,0,0,0,0,25,0,0,14,0,0,1,0,1,0,Crafting,0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+Three-Lobed Seal,76,980,0,0,0,0,0,0,0,0,0,25,0,0,14,0,0,1,0,1,0,Crafting,0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+Triskelion Band,76,980,0,0,0,0,0,0,0,0,0,25,0,0,14,0,0,1,0,1,0,Crafting,0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+Bad Host Band,72,976,0,0,0,0,0,0,0,6,0,0,0,0,11,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Storm Caiman's Tailbiter Ring,89,970,0,0,0,0,0,0,18,0,0,0,35,0,14,0,0,1,0,1,0,Drop,0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+Falling Star's End Time Band,84,960,0,0,0,0,0,0,20,0,0,0,23,0,12,0,0,1,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+Aphrodite's Bedlam Band,100,952,0,0,0,0,0,60,0,6,0,12,0,0,12,0,0,1,1,1,0,Stone Key,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Mantis Prophet's Ringlet,94,950,0,0,0,0,0,0,22,0,0,18,0,0,13,0,0,1,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+Twisting Season Ring,82,950,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,1,0,"Drop, Bazaar, Fishing",0,No Gear Set,Everything,Global,(SqrHlt)
+Circle of High Order,74,938,0,0,0,0,0,0,15,0,0,16,0,0,11,0,0,1,0,1,0,"Drop, Bazaar, Stone Key",0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+Long Lost Ring,50,930,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+Stone of the Other Side,78,922,0,0,0,0,0,0,15,6,0,0,33,0,12,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Chac's Challenge Loop,82,920,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(SqrHlt)
+Lords of Night Challenge Ring,88,920,0,0,0,0,0,0,17,0,0,0,34,0,13,0,0,1,0,1,0,Drop,0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+Mother Moon's Count Ring,84,920,0,0,0,0,0,0,20,0,0,17,0,0,12,0,0,1,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+Smoking Mirror's War Ring,82,920,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(SqrHlt)
+Twin Giants Fashioned Stone,82,920,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(SqrHlt)
+Seal of Thunder Horn's Glory,82,915,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(SqrHlt)
+Invigorating Signet,35,905,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,1,1,1,0,"Drop, Crowns",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Ring of Wolf Blood,58,897,0,0,0,0,0,0,7,6,0,15,0,0,16,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Cosmic Band,52,895,0,0,0,0,0,0,0,0,0,0,21,0,0,0,0,1,0,1,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+Ring of Fang,52,892,0,0,0,0,0,0,10,6,0,16,12,0,0,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Stellar Signet,58,888,0,0,0,0,0,0,0,6,0,21,20,0,16,0,0,1,1,1,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Ring of Claw,52,883,0,0,0,0,0,0,12,6,0,23,0,0,0,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Amahle's Striped Band,64,880,0,0,0,0,0,0,0,6,0,18,0,0,9,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Aryanah's Golden Loop,64,880,0,0,0,0,0,0,0,6,0,12,0,0,13,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Band of Aid,45,880,0,0,0,0,0,0,0,6,0,9,9,0,0,0,0,1,1,1,0,"Drop, Crowns",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Mandisa's Star Stone,64,880,0,0,0,0,0,0,0,6,0,6,11,0,13,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Ring of Rare Origins,58,880,0,0,0,0,0,0,0,6,0,21,0,0,15,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Tanei's Ghost Ring,64,880,0,0,0,0,0,0,0,6,0,24,0,0,4,0,0,1,1,1,0,"Drop, Bazaar, Stone Key",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Esop's Dancing Ring,62,880,0,0,0,0,0,0,0,0,0,0,0,0,11,0,0,1,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+Kakenya's Broken Band,62,880,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,1,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+Mago's River Stone,62,880,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,1,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+Mondli's Green Stone,62,880,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,1,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+Unathi's Nighttime Circle,62,880,0,0,0,0,0,0,0,0,0,0,0,0,11,0,0,1,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+Underworld Stone,82,880,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,0,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(SqrHlt)
+Vir's Zafarite Stone,62,880,0,0,0,0,0,0,0,0,0,0,0,0,12,0,0,1,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+Celestian Ring,54,874,0,0,0,0,0,0,0,6,0,0,18,0,14,0,0,1,1,1,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Wysteria Stone,27,870,0,0,0,0,0,0,0,6,0,0,2,0,0,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Malistaire Drake's Ruby Signet,45,868,0,0,0,0,0,0,0,6,0,0,15,0,10,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Band of the Briny Deep,54,868,0,0,0,0,0,0,0,0,0,21,0,0,0,0,0,1,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+Morgantine Signet,58,867,0,0,0,0,0,0,0,6,0,18,17,0,15,0,0,1,1,1,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Ring of the Wolf's Howl,52,860,0,0,0,0,0,0,8,6,0,0,8,0,13,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Galvanized Ring,54,860,0,0,0,0,0,0,0,0,0,18,0,0,0,0,0,1,0,1,0,"Gold Vendor, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+Ring of Brother Wolf,52,853,0,0,0,0,0,0,12,6,0,0,0,0,15,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Typhoon Band,54,853,0,0,0,0,0,0,0,6,0,15,0,0,0,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Ring of Ancient Powers,54,846,0,0,0,0,0,0,0,6,0,14,14,0,10,0,0,1,1,1,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Seal of the Fifth Column,99,845,0,0,0,0,0,0,19,0,0,0,36,0,15,0,0,0,0,1,0,Drop,0,No Gear Set,Everything,Global,(SqrHlt)
+Ring of Eternity,45,844,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,"Bazaar, Quest",0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+Redwind's Shocking Ring,45,840,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Sublime Band,58,840,0,0,0,0,0,0,0,6,0,18,0,0,15,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Ring of Apotheosis,45,840,0,0,0,0,0,0,0,0,0,0,0,0,9,0,0,1,0,1,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+Ethereal Ring,54,839,0,0,0,0,0,0,0,6,0,14,12,0,9,0,0,1,1,1,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Band of the Boundless,45,835,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Echo Ring,58,835,0,0,0,0,0,0,0,6,0,20,0,0,16,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Ring of the Dying Star,98,835,0,0,0,0,0,0,18,0,0,0,35,0,14,0,0,0,0,1,0,Drop,0,No Gear Set,Everything,Global,(SqrHlt)
+Ring of Rising Tides,52,834,0,0,0,0,0,0,0,0,0,12,0,0,0,0,0,1,0,1,0,"Gold Vendor, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)(SqrHlt)
+Ring of the Rose,45,830,0,0,0,0,0,0,0,6,0,0,0,0,7,0,0,1,1,1,0,"Drop, Crowns",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Verdurous Band,25,830,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,1,1,1,0,"Drop, Crowns",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Ring of the Harpy,45,830,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)(SqrHlt)
+Eerem Palace Signet,118,828,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,1,0,1,0,Gold Vendor,0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+Desert Stone of Gall,98,825,0,0,0,0,0,0,0,6,0,20,0,0,18,0,0,0,1,1,0,Crafting,0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Die Another Day Ring,98,825,0,0,0,0,0,0,0,6,0,20,0,0,18,0,0,0,1,1,0,Crafting,0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Gripping Ring,76,825,0,0,0,0,0,0,0,6,0,25,0,0,14,0,0,0,1,1,0,Crafting,0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Hopper Ring of Spine-Chills,98,825,0,0,0,0,0,0,22,6,0,20,0,0,18,0,0,0,1,1,0,Crafting,0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Hopper Ring of Visions,98,825,0,0,0,0,0,0,0,6,0,20,0,0,18,0,0,0,1,1,0,Crafting,0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Ring of Desert Blazes,98,825,0,0,0,0,0,0,0,6,0,20,0,0,18,0,0,0,1,1,0,Crafting,0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Ring of the Day's Death,98,825,0,0,0,0,0,0,0,6,0,20,0,0,18,0,0,0,1,1,0,Crafting,0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Signet of the Sand Devil,98,825,0,0,0,0,0,0,0,6,0,20,0,0,18,0,0,0,1,1,0,Crafting,0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Silver Petal Band,76,825,0,0,0,0,0,0,15,6,0,25,0,0,14,0,0,0,1,1,0,Crafting,0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Tournament Ring,26,825,0,0,0,0,0,0,0,6,0,6,3,0,0,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Bedazzled Band,45,820,0,0,0,0,0,0,0,6,0,0,15,0,0,0,0,1,1,1,0,"Gold Vendor, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Kraysys' Quisling Signet,45,820,0,0,0,0,0,0,0,6,0,0,0,0,15,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Tiny Bauble,45,820,0,0,0,0,0,0,0,6,0,14,0,0,0,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Crystalline Queen's Shard Seal,45,815,0,0,0,0,0,0,0,0,0,13,0,0,0,0,0,1,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+Eerem Signet of Clouds,118,812,0,0,0,0,0,0,0,0,0,10,0,0,0,0,0,1,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)(SqrHlt)
+Haru's Speculative Ring,40,808,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Supreme Ancient One Ring,148,806,0,0,0,0,0,70,0,6,0,0,15,0,0,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Koto's Band of Images,40,804,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+Kataba Iceblock Band,108,802,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,1,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+Band of the Great Apes,66,800,0,0,0,0,0,0,0,6,0,24,0,0,13,0,0,0,1,1,0,Crafting,0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Circle of Lion's Honor,66,800,0,0,0,0,0,0,0,6,0,24,0,0,13,0,0,0,1,1,0,Crafting,0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Drum Jungle Shelter Ring,66,800,0,0,0,0,0,0,0,6,0,24,0,0,13,0,0,0,1,1,0,Crafting,0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Elephant's Tusked Loop,66,800,0,0,0,0,0,0,0,6,0,24,0,0,13,0,0,0,1,1,0,Crafting,0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Lion's Seal of Pride,66,800,0,0,0,0,0,0,0,6,0,24,0,0,13,0,0,0,1,1,0,Crafting,0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Olyphant's War Ring,66,800,0,0,0,0,0,0,0,6,0,24,0,0,13,0,0,0,1,1,0,Crafting,0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Shield Circle of Zamunda,66,800,0,0,0,0,0,0,10,6,0,24,0,0,13,0,0,0,1,1,0,Crafting,0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Windtossed Band,40,800,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Seal of the Rubal Wastes,114,799,0,0,0,0,0,71,0,0,0,0,0,0,0,0,0,1,0,1,0,Gold Vendor,0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+Akuji's Meditative Band,35,798,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Usegi Ring of Domain,40,795,0,0,0,0,0,0,0,6,0,10,0,0,0,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Ring of the Muse,35,793,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,1,1,1,0,"Gold Vendor, Bazaar, Fishing",0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Loop of Refreshment,35,790,0,0,0,0,0,0,0,6,0,0,0,0,6,0,0,1,1,1,0,"Drop, Crowns",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Oroboros Band,45,790,0,0,0,0,0,0,0,6,0,0,0,0,10,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Supreme Deflector Ring,148,789,0,0,0,0,0,112,0,6,0,13,0,0,0,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(CirPrc)(SqrHlt)
+Seal of Rubal Thunder,114,787,0,0,0,0,0,92,0,0,0,0,0,0,0,0,0,1,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)(SqrHlt)
+Kataba Loop of Havoc,108,787,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,1,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)(SqrHlt)
+Seal of the Vigilant,45,785,0,0,0,0,0,0,0,6,0,0,0,0,10,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Youthful Seal,15,780,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,1,1,1,0,"Drop, Crowns",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Polarian Evoker's Ring,104,779,0,0,0,0,0,57,0,0,0,0,0,0,0,0,0,1,0,1,0,Gold Vendor,0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+Smokey's Intense Band,30,776,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Jewel of Principle,35,775,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,1,0,1,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+Mechanical Ring,30,768,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Evoker's Ring of Squalls,104,766,0,0,0,0,0,72,0,0,0,0,0,0,0,0,0,1,0,1,0,Gold Vendor,0,No Gear Set,Everything,Storm,(TerHlt)(SqrHlt)
+Electrified Band of Mayhem,40,765,0,0,0,0,0,0,0,6,0,0,0,0,12,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Dazzling Celestian Ring,52,761,0,0,0,0,0,0,0,6,0,26,0,0,0,0,0,0,1,1,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Sorcerer's Signet,50,754,0,0,0,0,0,0,0,6,0,0,0,0,19,0,0,0,1,1,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Band of Invention,20,746,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,1,1,1,0,"Gold Vendor, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Kebi's Blustery Seal,20,744,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,1,1,1,0,"Drop, Bazaar, Wooden Key",0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Maelstrom's Loop,20,740,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Charged Band,15,736,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,1,1,1,0,Quest,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Ring of Reasoning,52,730,0,0,0,0,0,0,0,0,0,0,21,0,0,0,0,0,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(SqrHlt)
+Senator's Signet,54,730,0,0,0,0,0,0,0,0,0,0,15,0,0,0,0,0,0,1,0,"Gold Vendor, Bazaar",0,No Gear Set,Everything,Global,(SqrHlt)
+Ring of Awakening,56,726,0,0,0,0,0,0,0,6,0,20,0,0,15,0,0,0,1,1,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Commoner's Ring,25,725,0,0,0,0,0,0,0,6,0,0,0,0,6,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Band of the Vindicator,15,725,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,1,0,1,0,"Drop, Bazaar, Quest",0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+Captain's Ring,56,720,0,0,0,0,0,0,0,0,0,0,0,0,14,0,0,0,0,1,0,"Gold Vendor, Bazaar",0,No Gear Set,Everything,Global,(SqrHlt)
+Flowering Band,15,720,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+Majestic Signet,56,715,0,0,0,0,0,0,0,0,0,0,0,0,21,0,0,0,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(SqrHlt)
+Silent Jewel,20,715,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,1,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+Signet of Perfection,45,713,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,1,1,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Ring of Hidden Treasures,56,709,0,0,0,0,0,0,0,0,0,0,0,0,19,0,0,0,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(SqrHlt)
+Ring of Dominance,45,707,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Astonishing Ring,56,705,0,0,0,0,0,0,0,6,0,17,15,0,13,0,0,0,1,1,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Producer's Hazmat Ring,138,704,0,0,0,0,0,64,0,6,0,0,13,0,0,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Dragonscale Ring,45,701,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Producer's Insulated Ring,138,685,0,0,0,0,0,99,0,6,0,13,0,0,0,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(CirPrc)(SqrHlt)
+Band of Brotherhood,45,680,0,0,0,0,0,0,0,6,0,14,15,0,0,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Band of the Last Bulwark,45,680,0,0,0,0,0,0,0,6,0,0,8,0,10,0,0,1,1,1,0,"Bazaar, Quest",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Clanker's Ring of Symmetry,30,680,0,0,0,0,0,0,0,6,0,0,0,0,7,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Exquisite Band,30,680,0,0,0,0,0,0,0,6,0,0,0,0,7,0,0,1,1,1,0,"Drop, Bazaar, Quest",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Eye of the Ancients,40,680,0,0,0,0,0,0,0,6,0,8,0,0,7,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Flamesoul's Ring of the Cycle,45,680,0,0,0,0,0,0,0,6,0,0,0,0,10,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Maito's Band of the Wild,35,680,0,0,0,0,0,0,0,6,0,9,0,0,0,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Meowiarty's Clever Ring,30,680,0,0,0,0,0,0,0,6,0,5,0,0,6,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Pops' Band of Stability,30,680,0,0,0,0,0,0,0,6,0,0,9,0,7,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Ring of Truthiness,45,680,0,0,0,0,0,0,0,6,0,0,9,0,10,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Ring of Wyrmkind,45,680,0,0,0,0,0,0,0,6,0,0,15,0,0,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Ring of the Carbuncle,45,680,0,0,0,0,0,0,0,6,0,12,0,0,0,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Ring of the Hungry Wolf,54,680,0,0,0,0,0,0,0,6,0,12,22,0,14,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Ring of the Hunting Wolf,54,680,0,0,0,0,0,0,10,6,0,25,25,0,0,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Scratcher's Ring of Chivalry,25,680,0,0,0,0,0,0,0,6,0,0,0,0,6,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Seal of the Gallium Paladin,45,680,0,0,0,0,0,0,0,6,0,13,14,0,0,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Seal of the Watchful,45,680,0,0,0,0,0,0,0,6,0,0,14,0,0,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Signet of the Chimera,45,680,0,0,0,0,0,0,0,6,0,13,0,0,10,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Spiritist's Ring,25,680,0,0,0,0,0,0,0,6,0,0,8,0,6,0,0,1,1,1,0,"Bazaar, Quest",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Tarnished Noble's Ring,25,680,0,0,0,0,0,0,0,6,0,4,5,0,0,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Tonkatsu's Ring of Havoc,25,680,0,0,0,0,0,0,0,6,0,0,0,0,5,0,0,1,1,1,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)(SqrHlt)
+Winged Circlet,25,680,0,0,0,0,0,0,0,6,0,5,6,0,6,0,0,1,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)(SqrHlt)
+Advocate's Ring,15,680,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,1,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+Ancestral Ring,45,680,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0,1,0,1,0,"Gold Vendor, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+Band of Quintessence,20,680,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+Band of the Oasis,20,680,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,1,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+Loop of Tall Tales,15,680,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,1,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+O'Leary's Forest Band,30,680,0,0,0,0,0,0,0,0,0,6,7,0,0,0,0,1,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+Ring of Regard,40,680,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+Seething Ring,20,680,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,"Gold Vendor, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+The Bonekeeper's Band,20,680,0,0,0,0,0,0,0,0,0,2,0,0,2,0,0,1,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(SqrHlt)
+Istanboa Signet of Might,118,668,0,0,0,0,0,0,0,6,0,8,8,0,0,0,0,0,1,1,0,Gold Vendor,0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Eye of the Hurricane,45,665,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Bazaar, Quest",0,No Gear Set,Everything,Storm,(SqrHlt)
+Sand Sea Ring,116,663,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,1,0,Gold Vendor,0,No Gear Set,Everything,Global,(SqrHlt)
+Circle of Squalls,50,659,0,0,0,0,0,0,0,6,0,9,0,0,0,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(CirPrc)(SqrHlt)
+Kobra Mercenary's Ringlet,116,658,0,0,0,0,0,0,0,0,0,7,7,0,0,0,0,0,0,1,0,Gold Vendor,0,No Gear Set,Everything,Global,(SqrHlt)
+Drifting Ring,35,655,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Gold Vendor, Drop, Bazaar",0,No Gear Set,Everything,Global,(SqrHlt)
+Istanboa Sandspouts Signet,118,653,0,0,0,0,0,0,0,6,0,10,8,0,0,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(CirPrc)(SqrHlt)
+Polished Viper Ring,114,649,0,0,0,0,0,0,0,6,0,7,7,0,0,0,0,0,1,1,0,Gold Vendor,0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Sand Sea Ring of Bolts,116,648,0,0,0,0,0,0,0,0,0,9,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(SqrHlt)
+Arctic Circlet,40,645,0,0,0,0,0,0,0,0,0,0,11,0,0,0,0,0,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(SqrHlt)
+Kobra Ringlet of Flashfloods,116,644,0,0,0,0,0,0,0,0,0,9,7,0,0,0,0,0,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(SqrHlt)
+Imperial Walrusk Seal,108,643,0,0,0,0,0,0,0,6,0,6,6,0,0,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Seal of the Seraphim,35,640,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,1,1,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Swirling Signet,50,640,0,0,0,0,0,0,0,6,0,6,0,0,0,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(CirPrc)(SqrHlt)
+Band of the Forlorn Tayg,106,638,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(SqrHlt)
+Seal of the WoodWard,92,635,0,0,0,0,0,0,0,6,0,0,0,0,12,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Viper Ring of Dunestorms,114,635,0,0,0,0,0,0,0,6,0,9,7,0,0,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(CirPrc)(SqrHlt)
+Tundarian Band of Adventure,106,635,0,0,0,0,0,0,0,0,0,6,6,0,0,0,0,0,0,1,0,Gold Vendor,0,No Gear Set,Everything,Global,(SqrHlt)
+Walrusk Seal of Graupel,108,629,0,0,0,0,0,0,0,6,0,8,6,0,0,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(CirPrc)(SqrHlt)
+Polarian Kossack Signet,104,627,0,0,0,0,0,0,0,6,0,5,5,0,0,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Ice Crystal Loop,25,627,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Gold Vendor, Drop, Bazaar",0,No Gear Set,Everything,Global,(SqrHlt)
+Tayg Band of Sleetfall,106,624,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(SqrHlt)
+Tundarian Signet of Flux,106,621,0,0,0,0,0,0,0,0,0,7,6,0,0,0,0,0,0,1,0,Gold Vendor,0,No Gear Set,Everything,Storm,(SqrHlt)
+Kossack Loop of Tempests,104,614,0,0,0,0,0,0,0,6,0,7,5,0,0,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(CirPrc)(SqrHlt)
+Mouse Knight's Loop,92,610,0,0,0,0,0,0,0,6,0,0,0,0,12,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Tamauji's Pensive Band,40,610,0,0,0,0,0,0,0,6,0,0,0,0,8,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Signet Stone of Fate,40,605,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(SqrHlt)
+Constellation Jewel,20,590,0,0,0,0,0,0,0,6,0,0,5,0,0,0,0,0,1,1,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Digger Captain's Ring,92,590,0,0,0,0,0,0,0,6,0,0,0,0,13,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Stone of the Huntress,92,590,0,0,0,0,0,0,0,6,0,0,0,0,13,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Royal Guard's Signet,92,585,0,0,0,0,0,0,0,6,0,0,0,0,13,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Sandblasted Jewel,15,585,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Bazaar, Quest",0,No Gear Set,Everything,Global,(SqrHlt)
+Widow's Breakneck Ring,30,580,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(SqrHlt)
+Signet of the North Wind,15,570,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,1,0,"Gold Vendor, Drop, Bazaar",0,No Gear Set,Everything,Global,(SqrHlt)
+Band of the Answer,15,567,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(SqrHlt)
+Icebound Sigil,25,560,0,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(SqrHlt)
+Seal of the Icicle,20,555,0,0,0,0,0,0,0,6,0,0,0,0,3,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Prince Karanahn's Loop,15,550,0,0,0,0,0,0,0,6,0,0,0,0,2,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+First Scythe's Ringlet,92,545,0,0,0,0,0,0,0,6,0,0,0,0,13,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Coiled Ring of the Serpent,45,525,0,0,0,0,0,0,0,6,0,0,0,0,9,0,0,0,1,1,0,"Gold Vendor, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Do-Daga's Band,35,525,0,0,0,0,0,0,0,6,0,8,9,0,0,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Frostward Seal,30,525,0,0,0,0,0,0,0,6,0,4,0,0,6,0,0,0,1,1,0,Drop,0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Loop of Talent,15,525,0,0,0,0,0,0,0,6,0,0,1,0,2,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Nomoonaga's Analytical Ring,40,525,0,0,0,0,0,0,0,6,0,10,11,0,0,0,0,0,1,1,0,Drop,0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Partisan's Ring,15,525,0,0,0,0,0,0,0,6,0,0,0,0,2,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Pharaoh's Seal,20,525,0,0,0,0,0,0,0,6,0,0,0,0,4,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Ring of the Fount,24,525,0,0,0,0,0,0,0,6,0,5,0,0,7,0,0,0,1,1,0,"Gold Vendor, Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Seal of the Conqueror,20,525,0,0,0,0,0,0,0,6,0,3,3,0,0,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Signet of Ancients,20,525,0,0,0,0,0,0,0,6,0,0,3,0,3,0,0,0,1,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Wavebringer's Ring,40,525,0,0,0,0,0,0,0,6,0,0,9,0,8,0,0,0,1,1,0,Drop,0,No Gear Set,Everything,Global,(CirPrc)(SqrHlt)
+Animated Ring,25,525,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(SqrHlt)
+Band of Hope,30,525,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,0,0,1,0,"Drop, Bazaar, Fishing",0,No Gear Set,Everything,Global,(SqrHlt)
+Bizarre Band,50,525,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(SqrHlt)
+Discerning Ring,35,525,0,0,0,0,0,0,0,0,0,11,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(SqrHlt)
+Gleaming Seal,45,525,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(SqrHlt)
+Ice Raider's Ring,20,525,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Gold Vendor, Drop, Bazaar",0,No Gear Set,Everything,Global,(SqrHlt)
+Powerful Ring,20,525,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(SqrHlt)
+Puzzling Band,20,525,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,1,0,"Gold Vendor, Bazaar",0,No Gear Set,Everything,Global,(SqrHlt)
+Relic Ring,52,525,0,0,0,0,0,0,0,0,0,0,0,0,21,0,0,0,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(SqrHlt)
+Ring of Mortality,15,525,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,1,0,"Drop, Bazaar, Wooden Key",0,No Gear Set,Everything,Global,(SqrHlt)
+Ring of Scrutiny,35,525,0,0,0,0,0,0,0,0,0,0,8,0,7,0,0,0,0,1,0,"Drop, Bazaar, Quest",0,No Gear Set,Everything,Global,(SqrHlt)
+Ring of the Badlands,20,525,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(SqrHlt)
+Ring of the Glacier,40,525,0,0,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(SqrHlt)
+Ring of the Unicorn,25,525,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,1,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(SqrHlt)
+Victor's Signet,15,525,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,1,0,"Drop, Bazaar, Wooden Key",0,No Gear Set,Everything,Global,(SqrHlt)
+Spider Shadow's Stone,68,455,0,0,0,0,0,0,0,6,0,13,0,0,13,0,0,1,1,0,0,Drop,0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Black Annie's Band,74,447,0,0,0,0,0,0,15,6,0,0,22,0,11,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Lemurian Ancient One Ring,142,405,0,0,0,0,0,62,0,0,0,0,13,0,0,0,0,1,0,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)
+Ring of Discovery,50,398,0,0,0,0,0,0,0,6,0,0,26,0,0,0,0,1,1,0,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Lemurian Deflector Ring,142,390,0,0,0,0,0,99,0,0,0,12,0,0,0,0,0,1,0,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)
+Diplomatic Ring,52,377,0,0,0,0,0,0,0,6,0,0,0,0,18,0,0,1,1,0,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Surging Sea Ring,56,347,0,0,0,0,0,0,0,6,0,0,0,0,15,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)
+Ring of Memories,54,335,0,0,0,0,0,0,0,6,0,0,18,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Stunning Celestian Signet,56,328,0,0,0,0,0,0,0,6,0,15,17,0,11,0,0,1,1,0,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Striking Celestian Signet,56,327,0,0,0,0,0,0,0,0,0,0,21,0,15,0,0,1,0,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)
+Council of Light's Band,68,325,0,0,0,0,0,0,0,6,0,24,0,0,13,0,0,1,1,0,0,Drop,0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Lavastone Ring,45,325,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)
+Contractor Hazmat Ring,132,314,0,0,0,0,0,55,0,0,0,0,11,0,0,0,0,1,0,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)
+Ring of the Naturewalker,40,305,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,1,1,0,0,"Drop, Bazaar, Gold Key",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Band of the Snow Owl,40,305,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)
+Sunken Celestian Circle,56,305,0,0,0,0,0,0,0,0,0,0,18,0,15,0,0,1,0,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)
+Signet of the Sylph,45,300,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,1,1,0,0,"Gold Vendor, Bazaar, Fishing",0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)
+Contractor Insulated Ring,132,297,0,0,0,0,0,84,0,0,0,11,0,0,0,0,0,1,0,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)
+Eerem Courtier's Band,118,294,0,0,0,0,0,74,0,6,0,0,0,0,0,0,0,1,1,0,0,Gold Vendor,0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Signet Ring of the Ages,45,285,0,0,0,0,0,0,0,6,0,0,13,0,0,0,0,1,1,0,0,"Bazaar, Quest",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Burnished Rubal Band,114,283,0,0,0,0,0,0,0,6,0,7,0,0,0,0,0,1,1,0,0,Gold Vendor,0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Eerem Band of Clangor,118,280,0,0,0,0,0,96,0,6,0,0,0,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)
+Dunes Djinni's Loop,112,278,0,0,0,0,0,0,0,0,0,0,6,0,0,0,0,1,0,0,0,Gold Vendor,0,No Gear Set,Everything,Global,(TerHlt)
+House Djinni's Signet,112,272,0,0,0,0,0,69,0,0,0,0,0,0,0,0,0,1,0,0,0,Gold Vendor,0,No Gear Set,Everything,Global,(TerHlt)
+Signet of the Arcanum,108,270,0,0,0,0,0,61,0,6,0,0,0,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Seal of the Rime King,40,270,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0,1,0,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)
+Rubal Band of Lightning,114,269,0,0,0,0,0,0,0,6,0,9,0,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)
+Katsumori's Pensive Ring,35,265,0,0,0,0,0,0,0,6,0,0,9,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Djinn Loop of Swells,112,265,0,0,0,0,0,0,0,0,0,8,0,0,0,0,0,1,0,0,0,Drop,0,No Gear Set,Everything,Storm,(TerHlt)
+Djinn Signet of Flux,112,260,0,0,0,0,0,90,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)
+Charmed Ring of the Bleaks,104,260,0,0,0,0,0,0,0,6,0,5,0,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Researcher's Ring,50,260,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)
+Interpretive Ring,35,258,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Bazaar, Quest",0,No Gear Set,Everything,Storm,(TerHlt)
+Ring of Effect,25,257,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)
+Arcanum Diviner's Ring,108,256,0,0,0,0,0,76,0,6,0,0,0,0,0,0,0,1,1,0,0,Bazaar,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)
+Chronius' Sovereign Signet,45,255,0,0,0,0,0,0,0,6,0,0,0,0,9,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Ring of the Polarian Tundra,102,252,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,1,0,0,0,Gold Vendor,0,No Gear Set,Everything,Global,(TerHlt)
+Seal of Might,20,250,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,1,1,0,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Bleaks Band of Snowstorms,104,247,0,0,0,0,0,0,0,6,0,7,0,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)
+Theraputic Band,20,245,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,1,1,0,0,"Gold Vendor, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Circle of the Icefloe,30,245,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)
+Clanker's Soothing Ring,30,240,0,0,0,0,0,0,0,6,0,0,7,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Ring of Tundra Hailfall,102,240,0,0,0,0,0,0,0,0,0,6,0,0,0,0,0,1,0,0,0,Gold Vendor,0,No Gear Set,Everything,Storm,(TerHlt)
+Wavecrasher's Stone,30,235,0,0,0,0,0,0,0,6,0,0,6,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Mage's Blustery Seal,102,234,0,0,0,0,0,70,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)
+Comedian's Ring,25,233,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)
+Experimental Band,25,231,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,1,1,0,0,"Bazaar, Quest",0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)
+Brambled Band,23,230,0,0,0,0,0,0,0,6,0,0,0,0,5,0,0,1,1,0,0,"Gold Vendor, Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Crustacean Band,50,230,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)
+Nails' Band of Stasis,25,230,0,0,0,0,0,0,0,6,0,0,5,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Skydark Ring,25,221,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(TerHlt)
+Choice Kalamar Ring,127,212,0,0,0,0,0,0,0,6,0,9,8,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)
+Djeserit's Signet,20,210,0,0,0,0,0,0,0,6,0,0,3,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Survivor's Signet,54,210,0,0,0,0,0,0,0,6,0,15,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)
+Ring of Originality,15,207,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,1,1,0,0,"Gold Vendor, Bazaar, Fishing",0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)
+Band of Torrents,15,203,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Bazaar, Quest",0,No Gear Set,Everything,Storm,(TerHlt)
+Band of Energy,15,202,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Piscean Ring,52,200,0,0,0,0,0,0,0,6,0,0,0,0,16,0,0,0,1,0,0,"Drop, Bazaar, Quest",0,No Gear Set,Everything,Global,(CirPrc)
+Jewel of Obliteration,15,197,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)
+Gnarly Kalamar Ring,127,191,0,0,0,0,0,0,0,6,0,11,10,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(CirPrc)
+Ring of Exploration,52,190,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)
+Interstellar Officer's Band,122,186,0,0,0,0,0,0,0,6,0,9,8,0,0,0,0,0,1,0,0,"Drop, Bazaar, Stone Key",0,No Gear Set,Everything,Global,(CirPrc)
+Imbued Ring,52,185,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)
+Sun Circle,59,173,0,0,0,0,0,0,0,6,0,0,0,0,21,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(CirPrc)
+Interstellar Navigator's Band,122,168,0,0,0,0,0,0,0,6,0,10,10,0,0,0,0,0,1,0,0,"Drop, Bazaar, Stone Key, Fishing",0,No Gear Set,Everything,Storm,(CirPrc)
+Band of the Basilisk,45,164,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)
+Band of Paradise,35,155,0,0,0,0,0,0,0,6,0,0,0,0,8,0,0,1,1,0,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Band of the Contender,20,155,0,0,0,0,0,0,0,6,0,0,0,0,5,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Crazed Preoccupied Ring,35,155,0,0,0,0,0,0,0,6,0,0,0,0,7,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Initiate's Ring,15,155,0,0,0,0,0,0,0,6,0,1,0,0,0,0,0,1,1,0,0,"Gold Vendor, Bazaar, Fishing",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Kanago's Ring of the Lotus,35,155,0,0,0,0,0,0,0,6,0,0,0,0,8,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Mysterious Band,30,155,0,0,0,0,0,0,0,6,0,0,7,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Ring of Kembaalung Thunder,25,155,0,0,0,0,0,0,0,6,0,0,0,0,4,0,0,1,1,0,0,Wooden Key,0,No Gear Set,Everything,Storm,(TerHlt)(CirPrc)
+Seal of the Exemplar,45,155,0,0,0,0,0,0,0,6,0,0,0,0,10,0,0,1,1,0,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Signet of Authority,45,155,0,0,0,0,0,0,0,6,0,0,0,0,10,0,0,1,1,0,0,"Bazaar, Quest",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Student's Band,40,155,0,0,0,0,0,0,0,6,0,0,0,0,9,0,0,1,1,0,0,"Bazaar, Quest",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Watchman's Decoder Ring,25,155,0,0,0,0,0,0,0,6,0,0,5,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Zaneki's Entranced Band,40,155,0,0,0,0,0,0,0,6,0,0,11,0,0,0,0,1,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)(CirPrc)
+Band of the Mirage,15,155,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)
+Brady's Conventional Ring,30,155,0,0,0,0,0,0,0,0,0,0,8,0,0,0,0,1,0,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)
+Brimstone Band,45,155,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,1,0,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)
+Dragontooth Ring,45,155,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)
+Frostbright Loop,40,155,0,0,0,0,0,0,0,0,0,0,11,0,0,0,0,1,0,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)
+Glimmering Band,45,155,0,0,0,0,0,0,0,0,0,0,13,0,0,0,0,1,0,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)
+Himoolayan Hailstorm Loop,25,155,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,1,0,0,0,"Drop, Wooden Key",0,No Gear Set,Everything,Storm,(TerHlt)
+Kanago's Band of Brainwork,35,155,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,1,0,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)
+Logical Band,35,155,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Gold Vendor, Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)
+Loop of Quietude,20,155,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,1,0,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)
+Loop of Retribution,15,155,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,"Gold Vendor, Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)
+Loop of the Defender,15,155,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,1,0,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)
+Rejuvenating Circlet,20,155,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,1,0,0,0,"Gold Vendor, Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)
+Remedy Ring,50,155,0,0,0,0,0,0,0,0,0,0,23,0,0,0,0,1,0,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)
+Ring of Redemption,50,155,0,0,0,0,0,0,0,0,0,23,0,0,0,0,0,1,0,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)
+Ring of Subtlety,25,155,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,"Drop, Bazaar, Quest",0,No Gear Set,Everything,Global,(TerHlt)
+Seal of the Tundra,15,155,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1,0,0,0,"Gold Vendor, Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)
+Serpent Eye Band,45,155,0,0,0,0,0,0,0,0,0,0,14,0,0,0,0,1,0,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)
+Sparkling Band,15,155,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,1,0,0,0,"Gold Vendor, Drop, Bazaar",0,No Gear Set,Everything,Global,(TerHlt)
+Band of the Primitives,35,140,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)
+Ring of the Maelstrom,58,134,0,0,0,0,0,0,0,6,0,18,0,0,18,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(CirPrc)
+Tornado Wring,45,130,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(CirPrc)
+Sand Sea Wanderer's Ring,116,129,0,0,0,0,0,72,0,6,0,0,0,0,0,0,0,0,1,0,0,Gold Vendor,0,No Gear Set,Everything,Global,(CirPrc)
+Shadowstorm Jewel,40,125,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(CirPrc)
+Battletested Fang Loop,112,121,0,0,0,0,0,0,0,6,0,6,6,0,0,0,0,0,1,0,0,Gold Vendor,0,No Gear Set,Everything,Global,(CirPrc)
+Seal of the Valkyrie,40,121,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)
+Sand Sea Ring of Havoc,116,116,0,0,0,0,0,94,0,6,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(CirPrc)
+Fang Loop of Tantrums,112,109,0,0,0,0,0,0,0,6,0,8,6,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(CirPrc)
+Enchanter's Ring of Potential,106,107,0,0,0,0,0,59,0,6,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)
+Band of the Whirlpool,40,103,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,1,0,0,"Bazaar, Quest",0,No Gear Set,Everything,Storm,(CirPrc)
+Enchanter's Ring of Lightning,106,94,0,0,0,0,0,74,0,6,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(CirPrc)
+Chief Inspector's Signet,102,94,0,0,0,0,0,0,0,6,0,5,5,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)
+Band of the Polarian Mage,102,90,0,0,0,0,0,55,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,No Jewels
+Widow's Pilfered Ring,30,85,0,0,0,0,0,0,0,6,0,0,6,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)
+Iron Paw's Band of Clangor,102,82,0,0,0,0,0,0,0,6,0,6,5,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,(CirPrc)
+Cat Burglar's Ring,25,75,0,0,0,0,0,0,0,6,0,4,0,0,0,0,0,0,1,0,0,"Drop, Bazaar, Quest",0,No Gear Set,Everything,Global,(CirPrc)
+Jewel of Instinct,10,75,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,No Jewels
+Band of the Skies,20,70,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)
+Stone of Confidence,20,70,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,1,0,0,"Gold Vendor, Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)
+Band of Purpose,5,60,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Crowns",0,No Gear Set,Everything,Global,No Jewels
+Band of the Bastion,20,50,0,0,0,0,0,0,0,6,0,3,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)
+Band of Intuition,10,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,No Jewels
+Cryptkeeper's Band,10,50,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",0,No Gear Set,Everything,Global,No Jewels
+Band of Equilibrium,15,45,0,0,0,0,0,0,0,6,0,0,1,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)
+Thane's Circlet,15,40,0,0,0,0,0,0,0,6,0,1,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)
+Baron's Sparking Ring,10,32,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,No Jewels
+Coruscating Ring,5,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,No Jewels
+Gravewynd's Circle,10,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,No Jewels
+Ring of Refreshment,5,30,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,"Drop, Crowns",0,No Gear Set,Everything,Global,No Jewels
+Cloudburst Ring,10,26,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",0,No Gear Set,Everything,Storm,No Jewels
+Ring of Dependability,10,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",0,No Gear Set,Everything,Global,No Jewels
+Ring of Elation,5,25,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,No Jewels
+Simple Amethyst Ring,5,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Fishing",0,No Gear Set,Everything,Storm,No Jewels
+Flawed Amethyst Ring,5,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",0,No Gear Set,Everything,Storm,No Jewels
+Simple Opal Ring,1,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar, Quest",0,No Gear Set,Everything,Global,No Jewels
+Bastilla's Seal,10,18,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,No Jewels
+Engraved Amethyst Ring,5,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Storm,No Jewels
+Flawed Opal Band,1,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar, Quest",0,No Gear Set,Everything,Global,No Jewels
+Lord's Signet,5,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,No Jewels
+Aiuchi's Soul-Searching Ring,35,0,0,0,0,0,0,0,0,6,0,0,0,0,7,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)
+Band of Sandcastles,40,0,0,0,0,0,0,0,0,6,0,0,12,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)
+Band of the Hearth,45,0,0,0,0,0,0,0,0,6,0,12,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)
+Band of the Winterhawk,25,0,0,0,0,0,0,0,0,6,0,2,0,0,2,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)
+Brady's Provincial Ring,25,0,0,0,0,0,0,0,0,6,0,4,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)
+Burnished Band,25,0,0,0,0,0,0,0,0,6,0,7,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)
+Golden Ring of Valor,20,0,0,0,0,0,0,0,0,6,0,0,3,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)
+Old Smokey's Band,25,0,0,0,0,0,0,0,0,6,0,0,0,0,6,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)
+Pops's Band of the Mender,30,0,0,0,0,0,0,0,0,6,0,6,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)
+Ring of Detachment,35,0,0,0,0,0,0,0,0,6,0,0,10,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)
+Ring of Rejuvenation,25,0,0,0,0,0,0,0,0,6,0,5,0,0,0,0,0,0,1,0,0,"Gold Vendor, Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)
+Ring of the Forefathers,45,0,0,0,0,0,0,0,0,6,0,0,0,0,0,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)
+Shimmerstone,20,0,0,0,0,0,0,0,0,6,0,0,0,0,4,0,0,0,1,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,(CirPrc)
+Signet of Intellect,15,0,0,0,0,0,0,0,0,6,0,0,0,0,2,0,0,0,1,0,0,"Bazaar, Quest",0,No Gear Set,Everything,Global,(CirPrc)
+Thinker's Ring,15,0,0,0,0,0,0,0,0,6,0,0,0,0,5,0,0,0,1,0,0,"Drop, Bazaar, Quest",0,No Gear Set,Everything,Global,(CirPrc)
+Band of Attunement,5,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,No Jewels
+Band of Incentive,10,0,0,0,0,0,0,0,0,0,0,0,4,0,0,0,0,0,0,0,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,No Jewels
+Doomcarved Ring,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar",0,No Gear Set,Everything,Global,No Jewels
+Flawed Pearl Ring,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",0,No Gear Set,Everything,Global,No Jewels
+Jewel of Identity,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,No Jewels
+Lapis Circle,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Bazaar, Fishing",0,No Gear Set,Everything,Global,No Jewels
+Ring of Insight,10,0,0,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,No Jewels
+Rotunda's Regal Signet,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,No Jewels
+Seal of Impetus,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,No Jewels
+Signet of Aptitude,20,0,0,0,0,0,0,0,0,0,0,0,0,0,5,0,0,0,0,0,0,"Bazaar, Crafting",0,No Gear Set,Everything,Global,No Jewels
+Sphinx's Ring,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Bazaar, Quest",0,No Gear Set,Everything,Global,No Jewels
+Superstitious Band,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Gold Vendor, Drop, Bazaar",0,No Gear Set,Everything,Global,No Jewels
+Swiftarrow's Signet,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,"Drop, Bazaar",0,No Gear Set,Everything,Global,No Jewels
