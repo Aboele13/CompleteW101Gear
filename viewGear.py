@@ -1,3 +1,4 @@
+import sys
 from itertools import combinations_with_replacement
 
 import pandas as pd
@@ -14,7 +15,6 @@ def unlock_sockets(df):
         df['Unlocked Circle'] += df['Locked Circle']
         df['Unlocked Square'] += df['Locked Square']
         df['Unlocked Triangle'] += df['Locked Triangle']
-        df = df.drop(['Locked Tear', 'Locked Circle', 'Locked Square', 'Locked Triangle'], axis=1)
     return df
 
 def objectively_best_jewels(df):
@@ -54,71 +54,6 @@ def objectively_best_jewels(df):
     # Return the filtered DataFrame
     return df.drop(remove_records).reset_index(drop=True)
 
-# [Ter, Cir, Sqr, Tri], [Hlt, Res, Dmg, Prc, Acc, Pip, DIC, Blk, Cnv, Stn, OIC, Arc]
-def abbreviate_jewel(shape, jewel_name):
-    shape_to_abbr = {
-        'Tear': 'Ter',
-        'Circle': 'Cir',
-        'Square': 'Sqr',
-        'Triangle': 'Tri',
-    }
-    
-    jewel_name = jewel_name.lower()
-    
-    if "health" in jewel_name and shape != 'Triangle':
-        return f"{shape_to_abbr[shape]}Hlt"
-    elif "defense" in jewel_name:
-        return f"{shape_to_abbr[shape]}Res"
-    elif "damage" in jewel_name and shape == 'Circle':
-        return f"{shape_to_abbr[shape]}Dmg"
-    elif "piercing" in jewel_name:
-        return f"{shape_to_abbr[shape]}Prc"
-    elif "accurate" in jewel_name:
-        return f"{shape_to_abbr[shape]}Acc"
-    elif "conversion" in jewel_name:
-        return f"{shape_to_abbr[shape]}Cnv"
-    elif "resilient" in jewel_name:
-        return f"{shape_to_abbr[shape]}Stn"
-    elif "archmastery" in jewel_name:
-        return f"{shape_to_abbr[shape]}Arc"
-    elif "blocking" in jewel_name:
-        return f"{shape_to_abbr[shape]}Blk"
-    elif any(damage_IC.lower() in jewel_name for damage_IC in utils.damage_ICs):
-        return f"{shape_to_abbr[shape]}DIC"
-    elif "pip" in jewel_name:
-        return f"{shape_to_abbr[shape]}Pip"
-    else:
-        return f"{shape_to_abbr[shape]}OIC"
-
-# [Swd, Shd, Pow], [Dis, Csh, Pun, Blk, Res, Mnd, Acc, Cnv]
-def abbreviate_pin(shape, pin_name):
-    shape_to_abbr = {
-        'Sword': 'Swd',
-        'Shield': 'Shd',
-        'Power': 'Pwr',
-    }
-    
-    pin_name = pin_name.lower()
-    
-    if "disabling" in pin_name:
-        return f"{shape_to_abbr[shape]}Dis"
-    elif "crushing" in pin_name:
-        return f"{shape_to_abbr[shape]}Csh"
-    elif "punishing" in pin_name:
-        return f"{shape_to_abbr[shape]}Pun"
-    elif "blocking" in pin_name:
-        return f"{shape_to_abbr[shape]}Blk"
-    elif "resist" in pin_name:
-        return f"{shape_to_abbr[shape]}Res"
-    elif "mending" in pin_name:
-        return f"{shape_to_abbr[shape]}Mnd"
-    elif "accurate" in pin_name:
-        return f"{shape_to_abbr[shape]}Acc"
-    elif "conversion" in pin_name:
-        return f"{shape_to_abbr[shape]}Cnv"
-    else:
-        return f"{shape_to_abbr[shape]}Oth"
-
 def create_jeweled_variations(df, jewels_dfs_list, jewel_index):
     if jewel_index >= len(all_jewel_shapes):
         return df
@@ -150,7 +85,7 @@ def create_jeweled_variations(df, jewels_dfs_list, jewel_index):
             jewels_used = result['Jewels Used'] if 'Jewels Used' in result else ''
             
             for jewel in combination:
-                jewels_used += f"({abbreviate_jewel(curr_jewel_shape, jewel['Name'])})"
+                jewels_used += f"({utils.abbreviate_jewel(curr_jewel_shape, jewel['Name'])})"
                 for col in columns_to_sum:
                     total_values[col] += jewel[col] # all stats get added together
                 enchant_damage = max(enchant_damage, jewel['Enchant Damage']) # except enchant damage is the maximum
@@ -195,7 +130,7 @@ def create_pinned_variations(df, pins_dfs_list, pin_index):
             pins_used = result['Pins Used'] if 'Pins Used' in result else ''
             
             for pin in combination:
-                pins_used += f"({abbreviate_pin(curr_jewel_shape, pin['Name'])})"
+                pins_used += f"({utils.abbreviate_pin(curr_jewel_shape, pin['Name'])})"
                 for col in columns_to_sum:
                     total_values[col] += pin[col] # all stats get added together
                 enchant_damage = max(enchant_damage, pin['Enchant Damage']) # except enchant damage
@@ -255,10 +190,6 @@ def get_jewel_shape_df(filters, jewel_shape):
     return df
 
 def jewel_the_items(df, filters):
-    
-    # unlock the sockets if specified
-    if filters['Jeweled']['Unlock']:
-        df = unlock_sockets(df)
     
     if filters['Gear Type'] in utils.clothing_gear_types:
         sword_pins_df = get_jewel_shape_df(filters, 'Sword')
@@ -693,7 +624,7 @@ def view_gear():
         if action_lower == 'b':
             return True
         elif action_lower == 'q':
-            return False
+            sys.exit()
         elif action_lower == 'all':
             school = filters['School']
             gear_type = filters['Gear Type']

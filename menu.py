@@ -1,3 +1,5 @@
+import sys
+
 import utils
 
 
@@ -34,7 +36,7 @@ def confirm_selected_gear_types(select_gear_types):
     action_lower = action.lower()
     
     if action_lower == 'q':
-        return
+        sys.exit()
     elif action_lower == 'b' or action == '2':
         update_gear_select_types_menu()
     elif action == '1' or not action:
@@ -53,7 +55,7 @@ def confirm_selected_jewel_shapes(select_jewel_shapes):
     action_lower = action.lower()
     
     if action_lower == 'q':
-        return
+        sys.exit()
     elif action_lower == 'b' or action == '2':
         update_jewels_select_shapes_menu()
     elif action == '1' or not action:
@@ -73,7 +75,7 @@ def update_gear_select_types_menu():
     action_lower = action.lower()
     
     if action_lower == 'q':
-        return
+        sys.exit()
     elif action_lower == 'b':
         return update_gear_menu()
     else:
@@ -95,7 +97,7 @@ def update_gear_menu():
     action_lower = action.lower()
     
     if action_lower == 'q':
-        return
+        sys.exit()
     elif action_lower == 'b':
         update_info_menu()
     elif action == '1' or not action:
@@ -131,7 +133,7 @@ def update_jewels_select_shapes_menu():
     action_lower = action.lower()
     
     if action_lower == 'q':
-        return
+        sys.exit()
     elif action_lower == 'b':
         return update_jewels_menu()
     else:
@@ -153,7 +155,7 @@ def update_jewels_menu():
     action_lower = action.lower()
     
     if action_lower == 'q':
-        return
+        sys.exit()
     if action_lower == 'b':
         update_info_menu()
     elif action == '1' or not action:
@@ -173,7 +175,7 @@ def update_info_menu():
     action_lower = action.lower()
     
     if action_lower == 'q':
-        return
+        sys.exit()
     elif action_lower == 'b':
         start_menu()
     elif action == '1' or not action:
@@ -225,7 +227,7 @@ def start_menu():
     action = input("\nWhat would you like to do?\n\n[1] Update Information\n[2] View Gear\n[3] Modify Owned Gear\n[4] View Sets\n[5] Create Set\n[q] Quit\n\n")
     
     if action.lower() == 'q':
-        return
+        sys.exit()
     elif action == '1' or not action:
         update_info_menu()
     elif action == '2':

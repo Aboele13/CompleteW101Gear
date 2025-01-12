@@ -9,7 +9,6 @@ starting_pip_gear_types = {"Wands", "Decks"}
 all_gear_types_list = ['Hats', 'Robes', 'Boots', 'Wands', 'Athames', 'Amulets', 'Rings', 'Pets', 'Mounts', 'Decks']
 all_jewel_shapes_list = ['Tear', 'Circle', 'Square', 'Triangle', 'Sword', 'Shield', 'Power']
 
-
 schools_of_items = {"Global", "Balance", "Death", "Fire", "Ice", "Life", "Myth", "Storm"}
 all_stat_schools = schools_of_items | {"Shadow"}
 damage_ICs = ["Epic", "Colossal", "Gargantuan", "Monstrous", "Giant", "Strong"] # UPDATE WITH NEW DAMAGE ITEM CARDS
@@ -20,6 +19,75 @@ def is_int(input):
         return True
     except:
         return False
+
+# [Ter, Cir, Sqr, Tri], [Hlt, Res, Dmg, Prc, Acc, Pip, DIC, Blk, Cnv, Stn, Out, Inc, OIC, Arc]
+def abbreviate_jewel(shape, jewel_name):
+    shape_to_abbr = {
+        'Tear': 'Ter',
+        'Circle': 'Cir',
+        'Square': 'Sqr',
+        'Triangle': 'Tri',
+    }
+    
+    jewel_name = jewel_name.lower()
+    
+    if "health" in jewel_name and shape != 'Triangle':
+        return f"{shape_to_abbr[shape]}Hlt"
+    elif "defense" in jewel_name:
+        return f"{shape_to_abbr[shape]}Res"
+    elif "damage" in jewel_name and shape == 'Circle':
+        return f"{shape_to_abbr[shape]}Dmg"
+    elif "piercing" in jewel_name:
+        return f"{shape_to_abbr[shape]}Prc"
+    elif "accurate" in jewel_name:
+        return f"{shape_to_abbr[shape]}Acc"
+    elif "conversion" in jewel_name:
+        return f"{shape_to_abbr[shape]}Cnv"
+    elif "resilient" in jewel_name:
+        return f"{shape_to_abbr[shape]}Stn"
+    elif "archmastery" in jewel_name:
+        return f"{shape_to_abbr[shape]}Arc"
+    elif "blocking" in jewel_name:
+        return f"{shape_to_abbr[shape]}Blk"
+    elif "mending" in jewel_name:
+        return f"{shape_to_abbr[shape]}Out"
+    elif "healing" in jewel_name:
+        return f"{shape_to_abbr[shape]}Inc"
+    elif any(damage_IC.lower() in jewel_name for damage_IC in damage_ICs):
+        return f"{shape_to_abbr[shape]}DIC"
+    elif "pip" in jewel_name:
+        return f"{shape_to_abbr[shape]}Pip"
+    else:
+        return f"{shape_to_abbr[shape]}OIC"
+
+# [Swd, Shd, Pow], [Dis, Csh, Pun, Blk, Res, Mnd, Acc, Cnv]
+def abbreviate_pin(shape, pin_name):
+    shape_to_abbr = {
+        'Sword': 'Swd',
+        'Shield': 'Shd',
+        'Power': 'Pwr',
+    }
+    
+    pin_name = pin_name.lower()
+    
+    if "disabling" in pin_name:
+        return f"{shape_to_abbr[shape]}Dis"
+    elif "crushing" in pin_name:
+        return f"{shape_to_abbr[shape]}Csh"
+    elif "punishing" in pin_name:
+        return f"{shape_to_abbr[shape]}Pun"
+    elif "blocking" in pin_name:
+        return f"{shape_to_abbr[shape]}Blk"
+    elif "resist" in pin_name:
+        return f"{shape_to_abbr[shape]}Res"
+    elif "mending" in pin_name:
+        return f"{shape_to_abbr[shape]}Mnd"
+    elif "accurate" in pin_name:
+        return f"{shape_to_abbr[shape]}Acc"
+    elif "conversion" in pin_name:
+        return f"{shape_to_abbr[shape]}Cnv"
+    else:
+        return f"{shape_to_abbr[shape]}Oth"
 
 def print_gear_type_options():
     for i in range(len(all_gear_types_list)):
