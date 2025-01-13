@@ -4,7 +4,6 @@ import pandas as pd
 
 import utils
 
-accounts = ['Andrew', 'Chris', 'Tessa']
 
 def add_shared_item(account, gear_type, item):
     
@@ -46,6 +45,8 @@ def add_shared_item(account, gear_type, item):
                 if df.columns[2] != 'School':
                     school_col = df.pop('School')
                     df.insert(2, 'School', school_col)
+                if gear_type in utils.accessory_gear_types:
+                    df = df.sort_values(by='Unlocked', ascending=True)
                 df = df.sort_values(by=['School', 'Name'], ascending=[True, True]).reset_index(drop=True)
                 df.to_csv(file_path, index=False)
             except:
@@ -71,7 +72,7 @@ def add_shared_item(account, gear_type, item):
                 # the file/dataframe hasn't been created yet
                 df = pd.DataFrame([shared_item])
             
-            # write to the updated unsocketed dataframe
+            # write to the updated socketed dataframe
             try:
                 if df.columns[2] != 'School':
                     school_col = df.pop('School')
@@ -193,11 +194,11 @@ def apply_jewels(item):
     circles = item['Unlocked Circle'] + item['Locked Circle'] if item['Unlocked'] else item['Unlocked Circle']
     squares = item['Unlocked Square'] + item['Locked Square'] if item['Unlocked'] else item['Unlocked Square']
     triangles = item['Unlocked Triangle'] + item['Locked Triangle'] if item['Unlocked'] else item['Unlocked Triangle']
-    if tears + circles + squares + triangles == 0: # no sockets at all, or all sockets are locked (and item is locked)
+    if tears + circles + squares + triangles == 0: # no jewels at all, or all jewels are locked (and item is locked)
         item['Jewels Used'] = '(No Jewels)'
         return item
     
-    jewels_used = '' # testing, uncomplete
+    jewels_used = ''
     
     for i in range(tears):
         jewels_used += select_socket(item, 'Tear')
@@ -215,7 +216,7 @@ def apply_pins(item):
     swords = item['Sword Pins']
     shields = item['Shield Pins']
     powers = item['Power Pins']
-    if swords + shields + powers == 0:
+    if swords + shields + powers == 0: # no pins at all
         item['Pins Used'] = '(No Pins)'
         return item
     
@@ -275,6 +276,8 @@ def jewel_the_item(account, gear_type, item):
         if df.columns[2] != 'School':
             school_col = df.pop('School')
             df.insert(2, 'School', school_col)
+        if gear_type in utils.accessory_gear_types:
+            df = df.sort_values(by='Unlocked', ascending=True)
         df = df.sort_values(by=['School', 'Name'], ascending=[True, True]).reset_index(drop=True)
         df.to_csv(file_path, index=False)
     except:
@@ -294,7 +297,7 @@ def jewel_the_item(account, gear_type, item):
         # the file/dataframe hasn't been created yet
         df = pd.DataFrame([socketed_item])
     
-    # write to the updated unsocketed dataframe
+    # write to the updated socketed dataframe
     try:
         if df.columns[2] != 'School':
             school_col = df.pop('School')
@@ -320,6 +323,7 @@ def select_owned_item(account, gear_type, df):
             if gear_type != 'Mounts':
                 item_info = f"{item_info} - {record['School']}"
             print(item_info)
+        print('')
         
         item_i = input().lower()
         if item_i == 'b':
@@ -503,8 +507,8 @@ def select_gear_type(account):
         return
 
 def list_accounts_with_nums():
-    for i in range(len(accounts)):
-        print(f"[{i + 1}] {accounts[i]}")
+    for i in range(len(utils.accounts)):
+        print(f"[{i + 1}] {utils.accounts[i]}")
     print('')
 
 def owned_gear():
@@ -519,11 +523,11 @@ def owned_gear():
     elif action_lower == 'q':
         sys.exit()
     elif not action:
-        select_gear_type(accounts[0])
+        select_gear_type(utils.accounts[0])
         return
     elif action in {'1', '2', '3'}:
-        select_gear_type(accounts[int(action) - 1])
+        select_gear_type(utils.accounts[int(action) - 1])
         return
     else:
-        print(f'\nInvalid input, please enter a number between 1 and {len(accounts)}\n')
+        print(f'\nInvalid input, please enter a number between 1 and {len(utils.accounts)}\n')
         owned_gear()

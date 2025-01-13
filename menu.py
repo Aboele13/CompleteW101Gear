@@ -171,7 +171,7 @@ def update_jewels_menu():
 
 def update_info_menu():
     
-    action = input("\nWhat would you like to update?\n\n[1] Update Everything\n[2] Update Gear\n[3] Update Jewels\n[4] Update Base Values\n[5] Update Set Bonuses\n[b] Back\n[q] Quit\n\n")
+    action = input("\nWhat would you like to update?\n\n[1] Update Everything\n[2] Update Gear\n[3] Update Jewels\n[4] Update Base Values\n[5] Update Set Bonuses\n[6] Update AOEs\n[b] Back\n[q] Quit\n\n")
     action_lower = action.lower()
     
     if action_lower == 'q':
@@ -196,6 +196,11 @@ def update_info_menu():
         from updateSetBonuses import update_set_bonuses
         update_set_bonuses()
         success_return_menu()
+        # update AOEs
+        print("\nBeginning to update AOEs...")
+        from updateAOEs import update_AOEs
+        update_AOEs()
+        success_return_menu()
     elif action == '2':
         update_gear_menu()
     elif action == '3':
@@ -209,6 +214,11 @@ def update_info_menu():
         print("\nBeginning to update set bonuses...")
         from updateSetBonuses import update_set_bonuses
         update_set_bonuses()
+        success_return_menu()
+    elif action == '6':
+        print("\nBeginning to update AOEs...")
+        from updateAOEs import update_AOEs
+        update_AOEs()
         success_return_menu()
     else:
         invalid_input_message()

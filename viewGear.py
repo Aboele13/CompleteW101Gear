@@ -140,7 +140,7 @@ def create_pinned_variations(df, pins_dfs_list, pin_index):
             result['Enchant Damage'] = enchant_damage
             result['Pins Used'] = pins_used if (pins_used or (pin_index < len(all_pin_shapes) - 1)) else '(No Pins)'
             combo_data.append(result)
-            
+    
     combo_df = pd.DataFrame(combo_data)
     return create_pinned_variations(combo_df, pins_dfs_list, pin_index + 1)
 
@@ -216,7 +216,7 @@ def jewel_the_items(df, filters):
 
 def objectively_best_gear(df):
     # Identify the columns to compare
-    cols_to_compare = [col for col in df.columns if col not in {"Name", "Level", "Source", "Gear Set", "Usable In", "School"}]
+    cols_to_compare = [col for col in df.columns if col not in {"Name", "Level", "Source", "Gear Set", "Usable In", "School", "Owned"}]
     remove_records = set()
 
     # Convert DataFrame to numpy for faster row-wise operations
@@ -255,7 +255,11 @@ def objectively_best_gear(df):
 
             # Mark rows for removal based on comparisons
             if not i_stays and not j_stays:
-                continue  # Both stay for now
+                if not row1["Owned"] and row2["Owned"]: # you only own the second one, so remove the first
+                    remove_records.add(i)
+                    break
+                else: # you own the first, both, or neither, so get rid of the second one
+                    remove_records.add(j)
             elif not i_stays:
                 remove_records.add(i)
                 break
@@ -275,8 +279,37 @@ def filter_by_sources(df, good_sources):
         return False
 
     df['match'] = df['Source'].apply(check_sources)
-    df = df[df['match']]
+    df = df[df['match'] | df['Owned']]
     return df.drop('match', axis=1).reset_index(drop=True)
+
+def add_owned_column(df, filters):
+    
+    gear_type = filters['Gear Type']
+    socketed = 'Socketed' if 'Jeweled' in filters else 'Unsocketed'
+    
+    try:
+        owned_df = pd.read_csv(f"Owned_Gear\\{filters['Account']}_Owned_Gear\\{filters['Account']}_{socketed}_Owned_Gear\\{filters['Account']}_{socketed}_Owned_{gear_type}.csv")
+    except: # if there are no owned items, return the original df with all "Owned" as false
+        df['Owned'] = False
+        return df
+    
+    if filters['School'] != 'All':
+        owned_df = owned_df[owned_df['School'] == filters['School']]
+    
+    if (gear_type in utils.clothing_gear_types or gear_type in utils.accessory_gear_types) and socketed == 'Socketed': # need to check both name and jewels/pins
+        
+        # looking for matching jewels or pins
+        sockets = "Jewels" if gear_type in utils.accessory_gear_types else "Pins"
+        
+        # Add a key to identify matching rows based on both "Name" and "Jewels Used" or "Pins Used"
+        merged_df = df.merge(owned_df, on=['Name', f'{sockets} Used'], how='left', indicator=True)
+        # Update the "Owned" column: If a match is found in both columns, set to True
+        df['Owned'] = merged_df['_merge'] == 'both'
+        
+    else: # don't need to check pins/jewels, just names
+        df['Owned'] = df['Name'].isin(owned_df['Name'])
+    
+    return df
 
 def set_unlock(jeweled_dict):
     unlock = 'Nothing'
@@ -504,6 +537,11 @@ def modify_jeweled(filters):
             print('\nInvalid input, please enter Y for default, n to set your own, or b to go back\n')
 
 def set_jeweled(filters):
+    if filters['School'] == 'All':
+        print(f"\nItems can not be jeweled when school is 'All'. Move into a school to jewel the items")
+        if 'Jeweled' in filters:
+            filters.pop('Jeweled')
+        return
     if 'Jeweled' in filters:
         remove = 'Nothing'
         print('\nThere are already Jeweled specifications, would you like to remove them? (Y/n), or b to go back\n')
@@ -524,11 +562,13 @@ def set_jeweled(filters):
 
 def view_gear():
     
-    # filters
+    # default filters
     filters = {
         'School': 'All',
         'Gear Type': 'Hats',
         'Level': 170,
+        'Account': 'Andrew',
+        'Owned': False,
         'Usable In': 'Everything',
         'Objectively Best': False,
         'School Stats Only': True,
@@ -562,10 +602,7 @@ def view_gear():
                     df = df[df[filter].isin({'Everything', 'PVP'})].reset_index(drop=True)
                 elif battle == 'Deckathalon':
                     df = df[df[filter].isin({"Everything", 'Deckathalon'})].reset_index(drop=True)
-            elif filter == 'Good Sources':
-                if filters['Gear Type'] != 'Pets':
-                    df = filter_by_sources(df, filters[filter]).reset_index(drop=True)
-            elif filter == 'School' or filter == 'Gear Type' or filter == 'Objectively Best' or filter == 'School Stats Only' or filter == 'Bad Sources' or filter == 'Jeweled':
+            elif filter in ['School', 'Gear Type', 'Objectively Best', 'School Stats Only', 'Good Sources', 'Bad Sources', 'Jeweled', 'Account', 'Owned']:
                 pass # these are handled later/elsewhere
             else:
                 stat_filters.add(filter) # save for later, jeweling should come first
@@ -573,6 +610,17 @@ def view_gear():
         # jewel/pin the items
         if 'Jeweled' in filters:
             df = jewel_the_items(df, filters)
+        
+        # add the owned column (has to be after jeweled)
+        df = add_owned_column(df, filters)
+        
+        # filter by the owned column
+        if filters['Owned']:
+            df = df[df['Owned']].reset_index(drop=True)
+        
+        # filter by source (has to be after owned column)
+        if filters['Gear Type'] != 'Pets':
+            df = filter_by_sources(df, filters['Good Sources']).reset_index(drop=True)
         
         # filter by minimum stat requirements (after jeweled)
         for filter in stat_filters:
@@ -628,10 +676,13 @@ def view_gear():
         elif action_lower == 'all':
             school = filters['School']
             gear_type = filters['Gear Type']
+            account = filters['Account']
             filters = {
                 'School': school,
                 'Gear Type': gear_type,
                 'Level': 170,
+                'Account': account,
+                'Owned': False,
                 'Usable In': 'All',
                 'Objectively Best': False,
                 'School Stats Only': False,
@@ -640,7 +691,7 @@ def view_gear():
             }
         elif action_lower == 'school':
             new_school = 'Nothing'
-            print('\nPlease enter the new school to view, or b to go back:\n')
+            print(f'\nPlease enter the new school to view, or b to go back:\n{utils.schools_of_items}\n')
             while True:
                 new_school = input()
                 if new_school.lower() == 'b':
@@ -650,7 +701,11 @@ def view_gear():
                 else:
                     filters['School'] = 'All' if new_school == 'Global' else new_school
                     if 'Jeweled' in filters:
-                        set_default_jeweled(filters)
+                        if filters['School'] == 'All':
+                            print(f"\nItems can not be jeweled when school is 'All'. Move into a school to jewel the items")
+                            filters.pop('Jeweled')
+                        else:
+                            set_default_jeweled(filters)
                     break
         elif action_lower == 'gear type':
             new_gear_type = 'Nothing'
@@ -671,6 +726,23 @@ def view_gear():
                 filters.pop('Gear Set')
             else:
                 filters['Gear Set'] = True
+        elif action_lower == 'account':
+            account = 'Nothing'
+            print(f'\nViewing the gear as which account? Select from {utils.accounts}, or b to go back or q to quit\n')
+            account_options = set(utils.accounts)
+            while True:
+                account = input()
+                if account.lower() == 'b':
+                    break
+                elif account.lower() == 'q':
+                    sys.exit()
+                elif account not in account_options:
+                    print(f'\nInvalid input, please enter one of the options: {account_options}, or b to go back or q to quit\n')
+                else:
+                    filters['Account'] = account
+                    break
+        elif action_lower == 'owned':
+            filters['Owned'] = not filters['Owned']
         elif action_lower == 'usable in':
             battle = 'Nothing'
             print('\nWhere should gear be usable: All, Everything, PVP, Deckathalon, or b to go back\n')

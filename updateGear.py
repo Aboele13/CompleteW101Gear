@@ -30,7 +30,7 @@ def extract_bullet_points_from_html(html_content):
     
     return bullet_points
 
-def extract_clothing_accessory_info_from_url(lines, soup):
+def extract_clothing_accessory_info_from_url(lines):
     # Extract content between "Item:" and "Male Image" for clothing
     # Extract content between "Item:" and "Image" for accessories
     start_index = None
@@ -54,22 +54,22 @@ def extract_clothing_accessory_info_from_url(lines, soup):
     
     if start_index and end_index:
         if not gauntlet:
-            return lines[start_index:end_index], level_required, soup
+            return lines[start_index:end_index], level_required
         else:
             list = lines[start_index:end_index]
             list.append("From Gauntlet")
-            return list, level_required, soup
+            return list, level_required
     elif start_index:
         if not gauntlet:
-            return lines[start_index:], level_required, soup
+            return lines[start_index:], level_required
         else:
             list = lines[start_index:]
             list.append("From Gauntlet")
-            return list, level_required, soup
+            return list, level_required
     else:
-        return [], level_required, soup
+        return [], level_required
 
-def extract_pet_mount_info_from_url(lines, soup):
+def extract_pet_mount_info_from_url(lines):
     # Extract content between "Pet:" and "Documentation on how to edit this page" for pets
     # Extract content between "Mount:" and "Documentation on how to edit this page" for mounts
     start_index = None
@@ -83,11 +83,11 @@ def extract_pet_mount_info_from_url(lines, soup):
             break
     
     if start_index and end_index:
-        return lines[start_index:end_index], level_required, soup
+        return lines[start_index:end_index], level_required
     elif start_index:
-        return lines[start_index:], level_required, soup
+        return lines[start_index:], level_required
     else:
-        return [], level_required, soup
+        return [], level_required
 
 
 def extract_information_from_url(url, gear_type):
@@ -102,15 +102,15 @@ def extract_information_from_url(url, gear_type):
         
         # retrieve proper lines/levels based on gear type
         if gear_type in utils.clothing_gear_types or gear_type in utils.accessory_gear_types:
-            return extract_clothing_accessory_info_from_url(lines, soup)
+            return extract_clothing_accessory_info_from_url(lines)
         elif gear_type == "Mounts" or gear_type == "Pets":
-            return extract_pet_mount_info_from_url(lines, soup)
+            return extract_pet_mount_info_from_url(lines)
         else: # should never happen
-            return [], None, soup
+            return [], None
     else:
-        return [], None, None
+        return [], None
 
-def format_extracted_info_wiki_errors(extracted_info, curr_gear_type):
+def format_extracted_info_wiki_errors(extracted_info):
     formatted_info = []
     for line in extracted_info:
         # Clean up extra commas and percentage signs
@@ -148,7 +148,7 @@ def format_extracted_info(extracted_info, curr_gear_type):
             while formatted_info[1] not in utils.schools_of_items:
                 formatted_info.pop(1)
         except: # some wiki pages are errors and don't have schools
-            return format_extracted_info_wiki_errors(extracted_info, curr_gear_type)
+            return format_extracted_info_wiki_errors(extracted_info)
     
     return formatted_info
 
@@ -285,16 +285,17 @@ def parse_bonuses(formatted_info, item_name, curr_gear_type):
     # Check for Sockets and count occurrences of specific types
     if curr_gear_type in utils.clothing_gear_types: # pins for clothing
         if "Sockets" in formatted_info:
-            sword_pins = formatted_info.count("Sword Socket")
-            shield_pins = formatted_info.count("Shield Socket")
-            power_pins = formatted_info.count("Power Socket")
-            bonuses['Sword Pins'] = int(sword_pins)
-            bonuses['Shield Pins'] = int(shield_pins)
-            bonuses['Power Pins'] = int(power_pins)
+            combined_text = " ".join(formatted_info)
+            sword_pins = combined_text.count("Sword Socket")
+            shield_pins = combined_text.count("Shield Socket")
+            power_pins = combined_text.count("Power Socket")
+            bonuses['Sword Pins'] = sword_pins
+            bonuses['Shield Pins'] = shield_pins
+            bonuses['Power Pins'] = power_pins
         else:
-            bonuses['Sword Pins'] = int(0)
-            bonuses['Shield Pins'] = int(0)
-            bonuses['Power Pins'] = int(0)
+            bonuses['Sword Pins'] = 0
+            bonuses['Shield Pins'] = 0
+            bonuses['Power Pins'] = 0
     
     elif curr_gear_type in utils.accessory_gear_types: # jewels for accessories
         if "Sockets" in formatted_info:
@@ -307,14 +308,14 @@ def parse_bonuses(formatted_info, item_name, curr_gear_type):
             locked_circles = combined_text.count("Locked Socket Circle")
             locked_squares = combined_text.count("Locked Socket Square")
             locked_triangles = combined_text.count("Locked Socket Triangle")
-            bonuses['Unlocked Tear'] = int(unlocked_tears)
-            bonuses['Unlocked Circle'] = int(unlocked_circles)
-            bonuses['Unlocked Square'] = int(unlocked_squares)
-            bonuses['Unlocked Triangle'] = int(unlocked_triangles)
-            bonuses['Locked Tear'] = int(locked_tears)
-            bonuses['Locked Circle'] = int(locked_circles)
-            bonuses['Locked Square'] = int(locked_squares)
-            bonuses['Locked Triangle'] = int(locked_triangles)
+            bonuses['Unlocked Tear'] = unlocked_tears
+            bonuses['Unlocked Circle'] = unlocked_circles
+            bonuses['Unlocked Square'] = unlocked_squares
+            bonuses['Unlocked Triangle'] = unlocked_triangles
+            bonuses['Locked Tear'] = locked_tears
+            bonuses['Locked Circle'] = locked_circles
+            bonuses['Locked Square'] = locked_squares
+            bonuses['Locked Triangle'] = locked_triangles
         else:
             bonuses['Unlocked Tear'] = 0
             bonuses['Unlocked Circle'] = 0
@@ -352,7 +353,7 @@ def process_bullet_point(base_url, bullet_point, curr_gear_type):
     print(f"Link: {full_url}")
     
     # Fetch and extract all information from the hyperlink
-    text_info, level_required, soup = extract_information_from_url(full_url, curr_gear_type)
+    text_info, level_required = extract_information_from_url(full_url, curr_gear_type)
     
     if curr_gear_type == "Mounts" and "Permanent" not in text_info:
         return None
@@ -426,7 +427,7 @@ def process_bullet_point(base_url, bullet_point, curr_gear_type):
         # if this is actually broken, the page url will just be printed over and over so i know what page needs attention
 
 def get_enchant_damage(damage_IC, item_name):
-    text_info, soup = utils.extract_item_card_info_from_url(f"https://wiki.wizard101central.com/wiki/ItemCard:{damage_IC}")
+    text_info = utils.extract_item_card_info_from_url(f"https://wiki.wizard101central.com/wiki/ItemCard:{damage_IC}")
     
     formatted_info = format_extracted_info(text_info, "")
     
@@ -523,6 +524,10 @@ def create_pet_variants(df):
 def clean_gear_df(df, curr_gear_type):
     if curr_gear_type == "Pets":
         df = create_pet_variants(remove_normal_pets(df)).reset_index(drop=True)
+    elif curr_gear_type in utils.clothing_gear_types:
+        df['Sword Pins'] = df['Sword Pins'].astype(int)
+        df['Shield Pins'] = df['Shield Pins'].astype(int)
+        df['Power Pins'] = df['Power Pins'].astype(int)
     df = utils.distribute_global_stats(df)
     df = utils.reorder_df_cols(df)
     df = df.sort_values(by = "Name", ascending = True).reset_index(drop=True)

@@ -13,6 +13,8 @@ schools_of_items = {"Global", "Balance", "Death", "Fire", "Ice", "Life", "Myth",
 all_stat_schools = schools_of_items | {"Shadow"}
 damage_ICs = ["Epic", "Colossal", "Gargantuan", "Monstrous", "Giant", "Strong"] # UPDATE WITH NEW DAMAGE ITEM CARDS
 
+accounts = ['Andrew', 'Chris', 'Tessa']
+
 def is_int(input):
     try:
         int(input)
@@ -151,11 +153,11 @@ def extract_item_card_info_from_url(url):
                 break
         
         if start_index and end_index:
-            return lines[start_index:end_index], soup
+            return lines[start_index:end_index]
         elif start_index:
-            return lines[start_index:], soup
+            return lines[start_index:]
         else:
-            return [], soup
+            return []
     else: # this means connection failure, just retry
         return extract_item_card_info_from_url(url)
 

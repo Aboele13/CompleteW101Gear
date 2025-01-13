@@ -1,0 +1,139 @@
+Spell,Pip Cost,School,Description
+Deer Knight,3,Death,Deals 300 Death Damage and 270 Death Damage over 3 Rounds to all enemies
+Deer Knight (Tier 2a),3,Death,Deals 305 Death Damage and 270 Death Damage over 3 Rounds to all enemies
+Deer Knight (Tier 2b),3,Death,Deals 305 Death Damage to and applies a -20 Damage Charm on all enemies
+Deer Knight (Tier 3a),3,Death,Deals 310 Death Damage and 270 Death Damage over 3 Rounds to all enemies
+Deer Knight (Tier 3b),3,Death,Deals 315 Death Damage to and applies a -20 Damage Charm on all enemies
+Deer Knight (Tier 4a),3,Death,Deals 315 Death Damage and 270 Death Damage over 3 Rounds to all enemies
+Deer Knight (Tier 4b),3,Death,Deals 320 Death Damage to and applies a -20 Damage Charm on all enemies
+Deer Knight (Tier 5a),3,Death,Deals 320 Death Damage and 270 Death Damage over 3 Rounds to all enemies
+Deer Knight (Tier 5b),3,Death,Deals 325 Death Damage to and applies a -20 Damage Charm on all enemies
+Scarecrow,7,Death,Deals 590 Death Drain Damage to all enemies and heals the caster for half the Damage dealt
+Scarecrow (Tier 2a),7,Death,Deals 600 Death Drain Damage to all enemies and heals the caster for half the Damage dealt
+Scarecrow (Tier 3a),7,Death,Deals 610 Death Drain Damage to all enemies and heals the caster for half the Damage dealt
+Scarecrow (Tier 4a),7,Death,Deals 620 Death Drain Damage to all enemies and heals the caster for half the Damage dealt
+Scarecrow (Tier 5a),7,Death,Deals 630 Death Drain Damage to all enemies and heals the caster for half the Damage dealt
+Ship of Fools,2,Death,Deals 300 Death Drain Damage to all enemies and heals the caster for half the Damage dealt
+Ship of Fools (Tier 2a),2,Death,Deals 305 Death Drain Damage to all enemies and heals the caster for half the Damage dealt
+Ship of Fools (Tier 2b),2,Death,Deals 325-365 Death Damage to all enemies
+Ship of Fools (Tier 3a),2,Death,Deals 310 Death Drain Damage to all enemies and heals the caster for half the Damage dealt
+Ship of Fools (Tier 3b),2,Death,Deals 335-375 Death Damage to all enemies
+Ship of Fools (Tier 4a),2,Death,Deals 320 Death Drain Damage to all enemies and heals the caster for half the Damage dealt
+Ship of Fools (Tier 4b),2,Death,Deals 345-385 Death Damage to all enemies
+Ship of Fools (Tier 5a),2,Death,Deals 330 Death Drain Damage to all enemies and heals the caster for half the Damage dealt
+Ship of Fools (Tier 5b),2,Death,Deals 355-395 Death Damage to all enemies
+Wobbegong Frenzy,3,Death,Deals 405 Death Damage to all enemies
+Wobbegong Frenzy (Tier 2a),3,Death,Deals 415 Death Damage to all enemies
+Wobbegong Frenzy (Tier 3a),3,Death,Deals 425 Death Damage to all enemies
+Wobbegong Frenzy (Tier 4a),3,Death,Deals 430 Death Damage to all enemies
+Drop Bear Fury,3,Myth,Deals 430 Myth Damage to all enemies
+Drop Bear Fury (Tier 2a),3,Myth,Deals 440 Myth Damage to all enemies
+Drop Bear Fury (Tier 3a),3,Myth,Deals 450 Myth Damage to all enemies
+Drop Bear Fury (Tier 4a),3,Myth,Deals 455 Myth Damage to all enemies
+Earthquake,6,Myth,Deals 370 Myth Damage to and removes all Charms and Wards from all enemies (
+Humongofrog,4,Myth,Deals 275-315 Myth Damage to all enemies
+Humongofrog (Tier 2a),4,Myth,Deals 280-320 Myth Damage to all enemies
+Humongofrog (Tier 3a),4,Myth,Deals 285-325 Myth Damage to all enemies
+Humongofrog (Tier 4a),4,Myth,Deals 290-330 Myth Damage to all enemies
+Humongofrog (Tier 5a),4,Myth,Deals 300-340 Myth Damage to all enemies
+Orthrus,7,Myth,Deals 700 Myth Damage to all enemies
+Orthrus (Tier 2a),7,Myth,Deals 710 Myth Damage to all enemies
+Orthrus (Tier 3a),7,Myth,Deals 720 Myth Damage to all enemies
+Orthrus (Tier 4a),7,Myth,Deals 730 Myth Damage to all enemies
+Orthrus (Tier 5a),7,Myth,Deals 745 Myth Damage to all enemies
+Iron Curse,4,Balance,Deals 55 Balance Damage and 300 Balance Damage over 3 Rounds to all enemies
+Iron Curse (Tier 2),4,Balance,Deals 60 Balance Damage and 315 Balance Damage over 3 Rounds to all enemies
+Iron Curse (Tier 3),4,Balance,Deals 60 Balance Damage and 330 Balance Damage over 3 Rounds to all enemies
+Iron Curse (Tier 4),4,Balance,Deals 60 Balance Damage and 345 Balance Damage over 3 Rounds to all enemies
+Iron Curse (Tier 5),4,Balance,Deals 65 Balance Damage and 360 Balance Damage over 3 Rounds to all enemies
+Power Nova,7,Balance,Deals 665 Balance Damage to all enemies
+Power Nova (Tier 2a),7,Balance,Deals 680 Balance Damage to all enemies
+Power Nova (Tier 3a),7,Balance,Deals 695 Balance Damage to all enemies
+Power Nova (Tier 4a),7,Balance,Deals 710 Balance Damage to all enemies
+Power Nova (Tier 5a),7,Balance,Deals 725 Balance Damage to all enemies
+Ra,8,Balance,Deals 420-500 Balance Damage to and applies a -40 Damage Charm on all enemies
+Ra (Tier 2a),8,Balance,Deals 430-510 Balance Damage to and applies a -40 Damage Charm on all enemies
+Ra (Tier 3a),8,Balance,Deals 440-520 Balance Damage to and applies a -40 Damage Charm on all enemies
+Ra (Tier 4a),8,Balance,Deals 450-530 Balance Damage to and applies a -40 Damage Charm on all enemies
+Ra (Tier 5a),8,Balance,Deals 460-540 Balance Damage to and applies a -40 Damage Charm on all enemies
+Rainbow Serpent,3,Balance,Deals 410 Storm Damage to all enemies
+Rainbow Serpent (Tier 2a),3,Balance,Deals 415 Storm Damage to all enemies
+Rainbow Serpent (Tier 3a),3,Balance,Deals 425 Storm Damage to all enemies
+Rainbow Serpent (Tier 4a),3,Balance,Deals 430 Storm Damage to all enemies
+Sandstorm,4,Balance,Deals 255-295 Balance Damage to all enemies
+Sandstorm (Tier 2a),4,Balance,Deals 260-300 Balance Damage to all enemies
+Sandstorm (Tier 3a),4,Balance,Deals 270-310 Balance Damage to all enemies
+Sandstorm (Tier 4a),4,Balance,Deals 275-315 Balance Damage to all enemies
+Sandstorm (Tier 5a),4,Balance,Deals 285-325 Balance Damage to all enemies
+Bunyip's Rage,3,Storm,Deals 605 Storm Damage to all enemies
+Bunyip's Rage (Tier 2a),3,Storm,Deals 615 Storm Damage to all enemies
+Bunyip's Rage (Tier 3a),3,Storm,Deals 625 Storm Damage to all enemies
+Bunyip's Rage (Tier 4a),3,Storm,Deals 635 Storm Damage to all enemies
+Sirens,9,Storm,Deals 805-905 Storm Damage to and applies a -40 Accuracy Charm on all enemies
+Sirens (Tier 2a),9,Storm,Deals 825-925 Storm Damage to and applies a -40 Accuracy Charm on all enemies
+Sirens (Tier 3a),9,Storm,Deals 845-945 Storm Damage to and applies a -40 Accuracy Charm on all enemies
+Sirens (Tier 4a),9,Storm,Deals 865-965 Storm Damage to and applies a -40 Accuracy Charm on all enemies
+Sirens (Tier 5a),9,Storm,Deals 890-990 Storm Damage to and applies a -40 Accuracy Charm on all enemies
+Storm Lord,7,Storm,Deals 690 Storm Damage to and Stuns all enemies for 1 Round (and applies a
+Storm Lord (Tier 2a),7,Storm,Deals 705 Storm Damage to and Stuns all enemies for 1 Round (and applies a
+Storm Lord (Tier 3a),7,Storm,Deals 720 Storm Damage to and Stuns all enemies for 1 Round (and applies a
+Storm Lord (Tier 4a),7,Storm,Deals 735 Storm Damage to and Stuns all enemies for 1 Round (and applies a
+Storm Lord (Tier 5a),7,Storm,Deals 755 Storm Damage to and Stuns all enemies for 1 Round (and applies a
+Tempest,X,Storm,Deals 80 Storm Damage per Pip to all enemies
+Forest Lord,7,Life,Deals 620-680 Life Damage to all enemies
+Forest Lord (Tier 2a),7,Life,Deals 630-690 Life Damage to all enemies
+Forest Lord (Tier 3a),7,Life,Deals 640-700 Life Damage to all enemies
+Forest Lord (Tier 4a),7,Life,Deals 650-710 Life Damage to all enemies
+Forest Lord (Tier 5a),7,Life,Deals 660-720 Life Damage to all enemies
+Ratatoskr's Spin,2,Life,Deals 310-340 Life Damage to all enemies
+Ratatoskr's Spin (Tier 2a),2,Life,Deals 320-350 Life Damage to all enemies
+Ratatoskr's Spin (Tier 3a),2,Life,Deals 330-360 Life Damage to all enemies
+Ratatoskr's Spin (Tier 4a),2,Life,Deals 340-370 Life Damage to all enemies
+Ratatoskr's Spin (Tier 5a),2,Life,Deals 350-380 Life Damage to all enemies
+Zand the Bandit,3,Life,Deals 400 Life Damage to all enemies
+Zand the Bandit (Tier 2a),3,Life,Deals 410 Life Damage to all enemies
+Zand the Bandit (Tier 3a),3,Life,Deals 420 Life Damage to all enemies
+Zand the Bandit (Tier 4a),3,Life,Deals 425 Life Damage to all enemies
+Fire Dragon,7,Fire,Deals 540 Fire Damage and 435 Fire Damage over 3 Rounds to all enemies
+Fire Dragon (Tier 2a),7,Fire,Deals 550 Fire Damage and 435 Fire Damage over 3 Rounds to all enemies
+Fire Dragon (Tier 3a),7,Fire,Deals 565 Fire Damage and 435 Fire Damage over 3 Rounds to all enemies
+Fire Dragon (Tier 4a),7,Fire,Deals 575 Fire Damage and 435 Fire Damage over 3 Rounds to all enemies
+Fire Dragon (Tier 5a),7,Fire,Deals 590 Fire Damage and 435 Fire Damage over 3 Rounds to all enemies
+Meteor Strike,4,Fire,Deals 305-345 Fire Damage to all enemies
+Meteor Strike (Tier 2a),4,Fire,Deals 315-355 Fire Damage to all enemies
+Meteor Strike (Tier 3a),4,Fire,Deals 325-365 Fire Damage to all enemies
+Meteor Strike (Tier 4a),4,Fire,Deals 330-370 Fire Damage to all enemies
+Meteor Strike (Tier 5a),4,Fire,Deals 340-380 Fire Damage to all enemies
+Phantasmania!,3,Fire,Deals 485 Fire Damage to all enemies
+Phantasmania! (Tier 2a),3,Fire,Deals 495 Fire Damage to all enemies
+Phantasmania! (Tier 3a),3,Fire,Deals 505 Fire Damage to all enemies
+Phantasmania! (Tier 4a),3,Fire,Deals 510 Fire Damage to all enemies
+Rain of Fire,9,Fire,Deals 130 Fire Damage and 810 Fire Damage over 3 Rounds to all enemies
+Rain of Fire (Tier 2a),9,Fire,Deals 130 Fire Damage and 825 Fire Damage over 3 Rounds to all enemies
+Rain of Fire (Tier 3a),9,Fire,Deals 130 Fire Damage and 840 Fire Damage over 3 Rounds to all enemies
+Rain of Fire (Tier 4a),9,Fire,Deals 130 Fire Damage and 855 Fire Damage over 3 Rounds to all enemies
+Rain of Fire (Tier 5a),9,Fire,Deals 130 Fire Damage and 870 Fire Damage over 3 Rounds to all enemies
+Blizzard,4,Ice,Deals 250-290 Ice Damage to all enemies
+Blizzard (Tier 2a),4,Ice,Deals 255-295 Ice Damage to all enemies
+Blizzard (Tier 3a),4,Ice,Deals 260-300 Ice Damage to all enemies
+Blizzard (Tier 4a),4,Ice,Deals 265-305 Ice Damage to all enemies
+Blizzard (Tier 5a),4,Ice,Deals 275-315 Ice Damage to all enemies
+Count Croakula,3,Ice,Deals 400 Ice Damage to all enemies
+Count Croakula (Tier 2a),3,Ice,Deals 410 Ice Damage to all enemies
+Count Croakula (Tier 3a),3,Ice,Deals 420 Ice Damage to all enemies
+Count Croakula (Tier 4a),3,Ice,Deals 425 Ice Damage to all enemies
+Frost Giant,7,Ice,Deals 570 Ice Damage to and Stuns all enemies for 1 Round (and applies a
+Frost Giant (Tier 2a),7,Ice,Deals 580 Ice Damage to and Stuns all enemies for 1 Round (and applies a
+Frost Giant (Tier 3a),7,Ice,Deals 590 Ice Damage to and Stuns all enemies for 1 Round (and applies a
+Frost Giant (Tier 4a),7,Ice,Deals 600 Ice Damage to and Stuns all enemies for 1 Round (and applies a
+Frost Giant (Tier 5a),7,Ice,Deals 615 Ice Damage to and Stuns all enemies for 1 Round (and applies a
+Reindeer Knight,3,Ice,Deals 295 Ice Damage and 265 Ice Damage over 3 Rounds to all enemies
+Reindeer Knight (Tier 2a),3,Ice,Deals 310 Ice Damage and 255 Ice Damage over 3 Rounds to all enemies
+Reindeer Knight (Tier 2b),3,Ice,Deals 295 Ice Damage to all enemies and applies a -50 Damage Ward on all allies
+Reindeer Knight (Tier 3a),3,Ice,Deals 340 Ice Damage and 225 Ice Damage over 3 Rounds to all enemies
+Reindeer Knight (Tier 3b),3,Ice,Deals 295 Ice Damage to all enemies and applies a -60 Damage Ward on all allies
+Snow Angel,8,Ice,Deals 35 Ice Damage and 660 Ice Damage over 3 Rounds to all enemies
+Snow Angel (Tier 2a),8,Ice,Deals 35 Ice Damage and 675 Ice Damage over 3 Rounds to all enemies
+Snow Angel (Tier 3a),8,Ice,Deals 35 Ice Damage and 690 Ice Damage over 3 Rounds to all enemies
+Snow Angel (Tier 4a),8,Ice,Deals 35 Ice Damage and 705 Ice Damage over 3 Rounds to all enemies
+Snow Angel (Tier 5a),8,Ice,Deals 35 Ice Damage and 720 Ice Damage over 3 Rounds to all enemies

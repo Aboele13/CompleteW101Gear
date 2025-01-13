@@ -54,13 +54,13 @@ def extract_information_from_url(url):
                 break
         
         if start_index and end_index:
-            return lines[start_index:end_index], soup
+            return lines[start_index:end_index]
         elif start_index:
-            return lines[start_index:], soup
+            return lines[start_index:]
         else:
-            return [], soup
+            return []
     else:
-        return [], None, None
+        return []
 
 def format_extracted_info(extracted_info):
     formatted_info = []
@@ -79,7 +79,7 @@ def format_extracted_info(extracted_info):
     return formatted_info
 
 def get_enchant_damage(damage_IC, jewel_name):
-    text_info, soup = utils.extract_item_card_info_from_url(f"https://wiki.wizard101central.com/wiki/ItemCard:{damage_IC}")
+    text_info = utils.extract_item_card_info_from_url(f"https://wiki.wizard101central.com/wiki/ItemCard:{damage_IC}")
     
     formatted_info = format_extracted_info(text_info)
     
@@ -106,7 +106,7 @@ def process_bullet_point(base_url, bullet_point):
     print(f"Link: {full_url}")
     
     # Fetch and extract all information from the hyperlink
-    text_info, soup = extract_information_from_url(full_url)
+    text_info = extract_information_from_url(full_url)
     
     if text_info:
         formatted_info = format_extracted_info(text_info)
