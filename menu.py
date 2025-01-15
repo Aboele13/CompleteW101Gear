@@ -195,7 +195,6 @@ def update_info_menu():
         print("\nBeginning to update set bonuses...")
         from updateSetBonuses import update_set_bonuses
         update_set_bonuses()
-        success_return_menu()
         # update AOEs
         print("\nBeginning to update AOEs...")
         from updateAOEs import update_AOEs
