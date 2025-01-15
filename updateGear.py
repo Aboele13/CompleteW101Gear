@@ -167,7 +167,7 @@ def parse_wiki_error_gear(item_name, bonuses, parts):
         return bonuses
     elif item_name == "Footwraps of Pictures":
         bonuses["Max Health"] = 21
-        bonuses[f"Storm Accuracy"] = 2
+        bonuses["Storm Accuracy"] = 2
         return bonuses
     elif item_name == "Tetrus Deck of Sleet":
         bonuses["Max Health"] = 84
@@ -271,7 +271,9 @@ def parse_bonuses(formatted_info, item_name, curr_gear_type):
                 try:
                     value = int(parts[0][1:])
                 except ValueError:
-                    return parse_wiki_error_gear(item_name, bonuses, parts)
+                    bonuses = parse_wiki_error_gear(item_name, bonuses, parts)
+                    category_parts = []
+                    break
                 category_parts = parts[1:]
             else:
                 category_parts.append(formatted_info[i])
@@ -296,7 +298,6 @@ def parse_bonuses(formatted_info, item_name, curr_gear_type):
             bonuses['Sword Pins'] = 0
             bonuses['Shield Pins'] = 0
             bonuses['Power Pins'] = 0
-    
     elif curr_gear_type in utils.accessory_gear_types: # jewels for accessories
         if "Sockets" in formatted_info:
             combined_text = " ".join(formatted_info)
@@ -521,13 +522,65 @@ def create_pet_variants(df):
 
     return exploded_df
 
+def add_in_custom_gear(df, curr_gear_type): # add in my own item that isn't in the wiki
+    
+    new_items = []
+    
+    if curr_gear_type == 'Hats':
+        return df
+    elif curr_gear_type == 'Robes':
+        return df
+    elif curr_gear_type == 'Boots':
+        return df
+    elif curr_gear_type == 'Wands':
+        return df
+    elif curr_gear_type == 'Athames':
+        return df
+    elif curr_gear_type == 'Amulets':
+        return df
+    elif curr_gear_type == 'Rings':
+        return df
+    elif curr_gear_type == 'Pets':
+        new_items.append({
+            'Name': 'Other (Chris Storm Pet)',
+            'Level': 1,
+            'Gear Set': 'No Gear Set',
+            'Usable In': 'Everything',
+            'School': 'Global',
+            'Storm Damage': 16,
+            'Global Damage': 6,
+            'Global Resistance': 10,
+            'Storm Critical Rating': 32,
+            'Global Critical Rating': 31,
+        })
+        new_items.append({
+            'Name': 'Other (Chris Fire Pet)',
+            'Level': 1,
+            'Gear Set': 'No Gear Set',
+            'Usable In': 'Everything',
+            'School': 'Global',
+            'Fire Damage': 17,
+            'Global Damage': 7,
+            'Global Resistance': 17,
+        })
+    elif curr_gear_type == 'Mounts':
+        return df
+    elif curr_gear_type == 'Decks':
+        return df
+    
+    for i in range(len(new_items)):
+        for col in df.columns.tolist():
+            if col not in new_items[i]:
+                new_items[i][col] = 0
+    
+    df = pd.concat([df, pd.DataFrame(new_items)], ignore_index=True)
+    
+    return df
+
 def clean_gear_df(df, curr_gear_type):
     if curr_gear_type == "Pets":
         df = create_pet_variants(remove_normal_pets(df)).reset_index(drop=True)
-    elif curr_gear_type in utils.clothing_gear_types:
-        df['Sword Pins'] = df['Sword Pins'].astype(int)
-        df['Shield Pins'] = df['Shield Pins'].astype(int)
-        df['Power Pins'] = df['Power Pins'].astype(int)
+    df = add_in_custom_gear(df, curr_gear_type)
     df = utils.distribute_global_stats(df)
     df = utils.reorder_df_cols(df)
     df = df.sort_values(by = "Name", ascending = True).reset_index(drop=True)

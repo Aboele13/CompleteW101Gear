@@ -485,11 +485,11 @@ def match_default_jewel_school(filters): # get school specific circle and triang
         filters['Jeweled']['Triangles'].add(f"accurate {school_to_jewel[filters['School']].lower()}")
 
 def set_default_jeweled(filters):
-    def_sec_school = 'Life' if filters['School'] != 'Life' else 'Storm'
+    def_sec_school = 'Life' if filters['School'] != 'Life' else 'Death'
     filters['Jeweled'] = {
         'Unlock': True,
         'Secondary School': def_sec_school,
-        'Tears': {'health'},
+        'Tears': {'health'} if filters['Level'] >= 50 else {'health', 'archmastery'},
         'Circles': {'damage', 'piercing'},
         'Squares': {'health'} if filters['Level'] >= 170 else {'defense opal'},
         'Triangles': {'accurate', 'pip opal'} | set([item_card.lower() for item_card in utils.damage_ICs]),

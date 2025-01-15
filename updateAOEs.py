@@ -71,21 +71,104 @@ def format_extracted_info(extracted_info):
     
     return formatted_info
 
+def description_to_damage(description):
+    nums = []
+    
+    curr_num = ''
+    per_pip = False
+    
+    for i in range(len(description)):
+        char = description[i]
+        if char.isdigit() or char in {'+', "-"}:
+            curr_num = f"{curr_num}{char}"
+        elif curr_num:
+            nums.append(curr_num)
+            curr_num = ''
+        elif i + 5 < len(description) and description[i:i + 6] == "Rounds":
+            nums.pop()
+        elif not per_pip and i + 6 < len(description) and description[i:i + 7] == "per Pip":
+            per_pip = True
+    
+    # description can't end with number, so we're done checking
+    
+    # remove charms/wards (they start with + or -)
+    i = 0
+    while i < len(nums):
+        if nums[i][0] in {'+', "-"}:
+            nums.pop(i)
+        else:
+            i += 1
+    
+    # get rid of dot damage
+    nums = nums[0] if nums else '0'
+    
+    # find average in range
+    if '-' in nums:
+        two_nums = nums.split('-')
+        nums = (int(two_nums[0]) + int(two_nums[1])) // 2
+    
+    return int(nums) * 5 if per_pip else int(nums) # update if starter pips increases
+
+def set_owned_AOEs(spell_data): # update the owned spell everytime i get a new one (or spellement upgrade)
+    
+    # first AOE each school gets
+    defaults = {"Deer Knight", "Meteor Strike", "Sandstorm", "Humongofrog", "Tempest", "Blizzard", "Ratatoskr's Spin"}
+    
+    # create the list of extra AOEs each account has
+    andrew_owned_AOEs = {
+        "Iron Curse", "Rainbow Serpent (Tier 3a)",
+        "Deer Knight (Tier 2a)", "Ship of Fools", "Wobbegong Frenzy (Tier 3a)",
+        "Phantasmania! (Tier 3a)",
+        "Reindeer Knight",
+        "Drop Bear Fury (Tier 3a)",
+        "Bunyip's Rage (Tier 3a)",
+        } | defaults
+    chris_owned_AOEs = {"Bunyip's Rage"} | defaults
+    tessa_owned_AOEs = {"Zand the Bandit"} | defaults
+    
+    # start each col value as False
+    spell_data['Andrew Owned'] = False
+    spell_data['Chris Owned'] = False
+    spell_data['Tessa Owned'] = False
+    
+    # set to true if name matches
+    if spell_data['Spell'] in andrew_owned_AOEs:
+        spell_data['Andrew Owned'] = True
+    if spell_data['Spell'] in chris_owned_AOEs:
+        spell_data['Chris Owned'] = True
+    if spell_data['Spell'] in tessa_owned_AOEs:
+        spell_data['Tessa Owned'] = True
+    
+    return spell_data
+
 def parse_spell(formatted_info, spell_name):
     spell_data = {
         'Spell': spell_name,
-        'Pip Cost': "I don't know the pips",
+        'Pip Cost': 0,
         'School': "I don't know the school",
-        'Description': "I don't know the description",
+        'Damage': 0,
+        'Has DOT': False,
     }
     
     for i, line in enumerate(formatted_info):
         if "Pip Cost" == line:
-            spell_data['Pip Cost'] = formatted_info[i + 1]
+            pip_cost = formatted_info[i + 1]
+            spell_data['Pip Cost'] += 5 if pip_cost == 'X' else int(pip_cost) # update if starter pips increases
         elif "School" == line:
             spell_data['School'] = formatted_info[i + 1]
         elif "Spell Description" == line:
-            spell_data['Description'] = formatted_info[i + 1]
+            description = formatted_info[i + 1]
+            if "Damage over" in description and "Rounds" in description:
+                spell_data['Has DOT'] = True
+            spell_data['Damage'] = description_to_damage(description)
+        elif "School Pip Cost" == line:
+            j = i + 1
+            while formatted_info[j] != "Accuracy": # accounting for multiple school pips needed
+                spell_data['Pip Cost'] += (int(formatted_info[j]) * 2)
+                j += 2
+    
+    # set columns for which spells Andrew/Chris/Tessa have
+    spell_data = set_owned_AOEs(spell_data)
     
     return spell_data
 
@@ -135,7 +218,7 @@ def is_not_aoe(spell_name, text_info):
         return True
     if "(" in spell_name and "(Tier " not in spell_name: # outdated spell variants
         return True
-    if "Shadow Pip Cost" in all_text:
+    if "Shadow Pip Cost" in all_text: # shad spells (since shadow pips aren't guaranteed)
         return True
     
     return False
@@ -158,7 +241,7 @@ def process_bullet_point(base_url, bullet_point):
         
         formatted_info = format_extracted_info(text_info)
         
-        # if spell_name == "Surtr's Rage I": # testing
+        # if spell_name == "Pork's Plan": # testing
         #     print(formatted_info)
         
         return parse_spell(formatted_info, spell_name)
@@ -215,6 +298,7 @@ def update_AOEs():
     
     # move all items to dataframe
     df = pd.DataFrame(spells_data).fillna(0)  # fill all empty values with 0
+    df = df[df['Pip Cost'] <= 5] # only get AOEs I can use round one, update if starter pips changes
     df = df.sort_values(by=['School', 'Spell'], ascending=[True, True]).reset_index(drop=True)
     print(df)
     file_path = f'AOEs.csv'

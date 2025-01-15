@@ -107,18 +107,14 @@ def select_owned_item_school(account, gear_type, item):
         else:
             print(f"\nInvalid input. Please enter the the school of the wizard you got {item['Name']} on")
 
-def filter_socket(item, shape):
+def select_socket(item, shape):
+    
     all_jewels_df = pd.read_csv(f"Jewels\\{item['School']}_Jewels\\{item['School']}_{shape}_Jewels.csv")
     
-    item_i = -1 # index of the jewel to add to owned item
-    
-    while item_i < 0 or item_i >= len(all_jewels_df):
+    while len(all_jewels_df) > 20 or len(all_jewels_df) == 0:
         if len(all_jewels_df) == 0:
             print(f"\nNo {shape} Sockets have this name, resetting to the full dataframe\n")
-            select_socket(item, shape)
-            return
-        elif len(all_jewels_df) <= 20:
-            return all_jewels_df
+            all_jewels_df = pd.read_csv(f"Jewels\\{item['School']}_Jewels\\{item['School']}_{shape}_Jewels.csv")
         else:
             print(all_jewels_df)
             print(f"\nEnter part of the {shape} Socket's name to filter down the dataframe, or submit nothing to select no socket, or q to quit:\n")
@@ -126,15 +122,13 @@ def filter_socket(item, shape):
             if name_substr == 'q':
                 sys.exit()
             elif not name_substr:
-                return None
+                all_jewels_df = all_jewels_df[all_jewels_df['Name'].str.contains("This is an impossible name to wipe the dataframe")].reset_index(drop=True)
+                break
             else:
                 all_jewels_df = all_jewels_df[all_jewels_df['Name'].str.contains(name_substr, case=False)].reset_index(drop=True)
-
-def select_socket(item, shape):
-    df = filter_socket(item, shape)
     
-    if len(df) > 0:
-        data = df.to_dict('records')
+    if len(all_jewels_df) > 0:
+        data = all_jewels_df.to_dict('records')
         
         added_socket_name = 'No Name'
         
@@ -343,7 +337,7 @@ def select_owned_item(account, gear_type, df):
                 else: # can only be this school/wizard
                     
                     # confirm addition
-                    print(f"\nYou chose to add\n[{item_i}] {added_item_name} - Level {record['Level']} - {data[item_i]['School']}\nIs this correct? (Y/n) or b to go back, or q to quit.\n")
+                    print(f"\nYou chose to add\n[{item_i}] {added_item_name} - Level {data[item_i]['Level']} - {data[item_i]['School']}\nIs this correct? (Y/n) or b to go back, or q to quit.\n")
                     action = input().lower()
                     if action == 'q':
                         sys.exit()
@@ -358,19 +352,15 @@ def select_owned_item(account, gear_type, df):
             print(f"\nInvalid input, please enter an integer between 0 and {len(data) - 1}")
     
     print(f"\nThe specified {added_item_name} has been added. Would you like to add another item?\n")
+    add_owned_item(account, gear_type)
 
 def add_owned_item(account, gear_type):
+    
     all_items_df = pd.read_csv(f'Gear\\All_Gear\\All_{gear_type}.csv')
     
-    item_i = -1 # index of the item to add to owned gear
-    
-    while item_i < 0 or item_i >= len(all_items_df):
+    while len(all_items_df) > 20 or len(all_items_df) == 0:
         if len(all_items_df) == 0:
             print(f"\nNo {gear_type} have this name, resetting to the full dataframe\n")
-            add_owned_item(account, gear_type)
-            return
-        elif len(all_items_df) <= 20:
-            select_owned_item(account, gear_type, all_items_df)
             add_owned_item(account, gear_type)
             return
         else:
@@ -384,6 +374,8 @@ def add_owned_item(account, gear_type):
                 sys.exit()
             else:
                 all_items_df = all_items_df[all_items_df['Name'].str.contains(name_substr, case=False)].reset_index(drop=True)
+    
+    select_owned_item(account, gear_type, all_items_df)
 
 def remove_owned_item(account, gear_type):
     file_path = f"Owned_Gear\\{account}_Owned_Gear\\{account}_Socketed_Owned_Gear\\{account}_Socketed_Owned_{gear_type}.csv"

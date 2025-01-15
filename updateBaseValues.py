@@ -66,11 +66,11 @@ def pip_conversion_lines(all_lines):
     pip_conv_section = all_lines[all_lines.index("Pip Conversion"):]
     return pip_conv_section[pip_conv_section.index("110"):] # would need to get updated if pip conserve given to lower wizards
 
-def fill_zeroes(lists):
+def fill_pip_conv_zeroes(lists):
     
-    for list in lists:
-        while len(list) < max_level:
-            list.insert(0, "0")
+    for i in range(len(lists)):
+        one_ten_plus = lists[i] # because pip conversion starts at level 110
+        lists[i] = (["0"] * 109) + one_ten_plus
     
     return lists
 
@@ -86,9 +86,36 @@ def create_pip_conv_lists(all_lines):
         lists[list_i].append(line)
         list_i = list_i + 1 if list_i + 1 < len(lists) else 0
     
-    lists = fill_zeroes(lists)
+    lists = fill_pip_conv_zeroes(lists)
     
     return lists[1:]
+
+def get_enchant_damage_list():
+    
+    enchant_damage_list = []
+
+    curr_enchant_dmg = 0
+    
+    level = 1
+    while level <= max_level:
+        if level == 50: # at level 50, you get strong
+            curr_enchant_dmg = 100
+        elif level == 52: # at level 52, you get giant
+            curr_enchant_dmg = 125
+        elif level == 56: # at level 56, you get monstrous
+            curr_enchant_dmg = 175
+        elif level == 58: # at level 58, you get gargantuan
+            curr_enchant_dmg = 225
+        elif level == 64: # at level 64, you get colossal
+            curr_enchant_dmg = 275
+        elif level == 110: # at level 110, you get epic
+            curr_enchant_dmg = 300
+        # update if they add a new enchant
+        
+        enchant_damage_list.append(curr_enchant_dmg)
+        level += 1
+    
+    return enchant_damage_list
 
 # remove %, deal with ??? and convert to int
 def clean_list(list):
@@ -160,6 +187,21 @@ def clean_lists(lists):
     
     return lists
 
+def fill_future_levels(lists):
+    
+    if len(lists[0]) == max_level:
+        return lists
+    
+    for i in range(len(lists)):
+        previous_max_level = len(lists[i])
+        level_gap = max_level - previous_max_level
+        max_stat = lists[i][previous_max_level - 1]
+        while len(lists[i]) < max_level:
+            max_stat += (lists[i][previous_max_level - 1] - lists[i][previous_max_level - level_gap - 1]) / level_gap
+            lists[i].append(int(max_stat))
+    
+    return lists
+
 def update_base_values():
     
     all_lines = get_all_lines()
@@ -167,8 +209,11 @@ def update_base_values():
     lists = create_hp_lists(all_lines)
     lists.extend(create_pip_conv_lists(all_lines))
     
-    [level, fire, ice, storm, myth, life, death, balance, pip, shad, arch, fire_pc, ice_pc, storm_pc, myth_pc, life_pc, death_pc, balance_pc] = clean_lists(lists)
+    [level, fire, ice, storm, myth, life, death, balance, pip, shad, arch, fire_pc, ice_pc, storm_pc, myth_pc, life_pc, death_pc, balance_pc] = fill_future_levels(clean_lists(lists))
 
+    # add in my own columns/lists
+    enchant_dmg = get_enchant_damage_list()
+    
     # columns in the base values dataframe
     data = {
         "Level": level,
@@ -188,7 +233,8 @@ def update_base_values():
         "Myth Pip Conversion Rating": myth_pc,
         "Life Pip Conversion Rating": life_pc,
         "Death Pip Conversion Rating": death_pc,
-        "Balance Pip Conversion Rating": balance_pc
+        "Balance Pip Conversion Rating": balance_pc,
+        "Enchant Damage": enchant_dmg,
     }
 
     # move all items to dataframe
@@ -204,7 +250,7 @@ def update_base_values():
     # create dataframes for each school
     for school in utils.schools_of_items:
         if school != "Global":
-            school_df = df[["Level", f"{school} Max Health", "Power Pip", "Shadow Pip", "Archmastery", f"{school} Pip Conversion Rating"]]
+            school_df = df[["Level", f"{school} Max Health", "Power Pip", "Shadow Pip", "Archmastery", f"{school} Pip Conversion Rating", "Enchant Damage"]]
             school_df = school_df.rename(columns={f"{school} Max Health": 'Max Health'})
             file_path = f'Base_Values\\{school}_Base_Values.csv'
             try:
