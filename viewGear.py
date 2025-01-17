@@ -462,7 +462,7 @@ def match_default_jewel_school(filters): # get school specific circle and triang
     if 'damage' in filters['Jeweled']['Circles']:
         filters['Jeweled']['Circles'].remove('damage')
         damage_percent_jewels_df = df[(df['Name'].str.contains(f"Damage {school_to_jewel[filters['School']]}")) & (df['Name'].str.extract(f"({filters['School']})").notnull().any(axis=1))].reset_index(drop=True)
-        if len(damage_percent_jewels_df) > 0 and filters['Level'] >= 170:
+        if len(damage_percent_jewels_df) > 0 and filters['Level'] >= utils.max_level:
             filters['Jeweled']['Circles'].add(objectively_best_jewels(damage_percent_jewels_df).iloc[0]['Name'].lower())
         else:
             filters['Jeweled']['Circles'].add(f"damage {school_to_jewel[filters['School']].lower()}")
@@ -491,7 +491,7 @@ def set_default_jeweled(filters):
         'Secondary School': def_sec_school,
         'Tears': {'health'} if filters['Level'] >= 50 else {'health', 'archmastery'},
         'Circles': {'damage', 'piercing'},
-        'Squares': {'health'} if filters['Level'] >= 170 else {'defense opal'},
+        'Squares': {'health'} if filters['Level'] >= utils.max_level else {'defense opal'},
         'Triangles': {'accurate', 'pip opal'} | set([item_card.lower() for item_card in utils.damage_ICs]),
         'Swords': {'disabling'},
         'Shields': {'resist'},
@@ -566,7 +566,7 @@ def view_gear():
     filters = {
         'School': 'All',
         'Gear Type': 'Hats',
-        'Level': 170,
+        'Level': utils.max_level,
         'Account': 'Andrew',
         'Owned': False,
         'Usable In': 'Everything',
@@ -632,20 +632,7 @@ def view_gear():
         # school stats columns only
         if filters['School Stats Only']:
             curr_school = 'Global' if filters['School'] == 'All' else filters['School']
-            cols_to_drop = []
-            for col in df.columns:
-                pot_school = col.split()[0]
-                if pot_school in utils.all_stat_schools and pot_school != curr_school and col != "Shadow Pip Rating":
-                    if col == 'Global Resistance':
-                        cols_to_drop.append(f'{curr_school} Resistance')
-                    elif col == 'Global Flat Resistance':
-                        cols_to_drop.append(f'{curr_school} Flat Resistance')
-                    elif col == 'Global Critical Block Rating':
-                        cols_to_drop.append(f'{curr_school} Critical Block Rating')
-                    else:
-                        cols_to_drop.append(col)
-            df = df.drop(cols_to_drop, axis=1)
-            df.columns = [col.replace(curr_school + " ", "").replace('Global' + ' ', '') for col in df.columns]
+            df = utils.view_school_stats_only(curr_school, df)
             df = df.sort_values(by=['Damage', 'Resistance', 'Max Health', 'Critical Rating', 'Armor Piercing'], ascending=[False, False, False, False, False]).reset_index(drop=True)
         
         # only objectively best
@@ -680,7 +667,7 @@ def view_gear():
             filters = {
                 'School': school,
                 'Gear Type': gear_type,
-                'Level': 170,
+                'Level': utils.max_level,
                 'Account': account,
                 'Owned': False,
                 'Usable In': 'All',
@@ -796,14 +783,13 @@ def view_gear():
                     break
                 elif utils.is_int(num):
                     int_num = int(num)
-                    max_level = 170 # UPDATE WITH NEW WORLD
-                    if int_num > 0 and int_num <= max_level:
+                    if int_num > 0 and int_num <= utils.max_level:
                         filters['Level'] = int_num
                         if 'Jeweled' in filters:
                             set_default_jeweled(filters)
                         break
                     else:
-                        print(f'\nInvalid value, enter a number between 1 and {max_level}, or b to go back\n')
+                        print(f'\nInvalid value, enter a number between 1 and {utils.max_level}, or b to go back\n')
                 else:
                     print('\nInvalid value, please retry\n')
         elif action in orig_df.columns:

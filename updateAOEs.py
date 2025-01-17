@@ -301,7 +301,7 @@ def update_AOEs():
     df = df[df['Pip Cost'] <= 5] # only get AOEs I can use round one, update if starter pips changes
     df = df.sort_values(by=['School', 'Spell'], ascending=[True, True]).reset_index(drop=True)
     print(df)
-    file_path = f'AOEs.csv'
+    file_path = f'Other_CSVs\\AOEs.csv'
     try:
         df.to_csv(file_path, index=False)
     except:

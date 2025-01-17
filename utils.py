@@ -15,6 +15,8 @@ damage_ICs = ["Epic", "Colossal", "Gargantuan", "Monstrous", "Giant", "Strong"] 
 
 accounts = ['Andrew', 'Chris', 'Tessa']
 
+max_level = 170 # UPDATE WITH NEW WORLDS
+
 def is_int(input):
     try:
         int(input)
@@ -109,6 +111,24 @@ def distribute_global_stats(df):
     
     return df
 
+def view_school_stats_only(school, df):
+    cols_to_drop = []
+    for col in df.columns:
+        pot_school = col.split()[0]
+        if pot_school in all_stat_schools and pot_school != school and col != "Shadow Pip Rating":
+            if col == 'Global Resistance':
+                cols_to_drop.append(f'{school} Resistance')
+            elif col == 'Global Flat Resistance':
+                cols_to_drop.append(f'{school} Flat Resistance')
+            elif col == 'Global Critical Block Rating':
+                cols_to_drop.append(f'{school} Critical Block Rating')
+            else:
+                cols_to_drop.append(col)
+    df = df.drop(cols_to_drop, axis=1)
+    df.columns = [col.replace(school + " ", "").replace('Global' + ' ', '') for col in df.columns]
+    
+    return df
+
 def reorder_df_cols(df): # health, damage, flat damage, resist, flat resist, accuracy, critical, critical block, pierce, stun resist, incoming, outgoing, pip conserve, power pip, shadow pip, archmastery
     
     ordered_stats = ['Max Health']
@@ -124,7 +144,7 @@ def reorder_df_cols(df): # health, damage, flat damage, resist, flat resist, acc
     for school in schools:
         ordered_stats.append(school + " Pip Conversion Rating")
     
-    for stat in ['Power Pip Chance', 'Shadow Pip Rating', 'Archmastery Rating']:
+    for stat in ['Power Pip Chance', 'Shadow Pip Rating', 'Archmastery Rating', 'Enchant Damage']:
         ordered_stats.append(stat)
     
     for i in reversed(range(len(ordered_stats))):

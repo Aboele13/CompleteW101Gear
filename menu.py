@@ -227,10 +227,6 @@ def view_sets_menu():
     not_added_yet_message()
     start_menu()
 
-def create_set_menu():
-    not_added_yet_message()
-    start_menu()
-
 def start_menu():
     
     action = input("\nWhat would you like to do?\n\n[1] Update Information\n[2] View Gear\n[3] Modify Owned Gear\n[4] View Sets\n[5] Create Set\n[q] Quit\n\n")
@@ -250,7 +246,9 @@ def start_menu():
     elif action == '4':
         view_sets_menu()
     elif action == '5':
-        create_set_menu()
+        from createSet import create_set
+        if create_set():
+            start_menu()
     else:
         invalid_input_message()
         start_menu()

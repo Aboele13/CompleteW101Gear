@@ -4,7 +4,6 @@ from bs4 import BeautifulSoup
 import utils
 from webAccess import fetch_url_content
 
-max_level = 170 # UPDATE WITH NEW WORLDS
 
 def get_all_lines():
     
@@ -97,7 +96,7 @@ def get_enchant_damage_list():
     curr_enchant_dmg = 0
     
     level = 1
-    while level <= max_level:
+    while level <= utils.max_level:
         if level == 50: # at level 50, you get strong
             curr_enchant_dmg = 100
         elif level == 52: # at level 52, you get giant
@@ -189,14 +188,14 @@ def clean_lists(lists):
 
 def fill_future_levels(lists):
     
-    if len(lists[0]) == max_level:
+    if len(lists[0]) == utils.max_level:
         return lists
     
     for i in range(len(lists)):
         previous_max_level = len(lists[i])
-        level_gap = max_level - previous_max_level
+        level_gap = utils.max_level - previous_max_level
         max_stat = lists[i][previous_max_level - 1]
-        while len(lists[i]) < max_level:
+        while len(lists[i]) < utils.max_level:
             max_stat += (lists[i][previous_max_level - 1] - lists[i][previous_max_level - level_gap - 1]) / level_gap
             lists[i].append(int(max_stat))
     
@@ -224,9 +223,9 @@ def update_base_values():
         "Life Max Health": life,
         "Death Max Health": death,
         "Balance Max Health": balance,
-        "Power Pip": pip,
-        "Shadow Pip": shad,
-        "Archmastery": arch,
+        "Power Pip Chance": pip,
+        "Shadow Pip Rating": shad,
+        "Archmastery Rating": arch,
         "Fire Pip Conversion Rating": fire_pc,
         "Ice Pip Conversion Rating": ice_pc,
         "Storm Pip Conversion Rating": storm_pc,
@@ -250,7 +249,7 @@ def update_base_values():
     # create dataframes for each school
     for school in utils.schools_of_items:
         if school != "Global":
-            school_df = df[["Level", f"{school} Max Health", "Power Pip", "Shadow Pip", "Archmastery", f"{school} Pip Conversion Rating", "Enchant Damage"]]
+            school_df = df[["Level", f"{school} Max Health", "Power Pip Chance", "Shadow Pip Rating", "Archmastery Rating", f"{school} Pip Conversion Rating", "Enchant Damage"]]
             school_df = school_df.rename(columns={f"{school} Max Health": 'Max Health'})
             file_path = f'Base_Values\\{school}_Base_Values.csv'
             try:
