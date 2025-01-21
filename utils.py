@@ -24,6 +24,27 @@ def is_int(input):
     except:
         return False
 
+def extract_int(str):
+    num_str = []
+    
+    for char in str:
+        if char.isdigit():
+            num_str.append(char)
+    
+    return int("".join(num_str))
+
+def scale_down_damage(orig_damage):
+    if orig_damage >= 259:
+        return 240
+    elif orig_damage >= 249:
+        return 239
+    elif orig_damage >= 241:
+        return 238
+    elif orig_damage >= 237:
+        return 237
+    else: # soft cap is 237
+        return orig_damage
+
 # [Ter, Cir, Sqr, Tri], [Hlt, Res, Dmg, Prc, Acc, Pip, DIC, Blk, Cnv, Stn, Out, Inc, OIC, Arc]
 def abbreviate_jewel(shape, jewel_name):
     shape_to_abbr = {
@@ -148,8 +169,10 @@ def reorder_df_cols(df): # health, damage, flat damage, resist, flat resist, acc
         ordered_stats.append(stat)
     
     for i in reversed(range(len(ordered_stats))):
-        stat_col = df.pop(ordered_stats[i])
-        df.insert(2, ordered_stats[i], stat_col)
+        stat_col_name = ordered_stats[i]
+        if stat_col_name in df:
+            stat_col_vals = df.pop(stat_col_name)
+            df.insert(2, stat_col_name, stat_col_vals)
     
     return df
 

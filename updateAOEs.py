@@ -297,7 +297,7 @@ def update_AOEs():
     spells_data = [spell for spell in spells_data if spell is not None]
     
     # move all items to dataframe
-    df = pd.DataFrame(spells_data).fillna(0)  # fill all empty values with 0
+    df = pd.DataFrame(spells_data)
     df = df[df['Pip Cost'] <= 5] # only get AOEs I can use round one, update if starter pips changes
     df = df.sort_values(by=['School', 'Spell'], ascending=[True, True]).reset_index(drop=True)
     print(df)

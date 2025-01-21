@@ -272,7 +272,7 @@ def update_jewels(jewel_shapes):
         jewels_data = process_bullets_multithreaded(base_url, bullet_points)
         
         # move all items to dataframe
-        df = pd.DataFrame(jewels_data).fillna(0)  # fill all empty values with 0
+        df = pd.DataFrame(jewels_data)
         df = clean_jewels_df(df)
         print(df)
         file_path = f'Jewels\\All_Jewels\\All_{curr_jewel_shape}_Jewels.csv'

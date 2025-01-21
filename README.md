@@ -2,10 +2,6 @@ TODO:
 
 - HECK FRONTEND, I'M DOING EVERYTHING IN CONSOLE, NO WEBSITE
 
-- create set
-    - add in the total row
-    - add in logic to add/remove pieces
-
 - view sets
     - owned gear first
     - then all gear

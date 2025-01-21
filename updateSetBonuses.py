@@ -224,7 +224,7 @@ def update_set_bonuses():
     sets_data = process_bullets_multithreaded(base_url, bullet_points)
     
     # move all items to dataframe
-    df = pd.DataFrame(sets_data).fillna(0)  # fill all empty values with 0
+    df = pd.DataFrame(sets_data)
     df = utils.distribute_global_stats(df)
     # rename columns due to wiki inconsistencies
     df = df.rename(columns = {col: col + " Rating" for col in df.columns if (col.endswith("Critical") or col.endswith("Critical Block") or col.endswith("Shadow Pip") or col.endswith("Archmastery") or col.endswith("Pip Conversion"))}) # must come before block

@@ -237,7 +237,7 @@ def update_base_values():
     }
 
     # move all items to dataframe
-    df = pd.DataFrame(data).fillna(0)  # fill all empty values with 0
+    df = pd.DataFrame(data)
     print(df)
     file_path = f'Base_Values\\All_Base_Values.csv'
     try:

@@ -287,7 +287,7 @@ def parse_bonuses(formatted_info, item_name, curr_gear_type):
     # Check for Sockets and count occurrences of specific types
     if curr_gear_type in utils.clothing_gear_types: # pins for clothing
         if "Sockets" in formatted_info:
-            combined_text = " ".join(formatted_info)
+            combined_text = "".join(formatted_info)
             sword_pins = combined_text.count("Sword Socket")
             shield_pins = combined_text.count("Shield Socket")
             power_pins = combined_text.count("Power Socket")
@@ -473,7 +473,7 @@ def create_default_pet():
     bonuses['School'] = 'Global'
     
     # move all items to dataframe
-    return pd.DataFrame([bonuses]).fillna(0)  # fill all empty values with 0
+    return pd.DataFrame([bonuses])
 
 def remove_normal_pets(df):
     # Identify numerical columns, excluding 'Level'
@@ -632,7 +632,7 @@ def update_gear(gear_types):
             items_data = [item for item in items_data if item is not None]
         
         # move all items to dataframe
-        df = pd.DataFrame(items_data).fillna(0)  # fill all empty values with 0
+        df = pd.DataFrame(items_data)
         df = clean_gear_df(df, curr_gear_type)
         print(df)
         file_path = f'Gear\\All_Gear\\All_{curr_gear_type}.csv'
