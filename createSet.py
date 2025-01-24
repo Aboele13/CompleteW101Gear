@@ -5,38 +5,6 @@ import pandas as pd
 import utils
 
 
-def empty_stats():
-    
-    stats = {
-        'Max Health': 0,
-        'Power Pip Chance': 0,
-        'Stun Resistance': 0,
-        'Incoming Healing': 0,
-        'Outgoing Healing': 0,
-        'Shadow Pip Rating': 0,
-        'Archmastery Rating': 0,
-        'Enchant Damage': 0,
-        'Gear Set': 'No Gear Set',
-    }
-    
-    poss_school_spec_cate = ["Damage", "Resistance", "Accuracy", "Critical Rating", "Critical Block Rating", "Armor Piercing", "Pip Conversion Rating", "Flat Damage", "Flat Resistance"]
-    
-    for stat_school in utils.all_stat_schools:
-        for stat in poss_school_spec_cate:
-            stats[f"{stat_school} {stat}"] = 0
-    
-    return stats
-
-def empty_item(gear_type):
-    item = { # these come before stats
-        'Item': f"No {gear_type} Selected",
-        'Level': 1,
-    }
-    item.update(empty_stats())
-    item['School'] = 'Global' # school after stats
-    
-    return item
-
 def select_level():
     level = 0
     
@@ -68,7 +36,7 @@ def select_school():
             return None
         elif school_lower == 'q':
             sys.exit()
-        elif school in utils.schools_of_items and school != 'Global':
+        elif school in utils.schools_of_wizards:
             return school
         else:
             print('\nInvalid input, please enter a valid school')
@@ -93,10 +61,10 @@ def select_account(set_components):
 def get_base_values(set_components):
     
     complete_base_values = { # this comes before stats
-        'Item': 'Base Values',
+        'Name': 'Base Values',
         'Level': set_components['Level'],
     }
-    complete_base_values.update(empty_stats())
+    complete_base_values.update(utils.empty_stats())
     complete_base_values['School'] = set_components['School'] # this comes after stats
     
     df = pd.read_csv(f"Base_Values\\{set_components['School']}_Base_Values.csv")
@@ -108,14 +76,14 @@ def get_base_values(set_components):
 def get_totals(items, account):
     
     totals = {
-        'Item': f"{account}'s Total",
+        'Name': f"{account}'s Total",
         'Level': items[-1]['Level'],
         'Enchant Damage': 0,
         'School': items[-1]['School']
     }
     
     for col in items[0]:
-        if col not in {'Item', 'Level', 'Enchant Damage', 'Gear Set', 'School'}:
+        if col not in {'Name', 'Level', 'Enchant Damage', 'Gear Set', 'School'}:
             total = 0
             for item in items:
                 total += item[col]
@@ -376,8 +344,8 @@ def add_item(school, level, gear_type):
 def overwrite_cols(set_components, gear_type, new_item):
     
     for col in set_components[gear_type]:
-        if col == 'Item':
-            set_components[gear_type]['Item'] = new_item['Name']
+        if col == 'Name':
+            set_components[gear_type]['Name'] = new_item['Name']
         else:
             set_components[gear_type][col] = new_item[col]
 
@@ -456,16 +424,16 @@ def create_set():
         'Level': utils.max_level,
         'Account': 'Andrew',
         'School Stats Only': True,
-        'Hat': empty_item('Hat'),
-        'Robe': empty_item('Robe'),
-        'Boots': empty_item('Boots'),
-        'Wand': empty_item('Wand'),
-        'Athame': empty_item('Athame'),
-        'Amulet': empty_item('Amulet'),
-        'Ring': empty_item('Ring'),
-        'Pet': empty_item('Pet'),
-        'Mount': empty_item('Mount'),
-        'Deck': empty_item('Deck'),
+        'Hat': utils.empty_item('Hat'),
+        'Robe': utils.empty_item('Robe'),
+        'Boots': utils.empty_item('Boots'),
+        'Wand': utils.empty_item('Wand'),
+        'Athame': utils.empty_item('Athame'),
+        'Amulet': utils.empty_item('Amulet'),
+        'Ring': utils.empty_item('Ring'),
+        'Pet': utils.empty_item('Pet'),
+        'Mount': utils.empty_item('Mount'),
+        'Deck': utils.empty_item('Deck'),
     }
     
     while True:
@@ -515,7 +483,7 @@ def create_set():
                 for component in set_components:
                     if component not in {'School', 'Level', 'School Stats Only'}:
                         if school_cant_use_item(new_school, set_components[component]['School']):
-                            set_components[component] = empty_item(component)
+                            set_components[component] = utils.empty_item(component)
                 
         elif action_lower == 'level':
             new_level = select_level()
@@ -525,16 +493,16 @@ def create_set():
                 for component in set_components:
                     if component not in {'School', 'Level', 'School Stats Only'}:
                         if set_components[component]['Level'] > new_level:
-                            set_components[component] = empty_item(component)
+                            set_components[component] = utils.empty_item(component)
         elif action_lower == 'account':
             select_account(set_components)
         elif action_lower == 'school stats only':
             set_components['School Stats Only'] = not set_components['School Stats Only']
         elif action in set_components:
-            item_name = set_components[action]['Item']
+            item_name = set_components[action]['Name']
             if item_name != f"No {action} Selected":
                 print(f"\nRemoving the {action} {item_name}\n")
-                set_components[action] = empty_item(action)
+                set_components[action] = utils.empty_item(action)
             else:
                 new_item = add_item(set_components['School'], set_components['Level'], action)
                 if new_item:

@@ -240,12 +240,11 @@ def update_set_bonuses():
         df.to_csv(file_path, index=False)
 
     # update all schools
-    for school in utils.schools_of_items: # change this if i want to test one school
-        if school != "Global":
-            file_path = f'Set_Bonuses\\{school}_Set_Bonuses.csv'
-            school_df = df[df['School'].isin([school, 'Global'])]
-            try:
-                school_df.to_csv(file_path, index=False)
-            except:
-                input(f"\n{file_path} needs to be closed before it can be written to.\nClose the file and hit enter\n")
-                school_df.to_csv(file_path, index=False)
+    for school in utils.schools_of_wizards: # change this if i want to test one school
+        file_path = f'Set_Bonuses\\{school}_Set_Bonuses.csv'
+        school_df = df[df['School'].isin([school, 'Global'])]
+        try:
+            school_df.to_csv(file_path, index=False)
+        except:
+            input(f"\n{file_path} needs to be closed before it can be written to.\nClose the file and hit enter\n")
+            school_df.to_csv(file_path, index=False)

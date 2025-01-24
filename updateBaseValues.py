@@ -247,13 +247,12 @@ def update_base_values():
         df.to_csv(file_path, index=False)
     
     # create dataframes for each school
-    for school in utils.schools_of_items:
-        if school != "Global":
-            school_df = df[["Level", f"{school} Max Health", "Power Pip Chance", "Shadow Pip Rating", "Archmastery Rating", f"{school} Pip Conversion Rating", "Enchant Damage"]]
-            school_df = school_df.rename(columns={f"{school} Max Health": 'Max Health'})
-            file_path = f'Base_Values\\{school}_Base_Values.csv'
-            try:
-                school_df.to_csv(file_path, index=False)
-            except:
-                input(f"\n{file_path} needs to be closed before it can be written to.\nClose the file and hit enter\n")
-                school_df.to_csv(file_path, index=False)
+    for school in utils.schools_of_wizards:
+        school_df = df[["Level", f"{school} Max Health", "Power Pip Chance", "Shadow Pip Rating", "Archmastery Rating", f"{school} Pip Conversion Rating", "Enchant Damage"]]
+        school_df = school_df.rename(columns={f"{school} Max Health": 'Max Health'})
+        file_path = f'Base_Values\\{school}_Base_Values.csv'
+        try:
+            school_df.to_csv(file_path, index=False)
+        except:
+            input(f"\n{file_path} needs to be closed before it can be written to.\nClose the file and hit enter\n")
+            school_df.to_csv(file_path, index=False)

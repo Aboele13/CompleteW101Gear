@@ -100,7 +100,7 @@ def select_owned_item_school(account, gear_type, item):
         elif school.lower() == 'all':
             add_shared_item(account, gear_type, item)
             return
-        elif school in utils.schools_of_items and school != "Global":
+        elif school in utils.schools_of_wizards:
             item['School'] = school
             jewel_the_item(account, gear_type, item)
             return

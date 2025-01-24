@@ -489,21 +489,20 @@ def create_pet_variants(df):
     # personal variations of a "perfect pet" (personal opinion)
     variations = [{"Name": "Max Resist", "Global Resistance": 21}]
     
-    for school in utils.schools_of_items:
-        if school != "Global":
-            variations.append({"Name": f"{school} Max Damage", "Global Damage": 11, f"{school} Damage": 22})
-            variations.append({"Name": f"{school} Triple Double", "Global Damage": 7, f"{school} Damage": 18, "Global Resistance": 17})
-            
-            # I have the above, only uncomment the below if I want to experiment with new pets
-            # variations.append({"Name": f"{school} 3 Damage, 2 Pierce, Resist", "Global Damage": 6, f"{school} Damage": 16, "Global Resistance": 10, "Global Armor Piercing": 5})
-            # variations.append({"Name": f"{school} 3 Damage, 2 Pierce", "Global Damage": 7, f"{school} Damage": 18, "Global Armor Piercing": 6})
-            # variations.append({"Name": f"{school} Triple Double, Accuracy", "Global Damage": 6, f"{school} Damage": 16, "Global Resistance": 15, f"{school} Accuracy": 10})
-            # variations.append({"Name": f"{school} Triple Double, Pierce", "Global Damage": 6, f"{school} Damage": 16, "Global Resistance": 15, "Global Armor Piercing": 3})
-            # variations.append({"Name": f"{school} 3 Damage, 2 Pierce, Accuracy", "Global Damage": 6, f"{school} Damage": 16, f"{school} Accuracy": 10, "Global Armor Piercing": 5})
-            # variations.append({"Name": f"{school} 3 Damage, Resist, Pierce, Accuracy", "Global Damage": 6, f"{school} Damage": 16, "Global Resistance": 10, f"{school} Accuracy": 10, "Global Armor Piercing": 3})
-            # variations.append({"Name": f"{school} 3 Damage, Resist, Pierce", "Global Damage": 7, f"{school} Damage": 18, "Global Resistance": 11, "Global Armor Piercing": 4})
-            # variations.append({"Name": f"{school} 3 Damage, Resist, Accuracy", "Global Damage": 7, f"{school} Damage": 18, "Global Resistance": 11, f"{school} Accuracy": 10})
-            # variations.append({"Name": f"{school} 3 Damage, Pierce, Accuracy", "Global Damage": 7, f"{school} Damage": 18, f"{school} Accuracy": 10, "Global Armor Piercing": 4})
+    for school in utils.schools_of_wizards:
+        variations.append({"Name": f"{school} Max Damage", "Global Damage": 11, f"{school} Damage": 22})
+        variations.append({"Name": f"{school} Triple Double", "Global Damage": 7, f"{school} Damage": 18, "Global Resistance": 17})
+        
+        # I have the above, only uncomment the below if I want to experiment with new pets
+        # variations.append({"Name": f"{school} 3 Damage, 2 Pierce, Resist", "Global Damage": 6, f"{school} Damage": 16, "Global Resistance": 10, "Global Armor Piercing": 5})
+        # variations.append({"Name": f"{school} 3 Damage, 2 Pierce", "Global Damage": 7, f"{school} Damage": 18, "Global Armor Piercing": 6})
+        # variations.append({"Name": f"{school} Triple Double, Accuracy", "Global Damage": 6, f"{school} Damage": 16, "Global Resistance": 15, f"{school} Accuracy": 10})
+        # variations.append({"Name": f"{school} Triple Double, Pierce", "Global Damage": 6, f"{school} Damage": 16, "Global Resistance": 15, "Global Armor Piercing": 3})
+        # variations.append({"Name": f"{school} 3 Damage, 2 Pierce, Accuracy", "Global Damage": 6, f"{school} Damage": 16, f"{school} Accuracy": 10, "Global Armor Piercing": 5})
+        # variations.append({"Name": f"{school} 3 Damage, Resist, Pierce, Accuracy", "Global Damage": 6, f"{school} Damage": 16, "Global Resistance": 10, f"{school} Accuracy": 10, "Global Armor Piercing": 3})
+        # variations.append({"Name": f"{school} 3 Damage, Resist, Pierce", "Global Damage": 7, f"{school} Damage": 18, "Global Resistance": 11, "Global Armor Piercing": 4})
+        # variations.append({"Name": f"{school} 3 Damage, Resist, Accuracy", "Global Damage": 7, f"{school} Damage": 18, "Global Resistance": 11, f"{school} Accuracy": 10})
+        # variations.append({"Name": f"{school} 3 Damage, Pierce, Accuracy", "Global Damage": 7, f"{school} Damage": 18, f"{school} Accuracy": 10, "Global Armor Piercing": 4})
     
     # Prepare a DataFrame for variations
     variations_df = pd.DataFrame(variations)
@@ -643,12 +642,11 @@ def update_gear(gear_types):
             df.to_csv(file_path, index=False)
 
         # update all schools
-        for school in utils.schools_of_items: # change this if i want to test one school
-            if school != "Global":
-                file_path = f'Gear\\{school}_Gear\\{school}_{curr_gear_type}.csv'
-                school_df = df if curr_gear_type == "Mounts" else df[(df['School'].str.startswith('Not') & ~df['School'].str.endswith(school)) | df['School'].isin([school, 'Global'])].reset_index(drop=True)
-                try:
-                    school_df.to_csv(file_path, index=False)
-                except:
-                    input(f"\n{file_path} needs to be closed before it can be written to.\nClose the file and hit enter\n")
-                    school_df.to_csv(file_path, index=False)
+        for school in utils.schools_of_wizards: # change this if i want to test one school
+            file_path = f'Gear\\{school}_Gear\\{school}_{curr_gear_type}.csv'
+            school_df = df if curr_gear_type == "Mounts" else df[(df['School'].str.startswith('Not') & ~df['School'].str.endswith(school)) | df['School'].isin([school, 'Global'])].reset_index(drop=True)
+            try:
+                school_df.to_csv(file_path, index=False)
+            except:
+                input(f"\n{file_path} needs to be closed before it can be written to.\nClose the file and hit enter\n")
+                school_df.to_csv(file_path, index=False)

@@ -253,32 +253,31 @@ def update_AOEs():
     
     bullet_points = []
     
-    for school in utils.schools_of_items:
-        if school != "Global":
+    for school in utils.schools_of_wizards:
             
-            base_url = "https://wiki.wizard101central.com"
-            url = f"https://wiki.wizard101central.com/wiki/Category:{school}_Spells"
-            
-            print(f'\nCollecting {school} Spells...')
+        base_url = "https://wiki.wizard101central.com"
+        url = f"https://wiki.wizard101central.com/wiki/Category:{school}_Spells"
+        
+        print(f'\nCollecting {school} Spells...')
 
-            while url:
-                # Fetch content from the URL
-                html_content = fetch_url_content(url)
+        while url:
+            # Fetch content from the URL
+            html_content = fetch_url_content(url)
 
-                if html_content:
-                    soup = BeautifulSoup(html_content, 'html.parser')
-                    # Extract bullet points with links from the HTML content
-                    bullet_points.extend(extract_bullet_points_from_html(html_content, school))
+            if html_content:
+                soup = BeautifulSoup(html_content, 'html.parser')
+                # Extract bullet points with links from the HTML content
+                bullet_points.extend(extract_bullet_points_from_html(html_content, school))
 
-                    # Find the "(next page)" link
-                    next_page_link = utils.find_next_page_link(soup)
-                    if next_page_link:
-                        url = urllib.parse.urljoin(base_url, next_page_link)
-                    else:
-                        url = None
+                # Find the "(next page)" link
+                next_page_link = utils.find_next_page_link(soup)
+                if next_page_link:
+                    url = urllib.parse.urljoin(base_url, next_page_link)
                 else:
-                    print("Failed to fetch content from the URL.")
-                    continue
+                    url = None
+            else:
+                print("Failed to fetch content from the URL.")
+                continue
     
     print('')
     
