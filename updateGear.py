@@ -379,6 +379,8 @@ def process_bullet_point(base_url, bullet_point, curr_gear_type):
                     break
             if "Enchant Damage" not in item_data:
                 item_data["Enchant Damage"] = 0
+        else: # mounts just get 0
+            item_data['Enchant Damage'] = 0
 
         # set the item's gear set (or No Gear Set if none)
         # mounts and pets look for "Set"
@@ -421,6 +423,8 @@ def process_bullet_point(base_url, bullet_point, curr_gear_type):
                 item_data['School'] = formatted_info[i]
             else:
                 item_data['School'] = 'Global'
+        else: # mounts
+            item_data['School'] = 'Global'
         
         return item_data
     else: # failed to collect info from page, just retry
@@ -518,6 +522,9 @@ def create_pet_variants(df):
     for stat in variations_df.columns:
         if stat != "Name":
             exploded_df[stat] = exploded_df[stat].add(repeated_variations[stat], fill_value=0)
+            # Explicitly cast to integer if the original column was an integer
+            if pd.api.types.is_integer_dtype(df[stat]):
+                exploded_df[stat] = exploded_df[stat].astype(int)
 
     return exploded_df
 
@@ -581,7 +588,7 @@ def clean_gear_df(df, curr_gear_type):
         df = create_pet_variants(remove_normal_pets(df)).reset_index(drop=True)
     df = add_in_custom_gear(df, curr_gear_type)
     df = utils.distribute_global_stats(df)
-    df = utils.reorder_df_cols(df)
+    df = utils.reorder_df_cols(df, 3)
     df = df.sort_values(by = "Name", ascending = True).reset_index(drop=True)
     return df
 

@@ -177,19 +177,6 @@ def jewel_the_items(df, filters):
     
     return df
 
-def filter_by_sources(df, good_sources):
-    
-    def check_sources(item_sources):
-        item_sources_list = [source.strip() for source in item_sources.split(',')]
-        for item_source in item_sources_list:
-            if item_source in good_sources:
-                return True
-        return False
-
-    df['match'] = df['Source'].apply(check_sources)
-    df = df[df['match'] | df['Owned']]
-    return df.drop('match', axis=1).reset_index(drop=True)
-
 def add_owned_column(df, filters):
     
     gear_type = filters['Gear Type']
@@ -279,7 +266,7 @@ def view_gear():
         
         # filter by source (has to be after owned column)
         if filters['Gear Type'] != 'Pets':
-            df = filter_by_sources(df, filters['Good Sources']).reset_index(drop=True)
+            df = utils.filter_by_sources(df, filters['Good Sources']).reset_index(drop=True)
         
         # filter by minimum stat requirements (after jeweled)
         for filter in stat_filters:

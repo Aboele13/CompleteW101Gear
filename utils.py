@@ -17,6 +17,16 @@ damage_ICs = ["Epic", "Colossal", "Gargantuan", "Monstrous", "Giant", "Strong"] 
 
 accounts = ['Andrew', 'Chris', 'Tessa']
 
+dragoon_amulet_damages = {
+    "Dragoon's Deadly Charm": 640,
+    "Dragoon's Fiery Charm": 700,
+    "Dragoon's Balanced Charm": 640,
+    "Dragoon's Mythic Charm": 665,
+    "Dragoon's Shocking Charm": 735,
+    "Dragoon's Icy Charm": 620,
+    "Dragoon's Vibrant Charm": 620,
+}
+
 max_level = 170 # UPDATE WITH NEW WORLDS
 
 def is_int(input):
@@ -91,6 +101,18 @@ def empty_item(gear_type):
     
     return item
 
+def get_damage_multiplier(damage):
+    return 1.0 + (damage / 100)
+
+def get_resist_multiplier(pierce, resist):
+    if pierce >= resist:
+        return 1.0
+    else:
+        return 0.01 * (100 - (resist - pierce))
+
+def get_critical_multiplier(critical, block):
+    return 1.0 + (critical / (critical + 3 * block))
+
 def objectively_best_gear(df, filters):
     # Identify the columns to compare
     bad_cols = {"Name", "Level", "Source", "Gear Set", "Usable In", "School", "Owned"}
@@ -135,11 +157,11 @@ def objectively_best_gear(df, filters):
 
             # Mark rows for removal based on comparisons
             if not i_stays and not j_stays:
-                # if not row1["Owned"] and row2["Owned"]: # you only own the second one, so remove the first
-                #     remove_records.add(i)
-                #     break
-                # else: # you own the first, both, or neither, so get rid of the second one
-                    remove_records.add(j)
+                if "Owned" in row1:
+                    if not row1["Owned"] and row2["Owned"]: # you only own the second one, so remove the first
+                        remove_records.add(i)
+                        break
+                remove_records.add(j) # you own the first, both, or neither, so get rid of the second one
             elif not i_stays:
                 remove_records.add(i)
                 break
@@ -538,7 +560,72 @@ def view_school_stats_only(school, df):
     
     return df
 
-def reorder_df_cols(df): # health, damage, flat damage, resist, flat resist, accuracy, critical, critical block, pierce, stun resist, incoming, outgoing, pip conserve, power pip, shadow pip, archmastery
+def tally_gear_sets(items):
+    
+    counting_set_pieces = dict()
+    
+    # iterate through and count occurrence of each gear set
+    for item in items:
+        curr_gear_set = item['Gear Set']
+        if curr_gear_set != 'No Gear Set':
+            if curr_gear_set not in counting_set_pieces:
+                counting_set_pieces[curr_gear_set] = 1
+            else:
+                counting_set_pieces[curr_gear_set] += 1
+    
+    # if no pieces belong to gear set, simply return this
+    if len(counting_set_pieces) == 0:
+        return "No Gear Set"
+    
+    # else, string them together
+    total_gear_sets = ''
+    
+    # alphabetize the gear sets
+    counting_set_pieces = {gear_set: counting_set_pieces[gear_set] for gear_set in sorted(counting_set_pieces)}
+    
+    for gear_set in counting_set_pieces:
+        if total_gear_sets:
+            total_gear_sets = f"{total_gear_sets}, {gear_set} ({counting_set_pieces[gear_set]}x)"
+        else:
+            total_gear_sets = f"{gear_set} ({counting_set_pieces[gear_set]}x)"
+    
+    return total_gear_sets
+
+def get_set_bonuses(orig_set, school):
+    
+    gear_set_pieces = orig_set['Gear Set']
+    
+    if gear_set_pieces == 'No Gear Set':
+        return
+
+    sets = gear_set_pieces.split(',')
+    
+    for set in sets:
+        set_parts = set.split(' (')
+        set_name = set_parts[0]
+        set_num_pieces = extract_int(set_parts[1])
+        if set_num_pieces > 1:
+            df = pd.read_csv(f"Set_Bonuses\\{school}_Set_Bonuses.csv")
+            df = df[(df['Name'] == set_name) & (df['Pieces'] == set_num_pieces)]
+            bonus = df.iloc[0].to_dict()
+            for stat in bonus:
+                if stat not in {'Name', 'Pieces', 'School'}:
+                    orig_set[stat] += bonus[stat]
+
+def filter_by_sources(df, good_sources):
+    
+    def check_sources(item_sources):
+        item_sources_list = [source.strip() for source in item_sources.split(',')]
+        for item_source in item_sources_list:
+            if item_source in good_sources:
+                return True
+        return False
+
+    df['match'] = df['Source'].apply(check_sources)
+    df = df[df['match'] | df['Owned']]
+    return df.drop('match', axis=1).reset_index(drop=True)
+
+def reorder_df_cols(df, starting_point): # health, damage, flat damage, resist, flat resist, accuracy, critical, critical block, pierce, stun resist, incoming, outgoing, pip conserve, power pip, shadow pip, archmastery
     
     ordered_stats = ['Max Health']
     schools = ['Global', 'Fire', 'Ice', 'Storm', 'Myth', 'Life', 'Death', 'Balance', 'Shadow']
@@ -560,7 +647,7 @@ def reorder_df_cols(df): # health, damage, flat damage, resist, flat resist, acc
         stat_col_name = ordered_stats[i]
         if stat_col_name in df:
             stat_col_vals = df.pop(stat_col_name)
-            df.insert(2, stat_col_name, stat_col_vals)
+            df.insert(starting_point - 1, stat_col_name, stat_col_vals)
     
     return df
 

@@ -102,68 +102,16 @@ def get_totals(items, account):
             if gear_set:
                 totals['Gear Set'] = gear_set
     # clean way to set gear sets (counting each set piece)
-    totals['Gear Set'] = tally_gear_sets(items)
+    totals['Gear Set'] = utils.tally_gear_sets(items)
     
     # apply set bonuses
-    get_set_bonuses(totals)
+    utils.get_set_bonuses(totals, totals['School'])
     
     # scale down damages
     for school in utils.schools_of_items:
         totals[f'{school} Damage'] = utils.scale_down_damage(totals[f'{school} Damage'])
     
     return totals
-
-def tally_gear_sets(items):
-    
-    counting_set_pieces = dict()
-    
-    # iterate through and count occurrence of each gear set
-    for item in items:
-        curr_gear_set = item['Gear Set']
-        if curr_gear_set != 'No Gear Set':
-            if curr_gear_set not in counting_set_pieces:
-                counting_set_pieces[curr_gear_set] = 1
-            else:
-                counting_set_pieces[curr_gear_set] += 1
-    
-    # if no pieces belong to gear set, simply return this
-    if len(counting_set_pieces) == 0:
-        return "No Gear Set"
-    
-    # else, string them together
-    total_gear_sets = ''
-    
-    # alphabetize the gear sets
-    counting_set_pieces = {gear_set: counting_set_pieces[gear_set] for gear_set in sorted(counting_set_pieces)}
-    
-    for gear_set in counting_set_pieces:
-        if total_gear_sets:
-            total_gear_sets = f"{total_gear_sets}, {gear_set} ({counting_set_pieces[gear_set]}x)"
-        else:
-            total_gear_sets = f"{gear_set} ({counting_set_pieces[gear_set]}x)"
-    
-    return total_gear_sets
-
-def get_set_bonuses(orig_set):
-    
-    gear_set_pieces = orig_set['Gear Set']
-    
-    if gear_set_pieces == 'No Gear Set':
-        return
-
-    sets = gear_set_pieces.split(',')
-    
-    for set in sets:
-        set_parts = set.split(' (')
-        set_name = set_parts[0]
-        set_num_pieces = utils.extract_int(set_parts[1])
-        if set_num_pieces > 1:
-            df = pd.read_csv(f"Set_Bonuses\\{orig_set['School']}_Set_Bonuses.csv")
-            df = df[(df['Name'] == set_name) & (df['Pieces'] == set_num_pieces)]
-            bonus = df.iloc[0].to_dict()
-            for stat in bonus:
-                if stat not in {'Name', 'Pieces', 'School'}:
-                    orig_set[stat] += bonus[stat]
 
 def school_cant_use_item(set_school, item_school):
     if item_school == set_school or item_school == 'Global':
@@ -349,6 +297,15 @@ def overwrite_cols(set_components, gear_type, new_item):
         else:
             set_components[gear_type][col] = new_item[col]
 
+def is_dragoon_hit_better(orig_damage, df):
+    
+    amulet_name = df.iloc[5]['Name']
+    for dragoon_amulet in utils.dragoon_amulet_damages:
+        if amulet_name.startswith(dragoon_amulet):
+            return max(orig_damage, utils.dragoon_amulet_damages[dragoon_amulet])
+    
+    return orig_damage
+
 def get_resist_multiplier(row, school_stats_only, school, resist):
     if school_stats_only:
         if row['Armor Piercing'] >= resist:
@@ -381,6 +338,7 @@ def get_round_one_damage(df, mob, high_resist, set_components):
         axis=1
     )
     spell_damage = spell_df.sort_values(by='Damage', ascending=False).reset_index(drop=True).iloc[0].to_dict()['Damage']
+    spell_damage = is_dragoon_hit_better(spell_damage, df)
     
     # return the formula
     if set_components['School Stats Only']:
@@ -404,13 +362,13 @@ def get_round_one_damage(df, mob, high_resist, set_components):
 def add_personal_stats(df, set_components):
     if set_components['School Stats Only']:
         df['Adjusted Health'] = df['Max Health'] + (df['Resistance'] * 120)
-        df['Balanced Rating'] = df['Max Health'] + (df['Resistance'] * 120) + (df['Damage'] * 120) + (df['Armor Piercing'] * 10 // 6)
+        df['Balanced Rating'] = df['Max Health'] + (df['Resistance'] * 120) + (df['Damage'] * 120) + (df['Armor Piercing'] * 120 * 10 // 6)
         df['Mob R1 Dmg'] = get_round_one_damage(df, True, False, set_components)
         df['Mob HighRes R1 Dmg'] = get_round_one_damage(df, True, True, set_components)
         df['Boss R1 Dmg'] = get_round_one_damage(df, False, False, set_components)
     else:
         df['Adjusted Health'] = df['Max Health'] + (df['Global Resistance'] * 120)
-        df['Balanced Rating'] = df['Max Health'] + (df['Global Resistance'] * 120) + (df[f"{set_components['School']} Damage"] * 120) + (df[f"{set_components['School']} Armor Piercing"] * 10 // 6)
+        df['Balanced Rating'] = df['Max Health'] + (df['Global Resistance'] * 120) + (df[f"{set_components['School']} Damage"] * 120) + (df[f"{set_components['School']} Armor Piercing"] * 120 * 10 // 6)
         df['Mob R1 Dmg'] = get_round_one_damage(df, True, False, set_components)
         df['Mob HighRes R1 Dmg'] = get_round_one_damage(df, True, True, set_components)
         df['Boss R1 Dmg'] = get_round_one_damage(df, False, False, set_components)
@@ -452,7 +410,7 @@ def create_set():
         
         df = pd.DataFrame(items)
         # df = utils.distribute_global_stats(df)
-        df = utils.reorder_df_cols(df)
+        df = utils.reorder_df_cols(df, 3)
         if set_components['School Stats Only']:
             df = utils.view_school_stats_only(set_components['School'], df)
         
@@ -491,7 +449,7 @@ def create_set():
                 set_components['Level'] = new_level
                 # check to see if any items need to be removed (item level is too high)
                 for component in set_components:
-                    if component not in {'School', 'Level', 'School Stats Only'}:
+                    if component not in {'School', 'Level', 'School Stats Only', 'Account'}:
                         if set_components[component]['Level'] > new_level:
                             set_components[component] = utils.empty_item(component)
         elif action_lower == 'account':
@@ -500,7 +458,7 @@ def create_set():
             set_components['School Stats Only'] = not set_components['School Stats Only']
         elif action in set_components:
             item_name = set_components[action]['Name']
-            if item_name != f"No {action} Selected":
+            if item_name != f"No {action} Equipped":
                 print(f"\nRemoving the {action} {item_name}\n")
                 set_components[action] = utils.empty_item(action)
             else:

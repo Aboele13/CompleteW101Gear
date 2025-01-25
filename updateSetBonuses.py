@@ -230,7 +230,7 @@ def update_set_bonuses():
     df = df.rename(columns = {col: col + " Rating" for col in df.columns if (col.endswith("Critical") or col.endswith("Critical Block") or col.endswith("Shadow Pip") or col.endswith("Archmastery") or col.endswith("Pip Conversion"))}) # must come before block
     df = df.sort_values(by = ["Name", 'Pieces'], ascending = [True, True]).reset_index(drop=True)
     df = accumulate_stats(df)
-    df = utils.reorder_df_cols(df)
+    df = utils.reorder_df_cols(df, 3)
     print(df)
     file_path = f'Set_Bonuses\\All_Set_Bonuses.csv'
     try:

@@ -2,26 +2,33 @@ TODO:
 
 - HECK FRONTEND, I'M DOING EVERYTHING IN CONSOLE, NO WEBSITE
 
-- view sets
-    - owned gear
-        - jewels go with item, not accumulated on the set
-            - will be repeats this way but thats okay (like 2 dmg on athame vs 1 on athame + 1 on ring)
-        - need to write logic for it jeweling my gear
-            - first filter out repeats from unsocketed_owned_gear
-        - filters (dworgyn hat, resist pet)
-            - maybe say what set i'm striving for?
-                - mob hit, boss hit, healing, tanking
-    - then all gear
-        - 5 best from objectively best?
-        - rather than attaching to items, jewels accumulate on the set to prevent repeats
-        - filters (dworgyn hat, resist pet)
+- go through and select everything that chris and i own
 
-- go through and select everything that i and chris own
+- source doesn't matter if owned is true
 
-- updates that need to be made
+- non-owned gear
+    - need to jewel them
+        - enchant jewels should only be used if mob set
+        - accumulate jewels into "Jewels Used" column
+    - need to add personal stats
+
+- owned gear
+    - need to write logic for it jeweling my gear
+        - enchant jewels should only be used if mob set
+        - jewels used is appended to end of item name, not accumulated on the set
+
+
+
+
+
+- regular updates that need to be made
     - max_level when new world
     - updateAOEs when new AEO/spellement
     - keep ownedGear up to date
+
+- new features to add
+    - add in logic for calculating healing set
+    - add in logic for secondary school logic
 
 - maintenance / code health ideas
     - clean up every thing that needs to be updated and put it in one updateVariables file

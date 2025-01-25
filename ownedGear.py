@@ -134,7 +134,7 @@ def select_socket(item, shape):
         
         while True:
             
-            print("\nPlease enter the number next to the item you'd like to add, or b to reset or q to quit\n")
+            print("\nPlease enter the number next to the item you'd like to add, or nothing to not socket, or b to reset or q to quit\n")
 
             for i, record in enumerate(data):
                 print(f"[{i}] {record['Name']} - Level {record['Level']}")
@@ -145,6 +145,8 @@ def select_socket(item, shape):
                 return select_socket(item, shape)
             elif socket_i == 'q':
                 sys.exit()
+            elif not socket_i:
+                return ''
             elif utils.is_int(socket_i):
                 socket_i = int(socket_i)
                 if socket_i < 0 or socket_i >= len(data):

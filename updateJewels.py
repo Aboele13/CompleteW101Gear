@@ -221,7 +221,7 @@ def parse_wiki_error_jewels(jewel_name, bonuses, parts):
 def clean_jewels_df(df):
     df = utils.distribute_global_stats(df)
     df = df.rename(columns={'Health': 'Max Health'})
-    df = utils.reorder_df_cols(df)
+    df = utils.reorder_df_cols(df, 3)
     df = df.sort_values(by = ['Level', 'School', 'Name'], ascending = [False, True, True]).reset_index(drop=True)
     return df
 
