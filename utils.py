@@ -15,6 +15,8 @@ schools_of_items = schools_of_wizards | {"Global"}
 all_stat_schools = schools_of_items | {"Shadow"}
 damage_ICs = ["Epic", "Colossal", "Gargantuan", "Monstrous", "Giant", "Strong"] # UPDATE WITH NEW DAMAGE ITEM CARDS
 
+set_bonuses_df = pd.read_csv(f"Set_Bonuses\\All_Set_Bonuses.csv")
+
 accounts = ['Andrew', 'Chris', 'Tessa']
 
 dragoon_amulet_damages = {
@@ -591,7 +593,7 @@ def tally_gear_sets(items):
     
     return total_gear_sets
 
-def get_set_bonuses(orig_set, school):
+def add_set_bonuses(orig_set):
     
     gear_set_pieces = orig_set['Gear Set']
     
@@ -602,15 +604,15 @@ def get_set_bonuses(orig_set, school):
     
     for set in sets:
         set_parts = set.split(' (')
-        set_name = set_parts[0]
         set_num_pieces = extract_int(set_parts[1])
         if set_num_pieces > 1:
-            df = pd.read_csv(f"Set_Bonuses\\{school}_Set_Bonuses.csv")
-            df = df[(df['Name'] == set_name) & (df['Pieces'] == set_num_pieces)]
-            bonus = df.iloc[0].to_dict()
+            bonus = get_set_bonus_dict(set_parts[0], set_num_pieces)
             for stat in bonus:
                 if stat not in {'Name', 'Pieces', 'School'}:
                     orig_set[stat] += bonus[stat]
+
+def get_set_bonus_dict(set_name, set_num_pieces):
+    return set_bonuses_df[(set_bonuses_df['Name'] == set_name) & (set_bonuses_df['Pieces'] == set_num_pieces)].iloc[0].to_dict()
 
 def filter_by_sources(df, good_sources):
     

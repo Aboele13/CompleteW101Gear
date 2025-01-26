@@ -1,14 +1,15 @@
 import itertools
 import sys
-from concurrent.futures import ProcessPoolExecutor, ThreadPoolExecutor
+from collections import Counter
+from multiprocessing import Pool
 
 import pandas as pd
 
 import utils
 
-num_to_keep_best = 2
+num_to_keep_best = 6 # 5 is about 0:33, 6 is about 1:41 (tested with mycin)
 potential_set_types = {'Boss', 'Mob', 'Tank', 'Balanced', 'Healing', 'Secondary School'}
-count = 0 # testing
+multithread_num_processes = 12
 
 def modify_filters(filters):
     
@@ -258,13 +259,13 @@ def add_total_jewel_columns(df, gear_type, owned):
     
     return df
 
-def add_base_values(set_stats, filters):
-    
-    set_stats.update(utils.empty_stats()) # get all the stats I care about
+def get_base_values(filters):
     
     df = pd.read_csv(f"Base_Values\\{filters['School']}_Base_Values.csv")
-    set_stats.update(df.iloc[filters['Level'] - 1].to_dict()) # actually fill the proper base values
-    set_stats.pop('Level') # this was added from base values, we don't actually want it
+    base_values = utils.empty_stats()
+    base_values.update(df.iloc[filters['Level'] - 1].to_dict()) # actually fill the proper base values
+    base_values.pop('Level') # this was added from base values, we don't actually want it
+    return base_values
 
 def is_dragoon_hit_better(orig_damage, amulet_name):
     
@@ -297,7 +298,7 @@ def get_round_one_damage(curr_set, resist, block, filters, spell_df):
     resist_multiplier = utils.get_resist_multiplier(curr_set[f"{school} Armor Piercing"], resist)
     return int((spell_damage * (damage_multiplier) + flat_damage) * (critical_multiplier) * (resist_multiplier))
 
-def make_set(gear, filters, enemy_stats, spell_df):
+def make_set(gear, filters, enemy_stats, spell_df, base_values):
     set_stats = {
         'Hat': f"{gear[0]['Name']} {gear[0]['Pins Used']}" if filters['Owned'] else gear[0]['Name'],
         'Robe': f"{gear[1]['Name']} {gear[1]['Pins Used']}" if filters['Owned'] else gear[1]['Name'],
@@ -311,8 +312,8 @@ def make_set(gear, filters, enemy_stats, spell_df):
         'Deck': f"{gear[9]['Name']} {gear[9]['Jewels Used']}" if filters['Owned'] else gear[9]['Name'],
     }
     
-    # set base values, and all other cols to 0
-    add_base_values(set_stats, filters)
+    # start with base values
+    set_stats.update(base_values)
     
     for item in gear:
         for stat in item:
@@ -325,7 +326,11 @@ def make_set(gear, filters, enemy_stats, spell_df):
                     set_stats[stat] += item[stat]
     
     # after all gear is collected, add set bonueses
-    utils.get_set_bonuses(set_stats, filters['School'])
+    utils.add_set_bonuses(set_stats)
+    
+    # damage is set, so scale it down
+    for school in utils.schools_of_items:
+        set_stats[f'{school} Damage'] = utils.scale_down_damage(set_stats[f'{school} Damage'])
     
     # tallying up the total sockets
     if not filters['Owned']:
@@ -375,68 +380,111 @@ def sort_sets(sets_df, set_type, school):
     
     return sets_df.sort_values(by=sort_cols, ascending=ascending_bools).reset_index(drop=True)
 
-def chunked_iterator(iterable, size):
-    """Yield successive chunks of the iterable of the given size."""
-    iterator = iter(iterable)
-    for first in iterator:
-        yield [first] + list(itertools.islice(iterator, size - 1))
+def complete_empty_item(gear_type):
+    singular_gear_type = gear_type[:-1] if gear_type != 'Boots' else gear_type
+    empty_item = utils.empty_item(singular_gear_type)
+    if gear_type in utils.clothing_gear_types:
+        empty_item['Total Sword Pins'] = 0
+        empty_item['Total Shield Pins'] = 0
+        empty_item['Total Power Pins'] = 0
+        empty_item['Pins Used'] = '(No Pins)'
+    elif gear_type in utils.accessory_gear_types:
+        empty_item['Total Tear Jewels'] = 0
+        empty_item['Total Circle Jewels'] = 0
+        empty_item['Total Square Jewels'] = 0
+        empty_item['Total Triangle Jewels'] = 0
+        empty_item['Jewels Used'] = '(No Jewels)'
+    return empty_item
 
-def process_combination(combination, filters, enemy_stats, spell_df):
-    # global count  # For testing progress
-    # if count % 100 == 0:
-    #     print(f"{count} sets made")  # Testing
-    # count += 1  # Testing
+def sort_gear_for_set_type(df, filters):
+    if filters['Set Type'] in {'Mob', 'Boss', 'Balanced'}:
+        df = df.sort_values(by=[f"{filters['School']} Damage", f"Global Resistance", f"{filters['School']} Armor Piercing", f"{filters['School']} Critical Rating", "Max Health"], ascending=[False, False, False, False, False]).reset_index(drop=True)
+    elif filters['Set Type'] == 'Tank':
+        df = df.sort_values(by=["Global Resistance", "Max Health", "Global Critical Block Rating"], ascending=[False, False, False]).reset_index(drop=True)
+    return df
+
+# Function to calculate set bonuses (same as before)
+def calculate_set_bonus(combination, filters):
+    # Count occurrences of each Gear Set
+    gear_set_counts = Counter(item["Gear Set"] for item in combination)
     
-    hat, robe, boots, wand, athame, amulet, ring, pet, mount, deck = combination
-    created_set = make_set([hat, robe, boots, wand, athame, amulet, ring, pet, mount, deck], filters, enemy_stats, spell_df)
+    # Calculate total bonus
+    total_bonus = {"Power Pip Chance": 0, f"{filters['School']} Accuracy": 0}
+    for gear_set, count in gear_set_counts.items():
+        if (gear_set != 'No Gear Set') and (count > 1):
+            bonus = utils.get_set_bonus_dict(gear_set, count)
+            total_bonus["Power Pip Chance"] += bonus.get("Power Pip Chance", 0)
+            total_bonus[f"{filters['School']} Accuracy"] += bonus.get(f"{filters['School']} Accuracy", 0)
+    
+    return total_bonus
+
+validity_checks = 0
+# Worker function for multiprocessing
+def process_combination_for_validity(chunk, base_values, filters):
+    valid_combinations = []  # Store valid combinations for this chunk
+    
+    for combination in chunk:
+        # Start with base values
+        pip_chance = base_values["Power Pip Chance"]
+        accuracy = base_values[f"{filters['School']} Accuracy"]
+        
+        # Add values from the current combination
+        for item in combination:
+            pip_chance += item["Power Pip Chance"]
+            accuracy += item[f"{filters['School']} Accuracy"]
+        
+        global validity_checks
+        validity_checks += 1
+        if validity_checks % 10000 == 0:
+            print(validity_checks * multithread_num_processes)
+        
+        # Apply set bonuses
+        set_bonus = calculate_set_bonus(combination, filters)
+        pip_chance += set_bonus["Power Pip Chance"]
+        accuracy += set_bonus[f"{filters['School']} Accuracy"]
+        
+        # Filter based on constraints
+        if pip_chance < 100 or accuracy < utils.get_perfect_acc(filters['School']):
+            continue  # Skip this combination
+        
+        # If valid, store the combination (or further process it)
+        valid_combinations.append(combination)
+    
+    return valid_combinations
+
+completely_processed_sets = 0
+def process_entire_combination(combination, filters, enemy_stats, spell_df, base_values):
+    
+    """Process a single combination and update progress."""
+    
+    global completely_processed_sets
+    completely_processed_sets += 1
+    if completely_processed_sets % 2500 == 0:
+        print(completely_processed_sets * multithread_num_processes)
+    
+    # Process the combination
+    created_set = make_set(combination, filters, enemy_stats, spell_df, base_values)
     if filters['Owned']:
-        return [created_set]
+        result = [created_set] # Return as a list for consistency
     else:
-        return jewel_the_set(created_set, filters)
+        result = jewel_the_set(created_set, filters) # Return list of jeweled sets
 
-def generate_sets_parallel(gear, filters, enemy_stats, spell_df, chunk_size=1000):
-    sets = []
-    # Generate all possible combinations of gear
-    all_combinations = list(itertools.product(
-        gear['Hats'], gear['Robes'], gear['Boots'], gear['Wands'],
-        gear['Athames'], gear['Amulets'], gear['Rings'], gear['Pets'],
-        gear['Mounts'], gear['Decks']
-    ))  # Convert to a list to reuse the combinations
-    
-    total_combinations = len(all_combinations)  # Get the total number of combinations
-    print(f"Total combinations: {total_combinations}")
-    
-    with ProcessPoolExecutor() as executor:  # Use ProcessPoolExecutor for CPU-bound tasks
-        for idx, chunk in enumerate(chunked_iterator(all_combinations, chunk_size)):
-            # Process each chunk in parallel
-            results = executor.map(
-                process_combination,
-                chunk,
-                itertools.repeat(filters),
-                itertools.repeat(enemy_stats),
-                itertools.repeat(spell_df)
-            )
-            for result in results:
-                sets.extend(result)
-            print(f"Processed {min((idx + 1) * chunk_size, total_combinations)} / {total_combinations} combinations so far...")
-    
-    print("Processing complete!")
-    return sets
-
+    return result
 
 def view_sets():
     
     # default filters
     filters = {
-        'School': 'Death',
+        'School': 'Myth', # change to death later if i want
         'Level': utils.max_level,
         'Account': 'Andrew',
         'Set Type': 'Mob',
-        'Owned': False,
+        'Owned': True,
         'Usable In': 'Everything',
         'School Stats Only': True,
         'Good Sources': {"Gold Vendor", "Drop", "Bazaar", "Crafting", "Gold Key", "Stone Key", "Wooden Key", "Housing Gauntlet", "Rematch", "Quest", "Fishing"},
         'Bad Sources': {"One Shot Housing Gauntlet", "Raid", "Crowns", "Gift Card", "Event Drop", "Unavailable"},
+        'Jewel My Items': False,
     }
     utils.set_default_jeweled(filters)
     
@@ -468,7 +516,10 @@ def view_sets():
                         singular_gear_type = gear_type[:-1] if gear_type != 'Boots' else gear_type
                         gear[gear_type] = [utils.empty_item(singular_gear_type)]
                     else:
-                        gear[gear_type] = gear_type_items[:num_to_keep_best] if len(gear_type_items) > num_to_keep_best else gear_type_items
+                        gear[gear_type] = gear_type_items[:num_to_keep_best]
+            
+            
+            
             else: # just owned gear
                 for gear_type in utils.all_gear_types_list:
                     try:
@@ -483,8 +534,12 @@ def view_sets():
                             if 'Starting Pips' in gear_type_items_df.columns and filters['Set Type'] != "Tank":
                                 gear_type_items_df = gear_type_items_df[gear_type_items_df['Starting Pips'] == gear_type_items_df['Starting Pips'].max()].reset_index(drop=True)
                             gear_type_items_df = utils.objectively_best_gear(gear_type_items_df, filters)
+                            gear_type_items_df = sort_gear_for_set_type(gear_type_items_df, filters)
                             print(gear_type_items_df) # testing
-                            gear_type_items = gear_type_items_df.to_dict('records')
+                            gear_type_items = gear_type_items_df.to_dict('records')[:3] if filters['Set Type'] == 'Tank' else gear_type_items_df.to_dict('records')[:num_to_keep_best]
+                        
+                        
+                        
                         else: # if you rejeweled my items, whats the best i can do?
                             gear_type_items_df = pd.read_csv(f"Owned_Gear\\{filters['Account']}_Owned_Gear\\{filters['Account']}_Unsocketed_Owned_Gear\\{filters['Account']}_Unsocketed_Owned_{gear_type}.csv")
                             if "Unlocked" in gear_type_items_df.columns:
@@ -500,38 +555,12 @@ def view_sets():
                                 gear_type_items_df = gear_type_items_df[gear_type_items_df['Starting Pips'] == gear_type_items_df['Starting Pips'].max()].reset_index(drop=True)
                             gear_type_items_df = utils.objectively_best_gear(gear_type_items_df, filters)
                             print(gear_type_items_df) # testing
-                            gear_type_items = gear_type_items_df.to_dict('records')
+                            gear_type_items = gear_type_items_df.to_dict('records')[:num_to_keep_best]
                     except:
-                        singular_gear_type = gear_type[:-1] if gear_type != 'Boots' else gear_type
-                        empty_item = utils.empty_item(singular_gear_type)
-                        if gear_type in utils.clothing_gear_types:
-                            empty_item['Total Sword Pins'] = 0
-                            empty_item['Total Shield Pins'] = 0
-                            empty_item['Total Power Pins'] = 0
-                            empty_item['Pins Used'] = '(No Pins)'
-                        elif gear_type in utils.accessory_gear_types:
-                            empty_item['Total Tear Jewels'] = 0
-                            empty_item['Total Circle Jewels'] = 0
-                            empty_item['Total Square Jewels'] = 0
-                            empty_item['Total Triangle Jewels'] = 0
-                            empty_item['Jewels Used'] = '(No Jewels)'
-                        gear[gear_type] = [empty_item]
+                        gear[gear_type] = [complete_empty_item(gear_type)]
                         continue
                     if not gear_type_items:
-                        singular_gear_type = gear_type[:-1] if gear_type != 'Boots' else gear_type
-                        empty_item = utils.empty_item(singular_gear_type)
-                        if gear_type in utils.clothing_gear_types:
-                            empty_item['Total Sword Pins'] = 0
-                            empty_item['Total Shield Pins'] = 0
-                            empty_item['Total Power Pins'] = 0
-                            empty_item['Pins Used'] = '(No Pins)'
-                        elif gear_type in utils.accessory_gear_types:
-                            empty_item['Total Tear Jewels'] = 0
-                            empty_item['Total Circle Jewels'] = 0
-                            empty_item['Total Square Jewels'] = 0
-                            empty_item['Total Triangle Jewels'] = 0
-                            empty_item['Jewels Used'] = '(No Jewels)'
-                        gear[gear_type] = [empty_item]
+                        gear[gear_type] = [complete_empty_item(gear_type)]
                     else:
                         gear[gear_type] = gear_type_items
             
@@ -545,29 +574,60 @@ def view_sets():
             spell_df = pd.read_csv(f'Other_CSVs\\AOEs.csv')
             spell_df = spell_df[(spell_df['School'] == filters['School']) & (spell_df[f"{filters['Account']} Owned"])].reset_index(drop=True)
             
-            # sets = []
-            
-            # for hat in gear['Hats']:
-            #     for robe in gear['Robes']:
-            #         for boots in gear['Boots']:
-            #             for wand in gear['Wands']:
-            #                 for athame in gear['Athames']:
-            #                     for amulet in gear['Amulets']:
-            #                         for ring in gear['Rings']:
-            #                             for pet in gear['Pets']:
-            #                                 for mount in gear['Mounts']:
-            #                                     for deck in gear['Decks']:
-            #                                         created_set = make_set([hat, robe, boots, wand, athame, amulet, ring, pet, mount, deck], filters, enemy_stats, spell_df)
-            #                                         if filters['Owned']:
-            #                                             sets.append(created_set)
-            #                                         else:
-            #                                             sets.extend(jewel_the_set(created_set, filters))
+            # get base values
+            base_values = get_base_values(filters)
 
-            # Example usage
-            sets = generate_sets_parallel(gear, filters, enemy_stats, spell_df)
+            # All combinations (lazy evaluation with itertools.product)
+            all_combinations = itertools.product(*[gear[gear_type] for gear_type in gear])
+
+            # Convert the iterator to a list (so it can be split)
+            all_combinations = list(all_combinations)
+            
+            print(f'Searching through {len(all_combinations)} combinations')
+
+            # Split combinations into chunks for each process to handle
+            num_processes = multithread_num_processes  # You can adjust this based on your CPU cores
+            chunk_size = len(all_combinations) // num_processes if len(all_combinations) >= num_processes else 1
+            chunks = [all_combinations[i:i + chunk_size] for i in range(0, len(all_combinations), chunk_size)]
+
+            # Create a pool of worker processes
+            with Pool(processes=num_processes) as pool:
+                results = pool.starmap(process_combination_for_validity, [(chunk, base_values, filters) for chunk in chunks])
+            
+            # Flatten the list of results
+            valid_combinations = [comb for sublist in results for comb in sublist]
+            
+            print(f"Found {len(valid_combinations)} valid combinations!")
+            
+
+            def sum_combinations_parallel(valid_combinations, filters, enemy_stats, spell_df, base_values, num_processes=multithread_num_processes): #testing, try 8 next time
+                """Process valid combinations in parallel with progress tracking."""
+                sets = []
+                
+                with Pool(processes=num_processes) as pool:
+                    # Use starmap to pass arguments to the worker function
+                    results = pool.starmap(
+                        process_entire_combination,
+                        [
+                            (combination, filters, enemy_stats, spell_df, base_values)
+                            for combination in valid_combinations
+                        ]
+                    )
+
+                    # Flatten the results (each result is a list of sets)
+                    for result in results:
+                        sets.extend(result)
+
+                return sets
+            
+            if len(valid_combinations) == 0: # if this happens, increase the number of best items to keep per gear type
+                valid_combinations = all_combinations
+            sets = sum_combinations_parallel(valid_combinations, filters, enemy_stats, spell_df, base_values) # actually collect final sets
+            
+            
+            
             
             df = pd.DataFrame(sets)
-            # df = df[(df[f"{filters['School']} Accuracy"] >= utils.get_perfect_acc(filters['School'])) & (df["Power Pip Chance"] >= 100)] # testing
             if filters['Owned']: # testing
                 df = sort_sets(df, filters['Set Type'], filters['School'])
             df = utils.reorder_df_cols(df, 11) # stats start after the 10 gear items

@@ -105,7 +105,7 @@ def get_totals(items, account):
     totals['Gear Set'] = utils.tally_gear_sets(items)
     
     # apply set bonuses
-    utils.get_set_bonuses(totals, totals['School'])
+    utils.add_set_bonuses(totals)
     
     # scale down damages
     for school in utils.schools_of_items:
