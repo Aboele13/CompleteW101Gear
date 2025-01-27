@@ -1,0 +1,83 @@
+Spell,Pip Cost,School,Damage,Has DOT,Andrew Owned,Chris Owned,Tessa Owned
+Iron Curse,4,Balance,55,TRUE,TRUE,FALSE,FALSE
+Iron Curse (Tier 2),4,Balance,60,TRUE,FALSE,FALSE,FALSE
+Iron Curse (Tier 3),4,Balance,60,TRUE,FALSE,FALSE,FALSE
+Iron Curse (Tier 4),4,Balance,60,TRUE,FALSE,FALSE,FALSE
+Iron Curse (Tier 5),4,Balance,65,TRUE,FALSE,FALSE,FALSE
+Rainbow Serpent,5,Balance,410,FALSE,FALSE,FALSE,FALSE
+Rainbow Serpent (Tier 2a),5,Balance,415,FALSE,FALSE,FALSE,FALSE
+Rainbow Serpent (Tier 3a),5,Balance,425,FALSE,TRUE,FALSE,FALSE
+Rainbow Serpent (Tier 4a),5,Balance,430,FALSE,FALSE,FALSE,FALSE
+Sandstorm,4,Balance,275,FALSE,TRUE,TRUE,TRUE
+Sandstorm (Tier 2a),4,Balance,280,FALSE,FALSE,FALSE,FALSE
+Sandstorm (Tier 3a),4,Balance,290,FALSE,FALSE,FALSE,FALSE
+Sandstorm (Tier 4a),4,Balance,295,FALSE,FALSE,FALSE,FALSE
+Sandstorm (Tier 5a),4,Balance,305,FALSE,FALSE,FALSE,FALSE
+Deer Knight,5,Death,300,TRUE,TRUE,TRUE,TRUE
+Deer Knight (Tier 2a),5,Death,305,TRUE,TRUE,FALSE,FALSE
+Deer Knight (Tier 2b),5,Death,305,FALSE,FALSE,FALSE,FALSE
+Deer Knight (Tier 3a),5,Death,310,TRUE,FALSE,FALSE,FALSE
+Deer Knight (Tier 3b),5,Death,315,FALSE,FALSE,FALSE,FALSE
+Deer Knight (Tier 4a),5,Death,315,TRUE,FALSE,FALSE,FALSE
+Deer Knight (Tier 4b),5,Death,320,FALSE,FALSE,FALSE,FALSE
+Deer Knight (Tier 5a),5,Death,320,TRUE,FALSE,FALSE,FALSE
+Deer Knight (Tier 5b),5,Death,325,FALSE,FALSE,FALSE,FALSE
+Ship of Fools,4,Death,300,FALSE,TRUE,FALSE,FALSE
+Ship of Fools (Tier 2a),4,Death,305,FALSE,FALSE,FALSE,FALSE
+Ship of Fools (Tier 2b),4,Death,345,FALSE,FALSE,FALSE,FALSE
+Ship of Fools (Tier 3a),4,Death,310,FALSE,FALSE,FALSE,FALSE
+Ship of Fools (Tier 3b),4,Death,355,FALSE,FALSE,FALSE,FALSE
+Ship of Fools (Tier 4a),4,Death,320,FALSE,FALSE,FALSE,FALSE
+Ship of Fools (Tier 4b),4,Death,365,FALSE,FALSE,FALSE,FALSE
+Ship of Fools (Tier 5a),4,Death,330,FALSE,FALSE,FALSE,FALSE
+Ship of Fools (Tier 5b),4,Death,375,FALSE,FALSE,FALSE,FALSE
+Wobbegong Frenzy,5,Death,405,FALSE,FALSE,FALSE,FALSE
+Wobbegong Frenzy (Tier 2a),5,Death,415,FALSE,FALSE,FALSE,FALSE
+Wobbegong Frenzy (Tier 3a),5,Death,425,FALSE,TRUE,FALSE,FALSE
+Wobbegong Frenzy (Tier 4a),5,Death,430,FALSE,FALSE,FALSE,FALSE
+Meteor Strike,4,Fire,325,FALSE,TRUE,TRUE,TRUE
+Meteor Strike (Tier 2a),4,Fire,335,FALSE,FALSE,FALSE,FALSE
+Meteor Strike (Tier 3a),4,Fire,345,FALSE,FALSE,FALSE,FALSE
+Meteor Strike (Tier 4a),4,Fire,350,FALSE,FALSE,FALSE,FALSE
+Meteor Strike (Tier 5a),4,Fire,360,FALSE,FALSE,FALSE,FALSE
+Phantasmania!,5,Fire,485,FALSE,FALSE,FALSE,FALSE
+Phantasmania! (Tier 2a),5,Fire,495,FALSE,FALSE,FALSE,FALSE
+Phantasmania! (Tier 3a),5,Fire,505,FALSE,TRUE,FALSE,FALSE
+Phantasmania! (Tier 4a),5,Fire,510,FALSE,FALSE,FALSE,FALSE
+Blizzard,4,Ice,270,FALSE,TRUE,TRUE,TRUE
+Blizzard (Tier 2a),4,Ice,275,FALSE,FALSE,FALSE,FALSE
+Blizzard (Tier 3a),4,Ice,280,FALSE,FALSE,FALSE,FALSE
+Blizzard (Tier 4a),4,Ice,285,FALSE,FALSE,FALSE,FALSE
+Blizzard (Tier 5a),4,Ice,295,FALSE,FALSE,FALSE,FALSE
+Count Croakula,5,Ice,400,FALSE,FALSE,FALSE,FALSE
+Count Croakula (Tier 2a),5,Ice,410,FALSE,FALSE,FALSE,FALSE
+Count Croakula (Tier 3a),5,Ice,420,FALSE,FALSE,FALSE,FALSE
+Count Croakula (Tier 4a),5,Ice,425,FALSE,FALSE,FALSE,FALSE
+Reindeer Knight,5,Ice,295,TRUE,TRUE,FALSE,FALSE
+Reindeer Knight (Tier 2a),5,Ice,310,TRUE,FALSE,FALSE,FALSE
+Reindeer Knight (Tier 2b),5,Ice,295,FALSE,FALSE,FALSE,FALSE
+Reindeer Knight (Tier 3a),5,Ice,340,TRUE,FALSE,FALSE,FALSE
+Reindeer Knight (Tier 3b),5,Ice,295,FALSE,FALSE,FALSE,FALSE
+Ratatoskr's Spin,4,Life,325,FALSE,TRUE,TRUE,TRUE
+Ratatoskr's Spin (Tier 2a),4,Life,335,FALSE,FALSE,FALSE,FALSE
+Ratatoskr's Spin (Tier 3a),4,Life,345,FALSE,FALSE,FALSE,FALSE
+Ratatoskr's Spin (Tier 4a),4,Life,355,FALSE,FALSE,FALSE,FALSE
+Ratatoskr's Spin (Tier 5a),4,Life,365,FALSE,FALSE,FALSE,FALSE
+Zand the Bandit,5,Life,400,FALSE,FALSE,FALSE,TRUE
+Zand the Bandit (Tier 2a),5,Life,410,FALSE,FALSE,FALSE,FALSE
+Zand the Bandit (Tier 3a),5,Life,420,FALSE,FALSE,FALSE,FALSE
+Zand the Bandit (Tier 4a),5,Life,425,FALSE,FALSE,FALSE,FALSE
+Drop Bear Fury,5,Myth,430,FALSE,FALSE,FALSE,FALSE
+Drop Bear Fury (Tier 2a),5,Myth,440,FALSE,FALSE,FALSE,FALSE
+Drop Bear Fury (Tier 3a),5,Myth,450,FALSE,TRUE,FALSE,FALSE
+Drop Bear Fury (Tier 4a),5,Myth,455,FALSE,FALSE,FALSE,FALSE
+Humongofrog,4,Myth,295,FALSE,TRUE,TRUE,TRUE
+Humongofrog (Tier 2a),4,Myth,300,FALSE,FALSE,FALSE,FALSE
+Humongofrog (Tier 3a),4,Myth,305,FALSE,FALSE,FALSE,FALSE
+Humongofrog (Tier 4a),4,Myth,310,FALSE,FALSE,FALSE,FALSE
+Humongofrog (Tier 5a),4,Myth,320,FALSE,FALSE,FALSE,FALSE
+Bunyip's Rage,5,Storm,605,FALSE,FALSE,TRUE,FALSE
+Bunyip's Rage (Tier 2a),5,Storm,615,FALSE,FALSE,FALSE,FALSE
+Bunyip's Rage (Tier 3a),5,Storm,625,FALSE,TRUE,FALSE,FALSE
+Bunyip's Rage (Tier 4a),5,Storm,635,FALSE,FALSE,FALSE,FALSE
+Tempest,5,Storm,400,FALSE,TRUE,TRUE,TRUE
