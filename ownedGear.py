@@ -418,9 +418,10 @@ def remove_owned_item(account, gear_type):
             # collect info to remove from unsocketed df
             remove_school = socketed_df.iloc[record_i]['School']
             remove_name = socketed_df.iloc[record_i]['Name']
+            sockets = socketed_df.iloc[record_i]['Jewels Used'] if gear_type in utils.accessory_gear_types else (socketed_df.iloc[record_i]['Pins Used'] if gear_type in utils.clothing_gear_types else '')
             
             # confirm removal
-            print(f"\nYou chose to remove\n[{record_i}] {remove_school} - {remove_name}\nIs this correct? (Y/n) or b to go back, or q to quit.\n")
+            print(f"\nYou chose to remove\n[{record_i}] {remove_school} - {remove_name} {sockets}\nIs this correct? (Y/n) or b to go back, or q to quit.\n")
             
             action = input().lower()
             

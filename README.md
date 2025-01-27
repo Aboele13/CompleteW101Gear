@@ -2,20 +2,22 @@ TODO:
 
 - HECK FRONTEND, I'M DOING EVERYTHING IN CONSOLE, NO WEBSITE
 
-- go through and select everything that chris and i own
+- view sets
 
-- source doesn't matter if owned is true
+    - bug where switching to Mob set type keeps "triple double" pet from other set
 
-- non-owned gear
-    - need to jewel them
-        - enchant jewels should only be used if mob set
-        - accumulate jewels into "Jewels Used" column
-    - need to add personal stats
+    - source doesn't matter if owned is true
 
-- owned gear
-    - need to write logic for it jeweling my gear
-        - enchant jewels should only be used if mob set
-        - jewels used is appended to end of item name, not accumulated on the set
+    - non-owned gear
+        - need to jewel them
+            - enchant jewels should only be used if mob set
+            - accumulate jewels into "Jewels Used" column
+        - need to add personal stats
+
+    - owned gear
+        - need to write logic for it jeweling my gear
+            - enchant jewels should only be used if mob set
+            - jewels used is appended to end of item name, not accumulated on the set
 
 
 

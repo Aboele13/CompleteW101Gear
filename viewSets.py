@@ -7,7 +7,7 @@ import pandas as pd
 
 import utils
 
-num_to_keep_best = 6 # 5 is about 0:33, 6 is about 1:41 (tested with mycin)
+num_to_keep_best = 5 # 5 is about 0:33, 6 is about 1:41 (tested with mycin)
 potential_set_types = {'Boss', 'Mob', 'Tank', 'Balanced', 'Healing', 'Secondary School'}
 multithread_num_processes = 12
 
@@ -366,7 +366,7 @@ def sort_sets(sets_df, set_type, school):
         sort_cols = ['Mob R1 Dmg', f'{school} Damage', f'{school} Armor Piercing', f'{school} Critical Rating', 'Adjusted Health']
         ascending_bools = [False, False, False, False, False]
     elif set_type == 'Tank':
-        sort_cols = ['Adjusted Health', 'Global Resistance', 'Global Critical Block', 'Global Flat Resistance', 'Incoming Healing']
+        sort_cols = ['Adjusted Health', 'Global Resistance', 'Global Critical Block Rating', 'Global Flat Resistance', 'Incoming Healing']
         ascending_bools = [False, False, False, False, False]
     elif set_type == 'Balanced':
         sort_cols = ['Balanced Rating', 'Boss R1 Dmg', f'{school} Damage', f'{school} Armor Piercing', 'Global Resistance']
@@ -397,7 +397,9 @@ def complete_empty_item(gear_type):
     return empty_item
 
 def sort_gear_for_set_type(df, filters):
-    if filters['Set Type'] in {'Mob', 'Boss', 'Balanced'}:
+    if filters['Set Type'] == 'Mob':
+        df = df.sort_values(by=[f"{filters['School']} Damage", f"{filters['School']} Armor Piercing", f"{filters['School']} Critical Rating", f"Global Resistance", "Max Health"], ascending=[False, False, False, False, False]).reset_index(drop=True)
+    elif filters['Set Type'] in {'Boss', 'Balanced'}:
         df = df.sort_values(by=[f"{filters['School']} Damage", f"Global Resistance", f"{filters['School']} Armor Piercing", f"{filters['School']} Critical Rating", "Max Health"], ascending=[False, False, False, False, False]).reset_index(drop=True)
     elif filters['Set Type'] == 'Tank':
         df = df.sort_values(by=["Global Resistance", "Max Health", "Global Critical Block Rating"], ascending=[False, False, False]).reset_index(drop=True)
@@ -475,7 +477,7 @@ def view_sets():
     
     # default filters
     filters = {
-        'School': 'Myth', # change to death later if i want
+        'School': 'Death',
         'Level': utils.max_level,
         'Account': 'Andrew',
         'Set Type': 'Mob',
@@ -510,7 +512,7 @@ def view_sets():
                     if 'Starting Pips' in gear_type_items_df.columns and filters['Set Type'] != "Tank":
                         gear_type_items_df = gear_type_items_df[gear_type_items_df['Starting Pips'] == gear_type_items_df['Starting Pips'].max()].reset_index(drop=True)
                     gear_type_items_df = utils.objectively_best_gear(gear_type_items_df, filters).sort_values(by=f"{filters['School']} Damage", ascending=False).reset_index(drop=True)
-                    print(gear_type_items_df) # testing
+                    print(gear_type_items_df)
                     gear_type_items = gear_type_items_df.to_dict('records')
                     if not gear_type_items:
                         singular_gear_type = gear_type[:-1] if gear_type != 'Boots' else gear_type
@@ -535,7 +537,7 @@ def view_sets():
                                 gear_type_items_df = gear_type_items_df[gear_type_items_df['Starting Pips'] == gear_type_items_df['Starting Pips'].max()].reset_index(drop=True)
                             gear_type_items_df = utils.objectively_best_gear(gear_type_items_df, filters)
                             gear_type_items_df = sort_gear_for_set_type(gear_type_items_df, filters)
-                            print(gear_type_items_df) # testing
+                            print(gear_type_items_df)
                             gear_type_items = gear_type_items_df.to_dict('records')[:3] if filters['Set Type'] == 'Tank' else gear_type_items_df.to_dict('records')[:num_to_keep_best]
                         
                         
@@ -554,7 +556,7 @@ def view_sets():
                             if 'Starting Pips' in gear_type_items_df.columns and filters['Set Type'] != "Tank":
                                 gear_type_items_df = gear_type_items_df[gear_type_items_df['Starting Pips'] == gear_type_items_df['Starting Pips'].max()].reset_index(drop=True)
                             gear_type_items_df = utils.objectively_best_gear(gear_type_items_df, filters)
-                            print(gear_type_items_df) # testing
+                            print(gear_type_items_df)
                             gear_type_items = gear_type_items_df.to_dict('records')[:num_to_keep_best]
                     except:
                         gear[gear_type] = [complete_empty_item(gear_type)]
@@ -584,23 +586,28 @@ def view_sets():
             all_combinations = list(all_combinations)
             
             print(f'Searching through {len(all_combinations)} combinations')
-
-            # Split combinations into chunks for each process to handle
-            num_processes = multithread_num_processes  # You can adjust this based on your CPU cores
-            chunk_size = len(all_combinations) // num_processes if len(all_combinations) >= num_processes else 1
-            chunks = [all_combinations[i:i + chunk_size] for i in range(0, len(all_combinations), chunk_size)]
-
-            # Create a pool of worker processes
-            with Pool(processes=num_processes) as pool:
-                results = pool.starmap(process_combination_for_validity, [(chunk, base_values, filters) for chunk in chunks])
             
-            # Flatten the list of results
-            valid_combinations = [comb for sublist in results for comb in sublist]
+            valid_combinations = []
             
-            print(f"Found {len(valid_combinations)} valid combinations!")
-            
+            if filters['Set Type'] != 'Tank':
+                
 
-            def sum_combinations_parallel(valid_combinations, filters, enemy_stats, spell_df, base_values, num_processes=multithread_num_processes): #testing, try 8 next time
+                # Split combinations into chunks for each process to handle
+                num_processes = multithread_num_processes  # You can adjust this based on your CPU cores
+                chunk_size = len(all_combinations) // num_processes if len(all_combinations) >= num_processes else 1
+                chunks = [all_combinations[i:i + chunk_size] for i in range(0, len(all_combinations), chunk_size)]
+
+                # Create a pool of worker processes
+                with Pool(processes=num_processes) as pool:
+                    results = pool.starmap(process_combination_for_validity, [(chunk, base_values, filters) for chunk in chunks])
+                
+                # Flatten the list of results
+                valid_combinations = [comb for sublist in results for comb in sublist]
+                
+                print(f"Found {len(valid_combinations)} valid combinations!")
+                
+
+            def sum_combinations_parallel(valid_combinations, filters, enemy_stats, spell_df, base_values, num_processes=multithread_num_processes):
                 """Process valid combinations in parallel with progress tracking."""
                 sets = []
                 
@@ -628,7 +635,7 @@ def view_sets():
             
             
             df = pd.DataFrame(sets)
-            if filters['Owned']: # testing
+            if filters['Owned']:
                 df = sort_sets(df, filters['Set Type'], filters['School'])
             df = utils.reorder_df_cols(df, 11) # stats start after the 10 gear items
             print(df)
